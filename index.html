@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WHEEL of DLs</title>
+  <!-- <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+<!-- {
+  "name": "TimeGuessr",
+  "url": "https://timeguessr.com/",
+  "description": "Guess the right time and location of each historical photo.",
+  "tags": ["geography", "pictures", "time", "daily"]
+} -->
+<body>
+  <ol id="resultsList" style="width: 100%; padding: 0;"></ol>
+</body>
+<script defer>
+  const dls = [
+    {
+      "name": "Gamedle Classic",
+      "url": "https://www.gamedle.wtf/classic",
+      "description": "Guess the video game by its cover.",
+      "tags": ["video games", "pictures", "guessing", "daily"]
+    },
+    {
+      "name": "Gamedle Artwork",
+      "url": "https://www.gamedle.wtf/artwork",
+      "description": "Guess the video game by its artwork.",
+      "tags": ["video games", "pictures", "art", "guessing", "daily"]
+    },
+    {
+      "name": "Gamedle Keywords",
+      "url": "https://www.gamedle.wtf/classic",
+      "description": "Guess the video game by keywords.",
+      "tags": ["video games", "words", "guessing", "daily"]
+    },
+    {
+      "name": "Gamedle Guess",
+      "url": "https://www.gamedle.wtf/guess",
+      "description": "Guess the video game by its specifications.",
+      "tags": ["video games", "guessing", "daily"]
+    },
+    {
+      "name": "Combinations",
+      "url": "https://combinations.org/",
+      "description": "Create words using combinations of letters from the grid.",
+      "tags": ["words", "daily"]
+    },
+    {
+      "name": "Word Waffle",
+      "url": "https://wordwaffle.org/",
+      "description": "Move letters to create words both horizontally and vertically.",
+      "tags": ["words", "wordle", "daily"]
+    },
+    {
+      "name": "Weaver",
+      "url": "https://weavergame.org/",
+      "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
+      "tags": ["words", "daily"]
+    },
+    {
+      "name": "Colorfle",
+      "url": "https://colorfle.org/index.html",
+      "description": "Figure out the color composition of the given color.",
+      "tags": ["colors", "guessing"]
+    },
+    {
+      "name": "Flagle",
+      "url": "https://www.flagle.io/",
+      "description": "Guess the flag in 5 guesses or less.",
+      "tags": ["flags", "geography", "guessing"]
+    },
+    {
+      "name": "WhereTaken USA",
+      "url": "https://wheretakenusa.teuteuf.fr/",
+      "description": "Guess the US State in which the photo was taken.",
+      "tags": ["geography", "pictures", "usa", "guessing"]
+    },
+    {
+      "name": "WhereTaken",
+      "url": "https://wheretaken.teuteuf.fr/",
+      "description": "Guess the Country/Region in which the photo was taken.",
+      "tags": ["geography", "pictures", "guessing"]
+    },
+    {
+      "name": "Puzzmo - Crossword",
+      "url": "https://www.puzzmo.com/play/crossword",
+      "description": "Crosswords without getting stuck.",
+      "tags": ["words", "daily", "puzzmo"]
+    },
+    {
+      "name": "Puzzmo - Typeshift",
+      "url": "https://www.puzzmo.com/play/typeshift",
+      "description": "Slide columns of letters to make words, using all of the letters along the way.",
+      "tags": ["words", "daily", "puzzmo"]
+    },
+    {
+      "name": "Puzzmo - Really Bad Chess",
+      "url": "https://www.puzzmo.com/play/really-bad-chess",
+      "description": "Checkmate the opponent's king in this randomized Chess variant.",
+      "tags": ["strategy", "daily", "puzzmo"]
+    },
+    {
+      "name": "Puzzmo - Spelltower",
+      "url": "https://www.puzzmo.com/play/spelltower",
+      "description": "Find words to clear tiles in the falling grid.",
+      "tags": ["words", "daily", "puzzmo"]
+    },
+    {
+      "name": "Puzzmo - Flipart",
+      "url": "https://www.puzzmo.com/play/flip-art",
+      "description": "Slide columns of letters to make words, using all of the letters along the way.",
+      "tags": ["visual", "daily", "puzzmo"]
+    },
+    {
+      "name": "TimeGuessr",
+      "url": "https://timeguessr.com/",
+      "description": "Guess the right time and location of each historical photo.",
+      "tags": ["geography", "pictures", "time", "daily"]
+    },
+    {
+      "name": "OEC Tradle",
+      "url": "https://games.oec.world/en/tradle/",
+      "description": "Guess the country by its exports.",
+      "tags": ["geography", "guessing", "daily"]
+    },
+    {
+      "name": "Worldle",
+      "url": "https://worldle.teuteuf.fr/",
+      "description": "Guess the country by its shape on the world map.",
+      "tags": ["geography", "map", "daily"]
+    },
+    {
+      "name": "Cine2Nerdle",
+      "url": "https://www.cinenerdle2.app/",
+      "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Cine2Nerdle Original and Reversal.",
+      "tags": ["movies", "grid", "daily"]
+    },
+    {
+      "name": "Box Office Game",
+      "url": "https://boxofficega.me/",
+      "description": "Guess the top five movies in the US domestic box office for the given weekend.",
+      "tags": ["movies", "guessing", "daily"]
+    },
+    {
+      "name": "Globle",
+      "url": "https://globle-game.com/game",
+      "description": "Guess the mystery country, given how close it is to each guessed country.",
+      "tags": ["geography", "map", "guessing", "daily"]
+    },
+    {
+      "name": "Costcodle",
+      "url": "https://costcodle.com/",
+      "description": "Guess the price of the given Costco item.",
+      "tags": ["prices", "guessing", "daily"]
+    },
+    {
+      "name": "Bandle",
+      "url": "https://bandle.app/",
+      "description": "Guess the song, one instrument at a time (sort of).",
+      "tags": ["music", "audio", "guessing", "daily"]
+    },
+    {
+      "name": "Guess The Game",
+      "url": "https://guessthe.game/",
+      "description": "Guess the video game by its cropped screenshots.",
+      "tags": ["video games", "pictures", "guessing", "daily"]
+    },
+    {
+      "name": "travle",
+      "url": "https://travle.earth/",
+      "description": "Connect the starting country to the ending country by naming countries in between them.",
+      "tags": ["map", "geography", "daily"]
+    },
+    {
+      "name": "Connections",
+      "url": "https://www.nytimes.com/games/connections",
+      "description": "Group words that share a common thread.",
+      "tags": ["words", "daily"]
+    },
+    {
+      "name": "Wordle",
+      "url": "https://www.nytimes.com/games/wordle/index.html",
+      "description": "Guess the 5-letter word in six or fewer attempts.",
+      "tags": ["words", "wordle", "guessing", "daily"]
+    },
+    {
+      "name": "Contexto",
+      "url": "https://contexto.me/",
+      "description": "Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.",
+      "tags": ["words", "guessing", "daily"]
+    },
+    {
+      "name": "Conexo",
+      "url": "https://conexo.ws/en/daily",
+      "description": "Form groups of 4 words that have something in common.",
+      "tags": ["words", "guessing", "daily"]
+    },
+    {
+      "name": "Semantle",
+      "url": "https://semantle.com/",
+      "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
+      "tags": ["words", "guessing", "daily"]
+    },
+    {
+      "name": "Chronophoto",
+      "url": "https://www.chronophoto.app/",
+      "description": "Guess the year in which each picture was taken.",
+      "tags": ["time", "pictures", "daily"]
+    },
+    {
+      "name": "Housle",
+      "url": "https://housle.house/game",
+      "description": "Guess the price of the house, given pictures of parts of the house.",
+      "tags": ["prices", "guessing", "daily"]
+    },
+    {
+      "name": "Crosswordle",
+      "url": "https://crosswordle.vercel.app",
+      "description": "Fill in the grid to logically fit a series of Wordle guesses.",
+      "tags": ["words", "wordle", "logic", "daily"]
+    },
+    {
+      "name": "crosswordle.org",
+      "url": "https://crosswordle.org/",
+      "description": "Solve multiple Wordle puzzles crossed together.",
+      "tags": ["words", "wordle", "logic", "daily"]
+    },
+    {
+      "name": "Daily Dozen Trivia",
+      "url": "https://dailydozentrivia.com/",
+      "description": "Answer 9 trivia questions from various categories.",
+      "tags": ["trivia", "daily"]
+    },
+    {
+      "name": "Flagdle",
+      "url": "https://www.flagdle.org/",
+      "description": "Guess the country by its flag.",
+      "tags": ["flags", "geography", "daily"]
+    },
+    {
+      "name": "MLB Pickle",
+      "url": "https://www.mlbpickle.com/",
+      "description": "Guess today's mystery MLB player within nine guesses.",
+      "tags": ["baseball", "guessing", "daily"]
+    },
+    {
+      "name": "Songless",
+      "url": "https://lessgames.com/songless",
+      "description": "Guess the song from listening to small parts of it",
+      "tags": ["music", "audio", "daily"]
+    },
+    {
+      "name": "Wordless",
+      "url": "https://lessgames.com/wordless",
+      "description": "Solve Wordle puzzles of various sizes.",
+      "tags": ["words", "wordle", "daily"]
+    },
+    {
+      "name": "Immaculate Grid: Baseball",
+      "url": "https://www.immaculategrid.com/",
+      "description": "Fill out the grid with baseball players matching the criteria of both their row and column.",
+      "tags": ["baseball", "grid", "daily"]
+    },
+    {
+      "name": "Immaculate Grid: Men's Basketball",
+      "url": "https://www.immaculategrid.com/basketball/mens",
+      "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
+      "tags": ["basketball", "grid", "daily"]
+    },
+    {
+      "name": "Immaculate Grid: Women's Basketball",
+      "url": "https://www.immaculategrid.com/basketball/womens",
+      "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
+      "tags": ["basketball", "grid", "daily"]
+    },
+    {
+      "name": "Immaculate Grid: Pro Football",
+      "url": "https://www.immaculategrid.com/football",
+      "description": "Fill out the grid with pro football players matching the criteria of both their row and column.",
+      "tags": ["football", "grid", "daily"]
+    },
+    {
+      "name": "Immaculate Footy",
+      "url": "https://www.immaculategrid.com/hockey",
+      "description": "Fill out the grid with soccer players matching the criteria of both their row and column.",
+      "tags": ["soccer", "grid", "daily"]
+    },
+    {
+      "name": "Metazooa",
+      "url": "https://metazooa.com/",
+      "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
+      "tags": ["animals", "guessing", "daily"]
+    },
+    {
+      "name": "Metaflora",
+      "url": "https://flora.metazooa.com/",
+      "description": "Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.",
+      "tags": ["plants", "guessing", "daily"]
+    },
+    {
+      "name": "Immaculate Grid: Men's Basketball",
+      "url": "https://www.immaculategrid.com/basketball/mens",
+      "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
+      "tags": ["basketball", "grid", "daily"]
+    },
+    {
+      "name": "Spellcheck",
+      "url": "https://spellcheck.xyz/",
+      "description": "Spell the words correctly after listening to them.",
+      "tags": ["words", "audio", "daily"]
+    },
+    {
+      "name": "Primel",
+      "url": "https://converged.yt/primel/",
+      "description": "Guess the 5-digit prime in 6 tries.",
+      "tags": ["numbers", "daily"]
+    },
+    {
+      "name": "crosswordle.com",
+      "url": "https://crosswordle.com/",
+      "description": "Swap letters to solve Wordle puzzles crossed together.",
+      "tags": ["words", "wordle", "daily"]
+    },
+    {
+      "name": "Mathler",
+      "url": "https://www.mathler.com/",
+      "description": "Try to find the hidden calculation in 6 guesses.",
+      "tags": ["math", "daily"]
+    },
+    {
+      "name": "Sumplete",
+      "url": "https://sumplete.com/",
+      "description": "Delete numbers so that each row and column adds up to their corresponding number.",
+      "tags": ["math", "daily"]
+    },
+    {
+      "name": "Mazele",
+      "url": "https://mazele.io/",
+      "description": "Maze logic puzzle game.",
+      "tags": ["logic", "guessing", "daily"]
+    },
+    {
+      "name": "Movie to Movie",
+      "url": "https://movietomovie.com/",
+      "description": "Connect two movies by their actors and the movies that their actors are in.",
+      "tags": ["words", "logic", "daily"]
+    },
+  ]
+  const allTags = dls.map(dl => dl.tags).flat().filter((x, i, a) => a.indexOf(x) == i)
+  console.log(allTags)
+  const tag_colors = {"soccer": "#f3e0a5", "colors": "#a7b0f1", "video games": "#e9ecac", "strategy": "#d7d1c1", "puzzmo": "#f4fa9e", "daily": "#a8f0cb", "flags": "#b9d7df", "unlimited": "#f89afe", "animals": "#9b9efd", "baseball": "#a4b9f4", "movies": "#d1f2a6", "basketball": "#aacbee", "grid": "#bff8a0", "football": "#afe9b5", "geography": "#aeead8", "logic": "#bddbca", "plants": "#b2e6b7", "visual": "#f7a1d0", "pictures": "#dff3a5", "audio": "#9dfbcf", "prices": "#e1b7d1", "map": "#d6cac2", "guessing": "#b5e7b1", "time": "#e4b4d3", "art": "#9be4fd", "usa": "#e7e0b1", "wordle": "#f1a7dd", "music": "#9afeaf", "trivia": "#d6c2c8", "words": "#f1a7e0"}
+
+  const generalTags = ["visual", "textual", "sports", "science"]
+  console.log(dls.length)
+  
+  const resultsList = document.getElementById("resultsList")
+  for (let dl of dls) {
+    resultsList.innerHTML += dlToHTML(dl)
+  }
+
+  function dlToHTML(dl) {
+    return `<li style="display: flex; flex-direction: row; gap: 8px; justify-content: space-between;">
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <div>
+          <span style="font-size: 16px; line-height: 1.2;"><strong>${dl.name}</strong></span>
+        <!-- <a style="font-size: 12px; color: darkgray; vertical-align: bottom;" href="${dl.url}">${dl.url}</a> -->
+        </div>
+        <div style="font-size: 14px; line-height: 1.2;">
+          ${dl.description}
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; padding: 0.5rem;">
+        <a href="${dl.url}"><button style="padding: 0.15rem 0.30rem; border-radius: 0.25rem;" style:hover="">Play</button></a>
+      </div>
+    </li>`
+  }
+
+  function testTagColors() {
+    let tagsDiv = document.createElement("div")
+    for (let [tag, color] of Object.entries(tag_colors)) {
+      let html = `<div style="padding: 0.15rem 0.3rem; background-color: ${color}">${tag}</div>`
+      tagsDiv.innerHTML += html
+      console.log(tag, color)
+    }
+    document.body.appendChild(tagsDiv)
+  }
+  testTagColors()
+</script>
+<style>
+html {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  max-width: 30rem;
+  padding: 2rem;
+  margin: auto;
+  line-height: 1.5rem;
+}
+li {
+  padding: 0.35rem;
+  /* box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75); */
+}
+li:nth-child(odd) {
+  background-color: #dedede;
+}
+li:nth-child(even) {
+  background-color: #efefef;
+}
+button:hover {
+  cursor: pointer;
+}
+</style>
+</html>
