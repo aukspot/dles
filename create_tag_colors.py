@@ -17,30 +17,19 @@ def extract_tags(dls):
   ]))
 
 
-def magnitude_to_hex(magnitude):
-  return f'#{hex(int(magnitude * 16**6))[2:].zfill(6)}'
-
-
 def word_to_color(word):
   color = ""
   letters = [c.lower() for c in word if c.lower() in string.ascii_lowercase]
-  magnitude = sum(
+  hue = sum(
     string.ascii_lowercase.index(letter) * 26 ** (len(letters) - i - 1)
     for i, letter in enumerate(letters)
   ) / 26 ** len(letters)
-  print(word, magnitude)
+  print(word, hue)
 
-  color = Color(magnitude_to_hex(magnitude))
-  # color.set_saturation(0.5)
+  color = Color(hue=hue)
+  color.set_saturation(0.5)
   color.set_luminance(0.8)
   return color.hex
-
-
-def letter_to_int(letter):
-  return string.ascii_lowercase.index(letter.lower())
-
-
-# def word_to_int(word):
 
 
 if __name__ == "__main__":
