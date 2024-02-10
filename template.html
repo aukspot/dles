@@ -1,32 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WHEEL of DLs</title>
-</head>
-<body>
-  <ol id="resultsList" style="width: 100%; padding: 0;"></ol>
-</body>
-<script defer>
-  const dles = $TEMPLATE[data/dles.json]
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Dles</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">The Dles</h1>
+    <p style="text-align: center">...they're anything but.</p>
 
-  const allTags = dles.map(dle=> dle.tags).flat().filter((x, i, a) => a.indexOf(x) == i)
-  const tag_colors = $TEMPLATE[data/tag_colors.json]
+    <p class="hidden">
+      Select dles with the tag
+      <select id="includedTagsSelection"></select>
+      but NOT the tag
+      <select id="excludedTagsSelection"></select>
+    </p>
 
-  const generalTags = ["visual", "textual", "sports", "science"]
-  
-  const resultsList = document.getElementById("resultsList")
-  for (let dle of dles) {
-    resultsList.innerHTML += dleToHTML(dle)
-  }
+    <details id="filterDetails" open>
+      <summary class="not-selectable pointer" style="margin-bottom: 0.625rem">
+        Filters (Not working yet)
+      </summary>
+      <div
+        style="display: flex; justify-content: space-between; line-height: 1"
+      >
+        <div style="display: flex">
+          <div class="filterLabel">Included:</div>
+          <div id="includedTagsList" class="tagsList">
+            <div class="dropdownContainer">
+              <label for="checkbox" class="not-selectable pointer addButton">
+                +
+              </label>
+              <input id="checkbox" class="filterCheckbox" type="checkbox" />
+              <div id="includedTagsChoices" class="dropdown"></div>
+            </div>
+          </div>
+        </div>
+        <div class="filterLabel">Excluded:</div>
+      </div>
+    </details>
 
-  function dleToHTML(dle) {
-    return `<li style="display: flex; flex-direction: row; gap: 0.25rem; justify-content: space-between;">
+    <ol id="resultsList" style="width: 100%; padding: 0"></ol>
+  </body>
+  <script defer>
+    const dles = $TEMPLATE["data/dles.json"];
+
+    let filtered_dles = dles;
+    const allTags = dles
+      .map((dle) => dle.tags)
+      .flat()
+      .filter((x, i, a) => a.indexOf(x) == i);
+    allTags.sort();
+    const tag_colors = $TEMPLATE["data/tag_colors.json"];
+
+    const includedTagsSelection = document.getElementById(
+      "includedTagsSelection"
+    );
+    const excludedTagsSelection = document.getElementById(
+      "excludedTagsSelection"
+    );
+    const addIncludedTagButton = document.getElementById(
+      "addIncludedTagButton"
+    );
+    const includedTagsList = document.getElementById("includedTagsList");
+    const includedTagsChoices = document.getElementById("includedTagsChoices");
+    const filterDetails = document.getElementById("filterDetails");
+    const resultsList = document.getElementById("resultsList");
+
+    const includedTags = ["daily"];
+    const excludedTags = [];
+
+    fillTagsList(includedTagsChoices);
+
+    setOptions(includedTagsSelection, allTags);
+    setOptions(excludedTagsSelection, allTags);
+    setResultsHTML();
+
+    for (let tag of includedTags) {
+      includedTagsList.innerHTML =
+        filterTagHtml(tag) + includedTagsList.innerHTML;
+    }
+
+    function setResultsHTML() {
+      resultsList.innerHTML = "";
+      for (let dle of filtered_dles) {
+        resultsList.innerHTML += dleToHTML(dle);
+      }
+    }
+
+    function dleToHTML(dle) {
+      return `<li style="display: flex; flex-direction: row; gap: 0.25rem; justify-content: space-between;">
       <div style="display: flex; flex-direction: column; gap: 0.25rem;">
         <div>
           <span style="font-size: 1.1rem;"><strong>${dle.name}</strong></span>
-        <!-- <a style="font-size: 12px; color: darkgray; vertical-align: bottom;" href="${dle.url}">${dle.url}</a> -->
+        <!-- <a style="font-size: 12px; color: darkgray; vertical-align: bottom;" href="${
+          dle.url
+        }">${dle.url}</a> -->
         </div>
         <div style="font-size: 0.8rem; line-height: 1.2;">
           ${dle.description}
@@ -34,54 +102,183 @@
         ${tagsHtml(dle)}
       </div>
       <div style="display: flex; align-items: center; padding: 0.5rem;">
-        <a href="${dle.url}" target="_blank"><button style="padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 1.0rem">Play</button></a>
+        <a href="${
+          dle.url
+        }" target="_blank"><button style="padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 1.0rem">Play</button></a>
       </div>
-    </li>`
-  }
-
-  function tagsHtml(dle) {
-    let html = '<div style="display:flex; row-gap: 0.25rem; column-gap: 0.5rem; flex-wrap: wrap; line-height: 1.2">'
-    for (let tag of dle.tags) {
-        html += `
-        <div style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem; ">
-            ${tag}
-        </div>`
+    </li>`;
     }
-    html += '</div>'
-    return html
-  }
-</script>
-<style>
-html {
-  font-family: sans-serif;
-  font-size: 1.25em;
-  max-width: 30rem;
-  padding: 2rem;
-  margin: auto;
-  line-height: 1.5rem;
-}
 
-li {
-  padding: 0.35rem;
-  /* box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75); */
-}
-li:nth-child(odd) {
-  background-color: #dedede;
-}
-li:nth-child(even) {
-  background-color: #efefef;
-}
-button:hover {
-  cursor: pointer;
-}
+    function tagHtml(tag) {
+      return `<div style="background-color: ${tag_colors[tag]}; font-size: 0.7rem; padding: 0.1rem 0.3rem;" class="tag box-shadow not-selectable">
+            ${tag}
+        </div>`;
+    }
 
-@media (max-width: 450px) {
-  html {
-    padding: 0.6rem;
-  }
-}
+    function tagsHtml(dle) {
+      let html =
+        '<div style="display:flex; row-gap: 0.25rem; column-gap: 0.5rem; flex-wrap: wrap; line-height: 1.2">';
+      for (let tag of dle.tags) {
+        html += tagHtml(tag);
+      }
+      html += "</div>";
+      return html;
+    }
 
-</style>
+    function filterTagHtml(tag) {
+      return `<div class="tagItem box-shadow not-selectable" style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem;">
+            ${tag}
+        </div>`;
+    }
+
+    function setOptions(selectionElement, options) {
+      selectionElement.innerHTML = "";
+      for (let option of options.sort()) {
+        selectionElement.innerHTML += `
+        <option value="${option}">${option}</option>
+      `;
+      }
+    }
+
+    function fillTagsList(element) {
+      for (let tag of allTags) {
+        element.innerHTML += `
+        <li class="tagItem not-selectable" style="background-color: ${tag_colors[tag]}">${tag}</li>
+      `;
+      }
+    }
+
+    function filterIncludedTags() {
+      const tag = includedTagsSelection.value;
+      filtered_dles = dles.filter((dle) => dle.tags.includes(tag));
+      setResultsHTML();
+    }
+
+    function filterexcludedTags() {
+      const tag = excludedTagsSelection.value;
+      filtered_dles = filtered_dles.filter((dle) => !dle.tags.includes(tag));
+      setResultsHTML();
+    }
+
+    function filterTags() {
+      filterIncludedTags();
+      filterexcludedTags();
+    }
+
+    excludedTagsSelection.addEventListener("change", filterTags);
+
+    includedTagsSelection.addEventListener("change", filterTags);
+
+    includedTagsSelection.value = "daily";
+    filterTags();
+
+    document.addEventListener("click", function (e) {
+      console.log(e.target);
+    });
+
+    document.addEventListener("keyup", function (e) {
+      // ESCAPE KEY
+      if (e.keyCode == 27) {
+      }
+    });
+  </script>
+  <style>
+    html {
+      font-family: sans-serif;
+      font-size: 1.25em;
+      max-width: 30rem;
+      padding: 2rem;
+      margin: auto;
+      line-height: 1.5rem;
+    }
+
+    li {
+      padding: 0.35rem;
+    }
+    li:nth-child(odd) {
+      background-color: #dedede;
+    }
+    li:nth-child(even) {
+      background-color: #efefef;
+    }
+
+    li > a {
+      text-decoration: none;
+    }
+    .filterCheckbox {
+      display: none;
+    }
+    .filterCheckbox:checked + div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      width: 40%;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    .tag {
+    }
+
+    .tagItem {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.3rem;
+      cursor: pointer;
+    }
+
+    .tagsList {
+      display: flex;
+      row-gap: 0.25rem;
+      column-gap: 0.5rem;
+      flex-wrap: wrap;
+      line-height: 1.2;
+    }
+
+    .filterLabel {
+      font-size: 0.9rem;
+    }
+
+    .dropdown {
+      display: none;
+      list-style: none;
+      padding-left: 0.5rem;
+      position: absolute;
+      background-color: white;
+      margin: 0;
+      box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .not-selectable {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    .pointer {
+      cursor: pointer;
+    }
+    .hidden {
+      display: none;
+    }
+
+    .box-shadow {
+      box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    @media (max-width: 450px) {
+      html {
+        padding: 0.6rem;
+      }
+    }
+  </style>
 </html>

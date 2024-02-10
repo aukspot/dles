@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WHEEL of DLs</title>
-</head>
-<body>
-  <ol id="resultsList" style="width: 100%; padding: 0;"></ol>
-</body>
-<script defer>
-  const dles = [
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Dles</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">The Dles</h1>
+    <p style="text-align: center">...they're anything but.</p>
+
+    <p class="hidden">
+      Select dles with the tag
+      <select id="includedTagsSelection"></select>
+      but NOT the tag
+      <select id="excludedTagsSelection"></select>
+    </p>
+
+    <details id="filterDetails" open>
+      <summary class="not-selectable pointer" style="margin-bottom: 0.625rem">
+        Filters (Not working yet)
+      </summary>
+      <div
+        style="display: flex; justify-content: space-between; line-height: 1"
+      >
+        <div style="display: flex">
+          <div class="filterLabel">Included:</div>
+          <div id="includedTagsList" class="tagsList">
+            <div class="dropdownContainer">
+              <label for="checkbox" class="not-selectable pointer addButton">
+                +
+              </label>
+              <input id="checkbox" class="filterCheckbox" type="checkbox" />
+              <div id="includedTagsChoices" class="dropdown"></div>
+            </div>
+          </div>
+        </div>
+        <div class="filterLabel">Excluded:</div>
+      </div>
+    </details>
+
+    <ol id="resultsList" style="width: 100%; padding: 0"></ol>
+  </body>
+  <script defer>
+    const dles = [
   {
     "name": "Bandle",
     "url": "https://bandle.app/",
@@ -47,7 +80,6 @@
     "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Cine2Nerdle Original and Reversal.",
     "tags": [
       "daily",
-      "grid",
       "movies"
     ]
   },
@@ -274,7 +306,6 @@
     "description": "Fill out the grid with soccer players matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "grid",
       "soccer"
     ]
   },
@@ -284,8 +315,7 @@
     "description": "Fill out the grid with baseball players matching the criteria of both their row and column.",
     "tags": [
       "baseball",
-      "daily",
-      "grid"
+      "daily"
     ]
   },
   {
@@ -294,18 +324,7 @@
     "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
-      "daily",
-      "grid"
-    ]
-  },
-  {
-    "name": "Immaculate Grid: Men's Basketball",
-    "url": "https://www.immaculategrid.com/basketball/mens",
-    "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
-    "tags": [
-      "basketball",
-      "daily",
-      "grid"
+      "daily"
     ]
   },
   {
@@ -314,8 +333,7 @@
     "description": "Fill out the grid with pro football players matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "football",
-      "grid"
+      "football"
     ]
   },
   {
@@ -324,8 +342,7 @@
     "description": "Fill out the grid with women's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
-      "daily",
-      "grid"
+      "daily"
     ]
   },
   {
@@ -335,7 +352,7 @@
     "tags": [
       "daily",
       "guessing",
-      "plants"
+      "science"
     ]
   },
   {
@@ -343,9 +360,9 @@
     "url": "https://metazooa.com/",
     "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
     "tags": [
-      "animals",
       "daily",
-      "guessing"
+      "guessing",
+      "science"
     ]
   },
   {
@@ -364,7 +381,15 @@
     "description": "Fill out the grid with movies matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "grid",
+      "movies"
+    ]
+  },
+  {
+    "name": "Movie to Movie",
+    "url": "https://movietomovie.com/",
+    "description": "Connect two movies by jumping through actors and the movies they've been in.",
+    "tags": [
+      "daily",
       "movies"
     ]
   },
@@ -401,11 +426,10 @@
   {
     "name": "Puzzmo - Flipart",
     "url": "https://www.puzzmo.com/play/flip-art",
-    "description": "Slide columns of letters to make words, using all of the letters along the way.",
+    "description": "Rotate the pieces to fit them within the frame.",
     "tags": [
       "daily",
-      "puzzmo",
-      "visual"
+      "puzzmo"
     ]
   },
   {
@@ -414,8 +438,7 @@
     "description": "Checkmate the opponent's king in this randomized Chess variant.",
     "tags": [
       "daily",
-      "puzzmo",
-      "strategy"
+      "puzzmo"
     ]
   },
   {
@@ -475,6 +498,7 @@
     "tags": [
       "daily",
       "geography",
+      "maps",
       "pictures",
       "time"
     ]
@@ -560,55 +584,86 @@
       "maps"
     ]
   }
-]
+];
 
-  const allTags = dles.map(dle=> dle.tags).flat().filter((x, i, a) => a.indexOf(x) == i)
-  const tag_colors = {
-  "wordle": "#e5b2db",
-  "usa": "#dab2e5",
-  "art": "#e5bbb2",
-  "video games": "#e1b2e5",
-  "geography": "#d0e5b2",
-  "unlimited": "#d8b2e5",
-  "basketball": "#e5bfb2",
-  "football": "#d7e5b2",
-  "plants": "#b2c9e5",
-  "puzzmo": "#b2c4e5",
-  "colors": "#e5d1b2",
-  "guessing": "#c9e5b2",
-  "words": "#e5b2db",
-  "daily": "#e5d6b2",
-  "visual": "#e2b2e5",
-  "audio": "#e5bcb2",
+    let filtered_dles = dles;
+    const allTags = dles
+      .map((dle) => dle.tags)
+      .flat()
+      .filter((x, i, a) => a.indexOf(x) == i);
+    allTags.sort();
+    const tag_colors = {
+  "movies": "#b2e5e0",
   "pictures": "#b2cae5",
-  "prices": "#b2c6e5",
-  "time": "#cab2e5",
-  "flags": "#d9e5b2",
-  "music": "#b2e5e3",
-  "soccer": "#c1b2e5",
-  "maps": "#b2e5da",
-  "animals": "#e5b9b2",
-  "strategy": "#c3b2e5",
   "trivia": "#ceb2e5",
+  "soccer": "#c1b2e5",
+  "time": "#cab2e5",
+  "football": "#d7e5b2",
+  "maps": "#b2e5da",
+  "science": "#bbb2e5",
   "logic": "#b2e5d4",
-  "grid": "#cae5b2",
+  "words": "#e5b2db",
+  "video games": "#e1b2e5",
+  "wordle": "#e5b2db",
+  "guessing": "#c9e5b2",
+  "music": "#b2e5e3",
+  "colors": "#e5d1b2",
+  "basketball": "#e5bfb2",
+  "art": "#e5bbb2",
+  "daily": "#e5d6b2",
+  "flags": "#d9e5b2",
+  "audio": "#e5bcb2",
+  "unlimited": "#d8b2e5",
+  "puzzmo": "#b2c4e5",
+  "usa": "#dab2e5",
+  "prices": "#b2c6e5",
   "baseball": "#e5bfb2",
-  "movies": "#b2e5e0"
-}
+  "geography": "#d0e5b2"
+};
 
-  const generalTags = ["visual", "textual", "sports", "science"]
-  
-  const resultsList = document.getElementById("resultsList")
-  for (let dle of dles) {
-    resultsList.innerHTML += dleToHTML(dle)
-  }
+    const includedTagsSelection = document.getElementById(
+      "includedTagsSelection"
+    );
+    const excludedTagsSelection = document.getElementById(
+      "excludedTagsSelection"
+    );
+    const addIncludedTagButton = document.getElementById(
+      "addIncludedTagButton"
+    );
+    const includedTagsList = document.getElementById("includedTagsList");
+    const includedTagsChoices = document.getElementById("includedTagsChoices");
+    const filterDetails = document.getElementById("filterDetails");
+    const resultsList = document.getElementById("resultsList");
 
-  function dleToHTML(dle) {
-    return `<li style="display: flex; flex-direction: row; gap: 0.25rem; justify-content: space-between;">
+    const includedTags = ["daily"];
+    const excludedTags = [];
+
+    fillTagsList(includedTagsChoices);
+
+    setOptions(includedTagsSelection, allTags);
+    setOptions(excludedTagsSelection, allTags);
+    setResultsHTML();
+
+    for (let tag of includedTags) {
+      includedTagsList.innerHTML =
+        filterTagHtml(tag) + includedTagsList.innerHTML;
+    }
+
+    function setResultsHTML() {
+      resultsList.innerHTML = "";
+      for (let dle of filtered_dles) {
+        resultsList.innerHTML += dleToHTML(dle);
+      }
+    }
+
+    function dleToHTML(dle) {
+      return `<li style="display: flex; flex-direction: row; gap: 0.25rem; justify-content: space-between;">
       <div style="display: flex; flex-direction: column; gap: 0.25rem;">
         <div>
           <span style="font-size: 1.1rem;"><strong>${dle.name}</strong></span>
-        <!-- <a style="font-size: 12px; color: darkgray; vertical-align: bottom;" href="${dle.url}">${dle.url}</a> -->
+        <!-- <a style="font-size: 12px; color: darkgray; vertical-align: bottom;" href="${
+          dle.url
+        }">${dle.url}</a> -->
         </div>
         <div style="font-size: 0.8rem; line-height: 1.2;">
           ${dle.description}
@@ -616,54 +671,183 @@
         ${tagsHtml(dle)}
       </div>
       <div style="display: flex; align-items: center; padding: 0.5rem;">
-        <a href="${dle.url}" target="_blank"><button style="padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 1.0rem">Play</button></a>
+        <a href="${
+          dle.url
+        }" target="_blank"><button style="padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 1.0rem">Play</button></a>
       </div>
-    </li>`
-  }
-
-  function tagsHtml(dle) {
-    let html = '<div style="display:flex; row-gap: 0.25rem; column-gap: 0.5rem; flex-wrap: wrap; line-height: 1.2">'
-    for (let tag of dle.tags) {
-        html += `
-        <div style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem; ">
-            ${tag}
-        </div>`
+    </li>`;
     }
-    html += '</div>'
-    return html
-  }
-</script>
-<style>
-html {
-  font-family: sans-serif;
-  font-size: 1.25em;
-  max-width: 30rem;
-  padding: 2rem;
-  margin: auto;
-  line-height: 1.5rem;
-}
 
-li {
-  padding: 0.35rem;
-  /* box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75); */
-}
-li:nth-child(odd) {
-  background-color: #dedede;
-}
-li:nth-child(even) {
-  background-color: #efefef;
-}
-button:hover {
-  cursor: pointer;
-}
+    function tagHtml(tag) {
+      return `<div style="background-color: ${tag_colors[tag]}; font-size: 0.7rem; padding: 0.1rem 0.3rem;" class="tag box-shadow not-selectable">
+            ${tag}
+        </div>`;
+    }
 
-@media (max-width: 450px) {
-  html {
-    padding: 0.6rem;
-  }
-}
+    function tagsHtml(dle) {
+      let html =
+        '<div style="display:flex; row-gap: 0.25rem; column-gap: 0.5rem; flex-wrap: wrap; line-height: 1.2">';
+      for (let tag of dle.tags) {
+        html += tagHtml(tag);
+      }
+      html += "</div>";
+      return html;
+    }
 
-</style>
+    function filterTagHtml(tag) {
+      return `<div class="tagItem box-shadow not-selectable" style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem;">
+            ${tag}
+        </div>`;
+    }
+
+    function setOptions(selectionElement, options) {
+      selectionElement.innerHTML = "";
+      for (let option of options.sort()) {
+        selectionElement.innerHTML += `
+        <option value="${option}">${option}</option>
+      `;
+      }
+    }
+
+    function fillTagsList(element) {
+      for (let tag of allTags) {
+        element.innerHTML += `
+        <li class="tagItem not-selectable" style="background-color: ${tag_colors[tag]}">${tag}</li>
+      `;
+      }
+    }
+
+    function filterIncludedTags() {
+      const tag = includedTagsSelection.value;
+      filtered_dles = dles.filter((dle) => dle.tags.includes(tag));
+      setResultsHTML();
+    }
+
+    function filterexcludedTags() {
+      const tag = excludedTagsSelection.value;
+      filtered_dles = filtered_dles.filter((dle) => !dle.tags.includes(tag));
+      setResultsHTML();
+    }
+
+    function filterTags() {
+      filterIncludedTags();
+      filterexcludedTags();
+    }
+
+    excludedTagsSelection.addEventListener("change", filterTags);
+
+    includedTagsSelection.addEventListener("change", filterTags);
+
+    includedTagsSelection.value = "daily";
+    filterTags();
+
+    document.addEventListener("click", function (e) {
+      console.log(e.target);
+    });
+
+    document.addEventListener("keyup", function (e) {
+      // ESCAPE KEY
+      if (e.keyCode == 27) {
+      }
+    });
+  </script>
+  <style>
+    html {
+      font-family: sans-serif;
+      font-size: 1.25em;
+      max-width: 30rem;
+      padding: 2rem;
+      margin: auto;
+      line-height: 1.5rem;
+    }
+
+    li {
+      padding: 0.35rem;
+    }
+    li:nth-child(odd) {
+      background-color: #dedede;
+    }
+    li:nth-child(even) {
+      background-color: #efefef;
+    }
+
+    li > a {
+      text-decoration: none;
+    }
+    .filterCheckbox {
+      display: none;
+    }
+    .filterCheckbox:checked + div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      width: 40%;
+      justify-content: center;
+      padding: 0.5rem;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+
+    .tag {
+    }
+
+    .tagItem {
+      font-size: 0.7rem;
+      padding: 0.1rem 0.3rem;
+      cursor: pointer;
+    }
+
+    .tagsList {
+      display: flex;
+      row-gap: 0.25rem;
+      column-gap: 0.5rem;
+      flex-wrap: wrap;
+      line-height: 1.2;
+    }
+
+    .filterLabel {
+      font-size: 0.9rem;
+    }
+
+    .dropdown {
+      display: none;
+      list-style: none;
+      padding-left: 0.5rem;
+      position: absolute;
+      background-color: white;
+      margin: 0;
+      box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .not-selectable {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    .pointer {
+      cursor: pointer;
+    }
+    .hidden {
+      display: none;
+    }
+
+    .box-shadow {
+      box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    @media (max-width: 450px) {
+      html {
+        padding: 0.6rem;
+      }
+    }
+  </style>
 </html>

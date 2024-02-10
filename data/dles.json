@@ -36,7 +36,6 @@
     "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Cine2Nerdle Original and Reversal.",
     "tags": [
       "daily",
-      "grid",
       "movies"
     ]
   },
@@ -263,7 +262,6 @@
     "description": "Fill out the grid with soccer players matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "grid",
       "soccer"
     ]
   },
@@ -273,8 +271,7 @@
     "description": "Fill out the grid with baseball players matching the criteria of both their row and column.",
     "tags": [
       "baseball",
-      "daily",
-      "grid"
+      "daily"
     ]
   },
   {
@@ -283,18 +280,7 @@
     "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
-      "daily",
-      "grid"
-    ]
-  },
-  {
-    "name": "Immaculate Grid: Men's Basketball",
-    "url": "https://www.immaculategrid.com/basketball/mens",
-    "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
-    "tags": [
-      "basketball",
-      "daily",
-      "grid"
+      "daily"
     ]
   },
   {
@@ -303,8 +289,7 @@
     "description": "Fill out the grid with pro football players matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "football",
-      "grid"
+      "football"
     ]
   },
   {
@@ -313,8 +298,7 @@
     "description": "Fill out the grid with women's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
-      "daily",
-      "grid"
+      "daily"
     ]
   },
   {
@@ -324,7 +308,7 @@
     "tags": [
       "daily",
       "guessing",
-      "plants"
+      "science"
     ]
   },
   {
@@ -332,9 +316,9 @@
     "url": "https://metazooa.com/",
     "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
     "tags": [
-      "animals",
       "daily",
-      "guessing"
+      "guessing",
+      "science"
     ]
   },
   {
@@ -353,7 +337,15 @@
     "description": "Fill out the grid with movies matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "grid",
+      "movies"
+    ]
+  },
+  {
+    "name": "Movie to Movie",
+    "url": "https://movietomovie.com/",
+    "description": "Connect two movies by jumping through actors and the movies they've been in.",
+    "tags": [
+      "daily",
       "movies"
     ]
   },
@@ -390,11 +382,10 @@
   {
     "name": "Puzzmo - Flipart",
     "url": "https://www.puzzmo.com/play/flip-art",
-    "description": "Slide columns of letters to make words, using all of the letters along the way.",
+    "description": "Rotate the pieces to fit them within the frame.",
     "tags": [
       "daily",
-      "puzzmo",
-      "visual"
+      "puzzmo"
     ]
   },
   {
@@ -403,8 +394,7 @@
     "description": "Checkmate the opponent's king in this randomized Chess variant.",
     "tags": [
       "daily",
-      "puzzmo",
-      "strategy"
+      "puzzmo"
     ]
   },
   {
@@ -464,6 +454,7 @@
     "tags": [
       "daily",
       "geography",
+      "maps",
       "pictures",
       "time"
     ]

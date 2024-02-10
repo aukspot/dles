@@ -12,9 +12,9 @@ def read_template_html():
 
 def generate_replacements(template_html):
     result = {}
-    template_strings = re.findall(r"\$TEMPLATE\[(.*)\]", template_html)
+    template_strings = re.findall(r"\$TEMPLATE\[\"(.*)\"\]", template_html)
     for template_string in template_strings:
-        search_regex = re.escape(fr"$TEMPLATE[{template_string}]")
+        search_regex = re.escape(fr'$TEMPLATE["{template_string}"]')
         with open(template_string, "r") as f:
             value = f.read()
             result[search_regex] = value
