@@ -321,7 +321,7 @@
   {
     "name": "Immaculate Grid: Women's Basketball",
     "url": "https://www.immaculategrid.com/basketball/womens",
-    "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with women's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
       "daily",
@@ -359,6 +359,16 @@
     ]
   },
   {
+    "name": "Movie Grid",
+    "url": "https://moviegrid.io/",
+    "description": "Fill out the grid with movies matching the criteria of both their row and column.",
+    "tags": [
+      "daily",
+      "grid",
+      "movies"
+    ]
+  },
+  {
     "name": "OEC Tradle",
     "url": "https://games.oec.world/en/tradle/",
     "description": "Guess the country by its exports.",
@@ -366,6 +376,16 @@
       "daily",
       "geography",
       "guessing"
+    ]
+  },
+  {
+    "name": "Petdle",
+    "url": "https://petdle.link/",
+    "description": "Guess the pet taken from the game Super Auto Pets.",
+    "tags": [
+      "daily",
+      "guessing",
+      "video games"
     ]
   },
   {
@@ -544,36 +564,36 @@
 
   const allTags = dles.map(dle=> dle.tags).flat().filter((x, i, a) => a.indexOf(x) == i)
   const tag_colors = {
-  "music": "#b2e5e3",
   "wordle": "#e5b2db",
-  "audio": "#e5bcb2",
+  "usa": "#dab2e5",
+  "art": "#e5bbb2",
+  "video games": "#e1b2e5",
+  "geography": "#d0e5b2",
+  "unlimited": "#d8b2e5",
+  "basketball": "#e5bfb2",
   "football": "#d7e5b2",
-  "movies": "#b2e5e0",
-  "words": "#e5b2db",
-  "time": "#cab2e5",
+  "plants": "#b2c9e5",
+  "puzzmo": "#b2c4e5",
+  "colors": "#e5d1b2",
   "guessing": "#c9e5b2",
-  "maps": "#b2e5da",
-  "grid": "#cae5b2",
+  "words": "#e5b2db",
+  "daily": "#e5d6b2",
+  "visual": "#e2b2e5",
+  "audio": "#e5bcb2",
+  "pictures": "#b2cae5",
+  "prices": "#b2c6e5",
+  "time": "#cab2e5",
+  "flags": "#d9e5b2",
+  "music": "#b2e5e3",
   "soccer": "#c1b2e5",
+  "maps": "#b2e5da",
   "animals": "#e5b9b2",
   "strategy": "#c3b2e5",
-  "baseball": "#e5bfb2",
   "trivia": "#ceb2e5",
-  "plants": "#b2c9e5",
-  "geography": "#d0e5b2",
-  "colors": "#e5d1b2",
-  "flags": "#d9e5b2",
-  "art": "#e5bbb2",
-  "visual": "#e2b2e5",
-  "unlimited": "#d8b2e5",
-  "prices": "#b2c6e5",
-  "basketball": "#e5bfb2",
-  "usa": "#dab2e5",
-  "puzzmo": "#b2c4e5",
-  "pictures": "#b2cae5",
-  "video games": "#e1b2e5",
   "logic": "#b2e5d4",
-  "daily": "#e5d6b2"
+  "grid": "#cae5b2",
+  "baseball": "#e5bfb2",
+  "movies": "#b2e5e0"
 }
 
   const generalTags = ["visual", "textual", "sports", "science"]

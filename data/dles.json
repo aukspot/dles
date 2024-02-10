@@ -310,7 +310,7 @@
   {
     "name": "Immaculate Grid: Women's Basketball",
     "url": "https://www.immaculategrid.com/basketball/womens",
-    "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with women's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
       "daily",
@@ -348,6 +348,16 @@
     ]
   },
   {
+    "name": "Movie Grid",
+    "url": "https://moviegrid.io/",
+    "description": "Fill out the grid with movies matching the criteria of both their row and column.",
+    "tags": [
+      "daily",
+      "grid",
+      "movies"
+    ]
+  },
+  {
     "name": "OEC Tradle",
     "url": "https://games.oec.world/en/tradle/",
     "description": "Guess the country by its exports.",
@@ -355,6 +365,16 @@
       "daily",
       "geography",
       "guessing"
+    ]
+  },
+  {
+    "name": "Petdle",
+    "url": "https://petdle.link/",
+    "description": "Guess the pet taken from the game Super Auto Pets.",
+    "tags": [
+      "daily",
+      "guessing",
+      "video games"
     ]
   },
   {
