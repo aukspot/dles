@@ -28,7 +28,7 @@
           <span style="font-size: 1.1rem;"><strong>${dle.name}</strong></span>
         <!-- <a style="font-size: 12px; color: darkgray; vertical-align: bottom;" href="${dle.url}">${dle.url}</a> -->
         </div>
-        <div style="font-size: 0.9rem; line-height: 1.2;">
+        <div style="font-size: 0.8rem; line-height: 1.2;">
           ${dle.description}
         </div>
         ${tagsHtml(dle)}
@@ -43,7 +43,7 @@
     let html = '<div style="display:flex; row-gap: 0.25rem; column-gap: 0.5rem; flex-wrap: wrap; line-height: 1.2">'
     for (let tag of dle.tags) {
         html += `
-        <div style="background-color: ${tag_colors[tag]}; font-size:0.8rem; padding: 0.1rem 0.3rem; ">
+        <div style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem; ">
             ${tag}
         </div>`
     }
@@ -60,6 +60,7 @@ html {
   margin: auto;
   line-height: 1.5rem;
 }
+
 li {
   padding: 0.35rem;
   /* box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
@@ -75,5 +76,12 @@ li:nth-child(even) {
 button:hover {
   cursor: pointer;
 }
+
+@media (max-width: 450px) {
+  html {
+    padding: 0.6rem;
+  }
+}
+
 </style>
 </html>
