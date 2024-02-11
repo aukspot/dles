@@ -33,7 +33,7 @@
   {
     "name": "Cine2Nerdle",
     "url": "https://www.cinenerdle2.app/",
-    "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Cine2Nerdle Original and Reversal.",
+    "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Original and Reversal.",
     "tags": [
       "daily",
       "movies"
@@ -444,6 +444,17 @@
       "audio",
       "daily",
       "words"
+    ]
+  },
+  {
+    "name": "Statele",
+    "url": "https://statele.teuteuf.fr/",
+    "description": "Guess the US State by its outline on the map.",
+    "tags": [
+      "daily",
+      "geography",
+      "maps",
+      "usa"
     ]
   },
   {

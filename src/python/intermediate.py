@@ -6,8 +6,8 @@ import string
 from colour import Color
 
 
-DLES_FILE = "data/dles.json"
-TAG_COLORS_FILE = "data/tag_colors.json"
+DLES_FILE = "../data/dles.json"
+TAG_COLORS_FILE = "../data/tag_colors.json"
 
 
 def sort_tags():
@@ -56,6 +56,7 @@ def word_to_color(word):
     for i, letter in enumerate(letters)
   ) / 26 ** len(letters)
 
+  # test
   color = Color(hue=hue)
   color.set_saturation(0.5)
   color.set_luminance(0.8)

@@ -1,0 +1,39 @@
+@import '@fontsource/fira-mono';
+
+:root {
+	--font-body: sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+
+	--color-bg-lightmode: rgb(253, 253, 253);
+	--color-bg-darkmode: #313338;
+	--color-bg: var(--color-bg-darkmode);
+
+	--color-text-lightmode: rgb(15, 15, 15);
+	--color-text-darkmode: rgb(242, 242, 242);
+	--color-text: var(--color-text-darkmode);
+
+	--color-lightbulb-lightmode: rgb(255, 255, 151);
+	--color-lightbulb-darkmode: rgb(100, 100, 100);
+	--color-lightbulb: var(--color-lightbulb-lightmode);
+
+	--color-card-bg-1-lightmode: #eeeeee;
+	--color-card-bg-2-lightmode: #dddddd;
+	--color-card-bg-3-lightmode: #cccccc;
+	--color-card-bg-1-darkmode: #212328;
+	--color-card-bg-2-darkmode: #33353a;
+	--color-card-bg-3-darkmode: #41444b;
+	--color-card-bg-1: var(--color-card-bg-1-darkmode);	
+	--color-card-bg-2: var(--color-card-bg-2-darkmode);	
+	--color-card-bg-3: var(--color-card-bg-3-darkmode);
+
+	font-family: var(--font-body);
+}
+
+.not-selectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
