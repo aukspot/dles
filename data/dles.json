@@ -103,7 +103,6 @@
     "description": "Fill in the grid to logically fit a series of Wordle guesses.",
     "tags": [
       "daily",
-      "logic",
       "wordle",
       "words"
     ]
@@ -114,7 +113,6 @@
     "description": "Swap tiles to solve multiple Wordle puzzles crossed together.",
     "tags": [
       "daily",
-      "logic",
       "wordle",
       "words"
     ]
@@ -125,7 +123,6 @@
     "description": "Solve multiple Wordle puzzles crossed together.",
     "tags": [
       "daily",
-      "logic",
       "wordle",
       "words"
     ]
@@ -154,6 +151,7 @@
     "url": "https://www.flagle.io/",
     "description": "Guess the flag in 5 guesses or less.",
     "tags": [
+      "daily",
       "flags",
       "geography",
       "guessing"
@@ -164,6 +162,7 @@
     "url": "https://framed.wtf/",
     "description": "Guess the movie from 6 frames.",
     "tags": [
+      "daily",
       "guessing",
       "movies",
       "pictures"
@@ -483,6 +482,7 @@
     "url": "https://wheretaken.teuteuf.fr/",
     "description": "Guess the Country/Region in which the photo was taken.",
     "tags": [
+      "daily",
       "geography",
       "guessing",
       "pictures"
@@ -493,6 +493,7 @@
     "url": "https://wheretakenusa.teuteuf.fr/",
     "description": "Guess the US State in which the photo was taken.",
     "tags": [
+      "daily",
       "geography",
       "guessing",
       "pictures",

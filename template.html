@@ -8,34 +8,36 @@
   <body>
     <h1 style="text-align: center">The Dles</h1>
     <p style="text-align: center">...they're anything but.</p>
-
-    <p class="hidden">
-      Select dles with the tag
-      <select id="includedTagsSelection"></select>
-      but NOT the tag
-      <select id="excludedTagsSelection"></select>
-    </p>
-
-    <details id="filterDetails" open>
-      <summary class="not-selectable pointer" style="margin-bottom: 0.625rem">
-        Filters (Not working yet)
+    <details id="filterDetails" style="padding: 0.25rem" open>
+      <summary class="not-selectable pointer" style="margin-bottom: 0.75rem">
+        Filters (Work in progress)
       </summary>
       <div
-        style="display: flex; justify-content: space-between; line-height: 1"
+        style="
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          row-gap: 0.5rem;
+          line-height: 1;
+        "
       >
         <div style="display: flex">
-          <div class="filterLabel">Included:</div>
+          <div id="includedFilterLabel" class="filterLabel">
+            tags <strong>must</strong> include:
+          </div>
           <div id="includedTagsList" class="tagsList">
             <div class="dropdownContainer">
               <label for="checkbox" class="not-selectable pointer addButton">
-                +
+                <div class="plusButton">+</div>
               </label>
               <input id="checkbox" class="filterCheckbox" type="checkbox" />
               <div id="includedTagsChoices" class="dropdown"></div>
             </div>
           </div>
         </div>
-        <div class="filterLabel">Excluded:</div>
+        <div id="excludedFilterLabel" class="filterLabel">
+          tags <strong>must</strong> exclude:
+        </div>
       </div>
     </details>
 
@@ -52,32 +54,43 @@
     allTags.sort();
     const tag_colors = $TEMPLATE["data/tag_colors.json"];
 
-    const includedTagsSelection = document.getElementById(
-      "includedTagsSelection"
-    );
-    const excludedTagsSelection = document.getElementById(
-      "excludedTagsSelection"
-    );
     const addIncludedTagButton = document.getElementById(
       "addIncludedTagButton"
+    );
+    const includedFilterLabel = document.getElementById("includedFilterLabel");
+    const excludedFilterLabel = document.getElementById("excludedFilterLabel");
+    const includedDropdownContainer = document.getElementById(
+      "includedDropdownContainer"
     );
     const includedTagsList = document.getElementById("includedTagsList");
     const includedTagsChoices = document.getElementById("includedTagsChoices");
     const filterDetails = document.getElementById("filterDetails");
+    const filterCheckboxes = document.getElementsByClassName("filterCheckbox");
+
+    const dropdowns = document.getElementsByClassName("dropdown");
     const resultsList = document.getElementById("resultsList");
 
-    const includedTags = ["daily"];
-    const excludedTags = [];
+    let includedTags = ["daily"];
+    let excludedTags = [];
 
-    fillTagsList(includedTagsChoices);
+    fillTagsList(includedTagsChoices, "includedTagOption");
 
-    setOptions(includedTagsSelection, allTags);
-    setOptions(excludedTagsSelection, allTags);
     setResultsHTML();
 
-    for (let tag of includedTags) {
-      includedTagsList.innerHTML =
-        filterTagHtml(tag) + includedTagsList.innerHTML;
+    filterTags();
+    checkTags();
+
+    renderIncludedTags();
+
+    function checkTags() {
+      if (includedTags.length == 0) {
+        includedFilterLabel.innerHTML =
+          "tags <strong>must</strong> include: none";
+      }
+      if (excludedTags.length == 0) {
+        excludedFilterLabel.innerHTML =
+          "tags <strong>must</strong> exclude: none";
+      }
     }
 
     function setResultsHTML() {
@@ -104,7 +117,7 @@
       <div style="display: flex; align-items: center; padding: 0.5rem;">
         <a href="${
           dle.url
-        }" target="_blank"><button style="padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 1.0rem">Play</button></a>
+        }" target="_blank"><button class="not-selectable" style="padding: 0.2rem 0.4rem; border-radius: 0.25rem; font-size: 1.0rem">Play</button></a>
       </div>
     </li>`;
     }
@@ -125,10 +138,23 @@
       return html;
     }
 
-    function filterTagHtml(tag) {
-      return `<div class="tagItem box-shadow not-selectable" style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem;">
+    function renderIncludedTags() {
+      for (let tag of includedTags) {
+        includedTagsList.innerHTML =
+          filterIncludedTagHtml(tag) + includedTagsList.innerHTML;
+      }
+    }
+
+    function filterIncludedTagHtml(tag) {
+      return `<div id="filter-tag-${tag}" class="includedTagItem tagItem box-shadow not-selectable" style="background-color: ${tag_colors[tag]}; font-size:0.7rem; padding: 0.1rem 0.3rem;">
             ${tag}
         </div>`;
+    }
+
+    function removeIncludedTag(element) {
+      includedTags = includedTags.filter((tag) => tag == element.innerHTML);
+      element.remove();
+      filterTags();
     }
 
     function setOptions(selectionElement, options) {
@@ -140,23 +166,33 @@
       }
     }
 
-    function fillTagsList(element) {
+    function fillTagsList(element, className) {
       for (let tag of allTags) {
         element.innerHTML += `
-        <li class="tagItem not-selectable" style="background-color: ${tag_colors[tag]}">${tag}</li>
+        <li id="tag-${tag}" class="${className} tagItem not-selectable" style="background-color: ${tag_colors[tag]}">${tag}</li>
       `;
       }
     }
 
+    function toggleShowTags() {
+      for (let tag of includedTags) {
+        let element = document.getElementById(`tag-${tag}`);
+        element.classList.add("hidden");
+      }
+    }
+
     function filterIncludedTags() {
-      const tag = includedTagsSelection.value;
-      filtered_dles = dles.filter((dle) => dle.tags.includes(tag));
+      toggleShowTags();
+      filtered_dles = dles.filter((dle) =>
+        includedTags.every((tag) => dle.tags.includes(tag))
+      );
       setResultsHTML();
     }
 
     function filterexcludedTags() {
-      const tag = excludedTagsSelection.value;
-      filtered_dles = filtered_dles.filter((dle) => !dle.tags.includes(tag));
+      filtered_dles = filtered_dles.filter(
+        (dle) => !dle.tags.some((tag) => excludedTags.includes(tag))
+      );
       setResultsHTML();
     }
 
@@ -165,20 +201,42 @@
       filterexcludedTags();
     }
 
-    excludedTagsSelection.addEventListener("change", filterTags);
-
-    includedTagsSelection.addEventListener("change", filterTags);
-
-    includedTagsSelection.value = "daily";
-    filterTags();
+    function closeDropdowns() {
+      for (var i = 0; i < filterCheckboxes.length; i++) {
+        filterCheckboxes[i].checked = false;
+      }
+    }
 
     document.addEventListener("click", function (e) {
-      console.log(e.target);
+      let classList = e.target.classList;
+      if (classList.contains("filterCheckbox")) {
+        for (var i = 0; i < dropdowns.length; i++) {
+          console.log(dropdowns[i]);
+          if (window.getComputedStyle(dropdowns[i]).style == "flex") {
+            closeDropdowns();
+            return;
+          }
+        }
+        return;
+      }
+      if (!classList.contains("dropdown") && !classList.contains("tagItem")) {
+        closeDropdowns();
+      }
+      if (classList.contains("includedTagItem")) {
+        removeIncludedTag(e.target);
+      }
+      if (classList.contains("includedTagOption")) {
+        includedTags.push(e.target.innerHTML);
+        filterTags();
+        renderIncludedTags();
+        classList.add("hidden");
+      }
     });
 
     document.addEventListener("keyup", function (e) {
       // ESCAPE KEY
       if (e.keyCode == 27) {
+        closeDropdowns();
       }
     });
   </script>
@@ -212,7 +270,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
-      width: 40%;
+      width: 50%;
       justify-content: center;
       padding: 0.5rem;
     }
@@ -221,7 +279,10 @@
       cursor: pointer;
     }
 
-    .tag {
+    .plusButton {
+      background-color: #eeeeee;
+      border-color: darkgray;
+      padding: 0rem 0.3rem;
     }
 
     .tagItem {
@@ -240,6 +301,7 @@
 
     .filterLabel {
       font-size: 0.9rem;
+      margin-right: 0.25rem;
     }
 
     .dropdown {
@@ -247,6 +309,7 @@
       list-style: none;
       padding-left: 0.5rem;
       position: absolute;
+      left: 20%;
       background-color: white;
       margin: 0;
       box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
