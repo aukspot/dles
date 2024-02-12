@@ -37,3 +37,10 @@
 	-ms-user-select: none;
 	user-select: none;
   }
+
+  .plusButton {
+    background-color: var(--color-card-bg-1);
+    border: 1px solid darkgray;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+  }

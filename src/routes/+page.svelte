@@ -1,14 +1,17 @@
 <script>
   import DleCard from "./DleCard.svelte";
-  import dles from "../data/dles.json";
+  import dles_json from "../data/dles.json";
   import Filters from "./Filters.svelte";
+  import { dles, filteredDles, allTags } from "../stores";
 
-  let allTags = dles
+  $dles = dles_json;
+  $filteredDles = dles_json;
+
+  $allTags = $dles
     .map((dle) => dle.tags)
     .flat()
     .filter((x, i, a) => a.indexOf(x) == i)
     .sort();
-  let filtered_dles = dles;
 </script>
 
 <svelte:head>
@@ -20,11 +23,11 @@
 </svelte:head>
 
 <h1>The Dles</h1>
-<p>...they're anything but.</p>
-<Filters tags={allTags} />
-<h2>{filtered_dles.length} dles</h2>
+<p>"...they're anything but."</p>
+<Filters />
+<h2>{$filteredDles.length} dles</h2>
 <ol>
-  {#each dles as dle, i}
+  {#each $filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
   {/each}
 </ol>
@@ -37,7 +40,15 @@
   }
 
   h2 {
+    padding-top: 1rem;
     margin-bottom: 0;
+    border-top: 1px solid darkgray;
+    text-decoration: underline;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 1rem;
   }
 
   ol {

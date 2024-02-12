@@ -1,12 +1,14 @@
 <script>
-  import Dropdown from "./Dropdown.svelte";
-
-  export let tags = ["daily", "music"];
+  import DropdownInclude from "./DropdownInclude.svelte";
+  import DropdownExclude from "./DropdownExclude.svelte";
 </script>
 
 <details id="filterDetails" style="padding: 0.25rem" open>
-  <summary class="not-selectable pointer" style="margin-bottom: 0.75rem">
-    Filters (Work in progress)
+  <summary
+    class="not-selectable pointer"
+    style="margin-bottom: 0.75rem; text-align: center; cursor: pointer"
+  >
+    Filters
   </summary>
   <div
     style="
@@ -22,24 +24,27 @@
         <strong>include</strong>
       </div>
       <div id="includedTagsList" class="tagsList">
-        <Dropdown {tags} />
+        <DropdownInclude />
       </div>
     </div>
+
+    <div style="background-color: darkgray; width: 2px;"></div>
+
     <div style="display: flex; flex-direction: column;">
       <div id="excludeLabel" class="filterLabel">
         <strong>exclude</strong>
       </div>
       <div id="includedTagsList" class="tagsList">
-        <Dropdown {tags} />
+        <DropdownExclude />
       </div>
     </div>
   </div>
 </details>
 
 <style>
-  details {
-    width: 80%;
+  details[open] {
     margin: auto;
+    padding: 1rem;
   }
   .tagsList {
     display: flex;
@@ -47,5 +52,9 @@
     column-gap: 0.5rem;
     flex-wrap: wrap;
     line-height: 1.2;
+  }
+  #includeLabel {
+    display: flex;
+    justify-content: end;
   }
 </style>

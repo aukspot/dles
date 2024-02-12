@@ -4,9 +4,8 @@
 </script>
 
 <div class="app">
-  <Header />
-
   <main>
+    <Header />
     <slot />
   </main>
 </div>
@@ -24,8 +23,9 @@
     flex-direction: column;
     padding: 1rem;
     width: 100%;
-    max-width: 80rem;
+    max-width: 60rem;
     margin: 0 auto;
     box-sizing: border-box;
+    position: relative;
   }
 </style>

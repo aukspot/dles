@@ -1,13 +1,13 @@
 <script>
   import FilterTagGroup from "./FilterTagGroup.svelte";
-  export let tags;
+  export let tags = ["maps"];
 </script>
 
 <div class="dropdownContainer">
-  <label for="checkbox" class="not-selectable pointer addButton">
+  <label for="checkboxExclude" class="not-selectable pointer addButton">
     <div class="plusButton">+ add tag</div>
   </label>
-  <input id="checkbox" class="filterCheckbox" type="checkbox" />
+  <input id="checkboxExclude" class="filterCheckbox" type="checkbox" />
   <div id="includedTagsChoices" class="dropdown">
     <FilterTagGroup {tags} />
   </div>
@@ -25,12 +25,7 @@
     justify-content: center;
     padding: 0.5rem;
   }
-  .plusButton {
-    background-color: var(--color-card-bg-1);
-    border-color: darkgray;
-    padding: 0.3rem 0.6rem;
-    cursor: pointer;
-  }
+
   .dropdownContainer {
     position: relative;
   }
