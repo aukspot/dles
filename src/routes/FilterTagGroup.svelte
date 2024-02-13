@@ -2,11 +2,12 @@
   import FilterTag from "./FilterTag.svelte";
 
   export let tags;
+  export let type;
 </script>
 
 <div>
   {#each tags as name}
-    <FilterTag {name}></FilterTag>
+    <FilterTag {name} {type}></FilterTag>
   {/each}
 </div>
 

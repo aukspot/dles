@@ -1,12 +1,12 @@
 <script>
-  import DleTag from "./DleTag.svelte";
+  import FilterTag from "./FilterTag.svelte";
 
   export let tags;
 </script>
 
 <div>
   {#each tags as name}
-    <DleTag {name}></DleTag>
+    <FilterTag {name} type="include"></FilterTag>
   {/each}
 </div>
 

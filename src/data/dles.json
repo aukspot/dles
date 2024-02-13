@@ -261,7 +261,8 @@
     "description": "Fill out the grid with soccer players matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "soccer"
+      "soccer",
+      "sports"
     ]
   },
   {
@@ -270,7 +271,8 @@
     "description": "Fill out the grid with baseball players matching the criteria of both their row and column.",
     "tags": [
       "baseball",
-      "daily"
+      "daily",
+      "sports"
     ]
   },
   {
@@ -279,7 +281,8 @@
     "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
-      "daily"
+      "daily",
+      "sports"
     ]
   },
   {
@@ -288,7 +291,8 @@
     "description": "Fill out the grid with pro football players matching the criteria of both their row and column.",
     "tags": [
       "daily",
-      "football"
+      "football",
+      "sports"
     ]
   },
   {
@@ -297,7 +301,8 @@
     "description": "Fill out the grid with women's basketball players matching the criteria of both their row and column.",
     "tags": [
       "basketball",
-      "daily"
+      "daily",
+      "sports"
     ]
   },
   {
@@ -327,7 +332,8 @@
     "tags": [
       "baseball",
       "daily",
-      "guessing"
+      "guessing",
+      "sports"
     ]
   },
   {
@@ -346,6 +352,15 @@
     "tags": [
       "daily",
       "movies"
+    ]
+  },
+  {
+    "name": "NYT Mini Crossword",
+    "url": "https://www.nytimes.com/crosswords/game/mini",
+    "description": "A very small crossword puzzle by the New York Times.",
+    "tags": [
+      "daily",
+      "words"
     ]
   },
   {

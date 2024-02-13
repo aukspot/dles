@@ -1,6 +1,10 @@
 <script>
-  import DropdownInclude from "./DropdownInclude.svelte";
-  import DropdownExclude from "./DropdownExclude.svelte";
+  import Dropdown from "./Dropdown.svelte";
+  import FilterTagGroup from "./FilterTagGroup.svelte";
+  import { tagNames, tags } from "../stores";
+
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
 </script>
 
 <details id="filterDetails" style="padding: 0.25rem" open>
@@ -23,8 +27,10 @@
       <div id="includeLabel" class="filterLabel">
         <strong>include</strong>
       </div>
+      <FilterTagGroup tags={includedTags} type="include" />
+
       <div id="includedTagsList" class="tagsList">
-        <DropdownInclude />
+        <Dropdown type="include" />
       </div>
     </div>
 
@@ -34,8 +40,10 @@
       <div id="excludeLabel" class="filterLabel">
         <strong>exclude</strong>
       </div>
-      <div id="includedTagsList" class="tagsList">
-        <DropdownExclude />
+      <FilterTagGroup tags={excludedTags} type="exclude" />
+
+      <div id="excludedTagsList" class="tagsList">
+        <Dropdown type="exclude" />
       </div>
     </div>
   </div>
@@ -43,7 +51,7 @@
 
 <style>
   details[open] {
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
   }
   .tagsList {

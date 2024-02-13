@@ -29,6 +29,26 @@
 	font-family: var(--font-body);
 }
 
+.play:hover, .themeButton:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.play:active, .themeButton:active {
+	transform: scale(0.95);
+	transition: transform 0.3s;
+}
+
+.filterTag {
+	color: var(--color-text-lightmode);
+    font-size: 0.8rem;
+    font-family: var(--font-mono);
+    padding: 0.1rem 0.3rem;
+    border: 1px solid var(--color-bg-darkmode);
+    cursor: pointer;
+}
+
 .not-selectable {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;

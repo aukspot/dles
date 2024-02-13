@@ -67,13 +67,4 @@
     background-color: var(--color-bg);
     color: var(--color-text);
   }
-  .play:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  .play:active {
-    transform: scale(0.95);
-    transition: transform 0.3s;
-  }
 </style>

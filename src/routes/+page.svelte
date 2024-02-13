@@ -2,16 +2,49 @@
   import DleCard from "./DleCard.svelte";
   import dles_json from "../data/dles.json";
   import Filters from "./Filters.svelte";
-  import { dles, filteredDles, allTags } from "../stores";
+  import { dles, tagNames, tags } from "../stores";
 
-  $dles = dles_json;
-  $filteredDles = dles_json;
+  function initializeDles() {
+    $dles = dles_json;
+    for (let dle of $dles) {
+      dle.hidden = false;
+    }
+  }
 
-  $allTags = $dles
-    .map((dle) => dle.tags)
-    .flat()
-    .filter((x, i, a) => a.indexOf(x) == i)
-    .sort();
+  function initializeTags() {
+    $tagNames = $dles
+      .map((dle) => dle.tags)
+      .flat()
+      .filter((x, i, a) => a.indexOf(x) == i)
+      .sort();
+
+    $tags = {};
+    for (let tag_name of $tagNames) {
+      $tags[tag_name] = {
+        included: false,
+        excluded: false,
+      };
+    }
+  }
+
+  initializeDles();
+  initializeTags();
+
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
+
+  $: filteredDles = $dles.filter((dle) => {
+    let result = false;
+    if (includedTags.every((tag) => dle.tags.includes(tag))) {
+      result = true;
+    }
+    if (excludedTags.some((tag) => dle.tags.includes(tag))) {
+      result = false;
+    }
+    return result;
+  });
 </script>
 
 <svelte:head>
@@ -24,10 +57,16 @@
 
 <h1>The Dles</h1>
 <p>"...they're anything but."</p>
+<p>A filterable collection of free web games, created by @aukspot.</p>
+
 <Filters />
-<h2>{$filteredDles.length} dles</h2>
+
+<h2>{filteredDles.length} dles</h2>
+{#if hasFilters}
+  <button>Clear filters</button>
+{/if}
 <ol>
-  {#each $filteredDles as dle, i}
+  {#each filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
   {/each}
 </ol>

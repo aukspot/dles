@@ -9,7 +9,7 @@
   }
 </script>
 
-<button on:click={toggle}>
+<button class="themeButton" on:click={toggle}>
   <IconLightbulb />
 </button>
 
