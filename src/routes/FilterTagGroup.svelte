@@ -15,7 +15,7 @@
     </div>
   {:else}
     {#each tags as name}
-      <FilterTag {name} {type}></FilterTag>
+      <FilterTag {name} {type} {inDropdown}></FilterTag>
     {/each}
   {/if}
 </div>

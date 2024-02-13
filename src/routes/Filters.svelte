@@ -27,7 +27,7 @@
       <div id="includeLabel" class="filterLabel">
         <strong>include</strong>
       </div>
-      <FilterTagGroup tags={includedTags} type="include" />
+      <FilterTagGroup tags={includedTags} type="include" inDropdown={false} />
       <div id="includedTagsList" class="tagsList">
         <Dropdown type="include" />
       </div>
@@ -39,7 +39,7 @@
       <div id="excludeLabel" class="filterLabel">
         <strong>exclude</strong>
       </div>
-      <FilterTagGroup tags={excludedTags} type="exclude" />
+      <FilterTagGroup tags={excludedTags} type="exclude" inDropdown={false} />
 
       <div id="excludedTagsList" class="tagsList">
         <Dropdown type="exclude" />
