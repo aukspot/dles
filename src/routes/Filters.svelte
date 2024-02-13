@@ -80,4 +80,9 @@
   #excludedTagsList {
     position: relative;
   }
+  @media (max-width: 450px) {
+    .filterSection {
+      max-width: 140px;
+    }
+  }
 </style>
