@@ -258,7 +258,7 @@
   {
     "name": "Immaculate Footy",
     "url": "https://www.immaculategrid.com/hockey",
-    "description": "Fill out the grid with soccer players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with soccer players matching the criteria of each cell's row and column.",
     "tags": [
       "daily",
       "soccer",
@@ -268,7 +268,7 @@
   {
     "name": "Immaculate Grid: Baseball",
     "url": "https://www.immaculategrid.com/",
-    "description": "Fill out the grid with baseball players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with baseball players matching the criteria of each cell's row and column.",
     "tags": [
       "baseball",
       "daily",
@@ -278,7 +278,7 @@
   {
     "name": "Immaculate Grid: Men's Basketball",
     "url": "https://www.immaculategrid.com/basketball/mens",
-    "description": "Fill out the grid with men's basketball players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with men's basketball players matching the criteria of each cell's row and column.",
     "tags": [
       "basketball",
       "daily",
@@ -288,7 +288,7 @@
   {
     "name": "Immaculate Grid: Pro Football",
     "url": "https://www.immaculategrid.com/football",
-    "description": "Fill out the grid with pro football players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with pro football players matching the criteria of each cell's row and column.",
     "tags": [
       "daily",
       "football",
@@ -298,7 +298,7 @@
   {
     "name": "Immaculate Grid: Women's Basketball",
     "url": "https://www.immaculategrid.com/basketball/womens",
-    "description": "Fill out the grid with women's basketball players matching the criteria of both their row and column.",
+    "description": "Fill out the grid with women's basketball players matching the criteria of each cell's row and column.",
     "tags": [
       "basketball",
       "daily",
@@ -339,7 +339,7 @@
   {
     "name": "Movie Grid",
     "url": "https://moviegrid.io/",
-    "description": "Fill out the grid with movies matching the criteria of both their row and column.",
+    "description": "Fill out the grid with movies matching the criteria of each cell's row and column.",
     "tags": [
       "daily",
       "movies"
@@ -380,6 +380,15 @@
     "tags": [
       "daily",
       "guessing",
+      "video games"
+    ]
+  },
+  {
+    "name": "Pokedoku",
+    "url": "https://pokedoku.com/",
+    "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
+    "tags": [
+      "daily",
       "video games"
     ]
   },
@@ -448,6 +457,7 @@
     "tags": [
       "audio",
       "daily",
+      "guessing",
       "music"
     ]
   },

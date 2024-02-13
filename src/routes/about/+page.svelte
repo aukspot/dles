@@ -1,8 +1,3 @@
-<script>
-  import dles from "../../data/dles.json";
-  console.log(dles);
-</script>
-
 <svelte:head>
   <title>About</title>
   <meta name="description" content="About this app" />

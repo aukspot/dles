@@ -4,7 +4,7 @@
 	--font-body: sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 
-	--color-bg-lightmode: rgb(253, 253, 253);
+	--color-bg-lightmode: rgb(249, 249, 249);
 	--color-bg-darkmode: #313338;
 	--color-bg: var(--color-bg-darkmode);
 
@@ -30,14 +30,14 @@
 }
 
 .play:hover, .themeButton:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 	cursor: pointer;
-	transition: transform 0.3s;
+	/* transition: transform 0.3s; */
 }
 
 .play:active, .themeButton:active {
 	transform: scale(0.95);
-	transition: transform 0.3s;
+	/* transition: transform 0.3s; */
 }
 
 .filterTag {

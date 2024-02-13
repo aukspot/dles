@@ -5,7 +5,7 @@
   export let type;
 </script>
 
-<div>
+<div class="filterTags-{type}">
   {#each tags as name}
     <FilterTag {name} {type}></FilterTag>
   {/each}
@@ -18,5 +18,8 @@
     column-gap: 0.5rem;
     flex-wrap: wrap;
     line-height: 1.2;
+  }
+  .filterTags-include {
+    justify-content: end;
   }
 </style>

@@ -1,6 +1,7 @@
 <script>
   import FilterTagGroup from "./FilterTagGroup.svelte";
-  import { filteredDles, tagNames, tags } from "../stores";
+  import { filteredDles, tags } from "../stores";
+  import { clickOutside } from "./clickOutside.js";
 
   export let type;
 
@@ -20,14 +21,48 @@
       dropdownTags = tagsOnPage.filter((tagName) => !$tags[tagName].excluded);
     }
   }
+
+  let checked = false;
+
+  function handleClickOutsideDropdown(event) {
+    checked = false;
+    console.log(`click outside dropdown-${type}`);
+  }
+  function handleClickInsideDropdown(event) {
+    if (event.target.classList.contains("filterTag")) {
+      checked = false;
+    }
+    console.log(`click inside dropdown-${type}`);
+  }
+  function handleDocumentClick(event) {
+    // if (event.)
+  }
+  function handleKeyUp(event) {
+    console.log(event.key);
+    if (event.key == "Escape") {
+      checked = false;
+    }
+  }
 </script>
 
+<svelte:document on:keyup={handleKeyUp} on:click={handleDocumentClick} />
 <div class="dropdownContainer">
   <label for="checkbox-{type}" class="not-selectable pointer addButton">
-    <div class="plusButton">+ add tag</div>
+    <div class="flex-end plusButton">+ add tag</div>
   </label>
-  <input id="checkbox-{type}" class="filterCheckbox" type="checkbox" />
-  <div id="includedTagsChoices" class="dropdown">
+  <input
+    id="checkbox-{type}"
+    class="filterCheckbox"
+    type="checkbox"
+    bind:checked
+  />
+  <!-- svelte-ignore a11y-no-static-element-interactions -->
+  <!-- svelte-ignore a11y-click-events-have-key-events -->
+  <div
+    id="includedTagsChoices"
+    class="dropdown"
+    on:click={handleClickInsideDropdown}
+  >
     <FilterTagGroup tags={dropdownTags} {type} />
   </div>
 </div>
@@ -39,28 +74,49 @@
   .filterCheckbox:checked + div {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    width: 50%;
+    gap: 0.75rem;
+    width: 200px;
     justify-content: center;
-    padding: 0.5rem;
+    padding: 0.75rem;
+    top: 2.25rem;
   }
-  /* .dropdownContainer { */
-  /* position: relative; */
-  /* } */
+
+  #checkbox-include:checked + div {
+    right: -0.75rem;
+  }
+
+  #checkbox-exclude:checked + div {
+    left: -0.75rem;
+  }
+
   :global(.dropdown) {
     display: none;
     list-style: none;
     width: 30rem;
   }
   .dropdown {
-    /* display: flex; */
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
     position: absolute;
-    width: 100px;
     background-color: var(--color-bg);
-    /* margin: 0; */
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+  }
+  .flex-end {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+
+  @media (max-width: 450px) {
+    .filterCheckbox:checked + div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      width: 150px;
+      justify-content: center;
+      padding: 0.75rem;
+      top: 2.25rem;
+    }
   }
 </style>

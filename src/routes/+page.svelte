@@ -108,9 +108,10 @@
   }
 
   #clearFiltersButton {
-    padding: 0.5rem;
-    width: 50%;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
     margin: 0 auto;
+    margin-top: 0.5rem;
   }
 
   .divider {

@@ -63,8 +63,11 @@
   }
   .play {
     font-size: 1rem;
-    padding: 0.3rem 0.6rem;
+    padding: 0.4rem 0.8rem;
     background-color: var(--color-bg);
     color: var(--color-text);
+    border-radius: 0.3rem;
+    /* border: none; */
+    border: 2px solid darkgray;
   }
 </style>

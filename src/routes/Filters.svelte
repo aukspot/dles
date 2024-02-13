@@ -23,12 +23,11 @@
         line-height: 1;
       "
   >
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; gap: 5px;">
       <div id="includeLabel" class="filterLabel">
         <strong>include</strong>
       </div>
       <FilterTagGroup tags={includedTags} type="include" />
-
       <div id="includedTagsList" class="tagsList">
         <Dropdown type="include" />
       </div>
@@ -36,7 +35,7 @@
 
     <div style="background-color: darkgray; width: 2px;"></div>
 
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; gap: 5px;">
       <div id="excludeLabel" class="filterLabel">
         <strong>exclude</strong>
       </div>
@@ -64,5 +63,12 @@
   #includeLabel {
     display: flex;
     justify-content: end;
+  }
+  #includedTagsList {
+    position: relative;
+    justify-content: end;
+  }
+  #excludedTagsList {
+    position: relative;
   }
 </style>
