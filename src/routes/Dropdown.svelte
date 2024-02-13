@@ -30,12 +30,12 @@
   }
   function handleClickInsideDropdown(event) {
     if (event.target.classList.contains("filterTag")) {
-      checked = false;
+      // checked = false;
     }
     console.log(`click inside dropdown-${type}`);
   }
   function handleDocumentClick(event) {
-    // if (event.)
+    // if (!event.target.classList.contains(""))
   }
   function handleKeyUp(event) {
     console.log(event.key);
@@ -48,7 +48,7 @@
 <svelte:document on:keyup={handleKeyUp} on:click={handleDocumentClick} />
 <div class="dropdownContainer">
   <label for="checkbox-{type}" class="not-selectable pointer addButton">
-    <div class="flex-end plusButton">+ add tag</div>
+    <div class="flex-end filterButton">+ add tag</div>
   </label>
   <input
     id="checkbox-{type}"
@@ -63,7 +63,7 @@
     class="dropdown"
     on:click={handleClickInsideDropdown}
   >
-    <FilterTagGroup tags={dropdownTags} {type} />
+    <FilterTagGroup tags={dropdownTags} {type} inDropdown={true} />
   </div>
 </div>
 
@@ -78,15 +78,16 @@
     width: 200px;
     justify-content: center;
     padding: 0.75rem;
-    top: 2.25rem;
+    top: 2.5rem;
+    border-radius: 0.15rem;
   }
 
   #checkbox-include:checked + div {
-    right: -0.75rem;
+    right: -0.82rem;
   }
 
   #checkbox-exclude:checked + div {
-    left: -0.75rem;
+    left: -0.78rem;
   }
 
   :global(.dropdown) {
@@ -98,9 +99,10 @@
     /* padding-left: 0.5rem; */
     position: absolute;
     background-color: var(--color-bg);
-    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.75);
+    border: 1px solid var(--color-text);
+    /* box-shadow: 1px 1px 6px 2px var(--color-text);
+    -webkit-box-shadow: 1px 1px 6px 2px var(--color-text);
+    -moz-box-shadow: 1px 1px 6px 2px var(--color-text); */
   }
   .flex-end {
     display: flex;

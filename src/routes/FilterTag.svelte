@@ -17,3 +17,9 @@
 >
   {name}
 </button>
+
+<style>
+  button {
+    padding: 0.3rem 0.4rem;
+  }
+</style>

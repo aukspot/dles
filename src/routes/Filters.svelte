@@ -10,7 +10,7 @@
 <details id="filterDetails" style="padding: 0.25rem" open>
   <summary
     class="not-selectable pointer"
-    style="margin-bottom: 0.75rem; text-align: center; cursor: pointer"
+    style="margin-bottom: 0.75rem; text-align: center; cursor: pointer; font-size: 1.2rem;"
   >
     Filters
   </summary>
@@ -23,7 +23,7 @@
         line-height: 1;
       "
   >
-    <div style="display: flex; flex-direction: column; gap: 5px;">
+    <div class="filterSection">
       <div id="includeLabel" class="filterLabel">
         <strong>include</strong>
       </div>
@@ -35,7 +35,7 @@
 
     <div style="background-color: darkgray; width: 2px;"></div>
 
-    <div style="display: flex; flex-direction: column; gap: 5px;">
+    <div class="filterSection">
       <div id="excludeLabel" class="filterLabel">
         <strong>exclude</strong>
       </div>
@@ -59,6 +59,15 @@
     column-gap: 0.5rem;
     flex-wrap: wrap;
     line-height: 1.2;
+  }
+  .filterLabel {
+    font-size: 1.1rem;
+  }
+  .filterSection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 220px;
   }
   #includeLabel {
     display: flex;

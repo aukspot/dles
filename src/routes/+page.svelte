@@ -66,13 +66,20 @@
 
 <h1>The Dles</h1>
 <p>"...they're anything but."</p>
-<p>A filterable collection of free web games, created by @aukspot.</p>
+<p>A filterable collection of free web games.</p>
 <div class="divider"></div>
 <Filters />
 {#if hasFilters}
-  <button id="clearFiltersButton" on:click={clearFilters}>Clear filters</button>
+  <button id="clearFiltersButton" class="filterButton" on:click={clearFilters}
+    >Clear filters</button
+  >
 {/if}
-<h2>{$filteredDles.length} dles</h2>
+<h2>
+  {$filteredDles.length} dles
+</h2>
+<!-- {#if hasFilters}
+  <p>(filtered)</p>
+{/if} -->
 
 <ol>
   {#each $filteredDles as dle, i}
@@ -93,7 +100,7 @@
   }
 
   p {
-    margin: 0;
+    margin: 0.5rem 0 0 0;
     padding-bottom: 1rem;
   }
 
@@ -112,10 +119,5 @@
     padding: 0.5rem 1rem;
     margin: 0 auto;
     margin-top: 0.5rem;
-  }
-
-  .divider {
-    border-top: 1px solid darkgray;
-    margin-bottom: 0.5rem;
   }
 </style>

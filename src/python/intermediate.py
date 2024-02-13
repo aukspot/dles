@@ -8,7 +8,7 @@ from colour import Color
 
 DLES_FILE = "../data/dles.json"
 TAG_COLORS_FILE = "../data/tag_colors.json"
-
+CHANGELOG_MD = "../data/changelog.json"
 
 def sort_tags():
   backup_file(DLES_FILE)
@@ -76,3 +76,15 @@ def create_tag_colors():
   with open(TAG_COLORS_FILE, "w+") as f:
     f.write(json.dumps(tag_colors, indent=2))
 
+
+def changelog_json_to_md_str():
+  with open(CHANGELOG_MD, 'r') as f:
+    changelog_json = json.loads(f.read())
+
+  result = ""
+  header = "Changelog - The Dles"
+  
+
+def create_changelog_md():
+  changelog_md_str = changelog_json_to_md_str()
+  changelog_md_file = "../../changelog.md"

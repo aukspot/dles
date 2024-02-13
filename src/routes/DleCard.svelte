@@ -6,8 +6,10 @@
 
 <li>
   <div class="left">
-    <div>
-      <span class="not-selectable">{i}. </span>
+    <div
+      style="display: flex; align-items: flex-start; gap:0.25rem; vertical-align: text-top;"
+    >
+      <span class="not-selectable name">{i}. </span>
       <span class="name"><strong>{dle.name}</strong></span>
     </div>
     <div class="description">
@@ -55,7 +57,8 @@
     padding: 0.5rem;
   }
   .name {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
   }
   .description {
     font-size: 1rem;

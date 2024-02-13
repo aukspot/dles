@@ -6,7 +6,7 @@ import copy
 
 
 if __name__ == "__main__":
-    from intermediate import create_tag_colors, sort_tags, sort_dles
+    from intermediate import create_tag_colors, sort_tags, sort_dles, create_changelog_md
     
     sort_tags()
     sort_dles()

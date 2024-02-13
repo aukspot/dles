@@ -1,5 +1,6 @@
 <script>
   import Header from "./Header.svelte";
+  import Changelog from "./Changelog.svelte";
   import "./styles.css";
 </script>
 
@@ -8,6 +9,10 @@
     <Header />
     <slot />
   </main>
+  <footer>
+    <div class="divider"></div>
+    <Changelog />
+  </footer>
 </div>
 
 <style>
@@ -15,6 +20,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: space-between;
   }
 
   main {
@@ -27,5 +33,8 @@
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
+  }
+  footer {
+    padding: 1rem;
   }
 </style>

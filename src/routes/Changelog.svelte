@@ -1,0 +1,42 @@
+<script>
+  import changelog from "../data/changelog.json";
+</script>
+
+<div id="changelogContainer">
+  <details id="changelog" style="padding: 0.25rem">
+    <summary
+      class="not-selectable pointer"
+      style="margin-bottom: 0.75rem; text-align: center; cursor: pointer; font-size: 1.2rem;"
+    >
+      Changelog
+    </summary>
+    <div id="entries">
+      {#each changelog as entry}
+        <div class="entry">
+          <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
+          <section>
+            {entry.description}
+          </section>
+        </div>
+      {/each}
+    </div>
+  </details>
+</div>
+
+<style>
+  #changelogContainer {
+    display: flex;
+    justify-content: center;
+  }
+  details {
+    margin: 1rem;
+  }
+  #entries {
+    display: flex;
+    flex-direction: column;
+  }
+  .entry {
+    display: flex;
+    gap: 0.5rem;
+  }
+</style>

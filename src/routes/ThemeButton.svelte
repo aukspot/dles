@@ -1,15 +1,36 @@
 <script>
   import IconLightbulb from "./IconLightbulb.svelte";
 
-  let isDark = true;
+  const STORAGE_KEY = "theme";
+  const DARK_PREFERENCE = "(prefers-color-scheme: dark)";
 
-  function toggle() {
-    window.document.body.classList.toggle("dark-mode");
-    isDark = window.document.body.classList.contains("dark-mode");
-  }
+  const THEMES = {
+    DARK: "dark",
+    LIGHT: "light",
+  };
+
+  const prefersDarkThemes = () => window.matchMedia(DARK_PREFERENCE).matches;
+
+  const toggleTheme = () => {
+    const stored = localStorage.getItem(STORAGE_KEY);
+
+    if (stored) {
+      localStorage.removeItem(STORAGE_KEY);
+    } else {
+      localStorage.setItem(
+        STORAGE_KEY,
+        prefersDarkThemes() ? THEMES.LIGHT : THEMES.DARK
+      );
+    }
+    applyTheme();
+  };
+
+  const applyTheme = () => {
+    document.body.classList.toggle(THEMES.DARK);
+  };
 </script>
 
-<button class="themeButton" on:click={toggle}>
+<button class="themeButton" on:click={toggleTheme}>
   <IconLightbulb />
 </button>
 
@@ -21,7 +42,7 @@
     border-radius: 4px;
     padding: 0.25rem;
   }
-  :global(body.dark-mode) button {
+  :global(body.dark) button {
     color: var(--color-lightbulb-darkmode);
     background-color: var(--color-lightbulb-lightmode);
   }

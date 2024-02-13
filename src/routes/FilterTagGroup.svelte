@@ -3,12 +3,21 @@
 
   export let tags;
   export let type;
+  export let inDropdown;
 </script>
 
 <div class="filterTags-{type}">
-  {#each tags as name}
-    <FilterTag {name} {type}></FilterTag>
-  {/each}
+  {#if tags.length == 0}
+    <div id="none">
+      {#if inDropdown}
+        No tags remaining
+      {/if}
+    </div>
+  {:else}
+    {#each tags as name}
+      <FilterTag {name} {type}></FilterTag>
+    {/each}
+  {/if}
 </div>
 
 <style>
@@ -21,5 +30,9 @@
   }
   .filterTags-include {
     justify-content: end;
+  }
+  #none {
+    font-size: 0.9rem;
+    /* padding: 0.28rem 0; */
   }
 </style>

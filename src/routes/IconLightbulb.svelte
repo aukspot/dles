@@ -26,7 +26,7 @@
     width: 28px;
     height: 28px;
   }
-  :global(body.dark-mode) svg {
+  :global(body.dark) svg {
     color: var(--color-lightbulb-darkmode);
     background-color: var(--color-lightbulb-lightmode);
   }

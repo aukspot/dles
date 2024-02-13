@@ -34,7 +34,7 @@
 
     transition: background-color 0.3s;
   }
-  :global(body.dark-mode) {
+  :global(body.dark) {
     --color-bg: var(--color-bg-darkmode);
     --color-text: var(--color-text-darkmode);
     --color-lightbulb: var(--color-lightbulb-darkmode);
