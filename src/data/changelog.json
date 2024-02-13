@@ -1,9 +1,5 @@
 [
   {
-    "date": "2024-02-14",
-    "description": "Added an About page."
-  },
-  {
     "date": "2024-02-13",
     "description": "Added initial 57 dles, tags, include/exclude tag filters, and dark mode toggle.",
     "dles added": [
