@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from "svelte";
   import IconLightbulb from "./IconLightbulb.svelte";
 
   const STORAGE_KEY = "theme";
@@ -26,8 +27,17 @@
   };
 
   const applyTheme = () => {
-    document.body.classList.toggle(THEMES.DARK);
+    const preferredTheme = prefersDarkThemes() ? THEMES.DARK : THEMES.LIGHT;
+    let currentTheme = localStorage.getItem(STORAGE_KEY) ?? preferredTheme;
+
+    if (currentTheme == THEMES.DARK) {
+      document.body.classList.add(THEMES.DARK);
+    } else {
+      document.body.classList.remove(THEMES.DARK);
+    }
   };
+
+  onMount(applyTheme);
 </script>
 
 <button class="themeButton" on:click={toggleTheme}>
