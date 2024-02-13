@@ -30,10 +30,15 @@
     const preferredTheme = prefersDarkThemes() ? THEMES.DARK : THEMES.LIGHT;
     let currentTheme = localStorage.getItem(STORAGE_KEY) ?? preferredTheme;
 
-    if (currentTheme == THEMES.DARK) {
+    if (currentTheme && currentTheme == THEMES.DARK) {
       document.body.classList.add(THEMES.DARK);
     } else {
       document.body.classList.remove(THEMES.DARK);
+    }
+
+    // case: no localStorage allowed
+    if (!currentTheme) {
+      document.body.classList.toggle(THEMES.DARK);
     }
   };
 
