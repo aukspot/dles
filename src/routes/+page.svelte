@@ -2,7 +2,7 @@
   import DleCard from "./DleCard.svelte";
   import dles_json from "../data/dles.json";
   import Filters from "./Filters.svelte";
-  import { dles, tagNames, tags } from "../stores";
+  import { dles, filteredDles, tagNames, tags } from "../stores";
 
   function initializeDles() {
     $dles = dles_json;
@@ -35,7 +35,7 @@
 
   $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
 
-  $: filteredDles = $dles.filter((dle) => {
+  $: $filteredDles = $dles.filter((dle) => {
     let result = false;
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
       result = true;
@@ -45,28 +45,37 @@
     }
     return result;
   });
+
+  function clearFilters() {
+    for (let includedTag of includedTags) {
+      $tags[includedTag].included = false;
+    }
+    for (let excludedTag of excludedTags) {
+      $tags[excludedTag].excluded = false;
+    }
+  }
 </script>
 
 <svelte:head>
   <title>The Dles</title>
   <meta
     name="description"
-    content="A curated list of daily games and unlimited games."
+    content="A curated list of free daily games and unlimited games."
   />
 </svelte:head>
 
 <h1>The Dles</h1>
 <p>"...they're anything but."</p>
 <p>A filterable collection of free web games, created by @aukspot.</p>
-
+<div class="divider"></div>
 <Filters />
-
-<h2>{filteredDles.length} dles</h2>
 {#if hasFilters}
-  <button>Clear filters</button>
+  <button id="clearFiltersButton" on:click={clearFilters}>Clear filters</button>
 {/if}
+<h2>{$filteredDles.length} dles</h2>
+
 <ol>
-  {#each filteredDles as dle, i}
+  {#each $filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
   {/each}
 </ol>
@@ -79,9 +88,7 @@
   }
 
   h2 {
-    padding-top: 1rem;
     margin-bottom: 0;
-    border-top: 1px solid darkgray;
     text-decoration: underline;
   }
 
@@ -98,5 +105,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
+  }
+
+  #clearFiltersButton {
+    padding: 0.5rem;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .divider {
+    border-top: 1px solid darkgray;
+    margin-bottom: 0.5rem;
   }
 </style>
