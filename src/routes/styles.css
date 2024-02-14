@@ -12,6 +12,17 @@
 	--color-text-darkmode: rgb(242, 242, 242);
 	--color-text: var(--color-text-darkmode);
 
+	--color-link-lightmode: rgb(29, 104, 173);
+	--color-link-hover-lightmode: rgb(59, 125, 186);
+	--color-link-visited-lightmode: rgb(20, 67, 110);
+	--color-link-darkmode: rgb(120, 181, 237);
+	--color-link-hover-darkmode: rgb(0, 37, 72);
+	--color-link-visited-darkmode: rgb(148, 183, 216);
+	--color-link: var(--color-link-darkmode);
+	--color-link-hover: var(--color-link-hover-darkmode);
+	--color-link-visited: var(--color-link-visited-darkmode);
+
+
 	--color-lightbulb-lightmode: rgb(255, 255, 151);
 	--color-lightbulb-darkmode: rgb(100, 100, 100);
 	--color-lightbulb: var(--color-lightbulb-lightmode);
@@ -27,6 +38,18 @@
 	--color-card-bg-3: var(--color-card-bg-3-darkmode);
 
 	font-family: var(--font-body);
+}
+
+a {
+	color: var(--color-link);
+}
+
+a :hover {
+	color: var(--color-link-hover);
+}
+
+a :visited {
+	color: var(--color-link-visited);
 }
 
 .play:hover, .themeButton:hover {
@@ -70,3 +93,7 @@
 	border-top: 1px solid darkgray;
 	margin-bottom: 0.5rem;
 }
+.showBtn {
+    opacity: 1 !important;
+    transform: translateY(0);
+  }

@@ -397,6 +397,15 @@
     ]
   },
   {
+    "name": "Redactle",
+    "url": "https://redactle.net/",
+    "description": "Guess the Wikipedia article by its content with keywords redacted.",
+    "tags": [
+      "guessing",
+      "words"
+    ]
+  },
+  {
     "name": "Semantle",
     "url": "https://semantle.com/",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",

@@ -14,9 +14,7 @@
       {#each changelog as entry}
         <div class="entry">
           <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
-          <section>
-            {entry.description}
-          </section>
+          <section>{@html entry.description}</section>
         </div>
       {/each}
     </div>
@@ -27,6 +25,7 @@
   #changelogContainer {
     display: flex;
     justify-content: center;
+    font-size: 0.9rem;
   }
   details {
     margin: 1rem;
@@ -34,6 +33,7 @@
   #entries {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
   }
   .entry {
     display: flex;

@@ -24,6 +24,7 @@
   :global(body) {
     --color-bg: var(--color-bg-lightmode);
     --color-text: var(--color-text-lightmode);
+    --color-link: var(--color-link-lightmode);
     --color-lightbulb: var(--color-lightbulb-lightmode);
     --color-card-bg-1: var(--color-card-bg-1-lightmode);
     --color-card-bg-2: var(--color-card-bg-2-lightmode);
@@ -37,6 +38,9 @@
   :global(body.dark) {
     --color-bg: var(--color-bg-darkmode);
     --color-text: var(--color-text-darkmode);
+    --color-link: var(--color-link-darkmode);
+    --color-link-hover: var(--color-link-hover-darkmode);
+    --color-link-visited: var(--color-link-visited-darkmode);
     --color-lightbulb: var(--color-lightbulb-darkmode);
     --color-card-bg-1: var(--color-card-bg-1-darkmode);
     --color-card-bg-2: var(--color-card-bg-2-darkmode);

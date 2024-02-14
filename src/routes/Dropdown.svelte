@@ -114,7 +114,7 @@
     align-items: flex-end;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 600px) {
     .filterCheckbox:checked + div {
       display: flex;
       flex-wrap: wrap;
