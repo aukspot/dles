@@ -257,7 +257,7 @@
   },
   {
     "name": "Immaculate Footy",
-    "url": "https://www.immaculategrid.com/hockey",
+    "url": "https://www.immaculatefooty.com",
     "description": "Fill out the grid with soccer players matching the criteria of each cell's row and column.",
     "tags": [
       "daily",
@@ -272,6 +272,16 @@
     "tags": [
       "baseball",
       "daily",
+      "sports"
+    ]
+  },
+  {
+    "name": "Immaculate Grid: Hockey",
+    "url": "https://www.immaculategrid.com/hockey",
+    "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
+    "tags": [
+      "daily",
+      "hockey",
       "sports"
     ]
   },
