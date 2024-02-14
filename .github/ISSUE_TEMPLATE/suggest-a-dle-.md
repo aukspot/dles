@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-# New dle suggestion(s)
-
 * name:
 * url: [<url>](<url>)
 * description: (optional)
