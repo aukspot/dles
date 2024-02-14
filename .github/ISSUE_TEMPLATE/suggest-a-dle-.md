@@ -11,4 +11,4 @@ assignees: ''
 
 * url: [<url>](<url>)
 * description: (optional)
-* tags: [tag1, tag2] (optional)
+* tags: [tag1, tag2, etc.] (optional)
