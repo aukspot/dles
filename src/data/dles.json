@@ -123,6 +123,7 @@
     "description": "Solve multiple Wordle puzzles crossed together.",
     "tags": [
       "daily",
+      "guessing",
       "wordle",
       "words"
     ]
@@ -573,6 +574,7 @@
     "description": "Solve Wordle puzzles of various sizes.",
     "tags": [
       "daily",
+      "guessing",
       "wordle",
       "words"
     ]
