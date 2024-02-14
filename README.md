@@ -16,6 +16,7 @@ View the app [here](https://aukspot.github.io/dles/).
 ### Planned
 
 - Ability to hide/show given dles.
+- Ability to randomly choose `n` dles from the filtered dles.
 - URL parameters:
   - to load filters.
   - to load an exact list of dles. (each dle must be in `dles.json`)
@@ -77,7 +78,7 @@ Ideally, this part would be ran automatically before building the project, but I
 
 ### Development
 
-The app is written in Svelte with SvelteKit.
+The app is written in Svelte with SvelteKit. You will need to have `npm` installed.
 
 To get started, clone the repository and go into the project's folder.
 
