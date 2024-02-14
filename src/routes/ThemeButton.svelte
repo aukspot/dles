@@ -24,9 +24,11 @@
   const prefersDarkThemes = () => window.matchMedia(DARK_PREFERENCE).matches;
 
   const toggleTheme = () => {
-    const stored = isLocalStorageAvailable()
-      ? localStorage.getItem(STORAGE_KEY)
-      : "";
+    if (!isLocalStorageAvailable()) {
+      applyTheme();
+      return;
+    }
+    const stored = localStorage.getItem(STORAGE_KEY);
 
     if (stored) {
       localStorage.removeItem(STORAGE_KEY);

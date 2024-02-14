@@ -25,20 +25,22 @@
   let checked = false;
 
   function handleClickOutsideDropdown(event) {
+    if (event.target.classList.contains("filterButton")) {
+      if (checked) {
+        checked = false;
+      }
+    }
     checked = false;
-    console.log(`click outside dropdown-${type}`);
   }
   function handleClickInsideDropdown(event) {
     if (event.target.classList.contains("filterTag")) {
-      // checked = false;
+      checked = false;
     }
-    console.log(`click inside dropdown-${type}`);
   }
   function handleDocumentClick(event) {
     // if (!event.target.classList.contains(""))
   }
   function handleKeyUp(event) {
-    console.log(event.key);
     if (event.key == "Escape") {
       checked = false;
     }
@@ -62,6 +64,8 @@
     id="includedTagsChoices"
     class="dropdown"
     on:click={handleClickInsideDropdown}
+    use:clickOutside
+    on:click_outside={handleClickOutsideDropdown}
   >
     <FilterTagGroup tags={dropdownTags} {type} inDropdown={true} />
   </div>

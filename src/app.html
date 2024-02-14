@@ -8,8 +8,20 @@
   </head>
   <body data-sveltekit-preload-data="hover">
     <script>
-      const theme = localStorage.getItem("theme");
-      if (theme && theme == "dark") document.body.classList.add("dark");
+      function isLocalStorageAvailable() {
+        var test = "test";
+        try {
+          localStorage.setItem(test, test);
+          localStorage.removeItem(test);
+          return true;
+        } catch (e) {
+          return false;
+        }
+      }
+      if (isLocalStorageAvailable()) {
+        const theme = localStorage.getItem("theme");
+        if (theme && theme == "dark") document.body.classList.add("dark");
+      }
     </script>
 
     <div style="display: contents">%sveltekit.body%</div>

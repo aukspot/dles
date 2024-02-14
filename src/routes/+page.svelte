@@ -66,7 +66,7 @@
 
 <h1>The Dles</h1>
 <p>"...they're anything but."</p>
-<p>A filterable collection of free web games.</p>
+<p>A curated collection of free web games.</p>
 <div class="divider"></div>
 <Filters />
 {#if hasFilters}
@@ -77,9 +77,6 @@
 <h2>
   {$filteredDles.length} dles
 </h2>
-<!-- {#if hasFilters}
-  <p>(filtered)</p>
-{/if} -->
 
 <ol>
   {#each $filteredDles as dle, i}
@@ -88,6 +85,9 @@
 </ol>
 
 <style>
+  h1 {
+    font-family: "Courier New", Courier, monospace;
+  }
   h1,
   h2,
   p {
