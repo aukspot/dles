@@ -9,6 +9,6 @@ assignees: ''
 
 # New dle suggestion
 
-* url: [url](url)
+* url: [<url>](<url>)
 * description: (optional)
 * tags: [tag1, tag2] (optional)
