@@ -60,13 +60,18 @@
   <title>The Dles</title>
   <meta
     name="description"
-    content="A curated list of free daily games and unlimited games."
+    content="A curated collection of free daily games."
   />
+  <meta
+    name="keywords"
+    content="list, collection, links, games, daily, dles, wordle"
+  />
+  <meta name="author" content="aukspot" />
 </svelte:head>
 
 <h1>The Dles</h1>
 <p>"...they're anything but."</p>
-<p>A curated collection of free web games.</p>
+<p>A curated collection of daily games.</p>
 <div class="divider"></div>
 <Filters />
 {#if hasFilters}

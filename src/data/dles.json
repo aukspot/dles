@@ -1,5 +1,16 @@
 [
   {
+    "name": "Archiguessr",
+    "url": "https://archiguesser.com/",
+    "description": "Guess the name of the architecture, given a series of pictures.",
+    "tags": [
+      "architecture",
+      "archive",
+      "guessing",
+      "pictures"
+    ]
+  },
+  {
     "name": "Bandle",
     "url": "https://bandle.app/",
     "description": "Guess the song, one instrument at a time (sort of).",
@@ -21,8 +32,9 @@
   {
     "name": "Chronophoto",
     "url": "https://www.chronophoto.app/",
-    "description": "Guess the year in which each picture was taken.",
+    "description": "Guess the year in which each historical picture was taken.",
     "tags": [
+      "history",
       "pictures",
       "time"
     ]
@@ -32,6 +44,7 @@
     "url": "https://www.cinenerdle2.app/",
     "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Original and Reversal.",
     "tags": [
+      "archive",
       "movies"
     ]
   },
@@ -57,6 +70,7 @@
     "url": "https://conexo.ws/en/daily",
     "description": "Form groups of 4 words that have something in common.",
     "tags": [
+      "archive",
       "guessing",
       "words"
     ]
@@ -74,6 +88,7 @@
     "url": "https://contexto.me/",
     "description": "Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.",
     "tags": [
+      "archive",
       "guessing",
       "words"
     ]
@@ -110,6 +125,7 @@
     "url": "https://crosswordle.org/",
     "description": "Solve multiple Wordle puzzles crossed together.",
     "tags": [
+      "archive",
       "guessing",
       "wordle",
       "words"
@@ -121,6 +137,16 @@
     "description": "Answer 9 trivia questions from various categories.",
     "tags": [
       "trivia"
+    ]
+  },
+  {
+    "name": "Daydle",
+    "url": "https://daydle.com/",
+    "description": "Given an event that happened on today's month/day, guess the year in which the event occurred.",
+    "tags": [
+      "guessing",
+      "history",
+      "time"
     ]
   },
   {
@@ -147,6 +173,7 @@
     "url": "https://framed.wtf/",
     "description": "Guess the movie from 6 frames.",
     "tags": [
+      "archive",
       "guessing",
       "movies",
       "pictures"
@@ -320,6 +347,15 @@
     ]
   },
   {
+    "name": "Nerdle",
+    "url": "https://nerdlegame.com/",
+    "description": "Guess the secret arithmetic equation.",
+    "tags": [
+      "guessing",
+      "math"
+    ]
+  },
+  {
     "name": "NYT Mini Crossword",
     "url": "https://www.nytimes.com/crosswords/game/mini",
     "description": "A very small crossword puzzle by the New York Times.",
@@ -397,6 +433,14 @@
     ]
   },
   {
+    "name": "Quizl",
+    "url": "https://quizl.io/",
+    "description": "Answer today's trivia questions.",
+    "tags": [
+      "trivia"
+    ]
+  },
+  {
     "name": "Redactle",
     "url": "https://redactle.net/",
     "description": "Guess the Wikipedia article by its content with keywords redacted.",
@@ -449,6 +493,7 @@
     "description": "Guess the right time and location of each historical photo.",
     "tags": [
       "geography",
+      "history",
       "maps",
       "pictures",
       "time"
@@ -497,6 +542,16 @@
     "url": "https://wordwaffle.org/",
     "description": "Move letters to create words both horizontally and vertically.",
     "tags": [
+      "wordle",
+      "words"
+    ]
+  },
+  {
+    "name": "WordAll",
+    "url": "https://wordall.xyz/",
+    "description": "Guess all of the Wordle words, given the starting clues.",
+    "tags": [
+      "guessing",
       "wordle",
       "words"
     ]

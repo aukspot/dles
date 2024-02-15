@@ -1,16 +1,21 @@
 [
   {
     "date": "2024-02-14",
-    "description": "Added a proper <a href=\"https://github.com/aukspot/dles/blob/main/README.md\" target=\"_blank\">README</a>. Removed daily and unlimited tags for simplicity. Added archive tag.",
+    "description": "Added a proper <a href=\"https://github.com/aukspot/dles/blob/main/README.md\" target=\"_blank\">README</a>. <br>Removed daily and unlimited tags for simplicity. <br>Added archive tag. <br>7 dles added, 1 removed.",
     "dles added": [
+      { "name": "Archiguessr", "url": "https://archiguesser.com/" },
+      { "name": "Daydle", "url": "https://daydle.com/" },
       {
         "name": "Immaculate Grid: Hockey",
         "url": "https://www.immaculategrid.com/hockey"
       },
+      { "name": "Nerdle", "url": "https://nerdlegame.com/" },
+      { "name": "Quizl", "url": "https://quizl.io/" },
       {
         "name": "Redactle",
         "url": "https://redactle.net/"
-      }
+      },
+      { "name": "WordAll", "url": "https://wordall.xyz/" }
     ],
     "dles removed": [
       {
@@ -21,7 +26,7 @@
   },
   {
     "date": "2024-02-13",
-    "description": "Added initial 57 dles, tags, include/exclude tag filters, and dark mode toggle.",
+    "description": "Added tags with include/exclude filters.<br>Added dark mode toggle.<br>57 dles added.",
     "dles added": [
       {
         "name": "Bandle",

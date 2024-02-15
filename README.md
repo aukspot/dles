@@ -11,19 +11,24 @@ View the app [here](https://aukspot.github.io/dles/).
 ### Current
 
 - Tag system that allows for easy filtering.
-- Filter dles easily by adding tags to include or exclude.
+- Filter dles by adding tags to include or exclude.
 
 ### Planned
 
-- Ability to hide/show given dles.
+- Option for a more compact view of dles list.
+- Option to hide/show given dles.
 - Ability to randomly choose `n` dles from the filtered dles.
 - URL parameters:
   - to load filters.
-  - to load an exact list of dles. (each dle must be in `dles.json`)
+  - to load an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/data/dles.json))
 
 ### Suggest a feature
 
 You can suggest a feature by [submitting a feature request](https://github.com/aukspot/dles/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
+
+## Bugs
+
+If you run into a bug, please [submit a bug report](https://github.com/aukspot/dles/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=).
 
 ## Contributing
 
@@ -33,7 +38,7 @@ If you want to get your hands dirty, you can clone the repository and choose one
 
 ### Adding dles the hard way
 
-In order to add a dle, we need to clone the repo, edit `dles.json`, and run the python script `main.py`.
+In order to add a dle, we need to clone the repo, edit [dles.json](https://github.com/aukspot/dles/blob/main/src/data/dles.json), and run the python script [main.py](https://github.com/aukspot/dles/blob/main/src/python/main.py).
 
 Make sure you have python 3.4+ installed. Python is needed to create tag colors and sort the `.json` files.
 
@@ -61,7 +66,7 @@ venv\Scripts\Activate.ps1
 # (4) Install requirements.txt
 pip install -r requirements.txt
 
-# In subsequent instances on the same development system, only steps (1) and (3) are necessary.
+# For subsequent times on the same development system, only steps (1) and (3) are necessary.
 ```
 
 After making changes to `dles.json`, make sure you're in `src/python` and run the `main.py` script:
@@ -106,7 +111,3 @@ npm run build
 ```
 
 This will update the `./docs` directory with a new build of the site.
-
-## Bugs
-
-If you run into a bug, please [submit a bug report](https://github.com/aukspot/dles/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=).
