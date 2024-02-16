@@ -12,24 +12,27 @@
 	--color-text-darkmode: rgb(242, 242, 242);
 	--color-text: var(--color-text-darkmode);
 
-	--color-link-lightmode: rgb(29, 104, 173);
+	--color-accent-lightmode: #546ca4;
+	--color-accent-darkmode: #b5c6f3;
+	--color-accent: var(--color-accent-darkmode);
+
+	--color-link-lightmode: var(--color-accent-lightmode);
 	--color-link-hover-lightmode: rgb(59, 125, 186);
-	--color-link-visited-lightmode: rgb(20, 67, 110);
-	--color-link-darkmode: rgb(120, 181, 237);
-	--color-link-hover-darkmode: rgb(0, 37, 72);
-	--color-link-visited-darkmode: rgb(148, 183, 216);
+	--color-link-visited-lightmode: rgb(31, 86, 137);
+	--color-link-darkmode: var(--color-accent-darkmode);
+	--color-link-hover-darkmode: rgb(150, 195, 238);
+	--color-link-visited-darkmode: #97bcde;
 	--color-link: var(--color-link-darkmode);
 	--color-link-hover: var(--color-link-hover-darkmode);
 	--color-link-visited: var(--color-link-visited-darkmode);
-
 
 	--color-lightbulb-lightmode: rgb(255, 255, 151);
 	--color-lightbulb-darkmode: rgb(100, 100, 100);
 	--color-lightbulb: var(--color-lightbulb-lightmode);
 
-	--color-card-bg-1-lightmode: #eeeeee;
+	--color-card-bg-1-lightmode: #cccccc;
 	--color-card-bg-2-lightmode: #dddddd;
-	--color-card-bg-3-lightmode: #cccccc;
+	--color-card-bg-3-lightmode: #eeeeee;
 	--color-card-bg-1-darkmode: #212328;
 	--color-card-bg-2-darkmode: #33353a;
 	--color-card-bg-3-darkmode: #41444b;
@@ -37,7 +40,18 @@
 	--color-card-bg-2: var(--color-card-bg-2-darkmode);	
 	--color-card-bg-3: var(--color-card-bg-3-darkmode);
 
+	--color-red-lightmode: rgb(175, 32, 32);
+	--color-red-darkmode: rgb(255, 153, 153);
+	--color-red: var(--color-red-darkmode);
+
+	font-size: 20px;
 	font-family: var(--font-body);
+}
+
+@media (max-width: 600px) {
+	:root {
+		font-size: 16px;
+	}
 }
 
 a {
@@ -52,15 +66,29 @@ a :visited {
 	color: var(--color-link-visited);
 }
 
-.play:hover, .themeButton:hover {
-	transform: scale(1.05);
+.banner {
+    color: var(--color-bg);
+    background-color: var(--color-accent);
+    line-height: 1.5;
+    vertical-align: middle;
+    font-family: var(--font-mono);
+  }
+
+button {
+	color: var(--color-text);
+	background-color: var(--color-card-bg-1);
+	border: 1px solid darkgray;
+	padding: 0.3rem 0.6rem;
 	cursor: pointer;
-	/* transition: transform 0.3s; */
 }
 
-.play:active, .themeButton:active {
+button:hover, .filterButton:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+button:active {
 	transform: scale(0.95);
-	/* transition: transform 0.3s; */
 }
 
 .filterTag {
@@ -97,3 +125,9 @@ a :visited {
     opacity: 1 !important;
     transform: translateY(0);
   }
+
+.small-modal {
+	background-color: hsla(200, 200, 200, 0.7);
+	position: absolute;
+	width: 240px;
+}

@@ -15,7 +15,7 @@ View the app [here](https://aukspot.github.io/dles/).
 
 ### Planned
 
-- Option for a more compact view of dles list.
+- Option for a more compact view.
 - Option to hide/show given dles.
 - Ability to randomly choose `n` dles from the filtered dles.
 - URL parameters:

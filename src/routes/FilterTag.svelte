@@ -4,6 +4,7 @@
 
   export let name;
   export let type;
+
   function handleClick() {
     if (type == "include") $tags[name].included = !$tags[name].included;
     if (type == "exclude") $tags[name].excluded = !$tags[name].excluded;

@@ -3,6 +3,16 @@
   import dles_json from "../data/dles.json";
   import Filters from "./Filters.svelte";
   import { dles, filteredDles, tagNames, tags } from "../stores";
+  // import DleSuggestionForm from "$lib/dleSuggestionForm.svelte";
+  // import { onMount } from "svelte";
+  // import supabase from "$lib/supabaseClient";
+
+  // onMount(() => {
+  //   const { data, error } = supabase
+  //     .from("DleSuggestion")
+  //     .insert({ dle_name: "hocus pocus" });
+  //   console.log(data, error);
+  // });
 
   function initializeDles() {
     $dles = dles_json;
@@ -70,18 +80,31 @@
 </svelte:head>
 
 <h1>The Dles</h1>
-<p>"...they're anything but."</p>
+<!-- <p>"...they're anything but."</p> -->
 <p>A curated collection of daily games.</p>
-<div class="divider"></div>
-<Filters />
-{#if hasFilters}
-  <button id="clearFiltersButton" class="filterButton" on:click={clearFilters}
-    >Clear filters</button
-  >
-{/if}
-<h2>
+<p>
+  <a href="/dles/suggest" style="text-align: center;">Suggest a game!</a>
+</p>
+
+<!-- <details>
+  <summary>What is a "dle"?</summary>
+  <p>
+    A dle is generally a game that changes everyday which has the same version
+    for everyone that plays, taking inspiration from Wor<u>dle</u>.
+  </p>
+</details> -->
+<!-- <div class="divider"></div> -->
+
+<h2 class="banner">
   {$filteredDles.length} dles
 </h2>
+<Filters />
+<button
+  id="clearFiltersButton"
+  class="filterButton"
+  on:click={clearFilters}
+  style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
+>
 
 <ol>
   {#each $filteredDles as dle, i}
@@ -91,17 +114,20 @@
 
 <style>
   h1 {
-    font-family: "Courier New", Courier, monospace;
+    font-family: var(--font-mono);
+    margin: 0.75rem;
   }
   h1,
   h2,
   p {
     text-align: center;
+    text-wrap: balance;
   }
 
   h2 {
-    margin-bottom: 0;
-    text-decoration: underline;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    /* text-decoration: underline; */
   }
 
   p {
@@ -120,9 +146,9 @@
   }
 
   #clearFiltersButton {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
     margin: 0 auto;
-    margin-top: 0.5rem;
+    margin-top: 0.35rem;
   }
 </style>

@@ -8,7 +8,7 @@
     const rootElement = document.documentElement;
 
     let scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-    if (window.scrollY > 50 && rootElement.scrollTop / scrollTotal > 0.8) {
+    if (window.scrollY > 600 && rootElement.scrollTop / scrollTotal > 0.8) {
       backToTopButton.classList.add("showBtn");
     } else {
       backToTopButton.classList.remove("showBtn");
@@ -31,11 +31,13 @@
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
   button {
     padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
     z-index: 100;
     opacity: 0;
-    transition: all 0.5s ease;
+    transition: opacity 0.5s ease;
   }
 </style>

@@ -2,14 +2,14 @@
   import Header from "./Header.svelte";
   import Changelog from "./Changelog.svelte";
   import "./styles.css";
-  import ScrollToTopButton from "./scrollToTopButton.svelte";
+  import BackToTopButton from "./BackToTopButton.svelte";
 </script>
 
 <div class="app">
   <main>
     <Header />
     <slot />
-    <ScrollToTopButton />
+    <BackToTopButton />
   </main>
   <footer>
     <div class="divider"></div>
@@ -23,7 +23,7 @@
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
-    max-width: 54rem;
+    max-width: 50rem;
     margin: 0 auto;
   }
   main {

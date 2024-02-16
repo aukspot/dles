@@ -1,7 +1,19 @@
 [
   {
+    "date": "2024-02-16",
+    "description": "Added a suggestion form.<br>3 dles added.",
+    "dles added": [
+      {
+        "name": "Concludle",
+        "url": "https://tryhardguides.com/concludle/"
+      },
+      { "name": "Globle Capitals", "url": "https://globle-capitals.com/" },
+      { "name": "NYT Sudoku", "url": "https://www.nytimes.com/puzzles/sudoku" }
+    ]
+  },
+  {
     "date": "2024-02-14",
-    "description": "Added a proper <a href=\"https://github.com/aukspot/dles/blob/main/README.md\" target=\"_blank\">README</a>. <br>Removed daily and unlimited tags for simplicity. <br>Added archive tag. <br>7 dles added, 1 removed.",
+    "description": "Added a proper <a href=\"https://github.com/aukspot/dles/blob/main/README.md\" target=\"_blank\">README</a>.<br>Removed daily and unlimited tags for simplicity.<br>Added archive tag. <br>7 dles added, 1 removed.",
     "dles added": [
       { "name": "Archiguessr", "url": "https://archiguesser.com/" },
       { "name": "Daydle", "url": "https://daydle.com/" },

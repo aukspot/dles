@@ -5,6 +5,7 @@
 
   $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
   $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+  $: numFilters = includedTags.length + excludedTags.length;
 </script>
 
 <details id="filterDetails" style="padding: 0.25rem" open>
@@ -12,15 +13,19 @@
     class="not-selectable pointer"
     style="margin-bottom: 0.75rem; text-align: center; cursor: pointer; font-size: 1.2rem;"
   >
-    Filters
+    Filters {#if numFilters > 0}
+      ({numFilters})
+    {/if}
   </summary>
   <div
+    id="filtersContainer"
     style="
         display: flex;
         flex-wrap: wrap;
         column-gap: 1rem;
         row-gap: 0.5rem;
         line-height: 1;
+        min-height: 5.2rem;
       "
   >
     <div class="filterSection">
@@ -50,6 +55,7 @@
 
 <style>
   details[open] {
+    display: flex;
     margin: 0 auto;
     padding: 1rem;
   }
@@ -68,6 +74,9 @@
     flex-direction: column;
     gap: 5px;
     width: 220px;
+  }
+  #filtersContainer {
+    height: var(--filtersContainerHeight);
   }
   #includeLabel {
     display: flex;

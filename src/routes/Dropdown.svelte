@@ -61,7 +61,6 @@
   <!-- svelte-ignore a11y-no-static-element-interactions -->
   <!-- svelte-ignore a11y-click-events-have-key-events -->
   <div
-    id="includedTagsChoices"
     class="dropdown"
     on:click={handleClickInsideDropdown}
     use:clickOutside

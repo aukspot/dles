@@ -66,8 +66,17 @@
     ]
   },
   {
+    "name": "Concludle",
+    "url": "https://tryhardguides.com/concludle/",
+    "description": "Guess the secret answer from a series of clues.",
+    "tags": [
+      "guessing",
+      "trivia"
+    ]
+  },
+  {
     "name": "Conexo",
-    "url": "https://conexo.ws/en/daily",
+    "url": "https://conexo.ws/en",
     "description": "Form groups of 4 words that have something in common.",
     "tags": [
       "archive",
@@ -80,6 +89,7 @@
     "url": "https://www.nytimes.com/games/connections",
     "description": "Group words that share a common thread.",
     "tags": [
+      "guessing",
       "words"
     ]
   },
@@ -142,7 +152,7 @@
   {
     "name": "Daydle",
     "url": "https://daydle.com/",
-    "description": "Given an event that happened on today's month/day, guess the year in which the event occurred.",
+    "description": "Guess the year of a historical event that happened on this day in history.",
     "tags": [
       "guessing",
       "history",
@@ -223,6 +233,16 @@
     "name": "Globle",
     "url": "https://globle-game.com/game",
     "description": "Guess the mystery country, given how close it is to each guessed country.",
+    "tags": [
+      "geography",
+      "guessing",
+      "maps"
+    ]
+  },
+  {
+    "name": "Globle Capitals",
+    "url": "https://globle-capitals.com/",
+    "description": "Guess the mystery world capital, given how close it is to each guessed world capital.",
     "tags": [
       "geography",
       "guessing",
@@ -343,6 +363,7 @@
     "url": "https://movietomovie.com/",
     "description": "Connect two movies by jumping through actors and the movies they've been in.",
     "tags": [
+      "archive",
       "movies"
     ]
   },
@@ -351,8 +372,10 @@
     "url": "https://nerdlegame.com/",
     "description": "Guess the secret arithmetic equation.",
     "tags": [
+      "archive",
       "guessing",
-      "math"
+      "math",
+      "numbers"
     ]
   },
   {
@@ -361,6 +384,15 @@
     "description": "A very small crossword puzzle by the New York Times.",
     "tags": [
       "words"
+    ]
+  },
+  {
+    "name": "NYT Sudoku",
+    "url": "https://www.nytimes.com/puzzles/sudoku",
+    "description": "Daily Sudoku puzzles from the New York Times.",
+    "tags": [
+      "logic",
+      "numbers"
     ]
   },
   {
@@ -435,8 +467,9 @@
   {
     "name": "Quizl",
     "url": "https://quizl.io/",
-    "description": "Answer today's trivia questions.",
+    "description": "Answer today's 5 trivia questions.",
     "tags": [
+      "archive",
       "trivia"
     ]
   },
@@ -445,6 +478,7 @@
     "url": "https://redactle.net/",
     "description": "Guess the Wikipedia article by its content with keywords redacted.",
     "tags": [
+      "archive",
       "guessing",
       "words"
     ]

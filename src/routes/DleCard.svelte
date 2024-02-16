@@ -34,7 +34,6 @@
     padding: 0.5rem;
     border: 1px solid darkgray;
     border-radius: 4px;
-    /* background-color: var(--color-card-bg-2); */
   }
   li:nth-child(3n + 1) {
     background-color: var(--color-card-bg-2);
@@ -72,5 +71,9 @@
     border-radius: 0.3rem;
     /* border: none; */
     border: 2px solid darkgray;
+  }
+  @media (max-width: 600px) {
+    .filterCheckbox:checked + div {
+    }
   }
 </style>

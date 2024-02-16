@@ -69,8 +69,8 @@
     color: var(--color-lightbulb-lightmode);
     background-color: var(--color-lightbulb-darkmode);
     border: none;
-    border-radius: 0.25rem;
-    padding: 0.3rem;
+    border-radius: 4px;
+    padding: 0.25rem;
   }
   :global(body.dark) button {
     color: var(--color-lightbulb-darkmode);
