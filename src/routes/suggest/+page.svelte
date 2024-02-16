@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import SimpleLink from "../SimpleLink.svelte";
   import { invalidateAll, goto } from "$app/navigation";
   import { applyAction, deserialize } from "$app/forms";
@@ -6,8 +6,6 @@
   export let url = "";
   export let description = "";
   export let comments = "";
-  export let data;
-  export let form;
 
   async function handleSubmit(e) {
     const isFormValid = [url, description, comments].some((s) => s.length != 0);
@@ -32,7 +30,7 @@
     }
 
     applyAction(result);
-    goto("/dles/suggest/success");
+    goto("/suggest/success");
 
     // if ([url, description, comments].every((s) => s.length == 0)) {
     //   console.log("ERROR EMPTY STRINGS");
@@ -98,11 +96,6 @@
       </fieldset>
     </form>
   </div>
-  {#if form?.success}
-    <!-- this message is ephemeral; it exists because the page was rendered in
-		   response to a form submission. it will vanish if the user reloads -->
-    <p id="criteria">Successfully logged in! Welcome back, {data.user.name}</p>
-  {/if}
 
   <SimpleLink href="/" text="Back to home" />
 </div>
@@ -179,4 +172,4 @@
     margin: 0.6rem;
     font-size: 1rem;
   }
-</style>
+</style> -->

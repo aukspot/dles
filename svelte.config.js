@@ -12,9 +12,9 @@ const config = {
         paths: {
             base: dev ? "" : "/dles",
         },
-        prerender: {
-            entries: []
-        }
+        // prerender: {
+        //     entries: []
+        // }
     },
     preprocess: [vitePreprocess()],
 };

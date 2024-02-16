@@ -1,11 +1,11 @@
-<script>
+<!-- <script>
   import SimpleLink from "../../SimpleLink.svelte";
 </script>
 
 <div class="container">
   <h2>Success!</h2>
   <p>Suggestion successfully submitted.</p>
-  <SimpleLink href="/dles/suggest" text="Submit another suggestion." />
+  <SimpleLink href="/suggest" text="Submit another suggestion." />
   <SimpleLink href="/" text="Go home." />
 </div>
 
@@ -27,4 +27,4 @@
   p {
     text-align: center;
   }
-</style>
+</style> -->

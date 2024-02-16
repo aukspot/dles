@@ -44,7 +44,7 @@
 	--color-red-darkmode: rgb(255, 153, 153);
 	--color-red: var(--color-red-darkmode);
 
-	font-size: 20px;
+	font-size: 18px;
 	font-family: var(--font-body);
 }
 

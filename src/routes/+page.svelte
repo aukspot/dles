@@ -82,9 +82,9 @@
 <h1>The Dles</h1>
 <!-- <p>"...they're anything but."</p> -->
 <p>A curated collection of daily games.</p>
-<p>
-  <a href="/dles/suggest" style="text-align: center;">Suggest a game!</a>
-</p>
+<!-- <p>
+  <a href="/suggest" style="text-align: center;">Suggest a game!</a>
+</p> -->
 
 <!-- <details>
   <summary>What is a "dle"?</summary>
