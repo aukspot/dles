@@ -1,5 +1,15 @@
 [
   {
+    "name": "Adoptle",
+    "url": "https://tryhardguides.com/adoptle/",
+    "description": "Guess the name of a pet that is up for adoption, given a picture of them.",
+    "tags": [
+      "pictures",
+      "wordle",
+      "words"
+    ]
+  },
+  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com/",
     "description": "Guess the name of the architecture, given a series of pictures.",
@@ -137,6 +147,7 @@
     "tags": [
       "archive",
       "guessing",
+      "logic",
       "wordle",
       "words"
     ]

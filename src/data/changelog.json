@@ -1,8 +1,9 @@
 [
   {
     "date": "2024-02-16",
-    "description": "3 dles added.",
+    "description": "Added a <a href=\"/dles/suggest\">suggestion form</a>.<br>4 dles added.",
     "dles added": [
+      { "name": "Adoptle", "url": "https://tryhardguides.com/adoptle/" },
       {
         "name": "Concludle",
         "url": "https://tryhardguides.com/concludle/"

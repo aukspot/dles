@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths";
   import DleCard from "./DleCard.svelte";
   import dles_json from "../data/dles.json";
   import Filters from "./Filters.svelte";
@@ -82,9 +83,10 @@
 <h1>The Dles</h1>
 <!-- <p>"...they're anything but."</p> -->
 <p>A curated collection of daily games.</p>
-<!-- <p>
-  <a href="/suggest" style="text-align: center;">Suggest a game!</a>
-</p> -->
+<p>
+  <a href="{base}/suggest" style="text-align: center;">Suggest a game to add!</a
+  >
+</p>
 
 <!-- <details>
   <summary>What is a "dle"?</summary>

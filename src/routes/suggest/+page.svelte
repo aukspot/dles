@@ -1,43 +1,44 @@
-<!-- <script>
+<script>
+  import { base } from "$app/paths";
   import SimpleLink from "../SimpleLink.svelte";
-  import { invalidateAll, goto } from "$app/navigation";
-  import { applyAction, deserialize } from "$app/forms";
+  // import { invalidateAll, goto } from "$app/navigation";
+  // import { applyAction, deserialize } from "$app/forms";
 
   export let url = "";
   export let description = "";
   export let comments = "";
 
-  async function handleSubmit(e) {
-    const isFormValid = [url, description, comments].some((s) => s.length != 0);
+  // async function handleSubmit(e) {
+  //   const isFormValid = [url, description, comments].some((s) => s.length != 0);
 
-    if (!isFormValid) {
-      document.getElementById("criteria").style.color = "var(--color-red)";
-      return;
-    }
+  //   if (!isFormValid) {
+  //     document.getElementById("criteria").style.color = "var(--color-red)";
+  //     return;
+  //   }
 
-    const data = new FormData(e.currentTarget);
+  //   const data = new FormData(e.currentTarget);
 
-    const response = await fetch(e.currentTarget.action, {
-      method: "POST",
-      body: data,
-    });
+  //   const response = await fetch(e.currentTarget.action, {
+  //     method: "POST",
+  //     body: data,
+  //   });
 
-    const result = deserialize(await response.text());
+  //   const result = deserialize(await response.text());
 
-    if (result.type === "success") {
-      // rerun all `load` functions, following the successful update
-      await invalidateAll();
-    }
+  //   if (result.type === "success") {
+  //     // rerun all `load` functions, following the successful update
+  //     await invalidateAll();
+  //   }
 
-    applyAction(result);
-    goto("/suggest/success");
+  //   applyAction(result);
+  //   goto("/suggest/success");
 
-    // if ([url, description, comments].every((s) => s.length == 0)) {
-    //   console.log("ERROR EMPTY STRINGS");
-    //   return;
-    // }
-    // console.log(url, description, comments);
-  }
+  //   // if ([url, description, comments].every((s) => s.length == 0)) {
+  //   //   console.log("ERROR EMPTY STRINGS");
+  //   //   return;
+  //   // }
+  //   // console.log(url, description, comments);
+  // }
 </script>
 
 <svelte:head>
@@ -55,7 +56,7 @@
     anonymous suggestion below!
   </p>
   <div id="formContainer">
-    <form method="POST" on:submit|preventDefault={handleSubmit}>
+    <form method="POST" action="https://formspree.io/f/xpzvdyzl">
       <fieldset>
         <div class="formElementContainer">
           <label for="url">URL</label>
@@ -97,7 +98,7 @@
     </form>
   </div>
 
-  <SimpleLink href="/" text="Back to home" />
+  <SimpleLink href="{base}/" text="Back to home" />
 </div>
 
 <style lang="less">
@@ -172,4 +173,4 @@
     margin: 0.6rem;
     font-size: 1rem;
   }
-</style> -->
+</style>

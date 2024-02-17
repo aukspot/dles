@@ -72,8 +72,4 @@
     /* border: none; */
     border: 2px solid darkgray;
   }
-  @media (max-width: 600px) {
-    .filterCheckbox:checked + div {
-    }
-  }
 </style>
