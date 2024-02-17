@@ -4,6 +4,7 @@
   import dles_json from "../data/dles.json";
   import Filters from "./Filters.svelte";
   import { dles, filteredDles, tagNames, tags } from "../stores";
+  import DleCompactCard from "./DleCompactCard.svelte";
   // import DleSuggestionForm from "$lib/dleSuggestionForm.svelte";
   // import { onMount } from "svelte";
   // import supabase from "$lib/supabaseClient";
@@ -111,6 +112,7 @@
 <ol>
   {#each $filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
+    <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->
   {/each}
 </ol>
 

@@ -8,6 +8,9 @@
   export let description = "";
   export let comments = "";
 
+  $: disabled = [url, description, comments].every((s) => s.length == 0);
+  $: criteria = disabled ? "var(--color-red)" : "var(--color-text)";
+
   // async function handleSubmit(e) {
   //   const isFormValid = [url, description, comments].some((s) => s.length != 0);
 
@@ -91,9 +94,11 @@
           />
         </div>
 
-        <p id="criteria">* Must fill at least one box.</p>
+        <p id="criteria" style="color: {criteria}">
+          * Must fill at least one box.
+        </p>
 
-        <button class="submit" type="submit">Submit</button>
+        <button class="submit" type="submit" {disabled}>Submit</button>
       </fieldset>
     </form>
   </div>
@@ -172,5 +177,15 @@
     padding: 0.5rem 0.25rem;
     margin: 0.6rem;
     font-size: 1rem;
+  }
+  button:disabled {
+    cursor: unset;
+    background-color: var(--color-card-bg-3);
+  }
+  button:disabled:hover {
+    transform: unset;
+  }
+  button:disabled:active {
+    transform: unset;
   }
 </style>

@@ -8,6 +8,8 @@ View the app [here](https://aukspot.github.io/dles/).
 
 ## Features
 
+You can suggest a feature by [submitting a feature request](https://github.com/aukspot/dles/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
+
 ### Current
 
 - Tag system that allows for easy filtering.
@@ -22,17 +24,13 @@ View the app [here](https://aukspot.github.io/dles/).
   - to load filters.
   - to load an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/data/dles.json))
 
-### Suggest a feature
-
-You can suggest a feature by [submitting a feature request](https://github.com/aukspot/dles/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
-
 ## Bugs
 
 If you run into a bug, please [submit a bug report](https://github.com/aukspot/dles/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=).
 
 ## Contributing
 
-The easiest way to help the project is to suggest new dles by [opening a "dle suggestion" issue](https://github.com/aukspot/dles/issues/new?assignees=&labels=dles+suggestion&projects=&template=suggest-a-dle-.md&title=Dle+suggestion).
+The easiest way to help the project is to suggest new dles by either filling out [this form](https://aukspot.github.io/dles/suggest) or [opening a "dle suggestion" issue](https://github.com/aukspot/dles/issues/new?assignees=&labels=dles+suggestion&projects=&template=suggest-a-dle-.md&title=Dle+suggestion).
 
 If you want to get your hands dirty, you can clone the repository and choose one or both of the below options to start contributing.
 

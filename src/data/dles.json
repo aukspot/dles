@@ -265,6 +265,7 @@
     "url": "https://guessthe.game/",
     "description": "Guess the video game by its cropped screenshots.",
     "tags": [
+      "archive",
       "guessing",
       "pictures",
       "video games"
