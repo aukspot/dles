@@ -95,10 +95,11 @@
     ]
   },
   {
-    "name": "Connections",
-    "url": "https://www.nytimes.com/games/connections",
-    "description": "Group words that share a common thread.",
+    "name": "Connections Game",
+    "url": "https://connectionsgame.com",
+    "description": "Group words that share a common thread, basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
     "tags": [
+      "archive",
       "guessing",
       "words"
     ]
@@ -127,6 +128,7 @@
     "url": "https://crosswordle.vercel.app",
     "description": "Fill in the grid to logically fit a series of Wordle guesses.",
     "tags": [
+      "logic",
       "wordle",
       "words"
     ]
@@ -161,6 +163,15 @@
     ]
   },
   {
+    "name": "Daily Tomato",
+    "url": "https://www.rottentomatoes.com/movie-trivia/",
+    "description": "Guess the movie title from a series of 5 clues, by Rotten Tomatoes.",
+    "tags": [
+      "guessing",
+      "movies"
+    ]
+  },
+  {
     "name": "Daydle",
     "url": "https://daydle.com/",
     "description": "Guess the year of a historical event that happened on this day in history.",
@@ -168,6 +179,16 @@
       "guessing",
       "history",
       "time"
+    ]
+  },
+  {
+    "name": "Dordle",
+    "url": "https://zaratustra.itch.io/dordle",
+    "description": "Solve 2 Wordle puzzles at the same time.",
+    "tags": [
+      "guessing",
+      "wordle",
+      "words"
     ]
   },
   {
@@ -272,11 +293,22 @@
     ]
   },
   {
+    "name": "hello wordl",
+    "url": "https://hellowordl.net/?today",
+    "description": "Play Wordle puzzles from 4 to 11 letters long.",
+    "tags": [
+      "guessing",
+      "wordle",
+      "words"
+    ]
+  },
+  {
     "name": "Housle",
     "url": "https://housle.house/game",
     "description": "Guess the price of the house, given pictures of parts of the house.",
     "tags": [
       "guessing",
+      "pictures",
       "prices"
     ]
   },
@@ -332,6 +364,16 @@
     "tags": [
       "basketball",
       "sports"
+    ]
+  },
+  {
+    "name": "Listed",
+    "url": "https://listed.fun/",
+    "description": "Guess the price of the recently sold property.",
+    "tags": [
+      "guessing",
+      "pictures",
+      "prices"
     ]
   },
   {
@@ -391,6 +433,15 @@
     ]
   },
   {
+    "name": "NYT Connections",
+    "url": "https://www.nytimes.com/games/connections",
+    "description": "Group words that share a common thread.",
+    "tags": [
+      "guessing",
+      "words"
+    ]
+  },
+  {
     "name": "NYT Mini Crossword",
     "url": "https://www.nytimes.com/crosswords/game/mini",
     "description": "A very small crossword puzzle by the New York Times.",
@@ -405,6 +456,16 @@
     "tags": [
       "logic",
       "numbers"
+    ]
+  },
+  {
+    "name": "NYT Wordle",
+    "url": "https://www.nytimes.com/games/wordle/index.html",
+    "description": "Guess the 5-letter word in six or fewer attempts.",
+    "tags": [
+      "guessing",
+      "wordle",
+      "words"
     ]
   },
   {
@@ -431,6 +492,15 @@
     "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
     "tags": [
       "video games"
+    ]
+  },
+  {
+    "name": "Puckdoku",
+    "url": "https://www.puckdoku.com/",
+    "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
+    "tags": [
+      "hockey",
+      "sports"
     ]
   },
   {
@@ -486,6 +556,16 @@
     ]
   },
   {
+    "name": "Quordle",
+    "url": "https://quordlegame.com/",
+    "description": "Solve 4 Wordle puzzles at the same time.",
+    "tags": [
+      "guessing",
+      "wordle",
+      "words"
+    ]
+  },
+  {
     "name": "Redactle",
     "url": "https://redactle.net/",
     "description": "Guess the Wikipedia article by its content with keywords redacted.",
@@ -520,6 +600,15 @@
     "description": "Spell the words correctly after listening to them.",
     "tags": [
       "audio",
+      "words"
+    ]
+  },
+  {
+    "name": "Spelling Bee",
+    "url": "https://spellsbee.com/",
+    "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
+    "tags": [
+      "wordle",
       "words"
     ]
   },
@@ -596,16 +685,6 @@
     "name": "WordAll",
     "url": "https://wordall.xyz/",
     "description": "Guess all of the Wordle words, given the starting clues.",
-    "tags": [
-      "guessing",
-      "wordle",
-      "words"
-    ]
-  },
-  {
-    "name": "Wordle",
-    "url": "https://www.nytimes.com/games/wordle/index.html",
-    "description": "Guess the 5-letter word in six or fewer attempts.",
     "tags": [
       "guessing",
       "wordle",

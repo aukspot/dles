@@ -1,5 +1,22 @@
 [
   {
+    "date": "2024-02-17",
+    "description": "8 dles added.",
+    "dles added": [
+      { "name": "Connections Game", "url": "https://connectionsgame.com" },
+      {
+        "name": "Daily Tomato",
+        "url": "https://www.rottentomatoes.com/movie-trivia/"
+      },
+      { "name": "Dordle", "url": "https://zaratustra.itch.io/dordle" },
+      { "name": "hello wordl", "url": "https://hellowordl.net/?today" },
+      { "name": "Listed", "url": "https://listed.fun/" },
+      { "name": "Puckdoku", "url": "https://www.puckdoku.com/" },
+      { "name": "Quordle", "url": "https://quordlegame.com/" },
+      { "name": "Spelling Bee", "url": "https://spellsbee.com/" }
+    ]
+  },
+  {
     "date": "2024-02-16",
     "description": "Added a <a href=\"/dles/suggest\">suggestion form</a>.<br>4 dles added.",
     "dles added": [
