@@ -45,7 +45,7 @@
 </script>
 
 <svelte:head>
-  <title>About</title>
+  <title>Suggest a game!</title>
   <meta
     name="description"
     content="Suggest a game to be added to the list of dles."
