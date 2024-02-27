@@ -317,6 +317,7 @@
     "url": "https://www.immaculatefooty.com",
     "description": "Fill out the grid with soccer players matching the criteria of each cell's row and column.",
     "tags": [
+      "archive",
       "soccer",
       "sports"
     ]
@@ -326,6 +327,7 @@
     "url": "https://www.immaculategrid.com/",
     "description": "Fill out the grid with baseball players matching the criteria of each cell's row and column.",
     "tags": [
+      "archive",
       "baseball",
       "sports"
     ]
@@ -335,6 +337,7 @@
     "url": "https://www.immaculategrid.com/hockey",
     "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
     "tags": [
+      "archive",
       "hockey",
       "sports"
     ]
@@ -344,6 +347,7 @@
     "url": "https://www.immaculategrid.com/basketball/mens",
     "description": "Fill out the grid with men's basketball players matching the criteria of each cell's row and column.",
     "tags": [
+      "archive",
       "basketball",
       "sports"
     ]
@@ -353,6 +357,7 @@
     "url": "https://www.immaculategrid.com/football",
     "description": "Fill out the grid with pro football players matching the criteria of each cell's row and column.",
     "tags": [
+      "archive",
       "football",
       "sports"
     ]
@@ -362,6 +367,7 @@
     "url": "https://www.immaculategrid.com/basketball/womens",
     "description": "Fill out the grid with women's basketball players matching the criteria of each cell's row and column.",
     "tags": [
+      "archive",
       "basketball",
       "sports"
     ]
@@ -495,6 +501,15 @@
     ]
   },
   {
+    "name": "PopCultured",
+    "url": "https://histordle.com/popcultured/",
+    "description": "Guess the year given three pop culture items released that year.",
+    "tags": [
+      "guessing",
+      "time"
+    ]
+  },
+  {
     "name": "Puckdoku",
     "url": "https://www.puckdoku.com/",
     "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
@@ -585,6 +600,16 @@
     ]
   },
   {
+    "name": "Songle",
+    "url": "https://histordle.com/songle/",
+    "description": "Guess the year given three songs that were released that year.",
+    "tags": [
+      "guessing",
+      "music",
+      "time"
+    ]
+  },
+  {
     "name": "Songless",
     "url": "https://lessgames.com/songless",
     "description": "Guess the song from listening to small parts of it.",
@@ -608,7 +633,6 @@
     "url": "https://spellsbee.com/",
     "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
     "tags": [
-      "wordle",
       "words"
     ]
   },
@@ -708,6 +732,16 @@
     "tags": [
       "geography",
       "maps"
+    ]
+  },
+  {
+    "name": "Yeardle",
+    "url": "https://histordle.com/yeardle/",
+    "description": "Guess the year based on the given historical events of that year.",
+    "tags": [
+      "guessing",
+      "history",
+      "time"
     ]
   }
 ]

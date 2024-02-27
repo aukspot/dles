@@ -1,25 +1,14 @@
 <script>
-  import { base } from "$app/paths";
-  import DleCard from "./DleCard.svelte";
-  import dles_json from "../data/dles.json";
-  import Filters from "./Filters.svelte";
-  import { dles, filteredDles, tagNames, tags } from "../stores";
-  import DleCompactCard from "./DleCompactCard.svelte";
-  // import DleSuggestionForm from "$lib/dleSuggestionForm.svelte";
-  // import { onMount } from "svelte";
-  // import supabase from "$lib/supabaseClient";
-
-  // onMount(() => {
-  //   const { data, error } = supabase
-  //     .from("DleSuggestion")
-  //     .insert({ dle_name: "hocus pocus" });
-  //   console.log(data, error);
-  // });
+  import { base } from "$app/paths"
+  import DleCard from "./DleCard.svelte"
+  import dles_json from "../data/dles.json"
+  import Filters from "./Filters.svelte"
+  import { dles, filteredDles, tagNames, tags } from "../stores"
 
   function initializeDles() {
-    $dles = dles_json;
+    $dles = dles_json
     for (let dle of $dles) {
-      dle.hidden = false;
+      dle.hidden = false
     }
   }
 
@@ -28,42 +17,42 @@
       .map((dle) => dle.tags)
       .flat()
       .filter((x, i, a) => a.indexOf(x) == i)
-      .sort();
+      .sort()
 
-    $tags = {};
+    $tags = {}
     for (let tag_name of $tagNames) {
       $tags[tag_name] = {
         included: false,
         excluded: false,
-      };
+      }
     }
   }
 
-  initializeDles();
-  initializeTags();
+  initializeDles()
+  initializeTags()
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
 
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0
 
   $: $filteredDles = $dles.filter((dle) => {
-    let result = false;
+    let result = false
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true;
+      result = true
     }
     if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false;
+      result = false
     }
-    return result;
-  });
+    return result
+  })
 
   function clearFilters() {
     for (let includedTag of includedTags) {
-      $tags[includedTag].included = false;
+      $tags[includedTag].included = false
     }
     for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false;
+      $tags[excludedTag].excluded = false
     }
   }
 </script>
