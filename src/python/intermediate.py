@@ -10,6 +10,7 @@ DLES_FILE = "../data/dles.json"
 TAG_COLORS_FILE = "../data/tag_colors.json"
 CHANGELOG_MD = "../data/changelog.json"
 
+
 def sort_tags():
   backup_file(DLES_FILE)
   
