@@ -1,8 +1,15 @@
 [
   {
     "date": "2024-02-27",
-    "description": "6 dles added.",
+    "description": "13 dles added.",
     "dles added": [
+      { "name": "Hitori Conquest", "url": "https://hitoriconquest.com/" },
+      {
+        "name": "Keyword",
+        "url": "https://www.washingtonpost.com/games/keyword/"
+      },
+      { "name": "Letterset", "url": "https://www.letterset.net/daily" },
+      { "name": "Mathler", "url": "https://www.mathler.com/" },
       {
         "name": "Mislettered",
         "url": "https://tryhardguides.com/mislettered/"
@@ -10,7 +17,13 @@
       { "name": "One Word Search", "url": "https://onewordsearch.com/" },
       { "name": "pedantle", "url": "https://cemantle.certitudes.org/pedantle" },
       { "name": "PopCultured", "url": "https://histordle.com/popcultured/" },
+      { "name": "Rogule", "url": "https://rogule.com/game.html" },
       { "name": "Songle", "url": "https://histordle.com/songle/" },
+      { "name": "Sumplete", "url": "https://sumplete.com/daily/" },
+      {
+        "name": "Syllacrostic",
+        "url": "https://www.syllacrostic.com/daily-puzzle"
+      },
       { "name": "Yeardle", "url": "https://histordle.com/yeardle/" }
     ]
   },

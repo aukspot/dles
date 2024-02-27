@@ -303,6 +303,15 @@
     ]
   },
   {
+    "name": "Hitori Conquest",
+    "url": "https://hitoriconquest.com/",
+    "description": "Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.",
+    "tags": [
+      "logic",
+      "numbers"
+    ]
+  },
+  {
     "name": "Housle",
     "url": "https://housle.house/game",
     "description": "Guess the price of the house, given pictures of parts of the house.",
@@ -373,6 +382,23 @@
     ]
   },
   {
+    "name": "Keyword",
+    "url": "https://www.washingtonpost.com/games/keyword/",
+    "description": "Find the target word by guessing the final letter of the vertical words.",
+    "tags": [
+      "words"
+    ]
+  },
+  {
+    "name": "Letterset",
+    "url": "https://www.letterset.net/daily",
+    "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
+    "tags": [
+      "archive",
+      "words"
+    ]
+  },
+  {
     "name": "Listed",
     "url": "https://listed.fun/",
     "description": "Guess the price of the recently sold property.",
@@ -380,6 +406,16 @@
       "guessing",
       "pictures",
       "prices"
+    ]
+  },
+  {
+    "name": "Mathler",
+    "url": "https://www.mathler.com/",
+    "description": "Find the hidden calculation that equals the given number.",
+    "tags": [
+      "guessing",
+      "math",
+      "numbers"
     ]
   },
   {
@@ -617,6 +653,14 @@
     ]
   },
   {
+    "name": "Rogule",
+    "url": "https://rogule.com/game.html",
+    "description": "A daily emoji dungeon crawler roguelike.",
+    "tags": [
+      "roguelike"
+    ]
+  },
+  {
     "name": "Semantle",
     "url": "https://semantle.com/",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
@@ -670,6 +714,25 @@
       "geography",
       "maps",
       "usa"
+    ]
+  },
+  {
+    "name": "Sumplete",
+    "url": "https://sumplete.com/daily/",
+    "description": "Delete numbers so that each row and column adds up to their target number.",
+    "tags": [
+      "logic",
+      "math",
+      "numbers"
+    ]
+  },
+  {
+    "name": "Syllacrostic",
+    "url": "https://www.syllacrostic.com/daily-puzzle",
+    "description": "Combine syllables to solve the clues.",
+    "tags": [
+      "archive",
+      "words"
     ]
   },
   {
