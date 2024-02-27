@@ -1,8 +1,12 @@
 [
   {
     "date": "2024-02-27",
-    "description": "3 dles added.",
+    "description": "4 dles added.",
     "dles added": [
+      {
+        "name": "Mislettered",
+        "url": "https://tryhardguides.com/mislettered/"
+      },
       { "name": "PopCultured", "url": "https://histordle.com/popcultured/" },
       { "name": "Songle", "url": "https://histordle.com/songle/" },
       { "name": "Yeardle", "url": "https://histordle.com/yeardle/" }
