@@ -1,12 +1,14 @@
 [
   {
     "date": "2024-02-27",
-    "description": "4 dles added.",
+    "description": "6 dles added.",
     "dles added": [
       {
         "name": "Mislettered",
         "url": "https://tryhardguides.com/mislettered/"
       },
+      { "name": "One Word Search", "url": "https://onewordsearch.com/" },
+      { "name": "pedantle", "url": "https://cemantle.certitudes.org/pedantle" },
       { "name": "PopCultured", "url": "https://histordle.com/popcultured/" },
       { "name": "Songle", "url": "https://histordle.com/songle/" },
       { "name": "Yeardle", "url": "https://histordle.com/yeardle/" }

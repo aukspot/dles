@@ -493,6 +493,23 @@
     ]
   },
   {
+    "name": "One Word Search",
+    "url": "https://onewordsearch.com/",
+    "description": "Repeatedly search for the only word in a grid of letters.",
+    "tags": [
+      "words"
+    ]
+  },
+  {
+    "name": "pedantle",
+    "url": "https://cemantle.certitudes.org/pedantle",
+    "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
+    "tags": [
+      "guessing",
+      "words"
+    ]
+  },
+  {
     "name": "Petdle",
     "url": "https://petdle.link/",
     "description": "Guess the pet taken from the game Super Auto Pets.",
