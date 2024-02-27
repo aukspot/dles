@@ -68,6 +68,7 @@ def create_tag_colors():
 
   dles = read_dles()
   tags = extract_tags(dles)
+  tags.sort()
   tag_colors = { 
     tag: word_to_color(tag)
     for tag in tags
