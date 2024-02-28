@@ -8,8 +8,8 @@ from colour import Color
 
 DLES_FILE = "../data/dles.json"
 TAG_COLORS_FILE = "../data/tag_colors.json"
-CHANGELOG_MD = "../data/changelog.json"
-
+CHANGELOG_JSON = "../data/changelog.json"
+CHANGELOG_MD = "../../CHANGELOG.md"
 
 def sort_tags():
   backup_file(DLES_FILE)
@@ -80,13 +80,35 @@ def create_tag_colors():
 
 
 def changelog_json_to_md_str():
-  with open(CHANGELOG_MD, 'r') as f:
+  with open(CHANGELOG_JSON, 'r') as f:
     changelog_json = json.loads(f.read())
 
-  result = ""
-  header = "Changelog - The Dles"
-  
+  result = "# Changelog - The Dles\n\n"
+
+  for day in changelog_json:
+    result += f"## {day["date"]}\n\n"
+    result += f"{day["description"]}\n\n"
+
+    if "dles added" in day:
+      result += "dles added: "
+      result += ", ".join(f"[{dle["name"]}]({dle["url"]})" for dle in day["dles added"])
+      result += "\n"
+
+    result += "\n"
+
+    if "dles removed" in day:
+      result += "dles removed: "
+      result += ", ".join(f"[{dle["name"]}]({dle["url"]})" for dle in day["dles removed"])
+      result += "\n"
+    
+  return result
+
 
 def create_changelog_md():
   changelog_md_str = changelog_json_to_md_str()
-  changelog_md_file = "../../changelog.md"
+  with open(CHANGELOG_MD, "w+") as f:
+    f.write(changelog_md_str)
+
+
+if __name__ == "__main__":
+  changelog_json_to_md_str()

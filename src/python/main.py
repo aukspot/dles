@@ -11,4 +11,4 @@ if __name__ == "__main__":
     create_tag_colors()
     sort_tags()
     sort_dles()
-
+    create_changelog_md()
