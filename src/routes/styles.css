@@ -1,5 +1,5 @@
 @import '@fontsource/fira-mono';
-
+/* 
 :root {
 	--font-body: sans-serif;
 	--font-mono: 'Fira Mono', monospace;
@@ -130,4 +130,4 @@ button:active {
 	background-color: hsla(200, 200, 200, 0.7);
 	position: absolute;
 	width: 240px;
-}
+} */

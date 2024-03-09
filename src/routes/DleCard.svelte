@@ -1,14 +1,12 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte";
-  export let i;
-  export let dle;
+  import DleTagGroup from "./DleTagGroup.svelte"
+  export let i
+  export let dle
 </script>
 
 <li>
   <div class="left">
-    <div
-      style="display: flex; align-items: flex-start; gap:0.25rem; vertical-align: text-top;"
-    >
+    <div class="flex items-start gap-1 align-top">
       <span class="not-selectable name">{i}. </span>
       <span class="name"><strong>{dle.name}</strong></span>
     </div>
@@ -25,7 +23,7 @@
 </li>
 
 <style>
-  li {
+  /* li {
     display: flex;
     flex-direction: row;
     gap: 0.25rem;
@@ -69,7 +67,6 @@
     background-color: var(--color-bg);
     color: var(--color-text);
     border-radius: 0.3rem;
-    /* border: none; */
     border: 2px solid darkgray;
-  }
+  } */
 </style>

@@ -1,15 +1,15 @@
 <script>
-  import { base } from "$app/paths";
-  import SimpleLink from "../SimpleLink.svelte";
+  import { base } from "$app/paths"
+  import SimpleLink from "../SimpleLink.svelte"
   // import { invalidateAll, goto } from "$app/navigation";
   // import { applyAction, deserialize } from "$app/forms";
 
-  export let url = "";
-  export let description = "";
-  export let comments = "";
+  export let url = ""
+  export let description = ""
+  export let comments = ""
 
-  $: disabled = [url, description, comments].every((s) => s.length == 0);
-  $: criteria = disabled ? "var(--color-red)" : "var(--color-text)";
+  $: disabled = [url, description, comments].every((s) => s.length == 0)
+  $: criteria = disabled ? "var(--color-red)" : "var(--color-text)"
 
   // async function handleSubmit(e) {
   //   const isFormValid = [url, description, comments].some((s) => s.length != 0);
@@ -140,7 +140,7 @@
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     gap: 0.5rem;
   }
 

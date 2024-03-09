@@ -1,21 +1,10 @@
 <script>
-  import FilterTag from "./FilterTag.svelte";
-
-  export let tags;
+  import FilterTag from "./FilterTag.svelte"
+  export let tags
 </script>
 
-<div>
+<div class="flex gap-x-1 gap-y-2 flex-wrap leading-5">
   {#each tags as name}
     <FilterTag {name} type="include"></FilterTag>
   {/each}
 </div>
-
-<style>
-  div {
-    display: flex;
-    row-gap: 0.25rem;
-    column-gap: 0.5rem;
-    flex-wrap: wrap;
-    line-height: 1.2;
-  }
-</style>

@@ -1,15 +1,15 @@
 <script>
-  import ThemeButton from "./ThemeButton.svelte";
+  import ThemeButton from "./ThemeButton.svelte"
 </script>
 
 <header>
-  <div id="themeSwitcher">
+  <div id="themeSwitcher" class="absolute right-10">
     <ThemeButton />
   </div>
 </header>
 
 <style>
-  :global(body) {
+  /* :global(body) {
     --color-bg: var(--color-bg-lightmode);
     --color-text: var(--color-text-lightmode);
     --color-accent: var(--color-accent-lightmode);
@@ -40,8 +40,5 @@
     --color-card-bg-3: var(--color-card-bg-3-darkmode);
     --color-red: var(--color-red-darkmode);
   }
-  #themeSwitcher {
-    position: absolute;
-    right: 10px;
-  }
+ */
 </style>

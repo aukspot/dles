@@ -70,9 +70,9 @@
   <meta name="author" content="aukspot" />
 </svelte:head>
 
-<h1>The Dles</h1>
+<h1 class="text-2xl uppercase font-semibold font-mono mt-2">The Dles</h1>
 <!-- <p>"...they're anything but."</p> -->
-<p>A curated collection of daily games.</p>
+<p class="text-sm">A curated collection of daily games.</p>
 <p>
   <a href="{base}/suggest" style="text-align: center;">Suggest a game to add!</a
   >
@@ -106,10 +106,6 @@
 </ol>
 
 <style>
-  h1 {
-    font-family: var(--font-mono);
-    margin: 0.75rem;
-  }
   h1,
   h2,
   p {
