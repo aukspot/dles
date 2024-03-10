@@ -60,23 +60,16 @@
   onMount(applyTheme);
 </script>
 
-<button class="themeButton" on:click={toggleTheme}>
+<button
+  class="p-1 rounded-md shadow-md border border-slate-800 dark:border-slate-200"
+  on:click={toggleTheme}
+>
   <IconLightbulb />
 </button>
 
 <style>
-  button {
-    color: var(--color-lightbulb-lightmode);
-    background-color: var(--color-lightbulb-darkmode);
-    border: none;
-    border-radius: 0.25rem;
-    padding: 0.3rem;
-  }
   :global(body.dark) button {
     color: var(--color-lightbulb-darkmode);
     background-color: var(--color-lightbulb-lightmode);
-  }
-  button:hover {
-    cursor: pointer;
   }
 </style>

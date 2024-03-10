@@ -1,14 +1,15 @@
 <script>
-  import { base } from "$app/paths"
-  import DleCard from "./DleCard.svelte"
-  import dles_json from "../data/dles.json"
-  import Filters from "./Filters.svelte"
-  import { dles, filteredDles, tagNames, tags } from "../stores"
+  import { base } from "$app/paths";
+  import DleCard from "./DleCard.svelte";
+  import dles_json from "../data/dles.json";
+  import Filters from "./Filters.svelte";
+  import FilterTagGroup from "./FilterTagGroup.svelte";
+  import { dles, filteredDles, tagNames, tags } from "../stores";
 
   function initializeDles() {
-    $dles = dles_json
+    $dles = dles_json;
     for (let dle of $dles) {
-      dle.hidden = false
+      dle.hidden = false;
     }
   }
 
@@ -17,42 +18,42 @@
       .map((dle) => dle.tags)
       .flat()
       .filter((x, i, a) => a.indexOf(x) == i)
-      .sort()
+      .sort();
 
-    $tags = {}
+    $tags = {};
     for (let tag_name of $tagNames) {
       $tags[tag_name] = {
         included: false,
         excluded: false,
-      }
+      };
     }
   }
 
-  initializeDles()
-  initializeTags()
+  initializeDles();
+  initializeTags();
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
 
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
 
   $: $filteredDles = $dles.filter((dle) => {
-    let result = false
+    let result = false;
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true
+      result = true;
     }
     if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false
+      result = false;
     }
-    return result
-  })
+    return result;
+  });
 
   function clearFilters() {
     for (let includedTag of includedTags) {
-      $tags[includedTag].included = false
+      $tags[includedTag].included = false;
     }
     for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false
+      $tags[excludedTag].excluded = false;
     }
   }
 </script>
@@ -72,8 +73,8 @@
 
 <h1 class="text-2xl uppercase font-semibold font-mono mt-2">The Dles</h1>
 <!-- <p>"...they're anything but."</p> -->
-<p class="text-sm">A curated collection of daily games.</p>
-<p>
+<p class="text-sm mt-1">A curated collection of daily games.</p>
+<p class="text-sm mt-2">
   <a href="{base}/suggest" style="text-align: center;">Suggest a game to add!</a
   >
 </p>
@@ -87,25 +88,37 @@
 </details> -->
 <!-- <div class="divider"></div> -->
 
-<h2 class="banner">
-  {$filteredDles.length} dles
-</h2>
+<div
+  class="mt-3 pt-2 pb-1 border border-slate-500 leading-6 align-middle font-mono text-center text-2xl shadow-md"
+>
+  <strong>{$filteredDles.length}</strong>
+  {$filteredDles.length != 1 ? "dles" : "dle"}
+  {#if includedTags.length > 0}
+    <div class="text-sm">
+      that {$filteredDles.length != 1 ? "have" : "has"} the {includedTags.length >
+      1
+        ? "tags"
+        : "tag"}
+      <FilterTagGroup tags={includedTags} type="include" inDropdown={false} />
+    </div>
+  {/if}
+</div>
 <Filters />
 <button
   id="clearFiltersButton"
-  class="filterButton"
+  class="btn"
   on:click={clearFilters}
   style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
 >
 
-<ol>
+<ol class="mt-2 grid grid-cols-1 gap-2 md:grid-cols-2">
   {#each $filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
     <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->
   {/each}
 </ol>
 
-<style>
+<style lang="postcss">
   h1,
   h2,
   p {
@@ -113,18 +126,7 @@
     text-wrap: balance;
   }
 
-  h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    /* text-decoration: underline; */
-  }
-
-  p {
-    margin: 0.5rem 0 0 0;
-    padding-bottom: 1rem;
-  }
-
-  ol {
+  /* ol {
     width: 100%;
     padding: 0;
     justify-content: center;
@@ -132,7 +134,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 8px;
-  }
+  } */
 
   #clearFiltersButton {
     font-size: 0.9rem;

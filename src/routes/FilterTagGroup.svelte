@@ -6,7 +6,9 @@
   export let inDropdown;
 </script>
 
-<div class="filterTags-{type}">
+<div
+  class="filterTags-{type} flex gap-x-1 gap-y-2 flex-wrap leading-5 justify-center"
+>
   {#if tags.length == 0}
     <div id="none">
       {#if inDropdown}
@@ -21,16 +23,6 @@
 </div>
 
 <style>
-  div {
-    display: flex;
-    row-gap: 0.25rem;
-    column-gap: 0.5rem;
-    flex-wrap: wrap;
-    line-height: 1.2;
-  }
-  .filterTags-include {
-    justify-content: end;
-  }
   #none {
     font-size: 0.9rem;
     /* padding: 0.28rem 0; */

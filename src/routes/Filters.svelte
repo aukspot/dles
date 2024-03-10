@@ -8,29 +8,19 @@
   $: numFilters = includedTags.length + excludedTags.length;
 </script>
 
-<details id="filterDetails" style="padding: 0.25rem" open>
-  <summary
-    class="not-selectable pointer"
-    style="margin-bottom: 0.75rem; text-align: center; cursor: pointer; font-size: 1.2rem;"
-  >
+<details id="filterDetails" class="p-1 hidden">
+  <summary class="mb-3 text-center cursor-pointer not-selectable pointer">
     Filters {#if numFilters > 0}
       ({numFilters})
     {/if}
   </summary>
   <div
     id="filtersContainer"
-    style="
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 1rem;
-        row-gap: 0.5rem;
-        line-height: 1;
-        min-height: 5.2rem;
-      "
+    class="flex wrap gap-x-4 gap-y-2 leading-4 min-h-20"
   >
     <div class="filterSection">
-      <div id="includeLabel" class="filterLabel">
-        <strong>include</strong>
+      <div id="includeLabel" class="filterLabel font-semibold text-sm">
+        include
       </div>
       <FilterTagGroup tags={includedTags} type="include" inDropdown={false} />
       <div id="includedTagsList" class="tagsList">
@@ -41,8 +31,8 @@
     <div style="background-color: darkgray; width: 2px;"></div>
 
     <div class="filterSection">
-      <div id="excludeLabel" class="filterLabel">
-        <strong>exclude</strong>
+      <div id="excludeLabel" class="font-semibold text-sm filterLabel">
+        exclude
       </div>
       <FilterTagGroup tags={excludedTags} type="exclude" inDropdown={false} />
 
@@ -80,11 +70,11 @@
   }
   #includeLabel {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
   }
   #includedTagsList {
     position: relative;
-    justify-content: end;
+    justify-content: flex-end;
   }
   #excludedTagsList {
     position: relative;

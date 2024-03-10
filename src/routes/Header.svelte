@@ -1,9 +1,9 @@
 <script>
-  import ThemeButton from "./ThemeButton.svelte"
+  import ThemeButton from "./ThemeButton.svelte";
 </script>
 
 <header>
-  <div id="themeSwitcher" class="absolute right-10">
+  <div id="themeSwitcher" class="absolute top-2 left-2">
     <ThemeButton />
   </div>
 </header>

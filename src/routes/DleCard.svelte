@@ -1,38 +1,38 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte"
-  export let i
-  export let dle
+  import DleTagGroup from "./DleTagGroup.svelte";
+  export let i;
+  export let dle;
 </script>
 
-<li>
-  <div class="left">
-    <div class="flex items-start gap-1 align-top">
-      <span class="not-selectable name">{i}. </span>
-      <span class="name"><strong>{dle.name}</strong></span>
+<li
+  class="flex flex-row justify-between w-full px-2 py-1 ring-1 ring-slate-400 shadow-md rounded-md dark:ring-slate-500"
+>
+  <div class="flex flex-col flex-wrap justify-between w-full">
+    <div class="flex justify-between items-baseline align-top">
+      <div class="flex items-baseline align-top gap-1">
+        <span class="not-selectable">{i}. </span>
+        <span class="text-lg font-semibold">{dle.name}</span>
+      </div>
+      <div class="flex items-center p-2">
+        <a href={dle.url} target="_blank" rel="noreferrer"
+          ><button class="btn not-selectable">Play</button></a
+        >
+      </div>
     </div>
-    <div class="description">
+    <div>
       {dle.description}
     </div>
-    <DleTagGroup tags={dle.tags}></DleTagGroup>
-  </div>
-  <div class="right">
-    <a href={dle.url} target="_blank" rel="noreferrer"
-      ><button class="play not-selectable">Play</button></a
-    >
+    <div class="mt-2">
+      <DleTagGroup tags={dle.tags}></DleTagGroup>
+    </div>
   </div>
 </li>
 
+<!-- font-size: 1rem; padding: 0.4rem 0.8rem; background-color: var(--color-bg); color:
+var(--color-text); border-radius: 0.3rem; border: 2px solid darkgray; -->
+
 <style>
-  /* li {
-    display: flex;
-    flex-direction: row;
-    gap: 0.25rem;
-    justify-content: space-between;
-    width: 22rem;
-    padding: 0.5rem;
-    border: 1px solid darkgray;
-    border-radius: 4px;
-  }
+  /*
   li:nth-child(3n + 1) {
     background-color: var(--color-card-bg-2);
   }
@@ -41,12 +41,6 @@
   }
   li:nth-child(3n) {
     background-color: var(--color-card-bg-3);
-  }
-  .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 0.5rem;
   }
   .right {
     display: flex;
