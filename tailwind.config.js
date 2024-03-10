@@ -5,8 +5,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary-text-dark": "rgb(249, 249, 249)",
-        "primary-bg-dark": "#313338",
+        light: {
+          text: "#223344",
+          bg: "#ddeeff",
+        },
+        dark: {
+          text: "	#f9f9f9",
+          bg: "#313338",
+        },
       },
     },
   },

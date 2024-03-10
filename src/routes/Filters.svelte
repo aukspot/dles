@@ -1,11 +1,11 @@
 <script>
-  import Dropdown from "./Dropdown.svelte";
-  import FilterTagGroup from "./FilterTagGroup.svelte";
-  import { tagNames, tags } from "../stores";
+  import Dropdown from "./Dropdown.svelte"
+  import FilterTagGroup from "./FilterTagGroup.svelte"
+  import { tagNames, tags } from "../stores"
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
-  $: numFilters = includedTags.length + excludedTags.length;
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: numFilters = includedTags.length + excludedTags.length
 </script>
 
 <details id="filterDetails" class="p-1 hidden">

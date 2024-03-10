@@ -1,11 +1,15 @@
 <script>
-  import ThemeButton from "./ThemeButton.svelte";
+  import ThemeButton from "./ThemeButton.svelte"
 </script>
 
 <header>
   <div id="themeSwitcher" class="absolute top-2 left-2">
     <ThemeButton />
   </div>
+  <h1 class="text-2xl text-center uppercase font-semibold font-mono mt-2">
+    The Dles
+  </h1>
+  <p class="text-sm mt-1 text-center">A curated collection of daily games.</p>
 </header>
 
 <style>

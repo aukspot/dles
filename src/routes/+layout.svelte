@@ -7,7 +7,7 @@
 </script>
 
 <div
-  class="w-full text-slate-900 bg-slate-100 dark:text-primary-text-dark dark:bg-primary-bg-dark"
+  class="w-full text-slate-900 bg-slate-100 dark:text-dark-text dark:bg-dark-bg"
 >
   <div class="flex flex-col min-h-screen justify-between max-w-3xl mx-auto">
     <main class="relative flex flex-col flex-1 p-1 w-full mx-auto box-border">

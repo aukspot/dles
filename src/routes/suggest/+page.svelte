@@ -1,8 +1,6 @@
 <script>
   import { base } from "$app/paths"
   import SimpleLink from "../SimpleLink.svelte"
-  // import { invalidateAll, goto } from "$app/navigation";
-  // import { applyAction, deserialize } from "$app/forms";
 
   export let url = ""
   export let description = ""
@@ -10,38 +8,6 @@
 
   $: disabled = [url, description, comments].every((s) => s.length == 0)
   $: criteria = disabled ? "var(--color-red)" : "var(--color-text)"
-
-  // async function handleSubmit(e) {
-  //   const isFormValid = [url, description, comments].some((s) => s.length != 0);
-
-  //   if (!isFormValid) {
-  //     document.getElementById("criteria").style.color = "var(--color-red)";
-  //     return;
-  //   }
-
-  //   const data = new FormData(e.currentTarget);
-
-  //   const response = await fetch(e.currentTarget.action, {
-  //     method: "POST",
-  //     body: data,
-  //   });
-
-  //   const result = deserialize(await response.text());
-
-  //   if (result.type === "success") {
-  //     // rerun all `load` functions, following the successful update
-  //     await invalidateAll();
-  //   }
-
-  //   applyAction(result);
-  //   goto("/suggest/success");
-
-  //   // if ([url, description, comments].every((s) => s.length == 0)) {
-  //   //   console.log("ERROR EMPTY STRINGS");
-  //   //   return;
-  //   // }
-  //   // console.log(url, description, comments);
-  // }
 </script>
 
 <svelte:head>
@@ -52,15 +18,16 @@
   />
 </svelte:head>
 
-<div class="container">
-  <h2>Suggest a game!</h2>
-  <p>
-    Is there a game / dle you like that is missing from the list? Make an
+<div class="divider"></div>
+<div class="mx-auto max-w-lg flex flex-col gap-3">
+  <h2 class="mt-12 mb-0 text-center">Suggest a game!</h2>
+  <p class="text-center">
+    Is there a game / dle you like that is missing from the list? <br /> Make an
     anonymous suggestion below!
   </p>
-  <div id="formContainer">
-    <form method="POST" action="https://formspree.io/f/xpzvdyzl">
-      <fieldset>
+  <div class="flex justify-center items-center">
+    <form class="w-full" method="POST" action="https://formspree.io/f/xpzvdyzl">
+      <fieldset class="p-5 flex flex-col justify-end gap-2">
         <div class="formElementContainer">
           <label for="url">URL</label>
           <input
@@ -98,7 +65,7 @@
           * Must fill at least one box.
         </p>
 
-        <button class="submit" type="submit" {disabled}>Submit</button>
+        <button class="btn" type="submit" {disabled}>Submit</button>
       </fieldset>
     </form>
   </div>
@@ -106,86 +73,25 @@
   <SimpleLink href="{base}/" text="Back to home" />
 </div>
 
-<style lang="less">
-  .container {
-    margin: 0 auto;
-    max-width: 30rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  h2 {
-    margin-top: 3rem;
-    margin-bottom: 0;
-  }
-
-  h2,
-  p {
-    text-align: center;
-  }
-  #formContainer {
-    // background: #efefef;
-    // min-height: 100vh;
-    // margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  form {
-    width: 100%;
-  }
-  fieldset {
-    background-color: var(--color-card-bg-3);
-    padding: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 0.5rem;
-  }
-
+<style lang="postcss">
   label {
-    font-size: 1.05rem;
-    // font-family: var(--font-mono);
+    @apply text-base;
   }
 
   input {
-    margin: 0.4rem;
+    @apply m-2;
   }
 
   input[type="text"],
   textarea {
-    padding: 0.5rem;
-    font-family: var(--font-mono);
-    font-size: 0.9rem;
+    @apply p-2 font-mono text-sm;
   }
 
   textarea {
-    margin: 0.4rem;
-    resize: vertical;
-    min-height: 2rem;
-    max-height: 8rem;
+    @apply m-2 resize-y min-h-8 max-h-32;
   }
 
   .formElementContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .submit {
-    padding: 0.5rem 0.25rem;
-    margin: 0.6rem;
-    font-size: 1rem;
-  }
-  button:disabled {
-    cursor: unset;
-    background-color: var(--color-card-bg-3);
-  }
-  button:disabled:hover {
-    transform: unset;
-  }
-  button:disabled:active {
-    transform: unset;
+    @apply flex flex-col justify-between;
   }
 </style>

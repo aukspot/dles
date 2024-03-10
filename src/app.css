@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-slate-900 bg-slate-100 dark:text-primary-text-dark dark:bg-primary-bg-dark;
+  @apply text-slate-900 bg-slate-100 dark:text-dark-text dark:bg-dark-bg;
 }
 
 a {
@@ -14,6 +14,16 @@ a {
   @apply text-base px-2 py-1 rounded-md shadow-md text-slate-900 dark:text-slate-100 border border-slate-500 active:shadow-none;
 }
 
+.btn:disabled {
+  cursor: unset;
+  @apply shadow-none text-slate-500 bg-slate-100 border-slate-300 dark:bg-dark-bg dark:border-slate-800;
+}
+
+.divider {
+  border-top: 1px solid darkgray;
+  @apply mt-2;
+}
+
 .not-selectable {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -21,4 +31,11 @@ a {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+button:disabled:hover {
+  transform: unset;
+}
+button:disabled:active {
+  transform: unset;
 }
