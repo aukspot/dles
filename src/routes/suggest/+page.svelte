@@ -1,13 +1,13 @@
 <script>
-  import { base } from "$app/paths"
-  import SimpleLink from "../SimpleLink.svelte"
+  import { base } from "$app/paths";
+  import SimpleLink from "../SimpleLink.svelte";
 
-  export let url = ""
-  export let description = ""
-  export let comments = ""
+  export let url = "";
+  export let description = "";
+  export let comments = "";
 
-  $: disabled = [url, description, comments].every((s) => s.length == 0)
-  $: criteria = disabled ? "var(--color-red)" : "var(--color-text)"
+  $: disabled = [url, description, comments].every((s) => s.length == 0);
+  $: criteria = disabled ? "var(--color-red)" : "var(--color-text)";
 </script>
 
 <svelte:head>
@@ -20,8 +20,8 @@
 
 <div class="divider"></div>
 <div class="mx-auto max-w-lg flex flex-col gap-3">
-  <h2 class="mt-12 mb-0 text-center">Suggest a game!</h2>
-  <p class="text-center">
+  <h2 class="mt-12 mb-0 text-center text-lg">Suggest a game!</h2>
+  <p class="text-center text-sm">
     Is there a game / dle you like that is missing from the list? <br /> Make an
     anonymous suggestion below!
   </p>

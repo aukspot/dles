@@ -61,15 +61,8 @@
 </script>
 
 <button
-  class="p-1 rounded-md shadow-md border border-slate-800 dark:border-slate-200"
+  class="p-1 rounded-md shadow-md border border-slate-800 dark:border-slate-200 active:shadow-none"
   on:click={toggleTheme}
 >
   <IconLightbulb />
 </button>
-
-<style>
-  :global(body.dark) button {
-    color: var(--color-lightbulb-darkmode);
-    background-color: var(--color-lightbulb-lightmode);
-  }
-</style>
