@@ -1,15 +1,8 @@
 <script>
-  export let href;
-  export let text;
+  export let href
+  export let text
 </script>
 
-<p>
+<p class="mt-4 text-center">
   <a {href}>{text}</a>
 </p>
-
-<style>
-  p {
-    margin-top: 1rem;
-    text-align: center;
-  }
-</style>

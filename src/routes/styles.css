@@ -117,10 +117,7 @@ button:active {
 	border-top: 1px solid darkgray;
 	margin-bottom: 0.5rem;
 }
-.showBtn {
-    opacity: 1 !important;
-    transform: translateY(0);
-  }
+
 
 .small-modal {
 	background-color: hsla(200, 200, 200, 0.7);

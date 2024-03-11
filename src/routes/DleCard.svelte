@@ -5,7 +5,7 @@
 </script>
 
 <li
-  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-slate-400 shadow-md rounded-md dark:ring-slate-500"
+  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-neutral-500 shadow-md rounded-md"
 >
   <div class="flex flex-col flex-wrap justify-between w-full">
     <div class="flex justify-between items-baseline align-top">
@@ -19,7 +19,7 @@
         >
       </div>
     </div>
-    <div>
+    <div class="text-sm">
       {dle.description}
     </div>
     <div class="mt-2">
@@ -28,11 +28,7 @@
   </div>
 </li>
 
-<!-- font-size: 1rem; padding: 0.4rem 0.8rem; background-color: var(--color-bg); color:
-var(--color-text); border-radius: 0.3rem; border: 2px solid darkgray; -->
-
 <style>
-  /*
   li:nth-child(3n + 1) {
     background-color: var(--color-card-bg-2);
   }
@@ -42,5 +38,4 @@ var(--color-text); border-radius: 0.3rem; border: 2px solid darkgray; -->
   li:nth-child(3n) {
     background-color: var(--color-card-bg-3);
   }
-*/
 </style>

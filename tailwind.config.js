@@ -7,12 +7,18 @@ export default {
       colors: {
         light: {
           text: "#223344",
-          bg: "#ddeeff",
+          bg: "#efefef",
         },
         dark: {
-          text: "	#f9f9f9",
+          text: "#f9f9f9",
           bg: "#313338",
         },
+      },
+      screens: {
+        sm: "375px",
+        md: "480px",
+        lg: "768px",
+        xl: "960px",
       },
     },
   },
