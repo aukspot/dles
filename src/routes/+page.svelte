@@ -6,6 +6,7 @@
   // import FilterTagGroup from "./FilterTagGroup.svelte"
   // import { dles, filteredDles, tagNames, tags } from "../stores"
   import DleList from "./DleList.svelte"
+  import Settings from "./Settings.svelte"
   import SimpleLink from "./SimpleLink.svelte"
 
   // function initializeDles() {
@@ -83,5 +84,5 @@
   </p>
 </details> -->
 <!-- <div class="divider"></div> -->
-
-<DleList numCols="2" />
+<Settings />
+<DleList />

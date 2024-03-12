@@ -8,7 +8,7 @@
   export let comments = ""
 
   $: disabled = [url, description, comments].every((s) => s.length == 0)
-  $: criteria = disabled ? "text-red-600 dark:text-red-300" : ""
+  $: criteria = disabled ? "text-colorError" : ""
 </script>
 
 <svelte:head>
@@ -23,10 +23,10 @@
 <div class="divider"></div>
 <div class="mt-8 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
-    <h2 class="mb-0 text-center text-lg font-semibold">Suggest a game</h2>
-    <p class="text-center px-2">
-      Is there a good game / dle that is missing from the list? Make an
-      anonymous suggestion below!
+    <h2 class="mb-0 text-center text-lg font-semibold">Suggest a game!</h2>
+    <p class="text-center text-colorTextSoft px-2">
+      Is there a fun game / dle that is missing from the list? Make an anonymous
+      suggestion below!
     </p>
     <div class="flex justify-center items-center">
       <form
@@ -34,9 +34,7 @@
         method="POST"
         action="https://formspree.io/f/xpzvdyzl"
       >
-        <fieldset
-          class="p-1 flex flex-col justify-end gap-2 bg-neutral-200 dark:bg-neutral-800"
-        >
+        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCard">
           <div class="formElementContainer">
             <label for="url">URL</label>
             <input
@@ -74,7 +72,7 @@
             * Must fill at least one box.
           </p>
 
-          <button class="btn mt-2 mx-auto w-2/3" type="submit" {disabled}
+          <button class="btn mt-2 mx-auto w-48" type="submit" {disabled}
             >Submit</button
           >
         </fieldset>

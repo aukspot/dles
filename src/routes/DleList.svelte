@@ -4,9 +4,13 @@
   import dles_json from "../data/dles.json"
   import Filters from "./Filters.svelte"
   import FilterTagGroup from "./FilterTagGroup.svelte"
-  import { dles, filteredDles, tagNames, tags } from "../stores"
+  import { dles, filteredDles, numColumns, tagNames, tags } from "../stores"
 
-  export let numCols = 2
+  $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`
+
+  $: {
+    console.log($numColumns)
+  }
 
   function initializeDles() {
     $dles = dles_json
@@ -61,7 +65,7 @@
 </script>
 
 <div
-  class="mt-3 pt-2 pb-1 border border-neutral-500 leading-6 align-middle font-mono text-center text-2xl shadow-md"
+  class="mt-3 pt-2 pb-1 border border-colorNeutralSoft leading-6 align-middle font-mono rounded text-center text-2xl shadow-sm shadow-colorNeutralSoft"
 >
   <strong>{$filteredDles.length}</strong>
   {$filteredDles.length != 1 ? "dles" : "dle"}
@@ -82,7 +86,7 @@
   style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
 >
 
-<ol class="mt-2 grid grid-cols-1 gap-2 lg:grid-cols-{numCols}">
+<ol class="mt-2 gap-2 grid grid-cols-var lg:[{numColumnsCSS}]">
   {#each $filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
     <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->

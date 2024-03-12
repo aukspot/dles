@@ -2,17 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --num-columns: 2;
+}
+
 a {
-  @apply text-blue-500 hover:text-blue-400 active:text-blue-600 dark:text-blue-200 dark:hover:text-blue-100 dark:active:text-blue-300;
+  @apply text-colorLink hover:text-colorLinkHover active:text-colorLinkActive;
 }
 
 .btn {
-  @apply text-base px-2 py-2 rounded-md shadow-md text-light-text dark:text-dark-text border border-neutral-500 active:shadow-none;
+  @apply text-base px-2 py-1 rounded-md shadow-md text-colorText border border-colorNeutral active:shadow-none;
 }
 
 .btn:disabled {
   cursor: unset;
-  @apply shadow-none text-neutral-500 bg-light-bg border-neutral-300 dark:bg-dark-bg dark:border-neutral-800;
+  @apply shadow-none text-colorNeutral bg-colorBackground border-neutral-300 dark:border-neutral-800;
 }
 
 .showBtn {
@@ -21,7 +25,7 @@ a {
 }
 
 .divider {
-  @apply mt-4 border-t border-neutral-500;
+  @apply mt-4 border-t border-colorNeutral;
 }
 
 .not-selectable {
@@ -36,6 +40,7 @@ a {
 button:disabled:hover {
   transform: unset;
 }
+
 button:disabled:active {
   transform: unset;
 }
@@ -48,11 +53,18 @@ input {
   @apply m-2;
 }
 
+input[type="number"],
 input[type="text"],
 textarea {
-  @apply p-2 font-mono text-xs sm:text-sm dark:text-light-text;
+  @apply p-2 font-mono text-xs sm:text-sm bg-colorBackground rounded;
 }
 
 textarea {
-  @apply m-2 resize-y min-h-8 max-h-32;
+  @apply m-2 resize-y min-h-10 max-h-32;
+}
+
+@layer utilities {
+  .grid-cols-var {
+    grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
+  }
 }
