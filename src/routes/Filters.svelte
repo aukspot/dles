@@ -1,11 +1,11 @@
 <script>
-  import Dropdown from "./Dropdown.svelte";
-  import FilterTagGroup from "./FilterTagGroup.svelte";
-  import { tagNames, tags } from "../stores";
+  import Dropdown from "./Dropdown.svelte"
+  import FilterTagGroup from "./FilterTagGroup.svelte"
+  import { tagNames, tags } from "../stores"
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
-  $: numFilters = includedTags.length + excludedTags.length;
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: numFilters = includedTags.length + excludedTags.length
 </script>
 
 <div class="mb-3 text-center cursor-pointer not-selectable pointer">
@@ -36,9 +36,6 @@
 </div>
 
 <style>
-  .filterLabel {
-    font-size: 1.1rem;
-  }
   .filterSection {
     display: flex;
     flex-direction: column;
