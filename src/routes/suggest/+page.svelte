@@ -1,14 +1,14 @@
 <script>
-  import { base } from "$app/paths"
-  import SimpleLink from "../SimpleLink.svelte"
-  import SimpleCard from "../SimpleCard.svelte"
+  import { base } from "$app/paths";
+  import SimpleLink from "../SimpleLink.svelte";
+  import SimpleCard from "../SimpleCard.svelte";
 
-  export let url = ""
-  export let description = ""
-  export let comments = ""
+  export let url = "";
+  export let description = "";
+  export let comments = "";
 
-  $: disabled = [url, description, comments].every((s) => s.length == 0)
-  $: criteria = disabled ? "text-colorError" : ""
+  $: disabled = [url, description, comments].every((s) => s.length == 0);
+  $: criteria = disabled ? "text-colorError" : "";
 </script>
 
 <svelte:head>
@@ -34,7 +34,7 @@
         method="POST"
         action="https://formspree.io/f/xpzvdyzl"
       >
-        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCard">
+        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCardB">
           <div class="formElementContainer">
             <label for="url">URL</label>
             <input

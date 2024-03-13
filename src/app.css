@@ -11,7 +11,7 @@ a {
 }
 
 .btn {
-  @apply text-base px-2 py-1 rounded-md shadow-md text-colorText border border-colorNeutral active:shadow-none;
+  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutralSoft active:shadow-none;
 }
 
 .btn:disabled {

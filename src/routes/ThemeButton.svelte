@@ -60,9 +60,6 @@
   onMount(applyTheme);
 </script>
 
-<button
-  class="p-1 rounded-md shadow-md border border-slate-800 dark:border-slate-200 active:shadow-none"
-  on:click={toggleTheme}
->
+<button class="btn" on:click={toggleTheme}>
   <IconLightbulb />
 </button>

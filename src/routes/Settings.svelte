@@ -1,8 +1,8 @@
 <script>
-  import { numColumns } from "../stores"
+  import { numColumns } from "../stores";
 </script>
 
-<div>
+<!-- <div>
   <label for="darkMode">Dark mode?</label>
   <input id="darkMode" type="checkbox" />
   <label for="numColumns">Number of columns</label>
@@ -13,4 +13,4 @@
     max="3"
     bind:value={$numColumns}
   />
-</div>
+</div> -->

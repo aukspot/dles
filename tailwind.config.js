@@ -27,7 +27,8 @@ export default {
             colorNeutralSoft: "#CDCDCD",
             colorNeutralSofter: "#DFDFDF",
             colorNeutralContrasted: "purple",
-            colorCard: "#E5E5E5",
+            colorCardA: "#E9E9E9",
+            colorCardB: "#D9D9D9",
             colorError: "#AF2020",
           },
         },
@@ -47,7 +48,8 @@ export default {
               colorNeutralSoft: "#595d66",
               colorNeutralSofter: "#43454c",
               colorNeutralContrasted: "purple",
-              colorCard: "#212226",
+              colorCardA: "#2c2e33",
+              colorCardB: "#212226",
               colorError: "#FF9999",
             },
           },
@@ -55,4 +57,4 @@ export default {
       ],
     }),
   ],
-}
+};

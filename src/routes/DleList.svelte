@@ -1,21 +1,21 @@
 <script>
-  import { base } from "$app/paths"
-  import DleCard from "./DleCard.svelte"
-  import dles_json from "../data/dles.json"
-  import Filters from "./Filters.svelte"
-  import FilterTagGroup from "./FilterTagGroup.svelte"
-  import { dles, filteredDles, numColumns, tagNames, tags } from "../stores"
+  import { base } from "$app/paths";
+  import DleCard from "./DleCard.svelte";
+  import dles_json from "../data/dles.json";
+  import Filters from "./Filters.svelte";
+  import FilterTagGroup from "./FilterTagGroup.svelte";
+  import { dles, filteredDles, numColumns, tagNames, tags } from "../stores";
 
-  $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`
+  $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
 
   $: {
-    console.log($numColumns)
+    console.log($numColumns);
   }
 
   function initializeDles() {
-    $dles = dles_json
+    $dles = dles_json;
     for (let dle of $dles) {
-      dle.hidden = false
+      dle.hidden = false;
     }
   }
 
@@ -24,48 +24,48 @@
       .map((dle) => dle.tags)
       .flat()
       .filter((x, i, a) => a.indexOf(x) == i)
-      .sort()
+      .sort();
 
-    $tags = {}
+    $tags = {};
     for (let tag_name of $tagNames) {
       $tags[tag_name] = {
         included: false,
         excluded: false,
-      }
+      };
     }
   }
 
-  initializeDles()
-  initializeTags()
+  initializeDles();
+  initializeTags();
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
 
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
 
   $: $filteredDles = $dles.filter((dle) => {
-    let result = false
+    let result = false;
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true
+      result = true;
     }
     if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false
+      result = false;
     }
-    return result
-  })
+    return result;
+  });
 
   function clearFilters() {
     for (let includedTag of includedTags) {
-      $tags[includedTag].included = false
+      $tags[includedTag].included = false;
     }
     for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false
+      $tags[excludedTag].excluded = false;
     }
   }
 </script>
 
 <div
-  class="mt-3 pt-2 pb-1 border border-colorNeutralSoft leading-6 align-middle font-mono rounded text-center text-2xl shadow-sm shadow-colorNeutralSoft"
+  class="mt-3 pt-2 pb-1 border border-colorNeutral leading-6 align-middle font-mono rounded text-center text-2xl shadow-sm shadow-colorNeutralSoft"
 >
   <strong>{$filteredDles.length}</strong>
   {$filteredDles.length != 1 ? "dles" : "dle"}
@@ -78,7 +78,7 @@
     </div>
   {/if}
 </div>
-<!-- <Filters /> -->
+<Filters />
 <button
   id="clearFiltersButton"
   class="btn text-sm py-2 px-4 mt-2 mx-auto min-w-32"
@@ -86,7 +86,7 @@
   style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
 >
 
-<ol class="mt-2 gap-2 grid grid-cols-var lg:[{numColumnsCSS}]">
+<ol class="mt-2 gap-2 grid grid-cols-1 lg:grid-cols-2">
   {#each $filteredDles as dle, i}
     <DleCard {dle} i={i + 1}></DleCard>
     <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->

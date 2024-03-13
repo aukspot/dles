@@ -49,25 +49,7 @@
 
 <svelte:document on:keyup={handleKeyUp} on:click={handleDocumentClick} />
 <div class="dropdownContainer">
-  <label for="checkbox-{type}" class="not-selectable pointer addButton">
-    <div class="flex-end filterButton">+ add tag</div>
-  </label>
-  <input
-    id="checkbox-{type}"
-    class="filterCheckbox"
-    type="checkbox"
-    bind:checked
-  />
-  <!-- svelte-ignore a11y-no-static-element-interactions -->
-  <!-- svelte-ignore a11y-click-events-have-key-events -->
-  <div
-    class="dropdown"
-    on:click={handleClickInsideDropdown}
-    use:clickOutside
-    on:click_outside={handleClickOutsideDropdown}
-  >
-    <FilterTagGroup tags={dropdownTags} {type} inDropdown={true} />
-  </div>
+  <FilterTagGroup tags={dropdownTags} {type} inDropdown={true} />
 </div>
 
 <style>
@@ -94,13 +76,13 @@
   }
 
   :global(.dropdown) {
-    display: none;
+    /* display: none; */
     list-style: none;
     width: 30rem;
   }
   .dropdown {
     /* padding-left: 0.5rem; */
-    position: absolute;
+    /* position: absolute; */
     background-color: var(--color-bg);
     border: 1px solid var(--color-text);
     /* box-shadow: 1px 1px 6px 2px var(--color-text);
