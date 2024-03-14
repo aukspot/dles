@@ -3,7 +3,7 @@
   import RandomButton from "./RandomButton.svelte";
   import SearchButton from "./SearchButton.svelte";
 
-  export let selection = "None";
+  export let selection;
 </script>
 
 <div class="flex justify-center gap-3">

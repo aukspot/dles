@@ -79,7 +79,7 @@
     </div>
   {/if}
 </div>
-<Toolbar />
+<Toolbar selection="Filter" />
 <!-- <Filters /> -->
 <button
   id="clearFiltersButton"

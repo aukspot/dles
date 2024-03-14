@@ -2,6 +2,8 @@
   export let selected;
 </script>
 
-<button class="btn-icon {selected ? 'shadow-inner' : 0}">
+<button
+  class="btn-icon {selected ? 'shadow-inner shadow-colorNeutralSoft' : ''}"
+>
   <slot />
 </button>
