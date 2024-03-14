@@ -13,7 +13,7 @@
 
 <button
   on:click={handleClick}
-  class="filterTag not-selectable text-xs px-2 py-1 rounded shadow-md shadow-colorNeutralSofter font-mono dark:text-slate-900 active:shadow-none"
+  class="filterTag not-selectable text-xs text-colorTextTag px-2 py-1 rounded shadow-md shadow-colorNeutralSofter font-mono active:shadow-none"
   style="background-color: {tag_colors[name]}"
 >
   {name}

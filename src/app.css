@@ -11,7 +11,7 @@ a {
 }
 
 .btn {
-  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutralSoft active:shadow-none;
+  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutralSofter active:shadow-none;
 }
 
 .btn:disabled {
@@ -20,7 +20,7 @@ a {
 }
 
 .btn-icon {
-  @apply flex justify-center w-9 rounded mt-2 hover:border hover:border-colorNeutralSoft active:shadow-none;
+  @apply flex justify-center items-center w-9 h-9 rounded mt-2 fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
 }
 
 .showBtn {

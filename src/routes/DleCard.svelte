@@ -1,7 +1,7 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte"
-  export let i
-  export let dle
+  import DleTagGroup from "./DleTagGroup.svelte";
+  export let i;
+  export let dle;
 </script>
 
 <li
@@ -15,7 +15,9 @@
       </div>
       <div class="flex items-center pt-1">
         <a href={dle.url} target="_blank" rel="noreferrer"
-          ><button class="btn !px-2 ml-1 not-selectable">Play</button></a
+          ><button class="btn !px-2 bg-colorBackground ml-1 not-selectable"
+            >Play</button
+          ></a
         >
       </div>
     </div>

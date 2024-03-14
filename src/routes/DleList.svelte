@@ -2,10 +2,10 @@
   import { base } from "$app/paths";
   import DleCard from "./DleCard.svelte";
   import dles_json from "../data/dles.json";
-  import FilterButton from "./FilterButton.svelte";
-  import RandomButton from "./RandomButton.svelte";
+
   import FilterTagGroup from "./FilterTagGroup.svelte";
   import { dles, filteredDles, numColumns, tagNames, tags } from "../stores";
+  import Toolbar from "./Toolbar.svelte";
 
   $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
 
@@ -79,10 +79,7 @@
     </div>
   {/if}
 </div>
-<div class="flex justify-center gap-2">
-  <RandomButton />
-  <FilterButton />
-</div>
+<Toolbar />
 <!-- <Filters /> -->
 <button
   id="clearFiltersButton"

@@ -59,8 +59,8 @@ def word_to_color(word):
 
   # test
   color = Color(hue=hue)
-  color.set_saturation(0.5)
-  color.set_luminance(0.8)
+  color.set_saturation(0.4)
+  color.set_luminance(0.75)
   return color.hex
 
 
@@ -86,19 +86,19 @@ def changelog_json_to_md_str():
   result = "# Changelog - The Dles\n\n"
 
   for day in changelog_json:
-    result += f"## {day["date"]}\n\n"
-    result += f"{day["description"]}\n\n"
+    result += f"## {day['date']}\n\n"
+    result += f"{day['description']}\n\n"
 
     if "dles added" in day:
       result += "dles added: "
-      result += ", ".join(f"[{dle["name"]}]({dle["url"]})" for dle in day["dles added"])
+      result += ", ".join(f"[{dle['name']}]({dle['url']})" for dle in day["dles added"])
       result += "\n"
 
     result += "\n"
 
     if "dles removed" in day:
       result += "dles removed: "
-      result += ", ".join(f"[{dle["name"]}]({dle["url"]})" for dle in day["dles removed"])
+      result += ", ".join(f"[{dle['name']}]({dle['url']})" for dle in day["dles removed"])
       result += "\n"
     
   return result

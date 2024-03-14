@@ -10,6 +10,9 @@ export default {
         lg: "768px",
         xl: "960px",
       },
+      colors: {
+        colorTextTag: "#445566",
+      },
     },
   },
   plugins: [
