@@ -19,6 +19,10 @@ a {
   @apply shadow-none text-colorNeutral bg-colorBackground border-neutral-300 dark:border-neutral-800;
 }
 
+.btn-icon {
+  @apply flex justify-center w-9 rounded mt-2 hover:border hover:border-colorNeutralSoft active:shadow-none;
+}
+
 .showBtn {
   opacity: 1 !important;
   transform: translateY(0);

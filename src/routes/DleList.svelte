@@ -2,7 +2,8 @@
   import { base } from "$app/paths";
   import DleCard from "./DleCard.svelte";
   import dles_json from "../data/dles.json";
-  import Filters from "./Filters.svelte";
+  import FilterButton from "./FilterButton.svelte";
+  import RandomButton from "./RandomButton.svelte";
   import FilterTagGroup from "./FilterTagGroup.svelte";
   import { dles, filteredDles, numColumns, tagNames, tags } from "../stores";
 
@@ -78,7 +79,11 @@
     </div>
   {/if}
 </div>
-<Filters />
+<div class="flex justify-center gap-2">
+  <RandomButton />
+  <FilterButton />
+</div>
+<!-- <Filters /> -->
 <button
   id="clearFiltersButton"
   class="btn text-sm py-2 px-4 mt-2 mx-auto min-w-32"
