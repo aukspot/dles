@@ -1,15 +1,21 @@
 <script>
   import { base } from "$app/paths";
-  import { dles, filteredDles, numColumns, tagNames, tags } from "../../../stores";
+  import {
+    dles,
+    filteredDles,
+    numColumns,
+    tagNames,
+    tags,
+  } from "../../../stores";
   import dles_json from "$lib/data/dles.json";
 
   import DleCard from "./DleCard.svelte";
-  import Filters from "./../Filters/Filters.svelte"
+  import Filters from "./../Filters/Filters.svelte";
   import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
   import Toolbar from "./../../Toolbar.svelte";
 
-  import {flip} from 'svelte/animate'
-  import {quintOut} from 'svelte/easing'
+  import { flip } from "svelte/animate";
+  import { quintOut } from "svelte/easing";
 
   $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
 
@@ -46,8 +52,6 @@
   $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
   $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
 
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
-
   $: $filteredDles = $dles.filter((dle) => {
     let result = false;
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
@@ -58,15 +62,6 @@
     }
     return result;
   });
-
-  function clearFilters() {
-    for (let includedTag of includedTags) {
-      $tags[includedTag].included = false;
-    }
-    for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false;
-    }
-  }
 </script>
 
 <div
@@ -83,20 +78,16 @@
     </div>
   {/if}
 </div>
-<Toolbar selection="Filter" />
-<!-- <Filters /> -->
-<button
-  id="clearFiltersButton"
-  class="btn text-sm py-2 px-4 mt-2 mx-auto min-w-32"
-  on:click={clearFilters}
-  style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
->
+<Toolbar />
 
 <ol class="mt-2 gap-2 grid grid-cols-1 lg:grid-cols-2">
   {#each $filteredDles as dle, i (i)}
-  <li animate:flip={{ duration: 300, easing: quintOut }} class="flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA">
-    <DleCard {dle} i={i + 1}></DleCard>
-  </li>
+    <li
+      animate:flip={{ duration: 300, easing: quintOut }}
+      class="flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA"
+    >
+      <DleCard {dle} i={i + 1}></DleCard>
+    </li>
     <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->
   {/each}
 </ol>

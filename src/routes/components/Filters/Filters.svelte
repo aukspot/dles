@@ -1,11 +1,21 @@
 <script>
-  import FiltersDropdown from "./FiltersDropdown.svelte"
-  import FilterTagGroup from "./FilterTagGroup.svelte"
-  import { tagNames, tags } from "../../../stores"
+  import FiltersDropdown from "./FiltersDropdown.svelte";
+  import FilterTagGroup from "./FilterTagGroup.svelte";
+  import { tagNames, tags } from "../../../stores";
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
-  $: numFilters = includedTags.length + excludedTags.length
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+  // $: numFilters = includedTags.length + excludedTags.length;
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
+
+  function clearFilters() {
+    for (let includedTag of includedTags) {
+      $tags[includedTag].included = false;
+    }
+    for (let excludedTag of excludedTags) {
+      $tags[excludedTag].excluded = false;
+    }
+  }
 </script>
 
 <div class="flex justify-center items-center mt-2 gap-2 text-sm">
@@ -32,6 +42,14 @@
 </div>
 <!-- <FilterTagGroup tags={includedTags} type="include" inDropdown={false} /> -->
 <FiltersDropdown type="include" />
+<div class="flex justify-center items-center">
+  <button
+    id="clearFiltersButton"
+    class="btn text-xs py-2 px-3 mt-2 mx-auto min-w-28"
+    on:click={clearFilters}
+    style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
+  >
+</div>
 
 <!-- 
     <div style="background-color: darkgray; width: 2px;"></div>
@@ -49,7 +67,7 @@
 
 <style lang="postcss">
   .radioInput {
-    @apply w-0 h-0 absolute left-96;
+    @apply w-0 h-0 hidden;
     &:checked + label {
       @apply bg-colorTextSoft text-colorBackground transition-all duration-500 ease-in-out;
     }
