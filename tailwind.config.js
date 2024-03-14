@@ -9,6 +9,7 @@ export default {
         md: "480px",
         lg: "768px",
         xl: "960px",
+        xxl: "1200px",
       },
       colors: {
         colorTextTag: "#445566",
@@ -60,4 +61,4 @@ export default {
       ],
     }),
   ],
-};
+}

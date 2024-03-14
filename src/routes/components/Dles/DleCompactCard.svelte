@@ -8,7 +8,7 @@
     <div
       style="display: flex; align-items: flex-start; gap:0.25rem; vertical-align: text-top;"
     >
-      <span class="not-selectable name">{i}. </span>
+      <span class="unselectable name">{i}. </span>
       <span class="name"
         ><strong
           ><a href={dle.url} target="_blank" rel="noreferrer">{dle.name}</a

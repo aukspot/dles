@@ -1,11 +1,11 @@
 <script>
-  import changelog from "../data/changelog.json";
+  import changelog from "$lib/data/changelog.json"
 </script>
 
 <div id="changelogContainer">
   <details id="changelog" style="padding: 0.25rem">
     <summary
-      class="not-selectable pointer"
+      class="unselectable pointer"
       style="margin-bottom: 0.75rem; text-align: center; cursor: pointer; font-size: 1.2rem;"
     >
       Changelog

@@ -3,12 +3,10 @@
   import "./styles.css"
   import Header from "./Header.svelte"
   import Changelog from "./Changelog.svelte"
-  import BackToTopButton from "./BackToTopButton.svelte"
+  import BackToTopButton from "./components/Buttons/BackToTopButton.svelte"
 </script>
 
-<div
-  class="w-full text-colorText bg-colorBackground dark:text-colorText dark:bg-colorBackground"
->
+<div class="w-full text-colorText bg-colorBackground">
   <div class="flex flex-col min-h-screen justify-between max-w-3xl mx-auto">
     <main class="relative flex flex-col flex-1 p-1 w-full mx-auto box-border">
       <Header />

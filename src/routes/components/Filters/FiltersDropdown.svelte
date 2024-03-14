@@ -1,7 +1,7 @@
 <script>
   import FilterTagGroup from "./FilterTagGroup.svelte"
-  import { filteredDles, tags } from "../stores"
-  import { clickOutside } from "./clickOutside.js"
+  import { filteredDles, tags } from "../../../stores"
+  import { clickOutside } from "../../clickOutside.js"
 
   export let type
 
@@ -48,6 +48,6 @@
 </script>
 
 <svelte:document on:keyup={handleKeyUp} on:click={handleDocumentClick} />
-<div class="dropdownContainer">
+<div class="w-full mt-2">
   <FilterTagGroup tags={dropdownTags} {type} inDropdown={true} />
 </div>

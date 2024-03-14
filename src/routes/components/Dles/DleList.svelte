@@ -1,11 +1,13 @@
 <script>
   import { base } from "$app/paths";
-  import DleCard from "./DleCard.svelte";
-  import dles_json from "../data/dles.json";
+  import { dles, filteredDles, numColumns, tagNames, tags } from "../../../stores";
+  import dles_json from "$lib/data/dles.json";
 
-  import FilterTagGroup from "./FilterTagGroup.svelte";
-  import { dles, filteredDles, numColumns, tagNames, tags } from "../stores";
-  import Toolbar from "./Toolbar.svelte";
+  import DleCard from "./DleCard.svelte";
+  import Filters from "./../Filters/Filters.svelte"
+  import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
+  import Toolbar from "./../../Toolbar.svelte";
+
 
   $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
 

@@ -6,9 +6,9 @@ import string
 from colour import Color
 
 
-DLES_FILE = "../data/dles.json"
-TAG_COLORS_FILE = "../data/tag_colors.json"
-CHANGELOG_JSON = "../data/changelog.json"
+DLES_FILE = "../lib/data/dles.json"
+TAG_COLORS_FILE = "../lib/data/tag_colors.json"
+CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
 
 def sort_tags():

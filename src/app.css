@@ -16,7 +16,7 @@ a {
 
 .btn:disabled {
   cursor: unset;
-  @apply shadow-none text-colorNeutral bg-colorBackground border-neutral-300 dark:border-neutral-800;
+  @apply shadow-none text-colorNeutral bg-colorBackground border-colorNeutralSofter;
 }
 
 .btn-icon {
@@ -30,15 +30,6 @@ a {
 
 .divider {
   @apply mt-4 border-t border-colorNeutral;
-}
-
-.not-selectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 button:disabled:hover {
@@ -68,6 +59,14 @@ textarea {
 }
 
 @layer utilities {
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
   .grid-cols-var {
     grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
   }

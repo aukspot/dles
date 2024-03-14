@@ -1,6 +1,6 @@
 <script>
-  import IconButton from "./IconButton.svelte";
-  export let selected;
+  import IconButton from "./../../Buttons/IconButtons/IconButton.svelte"
+  export let selected
 </script>
 
 <IconButton {selected}>

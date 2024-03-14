@@ -1,5 +1,5 @@
 <script>
-  import FilterTag from "./FilterTag.svelte"
+  import FilterTag from "./../Filters/FilterTag.svelte"
   export let tags
 </script>
 
