@@ -1,9 +1,9 @@
 <script>
   import IconButton from "./../../Buttons/IconButtons/IconButton.svelte"
-  export let selected
+  const name = "Filter"
 </script>
 
-<IconButton {selected}>
+<IconButton {name}>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="28"
     ><path
       d="M22 33V19.5L33.47 8A1.81 1.81 0 0 0 34 6.7V5a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1.67a1.79 1.79 0 0 0 .53 1.27L14 19.58v10.2Z"

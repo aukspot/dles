@@ -1,9 +1,15 @@
 <script>
-  export let selected;
+  import { toolbarSelection } from "../../../../stores"
+  export let name
 </script>
 
 <button
-  class="btn-icon {selected ? 'shadow-inner shadow-colorNeutralSoft' : ''}"
+  class="btn-icon {name === $toolbarSelection
+    ? 'shadow-inner shadow-colorNeutralSoft'
+    : ''}"
+  on:click={() => {
+    $toolbarSelection = name
+  }}
 >
   <slot />
 </button>

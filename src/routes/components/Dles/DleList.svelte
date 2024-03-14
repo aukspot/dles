@@ -8,6 +8,8 @@
   import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
   import Toolbar from "./../../Toolbar.svelte";
 
+  import {flip} from 'svelte/animate'
+  import {quintOut} from 'svelte/easing'
 
   $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
 
@@ -91,8 +93,10 @@
 >
 
 <ol class="mt-2 gap-2 grid grid-cols-1 lg:grid-cols-2">
-  {#each $filteredDles as dle, i}
+  {#each $filteredDles as dle, i (i)}
+  <li animate:flip={{ duration: 300, easing: quintOut }} class="flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA">
     <DleCard {dle} i={i + 1}></DleCard>
+  </li>
     <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->
   {/each}
 </ol>

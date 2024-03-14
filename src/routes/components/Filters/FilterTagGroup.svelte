@@ -1,4 +1,6 @@
 <script>
+  import { flip } from "svelte/animate"
+  import { quintOut } from "svelte/easing"
   import FilterTag from "./FilterTag.svelte"
 
   export let tags
@@ -14,8 +16,10 @@
       {/if}
     </div>
   {:else}
-    {#each tags as name}
-      <FilterTag {name} {type}></FilterTag>
+    {#each tags as name, i (i)}
+      <div animate:flip={{ delay: 50, duration: 450, easing: quintOut }}>
+        <FilterTag {name} {type}></FilterTag>
+      </div>
     {/each}
   {/if}
 </div>

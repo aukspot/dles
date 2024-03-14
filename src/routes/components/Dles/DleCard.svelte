@@ -4,8 +4,8 @@
   export let dle;
 </script>
 
-<li
-  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA"
+<div
+  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md "
 >
   <div class="flex flex-col flex-wrap justify-between w-full">
     <div class="flex justify-between">
@@ -28,4 +28,4 @@
       <DleTagGroup tags={dle.tags}></DleTagGroup>
     </div>
   </div>
-</li>
+</div>
