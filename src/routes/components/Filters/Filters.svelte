@@ -1,21 +1,20 @@
 <script>
-  import FiltersDropdown from "./FiltersDropdown.svelte";
-  import FilterTagGroup from "./FilterTagGroup.svelte";
-  import { tagNames, tags } from "../../../stores";
+  import FiltersDropdown from "./FiltersDropdown.svelte"
+  import FilterTagGroup from "./FilterTagGroup.svelte"
+  import { tagNames, tags } from "../../../stores"
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
-  // $: numFilters = includedTags.length + excludedTags.length;
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0
 
-  let filterChoice = "include";
+  let filterChoice = "include"
 
   function clearFilters() {
     for (let includedTag of includedTags) {
-      $tags[includedTag].included = false;
+      $tags[includedTag].included = false
     }
     for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false;
+      $tags[excludedTag].excluded = false
     }
   }
 </script>
@@ -43,7 +42,6 @@
     <label class="radioLabel" for="excludeFilter">exclude</label>
   </div>
 </div>
-<!-- <FilterTagGroup tags={includedTags} type="include" inDropdown={false} /> -->
 <FiltersDropdown type={filterChoice} />
 <div class="flex justify-center items-center">
   <button
@@ -53,20 +51,6 @@
     style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
   >
 </div>
-
-<!-- 
-    <div style="background-color: darkgray; width: 2px;"></div>
-
-    <div class="filterSection">
-      <div id="excludeLabel" class="font-semibold text-sm filterLabel">
-        exclude
-      </div>
-      <FilterTagGroup tags={excludedTags} type="exclude" inDropdown={false} />
-
-      <div id="excludedTagsList" class="tagsList">
-        <FiltersDropdown type="exclude" />
-      </div>
-    </div> -->
 
 <style lang="postcss">
   .radioInput {

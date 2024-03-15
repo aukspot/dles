@@ -1,7 +1,7 @@
 <script>
   import { base } from "$app/paths"
-  import SimpleLink from "../SimpleLink.svelte"
-  import SimpleCard from "../SimpleCard.svelte"
+  import SimpleLink from "../components/SimpleLink.svelte"
+  import SimpleCard from "../components/SimpleCard.svelte"
 
   export let url = ""
   export let description = ""

@@ -1,11 +1,11 @@
 <script>
-  import { flip } from "svelte/animate";
-  import { quintOut } from "svelte/easing";
-  import FilterTag from "./FilterTag.svelte";
+  import { flip } from "svelte/animate"
+  import { quintOut } from "svelte/easing"
+  import FilterTag from "./FilterTag.svelte"
 
-  export let tags;
-  export let type;
-  export let inDropdown;
+  export let tags
+  export let type
+  export let inDropdown
 </script>
 
 <div class="flex justify-center">
@@ -34,6 +34,5 @@
   }
   #none {
     font-size: 0.9rem;
-    /* padding: 0.28rem 0; */
   }
 </style>

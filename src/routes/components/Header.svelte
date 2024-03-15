@@ -1,5 +1,5 @@
 <script>
-  import ThemeButton from "./components/Buttons/ThemeButton.svelte"
+  import ThemeButton from "./Buttons/ThemeButton.svelte"
 </script>
 
 <header>

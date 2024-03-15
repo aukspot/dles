@@ -12,7 +12,7 @@
   import DleCard from "./DleCard.svelte";
   import Filters from "./../Filters/Filters.svelte";
   import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
-  import Toolbar from "./../../Toolbar.svelte";
+  import Toolbar from "./../Toolbar.svelte";
 
   import { flip } from "svelte/animate";
   import { quintOut } from "svelte/easing";
