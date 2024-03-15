@@ -17,7 +17,7 @@
     </div>
   {:else}
     {#each tags as name, i (i)}
-      <div animate:flip={{ duration: 300, easing: quintOut }}>
+      <div animate:flip={{ duration: 250, easing: quintOut }}>
         <FilterTag {name} {type}></FilterTag>
       </div>
     {/each}

@@ -77,13 +77,24 @@
       <FilterTagGroup tags={includedTags} type="include" inDropdown={false} />
     </div>
   {/if}
+  <div class="text-sm">
+    {#if excludedTags.length > 0}
+      {#if includedTags.length > 0}
+        but not the
+      {:else}
+        don't have the
+      {/if}
+      {excludedTags.length > 1 ? "tags" : "tag"}
+    {/if}
+    <FilterTagGroup tags={excludedTags} type="exclude" inDropdown={false} />
+  </div>
 </div>
 <Toolbar />
 
 <ol class="mt-2 gap-2 grid grid-cols-1 lg:grid-cols-2">
   {#each $filteredDles as dle, i (i)}
     <li
-      animate:flip={{ duration: 300, easing: quintOut }}
+      animate:flip={{ duration: 100, easing: quintOut }}
       class="flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA"
     >
       <DleCard {dle} i={i + 1}></DleCard>

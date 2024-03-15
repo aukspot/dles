@@ -8,6 +8,8 @@
   // $: numFilters = includedTags.length + excludedTags.length;
   $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
 
+  let filterChoice = "include";
+
   function clearFilters() {
     for (let includedTag of includedTags) {
       $tags[includedTag].included = false;
@@ -27,7 +29,7 @@
       name="filterChoice"
       value="include"
       id="includeFilter"
-      checked
+      bind:group={filterChoice}
     />
     <label class="radioLabel" for="includeFilter">include</label>
     <input
@@ -36,16 +38,17 @@
       name="filterChoice"
       value="exclude"
       id="excludeFilter"
+      bind:group={filterChoice}
     />
     <label class="radioLabel" for="excludeFilter">exclude</label>
   </div>
 </div>
 <!-- <FilterTagGroup tags={includedTags} type="include" inDropdown={false} /> -->
-<FiltersDropdown type="include" />
+<FiltersDropdown type={filterChoice} />
 <div class="flex justify-center items-center">
   <button
     id="clearFiltersButton"
-    class="btn text-xs py-2 px-3 mt-2 mx-auto min-w-28"
+    class="btn text-xs py-2 px-3 mt-3 mx-auto min-w-28"
     on:click={clearFilters}
     style="display:{hasFilters ? 'unset' : 'none'}">Clear filters</button
   >

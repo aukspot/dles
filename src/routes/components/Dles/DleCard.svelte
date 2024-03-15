@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md "
+  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md"
 >
   <div class="flex flex-col flex-wrap justify-between w-full">
     <div class="flex justify-between">
@@ -13,19 +13,19 @@
         <span class="unselectable">{i}. </span>
         <span class="text-lg font-semibold">{dle.name}</span>
       </div>
-      <div class="flex items-center py-1">
-        <a href={dle.url} target="_blank" rel="noreferrer"
-          ><button class="btn !px-2 bg-colorBackground ml-1 unselectable"
-            >Play</button
-          ></a
-        >
-      </div>
     </div>
-    <div class="text-sm text-colorTextSoft mt-1">
+    <div class="text-sm text-colorTextSoft mt-1 sm:text-base">
       {dle.description}
     </div>
     <div class="mt-2">
       <DleTagGroup tags={dle.tags}></DleTagGroup>
     </div>
+  </div>
+  <div class="flex items-center py-1">
+    <a href={dle.url} target="_blank" rel="noreferrer"
+      ><button class="btn !px-2 bg-colorBackground ml-2 unselectable"
+        >Play</button
+      ></a
+    >
   </div>
 </div>

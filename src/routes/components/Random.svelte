@@ -1,8 +1,9 @@
 <script>
   import { filteredDles } from "../../stores";
 
+  let url = "/random";
   let dle = {
-    url: "",
+    url,
   };
 
   function randomDle() {
@@ -13,12 +14,16 @@
 
   function playRandomDle() {
     dle = randomDle();
-    console.log(dle);
   }
 </script>
 
 <div class="flex justify-center items-center">
-  <button class="btn mt-2" on:click={playRandomDle}
-    ><a href={dle.url} target="_blank" rel="noreferrer">Play random!</a></button
-  >
+  <div class="flex flex-col gap-1">
+    <a href={dle.url} class="mx-auto" target="_blank" rel="noreferrer"
+      ><button id="playButton" class="btn mt-2" on:click={playRandomDle}
+        >Play random!</button
+      ></a
+    >
+    <div class="text-xs mx-auto">(Opens in new tab)</div>
+  </div>
 </div>

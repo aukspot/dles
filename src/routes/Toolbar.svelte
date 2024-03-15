@@ -14,11 +14,11 @@
   <SearchButton />
 </div>
 <div>
-  {#if $toolbarSelection === "Random"}
+  <div class={$toolbarSelection === "Random" ? "" : "hidden"}>
     <Random />
-  {:else if $toolbarSelection === "Filter"}
+  </div>
+  <div class={$toolbarSelection === "Filter" ? "" : "hidden"}>
     <Filters />
-  {:else if $toolbarSelection === "Search"}
-    <div>Search</div>
-  {/if}
+  </div>
+  <div class={$toolbarSelection === "Search" ? "" : "hidden"}>Search</div>
 </div>
