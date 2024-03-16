@@ -19,10 +19,6 @@
 
   $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
 
-  $: {
-    console.log($numColumns);
-  }
-
   function initializeDles() {
     $dles = dles_json;
     for (let dle of $dles) {

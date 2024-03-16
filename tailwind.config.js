@@ -4,16 +4,15 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      screens: {
-        sm: "375px",
-        md: "480px",
-        lg: "768px",
-        xl: "960px",
-        xxl: "1200px",
-      },
       colors: {
         colorTextTag: "#445566",
       },
+    },
+    screens: {
+      sm: "375px",
+      md: "480px",
+      lg: "768px",
+      xl: "960px",
     },
   },
   plugins: [
