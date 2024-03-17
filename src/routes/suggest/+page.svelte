@@ -1,7 +1,7 @@
 <script>
   import { base } from "$app/paths"
-  import SimpleLink from "../components/SimpleLink.svelte"
-  import SimpleCard from "../components/SimpleCard.svelte"
+  import SimpleLink from "$lib/components/SimpleLink.svelte"
+  import SimpleCard from "$lib/components/SimpleCard.svelte"
 
   export let url = ""
   export let description = ""
@@ -23,7 +23,7 @@
 <div class="divider"></div>
 <div class="mt-8 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
-    <h2 class="mb-0 text-center text-lg font-semibold">Suggest a game!</h2>
+    <h2 class="mb-0 text-center text-xl font-semibold">Suggest a game!</h2>
     <p class="text-center text-colorTextSoft px-2">
       Is there a fun game / dle that is missing from the list? Make an anonymous
       suggestion below!

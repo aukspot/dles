@@ -1,8 +1,8 @@
 <script>
   import { base } from "$app/paths"
-  import DleList from "./components/Dles/DleList.svelte"
-  import Settings from "./components/Settings.svelte"
-  import SimpleLink from "./components/SimpleLink.svelte"
+  import DleList from "$lib/components/Dles/DleList.svelte"
+  import Settings from "$lib/components/Settings.svelte"
+  import SimpleLink from "$lib/components/SimpleLink.svelte"
 </script>
 
 <svelte:head>

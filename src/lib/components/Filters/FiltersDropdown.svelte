@@ -1,7 +1,7 @@
 <script>
   import FilterTagGroup from "./FilterTagGroup.svelte"
   import { filteredDles, tags } from "../../../stores"
-  import { clickOutside } from "../../clickOutside.js"
+  import { clickOutside } from "$lib/js/clickOutside.js"
 
   export let type
 

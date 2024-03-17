@@ -22,6 +22,7 @@ export default {
           colors: {
             colorText: "#223344",
             colorTextSoft: "#556677",
+            colorTextSofter: "#667788",
             colorBackground: "#EFEFEF",
             colorLink: "#3B82F6",
             colorLinkHover: "#60A5FA",
@@ -45,6 +46,7 @@ export default {
             colors: {
               colorText: "#F2F2F2",
               colorTextSoft: "#D2D2D2",
+              colorTextSofter: "#C2C2C2",
               colorBackground: "#313338",
               colorLink: "#BFDBFE",
               colorLinkHover: "#DBEAFE",
