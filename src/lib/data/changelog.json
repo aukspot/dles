@@ -1,7 +1,12 @@
 [
   {
+    "date": "2024-03-17",
+    "description": "Redesign with Tailwind CSS.<br>Add button to play a random dle.<br>Remove tags: architecture, art, and color.",
+    "dles added": []
+  },
+  {
     "date": "2024-02-27",
-    "description": "Added a <a href=\"https://github.com/aukspot/dles/blob/main/CHANGELOG.md\" target=\"_blank\">CHANGELOG.md</a>.<br>13 dles added.",
+    "description": "Add a <a href=\"https://github.com/aukspot/dles/blob/main/CHANGELOG.md\" target=\"_blank\">CHANGELOG.md</a>.<br>Add 13 dles.",
     "dles added": [
       { "name": "Hitori Conquest", "url": "https://hitoriconquest.com/" },
       {
@@ -29,7 +34,7 @@
   },
   {
     "date": "2024-02-17",
-    "description": "8 dles added.",
+    "description": "Add 8 dles.",
     "dles added": [
       { "name": "Connections Game", "url": "https://connectionsgame.com" },
       {
@@ -46,7 +51,7 @@
   },
   {
     "date": "2024-02-16",
-    "description": "Added a <a href=\"/dles/suggest\">suggestion form</a>.<br>4 dles added.",
+    "description": "Add a <a href=\"/dles/suggest\">suggestion form</a>.<br>Add 4 dles.",
     "dles added": [
       { "name": "Adoptle", "url": "https://tryhardguides.com/adoptle/" },
       {
@@ -59,7 +64,7 @@
   },
   {
     "date": "2024-02-14",
-    "description": "Added a proper <a href=\"https://github.com/aukspot/dles/blob/main/README.md\" target=\"_blank\">README</a>.<br>Removed daily and unlimited tags for simplicity.<br>Added archive tag. <br>7 dles added, 1 removed.",
+    "description": "Add a proper <a href=\"https://github.com/aukspot/dles/blob/main/README.md\" target=\"_blank\">README</a>.<br>Remove daily and unlimited tags for simplicity.<br>Add archive tag. <br>Add 7 dles, remove 1.",
     "dles added": [
       { "name": "Archiguessr", "url": "https://archiguesser.com/" },
       { "name": "Daydle", "url": "https://daydle.com/" },
@@ -84,7 +89,7 @@
   },
   {
     "date": "2024-02-13",
-    "description": "Added tags with include/exclude filters.<br>Added dark mode toggle.<br>57 dles added.",
+    "description": "Add tags with include/exclude filters.<br>Add dark mode toggle.<br>Add 57 dles.",
     "dles added": [
       {
         "name": "Bandle",

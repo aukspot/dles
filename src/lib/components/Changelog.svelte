@@ -2,15 +2,12 @@
   import changelog from "$lib/data/changelog.json"
 </script>
 
-<div id="changelogContainer">
-  <details id="changelog" style="padding: 0.25rem">
-    <summary
-      class="unselectable pointer"
-      style="margin-bottom: 0.75rem; text-align: center; cursor: pointer; font-size: 1.2rem;"
-    >
+<div class="flex justify-center">
+  <details class="m-4 p-1">
+    <summary class="text-center text-lg cursor-pointer unselectable">
       Changelog
     </summary>
-    <div id="entries">
+    <div class="flex flex-col text-xs sm:text-sm md:text-base gap-2 mt-2">
       {#each changelog as entry}
         <div class="entry">
           <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
@@ -21,22 +18,10 @@
   </details>
 </div>
 
-<style>
-  #changelogContainer {
-    display: flex;
-    justify-content: center;
-    font-size: 0.9rem;
-  }
-  details {
-    margin: 1rem;
-  }
-  #entries {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+<style lang="postcss">
   .entry {
-    display: flex;
-    gap: 0.5rem;
+    @apply mt-2 flex gap-2;
+    time {
+    }
   }
 </style>
