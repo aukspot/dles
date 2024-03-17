@@ -31,7 +31,7 @@
   .card {
     @apply flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md;
     .cardRows {
-      @apply flex flex-col flex-wrap justify-between w-full;
+      @apply flex flex-col flex-wrap gap-y-1 justify-between w-full;
       .cardTop {
         @apply flex justify-between;
         .cardLabel {

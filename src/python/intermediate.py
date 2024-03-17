@@ -11,6 +11,7 @@ TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
 
+
 def sort_tags():
   backup_file(DLES_FILE)
   
@@ -57,10 +58,9 @@ def word_to_color(word):
     for i, letter in enumerate(letters)
   ) / 26 ** len(letters)
 
-  # test
   color = Color(hue=hue)
   color.set_saturation(0.4)
-  color.set_luminance(0.75)
+  color.set_luminance(0.8)
   return color.hex
 
 

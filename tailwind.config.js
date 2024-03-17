@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        colorTextTag: "#445566",
+        colorTextTag: "#223344",
       },
     },
     screens: {
