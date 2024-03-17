@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  width="28"
   ><path
     stroke="currentColor"
     stroke-width="1.5"
@@ -16,8 +20,6 @@
   svg {
     color: var(--color-lightbulb-lightmode);
     background-color: var(--color-lightbulb-darkmode);
-    width: 24px;
-    height: 24px;
   }
   :global(body.dark) svg {
     color: var(--color-lightbulb-darkmode);

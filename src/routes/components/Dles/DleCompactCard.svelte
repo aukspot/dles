@@ -1,6 +1,6 @@
 <script>
-  export let i;
-  export let dle;
+  export let i
+  export let dle
 </script>
 
 <li>
@@ -56,16 +56,5 @@
     li {
       width: 18rem;
     }
-    .name {
-      /* font-size: 1rem; */
-    }
   }
-  /* @media (max-width: 400px) {
-    li {
-      width: 8rem;
-    }
-    .name {
-      font-size: 0.9rem;
-    }
-  } */
 </style>

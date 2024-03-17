@@ -4,10 +4,16 @@
   export let tags
 </script>
 
-<div class="flex gap-x-1 gap-y-2 flex-wrap leading-5">
+<div class="group">
   {#each tags as name, i (i)}
     <div animate:flip>
       <FilterTag {name} type="include"></FilterTag>
     </div>
   {/each}
 </div>
+
+<style lang="postcss">
+  .group {
+    @apply flex gap-x-1 gap-y-2 flex-wrap leading-5;
+  }
+</style>

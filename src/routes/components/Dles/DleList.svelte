@@ -1,28 +1,27 @@
 <script>
-  import { base } from "$app/paths";
+  import { base } from "$app/paths"
   import {
     dles,
     filteredDles,
     numColumns,
     tagNames,
     tags,
-  } from "../../../stores";
-  import dles_json from "$lib/data/dles.json";
+  } from "../../../stores"
+  import dles_json from "$lib/data/dles.json"
 
-  import DleCard from "./DleCard.svelte";
-  import Filters from "./../Filters/Filters.svelte";
-  import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
-  import Toolbar from "./../Toolbar.svelte";
+  import DleCard from "./DleCard.svelte"
+  import FilterTagGroup from "./../Filters/FilterTagGroup.svelte"
+  import Toolbar from "./../Toolbar.svelte"
 
-  import { flip } from "svelte/animate";
-  import { quintOut } from "svelte/easing";
+  import { flip } from "svelte/animate"
+  import { quintOut } from "svelte/easing"
 
-  $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`;
+  $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`
 
   function initializeDles() {
-    $dles = dles_json;
+    $dles = dles_json
     for (let dle of $dles) {
-      dle.hidden = false;
+      dle.hidden = false
     }
   }
 
@@ -31,33 +30,33 @@
       .map((dle) => dle.tags)
       .flat()
       .filter((x, i, a) => a.indexOf(x) == i)
-      .sort();
+      .sort()
 
-    $tags = {};
+    $tags = {}
     for (let tag_name of $tagNames) {
       $tags[tag_name] = {
         included: false,
         excluded: false,
-      };
+      }
     }
   }
 
-  initializeDles();
-  initializeTags();
+  initializeDles()
+  initializeTags()
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
 
   $: $filteredDles = $dles.filter((dle) => {
-    let result = false;
+    let result = false
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true;
+      result = true
     }
     if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false;
+      result = false
     }
-    return result;
-  });
+    return result
+  })
 </script>
 
 <div
@@ -89,12 +88,15 @@
 
 <ol class="mt-2 gap-2 grid grid-cols-1 lg:grid-cols-2">
   {#each $filteredDles as dle, i (i)}
-    <li
-      animate:flip={{ duration: 100, easing: quintOut }}
-      class="flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA"
-    >
+    <li animate:flip={{ duration: 100, easing: quintOut }}>
       <DleCard {dle} i={i + 1}></DleCard>
     </li>
     <!-- <DleCompactCard {dle} i={i + 1}></DleCompactCard> -->
   {/each}
 </ol>
+
+<style lang="postcss">
+  li {
+    @apply flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA;
+  }
+</style>

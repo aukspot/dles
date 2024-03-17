@@ -30,7 +30,7 @@
       id="includeFilter"
       bind:group={filterChoice}
     />
-    <label class="radioLabel" for="includeFilter">include</label>
+    <label class="radioLabel unselectable" for="includeFilter">include</label>
     <input
       class="radioInput"
       type="radio"
@@ -39,7 +39,7 @@
       id="excludeFilter"
       bind:group={filterChoice}
     />
-    <label class="radioLabel" for="excludeFilter">exclude</label>
+    <label class="radioLabel unselectable" for="excludeFilter">exclude</label>
   </div>
 </div>
 <FiltersDropdown type={filterChoice} />
@@ -63,7 +63,7 @@
     }
   }
   .radioLabel {
-    @apply m-0 py-1 px-2 box-border relative inline-block border-y border-r border-colorNeutral bg-colorBackground text-center text-sm cursor-pointer unselectable;
+    @apply m-0 py-1 px-2 box-border relative inline-block border-y border-r border-colorNeutral bg-colorBackground text-center text-sm cursor-pointer;
     &:nth-of-type(1) {
       @apply rounded-l border-l;
     }

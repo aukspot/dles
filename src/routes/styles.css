@@ -1,5 +1,5 @@
-@import "@fontsource/fira-mono";
-/* 
+/*@import "@fontsource/fira-mono";
+ 
 :root {
 	--font-body: sans-serif;
 	--font-mono: 'Fira Mono', monospace;
@@ -95,15 +95,6 @@ button:active {
     border: 1px solid var(--color-bg-darkmode);
     cursor: pointer;
 }
-
-.unselectable {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-  }
 
 .filterButton {
 	color: var(--color-text);

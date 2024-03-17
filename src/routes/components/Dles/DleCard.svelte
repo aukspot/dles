@@ -1,24 +1,18 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte";
-  export let i;
-  export let dle;
+  import DleTagGroup from "./DleTagGroup.svelte"
+  export let i
+  export let dle
 </script>
 
-<div
-  class="flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md"
->
-  <div class="flex flex-col flex-wrap justify-between w-full">
-    <div class="flex justify-between">
-      <div class="flex items-baseline align-top gap-1">
+<div class="card">
+  <div class="cardRows">
+    <div class="cardTop">
+      <div class="cardLabel">
         <span class="unselectable">{i}. </span>
-        <span class="text-lg font-semibold">{dle.name}</span>
-
+        <span class="cardName">{dle.name}</span>
       </div>
-      <a href={dle.url} target="_blank" rel="noreferrer"
-        ><svg class="btn !p-0" width="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12V6a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-6m-3.889-7H12m0 0v3.889M12 12l-7 7" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg></a
-      >
     </div>
-    <div class="text-sm text-colorTextSoft mt-1 sm:text-base">
+    <div class="cardDescription">
       {dle.description}
     </div>
     <div class="mt-2">
@@ -26,11 +20,38 @@
     </div>
   </div>
 
-  <!-- <div class="flex items-center py-1">
+  <div class="playButton">
     <a href={dle.url} target="_blank" rel="noreferrer"
-      ><button class="btn !px-2 bg-colorBackground ml-3 unselectable"
-        >Play</button
-      ></a
+      ><button class="btn unselectable">Play</button></a
     >
-  </div> -->
+  </div>
 </div>
+
+<style lang="postcss">
+  .card {
+    @apply flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md;
+    .cardRows {
+      @apply flex flex-col flex-wrap justify-between w-full;
+      .cardTop {
+        @apply flex justify-between;
+        .cardLabel {
+          @apply flex items-baseline align-top gap-1;
+        }
+        .cardName {
+          @apply text-lg font-semibold;
+        }
+      }
+      .cardDescription {
+        @apply text-sm text-colorTextSoft mt-1 sm:text-base;
+      }
+    }
+    .playButton {
+      @apply flex items-center py-1;
+      a {
+        button {
+          @apply !px-2 !border !border-colorNeutralSoft bg-colorBackground ml-3;
+        }
+      }
+    }
+  }
+</style>
