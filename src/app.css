@@ -1,0 +1,79 @@
+@import "@fontsource/fira-mono";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --num-columns: 2;
+}
+
+a {
+  @apply text-colorLink hover:text-colorLinkHover active:text-colorLinkActive;
+}
+
+.btn {
+  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutralSofter active:shadow-none md:text-lg;
+}
+
+.btn:disabled {
+  cursor: unset;
+  @apply shadow-none text-colorNeutral bg-colorBackground border-colorNeutralSofter;
+}
+
+.btn-icon {
+  @apply flex justify-center items-center w-9 h-9 rounded mt-2 fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
+}
+
+.btn-svg {
+  @apply md:w-8;
+}
+
+.showBtn {
+  opacity: 1 !important;
+  transform: translateY(0);
+}
+
+.divider {
+  @apply mt-4 border-t border-colorNeutral;
+}
+
+button:disabled:hover {
+  transform: unset;
+}
+
+button:disabled:active {
+  transform: unset;
+}
+
+label {
+  @apply text-base;
+}
+
+input {
+  @apply m-2;
+}
+
+input[type="number"],
+input[type="text"],
+textarea {
+  @apply p-2 font-mono text-xs sm:text-sm bg-colorBackground rounded border border-colorNeutral placeholder:text-colorTextSofter;
+}
+
+textarea {
+  @apply m-2 resize-y min-h-10 max-h-32;
+}
+
+@layer utilities {
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .grid-cols-var {
+    grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
+  }
+}

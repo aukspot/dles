@@ -1,5 +1,5 @@
-@import '@fontsource/fira-mono';
-
+/*@import "@fontsource/fira-mono";
+ 
 :root {
 	--font-body: sans-serif;
 	--font-mono: 'Fira Mono', monospace;
@@ -67,11 +67,7 @@ a :visited {
 }
 
 .banner {
-    color: var(--color-bg);
-    background-color: var(--color-accent);
-    line-height: 1.5;
-    vertical-align: middle;
-    font-family: var(--font-mono);
+
   }
 
 button {
@@ -100,15 +96,6 @@ button:active {
     cursor: pointer;
 }
 
-.not-selectable {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-  }
-
 .filterButton {
 	color: var(--color-text);
 	background-color: var(--color-card-bg-1);
@@ -121,13 +108,10 @@ button:active {
 	border-top: 1px solid darkgray;
 	margin-bottom: 0.5rem;
 }
-.showBtn {
-    opacity: 1 !important;
-    transform: translateY(0);
-  }
+
 
 .small-modal {
 	background-color: hsla(200, 200, 200, 0.7);
 	position: absolute;
 	width: 240px;
-}
+} */

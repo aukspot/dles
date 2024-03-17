@@ -1,47 +1,14 @@
 <script>
-  import { base } from "$app/paths";
-  import SimpleLink from "../SimpleLink.svelte";
-  // import { invalidateAll, goto } from "$app/navigation";
-  // import { applyAction, deserialize } from "$app/forms";
+  import { base } from "$app/paths"
+  import SimpleLink from "$lib/components/SimpleLink.svelte"
+  import SimpleCard from "$lib/components/SimpleCard.svelte"
 
-  export let url = "";
-  export let description = "";
-  export let comments = "";
+  export let url = ""
+  export let description = ""
+  export let comments = ""
 
-  $: disabled = [url, description, comments].every((s) => s.length == 0);
-  $: criteria = disabled ? "var(--color-red)" : "var(--color-text)";
-
-  // async function handleSubmit(e) {
-  //   const isFormValid = [url, description, comments].some((s) => s.length != 0);
-
-  //   if (!isFormValid) {
-  //     document.getElementById("criteria").style.color = "var(--color-red)";
-  //     return;
-  //   }
-
-  //   const data = new FormData(e.currentTarget);
-
-  //   const response = await fetch(e.currentTarget.action, {
-  //     method: "POST",
-  //     body: data,
-  //   });
-
-  //   const result = deserialize(await response.text());
-
-  //   if (result.type === "success") {
-  //     // rerun all `load` functions, following the successful update
-  //     await invalidateAll();
-  //   }
-
-  //   applyAction(result);
-  //   goto("/suggest/success");
-
-  //   // if ([url, description, comments].every((s) => s.length == 0)) {
-  //   //   console.log("ERROR EMPTY STRINGS");
-  //   //   return;
-  //   // }
-  //   // console.log(url, description, comments);
-  // }
+  $: disabled = [url, description, comments].every((s) => s.length == 0)
+  $: criteria = disabled ? "text-colorError" : ""
 </script>
 
 <svelte:head>
@@ -51,141 +18,71 @@
     content="Suggest a game to be added to the list of dles."
   />
 </svelte:head>
+<SimpleLink href="{base}/" text="Go back to collection" />
 
-<div class="container">
-  <h2>Suggest a game!</h2>
-  <p>
-    Is there a game / dle you like that is missing from the list? Make an
-    anonymous suggestion below!
-  </p>
-  <div id="formContainer">
-    <form method="POST" action="https://formspree.io/f/xpzvdyzl">
-      <fieldset>
-        <div class="formElementContainer">
-          <label for="url">URL</label>
-          <input
-            bind:value={url}
-            type="text"
-            id="url"
-            name="url"
-            placeholder="example.game"
-          />
-        </div>
+<div class="divider"></div>
+<div class="mt-8 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+  <SimpleCard>
+    <h2 class="mb-0 text-center text-xl font-semibold">Suggest a game!</h2>
+    <p class="text-center text-colorTextSoft px-2">
+      Is there a fun game / dle that is missing from the list? Make an anonymous
+      suggestion below!
+    </p>
+    <div class="flex justify-center items-center">
+      <form
+        class="w-full"
+        method="POST"
+        action="https://formspree.io/f/xpzvdyzl"
+      >
+        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCardA">
+          <div class="formElementContainer">
+            <label for="url">URL</label>
+            <input
+              bind:value={url}
+              type="text"
+              id="url"
+              name="url"
+              placeholder="example.game"
+            />
+          </div>
 
-        <div class="formElementContainer">
-          <label for="description">Description</label>
-          <textarea
-            bind:value={description}
-            id="description"
-            name="description"
-            placeholder="describe the game"
-            rows="4"
-          />
-        </div>
+          <div class="formElementContainer">
+            <label for="description">Description</label>
+            <textarea
+              bind:value={description}
+              id="description"
+              name="description"
+              placeholder="describe the game"
+              rows="4"
+            />
+          </div>
 
-        <div class="formElementContainer">
-          <label for="comments">Comments</label>
-          <textarea
-            bind:value={comments}
-            id="comments"
-            name="comments"
-            placeholder="share anything else here"
-            rows="4"
-          />
-        </div>
+          <div class="formElementContainer">
+            <label for="comments">Comments</label>
+            <textarea
+              bind:value={comments}
+              id="comments"
+              name="comments"
+              placeholder="share anything else here"
+              rows="4"
+            />
+          </div>
 
-        <p id="criteria" style="color: {criteria}">
-          * Must fill at least one box.
-        </p>
+          <p id="criteria" class="text-center {criteria}">
+            * Must fill at least one box.
+          </p>
 
-        <button class="submit" type="submit" {disabled}>Submit</button>
-      </fieldset>
-    </form>
-  </div>
-
-  <SimpleLink href="{base}/" text="Back to home" />
+          <button class="btn mt-2 mx-auto w-48" type="submit" {disabled}
+            >Submit</button
+          >
+        </fieldset>
+      </form>
+    </div>
+  </SimpleCard>
 </div>
 
-<style lang="less">
-  .container {
-    margin: 0 auto;
-    max-width: 30rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  h2 {
-    margin-top: 3rem;
-    margin-bottom: 0;
-  }
-
-  h2,
-  p {
-    text-align: center;
-  }
-  #formContainer {
-    // background: #efefef;
-    // min-height: 100vh;
-    // margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  form {
-    width: 100%;
-  }
-  fieldset {
-    background-color: var(--color-card-bg-3);
-    padding: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    gap: 0.5rem;
-  }
-
-  label {
-    font-size: 1.05rem;
-    // font-family: var(--font-mono);
-  }
-
-  input {
-    margin: 0.4rem;
-  }
-
-  input[type="text"],
-  textarea {
-    padding: 0.5rem;
-    font-family: var(--font-mono);
-    font-size: 0.9rem;
-  }
-
-  textarea {
-    margin: 0.4rem;
-    resize: vertical;
-    min-height: 2rem;
-    max-height: 8rem;
-  }
-
+<style lang="postcss">
   .formElementContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .submit {
-    padding: 0.5rem 0.25rem;
-    margin: 0.6rem;
-    font-size: 1rem;
-  }
-  button:disabled {
-    cursor: unset;
-    background-color: var(--color-card-bg-3);
-  }
-  button:disabled:hover {
-    transform: unset;
-  }
-  button:disabled:active {
-    transform: unset;
+    @apply flex flex-col justify-between;
   }
 </style>

@@ -1,44 +1,23 @@
 <script>
-  import Header from "./Header.svelte";
-  import Changelog from "./Changelog.svelte";
-  import "./styles.css";
-  import BackToTopButton from "./BackToTopButton.svelte";
+  import "../app.css"
+  import "./styles.css"
+  import Header from "$lib/components/Header.svelte"
+  import Changelog from "$lib/components/Changelog.svelte"
+  import BackToTopButton from "$lib/components/Buttons/BackToTopButton.svelte"
 </script>
 
-<div class="app">
-  <main>
-    <Header />
-    <slot />
-    <BackToTopButton />
-  </main>
-  <footer>
-    <div class="divider"></div>
-    <Changelog />
-  </footer>
+<div class="w-full text-colorText bg-colorBackground">
+  <div
+    class="flex flex-col min-h-screen justify-between max-w-screen-xl mx-auto"
+  >
+    <main class="relative flex flex-col flex-1 p-1 w-full mx-auto box-border">
+      <Header />
+      <slot />
+      <BackToTopButton />
+    </main>
+    <footer class="flex flex-col p-1">
+      <div class="divider"></div>
+      <Changelog />
+    </footer>
+  </div>
 </div>
-
-<style>
-  .app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: space-between;
-    max-width: 50rem;
-    margin: 0 auto;
-  }
-  main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 0.25rem;
-    width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
-    position: relative;
-  }
-  footer {
-    padding: 0.25rem;
-    display: flex;
-    flex-direction: column;
-  }
-</style>
