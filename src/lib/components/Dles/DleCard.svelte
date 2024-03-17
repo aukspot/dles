@@ -1,7 +1,7 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte"
-  export let i
-  export let dle
+  import DleTagGroup from "./DleTagGroup.svelte";
+  export let i;
+  export let dle;
 </script>
 
 <div class="card">
@@ -38,18 +38,18 @@
           @apply flex items-baseline align-top gap-1;
         }
         .cardName {
-          @apply text-lg font-semibold;
+          @apply text-lg md:text-xl font-semibold;
         }
       }
       .cardDescription {
-        @apply text-sm text-colorTextSoft mt-1 sm:text-base;
+        @apply text-sm text-colorTextSoft mt-1 sm:text-base md:text-lg;
       }
     }
     .playButton {
       @apply flex items-center py-1;
       a {
         button {
-          @apply !px-2 !border !border-colorNeutralSoft bg-colorBackground ml-3;
+          @apply !px-3 !border !border-colorNeutralSoft bg-colorBackground ml-3;
         }
       }
     }

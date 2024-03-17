@@ -1,25 +1,25 @@
 <script>
-  import FiltersDropdown from "./FiltersDropdown.svelte"
-  import FilterTagGroup from "./FilterTagGroup.svelte"
-  import { tagNames, tags } from "../../../stores"
+  import FiltersDropdown from "./FiltersDropdown.svelte";
+  import FilterTagGroup from "./FilterTagGroup.svelte";
+  import { tagNames, tags } from "../../../stores";
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
 
-  let filterChoice = "include"
+  let filterChoice = "include";
 
   function clearFilters() {
     for (let includedTag of includedTags) {
-      $tags[includedTag].included = false
+      $tags[includedTag].included = false;
     }
     for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false
+      $tags[excludedTag].excluded = false;
     }
   }
 </script>
 
-<div class="flex justify-center items-center mt-2 gap-2 text-sm">
+<div class="flex justify-center items-center mt-2 gap-2 text-sm md:text-base">
   Select tags to:
   <div class="flex flex-nowrap box-border text-[0] justify-start items-stretch">
     <input
@@ -63,7 +63,7 @@
     }
   }
   .radioLabel {
-    @apply m-0 py-1 px-2 box-border relative inline-block border-y border-r border-colorNeutral bg-colorBackground text-center text-sm cursor-pointer;
+    @apply m-0 py-1 px-2 box-border relative inline-block border-y border-r border-colorNeutral bg-colorBackground text-center text-sm cursor-pointer md:text-base;
     &:nth-of-type(1) {
       @apply rounded-l border-l;
     }

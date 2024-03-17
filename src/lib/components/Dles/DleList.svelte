@@ -1,27 +1,25 @@
 <script>
-  import { base } from "$app/paths"
+  import { base } from "$app/paths";
   import {
     dles,
     filteredDles,
     numColumns,
     tagNames,
     tags,
-  } from "../../../stores"
-  import dles_json from "$lib/data/dles.json"
+  } from "../../../stores";
+  import dles_json from "$lib/data/dles.json";
 
-  import DleCard from "./DleCard.svelte"
-  import FilterTagGroup from "./../Filters/FilterTagGroup.svelte"
-  import Toolbar from "./../Toolbar.svelte"
+  import DleCard from "./DleCard.svelte";
+  import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
+  import Toolbar from "./../Toolbar.svelte";
 
-  import { flip } from "svelte/animate"
-  import { quintOut } from "svelte/easing"
-
-  $: numColumnsCSS = `--num-columns: ${$numColumns} !important;`
+  import { flip } from "svelte/animate";
+  import { quintOut } from "svelte/easing";
 
   function initializeDles() {
-    $dles = dles_json
+    $dles = dles_json;
     for (let dle of $dles) {
-      dle.hidden = false
+      dle.hidden = false;
     }
   }
 
@@ -30,49 +28,49 @@
       .map((dle) => dle.tags)
       .flat()
       .filter((x, i, a) => a.indexOf(x) == i)
-      .sort()
+      .sort();
 
-    $tags = {}
+    $tags = {};
     for (let tag_name of $tagNames) {
       $tags[tag_name] = {
         included: false,
         excluded: false,
-      }
+      };
     }
   }
 
-  initializeDles()
-  initializeTags()
+  initializeDles();
+  initializeTags();
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
 
   $: $filteredDles = $dles.filter((dle) => {
-    let result = false
+    let result = false;
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true
+      result = true;
     }
     if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false
+      result = false;
     }
-    return result
-  })
+    return result;
+  });
 </script>
 
 <div
-  class="mt-3 pt-2 pb-1 border border-colorNeutral leading-6 align-middle font-mono rounded text-center text-2xl shadow-sm shadow-colorNeutralSoft"
+  class="mt-3 pt-3 pb-1 border border-colorNeutral leading-6 align-middle font-mono rounded text-center text-2xl shadow-sm shadow-colorNeutralSoft md:text-3xl"
 >
   <strong>{$filteredDles.length}</strong>
   {$filteredDles.length != 1 ? "dles" : "dle"}
   {#if includedTags.length > 0}
-    <div class="text-sm">
+    <div class="mt-1 text-sm md:text-base">
       {$filteredDles.length != 1 ? "have" : "has"} the {includedTags.length > 1
         ? "tags"
         : "tag"}
       <FilterTagGroup tags={includedTags} type="include" inDropdown={false} />
     </div>
   {/if}
-  <div class="text-sm">
+  <div class="mt-1 text-sm md:text-base">
     {#if excludedTags.length > 0}
       {#if includedTags.length > 0}
         but not the

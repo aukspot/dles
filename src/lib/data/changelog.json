@@ -1,8 +1,19 @@
 [
   {
     "date": "2024-03-17",
-    "description": "Redesign with Tailwind CSS.<br>Add button to play a random dle.<br>Remove tags: architecture, art, and color.",
-    "dles added": []
+    "description": "Redesign with Tailwind CSS.<br>Add button to play a random dle.<br>Remove tags: architecture, art, and color.<br> Add 7 dles.",
+    "dles added": [
+      { "name": "Acted", "url": "https://acted.wtf/" },
+      {
+        "name": "Cinematrix",
+        "url": "https://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html"
+      },
+      { "name": "Foodguessr", "url": "https://www.foodguessr.com/daily" },
+      { "name": "Guess The Audio", "url": "https://guesstheaudio.com/" },
+      { "name": "NYT Strands", "url": "https://www.nytimes.com/games/strands" },
+      { "name": "Plotwords", "url": "https://plotwords.com/daily" },
+      { "name": "Primel", "url": "https://converged.yt/primel/" }
+    ]
   },
   {
     "date": "2024-02-27",

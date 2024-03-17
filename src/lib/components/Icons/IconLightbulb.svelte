@@ -3,6 +3,7 @@
   fill="none"
   viewBox="0 0 24 24"
   width="28"
+  class="btn-svg"
   ><path
     stroke="currentColor"
     stroke-width="1.5"

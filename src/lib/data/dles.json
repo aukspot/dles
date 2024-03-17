@@ -1,5 +1,14 @@
 [
   {
+    "name": "Acted",
+    "url": "https://acted.wtf/",
+    "description": "Guess the name of the movie based on images of its actors.",
+    "tags": [
+      "movies",
+      "pictures"
+    ]
+  },
+  {
     "name": "Adoptle",
     "url": "https://tryhardguides.com/adoptle/",
     "description": "Guess the name of a pet that is up for adoption, given a picture of them.",
@@ -54,6 +63,14 @@
     "description": "Rearrange the tiles into groups that represent movies/themes. Includes both Original and Reversal.",
     "tags": [
       "archive",
+      "movies"
+    ]
+  },
+  {
+    "name": "Cinematrix",
+    "url": "https://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html",
+    "description": "Fill out the grid with movies matching the criteria of each cell's row and column. Changes every weekday.",
+    "tags": [
       "movies"
     ]
   },
@@ -209,6 +226,15 @@
     ]
   },
   {
+    "name": "Foodguessr",
+    "url": "https://www.foodguessr.com/daily",
+    "description": "Guess what country each of the food dishes are from.",
+    "tags": [
+      "guessing",
+      "pictures"
+    ]
+  },
+  {
     "name": "Framed",
     "url": "https://framed.wtf/",
     "description": "Guess the movie from 6 frames.",
@@ -276,6 +302,17 @@
       "geography",
       "guessing",
       "maps"
+    ]
+  },
+  {
+    "name": "Guess The Audio",
+    "url": "https://guesstheaudio.com/",
+    "description": "Guess the song from listening to small parts of it, getting a clue after each guess.",
+    "tags": [
+      "archive",
+      "audio",
+      "guessing",
+      "music"
     ]
   },
   {
@@ -498,6 +535,14 @@
     ]
   },
   {
+    "name": "NYT Strands",
+    "url": "https://www.nytimes.com/games/strands",
+    "description": "Find hidden words and uncover the day's theme.",
+    "tags": [
+      "words"
+    ]
+  },
+  {
     "name": "NYT Sudoku",
     "url": "https://www.nytimes.com/puzzles/sudoku",
     "description": "Daily Sudoku puzzles from the New York Times.",
@@ -552,6 +597,15 @@
     ]
   },
   {
+    "name": "Plotwords",
+    "url": "https://plotwords.com/daily",
+    "description": "Guess the name of the movie using as few plot keywords as possible!",
+    "tags": [
+      "guessing",
+      "movies"
+    ]
+  },
+  {
     "name": "Pokedoku",
     "url": "https://pokedoku.com/",
     "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
@@ -566,6 +620,16 @@
     "tags": [
       "guessing",
       "time"
+    ]
+  },
+  {
+    "name": "Primel",
+    "url": "https://converged.yt/primel/",
+    "description": "Guess the 5-digit prime number in six guesses or less.",
+    "tags": [
+      "guessing",
+      "numbers",
+      "wordle"
     ]
   },
   {

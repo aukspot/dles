@@ -1,14 +1,14 @@
 <script>
-  import { flip } from "svelte/animate"
-  import { quintOut } from "svelte/easing"
-  import FilterTag from "./FilterTag.svelte"
+  import { flip } from "svelte/animate";
+  import { quintOut } from "svelte/easing";
+  import FilterTag from "./FilterTag.svelte";
 
-  export let tags
-  export let type
-  export let inDropdown
+  export let tags;
+  export let type;
+  export let inDropdown;
 </script>
 
-<div class="flex justify-center">
+<div class="flex justify-center mt-1">
   {#if tags.length == 0}
     <div id="none">
       {#if inDropdown}
