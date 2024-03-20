@@ -1,17 +1,11 @@
 <script>
   import { base } from "$app/paths";
-  import {
-    dles,
-    filteredDles,
-    numColumns,
-    tagNames,
-    tags,
-  } from "../../../stores";
+  import { dles, filteredDles, numColumns, tagNames, tags } from "$lib/stores";
   import dles_json from "$lib/data/dles.json";
 
-  import DleCard from "./DleCard.svelte";
-  import FilterTagGroup from "./../Filters/FilterTagGroup.svelte";
-  import Toolbar from "./../Toolbar.svelte";
+  import DleCard from "$lib/components/Dles/DleCard.svelte";
+  import FilterTagGroup from "$lib/components/Filters/FilterTagGroup.svelte";
+  import Toolbar from "$lib/components/Toolbar.svelte";
 
   import { flip } from "svelte/animate";
   import { quintOut } from "svelte/easing";

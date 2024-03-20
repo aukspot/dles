@@ -1,7 +1,7 @@
 <script>
   import { flip } from "svelte/animate";
   import { quintOut } from "svelte/easing";
-  import FilterTag from "./FilterTag.svelte";
+  import FilterTag from "$lib/components/Filters/FilterTag.svelte";
 
   export let tags;
   export let type;

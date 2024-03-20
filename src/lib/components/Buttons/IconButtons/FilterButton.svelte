@@ -1,5 +1,5 @@
 <script>
-  import IconButton from "./../../Buttons/IconButtons/IconButton.svelte";
+  import IconButton from "$lib/components/Buttons/IconButtons/IconButton.svelte";
   const name = "Filter";
 </script>
 

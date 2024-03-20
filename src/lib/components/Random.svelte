@@ -1,22 +1,22 @@
 <script>
-  import { filteredDles } from "../../stores"
+  import { filteredDles } from "$lib/stores";
 
-  let url = ""
+  let url = "";
   let dle = {
     url,
-  }
+  };
 
   function randomDle() {
-    let randomIndex = Math.floor(Math.random() * $filteredDles.length)
-    return $filteredDles[randomIndex]
+    let randomIndex = Math.floor(Math.random() * $filteredDles.length);
+    return $filteredDles[randomIndex];
   }
 
   async function playRandomDle() {
-    dle = randomDle()
-    this.parentElement.href = dle.url
+    dle = randomDle();
+    this.parentElement.href = dle.url;
     setTimeout(() => {
-      this.parentElement.href = "?random"
-    }, 300)
+      this.parentElement.href = "?random";
+    }, 300);
   }
 </script>
 

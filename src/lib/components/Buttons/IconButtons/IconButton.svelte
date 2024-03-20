@@ -1,5 +1,5 @@
 <script>
-  import { toolbarSelection } from "../../../../stores";
+  import { toolbarSelection } from "$lib/stores";
   export let name;
 
   $: selected = name === $toolbarSelection;

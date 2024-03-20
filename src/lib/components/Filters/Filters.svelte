@@ -1,7 +1,7 @@
 <script>
-  import FiltersDropdown from "./FiltersDropdown.svelte";
-  import FilterTagGroup from "./FilterTagGroup.svelte";
-  import { tagNames, tags } from "../../../stores";
+  import FiltersDropdown from "$lib/components/Filters/FiltersDropdown.svelte";
+  import FilterTagGroup from "$lib/components/Filters/FilterTagGroup.svelte";
+  import { tagNames, tags } from "$lib/stores";
 
   $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
   $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);

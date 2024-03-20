@@ -1,5 +1,5 @@
 <script>
-  import { numColumns } from "../../stores"
+  import { numColumns } from "$lib/stores";
 </script>
 
 <!-- <div>

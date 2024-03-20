@@ -1,6 +1,6 @@
 <script>
   import tag_colors from "$lib/data/tag_colors.json";
-  import { tags } from "../../../stores";
+  import { tags } from "$lib/stores";
 
   export let name;
   export let type;
