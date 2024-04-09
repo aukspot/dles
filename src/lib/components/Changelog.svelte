@@ -22,6 +22,7 @@
   .entry {
     @apply mt-2 flex gap-2;
     time {
+      @apply font-mono;
     }
   }
 </style>
