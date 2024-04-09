@@ -21,7 +21,7 @@
   </div>
 
   <div class="playButton">
-    <a href={dle.url} target="_blank" rel="noreferrer"
+    <a href={dle.url} target="_blank" rel="noopener"
       ><button class="btn unselectable">Play</button></a
     >
   </div>
