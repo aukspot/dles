@@ -25,7 +25,7 @@
   <SimpleCard>
     <h2 class="mb-0 text-center text-xl font-semibold">Suggest a game!</h2>
     <p class="text-center text-colorTextSoft px-2">
-      Is there a fun game / dle that is missing from the list? Make an anonymous
+      Is there a fun daily game that is missing from the list? Make an anonymous
       suggestion below!
     </p>
     <div class="flex justify-center items-center">
