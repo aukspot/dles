@@ -11,7 +11,7 @@
       <span class="unselectable name">{i}. </span>
       <span class="name"
         ><strong
-          ><a href={dle.url} target="_blank" rel="noreferrer">{dle.name}</a
+          ><a href={dle.url} target="_blank" rel="noopener">{dle.name}</a
           ></strong
         ></span
       >

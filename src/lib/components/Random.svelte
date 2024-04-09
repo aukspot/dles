@@ -27,7 +27,7 @@
       id="randomDleLink"
       class="mx-auto"
       target="_blank"
-      rel="noreferrer"
+      rel="noopener"
       ><button id="playButton" class="btn mt-2" on:click={playRandomDle}
         >Play random!</button
       ></a
