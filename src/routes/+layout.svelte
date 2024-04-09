@@ -1,6 +1,5 @@
 <script>
   import "../app.css"
-  import "./styles.css"
   import Header from "$lib/components/Header.svelte"
   import Changelog from "$lib/components/Changelog.svelte"
   import BackToTopButton from "$lib/components/Buttons/BackToTopButton.svelte"

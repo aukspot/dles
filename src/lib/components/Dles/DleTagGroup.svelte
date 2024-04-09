@@ -1,7 +1,7 @@
 <script>
-  import { flip } from "svelte/animate";
-  import FilterTag from "$lib/components/Filters/FilterTag.svelte";
-  export let tags;
+  import { flip } from "svelte/animate"
+  import FilterTag from "$lib/components/Filters/FilterTag.svelte"
+  export let tags
 </script>
 
 <div class="group">

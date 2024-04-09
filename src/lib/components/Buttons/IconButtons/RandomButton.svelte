@@ -1,6 +1,6 @@
 <script>
-  import IconButton from "./IconButton.svelte";
-  const name = "Random";
+  import IconButton from "./IconButton.svelte"
+  const name = "Random"
 </script>
 
 <IconButton {name}>

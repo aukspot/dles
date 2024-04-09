@@ -1,19 +1,19 @@
 <script>
-  import { base } from "$app/paths";
-  import { dles, filteredDles, numColumns, tagNames, tags } from "$lib/stores";
-  import dles_json from "$lib/data/dles.json";
+  import { base } from "$app/paths"
+  import { dles, filteredDles, numColumns, tagNames, tags } from "$lib/stores"
+  import dles_json from "$lib/data/dles.json"
 
-  import DleCard from "$lib/components/Dles/DleCard.svelte";
-  import FilterTagGroup from "$lib/components/Filters/FilterTagGroup.svelte";
-  import Toolbar from "$lib/components/Toolbar.svelte";
+  import DleCard from "$lib/components/Dles/DleCard.svelte"
+  import FilterTagGroup from "$lib/components/Filters/FilterTagGroup.svelte"
+  import Toolbar from "$lib/components/Toolbar.svelte"
 
-  import { flip } from "svelte/animate";
-  import { quintOut } from "svelte/easing";
+  import { flip } from "svelte/animate"
+  import { quintOut } from "svelte/easing"
 
   function initializeDles() {
-    $dles = dles_json;
+    $dles = dles_json
     for (let dle of $dles) {
-      dle.hidden = false;
+      dle.hidden = false
     }
   }
 
@@ -22,33 +22,33 @@
       .map((dle) => dle.tags)
       .flat()
       .filter((x, i, a) => a.indexOf(x) == i)
-      .sort();
+      .sort()
 
-    $tags = {};
+    $tags = {}
     for (let tag_name of $tagNames) {
       $tags[tag_name] = {
         included: false,
         excluded: false,
-      };
+      }
     }
   }
 
-  initializeDles();
-  initializeTags();
+  initializeDles()
+  initializeTags()
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
 
   $: $filteredDles = $dles.filter((dle) => {
-    let result = false;
+    let result = false
     if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true;
+      result = true
     }
     if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false;
+      result = false
     }
-    return result;
-  });
+    return result
+  })
 </script>
 
 <div

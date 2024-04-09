@@ -1,11 +1,11 @@
 <script>
-  import { toolbarSelection } from "$lib/stores";
-  import FilterButton from "$lib/components/Buttons/IconButtons/FilterButton.svelte";
-  import RandomButton from "$lib/components/Buttons/IconButtons/RandomButton.svelte";
+  import { toolbarSelection } from "$lib/stores"
+  import FilterButton from "$lib/components/Buttons/IconButtons/FilterButton.svelte"
+  import RandomButton from "$lib/components/Buttons/IconButtons/RandomButton.svelte"
   // import SearchButton from "./Buttons/IconButtons/SearchButton.svelte"
 
-  import Filters from "./Filters/Filters.svelte";
-  import Random from "./Random.svelte";
+  import Filters from "./Filters/Filters.svelte"
+  import Random from "./Random.svelte"
 </script>
 
 <div class="flex justify-center gap-3">

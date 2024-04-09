@@ -1,6 +1,6 @@
 <script>
-  import IconButton from "./IconButton.svelte";
-  const name = "Search";
+  import IconButton from "./IconButton.svelte"
+  const name = "Search"
 </script>
 
 <IconButton {name}>

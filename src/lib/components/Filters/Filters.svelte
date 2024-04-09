@@ -1,20 +1,19 @@
 <script>
-  import FiltersDropdown from "$lib/components/Filters/FiltersDropdown.svelte";
-  import FilterTagGroup from "$lib/components/Filters/FilterTagGroup.svelte";
-  import { tagNames, tags } from "$lib/stores";
+  import FiltersDropdown from "$lib/components/Filters/FiltersDropdown.svelte"
+  import { tagNames, tags } from "$lib/stores"
 
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included);
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded);
-  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0;
+  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
+  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
+  $: hasFilters = includedTags.length > 0 || excludedTags.length > 0
 
-  let filterChoice = "include";
+  let filterChoice = "include"
 
   function clearFilters() {
     for (let includedTag of includedTags) {
-      $tags[includedTag].included = false;
+      $tags[includedTag].included = false
     }
     for (let excludedTag of excludedTags) {
-      $tags[excludedTag].excluded = false;
+      $tags[excludedTag].excluded = false
     }
   }
 </script>

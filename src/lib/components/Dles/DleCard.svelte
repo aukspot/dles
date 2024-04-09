@@ -1,7 +1,7 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte";
-  export let i;
-  export let dle;
+  import DleTagGroup from "./DleTagGroup.svelte"
+  export let i
+  export let dle
 </script>
 
 <div class="card">
