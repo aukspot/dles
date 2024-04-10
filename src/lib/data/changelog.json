@@ -1,7 +1,7 @@
 [
   {
     "date": "2024-04-10",
-    "description": "Remove the tag 'guessing' to avoid confusion.<br>Add the tag 'colors'.<br>Add 22 dles.",
+    "description": "Remove the tag 'guessing' to avoid confusion.<br>Add the tag 'colors'.<br>Add 23 dles.",
     "dles added": [
       { "name": "Apparle", "url": "https://www.apparle.com/" },
       { "name": "Boggdle", "url": "https://simenmh.com/boggdle/" },
@@ -26,6 +26,10 @@
       { "name": "Stepdle", "url": "https://www.stepdle.com/" },
       { "name": "Thirdle", "url": "https://thirdle.org/" },
       { "name": "Twofer Goofer", "url": "https://twofergoofer.com/" },
+      {
+        "name": "Unolingo",
+        "url": "https://games.usatoday.com/games/uclick-unolingo"
+      },
       {
         "name": "Where in the USA is this?",
         "url": "https://pudding.cool/games/where/"

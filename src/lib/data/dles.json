@@ -950,6 +950,14 @@
     ]
   },
   {
+    "name": "Unolingo",
+    "url": "https://games.usatoday.com/games/uclick-unolingo",
+    "description": "Solve the clueless crossword by using each letter of the English alphabet exactly once.",
+    "tags": [
+      "words"
+    ]
+  },
+  {
     "name": "Weaver",
     "url": "https://weavergame.org/",
     "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
