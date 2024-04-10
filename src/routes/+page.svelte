@@ -6,14 +6,14 @@
 </script>
 
 <svelte:head>
-  <title>The Dles</title>
+  <title>The Dles - a curated collection of daily games.</title>
   <meta
     name="description"
-    content="A curated collection of free daily games."
+    content="A curated collection of free daily games. Contains 100+ games, including Wordle, TimeGuessr, Bandle, and many more."
   />
   <meta
     name="keywords"
-    content="list, collection, links, games, daily, dles, wordle"
+    content="list, collection, links, games, daily, dles, wordle, timeguessr, bandle, connections, gamedle"
   />
   <meta name="author" content="aukspot" />
 </svelte:head>
