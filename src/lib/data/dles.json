@@ -19,12 +19,21 @@
     ]
   },
   {
+    "name": "Apparle",
+    "url": "https://www.apparle.com/",
+    "description": "Guess the price of the shown apparel product in 6 guesses or less.",
+    "tags": [
+      "archive",
+      "pictures",
+      "prices"
+    ]
+  },
+  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com/",
     "description": "Guess the name of the architecture, given a series of pictures.",
     "tags": [
       "archive",
-      "guessing",
       "pictures"
     ]
   },
@@ -34,8 +43,15 @@
     "description": "Guess the song, one instrument at a time (sort of).",
     "tags": [
       "audio",
-      "guessing",
       "music"
+    ]
+  },
+  {
+    "name": "Boggdle",
+    "url": "https://simenmh.com/boggdle/",
+    "description": "Search for the best 3 words you can find in the Boggle grid.",
+    "tags": [
+      "words"
     ]
   },
   {
@@ -43,8 +59,16 @@
     "url": "https://boxofficega.me/",
     "description": "Guess the top five movies in the US domestic box office for the given weekend.",
     "tags": [
-      "guessing",
       "movies"
+    ]
+  },
+  {
+    "name": "Chrono",
+    "url": "https://chrono.quest/",
+    "description": "Put the events in chronological order in 3 tries or less.",
+    "tags": [
+      "history",
+      "time"
     ]
   },
   {
@@ -79,7 +103,7 @@
     "url": "https://colorfle.org/index.html",
     "description": "Figure out the color composition of the given color.",
     "tags": [
-      "guessing"
+      "colors"
     ]
   },
   {
@@ -87,6 +111,7 @@
     "url": "https://combinations.org/",
     "description": "Create words using combinations of letters from the grid.",
     "tags": [
+      "archive",
       "words"
     ]
   },
@@ -95,7 +120,6 @@
     "url": "https://tryhardguides.com/concludle/",
     "description": "Guess the secret answer from a series of clues.",
     "tags": [
-      "guessing",
       "trivia"
     ]
   },
@@ -105,7 +129,6 @@
     "description": "Form groups of 4 words that have something in common.",
     "tags": [
       "archive",
-      "guessing",
       "words"
     ]
   },
@@ -115,7 +138,6 @@
     "description": "Group words that share a common thread, basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
     "tags": [
       "archive",
-      "guessing",
       "words"
     ]
   },
@@ -125,7 +147,6 @@
     "description": "Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.",
     "tags": [
       "archive",
-      "guessing",
       "words"
     ]
   },
@@ -134,7 +155,7 @@
     "url": "https://costcodle.com/",
     "description": "Guess the price of the given Costco item.",
     "tags": [
-      "guessing",
+      "pictures",
       "prices"
     ]
   },
@@ -163,7 +184,6 @@
     "description": "Solve multiple Wordle puzzles crossed together.",
     "tags": [
       "archive",
-      "guessing",
       "logic",
       "wordle",
       "words"
@@ -182,7 +202,6 @@
     "url": "https://www.rottentomatoes.com/movie-trivia/",
     "description": "Guess the movie title from a series of 5 clues, by Rotten Tomatoes.",
     "tags": [
-      "guessing",
       "movies"
     ]
   },
@@ -191,9 +210,17 @@
     "url": "https://daydle.com/",
     "description": "Guess the year of a historical event that happened on this day in history.",
     "tags": [
-      "guessing",
       "history",
       "time"
+    ]
+  },
+  {
+    "name": "Doople",
+    "url": "https://www.dooplepuzzle.com/",
+    "description": "Chain word combinations together to fit the given clues.",
+    "tags": [
+      "wordle",
+      "words"
     ]
   },
   {
@@ -201,9 +228,16 @@
     "url": "https://zaratustra.itch.io/dordle",
     "description": "Solve 2 Wordle puzzles at the same time.",
     "tags": [
-      "guessing",
       "wordle",
       "words"
+    ]
+  },
+  {
+    "name": "Echo Chess",
+    "url": "https://echochess.com/game.html",
+    "description": "Solve the chess puzzle where you have to capture all black pieces to win and your piece becomes what it captures.",
+    "tags": [
+      "logic"
     ]
   },
   {
@@ -221,8 +255,7 @@
     "description": "Guess the flag in 5 guesses or less.",
     "tags": [
       "flags",
-      "geography",
-      "guessing"
+      "geography"
     ]
   },
   {
@@ -230,7 +263,6 @@
     "url": "https://www.foodguessr.com/daily",
     "description": "Guess what country each of the food dishes are from.",
     "tags": [
-      "guessing",
       "pictures"
     ]
   },
@@ -240,7 +272,6 @@
     "description": "Guess the movie from 6 frames.",
     "tags": [
       "archive",
-      "guessing",
       "movies",
       "pictures"
     ]
@@ -250,7 +281,6 @@
     "url": "https://www.gamedle.wtf/artwork",
     "description": "Guess the video game by its artwork.",
     "tags": [
-      "guessing",
       "pictures",
       "video games"
     ]
@@ -260,7 +290,6 @@
     "url": "https://www.gamedle.wtf/classic",
     "description": "Guess the video game by its cover.",
     "tags": [
-      "guessing",
       "pictures",
       "video games"
     ]
@@ -270,7 +299,6 @@
     "url": "https://www.gamedle.wtf/guess",
     "description": "Guess the video game by its specifications.",
     "tags": [
-      "guessing",
       "video games"
     ]
   },
@@ -279,7 +307,6 @@
     "url": "https://www.gamedle.wtf/keywords",
     "description": "Guess the video game by keywords.",
     "tags": [
-      "guessing",
       "video games",
       "words"
     ]
@@ -290,7 +317,6 @@
     "description": "Guess the mystery country, given how close it is to each guessed country.",
     "tags": [
       "geography",
-      "guessing",
       "maps"
     ]
   },
@@ -300,7 +326,6 @@
     "description": "Guess the mystery world capital, given how close it is to each guessed world capital.",
     "tags": [
       "geography",
-      "guessing",
       "maps"
     ]
   },
@@ -311,7 +336,6 @@
     "tags": [
       "archive",
       "audio",
-      "guessing",
       "music"
     ]
   },
@@ -321,7 +345,6 @@
     "description": "Guess the video game by its cropped screenshots.",
     "tags": [
       "archive",
-      "guessing",
       "pictures",
       "video games"
     ]
@@ -331,9 +354,24 @@
     "url": "https://hellowordl.net/?today",
     "description": "Play Wordle puzzles from 4 to 11 letters long.",
     "tags": [
-      "guessing",
       "wordle",
       "words"
+    ]
+  },
+  {
+    "name": "Hexcodle",
+    "url": "https://www.hexcodle.com/",
+    "description": "Guess the 6-digit hex code of the shown color in 5 tries or less.",
+    "tags": [
+      "colors"
+    ]
+  },
+  {
+    "name": "Hexcodle Mini",
+    "url": "https://www.hexcodle.com/mini",
+    "description": "Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.",
+    "tags": [
+      "colors"
     ]
   },
   {
@@ -350,7 +388,6 @@
     "url": "https://housle.house/game",
     "description": "Guess the price of the house, given pictures of parts of the house.",
     "tags": [
-      "guessing",
       "pictures",
       "prices"
     ]
@@ -416,6 +453,14 @@
     ]
   },
   {
+    "name": "Karat",
+    "url": "https://karat.auronymous.com/",
+    "description": "Turn the rings of the ingot until each side forms a word - in 24 turns or less.",
+    "tags": [
+      "words"
+    ]
+  },
+  {
     "name": "Keyword",
     "url": "https://www.washingtonpost.com/games/keyword/",
     "description": "Find the target word by guessing the final letter of the vertical words.",
@@ -437,9 +482,17 @@
     "url": "https://listed.fun/",
     "description": "Guess the price of the recently sold property.",
     "tags": [
-      "guessing",
       "pictures",
       "prices"
+    ]
+  },
+  {
+    "name": "MapGame",
+    "url": "https://mapgame.net/",
+    "description": "Use the map to guess a country, getting new hints after each guess.",
+    "tags": [
+      "geography",
+      "maps"
     ]
   },
   {
@@ -447,7 +500,6 @@
     "url": "https://www.mathler.com/",
     "description": "Find the hidden calculation that equals the given number.",
     "tags": [
-      "guessing",
       "math",
       "numbers"
     ]
@@ -457,7 +509,6 @@
     "url": "https://flora.metazooa.com/",
     "description": "Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.",
     "tags": [
-      "guessing",
       "science"
     ]
   },
@@ -466,7 +517,6 @@
     "url": "https://metazooa.com/",
     "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
     "tags": [
-      "guessing",
       "science"
     ]
   },
@@ -475,7 +525,6 @@
     "url": "https://tryhardguides.com/mislettered/",
     "description": "Solve the word or phrase by guessing one letter at a time.",
     "tags": [
-      "guessing",
       "words"
     ]
   },
@@ -485,7 +534,6 @@
     "description": "Guess today's mystery MLB player within nine guesses.",
     "tags": [
       "baseball",
-      "guessing",
       "sports"
     ]
   },
@@ -507,12 +555,29 @@
     ]
   },
   {
+    "name": "Neighborle",
+    "url": "https://neighborle.com/",
+    "description": "Guess the countries that border the highlighted country on the map.",
+    "tags": [
+      "geography",
+      "maps"
+    ]
+  },
+  {
     "name": "Nerdle",
     "url": "https://nerdlegame.com/",
     "description": "Guess the secret arithmetic equation.",
     "tags": [
       "archive",
-      "guessing",
+      "math",
+      "numbers"
+    ]
+  },
+  {
+    "name": "Numble",
+    "url": "https://numble.wtf/",
+    "description": "Reach the target number only using operations and each given number exactly once.",
+    "tags": [
       "math",
       "numbers"
     ]
@@ -522,7 +587,6 @@
     "url": "https://www.nytimes.com/games/connections",
     "description": "Group words that share a common thread.",
     "tags": [
-      "guessing",
       "words"
     ]
   },
@@ -556,7 +620,6 @@
     "url": "https://www.nytimes.com/games/wordle/index.html",
     "description": "Guess the 5-letter word in six or fewer attempts.",
     "tags": [
-      "guessing",
       "wordle",
       "words"
     ]
@@ -566,8 +629,7 @@
     "url": "https://games.oec.world/en/tradle/",
     "description": "Guess the country by its exports.",
     "tags": [
-      "geography",
-      "guessing"
+      "geography"
     ]
   },
   {
@@ -583,7 +645,6 @@
     "url": "https://cemantle.certitudes.org/pedantle",
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
     "tags": [
-      "guessing",
       "words"
     ]
   },
@@ -592,8 +653,15 @@
     "url": "https://petdle.link/",
     "description": "Guess the pet taken from the game Super Auto Pets.",
     "tags": [
-      "guessing",
       "video games"
+    ]
+  },
+  {
+    "name": "Phrasle",
+    "url": "https://phrasle.com/",
+    "description": "Reveal the phrase by guessing one letter at a time.",
+    "tags": [
+      "words"
     ]
   },
   {
@@ -601,7 +669,6 @@
     "url": "https://plotwords.com/daily",
     "description": "Guess the name of the movie using as few plot keywords as possible!",
     "tags": [
-      "guessing",
       "movies"
     ]
   },
@@ -614,11 +681,20 @@
     ]
   },
   {
+    "name": "Polygonle",
+    "url": "https://www.polygonle.com/",
+    "description": "Guess the word in 6 tries, like Wordle. Each unique shape over a column represents a letter.",
+    "tags": [
+      "archive",
+      "wordle",
+      "words"
+    ]
+  },
+  {
     "name": "PopCultured",
     "url": "https://histordle.com/popcultured/",
     "description": "Guess the year given three pop culture items released that year.",
     "tags": [
-      "guessing",
       "time"
     ]
   },
@@ -627,7 +703,6 @@
     "url": "https://converged.yt/primel/",
     "description": "Guess the 5-digit prime number in six guesses or less.",
     "tags": [
-      "guessing",
       "numbers",
       "wordle"
     ]
@@ -698,7 +773,6 @@
     "url": "https://quordlegame.com/",
     "description": "Solve 4 Wordle puzzles at the same time.",
     "tags": [
-      "guessing",
       "wordle",
       "words"
     ]
@@ -709,7 +783,14 @@
     "description": "Guess the Wikipedia article by its content with keywords redacted.",
     "tags": [
       "archive",
-      "guessing",
+      "words"
+    ]
+  },
+  {
+    "name": "Relatle",
+    "url": "https://www.relatle.lol/",
+    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
+    "tags": [
       "words"
     ]
   },
@@ -722,11 +803,20 @@
     ]
   },
   {
+    "name": "Satle",
+    "url": "https://satle.ca/",
+    "description": "Guess the city given a satellite image, zooming out after each guess.",
+    "tags": [
+      "geography",
+      "maps",
+      "pictures"
+    ]
+  },
+  {
     "name": "Semantle",
     "url": "https://semantle.com/",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
     "tags": [
-      "guessing",
       "words"
     ]
   },
@@ -735,7 +825,6 @@
     "url": "https://histordle.com/songle/",
     "description": "Guess the year given three songs that were released that year.",
     "tags": [
-      "guessing",
       "music",
       "time"
     ]
@@ -746,7 +835,6 @@
     "description": "Guess the song from listening to small parts of it.",
     "tags": [
       "audio",
-      "guessing",
       "music"
     ]
   },
@@ -760,9 +848,26 @@
     ]
   },
   {
+    "name": "Spellie",
+    "url": "https://spelliegame.com/",
+    "description": "Wordle for young spellers with 3 difficulty modes.",
+    "tags": [
+      "archive",
+      "words"
+    ]
+  },
+  {
     "name": "Spelling Bee",
     "url": "https://spellsbee.com/",
     "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
+    "tags": [
+      "words"
+    ]
+  },
+  {
+    "name": "Stackle",
+    "url": "https://www.stackle.fun/",
+    "description": "Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.",
     "tags": [
       "words"
     ]
@@ -775,6 +880,15 @@
       "geography",
       "maps",
       "usa"
+    ]
+  },
+  {
+    "name": "Stepdle",
+    "url": "https://www.stepdle.com/",
+    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
+    "tags": [
+      "wordle",
+      "words"
     ]
   },
   {
@@ -793,6 +907,15 @@
     "description": "Combine syllables to solve the clues.",
     "tags": [
       "archive",
+      "words"
+    ]
+  },
+  {
+    "name": "Thirdle",
+    "url": "https://thirdle.org/",
+    "description": "Solve 3 Wordle puzzles crossed together.",
+    "tags": [
+      "wordle",
       "words"
     ]
   },
@@ -818,6 +941,15 @@
     ]
   },
   {
+    "name": "Twofer Goofer",
+    "url": "https://twofergoofer.com/",
+    "description": "Guess the pair of rhyming words that form the given nonsensical phrase.",
+    "tags": [
+      "archive",
+      "words"
+    ]
+  },
+  {
     "name": "Weaver",
     "url": "https://weavergame.org/",
     "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
@@ -826,12 +958,22 @@
     ]
   },
   {
+    "name": "Where in the USA is this?",
+    "url": "https://pudding.cool/games/where/",
+    "description": "Guess the location in the United States given 5 pictures of the same place, one at a time.",
+    "tags": [
+      "geography",
+      "maps",
+      "pictures",
+      "usa"
+    ]
+  },
+  {
     "name": "WhereTaken",
     "url": "https://wheretaken.teuteuf.fr/",
     "description": "Guess the Country/Region in which the photo was taken.",
     "tags": [
       "geography",
-      "guessing",
       "pictures"
     ]
   },
@@ -841,9 +983,16 @@
     "description": "Guess the US State in which the photo was taken.",
     "tags": [
       "geography",
-      "guessing",
       "pictures",
       "usa"
+    ]
+  },
+  {
+    "name": "Word Chase",
+    "url": "https://wordchase.semantle.com/",
+    "description": "Guess the secret word within 5 tries, receiving a new word as a hint before each guess.",
+    "tags": [
+      "words"
     ]
   },
   {
@@ -860,7 +1009,6 @@
     "url": "https://wordall.xyz/",
     "description": "Guess all of the Wordle words, given the starting clues.",
     "tags": [
-      "guessing",
       "wordle",
       "words"
     ]
@@ -870,7 +1018,6 @@
     "url": "https://lessgames.com/wordless",
     "description": "Solve Wordle puzzles of various sizes.",
     "tags": [
-      "guessing",
       "wordle",
       "words"
     ]
@@ -889,7 +1036,6 @@
     "url": "https://histordle.com/yeardle/",
     "description": "Guess the year based on the given historical events of that year.",
     "tags": [
-      "guessing",
       "history",
       "time"
     ]

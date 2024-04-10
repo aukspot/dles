@@ -1,5 +1,11 @@
 # Changelog - The Dles
 
+## 2024-04-09
+
+Remove the tag 'guessing' to avoid confusion. Add the tag 'colors'.<br>Add 22 dles.
+
+dles added: [Apparle](https://www.apparle.com/), [Boggdle](https://simenmh.com/boggdle/), [Chrono](https://chrono.quest/), [Doople](https://www.dooplepuzzle.com/), [Echo Chess](https://echochess.com/game.html), [Hexcodle](https://www.hexcodle.com/), [Hexcodle Mini](https://www.hexcodle.com/mini), [Karat](https://karat.auronymous.com/), [MapGame](https://mapgame.net/), [Neighborle](https://neighborle.com/), [Numble](https://numble.wtf/), [Phrasle](https://phrasle.com/), [Polygonle](https://www.polygonle.com/), [Relatle](https://www.relatle.lol/), [Satle](https://satle.ca/), [Spellie](https://spelliegame.com/#easy), [Stackle](https://www.stackle.fun/), [Stepdle](https://www.stepdle.com/), [Thirdle](https://thirdle.org/), [Twofer Goofer](https://twofergoofer.com/), [Where in the USA is this?](https://pudding.cool/games/where/), [Word Chase](https://wordchase.semantle.com/)
+
 ## 2024-03-17
 
 Redesign with Tailwind CSS.<br>Add button to play a random dle.<br>Remove tags: architecture, art, and color.<br> Add 7 dles.

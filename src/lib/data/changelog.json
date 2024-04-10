@@ -1,5 +1,39 @@
 [
   {
+    "date": "2024-04-10",
+    "description": "Remove the tag 'guessing' to avoid confusion.<br>Add the tag 'colors'.<br>Add 22 dles.",
+    "dles added": [
+      { "name": "Apparle", "url": "https://www.apparle.com/" },
+      { "name": "Boggdle", "url": "https://simenmh.com/boggdle/" },
+      { "name": "Chrono", "url": "https://chrono.quest/" },
+      { "name": "Doople", "url": "https://www.dooplepuzzle.com/" },
+      { "name": "Echo Chess", "url": "https://echochess.com/game.html" },
+      { "name": "Hexcodle", "url": "https://www.hexcodle.com/" },
+      { "name": "Hexcodle Mini", "url": "https://www.hexcodle.com/mini" },
+      { "name": "Karat", "url": "https://karat.auronymous.com/" },
+      { "name": "MapGame", "url": "https://mapgame.net/" },
+      { "name": "Neighborle", "url": "https://neighborle.com/" },
+      { "name": "Numble", "url": "https://numble.wtf/" },
+      { "name": "Phrasle", "url": "https://phrasle.com/" },
+      { "name": "Polygonle", "url": "https://www.polygonle.com/" },
+      { "name": "Relatle", "url": "https://www.relatle.lol/" },
+      {
+        "name": "Satle",
+        "url": "https://satle.ca/"
+      },
+      { "name": "Spellie", "url": "https://spelliegame.com/#easy" },
+      { "name": "Stackle", "url": "https://www.stackle.fun/" },
+      { "name": "Stepdle", "url": "https://www.stepdle.com/" },
+      { "name": "Thirdle", "url": "https://thirdle.org/" },
+      { "name": "Twofer Goofer", "url": "https://twofergoofer.com/" },
+      {
+        "name": "Where in the USA is this?",
+        "url": "https://pudding.cool/games/where/"
+      },
+      { "name": "Word Chase", "url": "https://wordchase.semantle.com/" }
+    ]
+  },
+  {
     "date": "2024-03-17",
     "description": "Redesign with Tailwind CSS.<br>Add button to play a random dle.<br>Remove tags: architecture, art, and color.<br> Add 7 dles.",
     "dles added": [
