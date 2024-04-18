@@ -14,6 +14,7 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 - Tag system that allows for easy filtering.
 - Filter dles by adding tags to include or exclude.
+- Randomly choose a dle from the filtered dles.
 
 ### Planned
 
@@ -22,7 +23,7 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 - Ability to randomly choose `n` dles from the filtered dles.
 - URL parameters:
   - to load filters.
-  - to load an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/data/dles.json))
+  - to load an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json))
 
 ## Bugs
 
@@ -36,7 +37,7 @@ If you want to get your hands dirty, you can clone the repository and choose one
 
 ### Adding dles the hard way
 
-In order to add a dle, we need to clone the repo, edit [dles.json](https://github.com/aukspot/dles/blob/main/src/data/dles.json), and run the python script [main.py](https://github.com/aukspot/dles/blob/main/src/python/main.py).
+In order to add a dle, we need to clone the repo, edit [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json), and run the python script [main.py](https://github.com/aukspot/dles/blob/main/src/python/main.py).
 
 Make sure you have python 3.4+ installed. Python is needed to create tag colors and sort the `.json` files.
 
