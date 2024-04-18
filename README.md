@@ -41,7 +41,7 @@ In order to add a dle, we need to clone the repo, edit [dles.json](https://githu
 
 Make sure you have python 3.4+ installed. Python is needed to create tag colors and sort the `.json` files.
 
-Clone the repository and edit `./src/data/dles.json`. When adding a new dle, make sure to include a name, url, description, and appropriate tags.
+Clone the repository and edit `./src/lib/data/dles.json`. When adding a new dle, make sure to include a name, url, description, and appropriate tags.
 
 Once you're finished, you'll need to create a python virtual environment and use `pip` to install the `requirements.txt`:
 
