@@ -3,6 +3,9 @@
 import json
 import shutil
 import string
+
+import pandas
+
 from colour import Color
 
 
@@ -10,6 +13,7 @@ DLES_FILE = "../lib/data/dles.json"
 TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
+README_MD = "../../README.md"
 
 
 def sort_tags():
@@ -79,9 +83,31 @@ def create_tag_colors():
     f.write(json.dumps(tag_colors, indent=2))
 
 
-def changelog_json_to_md_str():
+def read_changelog():
   with open(CHANGELOG_JSON, 'r') as f:
-    changelog_json = json.loads(f.read())
+    return json.loads(f.read())
+
+
+def changelog_dles_to_markdown_table(dles):
+  for dle in dles:
+    name = dle["name"]
+    url = dle["url"]
+    dle["name"] = f"[{name}]({url})"
+    dle["url"] = f"[{url}]({url})"
+
+  df = pandas.DataFrame.from_dict(dles)
+  df.index = df.index + 1
+  
+  return df.to_markdown(index=True)
+
+
+def last_update_date():
+  changelog_json = read_changelog()
+  return changelog_json[0]["date"]
+
+
+def changelog_json_to_md_str():
+  changelog_json = read_changelog()
 
   result = "# Changelog - The Dles\n\n"
 
@@ -90,15 +116,15 @@ def changelog_json_to_md_str():
     result += f"{day['description']}\n\n"
 
     if "dles added" in day:
-      result += "dles added: "
-      result += ", ".join(f"[{dle['name']}]({dle['url']})" for dle in day["dles added"])
+      result += "dles added: \n"
+      result += changelog_dles_to_markdown_table(day["dles added"])
       result += "\n"
 
     result += "\n"
 
     if "dles removed" in day:
-      result += "dles removed: "
-      result += ", ".join(f"[{dle['name']}]({dle['url']})" for dle in day["dles removed"])
+      result += "dles removed: \n"
+      result += changelog_dles_to_markdown_table(day["dles removed"])
       result += "\n"
     
   return result
@@ -110,5 +136,37 @@ def create_changelog_md():
     f.write(changelog_md_str)
 
 
+def dles_to_markdown_table():
+  dles = read_dles()
+
+  for dle in dles:
+    name = dle["name"]
+    url = dle["url"]
+    dle["name"] = f"[{name}]({url})"
+
+  df = pandas.DataFrame.from_dict(dles)
+  df.drop(['url'], axis=1, inplace=True)
+  df.drop(['tags'], axis=1, inplace=True)
+  df.index = df.index + 1
+  
+  return df.to_markdown(index=True)
+
+
+def write_dles_to_readme_md():
+  list_header_str = "## Current list of dles"
+
+  with open(README_MD, 'r') as f:
+    before_list_header_str = f.read().split(list_header_str)[0]
+
+  with open(README_MD, 'w') as f:
+    f.write(before_list_header_str)
+    f.write(list_header_str)
+    f.write("\n\n")
+    f.write(f"**Last updated `{last_update_date()}`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))")
+    f.write("\n\n")
+    f.write(dles_to_markdown_table())
+
+
 if __name__ == "__main__":
-  changelog_json_to_md_str()
+  # write_dles_to_readme_md()
+  pass
