@@ -85,7 +85,7 @@ dles added:
 
 ## 2024-02-16
 
-Add a <a href="/dles/suggest">suggestion form</a>.<br>Add 4 dles.
+Add a <a href="https://aukspot.github.io/dles/suggest">suggestion form</a>.<br>Add 4 dles.
 
 dles added: 
 |    | name                                                 | url                                                                              |

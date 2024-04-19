@@ -113,6 +113,10 @@ def changelog_json_to_md_str():
 
   for day in changelog_json:
     result += f"## {day['date']}\n\n"
+
+    if "suggestion form</a>" in day['description']:
+      day['description'] = day['description'].replace("/dles/suggest", "https://aukspot.github.io/dles/suggest")
+
     result += f"{day['description']}\n\n"
 
     if "dles added" in day:
