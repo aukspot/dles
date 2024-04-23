@@ -4,6 +4,7 @@
     "url": "https://acted.wtf/",
     "description": "Guess the name of the movie based on images of its actors.",
     "tags": [
+      "archive",
       "movies",
       "pictures"
     ]
