@@ -13,6 +13,7 @@
   <FilterButton />
   <!-- <SearchButton /> -->
 </div>
+<noscript class="text-center">JavaScript is required to use the toolbar or change the theme.</noscript>
 <div>
   <div class={$toolbarSelection === "Random" ? "" : "hidden"}>
     <Random />
