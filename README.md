@@ -41,7 +41,7 @@ In order to add a dle, we need to clone the repo, edit [dles.json](https://githu
 
 Make sure you have python 3.4+ installed. Python is needed to create tag colors, sort the `.json` files, create `CHANGELOG.md`, and write the list of dles to `README.md`.
 
-Clone the repository and edit `./src/lib/data/dles.json`. When adding a new dle, make sure to include a name, url, description, and appropriate tags.
+Clone the repository and edit `./src/lib/data/dles.json`. When adding a new dle, make sure to include a name, url, description, appropriate tags, and a category.
 
 Once you're finished, you'll need to create a python virtual environment and use `pip` to install the `requirements.txt`:
 
@@ -65,7 +65,9 @@ venv\Scripts\Activate.ps1
 # (4) Install requirements.txt
 pip install -r requirements.txt
 
-# For subsequent times in the same development environment, only steps (1) and (3) are necessary, with (4) only needed when requirements.txt changes.
+# For subsequent times in the same development environment, 
+# only steps (1) and (3) are necessary.
+# Step (4) is needed when requirements.txt changes.
 ```
 
 After making changes to `dles.json`, make sure you're in `src/python` and run the `main.py` script:
