@@ -13,7 +13,6 @@
   const categories = [
     "Geography/History",
     "Math/Logic",
-    "Miscellaneous",
     "Movies",
     "Music",
     "Prices",
@@ -21,7 +20,21 @@
     "Trivia",
     "Video Games",
     "Words",
+    "Miscellaneous",
   ]
+
+  const categoryColors = {
+    "Geography/History": "lightsalmon",
+    "Math/Logic": "bisque",
+    "Movies": "lightyellow",
+    "Music": "lightcyan",
+    "Prices": "lightgreen",
+    "Sports": "aliceblue",
+    "Trivia": "lavender",
+    "Video Games": "powderblue",
+    "Words": "plum",
+    "Miscellaneous": "honeydew",
+  }
 
   function initializeDles() {
     $dles = dles_json
@@ -113,17 +126,17 @@
 <!-- </ol> -->
 
 <!-- <div class="mt-4 flex flex-wrap flex-grow gap-2 justify-between"> -->
-<div class="dlesContainer mt-4 grid grid-cols-2 gap-2 justify-between">
+<div class="dlesContainer">
   {#each categories as category, i (i)}
     {#if categorizedDles[category].length != 0}
-      <div class="py-2 rounded-lg bg-colorCardA">
+      <div class="card" style="background-color: {categoryColors[category]}">
         <div class="label">{category}</div>
-        <div class="mb-4 dleList">
+        <div class="dleListContainer">
           <ol class="dleList">
             {#each categorizedDles[category] as dle, j (j)}
               <li class="dleName">
                 <span class="unselectable">{j+1}. </span>
-                <a href="{dle.url}">{dle.name}</a>
+                <a href={dle.url} target="_blank" rel="noopener">{dle.name}</a>
               </li>
             {/each}
           </ol> 
@@ -135,24 +148,29 @@
 
 <style lang="postcss">
   .dlesContainer {
-    grid-auto-columns: min-content;
+    @apply px-1 mt-4 columns-2 lg:columns-4 max-[290px]:columns-1;
   }
-  .dleList {
-    grid-auto-columns: min-content;
+  .card {
+    @apply mb-4 break-inside-avoid;
+    @apply rounded-b-md shadow-sm shadow-colorNeutralSoft;
+  }
+  .dleListContainer {
+    @apply rounded-b-md opacity-95;
+  }
+  ol {
+    @apply [&:last-child]:rounded-b-md;
   }
   li {
-    @apply p-1 [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
+    @apply p-1;
+    @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
   }
   a {
-    @apply text-base;
+    @apply text-base text-colorTextSoft underline hover:text-colorLink;
   }
   .label {
-    @apply text-xl mb-2 text-center;
+    @apply text-lg font-semibold py-2 px-1 text-center bg-colorCardB opacity-85 border-b-2 border-colorNeutral;
   }
   .dleName {
     @apply flex items-baseline align-top gap-1;
   }
-  /* li {
-    @apply flex [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB lg:[&:nth-child(odd)]:bg-colorCardA lg:[&:nth-child(even)]:bg-colorCardA;
-  } */
 </style>

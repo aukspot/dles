@@ -21,8 +21,8 @@ export default {
         extend: {
           colors: {
             colorText: "#223344",
-            colorTextSoft: "#556677",
-            colorTextSofter: "#667788",
+            colorTextSoft: "#445566",
+            colorTextSofter: "#556677",
             colorBackground: "#EFEFEF",
             colorLink: "#3B82F6",
             colorLinkHover: "#60A5FA",
@@ -31,7 +31,7 @@ export default {
             colorNeutralSoft: "#CDCDCD",
             colorNeutralSofter: "#DFDFDF",
             colorNeutralContrasted: "purple",
-            colorCardA: "#E9E9E9",
+            colorCardA: "#E7E7E7",
             colorCardB: "#D9D9D9",
             colorError: "#AF2020",
             colorSuccess: "green",
