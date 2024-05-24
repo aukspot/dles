@@ -1,5 +1,300 @@
 [
   {
+    "date": "2024-05-24",
+    "description": "Add a categorized view as the new default view.<br>Add tags: fast-paced, tv, visual.<br>Add 73 dles.<br>Remove 1 dle.",
+    "dles added": [
+      {
+        "name": "Absurdle",
+        "url": "https://qntm.org/files/absurdle/absurdle.html"
+      },
+      {
+        "name": "Actorle",
+        "url": "https://actorle.com/"
+      },
+      {
+        "name": "Actorle - Fill The Grid",
+        "url": "https://actorle.com/fill-the-grid/"
+      },
+      {
+        "name": "Actorle - Storyboard",
+        "url": "https://actorle.com/storyboard/"
+      },
+      {
+        "name": "Actorle TV",
+        "url": "https://actorle.tv/"
+      },
+      {
+        "name": "Angle",
+        "url": "https://angle.wtf/"
+      },
+      {
+        "name": "Anigrams",
+        "url": "https://anigrams.us/"
+      },
+      {
+        "name": "BrainBashers Daily 30 Seconds",
+        "url": "https://www.brainbashers.com/30seconds.asp"
+      },
+      {
+        "name": "BrainBashers Daily Puzzle",
+        "url": "https://www.brainbashers.com/dailypuzzle.asp"
+      },
+      {
+        "name": "Brickdle",
+        "url": "https://www.brickdle.com/"
+      },
+      {
+        "name": "Calcle",
+        "url": "https://calclegame.com/"
+      },
+      {
+        "name": "Cell Tower",
+        "url": "https://www.andrewt.net/puzzles/cell-tower/"
+      },
+      {
+        "name": "Chainagram",
+        "url": "https://puzzletrail.games/puzzles/chainagram/"
+      },
+      {
+        "name": "Chess.com Daily Puzzle",
+        "url": "https://www.chess.com/daily-chess-puzzle"
+      },
+      {
+        "name": "Chessle",
+        "url": "https://jackli.gg/chessle/"
+      },
+      {
+        "name": "Chronoline",
+        "url": "https://chronoline.app/daily"
+      },
+      {
+        "name": "ColorGuesser",
+        "url": "https://colorguesser.com/"
+      },
+      {
+        "name": "Countryle",
+        "url": "https://www.countryle.com/"
+      },
+      {
+        "name": "Daily Jingle",
+        "url": "https://dailyjingle.me/"
+      },
+      {
+        "name": "DayBrix",
+        "url": "https://vole.wtf/daybrix/"
+      },
+      {
+        "name": "Dicele",
+        "url": "https://dicele.com/"
+      },
+      {
+        "name": "Disney Heardle",
+        "url": "https://diz-nee-heardle.glitch.me/"
+      },
+      {
+        "name": "Disorderly",
+        "url": "https://playdisorderly.com/"
+      },
+      {
+        "name": "Duotrigordle",
+        "url": "https://duotrigordle.com/"
+      },
+      {
+        "name": "Facedle",
+        "url": "https://facedle.app/"
+      },
+      {
+        "name": "Figure",
+        "url": "https://figure.game/"
+      },
+      {
+        "name": "Flickle",
+        "url": "https://flickle.app/"
+      },
+      {
+        "name": "Gaps",
+        "url": "https://gaps.wtf/"
+      },
+      {
+        "name": "Gram Jam",
+        "url": "https://gramjam.app/"
+      },
+      {
+        "name": "Griddle",
+        "url": "https://griddlegame.io/"
+      },
+      {
+        "name": "Guess My Word",
+        "url": "https://hryanjones.com/guess-my-word/"
+      },
+      {
+        "name": "Heardle 1950's",
+        "url": "https://50s.heardledecades.com/"
+      },
+      {
+        "name": "Heardle 1960's",
+        "url": "https://60s.heardledecades.com/"
+      },
+      {
+        "name": "Heardle 1970's",
+        "url": "https://70s.heardledecades.com/"
+      },
+      {
+        "name": "Heardle 1980's",
+        "url": "https://80s.heardledecades.com/"
+      },
+      {
+        "name": "Heardle 1990's",
+        "url": "https://90s.heardledecades.com/"
+      },
+      {
+        "name": "Heardle 2000's",
+        "url": "https://00s.heardledecades.com/"
+      },
+      {
+        "name": "Heardle 2010's",
+        "url": "https://heardle10s.com/"
+      },
+      {
+        "name": "Heardle TV Themes",
+        "url": "https://tv.heardledecades.xyz/"
+      },
+      {
+        "name": "Jeopardle",
+        "url": "https://jeopardle.co/"
+      },
+      {
+        "name": "Jumblie",
+        "url": "https://jumblie.com/"
+      },
+      {
+        "name": "Juxtastat",
+        "url": "https://urbanstats.org/quiz.html"
+      },
+      {
+        "name": "LINKR",
+        "url": "https://www.playlinkr.net/"
+      },
+      {
+        "name": "Lingule",
+        "url": "https://lingule.xyz/"
+      },
+      {
+        "name": "Linxicon",
+        "url": "https://linxicon.com/"
+      },
+      {
+        "name": "Locatle",
+        "url": "https://locatle.strct.net/"
+      },
+      {
+        "name": "Lyricle",
+        "url": "https://www.lyricle.app/"
+      },
+      {
+        "name": "Moviedle",
+        "url": "https://moviedle.xyz/"
+      },
+      {
+        "name": "Moviedle - Fill The Grid",
+        "url": "https://moviedle.xyz/fill-the-grid/"
+      },
+      {
+        "name": "Moviedle - Moviemoji",
+        "url": "https://moviedle.xyz/moviemoji/"
+      },
+      {
+        "name": "Moviedle - Twenty Questions",
+        "url": "https://moviedle.xyz/twenty/"
+      },
+      {
+        "name": "Moviemoji",
+        "url": "https://www.playmoviemoji.com/"
+      },
+      {
+        "name": "OEC Connectrade",
+        "url": "https://oec.world/en/games/connectrade"
+      },
+      {
+        "name": "OEC Pick 5",
+        "url": "https://oec.world/en/games/pick-5"
+      },
+      {
+        "name": "Order Up",
+        "url": "https://orderup.games/"
+      },
+      {
+        "name": "Quintessential",
+        "url": "https://quintessential.fun/"
+      },
+      {
+        "name": "regexle.com",
+        "url": "https://regexle.com/"
+      },
+      {
+        "name": "regexle.ithea.de",
+        "url": "https://regexle.ithea.de/"
+      },
+      {
+        "name": "ReHeardle",
+        "url": "https://reheardle.com/"
+      },
+      {
+        "name": "ReHeardle Video Games",
+        "url": "https://reheardle.com/videogames/"
+      },
+      {
+        "name": "Rhyme Time",
+        "url": "https://www.rhymetime.co/"
+      },
+      {
+        "name": "Spotle",
+        "url": "https://spotle.io/"
+      },
+      { "name": "Squardle", "url": "https://fubargames.se/squardle/" },
+      {
+        "name": "Squares",
+        "url": "https://squares.org/"
+      },
+      {
+        "name": "Summle",
+        "url": "https://summle.net/"
+      },
+      { "name": "Survivle", "url": "https://lazyguyy.github.io/survivle/" },
+      {
+        "name": "The Wikipedia Game",
+        "url": "https://www.thewikipediagame.com/"
+      },
+      {
+        "name": "Thrice",
+        "url": "https://thrice.geekswhodrink.com/"
+      },
+      {
+        "name": "Toddle",
+        "url": "https://toddle-puzzle.web.app/"
+      },
+      {
+        "name": "Triplets",
+        "url": "https://www.tripletgame.com/"
+      },
+      {
+        "name": "Unzoomed",
+        "url": "https://www.unzoomed.com/en"
+      },
+      {
+        "name": "Word Connection",
+        "url": "https://www.thewordfinder.com/word-connection/"
+      },
+      {
+        "name": "Wordga",
+        "url": "https://wordga.com/daily"
+      }
+    ],
+    "dles removed": [
+      { "name": "Echo Chess", "url": "https://echochess.com/game.html" }
+    ]
+  },
+  {
     "date": "2024-04-10",
     "description": "Remove the tag 'guessing' to avoid confusion.<br>Add the tag 'colors'.<br>Add 23 dles.",
     "dles added": [

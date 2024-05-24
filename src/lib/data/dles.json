@@ -1,5 +1,15 @@
 [
   {
+    "name": "Absurdle",
+    "url": "https://qntm.org/files/absurdle/absurdle.html",
+    "description": "An adversarial version of Wordle that actively avoids giving you the answer.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Acted",
     "url": "https://acted.wtf/",
     "description": "Guess the name of the movie based on images of its actors.",
@@ -8,7 +18,48 @@
       "movies",
       "pictures"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Actorle",
+    "url": "https://actorle.com/",
+    "description": "Guess the movie actor based on the given information, with each guess revealing matching information.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Actorle - Fill The Grid",
+    "url": "https://actorle.com/fill-the-grid/",
+    "description": "Fill the grid with actors that are cast in movies from each cell's corresponding row and column.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Actorle - Storyboard",
+    "url": "https://actorle.com/storyboard/",
+    "description": "Rearrange the movie frames in chronological order.",
+    "tags": [
+      "archive",
+      "movies",
+      "pictures"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Actorle TV",
+    "url": "https://actorle.tv/",
+    "description": "Guess the TV actor based on the given information, with each guess revealing matching information.",
+    "tags": [
+      "archive",
+      "tv"
+    ],
+    "category": "Movies/TV"
   },
   {
     "name": "Adoptle",
@@ -17,6 +68,25 @@
     "tags": [
       "pictures",
       "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Angle",
+    "url": "https://angle.wtf/",
+    "description": "Guess the angle in 4 guesses or less.",
+    "tags": [
+      "math",
+      "visual"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Anigrams",
+    "url": "https://anigrams.us/",
+    "description": "Unscramble a series of words, revealing a new letter each time.",
+    "tags": [
       "words"
     ],
     "category": "Words"
@@ -68,12 +138,99 @@
     "tags": [
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
+  },
+  {
+    "name": "BrainBashers Daily 30 Seconds",
+    "url": "https://www.brainbashers.com/30seconds.asp",
+    "description": "Try to solve the arithmetic questions in 30 seconds, but it is okay if you go over.",
+    "tags": [
+      "archive",
+      "fast-paced",
+      "math"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "BrainBashers Daily Puzzle",
+    "url": "https://www.brainbashers.com/dailypuzzle.asp",
+    "description": "A daily brainteaser from BrainBashers.",
+    "tags": [
+      "archive",
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Brickdle",
+    "url": "https://www.brickdle.com/",
+    "description": "Guess the number of pieces in the pictured LEGO set.",
+    "tags": [
+      "numbers"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Calcle",
+    "url": "https://calclegame.com/",
+    "description": "Guess the numbers in the equation in 5 attempts or less.",
+    "tags": [
+      "logic",
+      "math"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Cell Tower",
+    "url": "https://www.andrewt.net/puzzles/cell-tower/",
+    "description": "Divide the grid into regions such that each region represents a word.",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Chainagram",
+    "url": "https://puzzletrail.games/puzzles/chainagram/",
+    "description": "Make a chain linking two words together by changing one letter and making an anagram at each step.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Chess.com Daily Puzzle",
+    "url": "https://www.chess.com/daily-chess-puzzle",
+    "description": "Solve the daily chess puzzle from chess.com.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Chessle",
+    "url": "https://jackli.gg/chessle/",
+    "description": "Guess today's entire opening Chess sequence.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Chrono",
     "url": "https://chrono.quest/",
     "description": "Put the events in chronological order in 3 tries or less.",
+    "tags": [
+      "history",
+      "time"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Chronoline",
+    "url": "https://chronoline.app/daily",
+    "description": "One by one, place each historical event in the correct spot on the timeline without making 5 mistakes.",
     "tags": [
       "history",
       "time"
@@ -99,7 +256,7 @@
       "archive",
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
   },
   {
     "name": "Cinematrix",
@@ -108,12 +265,21 @@
     "tags": [
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
   },
   {
     "name": "Colorfle",
     "url": "https://colorfle.org/index.html",
     "description": "Figure out the color composition of the given color.",
+    "tags": [
+      "colors"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "ColorGuesser",
+    "url": "https://colorguesser.com/",
+    "description": "Guess the actual color that each of the color names represent.",
     "tags": [
       "colors"
     ],
@@ -179,6 +345,15 @@
     "category": "Prices"
   },
   {
+    "name": "Countryle",
+    "url": "https://www.countryle.com/",
+    "description": "Guess the country in as few attempts as possible with the given clues.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
     "name": "Crosswordle",
     "url": "https://crosswordle.vercel.app",
     "description": "Fill in the grid to logically fit a series of Wordle guesses.",
@@ -221,13 +396,33 @@
     "category": "Trivia"
   },
   {
+    "name": "Daily Jingle",
+    "url": "https://dailyjingle.me/",
+    "description": "Guess the melody within 5 tries.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "Daily Tomato",
     "url": "https://www.rottentomatoes.com/movie-trivia/",
     "description": "Guess the movie title from a series of 5 clues, by Rotten Tomatoes.",
     "tags": [
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
+  },
+  {
+    "name": "DayBrix",
+    "url": "https://vole.wtf/daybrix/",
+    "description": "Daily tetris-style falling blocks game.",
+    "tags": [
+      "fast-paced",
+      "visual"
+    ],
+    "category": "Miscellaneous"
   },
   {
     "name": "Daydle",
@@ -238,6 +433,36 @@
       "time"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Dicele",
+    "url": "https://dicele.com/",
+    "description": "Swap dice to make each row and column sum up to their target number.",
+    "tags": [
+      "archive",
+      "logic",
+      "math"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Disney Heardle",
+    "url": "https://diz-nee-heardle.glitch.me/",
+    "description": "Guess the Disney song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Disorderly",
+    "url": "https://playdisorderly.com/",
+    "description": "Order the items correctly based on the given criteria.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "Doople",
@@ -260,6 +485,34 @@
     "category": "Words"
   },
   {
+    "name": "Duotrigordle",
+    "url": "https://duotrigordle.com/",
+    "description": "Solve 32 Wordle puzzles at the same time.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Facedle",
+    "url": "https://facedle.app/",
+    "description": "Guess the famous person in the partially covered picture.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Figure",
+    "url": "https://figure.game/",
+    "description": "Clear all of the tiles before running out of moves.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Flagdle",
     "url": "https://www.flagdle.org/",
     "description": "Guess the country by its flag.",
@@ -280,6 +533,16 @@
     "category": "Geography/History"
   },
   {
+    "name": "Flickle",
+    "url": "https://flickle.app/",
+    "description": "Guess the movie based on the given video clips.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Foodguessr",
     "url": "https://www.foodguessr.com/daily",
     "description": "Guess what country each of the food dishes are from.",
@@ -297,7 +560,7 @@
       "movies",
       "pictures"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
   },
   {
     "name": "Gamedle Artwork",
@@ -338,6 +601,16 @@
     "category": "Video Games"
   },
   {
+    "name": "Gaps",
+    "url": "https://gaps.wtf/",
+    "description": "Guess the movie based on the blanks and given information.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Globle",
     "url": "https://globle-game.com/game",
     "description": "Guess the mystery country, given how close it is to each guessed country.",
@@ -356,6 +629,33 @@
       "maps"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Gram Jam",
+    "url": "https://gramjam.app/",
+    "description": "Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Griddle",
+    "url": "https://griddlegame.io/",
+    "description": "Form words by placing letters on the board to get the highest score you can in this Scrabble-like daily game.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Guess My Word",
+    "url": "https://hryanjones.com/guess-my-word/",
+    "description": "Make guesses and see if they are alphabetically before or after the secret word.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Guess The Audio",
@@ -378,6 +678,86 @@
       "video games"
     ],
     "category": "Video Games"
+  },
+  {
+    "name": "Heardle 1950's",
+    "url": "https://50s.heardledecades.com/",
+    "description": "Guess the 1950's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle 1960's",
+    "url": "https://60s.heardledecades.com/",
+    "description": "Guess the 1960's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle 1970's",
+    "url": "https://70s.heardledecades.com/",
+    "description": "Guess the 1970's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle 1980's",
+    "url": "https://80s.heardledecades.com/",
+    "description": "Guess the 1980's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle 1990's",
+    "url": "https://90s.heardledecades.com/",
+    "description": "Guess the 1990's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle 2000's",
+    "url": "https://00s.heardledecades.com/",
+    "description": "Guess the 2000's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle 2010's",
+    "url": "https://heardle10s.com/",
+    "description": "Guess the 2010's song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Heardle TV Themes",
+    "url": "https://tv.heardledecades.xyz/",
+    "description": "Guess the TV theme song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
   },
   {
     "name": "hello wordl",
@@ -494,6 +874,34 @@
     "category": "Sports"
   },
   {
+    "name": "Jeopardle",
+    "url": "https://jeopardle.co/",
+    "description": "Answer today's Jeopardy questions from the given category.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
+    "name": "Jumblie",
+    "url": "https://jumblie.com/",
+    "description": "Find the 4 themed words hidden amongst the letters such that all letters are used exactly once.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Juxtastat",
+    "url": "https://urbanstats.org/quiz.html",
+    "description": "For 5 rounds, guess which of the two US regions better fits the given criteria.",
+    "tags": [
+      "geography",
+      "usa"
+    ],
+    "category": "Geography/History"
+  },
+  {
     "name": "Karat",
     "url": "https://karat.auronymous.com/",
     "description": "Turn the rings of the ingot until each side forms a word - in 24 turns or less.",
@@ -522,6 +930,33 @@
     "category": "Words"
   },
   {
+    "name": "Lingule",
+    "url": "https://lingule.xyz/",
+    "description": "Guess the language of the today's word in 6 guesses or less.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "LINKR",
+    "url": "https://www.playlinkr.net/",
+    "description": "Link each pair of numbered points together in three daily puzzles.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Linxicon",
+    "url": "https://linxicon.com/",
+    "description": "Connect two random words by creating a chain of new words that bridge the gap in their meanings.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Listed",
     "url": "https://listed.fun/",
     "description": "Guess the price of the recently sold property.",
@@ -530,6 +965,25 @@
       "prices"
     ],
     "category": "Prices"
+  },
+  {
+    "name": "Locatle",
+    "url": "https://locatle.strct.net/",
+    "description": "Guess the country that the picture was taken in.",
+    "tags": [
+      "geography",
+      "pictures"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Lyricle",
+    "url": "https://www.lyricle.app/",
+    "description": "Guess the song from the given lyrics.",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
   },
   {
     "name": "MapGame",
@@ -595,7 +1049,7 @@
     "tags": [
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
   },
   {
     "name": "Movie to Movie",
@@ -605,7 +1059,55 @@
       "archive",
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Moviedle",
+    "url": "https://moviedle.xyz/",
+    "description": "Guess the movie based on the given information, with each guess revealing matching information.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Moviedle - Fill The Grid",
+    "url": "https://moviedle.xyz/fill-the-grid/",
+    "description": "Fill the grid with movies that contain actors from each cell's corresponding row and column.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Moviedle - Moviemoji",
+    "url": "https://moviedle.xyz/moviemoji/",
+    "description": "Guess the movie based on the given emojis.",
+    "tags": [
+      "archive",
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Moviedle - Twenty Questions",
+    "url": "https://moviedle.xyz/twenty/",
+    "description": "You have 20 yes or no questions to figure out the secret movie.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Moviemoji",
+    "url": "https://www.playmoviemoji.com/",
+    "description": "Guess the movie based on the given emojis.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
   },
   {
     "name": "Neighborle",
@@ -686,6 +1188,24 @@
     "category": "Words"
   },
   {
+    "name": "OEC Connectrade",
+    "url": "https://oec.world/en/games/connectrade",
+    "description": "Form groups of four exported products that our associated with one of the given countries.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "OEC Pick 5",
+    "url": "https://oec.world/en/games/pick-5",
+    "description": "Guess the top 5 countries that export the most of the given product.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
     "name": "OEC Tradle",
     "url": "https://games.oec.world/en/tradle/",
     "description": "Guess the country by its exports.",
@@ -702,6 +1222,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Order Up",
+    "url": "https://orderup.games/",
+    "description": "Arrange the themed items in the correct order within 5 guesses.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "pedantle",
@@ -737,7 +1266,7 @@
     "tags": [
       "movies"
     ],
-    "category": "Movies"
+    "category": "Movies/TV"
   },
   {
     "name": "Pokedoku",
@@ -802,7 +1331,8 @@
     "url": "https://www.puzzmo.com/play/flip-art",
     "description": "Rotate the pieces to fit them within the frame.",
     "tags": [
-      "puzzmo"
+      "puzzmo",
+      "visual"
     ],
     "category": "Miscellaneous"
   },
@@ -831,6 +1361,15 @@
     "description": "Slide columns of letters to make words, using all of the letters along the way.",
     "tags": [
       "puzzmo",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Quintessential",
+    "url": "https://quintessential.fun/",
+    "description": "Solve each of the 5 horizontal words in as few swaps as possible.",
+    "tags": [
       "words"
     ],
     "category": "Words"
@@ -866,9 +1405,57 @@
     "category": "Words"
   },
   {
+    "name": "regexle.com",
+    "url": "https://regexle.com/",
+    "description": "Fill in the hexagon with sequences of characters that match the regular expressions listed around the edges.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "regexle.ithea.de",
+    "url": "https://regexle.ithea.de/",
+    "description": "Guess the secret regular expression by testing sequences of characters.",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "ReHeardle",
+    "url": "https://reheardle.com/",
+    "description": "Guess the song from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "ReHeardle Video Games",
+    "url": "https://reheardle.com/videogames/",
+    "description": "Guess the video game track from listening to small parts of it.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "Relatle",
     "url": "https://www.relatle.lol/",
     "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Rhyme Time",
+    "url": "https://www.rhymetime.co/",
+    "description": "Guess the three words that all rhyme.",
     "tags": [
       "words"
     ],
@@ -953,6 +1540,34 @@
     "category": "Words"
   },
   {
+    "name": "Spotle",
+    "url": "https://spotle.io/",
+    "description": "Guess the music artist in 10 tries, gaining new information based on each guess.",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
+    "name": "Squardle",
+    "url": "https://fubargames.se/squardle/",
+    "description": "A complex Wordle variant where your guesses count in two directions and cycle between three positions.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Squares",
+    "url": "https://squares.org/",
+    "description": "Find all of the words in this daily Boggle game.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Stackle",
     "url": "https://www.stackle.fun/",
     "description": "Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.",
@@ -983,6 +1598,16 @@
     "category": "Words"
   },
   {
+    "name": "Summle",
+    "url": "https://summle.net/",
+    "description": "Reach the target number using the given numbers and operations. Includes a junior mode and hard mode.",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Sumplete",
     "url": "https://sumplete.com/daily/",
     "description": "Delete numbers so that each row and column adds up to their target number.",
@@ -994,11 +1619,31 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Survivle",
+    "url": "https://lazyguyy.github.io/survivle/",
+    "description": "Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Syllacrostic",
     "url": "https://www.syllacrostic.com/daily-puzzle",
     "description": "Combine syllables to solve the clues.",
     "tags": [
       "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "The Wikipedia Game",
+    "url": "https://www.thewikipediagame.com/",
+    "description": "Race from one Wikipedia page to the target page using as few links as possible",
+    "tags": [
+      "fast-paced",
       "words"
     ],
     "category": "Words"
@@ -1014,6 +1659,15 @@
     "category": "Words"
   },
   {
+    "name": "Thrice",
+    "url": "https://thrice.geekswhodrink.com/",
+    "description": "Answer today's 5 trivia questions, each from a different category.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "TimeGuessr",
     "url": "https://timeguessr.com/",
     "description": "Guess the right time and location of each historical photo.",
@@ -1027,6 +1681,16 @@
     "category": "Geography/History"
   },
   {
+    "name": "Toddle",
+    "url": "https://toddle-puzzle.web.app/",
+    "description": "Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "travle",
     "url": "https://travle.earth/",
     "description": "Connect the starting country to the ending country by naming countries in between them.",
@@ -1035,6 +1699,17 @@
       "maps"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Triplets",
+    "url": "https://www.tripletgame.com/",
+    "description": "Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.",
+    "tags": [
+      "fast-paced",
+      "logic",
+      "visual"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Twofer Goofer",
@@ -1054,6 +1729,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Unzoomed",
+    "url": "https://www.unzoomed.com/en",
+    "description": "Guess the city based on the given satellite image.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
   },
   {
     "name": "Weaver",
@@ -1107,6 +1791,15 @@
     "category": "Words"
   },
   {
+    "name": "Word Connection",
+    "url": "https://www.thewordfinder.com/word-connection/",
+    "description": "Link a chain of 4 relevant words together.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Word Waffle",
     "url": "https://wordwaffle.org/",
     "description": "Move letters to create words both horizontally and vertically.",
@@ -1122,6 +1815,15 @@
     "description": "Guess all of the Wordle words, given the starting clues.",
     "tags": [
       "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Wordga",
+    "url": "https://wordga.com/daily",
+    "description": "Find as many 4+ letter words using today's letters.",
+    "tags": [
       "words"
     ],
     "category": "Words"
