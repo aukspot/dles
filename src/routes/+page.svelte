@@ -19,5 +19,4 @@
 </svelte:head>
 
 <SimpleLink href="{base}/suggest" text="Suggest a game to add!"></SimpleLink>
-<Settings />
 <DleList />

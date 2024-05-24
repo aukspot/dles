@@ -1,16 +1,27 @@
 <script>
-  import { numColumns } from "$lib/stores"
+  import { settings } from "$lib/stores"
+  import { onMount } from "svelte"
+
+  onMount(() => {
+    $settings.view = localStorage.view || "categories"
+  })
+
+  function updateLocalStorage() {
+    localStorage.view = $settings.view
+  }
 </script>
 
-<!-- <div>
-  <label for="darkMode">Dark mode?</label>
-  <input id="darkMode" type="checkbox" />
-  <label for="numColumns">Number of columns</label>
-  <input
-    id="numColumns"
-    type="number"
-    min="1"
-    max="3"
-    bind:value={$numColumns}
-  />
-</div> -->
+<div class="flex justify-center m-2">
+  <div class="flex items-center gap-2">
+    <select
+      class="p-1 rounded-md bg-colorNeutralSofter"
+      id="view"
+      name="view"
+      bind:value={$settings.view}
+      on:change={updateLocalStorage}
+    >
+      <option value="detailed">Detailed View</option>
+      <option value="categories">Category View</option>
+    </select>
+  </div>
+</div>
