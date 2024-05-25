@@ -20,9 +20,9 @@
 
 <style lang="postcss">
   .entry {
-    @apply mt-2 flex gap-2;
-    time {
-      @apply font-mono;
-    }
+    @apply mt-2 flex flex-nowrap gap-2;
+  }
+  time {
+    @apply font-mono;
   }
 </style>

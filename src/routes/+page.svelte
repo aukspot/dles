@@ -18,5 +18,5 @@
   <meta name="author" content="aukspot" />
 </svelte:head>
 
-<SimpleLink href="{base}/suggest" text="Suggest a game to add!"></SimpleLink>
+<!-- <SimpleLink href="{base}/suggest" text="Suggest a game to add!"></SimpleLink> -->
 <DleList />

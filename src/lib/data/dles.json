@@ -611,6 +611,16 @@
     "category": "Movies/TV"
   },
   {
+    "name": "GeoGrid",
+    "url": "https://www.geogridgame.com/",
+    "description": "Fill in the grid with countries that matches each cell's corresponding row and column categories.",
+    "tags": [
+      "archive",
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
     "name": "Globle",
     "url": "https://globle-game.com/game",
     "description": "Guess the mystery country, given how close it is to each guessed country.",
@@ -1491,6 +1501,15 @@
     "category": "Words"
   },
   {
+    "name": "Smashdle",
+    "url": "https://smashdle.net/",
+    "description": "A bunch of daily games where you guess the character from Super Smash Bros.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Songle",
     "url": "https://histordle.com/songle/",
     "description": "Guess the year given three songs that were released that year.",
@@ -1566,6 +1585,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Squirdle Daily",
+    "url": "https://squirdle.fireblend.com/daily.html",
+    "description": "Guess today's pokemon within 9 guesses.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Stackle",

@@ -22,7 +22,7 @@ a {
 }
 
 .btn-icon {
-  @apply flex justify-center items-center w-9 h-9 rounded mt-2 fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
+  @apply flex justify-center items-center w-9 h-9 rounded fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
 }
 
 .btn-svg {

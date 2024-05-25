@@ -22,6 +22,7 @@
     >
       <option value="detailed">Detailed View</option>
       <option value="categories">Category View</option>
+      <option value="descriptions">Descriptions</option>
     </select>
   </div>
 </div>

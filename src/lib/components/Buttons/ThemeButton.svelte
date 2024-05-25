@@ -60,6 +60,6 @@
   onMount(applyTheme)
 </script>
 
-<button class="btn" on:click={toggleTheme}>
+<button class="btn-icon" on:click={toggleTheme}>
   <IconLightbulb />
 </button>

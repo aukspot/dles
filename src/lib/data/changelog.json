@@ -1,7 +1,7 @@
 [
   {
-    "date": "2024-05-24",
-    "description": "Add a categorized view as the new default view.<br>Add tags: fast-paced, tv, visual.<br>Add 73 dles.<br>Remove 1 dle.",
+    "date": "2024-05-25",
+    "description": "Add a categorized view as the new default view.<br>Add tags: fast-paced, tv, visual.<br>Add 76 dles.<br>Remove 1 dle.",
     "dles added": [
       {
         "name": "Absurdle",
@@ -115,6 +115,7 @@
         "name": "Gaps",
         "url": "https://gaps.wtf/"
       },
+      { "name": "GeoGrid", "url": "https://www.geogridgame.com/" },
       {
         "name": "Gram Jam",
         "url": "https://gramjam.app/"
@@ -247,6 +248,7 @@
         "name": "Rhyme Time",
         "url": "https://www.rhymetime.co/"
       },
+      { "name": "Smashdle", "url": "https://smashdle.net/" },
       {
         "name": "Spotle",
         "url": "https://spotle.io/"
@@ -255,6 +257,10 @@
       {
         "name": "Squares",
         "url": "https://squares.org/"
+      },
+      {
+        "name": "Squirdle Daily",
+        "url": "https://squirdle.fireblend.com/daily.html"
       },
       {
         "name": "Summle",

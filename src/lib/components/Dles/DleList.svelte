@@ -49,7 +49,7 @@
   })
 </script>
 
-<div
+<!-- <div
   class="mt-3 pt-3 pb-1 border border-colorNeutral leading-6 align-middle font-mono rounded text-center text-2xl shadow-sm shadow-colorNeutralSoft md:text-3xl"
 >
   <strong>{$filteredDles.length}</strong>
@@ -74,7 +74,7 @@
     <FilterTagGroup tags={excludedTags} type="exclude" inDropdown={false} />
   </div>
 </div>
-<Toolbar />
+<Toolbar /> -->
 
 {#if $settings.view == "detailed"}
   <DlesDetailed />
