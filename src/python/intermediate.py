@@ -63,8 +63,8 @@ def word_to_color(word):
   ) / 26 ** len(letters)
 
   color = Color(hue=hue)
-  color.set_saturation(0.4)
-  color.set_luminance(0.8)
+  color.set_saturation(0.5)
+  color.set_luminance(0.75)
   return color.hex
 
 
