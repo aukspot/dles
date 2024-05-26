@@ -13,7 +13,7 @@ a {
 }
 
 .btn {
-  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutralSofter active:shadow-none md:text-lg;
+  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutral active:shadow-none md:text-lg;
 }
 
 .btn:disabled {
@@ -26,11 +26,11 @@ a {
 }
 
 .btn-dropdown-menu {
-  @apply gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorNeutralSoft;
+  @apply gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSofter border-2 border-transparent shadow-md hover:border-2 hover:border-colorTextSofter active:shadow-none;
 }
 
 .btn-menu-item {
-  @apply gap-1 p-1 flex justify-center items-center text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorText;
+  @apply gap-1 p-1 flex justify-center items-center text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorTextSofter hover:!bg-colorBackground;
 }
 
 .btn-settings {
@@ -47,6 +47,7 @@ a {
 
 .showBtn {
   opacity: 1 !important;
+  display: block;
   transform: translateY(0);
 }
 

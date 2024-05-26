@@ -4,7 +4,7 @@
   import Toolbar from "./Toolbar.svelte"
 </script>
 
-<header class="flex justify-between items-center px-2 py-2">
+<header class="flex justify-between items-center px-2 py-2 relative">
   <!-- <div id="themeSwitcher" class="absolute top-0 right-1">
     <ThemeButton />
   </div>

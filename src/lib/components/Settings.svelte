@@ -14,7 +14,7 @@
 
 <div class="flex justify-center items-center gap-1">
   <select
-    class="btn-menu-item !p-2 w-full text-center rounded-md bg-colorNeutralSofter"
+    class="btn-menu-item !p-2 w-full text-center rounded-md !bg-colorCardA"
     id="view"
     name="view"
     bind:value={$settings.view}

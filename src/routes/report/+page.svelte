@@ -2,70 +2,74 @@
   import { base } from "$app/paths"
   import SimpleLink from "$lib/components/SimpleLink.svelte"
   import SimpleCard from "$lib/components/SimpleCard.svelte"
-  import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
+  import IconBug from "$lib/components/Icons/IconBug.svelte"
 
-  export let url = ""
   export let description = ""
+  export let platform = ""
+  export let browser = ""
   export let comments = ""
 
-  $: disabled = url.length === 0
+  $: disabled = description.length === 0
   $: criteria = disabled ? "text-colorError" : ""
 </script>
 
 <svelte:head>
-  <title>Suggest a game!</title>
-  <meta
-    name="description"
-    content="Suggest a daily game to be added to the list of dles."
-  />
+  <title>Report a bug!</title>
+  <meta name="description" content="Report a bug you found!" />
 </svelte:head>
 
 <!-- <div class="divider"></div> -->
 <div class="mt-4 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
-    <h2
-      class="mb-0 flex justify-center gap-2 text-xl font-semibold fill-colorText"
-    >
-      <IconSuggest /> Suggest a game!
+    <h2 class="mb-0 flex justify-center gap-2 text-xl fill-colorText font-bold">
+      <IconBug /> Report a bug!
     </h2>
     <p class="text-center text-colorTextSoft px-2">
-      Is there a fun daily game that is missing from the list? Make an anonymous
-      suggestion below!
+      Find a typo? Or does something just not work the way you expected?
+      Whatever the bug is, describe it below!
     </p>
     <div class="flex justify-center items-center">
       <form
         class="w-full"
         method="POST"
-        action="https://formspree.io/f/xpzvdyzl"
+        action="https://formspree.io/f/mbjnepbl"
       >
         <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCardA">
           <div class="formElementContainer">
-            <label for="url"
-              >URL <span id="criteria" class={criteria}>
+            <label for="description"
+              >Bug Description <span id="criteria" class={criteria}>
                 (required)
               </span></label
             >
-            <input
-              bind:value={url}
-              type="text"
-              id="url"
-              name="url"
-              placeholder="example.game"
-              required
-            />
-          </div>
-
-          <div class="formElementContainer">
-            <label for="description">Description</label>
             <textarea
               bind:value={description}
               id="description"
               name="description"
-              placeholder="describe the game"
+              placeholder="describe the bug"
               rows="4"
+              required
             />
           </div>
-
+          <div class="formElementContainer">
+            <label for="platform">Platform</label>
+            <input
+              bind:value={platform}
+              type="text"
+              id="platform"
+              name="platform"
+              placeholder="eg. Windows, iOS, Arch Linux etc."
+            />
+          </div>
+          <div class="formElementContainer">
+            <label for="browser">Browser</label>
+            <input
+              bind:value={browser}
+              type="text"
+              id="browser"
+              name="browser"
+              placeholder="eg. Chrome, Firefox, Safari, etc."
+            />
+          </div>
           <div class="formElementContainer">
             <label for="comments">Comments</label>
             <textarea
@@ -91,7 +95,7 @@
   </SimpleCard>
   <SimpleLink href="{base}/" text="Go back to collection" />
   <span class="text-center leading-none">or...</span>
-  <SimpleLink href="{base}/report" text="Report a bug!" />
+  <SimpleLink href="{base}/suggest" text="Suggest a game!" />
 </div>
 
 <style lang="postcss">

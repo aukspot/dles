@@ -17,10 +17,10 @@
   id="menuBackground"
   class="{hidden
     ? 'hidden'
-    : 'z-10'} fixed top-0 left-0 w-full h-full bg-gray-900 opacity-50"
+    : 'z-10'} fixed top-0 left-0 w-full h-full bg-gray-900 opacity-30 transition-all"
   on:click={menuBackgroundClicked}
 ></div>
-<div class="relative {hidden ? '' : 'z-20'}">
+<div class={hidden ? "" : "z-20"}>
   <button class="btn-dropdown-menu" on:click={dropdownMenuButtonClicked}>
     <slot />
   </button>

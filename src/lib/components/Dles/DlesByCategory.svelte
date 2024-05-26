@@ -85,13 +85,10 @@
           <ol class="dleList">
             {#each categorizedDles[category] as dle, j (j)}
               <li class="dleName">
-                <!-- <span class="unselectable dleNumber"></span> -->
                 <div class="dleTop">
                   <a href={dle.url} target="_blank" rel="noopener">{dle.name}</a
                   >
-                  <!-- <div class="expandDescription">&#8801;</div> -->
                 </div>
-                <!-- <div class="dleDescription">{dle.description}</div> -->
               </li>
             {/each}
           </ol>
@@ -118,19 +115,10 @@
   .label {
     @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
   }
-  /* .dleNumber {
-    @apply text-colorTextSoft;
-  } */
   .dleName {
     @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
   }
   .dleTop {
     @apply p-1 px-2 flex justify-between items-baseline align-top gap-1;
-  }
-  .expandDescription {
-    @apply p-1 text-sm text-colorTextSofter cursor-pointer;
-  }
-  .dleDescription {
-    @apply p-1 text-xs md:text-sm hidden;
   }
 </style>

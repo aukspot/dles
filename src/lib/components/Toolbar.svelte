@@ -7,7 +7,7 @@
   $settings.test = true
 </script>
 
-<div class="relative">
+<div>
   <div class="flex gap-2">
     <MenuRandomButton />
     <!-- <FilterButton /> -->
