@@ -25,6 +25,22 @@ a {
   @apply flex justify-center items-center w-9 h-9 rounded fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
 }
 
+.btn-dropdown-menu {
+  @apply gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorNeutralSoft;
+}
+
+.btn-menu-item {
+  @apply gap-1 p-1 flex justify-center items-center text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorText;
+}
+
+.btn-settings {
+  @apply gap-1 p-1 flex justify-center items-center rounded-md text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorText;
+}
+
+.btn-toolbar {
+  @apply flex flex-row justify-center items-center bg-colorCardB rounded-md;
+}
+
 .btn-svg {
   @apply md:w-8;
 }
@@ -32,6 +48,10 @@ a {
 .showBtn {
   opacity: 1 !important;
   transform: translateY(0);
+}
+
+.only-md {
+  @apply hidden md:block;
 }
 
 .divider {

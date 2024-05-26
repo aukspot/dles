@@ -1,9 +1,10 @@
 <script>
-  import ThemeButton from "$lib/components/Buttons/ThemeButton.svelte"
+  import { base } from "$app/paths"
+  import { dles } from "$lib/stores"
   import Toolbar from "./Toolbar.svelte"
 </script>
 
-<header class="flex justify-between px-1 py-2">
+<header class="flex justify-between items-center px-2 py-2">
   <!-- <div id="themeSwitcher" class="absolute top-0 right-1">
     <ThemeButton />
   </div>
@@ -17,12 +18,12 @@
   </p> -->
   <div>
     <h1
-      class="leading-none tracking-tight text-3xl uppercase font-semibold font-mono md:text-4xl"
+      class="leading-none tracking-tight text-3xl uppercase font-mono font-bold md:text-4xl"
     >
-      The Dles
+      <a class="text-colorText" href="{base}/"> The Dles </a>
     </h1>
-    <p class="pl-1 leading-none text-sm md:text-base">
-      A curated collection of daily games.
+    <p class="pt-1 pl-1 leading-none text-sm md:text-base">
+      A curated collection of <strong>{$dles.length}</strong> daily games.
     </p>
   </div>
   <Toolbar />

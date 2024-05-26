@@ -103,7 +103,7 @@
 
 <style lang="postcss">
   .dlesContainer {
-    @apply px-1 mt-4 gap-2 columns-2 lg:columns-4 max-[290px]:columns-1;
+    @apply px-1 mt-1 gap-2 columns-2 lg:columns-4 max-[290px]:columns-1;
   }
   .card {
     @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;

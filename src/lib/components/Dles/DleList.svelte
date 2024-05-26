@@ -1,52 +1,7 @@
 <script>
-  import { dles, filteredDles, settings, tagNames, tags } from "$lib/stores"
-  import dles_json from "$lib/data/dles.json"
-
-  import FilterTagGroup from "$lib/components/Filters/FilterTagGroup.svelte"
-  import Toolbar from "$lib/components/Toolbar.svelte"
-
+  import { settings } from "$lib/stores"
   import DlesByCategory from "./DlesByCategory.svelte"
   import DlesDetailed from "./DlesDetailed.svelte"
-
-  function initializeDles() {
-    $dles = dles_json
-    for (let dle of $dles) {
-      dle.hidden = false
-    }
-  }
-
-  function initializeTags() {
-    $tagNames = $dles
-      .map((dle) => dle.tags)
-      .flat()
-      .filter((x, i, a) => a.indexOf(x) == i)
-      .sort()
-
-    $tags = {}
-    for (let tag_name of $tagNames) {
-      $tags[tag_name] = {
-        included: false,
-        excluded: false,
-      }
-    }
-  }
-
-  initializeDles()
-  initializeTags()
-
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
-
-  $: $filteredDles = $dles.filter((dle) => {
-    let result = false
-    if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true
-    }
-    if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false
-    }
-    return result
-  })
 </script>
 
 <!-- <div

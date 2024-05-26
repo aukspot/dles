@@ -1,6 +1,9 @@
 <script>
   import { filteredDles } from "$lib/stores"
-
+  import IconRandom from "../Icons/IconRandom.svelte"
+  import MenuRandom from "../MenuRandom.svelte"
+  import Random from "../MenuRandom.svelte"
+  import DropdownMenuButton from "./DropdownMenuButton.svelte"
   let url = ""
   let dle = {
     url,
@@ -20,18 +23,11 @@
   }
 </script>
 
-<div class="flex justify-center items-center">
-  <div class="flex flex-col gap-1">
-    <a
-      href="?random"
-      id="randomDleLink"
-      class="mx-auto"
-      target="_blank"
-      rel="noopener"
-      ><button id="playButton" class="btn mt-2" on:click={playRandomDle}
-        >Play random!</button
-      ></a
-    >
-    <div class="text-xs mx-auto">(Opens in new tab)</div>
+<DropdownMenuButton>
+  <IconRandom /><span class="only-md">Random</span>
+  <div slot="menu">
+    <MenuRandom />
   </div>
-</div>
+</DropdownMenuButton>
+
+<!-- <div class="text-xs mx-auto">(Opens in new tab)</div> -->

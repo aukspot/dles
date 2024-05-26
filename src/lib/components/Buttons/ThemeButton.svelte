@@ -60,6 +60,10 @@
   onMount(applyTheme)
 </script>
 
-<button class="btn-icon" on:click={toggleTheme}>
+<button
+  on:click={toggleTheme}
+  class="flex justify-end align-bottom rounded-md btn-menu-item"
+>
   <IconLightbulb />
+  <div>Toggle theme</div>
 </button>

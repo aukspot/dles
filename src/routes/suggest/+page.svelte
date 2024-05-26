@@ -78,6 +78,11 @@
         </fieldset>
       </form>
     </div>
+    <p class="text-center">
+      Form handling by <a href="https://formspree.io" target="_blank"
+        >formspree.io</a
+      >
+    </p>
   </SimpleCard>
 </div>
 
