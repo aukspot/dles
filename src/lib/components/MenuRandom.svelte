@@ -1,6 +1,6 @@
 <script>
   import { base } from "$app/paths"
-  import { categories, randomCategories } from "$lib/stores"
+  import { categories, dles, randomCategories } from "$lib/stores"
   import DropdownMenu from "./DropdownMenu.svelte"
   import IconRandom from "./Icons/IconRandom.svelte"
 
@@ -20,6 +20,26 @@
     }
     localStorage.randomCategories = JSON.stringify($randomCategories)
   }
+
+  function openInNewTab(href) {
+    Object.assign(document.createElement("a"), {
+      target: "_blank",
+      rel: "noopener noreferrer",
+      href: href,
+    }).click()
+  }
+
+  function playRandom() {
+    const options = $dles.filter((dle) =>
+      $randomCategories.includes(dle.category),
+    )
+    if (options.length != 0) {
+      const choice = options[Math.floor(Math.random() * options.length)]
+      openInNewTab(choice.url)
+      console.log(choice.url)
+    }
+    console.log(options)
+  }
 </script>
 
 <DropdownMenu>
@@ -28,9 +48,12 @@
   >
     <IconRandom /> Play random game
   </h2>
-  <div data-sveltekit-reload>
-    <a class="menu-link btn-menu-item rounded-md" href="{base}/suggest">
-      Go! (Opens in new tab)</a
+  <div class="flex justify-center">
+    <button
+      class="menu-link btn-menu-item rounded-md shadow-sm shadow-colorTextSofter active:shadow-none"
+      on:click={playRandom}
+    >
+      Go! (Opens in new tab)</button
     >
   </div>
   <h3 class="text-center underline">Allowed categories</h3>

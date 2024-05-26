@@ -12,6 +12,6 @@
 
 <style lang="postcss">
   button {
-    @apply text-xs text-colorTextTag px-2 py-1 rounded shadow-md shadow-colorNeutralSofter font-mono active:shadow-none md:text-sm cursor-default;
+    @apply text-xs text-colorTextTag px-2 py-1 rounded shadow-md shadow-colorNeutralSofter font-mono md:text-sm cursor-default;
   }
 </style>

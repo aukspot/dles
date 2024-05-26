@@ -7,7 +7,7 @@
 <div class="group">
   {#each tags as name, i (i)}
     <div animate:flip>
-      <FilterTag {name} type="include"></FilterTag>
+      <FilterTag {name}></FilterTag>
     </div>
   {/each}
 </div>
