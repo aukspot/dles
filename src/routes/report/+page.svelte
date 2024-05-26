@@ -19,12 +19,12 @@
 </svelte:head>
 
 <!-- <div class="divider"></div> -->
-<div class="mt-4 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+<div class="mt-2 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
     <h2 class="mb-2 flex justify-center gap-2 text-xl fill-colorText font-bold">
       <IconBug /> Report a bug!
     </h2>
-    <p class="text-center text-colorTextSoft px-2 mb-2">
+    <p class="text-center text-sm md:text-base text-colorTextSoft px-2 mb-2">
       Find a typo or broken link? Or does something just not work the way you
       expected? Whatever the bug is, describe it below!
     </p>

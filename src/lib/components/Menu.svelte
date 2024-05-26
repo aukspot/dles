@@ -3,6 +3,7 @@
   import Settings from "$lib/components/Settings.svelte"
   import DropdownMenu from "./DropdownMenu.svelte"
   import IconBug from "./Icons/IconBug.svelte"
+  import IconGitHub from "./Icons/IconGitHub.svelte"
   import IconKofi from "./Icons/IconKofi.svelte"
   import IconSuggest from "./Icons/IconSuggest.svelte"
 </script>
@@ -11,7 +12,7 @@
   <h2
     class="pb-1 mb-1 text-center text-lg font-semibold border-b border-colorTextSoftest"
   >
-    Menu
+    Main Menu
   </h2>
 
   <Settings />
@@ -25,7 +26,12 @@
     <a
       class="menu-link btn-menu-item"
       href="https://ko-fi.com/aukspot"
-      target="_blank"><IconKofi /> Support on Ko-fi</a
+      target="_blank"><IconKofi /> Buy me a coffee</a
+    >
+    <a
+      class="menu-link btn-menu-item"
+      href="https://github.com/aukspot/dles"
+      target="_blank"><IconGitHub />Contribute</a
     >
   </div>
 </DropdownMenu>

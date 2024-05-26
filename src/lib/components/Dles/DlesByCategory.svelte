@@ -42,7 +42,7 @@
   }
 </script>
 
-<div class="dlesContainer" in:fly={{ y: 100 }}>
+<div class="dlesContainer" in:fly={{ y: 1000, duration: 400 }}>
   {#each $categories as category, i (i)}
     {#if categorizedDles[category].length != 0}
       <div class="card">

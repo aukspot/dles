@@ -9,29 +9,37 @@
     categoryColors,
     dles,
     filteredDles,
+    randomCategories,
     tagNames,
     tags,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
-  import BackToTopButton from "$lib/components/Buttons/BackToTopButton.svelte"
   import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
   import IconBug from "$lib/components/Icons/IconBug.svelte"
   import IconKofi from "$lib/components/Icons/IconKofi.svelte"
   import LatestChange from "$lib/components/LatestChange.svelte"
+  import { onMount } from "svelte"
 
-  $categories = [
-    "Geography/History",
-    "Math/Logic",
-    "Movies/TV",
-    "Music",
-    "Prices",
-    "Sports",
-    "Trivia",
-    "Video Games",
-    "Words",
-    "Miscellaneous",
-  ]
+  onMount(() => {
+    $categories = [
+      "Geography/History",
+      "Math/Logic",
+      "Movies/TV",
+      "Music",
+      "Prices",
+      "Sports",
+      "Trivia",
+      "Video Games",
+      "Words",
+      "Miscellaneous",
+    ]
+    if (localStorage.randomCategories) {
+      $randomCategories = JSON.parse(localStorage.randomCategories)
+    } else {
+      $randomCategories = $categories
+    }
+  })
 
   $categoryColors = {
     "Geography/History": "hsl(0, 90%, 50%, 45%)",
@@ -94,7 +102,6 @@
     <main class="flex flex-col flex-1 py-1 md:p-1 w-full mx-auto box-border">
       <Header />
       <slot />
-      <BackToTopButton />
     </main>
     <footer class="flex flex-col p-1">
       <div class="divider"></div>

@@ -30,7 +30,7 @@
   button {
     z-index: 100;
     opacity: 0;
-    display: none;
+    /* display: none; */
     transition: opacity 0.5s ease;
   }
 </style>

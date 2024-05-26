@@ -4,7 +4,10 @@
   import DleCard from "./DleCard.svelte"
 </script>
 
-<ol class="mt-4 gap-2 grid grid-cols-1 lg:grid-cols-2" in:fly={{ y: 100 }}>
+<ol
+  class="mt-4 px-1 gap-2 grid grid-cols-1 lg:grid-cols-2"
+  in:fly={{ y: 1000, duration: 400 }}
+>
   {#each $filteredDles as dle, i (i)}
     <li>
       <DleCard {dle} i={i + 1}></DleCard>

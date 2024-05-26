@@ -21,7 +21,7 @@
 </svelte:head>
 
 <!-- <div class="divider"></div> -->
-<div class="mt-4 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+<div class="mt-2 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
     <h2
       class="mb-2 flex justify-center gap-2 text-xl font-semibold fill-colorText"

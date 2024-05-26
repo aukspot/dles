@@ -2,7 +2,6 @@
   import { settings } from "$lib/stores"
   import { onMount } from "svelte"
   import ThemeButton from "./Buttons/ThemeButton.svelte"
-  import DropdownMenu from "./DropdownMenu.svelte"
   onMount(() => {
     $settings.view = localStorage.view || "categories"
   })
@@ -12,6 +11,7 @@
   }
 </script>
 
+<ThemeButton />
 <div class="flex justify-center items-center gap-1">
   <select
     class="btn-menu-item !p-2 w-full text-center rounded-md !bg-colorCardA"
@@ -24,4 +24,3 @@
     <option value="detailed">Detailed View (Legacy)</option>
   </select>
 </div>
-<ThemeButton />
