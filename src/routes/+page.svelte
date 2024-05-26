@@ -1,6 +1,10 @@
 <script>
   import { base } from "$app/paths"
   import DleList from "$lib/components/Dles/DleList.svelte"
+  import IconBug from "$lib/components/Icons/IconBug.svelte"
+  import IconKofi from "$lib/components/Icons/IconKofi.svelte"
+  import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
+  import LatestChange from "$lib/components/LatestChange.svelte"
   import Settings from "$lib/components/Settings.svelte"
   import SimpleLink from "$lib/components/SimpleLink.svelte"
 </script>

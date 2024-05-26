@@ -1,5 +1,7 @@
 <script>
-  import { filteredDles } from "$lib/stores"
+  import { fly } from "svelte/transition"
+  import { categories, categoryColors, filteredDles } from "$lib/stores"
+
   import IconGeography from "../Icons/IconGeography.svelte"
   import IconMath from "../Icons/IconMath.svelte"
   import IconMiscellaneous from "../Icons/IconMiscellaneous.svelte"
@@ -10,32 +12,6 @@
   import IconTrivia from "../Icons/IconTrivia.svelte"
   import IconVideoGames from "../Icons/IconVideoGames.svelte"
   import IconWords from "../Icons/IconWords.svelte"
-
-  const categories = [
-    "Geography/History",
-    "Math/Logic",
-    "Movies/TV",
-    "Music",
-    "Prices",
-    "Sports",
-    "Trivia",
-    "Video Games",
-    "Words",
-    "Miscellaneous",
-  ]
-
-  const categoryColors = {
-    "Geography/History": "hsl(0, 90%, 50%, 45%)",
-    "Math/Logic": "hsl(20, 90%, 50%, 45%)",
-    "Movies/TV": "hsl(40, 90%, 50%, 45%)",
-    Music: "hsl(60, 90%, 50%, 45%)",
-    Prices: "hsl(100, 90%, 50%, 45%)",
-    Sports: "hsl(150, 90%, 50%, 45%)",
-    Trivia: "hsl(200, 90%, 50%, 45%)",
-    "Video Games": "hsl(300, 90%, 50%, 45%)",
-    Words: "hsl(340, 90%, 50%, 45%)",
-    Miscellaneous: "hsl(0, 0%, 49%, 45%)",
-  }
 
   const categoryIcons = {
     "Geography/History": IconGeography,
@@ -51,14 +27,14 @@
   }
 
   let categorizedDles = {}
-  for (let category of categories) {
+  for (let category of $categories) {
     categorizedDles[category] = $filteredDles.filter(
       (dle) => dle.category == category,
     )
   }
 
   $: {
-    for (let category of categories) {
+    for (let category of $categories) {
       categorizedDles[category] = $filteredDles.filter(
         (dle) => dle.category == category,
       )
@@ -66,13 +42,13 @@
   }
 </script>
 
-<div class="dlesContainer">
-  {#each categories as category, i (i)}
+<div class="dlesContainer" in:fly={{ y: 100 }}>
+  {#each $categories as category, i (i)}
     {#if categorizedDles[category].length != 0}
       <div class="card">
         <div
           class="labelContainer"
-          style="background-color: {categoryColors[category]}"
+          style="background-color: {$categoryColors[category]}"
         >
           <div class="label">
             <div class="flex-shrink-0">

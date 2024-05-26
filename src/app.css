@@ -26,7 +26,7 @@ a {
 }
 
 .btn-dropdown-menu {
-  @apply gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSofter border-2 border-transparent shadow-md hover:border-2 hover:border-colorTextSofter active:shadow-none;
+  @apply z-30 gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSofter border-2 border-transparent shadow-md hover:border-2 hover:border-colorTextSofter active:shadow-none;
 }
 
 .btn-menu-item {
@@ -49,6 +49,10 @@ a {
   opacity: 1 !important;
   display: block;
   transform: translateY(0);
+}
+
+.menu-link {
+  @apply p-2 flex gap-2 justify-center text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB;
 }
 
 .only-md {

@@ -24,11 +24,11 @@
 <div class="mt-4 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
     <h2
-      class="mb-0 flex justify-center gap-2 text-xl font-semibold fill-colorText"
+      class="mb-2 flex justify-center gap-2 text-xl font-semibold fill-colorText"
     >
       <IconSuggest /> Suggest a game!
     </h2>
-    <p class="text-center text-colorTextSoft px-2">
+    <p class="text-center text-colorTextSoft px-2 mb-2">
       Is there a fun daily game that is missing from the list? Make an anonymous
       suggestion below!
     </p>
@@ -38,7 +38,7 @@
         method="POST"
         action="https://formspree.io/f/xpzvdyzl"
       >
-        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCardA">
+        <fieldset class="p-1 flex flex-col justify-end gap-2">
           <div class="formElementContainer">
             <label for="url"
               >URL <span id="criteria" class={criteria}>

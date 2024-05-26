@@ -1,11 +1,51 @@
 <script>
-  import { dles, filteredDles, tagNames, tags } from "$lib/stores"
+  import { base } from "$app/paths"
 
   import "../app.css"
-  import Header from "$lib/components/Header.svelte"
-  import Changelog from "$lib/components/Changelog.svelte"
-  import BackToTopButton from "$lib/components/Buttons/BackToTopButton.svelte"
   import dles_json from "$lib/data/dles.json"
+
+  import {
+    categories,
+    categoryColors,
+    dles,
+    filteredDles,
+    tagNames,
+    tags,
+  } from "$lib/stores"
+
+  import Header from "$lib/components/Header.svelte"
+  import BackToTopButton from "$lib/components/Buttons/BackToTopButton.svelte"
+  import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
+  import IconBug from "$lib/components/Icons/IconBug.svelte"
+  import IconKofi from "$lib/components/Icons/IconKofi.svelte"
+  import LatestChange from "$lib/components/LatestChange.svelte"
+
+  $categories = [
+    "Geography/History",
+    "Math/Logic",
+    "Movies/TV",
+    "Music",
+    "Prices",
+    "Sports",
+    "Trivia",
+    "Video Games",
+    "Words",
+    "Miscellaneous",
+  ]
+
+  $categoryColors = {
+    "Geography/History": "hsl(0, 90%, 50%, 45%)",
+    "Math/Logic": "hsl(20, 90%, 50%, 45%)",
+    "Movies/TV": "hsl(40, 90%, 50%, 45%)",
+    Music: "hsl(60, 90%, 50%, 45%)",
+    Prices: "hsl(100, 90%, 50%, 45%)",
+    Sports: "hsl(150, 90%, 50%, 45%)",
+    Trivia: "hsl(200, 90%, 50%, 45%)",
+    "Video Games": "hsl(300, 90%, 50%, 45%)",
+    Words: "hsl(340, 90%, 50%, 45%)",
+    Miscellaneous: "hsl(0, 0%, 49%, 45%)",
+  }
+
   function initializeDles() {
     $dles = dles_json
     for (let dle of $dles) {
@@ -51,14 +91,27 @@
   <div
     class="flex flex-col min-h-screen justify-between max-w-screen-xl mx-auto"
   >
-    <main class="flex flex-col flex-1 p-1 w-full mx-auto box-border">
+    <main class="flex flex-col flex-1 py-1 md:p-1 w-full mx-auto box-border">
       <Header />
       <slot />
       <BackToTopButton />
     </main>
     <footer class="flex flex-col p-1">
       <div class="divider"></div>
-      <Changelog />
+      <div data-sveltekit-reload>
+        <a class="menu-link btn-menu-item" href="{base}/suggest"
+          ><IconSuggest /> Suggest a game</a
+        >
+        <a class="menu-link btn-menu-item" href="{base}/report"
+          ><IconBug /> Report a bug</a
+        >
+        <a
+          class="menu-link btn-menu-item"
+          href="https://ko-fi.com/aukspot"
+          target="_blank"><IconKofi /> Support on Ko-fi</a
+        >
+      </div>
+      <LatestChange />
     </footer>
   </div>
 </div>

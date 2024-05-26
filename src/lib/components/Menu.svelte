@@ -29,9 +29,3 @@
     >
   </div>
 </DropdownMenu>
-
-<style lang="postcss">
-  .menu-link {
-    @apply p-2 flex gap-2 justify-center text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB;
-  }
-</style>

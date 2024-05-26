@@ -21,12 +21,12 @@
 <!-- <div class="divider"></div> -->
 <div class="mt-4 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
-    <h2 class="mb-0 flex justify-center gap-2 text-xl fill-colorText font-bold">
+    <h2 class="mb-2 flex justify-center gap-2 text-xl fill-colorText font-bold">
       <IconBug /> Report a bug!
     </h2>
-    <p class="text-center text-colorTextSoft px-2">
-      Find a typo? Or does something just not work the way you expected?
-      Whatever the bug is, describe it below!
+    <p class="text-center text-colorTextSoft px-2 mb-2">
+      Find a typo or broken link? Or does something just not work the way you
+      expected? Whatever the bug is, describe it below!
     </p>
     <div class="flex justify-center items-center">
       <form
@@ -34,7 +34,7 @@
         method="POST"
         action="https://formspree.io/f/mbjnepbl"
       >
-        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCardA">
+        <fieldset class="p-1 flex flex-col justify-end gap-2">
           <div class="formElementContainer">
             <label for="description"
               >Bug Description <span id="criteria" class={criteria}>
@@ -57,7 +57,7 @@
               type="text"
               id="platform"
               name="platform"
-              placeholder="eg. Windows, iOS, Arch Linux etc."
+              placeholder="eg. Windows, iOS, Arch Linux, etc."
             />
           </div>
           <div class="formElementContainer">
