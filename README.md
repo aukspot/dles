@@ -12,18 +12,15 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 ### Current
 
-- Tag system that allows for easy filtering.
-- Filter dles by adding tags to include or exclude.
-- Randomly choose a dle from the filtered dles.
+- A list of nearly 200 hand-selected dles.
+- Ten categories to help with organization.
+- Randomly choose and open a dle from selected categories.
 
 ### Planned
 
-- Option for a more compact view.
 - Option to hide/show given dles.
-- Ability to randomly choose `n` dles from the filtered dles.
 - URL parameters:
-  - to load filters.
-  - to load an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json))
+  - to load a "playlist", an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json))
 
 ## Bugs
 
