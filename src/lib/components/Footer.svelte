@@ -22,7 +22,7 @@
       <a
         class="menu-link btn-menu-item"
         href="https://ko-fi.com/aukspot"
-        target="_blank"><IconKofi /> Support on Ko-fi</a
+        target="_blank"><IconKofi /> Buy me a coffee</a
       >
     </div>
   </div>

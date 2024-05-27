@@ -1,12 +1,7 @@
 <script>
   import { base } from "$app/paths"
   import { onMount } from "svelte"
-  import { fade } from "svelte/transition"
   import { infoHidden } from "$lib/stores"
-
-  onMount(() => {
-    $infoHidden = localStorage.closedBefore !== undefined
-  })
 
   function hideInfo() {
     $infoHidden = true
@@ -14,11 +9,7 @@
   }
 </script>
 
-<div
-  id="info"
-  class="{$infoHidden ? 'hidden' : ''} m-auto max-w-[36rem] p-2"
-  transition:fade
->
+<div id="info" class="m-auto max-w-[36rem] p-2">
   <!-- <div class="text-center text-xl md:text-2xl font-semibold">Welcome to</div>
   <h1 class="text-center text-3xl md:text-4xl font-bold">THE DLES</h1> -->
 
@@ -56,14 +47,14 @@
     "They call them the dles, but they are anything but." - <em>Northernlion</em
     >
   </p>
-
-  <button
-    on:click={hideInfo}
-    class="my-4 p-1 rounded-md w-full bg-colorCardB shadow-md active:shadow-none"
-    >Hide above info</button
-  >
+  <div class="flex justify-center">
+    <button
+      on:click={hideInfo}
+      class="my-4 mx-auto p-1 w-48 rounded-md bg-colorCardB shadow-md active:shadow-none"
+      >Hide above info</button
+    >
+  </div>
 </div>
-<svelte:document />
 
 <!-- class="fixed z-30 top-[50%] md:top-[30%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[95%] min-w-80 max-w-[32rem] p-4 bg-colorCardA rounded-lg border-4 border-colorTextSoft shadow-md shadow-colorTextSofter" -->
 

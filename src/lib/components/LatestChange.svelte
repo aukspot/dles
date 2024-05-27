@@ -7,8 +7,9 @@
 
 <div class="mt-2">
   <h2 class="text-center text-lg underline underline-offset-2">
-    Latest changes ({latestChange.date})
+    Latest changes
   </h2>
+  <div class="text-center">({latestChange.date})</div>
   <div class="text-sm flex justify-center">
     {@html latestChange.description}
   </div>

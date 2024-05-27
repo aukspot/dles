@@ -36,9 +36,7 @@
     if (options.length != 0) {
       const choice = options[Math.floor(Math.random() * options.length)]
       openInNewTab(choice.url)
-      console.log(choice.url)
     }
-    console.log(options)
   }
 </script>
 
