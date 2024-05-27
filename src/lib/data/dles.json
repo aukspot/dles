@@ -406,15 +406,6 @@
     "category": "Music"
   },
   {
-    "name": "Daily Tomato",
-    "url": "https://www.rottentomatoes.com/movie-trivia/",
-    "description": "Guess the movie title from a series of 5 clues, by Rotten Tomatoes.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-  {
     "name": "DayBrix",
     "url": "https://vole.wtf/daybrix/",
     "description": "Daily tetris-style falling blocks game.",

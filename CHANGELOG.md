@@ -1,8 +1,8 @@
 # Changelog - The Dles
 
-## 2024-05-25
+## 2024-05-26
 
-Add a categorized view as the new default view.<br>Add tags: fast-paced, tv, visual.<br>Add 76 dles.<br>Remove 1 dle.
+Remove filtering, add categories.<br>Add 76 dles.<br>Remove 2 dles.
 
 dles added: 
 |    | name                                                                        | url                                                                                              |
@@ -85,9 +85,10 @@ dles added:
 | 76 | [Wordga](https://wordga.com/daily)                                          | [https://wordga.com/daily](https://wordga.com/daily)                                             |
 
 dles removed: 
-|    | name                                          | url                                                                |
-|---:|:----------------------------------------------|:-------------------------------------------------------------------|
-|  1 | [Echo Chess](https://echochess.com/game.html) | [https://echochess.com/game.html](https://echochess.com/game.html) |
+|    | name                                                         | url                                                                                          | reason                                                                              |
+|---:|:-------------------------------------------------------------|:---------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
+|  1 | [Daily Tomato](https://www.rottentomatoes.com/movie-trivia/) | [https://www.rottentomatoes.com/movie-trivia/](https://www.rottentomatoes.com/movie-trivia/) | The game is on hiatus, starting May 10, 2024.                                       |
+|  2 | [Echo Chess](https://echochess.com/game.html)                | [https://echochess.com/game.html](https://echochess.com/game.html)                           | Frustrating bug on mobile where dragging pieces down causes the browser to refresh. |
 ## 2024-04-10
 
 Remove the tag 'guessing' to avoid confusion.<br>Add the tag 'colors'.<br>Add 23 dles.

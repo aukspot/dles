@@ -1,7 +1,7 @@
 [
   {
     "date": "2024-05-26",
-    "description": "Remove filtering, add categories.<br>Add 76 dles.<br>Remove 1 dle.",
+    "description": "Remove filtering, add categories.<br>Add 76 dles.<br>Remove 2 dles.",
     "dles added": [
       {
         "name": "Absurdle",
@@ -310,8 +310,14 @@
     ],
     "dles removed": [
       {
+        "name": "Daily Tomato",
+        "url": "https://www.rottentomatoes.com/movie-trivia/",
+        "reason": "The game is on hiatus, starting May 10, 2024."
+      },
+      {
         "name": "Echo Chess",
-        "url": "https://echochess.com/game.html"
+        "url": "https://echochess.com/game.html",
+        "reason": "Frustrating bug on mobile where dragging pieces down causes the browser to refresh."
       }
     ]
   },
