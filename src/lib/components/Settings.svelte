@@ -2,12 +2,18 @@
   import { settings } from "$lib/stores"
   import { onMount } from "svelte"
   import ThemeButton from "./Buttons/ThemeButton.svelte"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
+
   onMount(() => {
-    $settings.view = localStorage.view || "categories"
+    if (isLocalStorageAvailable()) {
+      $settings.view = localStorage.view || "categories"
+    }
   })
 
   function updateLocalStorage() {
-    localStorage.view = $settings.view
+    if (isLocalStorageAvailable()) {
+      localStorage.view = $settings.view
+    }
   }
 </script>
 

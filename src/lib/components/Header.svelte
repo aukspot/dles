@@ -1,12 +1,15 @@
 <script>
   import { base } from "$app/paths"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
   import { dles, infoHidden } from "$lib/stores"
   import IconInformation from "./Icons/IconInformation.svelte"
   import Toolbar from "./Toolbar.svelte"
 
   function toggleInfo() {
     $infoHidden = !$infoHidden
-    localStorage.closedBefore = true
+    if (isLocalStorageAvailable()) {
+      localStorage.closedBefore = true
+    }
   }
 </script>
 

@@ -1,5 +1,6 @@
 <script>
   import { base } from "$app/paths"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
   import { categories, dles, randomCategories } from "$lib/stores"
   import DropdownMenu from "./DropdownMenu.svelte"
   import IconRandom from "./Icons/IconRandom.svelte"
@@ -18,7 +19,9 @@
       $randomCategories.push(category)
       $randomCategories.sort()
     }
-    localStorage.randomCategories = JSON.stringify($randomCategories)
+    if (isLocalStorageAvailable()) {
+      localStorage.randomCategories = JSON.stringify($randomCategories)
+    }
   }
 
   function openInNewTab(href) {

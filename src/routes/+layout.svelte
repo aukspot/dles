@@ -19,6 +19,7 @@
   import { onMount } from "svelte"
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
 
   onMount(() => {
     $categories = [
@@ -33,10 +34,12 @@
       "Words",
       "Miscellaneous",
     ]
-    if (localStorage.randomCategories) {
-      $randomCategories = JSON.parse(localStorage.randomCategories)
-    } else {
-      $randomCategories = $categories
+    if (isLocalStorageAvailable()) {
+      if (localStorage.randomCategories) {
+        $randomCategories = JSON.parse(localStorage.randomCategories)
+      } else {
+        $randomCategories = $categories
+      }
     }
   })
 
@@ -96,7 +99,9 @@
   let loading = true
   onMount(() => {
     loading = false
-    $infoHidden = localStorage.closedBefore !== true
+    if (isLocalStorageAvailable()) {
+      $infoHidden = localStorage.closedBefore !== undefined
+    }
   })
 </script>
 

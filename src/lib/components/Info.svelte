@@ -2,10 +2,13 @@
   import { base } from "$app/paths"
   import { onMount } from "svelte"
   import { infoHidden } from "$lib/stores"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
 
   function hideInfo() {
     $infoHidden = true
-    localStorage.closedBefore = true
+    if (isLocalStorageAvailable()) {
+      localStorage.closedBefore = true
+    }
   }
 </script>
 
@@ -66,6 +69,6 @@
     @apply mt-2 text-sm font-bold md:text-base;
   }
   .answer {
-    @apply mt-1 text-xs md:text-sm;
+    @apply mt-1 text-xs md:text-sm leading-snug;
   }
 </style>

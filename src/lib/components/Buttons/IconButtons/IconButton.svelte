@@ -1,17 +1,17 @@
 <script>
   import { toolbarSelection } from "$lib/stores"
   import { onMount } from "svelte"
-  
+
   export let name
 
-  onMount(() => {
-    $toolbarSelection = localStorage.toolbarSelection || ''
-  })
+  // onMount(() => {
+  //   $toolbarSelection = localStorage.toolbarSelection || ""
+  // })
 
-  $: selected = name === $toolbarSelection
+  // $: selected = name === $toolbarSelection
 </script>
 
-<button
+<!-- <button
   class="btn-icon {selected ? 'shadow-inner shadow-colorNeutralSoft' : ''}"
   on:click={() => {
     selected ? ($toolbarSelection = "") : ($toolbarSelection = name)
@@ -19,4 +19,4 @@
   }}
 >
   <slot />
-</button>
+</button> -->
