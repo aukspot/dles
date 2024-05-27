@@ -9,6 +9,7 @@
     categoryColors,
     dles,
     filteredDles,
+    infoHidden,
     randomCategories,
     tagNames,
     tags,
@@ -91,6 +92,12 @@
     }
     return result
   })
+
+  let loading = true
+  onMount(() => {
+    loading = false
+    $infoHidden = localStorage.closedBefore !== true
+  })
 </script>
 
 <div class="w-full text-colorText bg-colorBackground">
@@ -99,7 +106,9 @@
       class="flex flex-col flex-1 py-1 md:p-1 min-h-screen w-full mx-auto box-border"
     >
       <Header />
-      <Info />
+      {#if !loading && !$infoHidden}
+        <Info />
+      {/if}
       <slot />
     </main>
     <Footer />
