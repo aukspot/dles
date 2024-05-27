@@ -15,11 +15,9 @@
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
-  import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
-  import IconBug from "$lib/components/Icons/IconBug.svelte"
-  import IconKofi from "$lib/components/Icons/IconKofi.svelte"
-  import LatestChange from "$lib/components/LatestChange.svelte"
   import { onMount } from "svelte"
+  import Footer from "$lib/components/Footer.svelte"
+  import Info from "$lib/components/Info.svelte"
 
   onMount(() => {
     $categories = [
@@ -96,32 +94,14 @@
 </script>
 
 <div class="w-full text-colorText bg-colorBackground">
-  <div
-    class="flex flex-col min-h-screen justify-between max-w-screen-xl mx-auto"
-  >
-    <main class="flex flex-col flex-1 py-1 md:p-1 w-full mx-auto box-border">
+  <div class="flex flex-col max-w-screen-xl mx-auto">
+    <main
+      class="flex flex-col flex-1 py-1 md:p-1 min-h-screen w-full mx-auto box-border"
+    >
       <Header />
+      <Info />
       <slot />
     </main>
-    <footer class="flex flex-col p-1">
-      <div class="divider"></div>
-      <div class="flex flex-col md:flex-row justify-around">
-        <LatestChange />
-
-        <div data-sveltekit-reload>
-          <a class="menu-link btn-menu-item" href="{base}/suggest"
-            ><IconSuggest /> Suggest a game</a
-          >
-          <a class="menu-link btn-menu-item" href="{base}/report"
-            ><IconBug /> Report a bug</a
-          >
-          <a
-            class="menu-link btn-menu-item"
-            href="https://ko-fi.com/aukspot"
-            target="_blank"><IconKofi /> Support on Ko-fi</a
-          >
-        </div>
-      </div>
-    </footer>
+    <Footer />
   </div>
 </div>

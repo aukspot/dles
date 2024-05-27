@@ -6,7 +6,7 @@
 
 <ol
   class="mt-4 px-1 gap-2 grid grid-cols-1 lg:grid-cols-2"
-  in:fly={{ y: 1000, duration: 400 }}
+  in:fly={{ y: 1000, duration: 200 }}
 >
   {#each $filteredDles as dle, i (i)}
     <li>

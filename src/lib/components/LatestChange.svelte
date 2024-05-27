@@ -12,5 +12,5 @@
   <div class="text-sm flex justify-center">
     {@html latestChange.description}
   </div>
-  <a class="flex justify-center" href="{base}/changelog">View full changelog</a>
+  <!-- <a class="flex justify-center" href="{base}/changelog">View full changelog</a> -->
 </div>
