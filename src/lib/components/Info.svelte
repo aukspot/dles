@@ -2,15 +2,23 @@
   import { base } from "$app/paths"
   import { onMount } from "svelte"
   import { fade } from "svelte/transition"
-
-  let hidden = false
+  import { infoHidden } from "$lib/stores"
 
   onMount(() => {
-    hidden = localStorage.closedBefore !== undefined
+    $infoHidden = localStorage.closedBefore !== undefined
   })
+
+  function hideInfo() {
+    $infoHidden = true
+    localStorage.closedBefore = true
+  }
 </script>
 
-<div id="info" class="m-auto max-w-[36rem] p-2" transition:fade>
+<div
+  id="info"
+  class="{$infoHidden ? 'hidden' : ''} m-auto max-w-[36rem] p-2"
+  transition:fade
+>
   <!-- <div class="text-center text-xl md:text-2xl font-semibold">Welcome to</div>
   <h1 class="text-center text-3xl md:text-4xl font-bold">THE DLES</h1> -->
 
@@ -32,9 +40,10 @@
   </p>
   <p class="question">Can I help?</p>
   <p class="answer">
-    Sure! You can <a href="{base}/suggest">suggest a dle</a> or
-    <a href="{base}/report">report a bug</a>. If you want to support monetarily,
-    you can
+    Sure! You can <a href="{base}/suggest" on:click={hideInfo}>suggest a dle</a>
+    or
+    <a href="{base}/report" on:click={hideInfo}>report a bug</a>. If you want to
+    support monetarily, you can
     <a href="https://ko-fi.com/aukspot" target="_blank">donate on Ko-fi</a>.
     Lastly, you can
     <a href="https://github.com/aukspot/dles" target="_blank"
@@ -49,7 +58,8 @@
   </p>
 
   <button
-    class="my-4 p-1 rounded-md w-full bg-colorCardB shadow-md hover:shadow-none"
+    on:click={hideInfo}
+    class="my-4 p-1 rounded-md w-full bg-colorCardB shadow-md active:shadow-none"
     >Hide above info</button
   >
 </div>

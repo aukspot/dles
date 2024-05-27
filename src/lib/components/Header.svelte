@@ -1,22 +1,17 @@
 <script>
   import { base } from "$app/paths"
-  import { dles } from "$lib/stores"
+  import { dles, infoHidden } from "$lib/stores"
   import IconInformation from "./Icons/IconInformation.svelte"
   import Toolbar from "./Toolbar.svelte"
 </script>
 
 <header class="flex justify-between items-center px-2 py-2 relative">
   <div>
-    <h1 class="text-colorText flex items-baseline gap-4 fill-colorText">
-      <a
-        class="text-colorText leading-none tracking-tight text-3xl uppercase font-mono font-bold md:text-4xl"
-        href="{base}/"
-      >
-        The Dles
-      </a>
-      <a href="#info">
+    <h1 class="text-colorText flex items-baseline gap-3 fill-colorText">
+      <a class="title" href="{base}/"> The Dles </a>
+      <button on:click={() => ($infoHidden = !$infoHidden)}>
         <IconInformation />
-      </a>
+      </button>
     </h1>
     <p class="pt-1 pl-1 leading-none text-sm md:text-base">
       A curated collection of <strong>{$dles.length}</strong> daily games.
@@ -24,3 +19,10 @@
   </div>
   <Toolbar />
 </header>
+
+<style lang="postcss">
+  .title {
+    @apply text-colorText leading-none tracking-tight text-3xl uppercase font-mono font-bold md:text-4xl;
+    word-spacing: -6px;
+  }
+</style>
