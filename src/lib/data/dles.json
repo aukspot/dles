@@ -1139,6 +1139,15 @@
     "category": "Movies/TV"
   },
   {
+    "name": "Murdle",
+    "url": "https://murdle.com/",
+    "description": "Solve today's murder-mystery logic puzzle.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Neighborle",
     "url": "https://neighborle.com/",
     "description": "Guess the countries that border the highlighted country on the map.",
@@ -1511,6 +1520,17 @@
     "category": "Geography/History"
   },
   {
+    "name": "Searchle",
+    "url": "https://searchle.net/",
+    "description": "Guess the secret word of the day by completing the Google search prompt.",
+    "tags": [
+      "archive",
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Semantle",
     "url": "https://semantle.com/",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
@@ -1794,6 +1814,17 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "WhenTaken",
+    "url": "https://whentaken.com/",
+    "description": "Guess the year and location of the given photo.",
+    "tags": [
+      "archive",
+      "geography",
+      "time"
+    ],
+    "category": "Geography/History"
   },
   {
     "name": "Where in the USA is this?",

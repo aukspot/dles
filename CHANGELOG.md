@@ -2,7 +2,7 @@
 
 ## 2024-05-28
 
-Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href="/dles/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 81 dles.<br>Remove 2 dles.
+Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href="/dles/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.
 
 dles added: 
 |    | name                                                                        | url                                                                                              |
@@ -63,31 +63,34 @@ dles added:
 | 54 | [Moviedle - Moviemoji](https://moviedle.xyz/moviemoji/)                     | [https://moviedle.xyz/moviemoji/](https://moviedle.xyz/moviemoji/)                               |
 | 55 | [Moviedle - Twenty Questions](https://moviedle.xyz/twenty/)                 | [https://moviedle.xyz/twenty/](https://moviedle.xyz/twenty/)                                     |
 | 56 | [Moviemoji](https://www.playmoviemoji.com/)                                 | [https://www.playmoviemoji.com/](https://www.playmoviemoji.com/)                                 |
-| 57 | [OEC Connectrade](https://oec.world/en/games/connectrade)                   | [https://oec.world/en/games/connectrade](https://oec.world/en/games/connectrade)                 |
-| 58 | [OEC Pick 5](https://oec.world/en/games/pick-5)                             | [https://oec.world/en/games/pick-5](https://oec.world/en/games/pick-5)                           |
-| 59 | [Order Up](https://orderup.games/)                                          | [https://orderup.games/](https://orderup.games/)                                                 |
-| 60 | [Quintessential](https://quintessential.fun/)                               | [https://quintessential.fun/](https://quintessential.fun/)                                       |
-| 61 | [regexle.com](https://regexle.com/)                                         | [https://regexle.com/](https://regexle.com/)                                                     |
-| 62 | [regexle.ithea.de](https://regexle.ithea.de/)                               | [https://regexle.ithea.de/](https://regexle.ithea.de/)                                           |
-| 63 | [ReHeardle](https://reheardle.com/)                                         | [https://reheardle.com/](https://reheardle.com/)                                                 |
-| 64 | [ReHeardle Video Games](https://reheardle.com/videogames/)                  | [https://reheardle.com/videogames/](https://reheardle.com/videogames/)                           |
-| 65 | [Rhyme Time](https://www.rhymetime.co/)                                     | [https://www.rhymetime.co/](https://www.rhymetime.co/)                                           |
-| 66 | [Smashdle](https://smashdle.net/)                                           | [https://smashdle.net/](https://smashdle.net/)                                                   |
-| 67 | [Spotle](https://spotle.io/)                                                | [https://spotle.io/](https://spotle.io/)                                                         |
-| 68 | [Squardle](https://fubargames.se/squardle/)                                 | [https://fubargames.se/squardle/](https://fubargames.se/squardle/)                               |
-| 69 | [Squares](https://squares.org/)                                             | [https://squares.org/](https://squares.org/)                                                     |
-| 70 | [Squirdle Daily](https://squirdle.fireblend.com/daily.html)                 | [https://squirdle.fireblend.com/daily.html](https://squirdle.fireblend.com/daily.html)           |
-| 71 | [Summle](https://summle.net/)                                               | [https://summle.net/](https://summle.net/)                                                       |
-| 72 | [Survivle](https://lazyguyy.github.io/survivle/)                            | [https://lazyguyy.github.io/survivle/](https://lazyguyy.github.io/survivle/)                     |
-| 73 | [The Wikipedia Game](https://www.thewikipediagame.com/)                     | [https://www.thewikipediagame.com/](https://www.thewikipediagame.com/)                           |
-| 74 | [Thrice](https://thrice.geekswhodrink.com/)                                 | [https://thrice.geekswhodrink.com/](https://thrice.geekswhodrink.com/)                           |
-| 75 | [Toddle](https://toddle-puzzle.web.app/)                                    | [https://toddle-puzzle.web.app/](https://toddle-puzzle.web.app/)                                 |
-| 76 | [Triplets](https://www.tripletgame.com/)                                    | [https://www.tripletgame.com/](https://www.tripletgame.com/)                                     |
-| 77 | [Unzoomed](https://www.unzoomed.com/en)                                     | [https://www.unzoomed.com/en](https://www.unzoomed.com/en)                                       |
-| 78 | [Word Connection](https://www.thewordfinder.com/word-connection/)           | [https://www.thewordfinder.com/word-connection/](https://www.thewordfinder.com/word-connection/) |
-| 79 | [Word Peaks](https://vegeta897.github.io/word-peaks/)                       | [https://vegeta897.github.io/word-peaks/](https://vegeta897.github.io/word-peaks/)               |
-| 80 | [Word500](https://word500.com/game?mode=daily)                              | [https://word500.com/game?mode=daily](https://word500.com/game?mode=daily)                       |
-| 81 | [Wordga](https://wordga.com/daily)                                          | [https://wordga.com/daily](https://wordga.com/daily)                                             |
+| 57 | [Murdle](https://murdle.com/)                                               | [https://murdle.com/](https://murdle.com/)                                                       |
+| 58 | [OEC Connectrade](https://oec.world/en/games/connectrade)                   | [https://oec.world/en/games/connectrade](https://oec.world/en/games/connectrade)                 |
+| 59 | [OEC Pick 5](https://oec.world/en/games/pick-5)                             | [https://oec.world/en/games/pick-5](https://oec.world/en/games/pick-5)                           |
+| 60 | [Order Up](https://orderup.games/)                                          | [https://orderup.games/](https://orderup.games/)                                                 |
+| 61 | [Quintessential](https://quintessential.fun/)                               | [https://quintessential.fun/](https://quintessential.fun/)                                       |
+| 62 | [regexle.com](https://regexle.com/)                                         | [https://regexle.com/](https://regexle.com/)                                                     |
+| 63 | [regexle.ithea.de](https://regexle.ithea.de/)                               | [https://regexle.ithea.de/](https://regexle.ithea.de/)                                           |
+| 64 | [ReHeardle](https://reheardle.com/)                                         | [https://reheardle.com/](https://reheardle.com/)                                                 |
+| 65 | [ReHeardle Video Games](https://reheardle.com/videogames/)                  | [https://reheardle.com/videogames/](https://reheardle.com/videogames/)                           |
+| 66 | [Rhyme Time](https://www.rhymetime.co/)                                     | [https://www.rhymetime.co/](https://www.rhymetime.co/)                                           |
+| 67 | [Searchle](https://searchle.net/)                                           | [https://searchle.net/](https://searchle.net/)                                                   |
+| 68 | [Smashdle](https://smashdle.net/)                                           | [https://smashdle.net/](https://smashdle.net/)                                                   |
+| 69 | [Spotle](https://spotle.io/)                                                | [https://spotle.io/](https://spotle.io/)                                                         |
+| 70 | [Squardle](https://fubargames.se/squardle/)                                 | [https://fubargames.se/squardle/](https://fubargames.se/squardle/)                               |
+| 71 | [Squares](https://squares.org/)                                             | [https://squares.org/](https://squares.org/)                                                     |
+| 72 | [Squirdle Daily](https://squirdle.fireblend.com/daily.html)                 | [https://squirdle.fireblend.com/daily.html](https://squirdle.fireblend.com/daily.html)           |
+| 73 | [Summle](https://summle.net/)                                               | [https://summle.net/](https://summle.net/)                                                       |
+| 74 | [Survivle](https://lazyguyy.github.io/survivle/)                            | [https://lazyguyy.github.io/survivle/](https://lazyguyy.github.io/survivle/)                     |
+| 75 | [The Wikipedia Game](https://www.thewikipediagame.com/)                     | [https://www.thewikipediagame.com/](https://www.thewikipediagame.com/)                           |
+| 76 | [Thrice](https://thrice.geekswhodrink.com/)                                 | [https://thrice.geekswhodrink.com/](https://thrice.geekswhodrink.com/)                           |
+| 77 | [Toddle](https://toddle-puzzle.web.app/)                                    | [https://toddle-puzzle.web.app/](https://toddle-puzzle.web.app/)                                 |
+| 78 | [Triplets](https://www.tripletgame.com/)                                    | [https://www.tripletgame.com/](https://www.tripletgame.com/)                                     |
+| 79 | [Unzoomed](https://www.unzoomed.com/en)                                     | [https://www.unzoomed.com/en](https://www.unzoomed.com/en)                                       |
+| 80 | [WhenTaken](https://whentaken.com/)                                         | [https://whentaken.com/](https://whentaken.com/)                                                 |
+| 81 | [Word Connection](https://www.thewordfinder.com/word-connection/)           | [https://www.thewordfinder.com/word-connection/](https://www.thewordfinder.com/word-connection/) |
+| 82 | [Word Peaks](https://vegeta897.github.io/word-peaks/)                       | [https://vegeta897.github.io/word-peaks/](https://vegeta897.github.io/word-peaks/)               |
+| 83 | [Word500](https://word500.com/game?mode=daily)                              | [https://word500.com/game?mode=daily](https://word500.com/game?mode=daily)                       |
+| 84 | [Wordga](https://wordga.com/daily)                                          | [https://wordga.com/daily](https://wordga.com/daily)                                             |
 
 dles removed: 
 |    | name                                                         | url                                                                                          | reason                                                                              |

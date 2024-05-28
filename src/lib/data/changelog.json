@@ -1,7 +1,7 @@
 [
   {
     "date": "2024-05-28",
-    "description": "Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href=\"/dles/report\">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 81 dles.<br>Remove 2 dles.",
+    "description": "Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href=\"/dles/report\">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.",
     "dles added": [
       {
         "name": "Absurdle",
@@ -227,6 +227,7 @@
         "name": "Moviemoji",
         "url": "https://www.playmoviemoji.com/"
       },
+      { "name": "Murdle", "url": "https://murdle.com/" },
       {
         "name": "OEC Connectrade",
         "url": "https://oec.world/en/games/connectrade"
@@ -263,6 +264,7 @@
         "name": "Rhyme Time",
         "url": "https://www.rhymetime.co/"
       },
+      { "name": "Searchle", "url": "https://searchle.net/" },
       {
         "name": "Smashdle",
         "url": "https://smashdle.net/"
@@ -311,6 +313,7 @@
         "name": "Unzoomed",
         "url": "https://www.unzoomed.com/en"
       },
+      { "name": "WhenTaken", "url": "https://whentaken.com/" },
       {
         "name": "Word Connection",
         "url": "https://www.thewordfinder.com/word-connection/"
