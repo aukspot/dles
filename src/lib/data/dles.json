@@ -175,7 +175,8 @@
     "url": "https://www.brickdle.com/",
     "description": "Guess the number of pieces in the pictured LEGO set.",
     "tags": [
-      "numbers"
+      "numbers",
+      "unlimited"
     ],
     "category": "Miscellaneous"
   },
@@ -185,7 +186,8 @@
     "description": "Guess the numbers in the equation in 5 attempts or less.",
     "tags": [
       "logic",
-      "math"
+      "math",
+      "unlimited"
     ],
     "category": "Math/Logic"
   },
