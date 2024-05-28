@@ -2,7 +2,7 @@
 
 ## 2024-05-28
 
-Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href="/dles/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 80 dles.<br>Remove 2 dles.
+Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href="/dles/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 81 dles.<br>Remove 2 dles.
 
 dles added: 
 |    | name                                                                        | url                                                                                              |
