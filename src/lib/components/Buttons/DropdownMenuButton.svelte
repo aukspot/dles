@@ -25,7 +25,7 @@
   id="menuBackground"
   class="{hidden
     ? 'hidden opacity-100'
-    : 'z-10'} fixed top-0 left-0 w-full h-full bg-gray-900 opacity-30"
+    : 'z-10'} fixed top-0 left-0 w-full h-full bg-gray-900 opacity-0"
   on:click={menuBackgroundClicked}
 ></div>
 <svelte:document on:keyup={handleKeyUp} />
