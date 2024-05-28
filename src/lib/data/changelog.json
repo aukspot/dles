@@ -1,7 +1,7 @@
 [
   {
-    "date": "2024-05-27",
-    "description": "Remove filtering, add categories.<br>Add 76 dles.<br>Remove 2 dles.",
+    "date": "2024-05-28",
+    "description": "Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href=\"/dles/report\">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 80 dles.<br>Remove 2 dles.",
     "dles added": [
       {
         "name": "Absurdle",
@@ -30,6 +30,10 @@
       {
         "name": "Anigrams",
         "url": "https://anigrams.us/"
+      },
+      {
+        "name": "Betweenle",
+        "url": "https://betweenle.com/"
       },
       {
         "name": "BrainBashers Daily 30 Seconds",
@@ -74,6 +78,10 @@
       {
         "name": "Countryle",
         "url": "https://www.countryle.com/"
+      },
+      {
+        "name": "CraftWord",
+        "url": "https://craftword.game/"
       },
       {
         "name": "Daily Jingle",
@@ -162,6 +170,10 @@
       {
         "name": "Heardle TV Themes",
         "url": "https://tv.heardledecades.xyz/"
+      },
+      {
+        "name": "IYKYK",
+        "url": "https://www.iykyk.com/"
       },
       {
         "name": "Jeopardle",
@@ -302,6 +314,14 @@
       {
         "name": "Word Connection",
         "url": "https://www.thewordfinder.com/word-connection/"
+      },
+      {
+        "name": "Word Peaks",
+        "url": "https://vegeta897.github.io/word-peaks/"
+      },
+      {
+        "name": "Word500",
+        "url": "https://word500.com/game?mode=daily"
       },
       {
         "name": "Wordga",

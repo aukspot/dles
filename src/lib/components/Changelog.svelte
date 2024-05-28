@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex justify-center">
-  <details class="m-4 p-1">
+  <details class="m-4 mt-1 p-1">
     <summary class="text-center text-lg cursor-pointer unselectable">
       Changelog
     </summary>
@@ -23,6 +23,6 @@
     @apply mt-2 flex flex-nowrap gap-2;
   }
   time {
-    @apply font-mono;
+    @apply font-mono flex-shrink-0;
   }
 </style>

@@ -20,6 +20,7 @@
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import LatestChange from "$lib/components/LatestChange.svelte"
 
   onMount(() => {
     $categories = [
@@ -108,13 +109,14 @@
 <div class="w-full text-colorText bg-colorBackground">
   <div class="flex flex-col max-w-screen-xl mx-auto">
     <main
-      class="flex flex-col flex-1 py-1 md:p-1 min-h-screen w-full mx-auto box-border"
+      class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border"
     >
       <Header />
       {#if !loading && !$infoHidden}
         <Info />
       {/if}
       <slot />
+      <LatestChange />
     </main>
     <Footer />
   </div>

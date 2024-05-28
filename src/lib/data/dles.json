@@ -123,6 +123,15 @@
     "category": "Music"
   },
   {
+    "name": "Betweenle",
+    "url": "https://betweenle.com/",
+    "description": "Guess the secret word hidden between other words before running out of guesses.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Boggdle",
     "url": "https://simenmh.com/boggdle/",
     "description": "Search for the best 3 words you can find in the Boggle grid.",
@@ -317,7 +326,7 @@
   {
     "name": "Connections Game",
     "url": "https://connectionsgame.com",
-    "description": "Group words that share a common thread, basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
+    "description": "Group words that share a common thread Basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
     "tags": [
       "archive",
       "words"
@@ -352,6 +361,16 @@
       "geography"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "CraftWord",
+    "url": "https://craftword.game/",
+    "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Crosswordle",
@@ -873,6 +892,15 @@
       "sports"
     ],
     "category": "Sports"
+  },
+  {
+    "name": "IYKYK",
+    "url": "https://www.iykyk.com/",
+    "description": "Guess what today's acronym stands for. By the makers of the card game CultureTags.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Jeopardle",
@@ -1819,9 +1847,29 @@
     "category": "Words"
   },
   {
+    "name": "Word Peaks",
+    "url": "https://vegeta897.github.io/word-peaks/",
+    "description": "Guess the word in 6 tries. After each guess, it will show whether each letter occurs earlier or later in the alphabet compared to the corresponding letter in the secret word.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Word Waffle",
     "url": "https://wordwaffle.org/",
     "description": "Move letters to create words both horizontally and vertically.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Word500",
+    "url": "https://word500.com/game?mode=daily",
+    "description": "Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.",
     "tags": [
       "wordle",
       "words"

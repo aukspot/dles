@@ -1,6 +1,5 @@
 <script>
   import { base } from "$app/paths"
-  import { onMount } from "svelte"
   import { infoHidden } from "$lib/stores"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
 
@@ -15,8 +14,11 @@
 <div id="info" class="m-auto max-w-[36rem] p-2">
   <!-- <div class="text-center text-xl md:text-2xl font-semibold">Welcome to</div>
   <h1 class="text-center text-3xl md:text-4xl font-bold">THE DLES</h1> -->
+  <div class="text-center text-2xl md:text-3xl font-semibold font-mono">
+    info
+  </div>
 
-  <div class="divider"></div>
+  <div class="divider mt-2"></div>
   <p class="question">What is a dle?</p>
   <p class="answer">
     A <strong>dle</strong>, or <em>daily game</em>, is generally a game that
@@ -28,9 +30,8 @@
   </p>
   <p class="question">What is this?</p>
   <p class="answer">
-    A collection of the best dles that I've come across. All of these games <em
-      >don't require an account or subscription.</em
-    >
+    A collection of the best dles that I've come across. These games are free
+    and <em>do not require an account or subscription.</em>
   </p>
   <p class="question">Can I help?</p>
   <p class="answer">
@@ -45,7 +46,7 @@
     >
     and propose changes, as this project is open source.
   </p>
-  <div class="divider"></div>
+  <div class="divider mt-2"></div>
   <p class="answer">
     "They call them the dles, but they are anything but." - <em>Northernlion</em
     >

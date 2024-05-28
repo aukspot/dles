@@ -3,10 +3,12 @@
   import { onMount } from "svelte"
   import ThemeButton from "./Buttons/ThemeButton.svelte"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import { page } from "$app/stores"
+  import { base } from "$app/paths"
 
   onMount(() => {
     if (isLocalStorageAvailable()) {
-      $settings.view = localStorage.view || "categories"
+      $settings.view = localStorage.view || "Category View"
     }
   })
 
@@ -15,18 +17,30 @@
       localStorage.view = $settings.view
     }
   }
+
+  $: otherView =
+    $settings.view === "Category View" ? "Detailed View" : "Category View"
+
+  function toggleView() {
+    $settings.view = otherView
+    updateLocalStorage()
+  }
 </script>
 
 <ThemeButton />
 <div class="flex justify-center items-center gap-1">
-  <select
-    class="btn-menu-item !p-2 w-full text-center rounded-md !bg-colorCardA"
-    id="view"
-    name="view"
-    bind:value={$settings.view}
-    on:change={updateLocalStorage}
-  >
-    <option value="categories">Category View</option>
-    <option value="detailed">Detailed View (Legacy)</option>
-  </select>
+  {#if $page.route.id === "/"}
+    <button on:click={toggleView} class="btn-menu-item">
+      Change to {otherView}
+    </button>
+  {:else}
+    <a data-sveltekit-reload class="btn-menu-item" href="{base}/">Go home </a>
+  {/if}
 </div>
+
+<style lang="postcss">
+  button,
+  a {
+    @apply !p-2 w-full text-center rounded-md !bg-colorCardA;
+  }
+</style>

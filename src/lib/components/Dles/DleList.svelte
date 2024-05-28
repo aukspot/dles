@@ -32,9 +32,9 @@
 </div>
 <Toolbar /> -->
 
-{#if $settings.view == "detailed"}
+{#if $settings.view == "Detailed View"}
   <DlesDetailed />
-{:else if $settings.view == "categories"}
+{:else if $settings.view == "Category View"}
   <DlesByCategory />
 {/if}
 <BackToTopButton />

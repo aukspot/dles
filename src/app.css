@@ -60,7 +60,7 @@ a {
 }
 
 .divider {
-  @apply mt-4 border-t border-colorNeutral;
+  @apply border-t border-colorNeutral;
 }
 
 button:disabled:hover {

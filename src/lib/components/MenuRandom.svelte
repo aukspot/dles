@@ -1,9 +1,11 @@
 <script>
-  import { base } from "$app/paths"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
   import { categories, dles, randomCategories } from "$lib/stores"
+  import { onMount } from "svelte"
   import DropdownMenu from "./DropdownMenu.svelte"
   import IconRandom from "./Icons/IconRandom.svelte"
+
+  let options = []
 
   $: categoryChecked = Object.fromEntries(
     $categories.map((category) => [
@@ -12,6 +14,10 @@
     ]),
   )
 
+  function updateOptions() {
+    options = $dles.filter((dle) => $randomCategories.includes(dle.category))
+  }
+
   function toggleCategory(category) {
     if ($randomCategories.includes(category)) {
       $randomCategories = $randomCategories.filter((c) => c != category)
@@ -19,9 +25,12 @@
       $randomCategories.push(category)
       $randomCategories.sort()
     }
+
     if (isLocalStorageAvailable()) {
       localStorage.randomCategories = JSON.stringify($randomCategories)
     }
+
+    updateOptions()
   }
 
   function openInNewTab(href) {
@@ -33,14 +42,15 @@
   }
 
   function playRandom() {
-    const options = $dles.filter((dle) =>
-      $randomCategories.includes(dle.category),
-    )
     if (options.length != 0) {
       const choice = options[Math.floor(Math.random() * options.length)]
       openInNewTab(choice.url)
     }
   }
+
+  onMount(() => {
+    updateOptions()
+  })
 </script>
 
 <DropdownMenu>
@@ -58,7 +68,7 @@
     >
   </div>
   <h3 class="text-center underline">Allowed categories</h3>
-  <div class="columns-2">
+  <div class="columns-2 mx-auto">
     {#each $categories as category}
       <label>
         <input
@@ -71,6 +81,9 @@
       </label>
     {/each}
   </div>
+  <p class="text-center">
+    Choosing from <strong>{options.length}</strong> dles
+  </p>
 </DropdownMenu>
 
 <style lang="postcss">

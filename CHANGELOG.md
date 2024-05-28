@@ -1,8 +1,8 @@
 # Changelog - The Dles
 
-## 2024-05-26
+## 2024-05-28
 
-Remove filtering, add categories.<br>Add 76 dles.<br>Remove 2 dles.
+Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href="/dles/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 80 dles.<br>Remove 2 dles.
 
 dles added: 
 |    | name                                                                        | url                                                                                              |
@@ -14,75 +14,80 @@ dles added:
 |  5 | [Actorle TV](https://actorle.tv/)                                           | [https://actorle.tv/](https://actorle.tv/)                                                       |
 |  6 | [Angle](https://angle.wtf/)                                                 | [https://angle.wtf/](https://angle.wtf/)                                                         |
 |  7 | [Anigrams](https://anigrams.us/)                                            | [https://anigrams.us/](https://anigrams.us/)                                                     |
-|  8 | [BrainBashers Daily 30 Seconds](https://www.brainbashers.com/30seconds.asp) | [https://www.brainbashers.com/30seconds.asp](https://www.brainbashers.com/30seconds.asp)         |
-|  9 | [BrainBashers Daily Puzzle](https://www.brainbashers.com/dailypuzzle.asp)   | [https://www.brainbashers.com/dailypuzzle.asp](https://www.brainbashers.com/dailypuzzle.asp)     |
-| 10 | [Brickdle](https://www.brickdle.com/)                                       | [https://www.brickdle.com/](https://www.brickdle.com/)                                           |
-| 11 | [Calcle](https://calclegame.com/)                                           | [https://calclegame.com/](https://calclegame.com/)                                               |
-| 12 | [Cell Tower](https://www.andrewt.net/puzzles/cell-tower/)                   | [https://www.andrewt.net/puzzles/cell-tower/](https://www.andrewt.net/puzzles/cell-tower/)       |
-| 13 | [Chainagram](https://puzzletrail.games/puzzles/chainagram/)                 | [https://puzzletrail.games/puzzles/chainagram/](https://puzzletrail.games/puzzles/chainagram/)   |
-| 14 | [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle)          | [https://www.chess.com/daily-chess-puzzle](https://www.chess.com/daily-chess-puzzle)             |
-| 15 | [Chessle](https://jackli.gg/chessle/)                                       | [https://jackli.gg/chessle/](https://jackli.gg/chessle/)                                         |
-| 16 | [Chronoline](https://chronoline.app/daily)                                  | [https://chronoline.app/daily](https://chronoline.app/daily)                                     |
-| 17 | [ColorGuesser](https://colorguesser.com/)                                   | [https://colorguesser.com/](https://colorguesser.com/)                                           |
-| 18 | [Countryle](https://www.countryle.com/)                                     | [https://www.countryle.com/](https://www.countryle.com/)                                         |
-| 19 | [Daily Jingle](https://dailyjingle.me/)                                     | [https://dailyjingle.me/](https://dailyjingle.me/)                                               |
-| 20 | [DayBrix](https://vole.wtf/daybrix/)                                        | [https://vole.wtf/daybrix/](https://vole.wtf/daybrix/)                                           |
-| 21 | [Dicele](https://dicele.com/)                                               | [https://dicele.com/](https://dicele.com/)                                                       |
-| 22 | [Disney Heardle](https://diz-nee-heardle.glitch.me/)                        | [https://diz-nee-heardle.glitch.me/](https://diz-nee-heardle.glitch.me/)                         |
-| 23 | [Disorderly](https://playdisorderly.com/)                                   | [https://playdisorderly.com/](https://playdisorderly.com/)                                       |
-| 24 | [Duotrigordle](https://duotrigordle.com/)                                   | [https://duotrigordle.com/](https://duotrigordle.com/)                                           |
-| 25 | [Facedle](https://facedle.app/)                                             | [https://facedle.app/](https://facedle.app/)                                                     |
-| 26 | [Figure](https://figure.game/)                                              | [https://figure.game/](https://figure.game/)                                                     |
-| 27 | [Flickle](https://flickle.app/)                                             | [https://flickle.app/](https://flickle.app/)                                                     |
-| 28 | [Gaps](https://gaps.wtf/)                                                   | [https://gaps.wtf/](https://gaps.wtf/)                                                           |
-| 29 | [GeoGrid](https://www.geogridgame.com/)                                     | [https://www.geogridgame.com/](https://www.geogridgame.com/)                                     |
-| 30 | [Gram Jam](https://gramjam.app/)                                            | [https://gramjam.app/](https://gramjam.app/)                                                     |
-| 31 | [Griddle](https://griddlegame.io/)                                          | [https://griddlegame.io/](https://griddlegame.io/)                                               |
-| 32 | [Guess My Word](https://hryanjones.com/guess-my-word/)                      | [https://hryanjones.com/guess-my-word/](https://hryanjones.com/guess-my-word/)                   |
-| 33 | [Heardle 1950's](https://50s.heardledecades.com/)                           | [https://50s.heardledecades.com/](https://50s.heardledecades.com/)                               |
-| 34 | [Heardle 1960's](https://60s.heardledecades.com/)                           | [https://60s.heardledecades.com/](https://60s.heardledecades.com/)                               |
-| 35 | [Heardle 1970's](https://70s.heardledecades.com/)                           | [https://70s.heardledecades.com/](https://70s.heardledecades.com/)                               |
-| 36 | [Heardle 1980's](https://80s.heardledecades.com/)                           | [https://80s.heardledecades.com/](https://80s.heardledecades.com/)                               |
-| 37 | [Heardle 1990's](https://90s.heardledecades.com/)                           | [https://90s.heardledecades.com/](https://90s.heardledecades.com/)                               |
-| 38 | [Heardle 2000's](https://00s.heardledecades.com/)                           | [https://00s.heardledecades.com/](https://00s.heardledecades.com/)                               |
-| 39 | [Heardle 2010's](https://heardle10s.com/)                                   | [https://heardle10s.com/](https://heardle10s.com/)                                               |
-| 40 | [Heardle TV Themes](https://tv.heardledecades.xyz/)                         | [https://tv.heardledecades.xyz/](https://tv.heardledecades.xyz/)                                 |
-| 41 | [Jeopardle](https://jeopardle.co/)                                          | [https://jeopardle.co/](https://jeopardle.co/)                                                   |
-| 42 | [Jumblie](https://jumblie.com/)                                             | [https://jumblie.com/](https://jumblie.com/)                                                     |
-| 43 | [Juxtastat](https://urbanstats.org/quiz.html)                               | [https://urbanstats.org/quiz.html](https://urbanstats.org/quiz.html)                             |
-| 44 | [LINKR](https://www.playlinkr.net/)                                         | [https://www.playlinkr.net/](https://www.playlinkr.net/)                                         |
-| 45 | [Lingule](https://lingule.xyz/)                                             | [https://lingule.xyz/](https://lingule.xyz/)                                                     |
-| 46 | [Linxicon](https://linxicon.com/)                                           | [https://linxicon.com/](https://linxicon.com/)                                                   |
-| 47 | [Locatle](https://locatle.strct.net/)                                       | [https://locatle.strct.net/](https://locatle.strct.net/)                                         |
-| 48 | [Lyricle](https://www.lyricle.app/)                                         | [https://www.lyricle.app/](https://www.lyricle.app/)                                             |
-| 49 | [Moviedle](https://moviedle.xyz/)                                           | [https://moviedle.xyz/](https://moviedle.xyz/)                                                   |
-| 50 | [Moviedle - Fill The Grid](https://moviedle.xyz/fill-the-grid/)             | [https://moviedle.xyz/fill-the-grid/](https://moviedle.xyz/fill-the-grid/)                       |
-| 51 | [Moviedle - Moviemoji](https://moviedle.xyz/moviemoji/)                     | [https://moviedle.xyz/moviemoji/](https://moviedle.xyz/moviemoji/)                               |
-| 52 | [Moviedle - Twenty Questions](https://moviedle.xyz/twenty/)                 | [https://moviedle.xyz/twenty/](https://moviedle.xyz/twenty/)                                     |
-| 53 | [Moviemoji](https://www.playmoviemoji.com/)                                 | [https://www.playmoviemoji.com/](https://www.playmoviemoji.com/)                                 |
-| 54 | [OEC Connectrade](https://oec.world/en/games/connectrade)                   | [https://oec.world/en/games/connectrade](https://oec.world/en/games/connectrade)                 |
-| 55 | [OEC Pick 5](https://oec.world/en/games/pick-5)                             | [https://oec.world/en/games/pick-5](https://oec.world/en/games/pick-5)                           |
-| 56 | [Order Up](https://orderup.games/)                                          | [https://orderup.games/](https://orderup.games/)                                                 |
-| 57 | [Quintessential](https://quintessential.fun/)                               | [https://quintessential.fun/](https://quintessential.fun/)                                       |
-| 58 | [regexle.com](https://regexle.com/)                                         | [https://regexle.com/](https://regexle.com/)                                                     |
-| 59 | [regexle.ithea.de](https://regexle.ithea.de/)                               | [https://regexle.ithea.de/](https://regexle.ithea.de/)                                           |
-| 60 | [ReHeardle](https://reheardle.com/)                                         | [https://reheardle.com/](https://reheardle.com/)                                                 |
-| 61 | [ReHeardle Video Games](https://reheardle.com/videogames/)                  | [https://reheardle.com/videogames/](https://reheardle.com/videogames/)                           |
-| 62 | [Rhyme Time](https://www.rhymetime.co/)                                     | [https://www.rhymetime.co/](https://www.rhymetime.co/)                                           |
-| 63 | [Smashdle](https://smashdle.net/)                                           | [https://smashdle.net/](https://smashdle.net/)                                                   |
-| 64 | [Spotle](https://spotle.io/)                                                | [https://spotle.io/](https://spotle.io/)                                                         |
-| 65 | [Squardle](https://fubargames.se/squardle/)                                 | [https://fubargames.se/squardle/](https://fubargames.se/squardle/)                               |
-| 66 | [Squares](https://squares.org/)                                             | [https://squares.org/](https://squares.org/)                                                     |
-| 67 | [Squirdle Daily](https://squirdle.fireblend.com/daily.html)                 | [https://squirdle.fireblend.com/daily.html](https://squirdle.fireblend.com/daily.html)           |
-| 68 | [Summle](https://summle.net/)                                               | [https://summle.net/](https://summle.net/)                                                       |
-| 69 | [Survivle](https://lazyguyy.github.io/survivle/)                            | [https://lazyguyy.github.io/survivle/](https://lazyguyy.github.io/survivle/)                     |
-| 70 | [The Wikipedia Game](https://www.thewikipediagame.com/)                     | [https://www.thewikipediagame.com/](https://www.thewikipediagame.com/)                           |
-| 71 | [Thrice](https://thrice.geekswhodrink.com/)                                 | [https://thrice.geekswhodrink.com/](https://thrice.geekswhodrink.com/)                           |
-| 72 | [Toddle](https://toddle-puzzle.web.app/)                                    | [https://toddle-puzzle.web.app/](https://toddle-puzzle.web.app/)                                 |
-| 73 | [Triplets](https://www.tripletgame.com/)                                    | [https://www.tripletgame.com/](https://www.tripletgame.com/)                                     |
-| 74 | [Unzoomed](https://www.unzoomed.com/en)                                     | [https://www.unzoomed.com/en](https://www.unzoomed.com/en)                                       |
-| 75 | [Word Connection](https://www.thewordfinder.com/word-connection/)           | [https://www.thewordfinder.com/word-connection/](https://www.thewordfinder.com/word-connection/) |
-| 76 | [Wordga](https://wordga.com/daily)                                          | [https://wordga.com/daily](https://wordga.com/daily)                                             |
+|  8 | [Betweenle](https://betweenle.com/)                                         | [https://betweenle.com/](https://betweenle.com/)                                                 |
+|  9 | [BrainBashers Daily 30 Seconds](https://www.brainbashers.com/30seconds.asp) | [https://www.brainbashers.com/30seconds.asp](https://www.brainbashers.com/30seconds.asp)         |
+| 10 | [BrainBashers Daily Puzzle](https://www.brainbashers.com/dailypuzzle.asp)   | [https://www.brainbashers.com/dailypuzzle.asp](https://www.brainbashers.com/dailypuzzle.asp)     |
+| 11 | [Brickdle](https://www.brickdle.com/)                                       | [https://www.brickdle.com/](https://www.brickdle.com/)                                           |
+| 12 | [Calcle](https://calclegame.com/)                                           | [https://calclegame.com/](https://calclegame.com/)                                               |
+| 13 | [Cell Tower](https://www.andrewt.net/puzzles/cell-tower/)                   | [https://www.andrewt.net/puzzles/cell-tower/](https://www.andrewt.net/puzzles/cell-tower/)       |
+| 14 | [Chainagram](https://puzzletrail.games/puzzles/chainagram/)                 | [https://puzzletrail.games/puzzles/chainagram/](https://puzzletrail.games/puzzles/chainagram/)   |
+| 15 | [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle)          | [https://www.chess.com/daily-chess-puzzle](https://www.chess.com/daily-chess-puzzle)             |
+| 16 | [Chessle](https://jackli.gg/chessle/)                                       | [https://jackli.gg/chessle/](https://jackli.gg/chessle/)                                         |
+| 17 | [Chronoline](https://chronoline.app/daily)                                  | [https://chronoline.app/daily](https://chronoline.app/daily)                                     |
+| 18 | [ColorGuesser](https://colorguesser.com/)                                   | [https://colorguesser.com/](https://colorguesser.com/)                                           |
+| 19 | [Countryle](https://www.countryle.com/)                                     | [https://www.countryle.com/](https://www.countryle.com/)                                         |
+| 20 | [CraftWord](https://craftword.game/)                                        | [https://craftword.game/](https://craftword.game/)                                               |
+| 21 | [Daily Jingle](https://dailyjingle.me/)                                     | [https://dailyjingle.me/](https://dailyjingle.me/)                                               |
+| 22 | [DayBrix](https://vole.wtf/daybrix/)                                        | [https://vole.wtf/daybrix/](https://vole.wtf/daybrix/)                                           |
+| 23 | [Dicele](https://dicele.com/)                                               | [https://dicele.com/](https://dicele.com/)                                                       |
+| 24 | [Disney Heardle](https://diz-nee-heardle.glitch.me/)                        | [https://diz-nee-heardle.glitch.me/](https://diz-nee-heardle.glitch.me/)                         |
+| 25 | [Disorderly](https://playdisorderly.com/)                                   | [https://playdisorderly.com/](https://playdisorderly.com/)                                       |
+| 26 | [Duotrigordle](https://duotrigordle.com/)                                   | [https://duotrigordle.com/](https://duotrigordle.com/)                                           |
+| 27 | [Facedle](https://facedle.app/)                                             | [https://facedle.app/](https://facedle.app/)                                                     |
+| 28 | [Figure](https://figure.game/)                                              | [https://figure.game/](https://figure.game/)                                                     |
+| 29 | [Flickle](https://flickle.app/)                                             | [https://flickle.app/](https://flickle.app/)                                                     |
+| 30 | [Gaps](https://gaps.wtf/)                                                   | [https://gaps.wtf/](https://gaps.wtf/)                                                           |
+| 31 | [GeoGrid](https://www.geogridgame.com/)                                     | [https://www.geogridgame.com/](https://www.geogridgame.com/)                                     |
+| 32 | [Gram Jam](https://gramjam.app/)                                            | [https://gramjam.app/](https://gramjam.app/)                                                     |
+| 33 | [Griddle](https://griddlegame.io/)                                          | [https://griddlegame.io/](https://griddlegame.io/)                                               |
+| 34 | [Guess My Word](https://hryanjones.com/guess-my-word/)                      | [https://hryanjones.com/guess-my-word/](https://hryanjones.com/guess-my-word/)                   |
+| 35 | [Heardle 1950's](https://50s.heardledecades.com/)                           | [https://50s.heardledecades.com/](https://50s.heardledecades.com/)                               |
+| 36 | [Heardle 1960's](https://60s.heardledecades.com/)                           | [https://60s.heardledecades.com/](https://60s.heardledecades.com/)                               |
+| 37 | [Heardle 1970's](https://70s.heardledecades.com/)                           | [https://70s.heardledecades.com/](https://70s.heardledecades.com/)                               |
+| 38 | [Heardle 1980's](https://80s.heardledecades.com/)                           | [https://80s.heardledecades.com/](https://80s.heardledecades.com/)                               |
+| 39 | [Heardle 1990's](https://90s.heardledecades.com/)                           | [https://90s.heardledecades.com/](https://90s.heardledecades.com/)                               |
+| 40 | [Heardle 2000's](https://00s.heardledecades.com/)                           | [https://00s.heardledecades.com/](https://00s.heardledecades.com/)                               |
+| 41 | [Heardle 2010's](https://heardle10s.com/)                                   | [https://heardle10s.com/](https://heardle10s.com/)                                               |
+| 42 | [Heardle TV Themes](https://tv.heardledecades.xyz/)                         | [https://tv.heardledecades.xyz/](https://tv.heardledecades.xyz/)                                 |
+| 43 | [IYKYK](https://www.iykyk.com/)                                             | [https://www.iykyk.com/](https://www.iykyk.com/)                                                 |
+| 44 | [Jeopardle](https://jeopardle.co/)                                          | [https://jeopardle.co/](https://jeopardle.co/)                                                   |
+| 45 | [Jumblie](https://jumblie.com/)                                             | [https://jumblie.com/](https://jumblie.com/)                                                     |
+| 46 | [Juxtastat](https://urbanstats.org/quiz.html)                               | [https://urbanstats.org/quiz.html](https://urbanstats.org/quiz.html)                             |
+| 47 | [LINKR](https://www.playlinkr.net/)                                         | [https://www.playlinkr.net/](https://www.playlinkr.net/)                                         |
+| 48 | [Lingule](https://lingule.xyz/)                                             | [https://lingule.xyz/](https://lingule.xyz/)                                                     |
+| 49 | [Linxicon](https://linxicon.com/)                                           | [https://linxicon.com/](https://linxicon.com/)                                                   |
+| 50 | [Locatle](https://locatle.strct.net/)                                       | [https://locatle.strct.net/](https://locatle.strct.net/)                                         |
+| 51 | [Lyricle](https://www.lyricle.app/)                                         | [https://www.lyricle.app/](https://www.lyricle.app/)                                             |
+| 52 | [Moviedle](https://moviedle.xyz/)                                           | [https://moviedle.xyz/](https://moviedle.xyz/)                                                   |
+| 53 | [Moviedle - Fill The Grid](https://moviedle.xyz/fill-the-grid/)             | [https://moviedle.xyz/fill-the-grid/](https://moviedle.xyz/fill-the-grid/)                       |
+| 54 | [Moviedle - Moviemoji](https://moviedle.xyz/moviemoji/)                     | [https://moviedle.xyz/moviemoji/](https://moviedle.xyz/moviemoji/)                               |
+| 55 | [Moviedle - Twenty Questions](https://moviedle.xyz/twenty/)                 | [https://moviedle.xyz/twenty/](https://moviedle.xyz/twenty/)                                     |
+| 56 | [Moviemoji](https://www.playmoviemoji.com/)                                 | [https://www.playmoviemoji.com/](https://www.playmoviemoji.com/)                                 |
+| 57 | [OEC Connectrade](https://oec.world/en/games/connectrade)                   | [https://oec.world/en/games/connectrade](https://oec.world/en/games/connectrade)                 |
+| 58 | [OEC Pick 5](https://oec.world/en/games/pick-5)                             | [https://oec.world/en/games/pick-5](https://oec.world/en/games/pick-5)                           |
+| 59 | [Order Up](https://orderup.games/)                                          | [https://orderup.games/](https://orderup.games/)                                                 |
+| 60 | [Quintessential](https://quintessential.fun/)                               | [https://quintessential.fun/](https://quintessential.fun/)                                       |
+| 61 | [regexle.com](https://regexle.com/)                                         | [https://regexle.com/](https://regexle.com/)                                                     |
+| 62 | [regexle.ithea.de](https://regexle.ithea.de/)                               | [https://regexle.ithea.de/](https://regexle.ithea.de/)                                           |
+| 63 | [ReHeardle](https://reheardle.com/)                                         | [https://reheardle.com/](https://reheardle.com/)                                                 |
+| 64 | [ReHeardle Video Games](https://reheardle.com/videogames/)                  | [https://reheardle.com/videogames/](https://reheardle.com/videogames/)                           |
+| 65 | [Rhyme Time](https://www.rhymetime.co/)                                     | [https://www.rhymetime.co/](https://www.rhymetime.co/)                                           |
+| 66 | [Smashdle](https://smashdle.net/)                                           | [https://smashdle.net/](https://smashdle.net/)                                                   |
+| 67 | [Spotle](https://spotle.io/)                                                | [https://spotle.io/](https://spotle.io/)                                                         |
+| 68 | [Squardle](https://fubargames.se/squardle/)                                 | [https://fubargames.se/squardle/](https://fubargames.se/squardle/)                               |
+| 69 | [Squares](https://squares.org/)                                             | [https://squares.org/](https://squares.org/)                                                     |
+| 70 | [Squirdle Daily](https://squirdle.fireblend.com/daily.html)                 | [https://squirdle.fireblend.com/daily.html](https://squirdle.fireblend.com/daily.html)           |
+| 71 | [Summle](https://summle.net/)                                               | [https://summle.net/](https://summle.net/)                                                       |
+| 72 | [Survivle](https://lazyguyy.github.io/survivle/)                            | [https://lazyguyy.github.io/survivle/](https://lazyguyy.github.io/survivle/)                     |
+| 73 | [The Wikipedia Game](https://www.thewikipediagame.com/)                     | [https://www.thewikipediagame.com/](https://www.thewikipediagame.com/)                           |
+| 74 | [Thrice](https://thrice.geekswhodrink.com/)                                 | [https://thrice.geekswhodrink.com/](https://thrice.geekswhodrink.com/)                           |
+| 75 | [Toddle](https://toddle-puzzle.web.app/)                                    | [https://toddle-puzzle.web.app/](https://toddle-puzzle.web.app/)                                 |
+| 76 | [Triplets](https://www.tripletgame.com/)                                    | [https://www.tripletgame.com/](https://www.tripletgame.com/)                                     |
+| 77 | [Unzoomed](https://www.unzoomed.com/en)                                     | [https://www.unzoomed.com/en](https://www.unzoomed.com/en)                                       |
+| 78 | [Word Connection](https://www.thewordfinder.com/word-connection/)           | [https://www.thewordfinder.com/word-connection/](https://www.thewordfinder.com/word-connection/) |
+| 79 | [Word Peaks](https://vegeta897.github.io/word-peaks/)                       | [https://vegeta897.github.io/word-peaks/](https://vegeta897.github.io/word-peaks/)               |
+| 80 | [Word500](https://word500.com/game?mode=daily)                              | [https://word500.com/game?mode=daily](https://word500.com/game?mode=daily)                       |
+| 81 | [Wordga](https://wordga.com/daily)                                          | [https://wordga.com/daily](https://wordga.com/daily)                                             |
 
 dles removed: 
 |    | name                                                         | url                                                                                          | reason                                                                              |

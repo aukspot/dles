@@ -62,8 +62,15 @@
             {#each categorizedDles[category] as dle, j (j)}
               <li class="dleName">
                 <div class="dleTop">
-                  <a href={dle.url} target="_blank" rel="noopener">{dle.name}</a
-                  >
+                  <a
+                    class="tooltip"
+                    href={dle.url}
+                    target="_blank"
+                    rel="noopener"
+                    >{dle.name}<span class="tooltiptext"
+                      >{dle.description}
+                    </span>
+                  </a>
                 </div>
               </li>
             {/each}
@@ -76,10 +83,11 @@
 
 <style lang="postcss">
   .dlesContainer {
-    @apply px-1 mt-1 gap-2 columns-2 lg:columns-4 max-[290px]:columns-1;
+    @apply px-1 mt-1 gap-2 columns-2 md:columns-[12rem] max-[290px]:columns-1;
+    /* columns: 12rem auto; */
   }
   .card {
-    @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
+    @apply mb-2 break-inside-avoid-column shadow-sm shadow-colorNeutralSoft;
   }
   a {
     @apply text-base text-colorText underline decoration-colorTextSoftest hover:text-colorLink;
@@ -96,5 +104,24 @@
   }
   .dleTop {
     @apply p-1 px-2 flex justify-between items-baseline align-top gap-1;
+  }
+  .tooltip {
+    @apply relative block;
+  }
+  .tooltiptext {
+    @apply hidden z-20 -left-2 bottom-[125%] w-40 md:w-48 lg:w-52 xl:w-56 bg-colorCardC text-colorTextSoft hover:block absolute py-1 px-0 rounded shadow-sm shadow-colorTextSoftest;
+  }
+  .tooltip .tooltiptext {
+    margin-top: -10px;
+  }
+  .tooltip:hover .tooltiptext {
+    @apply p-1;
+    display: table;
+  }
+  .tooltip .tooltiptext::after {
+    @apply absolute  border-colorCardC;
+    content: " ";
+    border-style: solid;
+    border-color: black transparent transparent transparent;
   }
 </style>
