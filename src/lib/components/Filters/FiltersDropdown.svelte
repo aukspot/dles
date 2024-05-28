@@ -49,5 +49,5 @@
 
 <svelte:document on:keyup={handleKeyUp} on:click={handleDocumentClick} />
 <div class="w-full mt-2">
-  <FilterTagGroup tags={dropdownTags} {type} inDropdown={true} />
+  <FilterTagGroup tags={dropdownTags} inDropdown={true} />
 </div>

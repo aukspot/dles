@@ -8,7 +8,7 @@
     const rootElement = document.documentElement
 
     let scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
-    if (window.scrollY > 600 && rootElement.scrollTop / scrollTotal > 0.8) {
+    if (window.scrollY > 600 && rootElement.scrollTop / scrollTotal > 0.6) {
       backToTopButton.classList.add("showBtn")
     } else {
       backToTopButton.classList.remove("showBtn")
@@ -30,6 +30,7 @@
   button {
     z-index: 100;
     opacity: 0;
+    /* display: none; */
     transition: opacity 0.5s ease;
   }
 </style>

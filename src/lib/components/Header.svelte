@@ -1,17 +1,36 @@
 <script>
-  import ThemeButton from "$lib/components/Buttons/ThemeButton.svelte"
+  import { base } from "$app/paths"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import { dles, infoHidden } from "$lib/stores"
+  import IconInformation from "./Icons/IconInformation.svelte"
+  import Toolbar from "./Toolbar.svelte"
+
+  function toggleInfo() {
+    $infoHidden = !$infoHidden
+    if (isLocalStorageAvailable()) {
+      localStorage.closedBefore = true
+    }
+  }
 </script>
 
-<header>
-  <div id="themeSwitcher" class="absolute top-3 right-3">
-    <ThemeButton />
+<header class="flex justify-between items-center px-2 py-2 relative">
+  <div>
+    <h1 class="text-colorText flex items-baseline gap-3 fill-colorText">
+      <a class="title" href="{base}/"> The Dles </a>
+      <button on:click={toggleInfo}>
+        <IconInformation />
+      </button>
+    </h1>
+    <p class="pt-1 pl-1 leading-none text-sm md:text-base">
+      A curated collection of <strong>{$dles.length}</strong> daily games.
+    </p>
   </div>
-  <h1
-    class="text-2xl text-center uppercase font-semibold font-mono mt-2 md:text-4xl"
-  >
-    The Dles
-  </h1>
-  <p class="text-md mt-1 text-center md:text-lg">
-    A curated collection of daily games.
-  </p>
+  <Toolbar />
 </header>
+
+<style lang="postcss">
+  .title {
+    @apply text-colorText leading-none tracking-tight text-3xl uppercase font-mono font-bold md:text-4xl;
+    word-spacing: -6px;
+  }
+</style>

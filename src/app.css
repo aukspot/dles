@@ -13,7 +13,7 @@ a {
 }
 
 .btn {
-  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutralSofter active:shadow-none md:text-lg;
+  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutral active:shadow-none md:text-lg;
 }
 
 .btn:disabled {
@@ -22,7 +22,23 @@ a {
 }
 
 .btn-icon {
-  @apply flex justify-center items-center w-9 h-9 rounded mt-2 fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
+  @apply flex justify-center items-center w-9 h-9 rounded fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
+}
+
+.btn-dropdown-menu {
+  @apply z-30 gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSofter border-2 border-transparent shadow-md hover:border-2 hover:border-colorTextSofter active:shadow-none;
+}
+
+.btn-menu-item {
+  @apply gap-1 p-1 flex justify-center items-center text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorTextSofter hover:!bg-colorBackground;
+}
+
+.btn-settings {
+  @apply gap-1 p-1 flex justify-center items-center rounded-md text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorText;
+}
+
+.btn-toolbar {
+  @apply flex flex-row justify-center items-center bg-colorCardB rounded-md;
 }
 
 .btn-svg {
@@ -31,11 +47,20 @@ a {
 
 .showBtn {
   opacity: 1 !important;
+  display: block;
   transform: translateY(0);
 }
 
+.menu-link {
+  @apply p-2 flex gap-2 justify-center text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB;
+}
+
+.only-md {
+  @apply hidden md:block;
+}
+
 .divider {
-  @apply mt-4 border-t border-colorNeutral;
+  @apply border-t border-colorNeutral;
 }
 
 button:disabled:hover {

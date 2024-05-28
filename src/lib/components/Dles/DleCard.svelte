@@ -9,7 +9,7 @@
     <div class="cardTop">
       <div class="cardLabel">
         <span class="unselectable">{i}. </span>
-        <span class="cardName">{dle.name}</span>
+        <span class="cardName"><a href={dle.url}>{dle.name}</a></span>
       </div>
     </div>
     <div class="cardDescription">
@@ -30,27 +30,30 @@
 <style lang="postcss">
   .card {
     @apply flex flex-row justify-between w-full px-2 pt-1 pb-2 ring-1 ring-colorNeutralSoft shadow-md shadow-colorNeutralSofter rounded-md;
-    .cardRows {
-      @apply flex flex-col flex-wrap gap-y-1 justify-between w-full;
-      .cardTop {
-        @apply flex justify-between;
-        .cardLabel {
-          @apply flex items-baseline align-top gap-1;
-        }
-        .cardName {
-          @apply text-lg md:text-xl font-semibold;
-        }
-      }
-      .cardDescription {
-        @apply text-sm text-colorTextSoft mt-1 sm:text-base md:text-lg;
-      }
+  }
+  .cardRows {
+    @apply flex flex-col flex-wrap gap-y-1 justify-between w-full;
+  }
+  .cardTop {
+    @apply flex justify-between;
+  }
+  .cardLabel {
+    @apply flex items-baseline align-top gap-1;
+  }
+  .cardName {
+    @apply text-lg md:text-xl font-semibold;
+    a {
+      @apply text-colorText;
     }
-    .playButton {
-      @apply flex items-center py-1;
-      a {
-        button {
-          @apply !px-3 !border !border-colorNeutralSoft bg-colorBackground ml-3;
-        }
+  }
+  .cardDescription {
+    @apply text-sm text-colorTextSoft mt-1 sm:text-base md:text-lg;
+  }
+  .playButton {
+    @apply flex items-center py-1;
+    a {
+      button {
+        @apply !px-3 !border !border-colorNeutralSoft bg-colorBackground ml-3;
       }
     }
   }

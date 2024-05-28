@@ -2,12 +2,13 @@
   import { base } from "$app/paths"
   import SimpleLink from "$lib/components/SimpleLink.svelte"
   import SimpleCard from "$lib/components/SimpleCard.svelte"
+  import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
 
   export let url = ""
   export let description = ""
   export let comments = ""
 
-  $: disabled = [url, description, comments].every((s) => s.length == 0)
+  $: disabled = url.length === 0
   $: criteria = disabled ? "text-colorError" : ""
 </script>
 
@@ -15,16 +16,19 @@
   <title>Suggest a game!</title>
   <meta
     name="description"
-    content="Suggest a game to be added to the list of dles."
+    content="Suggest a daily game to be added to the list of dles."
   />
 </svelte:head>
-<SimpleLink href="{base}/" text="Go back to collection" />
 
-<div class="divider"></div>
-<div class="mt-8 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+<!-- <div class="divider"></div> -->
+<div class="mt-2 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
   <SimpleCard>
-    <h2 class="mb-0 text-center text-xl font-semibold">Suggest a game!</h2>
-    <p class="text-center text-colorTextSoft px-2">
+    <h2
+      class="mb-2 flex justify-center gap-2 text-xl font-semibold fill-colorText"
+    >
+      <IconSuggest /> Suggest a game!
+    </h2>
+    <p class="text-center text-colorTextSoft px-2 mb-2">
       Is there a fun daily game that is missing from the list? Make an anonymous
       suggestion below!
     </p>
@@ -34,15 +38,20 @@
         method="POST"
         action="https://formspree.io/f/xpzvdyzl"
       >
-        <fieldset class="p-1 flex flex-col justify-end gap-2 bg-colorCardA">
+        <fieldset class="p-1 flex flex-col justify-end gap-2">
           <div class="formElementContainer">
-            <label for="url">URL</label>
+            <label for="url"
+              >URL <span id="criteria" class={criteria}>
+                (required)
+              </span></label
+            >
             <input
               bind:value={url}
               type="text"
               id="url"
               name="url"
               placeholder="example.game"
+              required
             />
           </div>
 
@@ -68,21 +77,28 @@
             />
           </div>
 
-          <p id="criteria" class="text-center {criteria}">
-            * Must fill at least one box.
-          </p>
-
           <button class="btn mt-2 mx-auto w-48" type="submit" {disabled}
             >Submit</button
           >
         </fieldset>
       </form>
     </div>
+    <p class="text-center text-sm md:text-base">
+      Form handling by <a href="https://formspree.io" target="_blank"
+        >formspree.io</a
+      >
+    </p>
   </SimpleCard>
+  <SimpleLink href="{base}/" text="Go back to collection" />
+  <span class="text-center leading-none">or...</span>
+  <SimpleLink href="{base}/report" text="Report a bug!" />
 </div>
 
 <style lang="postcss">
   .formElementContainer {
     @apply flex flex-col justify-between;
+    label {
+      @apply font-semibold;
+    }
   }
 </style>

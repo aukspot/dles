@@ -1,6 +1,7 @@
 <script>
   import { onMount } from "svelte"
   import IconLightbulb from "$lib/components/Icons/IconLightbulb.svelte"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
 
   const STORAGE_KEY = "theme"
   const DARK_PREFERENCE = "(prefers-color-scheme: dark)"
@@ -8,17 +9,6 @@
   const THEMES = {
     DARK: "dark",
     LIGHT: "light",
-  }
-
-  function isLocalStorageAvailable() {
-    var test = "test"
-    try {
-      localStorage.setItem(test, test)
-      localStorage.removeItem(test)
-      return true
-    } catch (e) {
-      return false
-    }
   }
 
   const prefersDarkThemes = () => window.matchMedia(DARK_PREFERENCE).matches
@@ -60,6 +50,10 @@
   onMount(applyTheme)
 </script>
 
-<button class="btn" on:click={toggleTheme}>
+<button
+  on:click={toggleTheme}
+  class="flex justify-end align-bottom rounded-md btn-menu-item"
+>
   <IconLightbulb />
+  <div>Toggle theme</div>
 </button>

@@ -4,7 +4,6 @@
   import FilterTag from "$lib/components/Filters/FilterTag.svelte"
 
   export let tags
-  export let type
   export let inDropdown
 </script>
 
@@ -18,7 +17,7 @@
   {:else}
     {#each tags as name, i (i)}
       <div animate:flip={{ duration: 250, easing: quintOut }}>
-        <FilterTag {name} {type}></FilterTag>
+        <FilterTag {name}></FilterTag>
       </div>
     {/each}
   {/if}
