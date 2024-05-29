@@ -17,8 +17,8 @@
   import { clickOutside } from "$lib/js/clickOutside"
 
   let expandedDle = ""
-  let layerX = 0
-  let layerY = 0
+  let pageX = 0
+  let pageY = 0
   let clientY = 0
 
   const categoryIcons = {
@@ -50,7 +50,6 @@
   }
 
   function resetExpandedDle() {
-    console.log(expandedDle)
     expandedDle = ""
   }
 
@@ -67,54 +66,52 @@
 
 <svelte:window on:resize={resetExpandedDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
-<div class="dlesContainer" in:fly={{ y: 500, duration: 200 }}>
+<div class="dlesContainer" in:fly={{ y: 500, duration: 150 }}>
   {#each $categories as category, i (i)}
-    {#if categorizedDles[category].length != 0}
-      <div class="card">
-        <div
-          class="labelContainer"
-          style="background-color: {$categoryColors[category]}"
-        >
-          <div class="label">
-            <div class="flex-shrink-0">
-              <svelte:component this={categoryIcons[category]} />
-            </div>
-            {category}
+    <div class="card">
+      <div
+        class="labelContainer"
+        style="background-color: {$categoryColors[category]}"
+      >
+        <div class="label">
+          <div class="flex-shrink-0">
+            <svelte:component this={categoryIcons[category]} />
           </div>
-        </div>
-        <div>
-          <ol class="dleList">
-            {#each categorizedDles[category] as dle, j (j)}
-              <li class="dleContainer">
-                <!-- svelte-ignore a11y-click-events-have-key-events -->
-                <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-                <!-- svelte-ignore a11y-no-static-element-interactions -->
-                <div class="dleTop">
-                  <span
-                    class="dleName"
-                    on:click={(e) => {
-                      expandedDle === dle.name
-                        ? (expandedDle = "")
-                        : (expandedDle = dle.name)
-                      layerX = e.layerX
-                      layerY = e.layerY
-                      clientY = e.clientY
-                    }}
-                  >
-                    {dle.name}
-                  </span>
-                </div>
-                {#if expandedDle === dle.name}
-                  <div use:clickOutside on:click_outside={handleClickOutside}>
-                    <DlePopUp {dle} {layerX} {layerY} {clientY} />
-                  </div>
-                {/if}
-              </li>
-            {/each}
-          </ol>
+          {category}
         </div>
       </div>
-    {/if}
+      <div>
+        <ol class="dleList">
+          {#each categorizedDles[category] as dle, j (j)}
+            <li class="dleContainer">
+              <!-- svelte-ignore a11y-click-events-have-key-events -->
+              <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+              <!-- svelte-ignore a11y-no-static-element-interactions -->
+              <div class="dleTop">
+                <span
+                  class="dleName"
+                  on:click={(e) => {
+                    expandedDle === dle.name
+                      ? (expandedDle = "")
+                      : (expandedDle = dle.name)
+                    pageX = e.pageX
+                    pageY = e.pageY
+                    clientY = e.clientY
+                  }}
+                >
+                  {dle.name}
+                </span>
+              </div>
+              {#if expandedDle === dle.name}
+                <div use:clickOutside on:click_outside={handleClickOutside}>
+                  <DlePopUp {dle} {pageX} {pageY} {clientY} />
+                </div>
+              {/if}
+            </li>
+          {/each}
+        </ol>
+      </div>
+    </div>
   {/each}
 </div>
 
@@ -125,10 +122,6 @@
   }
   .card {
     @apply mb-2 break-inside-avoid-column shadow-sm shadow-colorNeutralSoft;
-  }
-  a {
-    @apply text-base text-colorText underline decoration-colorTextSoftest hover:text-colorLink;
-    text-decoration-thickness: 2px;
   }
   .labelContainer {
     @apply py-2 px-2 bg-colorCardB border-b-2 border-colorText;

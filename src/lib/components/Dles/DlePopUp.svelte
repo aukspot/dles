@@ -1,23 +1,26 @@
 <script>
-  export let dle, layerX, layerY, clientY
+  export let dle, pageX, pageY, clientY
 
   let width = 300
-  if (layerX < width / 2) {
-    layerX = width / 2 + 10
+  if (pageX < width / 2) {
+    pageX = width / 2 + 10
   }
-  if (layerX + width / 2 > document.documentElement.clientWidth) {
-    layerX = document.documentElement.clientWidth - width / 2 - 10
+  if (pageX + width / 2 > document.documentElement.clientWidth) {
+    pageX = document.documentElement.clientWidth - width / 2 - 10
   }
   if (clientY < 250) {
-    layerY += 250 - clientY
+    pageY += 250 - clientY
   }
-  $: console.log(layerX, layerY, clientY, document.documentElement.clientWidth)
+  // $: console.log(
+  //   pageX,
+  //   pageY,
+  //   clientY,
+  //   document.documentElement.clientWidth,
+  //   window.devicePixelRatio,
+  // )
 </script>
 
-<div
-  class="dlePopUp"
-  style="left: {layerX}px; top: {layerY}px; width: {width}px"
->
+<div class="dlePopUp" style="left: {pageX}px; top: {pageY}px; width: {width}px">
   <div class="text-center text-lg md:text-xl font-bold">
     {dle.name}
   </div>
@@ -33,7 +36,7 @@
 
 <style lang="postcss">
   .dlePopUp {
-    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC  rounded-lg shadow-xl shadow-colorTextSoftest;
+    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-lg border-2 border-colorTextSoftest shadow-md shadow-colorTextSoftest;
     transform: translate(-50%, -99%);
   }
 </style>
