@@ -9,6 +9,8 @@
   onMount(() => {
     if (isLocalStorageAvailable()) {
       $settings.view = localStorage.view || "Category View"
+    } else {
+      $settings.view = "Category View"
     }
   })
 
