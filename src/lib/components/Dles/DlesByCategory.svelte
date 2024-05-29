@@ -2,6 +2,7 @@
   import { fly } from "svelte/transition"
   import { categories, categoryColors, filteredDles } from "$lib/stores"
 
+  import DlePopUp from "./DlePopUp.svelte"
   import IconGeography from "../Icons/IconGeography.svelte"
   import IconMath from "../Icons/IconMath.svelte"
   import IconMiscellaneous from "../Icons/IconMiscellaneous.svelte"
@@ -12,6 +13,13 @@
   import IconTrivia from "../Icons/IconTrivia.svelte"
   import IconVideoGames from "../Icons/IconVideoGames.svelte"
   import IconWords from "../Icons/IconWords.svelte"
+
+  import { clickOutside } from "$lib/js/clickOutside"
+
+  let expandedDle = ""
+  let layerX = 0
+  let layerY = 0
+  let clientY = 0
 
   const categoryIcons = {
     "Geography/History": IconGeography,
@@ -40,8 +48,25 @@
       )
     }
   }
+
+  function resetExpandedDle() {
+    console.log(expandedDle)
+    expandedDle = ""
+  }
+
+  function handleKeyUp(event) {
+    if (event.key == "Escape") {
+      resetExpandedDle()
+    }
+  }
+
+  function handleClickOutside() {
+    resetExpandedDle()
+  }
 </script>
 
+<svelte:window on:resize={resetExpandedDle} />
+<svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <div class="dlesContainer" in:fly={{ y: 500, duration: 200 }}>
   {#each $categories as category, i (i)}
     {#if categorizedDles[category].length != 0}
@@ -60,18 +85,30 @@
         <div>
           <ol class="dleList">
             {#each categorizedDles[category] as dle, j (j)}
-              <li class="dleName">
+              <li class="dleContainer">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+                <!-- svelte-ignore a11y-no-static-element-interactions -->
                 <div class="dleTop">
-                  <a
-                    class="tooltip"
-                    href={dle.url}
-                    target="_blank"
-                    rel="noopener"
-                    >{dle.name}<span class="tooltiptext"
-                      >{dle.description}
-                    </span>
-                  </a>
+                  <span
+                    class="dleName"
+                    on:click={(e) => {
+                      expandedDle === dle.name
+                        ? (expandedDle = "")
+                        : (expandedDle = dle.name)
+                      layerX = e.layerX
+                      layerY = e.layerY
+                      clientY = e.clientY
+                    }}
+                  >
+                    {dle.name}
+                  </span>
                 </div>
+                {#if expandedDle === dle.name}
+                  <div use:clickOutside on:click_outside={handleClickOutside}>
+                    <DlePopUp {dle} {layerX} {layerY} {clientY} />
+                  </div>
+                {/if}
               </li>
             {/each}
           </ol>
@@ -99,29 +136,15 @@
   .label {
     @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
   }
-  .dleName {
+  .dleContainer {
     @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
   }
   .dleTop {
-    @apply p-1 px-2 flex justify-between items-baseline align-top gap-1;
+    @apply p-1 px-2;
   }
-  .tooltip {
-    @apply relative block;
-  }
-  .tooltiptext {
-    @apply hidden z-20 -left-2 bottom-[125%] w-40 md:w-48 lg:w-52 xl:w-56 bg-colorCardC text-colorTextSoft hover:block absolute py-1 px-0 rounded shadow-sm shadow-colorTextSoftest;
-  }
-  .tooltip .tooltiptext {
-    margin-top: -10px;
-  }
-  .tooltip:hover .tooltiptext {
-    @apply p-1;
-    display: table;
-  }
-  .tooltip .tooltiptext::after {
-    @apply absolute  border-colorCardC;
-    content: " ";
-    border-style: solid;
-    border-color: black transparent transparent transparent;
+  .dleName {
+    @apply inline-block text-base text-colorText underline decoration-colorTextSoftest cursor-pointer;
+    text-decoration-thickness: 2px;
+    width: auto;
   }
 </style>
