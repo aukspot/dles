@@ -31,7 +31,7 @@
 <div class="flex justify-center items-center gap-1">
   {#if $page.route.id === "/"}
     <button on:click={toggleView} class="btn-menu-item">
-      Change to {otherView}
+      Switch to {otherView}
     </button>
   {:else}
     <a data-sveltekit-reload class="btn-menu-item" href="{base}/">Go home </a>
