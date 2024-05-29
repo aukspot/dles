@@ -121,7 +121,7 @@
     /* columns: 12rem auto; */
   }
   .card {
-    @apply mb-2 break-inside-avoid-column shadow-sm shadow-colorNeutralSoft;
+    @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
   }
   .labelContainer {
     @apply py-2 px-2 bg-colorCardB border-b-2 border-colorText;
