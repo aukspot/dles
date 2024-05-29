@@ -64,7 +64,7 @@
       class="menu-link btn-menu-item rounded-md shadow-sm shadow-colorTextSofter active:shadow-none"
       on:click={playRandom}
     >
-      Go! (Opens in new tab)</button
+      Go! (opens in new tab)</button
     >
   </div>
   <h3 class="text-center underline">Allowed categories</h3>
