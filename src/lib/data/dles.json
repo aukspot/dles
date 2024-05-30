@@ -925,10 +925,9 @@
   {
     "name": "Juxtastat",
     "url": "https://urbanstats.org/quiz.html",
-    "description": "For 5 rounds, guess which of the two US regions better fits the given criteria.",
+    "description": "For 5 rounds, guess which of the two regions better fits the given criteria.",
     "tags": [
-      "geography",
-      "usa"
+      "geography"
     ],
     "category": "Geography/History"
   },
