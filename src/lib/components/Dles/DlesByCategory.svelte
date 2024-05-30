@@ -1,38 +1,20 @@
 <script>
   import { fly } from "svelte/transition"
-  import { categories, categoryColors, filteredDles } from "$lib/stores"
+  import {
+    categories,
+    categoryColors,
+    filteredDles,
+    poppedUpDle,
+  } from "$lib/stores"
 
   import DlePopUp from "./DlePopUp.svelte"
-  import IconGeography from "../Icons/IconGeography.svelte"
-  import IconMath from "../Icons/IconMath.svelte"
-  import IconMiscellaneous from "../Icons/IconMiscellaneous.svelte"
-  import IconMovies from "../Icons/IconMovies.svelte"
-  import IconMusic from "../Icons/IconMusic.svelte"
-  import IconPrices from "../Icons/IconPrices.svelte"
-  import IconSports from "../Icons/IconSports.svelte"
-  import IconTrivia from "../Icons/IconTrivia.svelte"
-  import IconVideoGames from "../Icons/IconVideoGames.svelte"
-  import IconWords from "../Icons/IconWords.svelte"
 
+  import { categoryIcons } from "$lib/js/categoryIcons"
   import { clickOutside } from "$lib/js/clickOutside"
 
-  let expandedDle = ""
   let pageX = 0
   let pageY = 0
   let clientY = 0
-
-  const categoryIcons = {
-    "Geography/History": IconGeography,
-    "Math/Logic": IconMath,
-    "Movies/TV": IconMovies,
-    Music: IconMusic,
-    Prices: IconPrices,
-    Sports: IconSports,
-    Trivia: IconTrivia,
-    "Video Games": IconVideoGames,
-    Words: IconWords,
-    Miscellaneous: IconMiscellaneous,
-  }
 
   let categorizedDles = {}
   for (let category of $categories) {
@@ -50,7 +32,7 @@
   }
 
   function resetExpandedDle() {
-    expandedDle = ""
+    $poppedUpDle = ""
   }
 
   function handleKeyUp(event) {
@@ -88,21 +70,21 @@
               <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
               <!-- svelte-ignore a11y-no-static-element-interactions -->
               <div class="dleTop">
-                <span
+                <button
                   class="dleName"
                   on:click={(e) => {
-                    expandedDle === dle.name
-                      ? (expandedDle = "")
-                      : (expandedDle = dle.name)
+                    $poppedUpDle === dle.name
+                      ? ($poppedUpDle = "")
+                      : ($poppedUpDle = dle.name)
                     pageX = e.pageX
                     pageY = e.pageY
                     clientY = e.clientY
                   }}
                 >
                   {dle.name}
-                </span>
+                </button>
               </div>
-              {#if expandedDle === dle.name}
+              {#if $poppedUpDle === dle.name}
                 <div use:clickOutside on:click_outside={handleClickOutside}>
                   <DlePopUp {dle} {pageX} {pageY} {clientY} />
                 </div>
@@ -135,7 +117,7 @@
     @apply p-1 px-2;
   }
   .dleName {
-    @apply inline-block text-base text-colorText underline decoration-colorTextSoftest cursor-pointer;
+    @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer;
     text-decoration-thickness: 2px;
     width: auto;
   }

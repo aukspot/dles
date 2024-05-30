@@ -8,6 +8,7 @@
     categories,
     categoryColors,
     dles,
+    favorites,
     filteredDles,
     infoHidden,
     randomCategories,
@@ -41,6 +42,7 @@
       } else {
         $randomCategories = $categories
       }
+      $favorites = JSON.parse(localStorage.favorites || "")
     }
   })
 

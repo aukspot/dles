@@ -1,12 +1,5 @@
 <script>
-  import { base } from "$app/paths"
   import DleList from "$lib/components/Dles/DleList.svelte"
-  import IconBug from "$lib/components/Icons/IconBug.svelte"
-  import IconKofi from "$lib/components/Icons/IconKofi.svelte"
-  import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
-  import LatestChange from "$lib/components/LatestChange.svelte"
-  import Settings from "$lib/components/Settings.svelte"
-  import SimpleLink from "$lib/components/SimpleLink.svelte"
 </script>
 
 <svelte:head>
@@ -21,6 +14,4 @@
   />
   <meta name="author" content="aukspot" />
 </svelte:head>
-
-<!-- <SimpleLink href="{base}/suggest" text="Suggest a game to add!"></SimpleLink> -->
 <DleList />
