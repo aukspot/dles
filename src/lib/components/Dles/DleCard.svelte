@@ -1,5 +1,6 @@
 <script>
   import DleTagGroup from "./DleTagGroup.svelte"
+  import FavoriteButton from "../Buttons/FavoriteButton.svelte"
   export let i
   export let dle
 </script>
@@ -21,9 +22,12 @@
   </div>
 
   <div class="playButton">
-    <a href={dle.url} target="_blank" rel="noopener"
+    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener"
       ><button class="btn unselectable">Play</button></a
     >
+    <span class="flex items-baseline">
+      <FavoriteButton {dle} />
+    </span>
   </div>
 </div>
 
@@ -50,10 +54,10 @@
     @apply text-sm text-colorTextSoft mt-1 sm:text-base md:text-lg;
   }
   .playButton {
-    @apply flex items-center py-1;
+    @apply ml-3 flex flex-col justify-between items-center py-1;
     a {
       button {
-        @apply !px-3 !border !border-colorNeutralSoft bg-colorBackground ml-3;
+        @apply !px-3 !border !border-colorNeutralSoft bg-colorBackground;
       }
     }
   }

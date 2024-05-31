@@ -11,8 +11,8 @@
   if (pageX + width / 2 > document.documentElement.clientWidth) {
     pageX = document.documentElement.clientWidth - width / 2 - 5
   }
-  if (clientY < 250) {
-    pageY += 250 - clientY
+  if (clientY < 220) {
+    pageY += 220 - clientY
   }
 
   function closePopup() {
@@ -25,13 +25,13 @@
     <button on:click={closePopup}>
       <IconClose />
     </button>
-    <div class="text-center text-lg md:text-xl font-bold">
+    <div class="text-center text-xl font-bold">
       {dle.name}
     </div>
     <DleFavorite {dle} />
   </div>
 
-  <div class="text-center text-sm md:text-base text-colorTextSoft">
+  <div class="text-center text-base text-colorTextSoft">
     {dle.description}
   </div>
   <!-- <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener"
@@ -39,11 +39,7 @@
       >Play! <span class="text-sm">(opens in new tab)</span></button
     >
   </a> -->
-  <a
-    class="text-center text-sm md:text-base underline"
-    href={dle.url}
-    target="_blank"
-  >
+  <a class="text-center text-base underline" href={dle.url} target="_blank">
     {dle.url}
   </a>
 </div>

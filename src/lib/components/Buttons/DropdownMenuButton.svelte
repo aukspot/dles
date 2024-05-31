@@ -1,6 +1,6 @@
 <script>
   import { fade } from "svelte/transition"
-
+  import { clickOutside } from "$lib/js/clickOutside"
   let hidden = true
 
   function dropdownMenuButtonClicked(e) {

@@ -7,8 +7,8 @@
   export let dle
 
   let favoriteFill
-  let favoriteColor = "--colors-colorText"
-  let unFavoriteColor = "--colors-colorBackground"
+  let favoriteColor = "rgb(var(--colors-colorTextSoft))"
+  let unFavoriteColor = "transparent"
 
   onMount(() => {
     if (inFavorites(dle)) {
@@ -46,7 +46,7 @@
 </script>
 
 <button
-  style="fill: rgb(var({favoriteFill}));"
+  style="fill: {favoriteFill};"
   on:click={toggleFavorite}
   class="stroke-colorText"
 >

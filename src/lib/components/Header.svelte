@@ -13,7 +13,7 @@
   }
 </script>
 
-<header class="flex justify-between items-center px-2 py-2 relative">
+<header class="flex justify-between items-center gap-3 px-2 py-2 relative">
   <div>
     <h1 class="text-colorText flex items-baseline gap-3 fill-colorText">
       <a class="title" href="{base}/"> The Dles </a>
