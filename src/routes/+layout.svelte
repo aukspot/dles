@@ -42,7 +42,7 @@
       } else {
         $randomCategories = $categories
       }
-      $favorites = JSON.parse(localStorage.favorites || "")
+      $favorites = JSON.parse(localStorage.favorites || "[]")
     }
   })
 
