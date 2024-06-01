@@ -2,7 +2,7 @@
   import { settings } from "$lib/stores"
   import BackToTopButton from "../Buttons/BackToTopButton.svelte"
   import DlesByCategory from "./DlesByCategory.svelte"
-  import DlesByCategoryWithDescriptions from "./DlesByCategoryWithDescriptions.svelte"
+  import DlesByCategoryNoScript from "./DlesByCategoryNoScript.svelte"
   import DlesDetailed from "./DlesDetailed.svelte"
 </script>
 
@@ -11,8 +11,9 @@
 {:else if $settings.view == "Category View"}
   <DlesByCategory />
 {/if}
-<BackToTopButton />
 
 <noscript>
-  <DlesByCategoryWithDescriptions />
+  <DlesByCategoryNoScript />
 </noscript>
+
+<BackToTopButton />

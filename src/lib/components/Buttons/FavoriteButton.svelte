@@ -7,7 +7,7 @@
   export let dle
 
   let favoriteFill
-  let favoriteColor = "rgb(var(--colors-colorTextSoft))"
+  let favoriteColor = "rgb(var(--colors-colorTextSofter))"
   let unFavoriteColor = "transparent"
 
   onMount(() => {
@@ -46,9 +46,9 @@
 </script>
 
 <button
-  style="fill: {favoriteFill};"
+  style="fill: {favoriteFill ?? 'transparent'};"
   on:click={toggleFavorite}
-  class="stroke-colorText"
+  class="stroke-colorTextSofter transition-colors duration-200 hover:scale-105 active:stroke-2"
 >
   <IconFavorite /></button
 >

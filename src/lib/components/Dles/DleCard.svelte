@@ -22,12 +22,12 @@
   </div>
 
   <div class="playButton">
-    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener"
-      ><button class="btn unselectable">Play</button></a
-    >
     <span class="flex items-baseline">
       <FavoriteButton {dle} />
     </span>
+    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener"
+      ><button class="btn unselectable">Play</button></a
+    >
   </div>
 </div>
 

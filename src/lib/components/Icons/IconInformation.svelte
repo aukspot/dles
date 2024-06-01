@@ -6,6 +6,6 @@
 
 <style lang="postcss">
   svg {
-    @apply fill-colorTextSofter w-[20px] md:w-[24px] rounded-full shadow-md shadow-colorTextSoftest active:shadow-none;
+    @apply fill-colorTextSofter w-[20px] md:w-[24px] rounded-full shadow-md shadow-colorTextSoftest active:shadow-none hover:scale-105;
   }
 </style>

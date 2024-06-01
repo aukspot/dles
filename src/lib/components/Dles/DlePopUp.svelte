@@ -29,13 +29,14 @@
 
 <div class="dlePopUp" style="left: {pageX}px; top: {pageY}px; width: {width}px">
   <div class="flex justify-around items-start gap-2">
-    <button on:click={closePopup}>
-      <IconClose />
-    </button>
+    <DleFavorite {dle} />
+
     <div class="text-center text-xl font-bold">
       {dle.name}
     </div>
-    <DleFavorite {dle} />
+    <button on:click={closePopup}>
+      <IconClose />
+    </button>
   </div>
 
   <div class="text-center text-base text-colorTextSoft">

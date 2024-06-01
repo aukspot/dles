@@ -3,7 +3,7 @@
   import {
     categories,
     categoryColors,
-    filteredDles,
+    categorizedDles,
     poppedUpDle,
   } from "$lib/stores"
 
@@ -16,37 +16,22 @@
   let pageY = 0
   let clientY = 0
 
-  let categorizedDles = {}
-  for (let category of $categories) {
-    categorizedDles[category] = $filteredDles.filter(
-      (dle) => dle.category == category,
-    )
-  }
-
-  $: {
-    for (let category of $categories) {
-      categorizedDles[category] = $filteredDles.filter(
-        (dle) => dle.category == category,
-      )
-    }
-  }
-
-  function resetExpandedDle() {
+  function resetPoppedUpDle() {
     $poppedUpDle = ""
   }
 
   function handleKeyUp(event) {
     if (event.key == "Escape") {
-      resetExpandedDle()
+      resetPoppedUpDle()
     }
   }
 
   function handleClickOutside() {
-    resetExpandedDle()
+    resetPoppedUpDle()
   }
 </script>
 
-<svelte:window on:resize={resetExpandedDle} />
+<svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <div class="dlesContainer" in:fly={{ y: 500, duration: 150 }}>
   {#each $categories as category, i (i)}
@@ -64,7 +49,7 @@
       </div>
       <div>
         <ol class="dleList">
-          {#each categorizedDles[category] as dle, j (j)}
+          {#each $categorizedDles[category] as dle, j (j)}
             <li class="dleContainer">
               <!-- svelte-ignore a11y-click-events-have-key-events -->
               <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
@@ -117,7 +102,7 @@
     @apply p-1 px-2;
   }
   .dleName {
-    @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer;
+    @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft transition-all duration-300;
     text-decoration-thickness: 2px;
     width: auto;
   }

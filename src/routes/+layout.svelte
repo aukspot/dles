@@ -6,7 +6,7 @@
 
   import {
     categories,
-    categoryColors,
+    categorizedDles,
     dles,
     favorites,
     filteredDles,
@@ -24,18 +24,6 @@
   import LatestChange from "$lib/components/LatestChange.svelte"
 
   onMount(() => {
-    $categories = [
-      "Geography/History",
-      "Math/Logic",
-      "Movies/TV",
-      "Music",
-      "Prices",
-      "Sports",
-      "Trivia",
-      "Video Games",
-      "Words",
-      "Miscellaneous",
-    ]
     if (isLocalStorageAvailable()) {
       if (localStorage.randomCategories) {
         $randomCategories = JSON.parse(localStorage.randomCategories)
@@ -45,19 +33,6 @@
       $favorites = JSON.parse(localStorage.favorites || "[]")
     }
   })
-
-  $categoryColors = {
-    "Geography/History": "hsl(0, 90%, 50%, 45%)",
-    "Math/Logic": "hsl(20, 90%, 50%, 45%)",
-    "Movies/TV": "hsl(40, 90%, 50%, 45%)",
-    Music: "hsl(60, 90%, 50%, 45%)",
-    Prices: "hsl(100, 90%, 50%, 45%)",
-    Sports: "hsl(150, 90%, 50%, 45%)",
-    Trivia: "hsl(200, 90%, 50%, 45%)",
-    "Video Games": "hsl(300, 90%, 50%, 45%)",
-    Words: "hsl(340, 90%, 50%, 45%)",
-    Miscellaneous: "hsl(0, 0%, 49%, 45%)",
-  }
 
   function initializeDles() {
     $dles = dles_json
@@ -85,6 +60,10 @@
   initializeDles()
   initializeTags()
 
+  for (let category of $categories) {
+    $categorizedDles[category] = $dles.filter((dle) => dle.category == category)
+  }
+
   $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
   $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
 
@@ -98,6 +77,14 @@
     }
     return result
   })
+
+  $: {
+    for (let category of $categories) {
+      $categorizedDles[category] = $filteredDles.filter(
+        (dle) => dle.category == category,
+      )
+    }
+  }
 
   let loading = true
   onMount(() => {
