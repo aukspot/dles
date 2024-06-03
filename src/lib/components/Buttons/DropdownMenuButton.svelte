@@ -1,6 +1,8 @@
 <script>
   import { fade } from "svelte/transition"
 
+  export let name = ""
+
   let hidden = true
 
   function dropdownMenuButtonClicked(e) {
@@ -31,7 +33,11 @@
 <svelte:document on:keyup={handleKeyUp} />
 
 <div class={hidden ? "" : "z-20"}>
-  <button class="btn-dropdown-menu" on:click={dropdownMenuButtonClicked}>
+  <button
+    id="button-{name}"
+    class="btn-dropdown-menu"
+    on:click={dropdownMenuButtonClicked}
+  >
     <slot />
   </button>
   {#if !hidden}

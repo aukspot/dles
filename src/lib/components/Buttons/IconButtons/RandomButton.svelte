@@ -1,5 +1,4 @@
 <script>
-  import IconButton from "./IconButton.svelte"
   const name = "Random"
 </script>
 

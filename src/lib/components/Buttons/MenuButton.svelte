@@ -4,7 +4,7 @@
   import Menu from "$lib/components/Menu.svelte"
 </script>
 
-<DropdownMenuButton>
+<DropdownMenuButton name="main-menu">
   <IconMenu /> <span class="only-md">Menu</span>
   <div slot="menu">
     <Menu />

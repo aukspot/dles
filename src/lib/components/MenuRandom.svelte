@@ -36,7 +36,7 @@
   function openInNewTab(href) {
     Object.assign(document.createElement("a"), {
       target: "_blank",
-      rel: "noopener noreferrer",
+      rel: "noopener",
       href: href,
     }).click()
   }

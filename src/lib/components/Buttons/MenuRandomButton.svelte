@@ -23,7 +23,7 @@
   }
 </script>
 
-<DropdownMenuButton>
+<DropdownMenuButton name="random-menu">
   <IconRandom /><span class="only-md">Random</span>
   <div slot="menu">
     <MenuRandom />
