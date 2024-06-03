@@ -35,6 +35,7 @@
 <div class={hidden ? "" : "z-20"}>
   <button
     id="button-{name}"
+    aria-label={name}
     class="btn-dropdown-menu"
     on:click={dropdownMenuButtonClicked}
   >

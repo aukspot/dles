@@ -17,7 +17,11 @@
   <div>
     <h1 class="text-colorText flex items-baseline gap-3 fill-colorText">
       <a class="title" href="{base}/"> The Dles </a>
-      <button id="button-information" on:click={toggleInfo}>
+      <button
+        id="button-information"
+        aria-label="information"
+        on:click={toggleInfo}
+      >
         <IconInformation />
       </button>
     </h1>
