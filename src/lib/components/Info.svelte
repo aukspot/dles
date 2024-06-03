@@ -12,8 +12,6 @@
 </script>
 
 <div id="info" class="m-auto max-w-[36rem] p-2">
-  <!-- <div class="text-center text-xl md:text-2xl font-semibold">Welcome to</div>
-  <h1 class="text-center text-3xl md:text-4xl font-bold">THE DLES</h1> -->
   <div class="text-center text-2xl md:text-3xl font-semibold font-mono">
     info
   </div>
@@ -71,5 +69,8 @@
   }
   .answer {
     @apply mt-1 text-xs md:text-sm leading-snug;
+  }
+  a {
+    @apply underline;
   }
 </style>

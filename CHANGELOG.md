@@ -2,7 +2,7 @@
 
 ## 2024-05-28
 
-Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a href="https://dles.aukspot.com/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.
+Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a class="changelog-link" href="https://dles.aukspot.com/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.
 
 dles added: 
 |    | name                                                                        | url                                                                                              |
@@ -145,7 +145,7 @@ dles added:
 
 ## 2024-02-27
 
-Add a <a href="https://github.com/aukspot/dles/blob/main/CHANGELOG.md" target="_blank">CHANGELOG.md</a>.<br>Add 13 dles.
+Add a <a class="changelog-link" href="https://github.com/aukspot/dles/blob/main/CHANGELOG.md" target="_blank">CHANGELOG.md</a>.<br>Add 13 dles.
 
 dles added: 
 |    | name                                                      | url                                                                                            |
@@ -182,7 +182,7 @@ dles added:
 
 ## 2024-02-16
 
-Add a <a href="https://dles.aukspot.com/suggest">suggestion form</a>.<br>Add 4 dles.
+Add a <a class="changelog-link" href="https://dles.aukspot.com/suggest">suggestion form</a>.<br>Add 4 dles.
 
 dles added: 
 |    | name                                                 | url                                                                              |
@@ -194,7 +194,7 @@ dles added:
 
 ## 2024-02-14
 
-Add a proper <a href="https://github.com/aukspot/dles/blob/main/README.md" target="_blank">README</a>.<br>Remove daily and unlimited tags for simplicity.<br>Add archive tag. <br>Add 7 dles, remove 1.
+Add a proper <a class="changelog-link" href="https://github.com/aukspot/dles/blob/main/README.md" target="_blank">README</a>.<br>Remove daily and unlimited tags for simplicity.<br>Add archive tag. <br>Add 7 dles, remove 1.
 
 dles added: 
 |    | name                                                             | url                                                                            |

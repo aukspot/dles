@@ -4,12 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --num-columns: 2;
-}
-
 a {
   @apply text-colorLink hover:text-colorLinkHover active:text-colorLinkActive;
+}
+
+.changelog-link {
+  @apply underline;
 }
 
 .btn {
