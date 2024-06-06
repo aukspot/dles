@@ -2,7 +2,7 @@
   import { fly } from "svelte/transition"
 </script>
 
-<div transition:fly={{ y: -100, duration: 200 }}>
+<div transition:fly={{ y: 100, duration: 150 }}>
   <slot />
 </div>
 

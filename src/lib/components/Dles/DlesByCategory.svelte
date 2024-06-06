@@ -1,70 +1,37 @@
 <script>
   import { fly } from "svelte/transition"
-  import { categories, categoryColors, filteredDles } from "$lib/stores"
+  import {
+    categories,
+    categoryColors,
+    categorizedDles,
+    poppedUpDle,
+  } from "$lib/stores"
 
   import DlePopUp from "./DlePopUp.svelte"
-  import IconGeography from "../Icons/IconGeography.svelte"
-  import IconMath from "../Icons/IconMath.svelte"
-  import IconMiscellaneous from "../Icons/IconMiscellaneous.svelte"
-  import IconMovies from "../Icons/IconMovies.svelte"
-  import IconMusic from "../Icons/IconMusic.svelte"
-  import IconPrices from "../Icons/IconPrices.svelte"
-  import IconSports from "../Icons/IconSports.svelte"
-  import IconTrivia from "../Icons/IconTrivia.svelte"
-  import IconVideoGames from "../Icons/IconVideoGames.svelte"
-  import IconWords from "../Icons/IconWords.svelte"
 
+  import { categoryIcons } from "$lib/js/categoryIcons"
   import { clickOutside } from "$lib/js/clickOutside"
 
-  let expandedDle = ""
   let pageX = 0
   let pageY = 0
   let clientY = 0
 
-  const categoryIcons = {
-    "Geography/History": IconGeography,
-    "Math/Logic": IconMath,
-    "Movies/TV": IconMovies,
-    Music: IconMusic,
-    Prices: IconPrices,
-    Sports: IconSports,
-    Trivia: IconTrivia,
-    "Video Games": IconVideoGames,
-    Words: IconWords,
-    Miscellaneous: IconMiscellaneous,
-  }
-
-  let categorizedDles = {}
-  for (let category of $categories) {
-    categorizedDles[category] = $filteredDles.filter(
-      (dle) => dle.category == category,
-    )
-  }
-
-  $: {
-    for (let category of $categories) {
-      categorizedDles[category] = $filteredDles.filter(
-        (dle) => dle.category == category,
-      )
-    }
-  }
-
-  function resetExpandedDle() {
-    expandedDle = ""
+  function resetPoppedUpDle() {
+    $poppedUpDle = ""
   }
 
   function handleKeyUp(event) {
     if (event.key == "Escape") {
-      resetExpandedDle()
+      resetPoppedUpDle()
     }
   }
 
   function handleClickOutside() {
-    resetExpandedDle()
+    resetPoppedUpDle()
   }
 </script>
 
-<svelte:window on:resize={resetExpandedDle} />
+<svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <div class="dlesContainer" in:fly={{ y: 500, duration: 150 }}>
   {#each $categories as category, i (i)}
@@ -82,27 +49,27 @@
       </div>
       <div>
         <ol class="dleList">
-          {#each categorizedDles[category] as dle, j (j)}
+          {#each $categorizedDles[category] as dle, j (j)}
             <li class="dleContainer">
               <!-- svelte-ignore a11y-click-events-have-key-events -->
               <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
               <!-- svelte-ignore a11y-no-static-element-interactions -->
               <div class="dleTop">
-                <span
+                <button
                   class="dleName"
                   on:click={(e) => {
-                    expandedDle === dle.name
-                      ? (expandedDle = "")
-                      : (expandedDle = dle.name)
+                    $poppedUpDle === dle.name
+                      ? ($poppedUpDle = "")
+                      : ($poppedUpDle = dle.name)
                     pageX = e.pageX
                     pageY = e.pageY
                     clientY = e.clientY
                   }}
                 >
                   {dle.name}
-                </span>
+                </button>
               </div>
-              {#if expandedDle === dle.name}
+              {#if $poppedUpDle === dle.name}
                 <div use:clickOutside on:click_outside={handleClickOutside}>
                   <DlePopUp {dle} {pageX} {pageY} {clientY} />
                 </div>
@@ -135,7 +102,7 @@
     @apply p-1 px-2;
   }
   .dleName {
-    @apply inline-block text-base text-colorText underline decoration-colorTextSoftest cursor-pointer;
+    @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft transition-all duration-300;
     text-decoration-thickness: 2px;
     width: auto;
   }
