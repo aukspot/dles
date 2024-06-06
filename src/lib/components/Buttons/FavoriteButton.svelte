@@ -10,12 +10,13 @@
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
   let unFavoriteColor = "transparent"
 
+  $: {
+    $favorites
+    setFill()
+  }
+
   onMount(() => {
-    if (inFavorites(dle)) {
-      favoriteFill = favoriteColor
-    } else {
-      favoriteFill = unFavoriteColor
-    }
+    setFill()
   })
 
   function inFavorites(dle) {
@@ -25,6 +26,14 @@
       }
     }
     return false
+  }
+
+  function setFill() {
+    if (inFavorites(dle)) {
+      favoriteFill = favoriteColor
+    } else {
+      favoriteFill = unFavoriteColor
+    }
   }
 
   function removeFromFavorites(dle) {

@@ -6,7 +6,7 @@
   <title>The Dles - a curated collection of daily games.</title>
   <meta
     name="description"
-    content="A curated collection of free daily games. Contains 100+ games, like Wordle, Connections, Bandle, and many more."
+    content="A curated collection of free daily games. Contains 200+ games, like Wordle, Connections, Bandle, and many more."
   />
   <meta
     name="keywords"

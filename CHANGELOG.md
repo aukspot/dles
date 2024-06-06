@@ -1,5 +1,17 @@
 # Changelog - The Dles
 
+## 2024-06-06
+
+Add favorites.<br>Add 4 dles.
+
+dles added: 
+|    | name                                          | url                                                                  |
+|---:|:----------------------------------------------|:---------------------------------------------------------------------|
+|  1 | [Huewords](https://huewords.snellman.net/)    | [https://huewords.snellman.net/](https://huewords.snellman.net/)     |
+|  2 | [Flipple](https://flipple.clevergoat.com/)    | [https://flipple.clevergoat.com/](https://flipple.clevergoat.com/)   |
+|  3 | [Fibble](https://fibble.xyz/)                 | [https://fibble.xyz/](https://fibble.xyz/)                           |
+|  4 | [Word Grid](https://wordgrid.clevergoat.com/) | [https://wordgrid.clevergoat.com/](https://wordgrid.clevergoat.com/) |
+
 ## 2024-05-28
 
 Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a class="changelog-link" href="https://dles.aukspot.com/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.

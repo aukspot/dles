@@ -516,6 +516,16 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "Fibble",
+    "url": "https://fibble.xyz/",
+    "description": "Wordle but it lies to you.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Figure",
     "url": "https://figure.game/",
     "description": "Clear all of the tiles before running out of moves.",
@@ -553,6 +563,15 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Flipple",
+    "url": "https://flipple.clevergoat.com/",
+    "description": "Transform the starting word to the target word by changing one letter at a time",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Foodguessr",
@@ -828,6 +847,16 @@
       "prices"
     ],
     "category": "Prices"
+  },
+  {
+    "name": "Huewords",
+    "url": "https://huewords.snellman.net/",
+    "description": "Fill the partitioned grid with letters to form 5-letter words, choosing from the given groups of letters.",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Immaculate Footy",
@@ -1873,6 +1902,15 @@
     "name": "Word Connection",
     "url": "https://www.thewordfinder.com/word-connection/",
     "description": "Link a chain of 4 relevant words together.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Word Grid",
+    "url": "https://wordgrid.clevergoat.com/",
+    "description": "Fill the cells in the grid with words matching the criteria of both their row and column",
     "tags": [
       "words"
     ],

@@ -1,6 +1,4 @@
 <script>
-  import { base } from "$app/paths"
-
   import "../app.css"
   import dles_json from "$lib/data/dles.json"
 
@@ -100,11 +98,13 @@
     <main
       class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border"
     >
-      <Header />
-      {#if !loading && !$infoHidden}
-        <Info />
-      {/if}
-      <slot />
+      <div>
+        <Header />
+        {#if !loading && !$infoHidden}
+          <Info />
+        {/if}
+        <slot />
+      </div>
       <LatestChange />
     </main>
     <Footer />
