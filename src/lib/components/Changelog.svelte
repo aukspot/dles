@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths"
   import changelog from "$lib/data/changelog.json"
 </script>
 
@@ -8,9 +9,16 @@
       Changelog
     </summary>
     <div class="flex flex-col text-xs sm:text-sm md:text-base gap-2 mt-2">
+      <a href="{base}/changelog" class=" text-center">(view full changelog)</a>
       {#each changelog as entry}
         <div class="entry">
-          <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
+          <a
+            class="underline"
+            href="https://dles.aukspot.com/changelog#{entry.date}"
+          >
+            <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
+          </a>
+
           <section>{@html entry.description}</section>
         </div>
       {/each}

@@ -34,7 +34,7 @@
 
 <svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
-<p class="p-4 text-center text-sm">
+<p class="p-3 text-center text-sm">
   <strong>New feature</strong>: Favorites! Click the heart icon after selecting
   a dle to add/remove it from
   <a class="underline" href="{base}/favorites">your favorites</a>.

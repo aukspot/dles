@@ -52,7 +52,7 @@ a {
 }
 
 .menu-link {
-  @apply p-2 flex gap-2 justify-center text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB;
+  @apply p-2 flex gap-2 justify-center  text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB;
 }
 
 .only-md {
@@ -87,6 +87,18 @@ textarea {
 
 textarea {
   @apply m-2 resize-y min-h-10 max-h-32;
+}
+
+table {
+  @apply my-2 p-1 w-full border border-colorTextSoft border-spacing-3 shadow;
+}
+
+tr {
+  @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
+}
+
+td {
+ @apply p-1 text-sm md:text-base;
 }
 
 @layer utilities {

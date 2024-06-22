@@ -1,10 +1,12 @@
 <script>
   import "../app.css"
   import dles_json from "$lib/data/dles.json"
+  import changelog_json from "$lib/data/changelog.json"
 
   import {
     categories,
     categorizedDles,
+    changelog,
     dles,
     favorites,
     filteredDles,
@@ -55,8 +57,13 @@
     }
   }
 
+  function initializeChangelog() {
+    $changelog = changelog_json
+  }
+
   initializeDles()
   initializeTags()
+  initializeChangelog()
 
   for (let category of $categories) {
     $categorizedDles[category] = $dles.filter((dle) => dle.category == category)

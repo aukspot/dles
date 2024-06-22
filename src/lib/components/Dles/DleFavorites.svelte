@@ -25,7 +25,7 @@
 </script>
 
 {#if !loading}
-  <h2 class=" my-3 text-2xl text-center underline">Favorites</h2>
+  <h2 class="my-2 text-2xl text-center underline">Favorites</h2>
   <p class="pb-4 px-4 text-sm text-center mb-2">
     <strong>Note</strong>: favorites are a new feature, so please
     <a href="{base}/report" class="underline">report a bug</a> if you run into a
