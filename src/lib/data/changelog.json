@@ -1,7 +1,7 @@
 [
   {
     "date": "2024-06-21",
-    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 18 dles.",
+    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 19 dles.",
     "dles added": [
       {
         "name": "Capitale",
@@ -47,6 +47,7 @@
         "name": "Scramble",
         "url": "https://playscramble.vercel.app/?daily=1"
       },
+      { "name": "Shikaku of the day", "url": "https://shikakuofthe.day" },
       {
         "name": "Squaredle",
         "url": "https://squaredle.app"

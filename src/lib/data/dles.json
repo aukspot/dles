@@ -1678,6 +1678,17 @@
     "category": "Words"
   },
   {
+    "name": "Shikaku of the day",
+    "url": "https://shikakuofthe.day",
+    "description": "5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.",
+    "tags": [
+      "archive",
+      "logic",
+      "visual"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Smashdle",
     "url": "https://smashdle.net/",
     "description": "A bunch of daily games where you guess the character from Super Smash Bros.",

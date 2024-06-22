@@ -2,7 +2,7 @@
 
 ## 2024-06-21
 
-Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 18 dles.
+Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 19 dles.
 
 dles added: 
 |    | name                                                 | url                                                                                  |
@@ -18,13 +18,14 @@ dles added:
 |  9 | [Pokedle](https://pokedle.net)                       | [https://pokedle.net](https://pokedle.net)                                           |
 | 10 | [relatle.io](https://relatle.io)                     | [https://relatle.io](https://relatle.io)                                             |
 | 11 | [Scramble](https://playscramble.vercel.app/?daily=1) | [https://playscramble.vercel.app/?daily=1](https://playscramble.vercel.app/?daily=1) |
-| 12 | [Squaredle](https://squaredle.app)                   | [https://squaredle.app](https://squaredle.app)                                       |
-| 13 | [Summit Game](https://summit-puzzle.me)              | [https://summit-puzzle.me](https://summit-puzzle.me)                                 |
-| 14 | [Symble](https://www.symble.app)                     | [https://www.symble.app](https://www.symble.app)                                     |
-| 15 | [Worchle](https://www.worchle.com)                   | [https://www.worchle.com](https://www.worchle.com)                                   |
-| 16 | [Word Chain](https://wordnerd.co/wordchain/)         | [https://wordnerd.co/wordchain/](https://wordnerd.co/wordchain/)                     |
-| 17 | [Wordistance](https://wordistance.com/)              | [https://wordistance.com/](https://wordistance.com/)                                 |
-| 18 | [Zebra Puzzles](https://www.zebrapuzzles.com)        | [https://www.zebrapuzzles.com](https://www.zebrapuzzles.com)                         |
+| 12 | [Shikaku of the day](https://shikakuofthe.day)       | [https://shikakuofthe.day](https://shikakuofthe.day)                                 |
+| 13 | [Squaredle](https://squaredle.app)                   | [https://squaredle.app](https://squaredle.app)                                       |
+| 14 | [Summit Game](https://summit-puzzle.me)              | [https://summit-puzzle.me](https://summit-puzzle.me)                                 |
+| 15 | [Symble](https://www.symble.app)                     | [https://www.symble.app](https://www.symble.app)                                     |
+| 16 | [Worchle](https://www.worchle.com)                   | [https://www.worchle.com](https://www.worchle.com)                                   |
+| 17 | [Word Chain](https://wordnerd.co/wordchain/)         | [https://wordnerd.co/wordchain/](https://wordnerd.co/wordchain/)                     |
+| 18 | [Wordistance](https://wordistance.com/)              | [https://wordistance.com/](https://wordistance.com/)                                 |
+| 19 | [Zebra Puzzles](https://www.zebrapuzzles.com)        | [https://www.zebrapuzzles.com](https://www.zebrapuzzles.com)                         |
 
 ## 2024-06-06
 
