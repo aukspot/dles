@@ -1,5 +1,31 @@
 # Changelog - The Dles
 
+## 2024-06-21
+
+Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 18 dles.
+
+dles added: 
+|    | name                                                 | url                                                                                  |
+|---:|:-----------------------------------------------------|:-------------------------------------------------------------------------------------|
+|  1 | [Capitale](https://capitale.countryle.com)           | [https://capitale.countryle.com](https://capitale.countryle.com)                     |
+|  2 | [Daydoku](https://www.daydoku.com)                   | [https://www.daydoku.com](https://www.daydoku.com)                                   |
+|  3 | [Domino Fit](https://dominofit.isotropic.us/)        | [https://dominofit.isotropic.us/](https://dominofit.isotropic.us/)                   |
+|  4 | [Dotadle](https://dotadle.net)                       | [https://dotadle.net](https://dotadle.net)                                           |
+|  5 | [Fusele](https://fusele.netlify.app/?daily)          | [https://fusele.netlify.app/?daily](https://fusele.netlify.app/?daily)               |
+|  6 | [I Called Game](https://icalledgame.hoopgrids.com/)  | [https://icalledgame.hoopgrids.com/](https://icalledgame.hoopgrids.com/)             |
+|  7 | [Logiquiz](https://www.logiquiz.com)                 | [https://www.logiquiz.com](https://www.logiquiz.com)                                 |
+|  8 | [One Up Puzzle](https://www.oneuppuzzle.com)         | [https://www.oneuppuzzle.com](https://www.oneuppuzzle.com)                           |
+|  9 | [Pokedle](https://pokedle.net)                       | [https://pokedle.net](https://pokedle.net)                                           |
+| 10 | [relatle.io](https://relatle.io)                     | [https://relatle.io](https://relatle.io)                                             |
+| 11 | [Scramble](https://playscramble.vercel.app/?daily=1) | [https://playscramble.vercel.app/?daily=1](https://playscramble.vercel.app/?daily=1) |
+| 12 | [Squaredle](https://squaredle.app)                   | [https://squaredle.app](https://squaredle.app)                                       |
+| 13 | [Summit Game](https://summit-puzzle.me)              | [https://summit-puzzle.me](https://summit-puzzle.me)                                 |
+| 14 | [Symble](https://www.symble.app)                     | [https://www.symble.app](https://www.symble.app)                                     |
+| 15 | [Worchle](https://www.worchle.com)                   | [https://www.worchle.com](https://www.worchle.com)                                   |
+| 16 | [Word Chain](https://wordnerd.co/wordchain/)         | [https://wordnerd.co/wordchain/](https://wordnerd.co/wordchain/)                     |
+| 17 | [Wordistance](https://wordistance.com/)              | [https://wordistance.com/](https://wordistance.com/)                                 |
+| 18 | [Zebra Puzzles](https://www.zebrapuzzles.com)        | [https://www.zebrapuzzles.com](https://www.zebrapuzzles.com)                         |
+
 ## 2024-06-06
 
 Add favorites.<br>Add 4 dles.

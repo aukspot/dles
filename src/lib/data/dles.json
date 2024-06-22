@@ -192,6 +192,15 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Capitale",
+    "url": "https://capitale.countryle.com",
+    "description": "Guess the world capital in as few attempts as possible with the given clues.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
     "name": "Cell Tower",
     "url": "https://www.andrewt.net/puzzles/cell-tower/",
     "description": "Divide the grid into regions such that each region represents a word.",
@@ -447,6 +456,16 @@
     "category": "Geography/History"
   },
   {
+    "name": "Daydoku",
+    "url": "https://www.daydoku.com",
+    "description": "Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.",
+    "tags": [
+      "logic",
+      "visual"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Dicele",
     "url": "https://dicele.com/",
     "description": "Swap dice to make each row and column sum up to their target number.",
@@ -477,6 +496,16 @@
     "category": "Trivia"
   },
   {
+    "name": "Domino Fit",
+    "url": "https://dominofit.isotropic.us",
+    "description": "Fill the board with dominoes so that the dots add up in each row and column.",
+    "tags": [
+      "logic",
+      "visual"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Doople",
     "url": "https://www.dooplepuzzle.com/",
     "description": "Chain word combinations together to fit the given clues.",
@@ -495,6 +524,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Dotadle",
+    "url": "https://dotadle.net",
+    "description": "Guess the Dota characters in these daily quizzes.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Duotrigordle",
@@ -592,6 +630,16 @@
       "pictures"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Fusele",
+    "url": "https://fusele.netlify.app/?daily",
+    "description": "A Wordle variant in which each row has a unique twist.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Gamedle Artwork",
@@ -859,6 +907,17 @@
     "category": "Words"
   },
   {
+    "name": "I Called Game",
+    "url": "https://icalledgame.hoopgrids.com/",
+    "description": "Identify key details from an image of a historical NBA game to answer 6 questions.",
+    "tags": [
+      "archive",
+      "nba",
+      "sports"
+    ],
+    "category": "Sports"
+  },
+  {
     "name": "Immaculate Footy",
     "url": "https://www.immaculatefooty.com",
     "description": "Fill out the grid with soccer players matching the criteria of each cell's row and column.",
@@ -1034,6 +1093,15 @@
       "pictures"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Logiquiz",
+    "url": "https://www.logiquiz.com",
+    "description": "A self-referential logic quiz with 5 difficulty modes.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Lyricle",
@@ -1283,6 +1351,16 @@
     "category": "Geography/History"
   },
   {
+    "name": "One Up Puzzle",
+    "url": "https://www.oneuppuzzle.com",
+    "description": "Sudoku-style game where you need to fill segmented rows and columns with numbers.",
+    "tags": [
+      "logic",
+      "numbers"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "One Word Search",
     "url": "https://onewordsearch.com/",
     "description": "Repeatedly search for the only word in a grid of letters.",
@@ -1335,6 +1413,15 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Pokedle",
+    "url": "https://pokedle.net",
+    "description": "Guess the Pokemon in these daily quizzes.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Pokedoku",
@@ -1521,6 +1608,15 @@
     "category": "Words"
   },
   {
+    "name": "relatle.io",
+    "url": "https://relatle.io",
+    "description": "Get from one musical artist to another by linking through related artists.",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "Rhyme Time",
     "url": "https://www.rhymetime.co/",
     "description": "Guess the three words that all rhyme.",
@@ -1550,6 +1646,17 @@
     "category": "Geography/History"
   },
   {
+    "name": "Scramble",
+    "url": "https://playscramble.vercel.app/?daily=1",
+    "description": "Guess as many valid words as possible for each row of a scrambled grid of letters.",
+    "tags": [
+      "logic",
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Searchle",
     "url": "https://searchle.net/",
     "description": "Guess the secret word of the day by completing the Google search prompt.",
@@ -1565,6 +1672,7 @@
     "url": "https://semantle.com/",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
     "tags": [
+      "archive",
       "words"
     ],
     "category": "Words"
@@ -1647,6 +1755,15 @@
     "category": "Words"
   },
   {
+    "name": "Squaredle",
+    "url": "https://squaredle.app",
+    "description": "Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. Two puzzles each day.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Squares",
     "url": "https://squares.org/",
     "description": "Find all of the words in this daily Boggle game.",
@@ -1695,6 +1812,16 @@
     "category": "Words"
   },
   {
+    "name": "Summit Game",
+    "url": "https://summit-puzzle.me",
+    "description": "With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Summle",
     "url": "https://summle.net/",
     "description": "Reach the target number using the given numbers and operations. Includes a junior mode and hard mode.",
@@ -1731,6 +1858,16 @@
     "description": "Combine syllables to solve the clues.",
     "tags": [
       "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Symble",
+    "url": "https://www.symble.app",
+    "description": "A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.",
+    "tags": [
+      "logic",
       "words"
     ],
     "category": "Words"
@@ -1890,6 +2027,24 @@
     "category": "Geography/History"
   },
   {
+    "name": "Worchle",
+    "url": "https://www.worchle.com",
+    "description": "Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Word Chain",
+    "url": "https://wordnerd.co/wordchain/",
+    "description": "Connect the two unrelated words by adding a chain of related words between them.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Word Chase",
     "url": "https://wordchase.semantle.com/",
     "description": "Guess the secret word within 5 tries, receiving a new word as a hint before each guess.",
@@ -1966,6 +2121,16 @@
     "category": "Words"
   },
   {
+    "name": "Wordistance",
+    "url": "https://wordistance.com/",
+    "description": "Keep guessing words until you find the mystery word, each guess revealing the distance between the guessed word and mystery word.",
+    "tags": [
+      "logic",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Wordless",
     "url": "https://lessgames.com/wordless",
     "description": "Solve Wordle puzzles of various sizes.",
@@ -1994,5 +2159,14 @@
       "time"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Zebra Puzzles",
+    "url": "https://www.zebrapuzzles.com",
+    "description": "A collection of 5 daily logic puzzles of increasing difficulty.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
   }
 ]

@@ -1,12 +1,102 @@
 [
   {
+    "date": "2024-06-21",
+    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 18 dles.",
+    "dles added": [
+      {
+        "name": "Capitale",
+        "url": "https://capitale.countryle.com"
+      },
+      {
+        "name": "Daydoku",
+        "url": "https://www.daydoku.com"
+      },
+      {
+        "name": "Domino Fit",
+        "url": "https://dominofit.isotropic.us/"
+      },
+      {
+        "name": "Dotadle",
+        "url": "https://dotadle.net"
+      },
+      {
+        "name": "Fusele",
+        "url": "https://fusele.netlify.app/?daily"
+      },
+      {
+        "name": "I Called Game",
+        "url": "https://icalledgame.hoopgrids.com/"
+      },
+      {
+        "name": "Logiquiz",
+        "url": "https://www.logiquiz.com"
+      },
+      {
+        "name": "One Up Puzzle",
+        "url": "https://www.oneuppuzzle.com"
+      },
+      {
+        "name": "Pokedle",
+        "url": "https://pokedle.net"
+      },
+      {
+        "name": "relatle.io",
+        "url": "https://relatle.io"
+      },
+      {
+        "name": "Scramble",
+        "url": "https://playscramble.vercel.app/?daily=1"
+      },
+      {
+        "name": "Squaredle",
+        "url": "https://squaredle.app"
+      },
+      {
+        "name": "Summit Game",
+        "url": "https://summit-puzzle.me"
+      },
+      {
+        "name": "Symble",
+        "url": "https://www.symble.app"
+      },
+      {
+        "name": "Worchle",
+        "url": "https://www.worchle.com"
+      },
+      {
+        "name": "Word Chain",
+        "url": "https://wordnerd.co/wordchain/"
+      },
+      {
+        "name": "Wordistance",
+        "url": "https://wordistance.com/"
+      },
+      {
+        "name": "Zebra Puzzles",
+        "url": "https://www.zebrapuzzles.com"
+      }
+    ]
+  },
+  {
     "date": "2024-06-06",
     "description": "Add favorites.<br>Add 4 dles.",
     "dles added": [
-      { "name": "Huewords", "url": "https://huewords.snellman.net/" },
-      { "name": "Flipple", "url": "https://flipple.clevergoat.com/" },
-      { "name": "Fibble", "url": "https://fibble.xyz/" },
-      { "name": "Word Grid", "url": "https://wordgrid.clevergoat.com/" }
+      {
+        "name": "Huewords",
+        "url": "https://huewords.snellman.net/"
+      },
+      {
+        "name": "Flipple",
+        "url": "https://flipple.clevergoat.com/"
+      },
+      {
+        "name": "Fibble",
+        "url": "https://fibble.xyz/"
+      },
+      {
+        "name": "Word Grid",
+        "url": "https://wordgrid.clevergoat.com/"
+      }
     ]
   },
   {
