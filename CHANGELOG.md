@@ -2,7 +2,7 @@
 
 ## 2024-06-22
 
-Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 27 dles.
+Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 27 dles.<br>Remove 1 dle.
 
 dles added: 
 |    | name                                                 | url                                                                                  |
@@ -32,6 +32,10 @@ dles added:
 | 23 | [Wordistance](https://wordistance.com)               | [https://wordistance.com](https://wordistance.com)                                   |
 | 24 | [Zebra Puzzles](https://www.zebrapuzzles.com)        | [https://www.zebrapuzzles.com](https://www.zebrapuzzles.com)                         |
 
+dles removed: 
+|    | name                                                       | url                                                        | reason                           |
+|---:|:-----------------------------------------------------------|:-----------------------------------------------------------|:---------------------------------|
+|  1 | [Moviedle - Twenty Questions](https://moviedle.xyz/twenty) | [https://moviedle.xyz/twenty](https://moviedle.xyz/twenty) | Now part of a paid subscription. |
 ## 2024-06-06
 
 Add favorites.<br>Add 4 dles.

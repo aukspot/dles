@@ -1,7 +1,7 @@
 [
   {
     "date": "2024-06-22",
-    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 27 dles.",
+    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 27 dles.<br>Remove 1 dle.",
     "dles added": [
       {
         "name": "Capitale",
@@ -80,6 +80,13 @@
       {
         "name": "Zebra Puzzles",
         "url": "https://www.zebrapuzzles.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Moviedle - Twenty Questions",
+        "url": "https://moviedle.xyz/twenty",
+        "reason": "Now part of a paid subscription."
       }
     ]
   },

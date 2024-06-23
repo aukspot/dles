@@ -1259,15 +1259,6 @@
     "category": "Movies/TV"
   },
   {
-    "name": "Moviedle - Twenty Questions",
-    "url": "https://moviedle.xyz/twenty",
-    "description": "You have 20 yes or no questions to figure out the secret movie.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-  {
     "name": "Moviemoji",
     "url": "https://www.playmoviemoji.com",
     "description": "Guess the movie based on the given emojis.",
