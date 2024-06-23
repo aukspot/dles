@@ -13,7 +13,7 @@
       {#each changelog as entry}
         <div class="entry">
           <a
-            class="underline"
+            class="time underline"
             href="https://dles.aukspot.com/changelog#{entry.date}"
           >
             <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
@@ -30,7 +30,7 @@
   .entry {
     @apply mt-2 flex flex-nowrap gap-2;
   }
-  time {
+  .time {
     @apply font-mono flex-shrink-0;
   }
 </style>
