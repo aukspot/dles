@@ -1,12 +1,13 @@
 [
   {
-    "date": "2024-06-21",
-    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 19 dles.",
+    "date": "2024-06-22",
+    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 26 dles.",
     "dles added": [
       {
         "name": "Capitale",
         "url": "https://capitale.countryle.com"
       },
+      { "name": "Circuits", "url": "https://circuitsgame.com" },
       {
         "name": "Daydoku",
         "url": "https://www.daydoku.com"
@@ -52,6 +53,7 @@
         "name": "Squaredle",
         "url": "https://squaredle.app"
       },
+      { "name": "Squeezy", "url": "https://imsqueezy.com" },
       {
         "name": "Summit Game",
         "url": "https://summit-puzzle.me"
@@ -60,6 +62,8 @@
         "name": "Symble",
         "url": "https://www.symble.app"
       },
+      { "name": "Synthmaze", "url": "https://synthmaze.heliante.io/#/daily" },
+      { "name": "Toppled", "url": "https://bythomas.co.uk/toppled/" },
       {
         "name": "Worchle",
         "url": "https://www.worchle.com"

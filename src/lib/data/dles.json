@@ -201,6 +201,16 @@
     "category": "Geography/History"
   },
   {
+    "name": "Categories",
+    "url": "https://categories.clevergoat.com",
+    "description": "Group the words in the grid into the 4 secret categories, like Connections or Conexo.",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Cell Tower",
     "url": "https://www.andrewt.net/puzzles/cell-tower/",
     "description": "Divide the grid into regions such that each region represents a word.",
@@ -286,6 +296,16 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Circuits",
+    "url": "https://circuitsgame.com",
+    "description": "Place words into the empty boxes so that each connection of two words make a compound word.",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Colorfle",
@@ -1038,6 +1058,15 @@
     "category": "Words"
   },
   {
+    "name": "LetterLoop",
+    "url": "https://theletterloop.com",
+    "description": "Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Letterset",
     "url": "https://www.letterset.net/daily",
     "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
@@ -1270,6 +1299,16 @@
     "name": "Numble",
     "url": "https://numble.wtf/",
     "description": "Reach the target number only using operations and each given number exactly once.",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Numbobulate",
+    "url": "https://www.numbobulate.com",
+    "description": "Use the numbers and operations in the square to reach the target number.",
     "tags": [
       "math",
       "numbers"
@@ -1784,6 +1823,15 @@
     "category": "Words"
   },
   {
+    "name": "Squeezy",
+    "url": "https://imsqueezy.com",
+    "description": "Insert the given letters into the given words to make new words and reveal the secret word, phrase, or name.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Squirdle Daily",
     "url": "https://squirdle.fireblend.com/daily.html",
     "description": "Guess today's pokemon within 9 guesses.",
@@ -1884,6 +1932,15 @@
     "category": "Words"
   },
   {
+    "name": "Synthmaze",
+    "url": "https://synthmaze.heliante.io/#/daily",
+    "description": "Swap tiles in the maze so that the rocket reaches the exit.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "The Wikipedia Game",
     "url": "https://www.thewikipediagame.com/",
     "description": "Race from one Wikipedia page to the target page using as few links as possible",
@@ -1931,6 +1988,15 @@
     "description": "Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.",
     "tags": [
       "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Toppled",
+    "url": "https://bythomas.co.uk/toppled/",
+    "description": "Topple the letter wall by finding four 5-letter words",
+    "tags": [
       "words"
     ],
     "category": "Words"
