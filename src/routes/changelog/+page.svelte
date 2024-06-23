@@ -43,18 +43,21 @@
               <tr>
                 <th colspan="2">dles removed</th>
               </tr>
-              <tr>
-                <th class="head-small">name</th>
-                <th class="head-small">url</th>
-              </tr>
             </thead>
             {#each log["dles removed"] as dleRemoved}
               <tr>
-                <td class="text-left">{dleRemoved.name}</td>
-                <td
-                  ><a href={dleRemoved.url} target="_blank">{dleRemoved.url}</a
-                  ></td
-                >
+                <td colspan="2">
+                  <div><strong>name</strong>: {dleRemoved.name}</div>
+
+                  <div>
+                    <strong>url</strong>:
+                    <a href={dleRemoved.url} target="_blank">{dleRemoved.url}</a
+                    >
+                  </div>
+                  <div>
+                    <strong>reason removed</strong>: {dleRemoved.reason}
+                  </div>
+                </td>
               </tr>
             {/each}
           </table>
