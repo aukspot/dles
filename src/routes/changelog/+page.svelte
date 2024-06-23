@@ -68,10 +68,17 @@
   #changelog {
     @apply max-w-[40rem] m-auto;
   }
+  table {
+    table-layout: fixed;
+  }
   th,
   td {
     @apply p-1 border border-colorTextSoft border-collapse;
   }
+  a {
+    @apply break-words;
+  }
+
   .head-small {
     @apply bg-colorBackground;
   }

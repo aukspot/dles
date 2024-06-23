@@ -98,7 +98,7 @@ tr {
 }
 
 td {
- @apply p-1 text-sm md:text-base;
+  @apply p-1 text-sm md:text-base;
 }
 
 @layer utilities {
