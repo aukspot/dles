@@ -256,9 +256,9 @@ dles added:
 |  7 | [WordAll](https://wordall.xyz)                                   | [https://wordall.xyz](https://wordall.xyz)                                     |
 
 dles removed: 
-|    | name                                                           | url                                                                    |
-|---:|:---------------------------------------------------------------|:-----------------------------------------------------------------------|
-|  1 | [Gamedle Classic Unlimited](https://www.gamedle.wtf/unlimited) | [https://www.gamedle.wtf/unlimited](https://www.gamedle.wtf/unlimited) |
+|    | name                                                           | url                                                                    | reason            |
+|---:|:---------------------------------------------------------------|:-----------------------------------------------------------------------|:------------------|
+|  1 | [Gamedle Classic Unlimited](https://www.gamedle.wtf/unlimited) | [https://www.gamedle.wtf/unlimited](https://www.gamedle.wtf/unlimited) | Not a daily game. |
 ## 2024-02-13
 
 Add tags with include/exclude filters.<br>Add dark mode toggle.<br>Add 57 dles.

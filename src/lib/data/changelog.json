@@ -752,7 +752,8 @@
     "dles removed": [
       {
         "name": "Gamedle Classic Unlimited",
-        "url": "https://www.gamedle.wtf/unlimited"
+        "url": "https://www.gamedle.wtf/unlimited",
+        "reason": "Not a daily game."
       }
     ]
   },
