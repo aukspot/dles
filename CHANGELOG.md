@@ -2,7 +2,7 @@
 
 ## 2024-06-22
 
-Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 26 dles.
+Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 27 dles.
 
 dles added: 
 |    | name                                                 | url                                                                                  |
@@ -12,24 +12,25 @@ dles added:
 |  3 | [Daydoku](https://www.daydoku.com)                   | [https://www.daydoku.com](https://www.daydoku.com)                                   |
 |  4 | [Domino Fit](https://dominofit.isotropic.us/)        | [https://dominofit.isotropic.us/](https://dominofit.isotropic.us/)                   |
 |  5 | [Dotadle](https://dotadle.net)                       | [https://dotadle.net](https://dotadle.net)                                           |
-|  6 | [Fusele](https://fusele.netlify.app/?daily)          | [https://fusele.netlify.app/?daily](https://fusele.netlify.app/?daily)               |
-|  7 | [I Called Game](https://icalledgame.hoopgrids.com/)  | [https://icalledgame.hoopgrids.com/](https://icalledgame.hoopgrids.com/)             |
-|  8 | [Logiquiz](https://www.logiquiz.com)                 | [https://www.logiquiz.com](https://www.logiquiz.com)                                 |
-|  9 | [One Up Puzzle](https://www.oneuppuzzle.com)         | [https://www.oneuppuzzle.com](https://www.oneuppuzzle.com)                           |
-| 10 | [Pokedle](https://pokedle.net)                       | [https://pokedle.net](https://pokedle.net)                                           |
-| 11 | [relatle.io](https://relatle.io)                     | [https://relatle.io](https://relatle.io)                                             |
-| 12 | [Scramble](https://playscramble.vercel.app/?daily=1) | [https://playscramble.vercel.app/?daily=1](https://playscramble.vercel.app/?daily=1) |
-| 13 | [Shikaku of the day](https://shikakuofthe.day)       | [https://shikakuofthe.day](https://shikakuofthe.day)                                 |
-| 14 | [Squaredle](https://squaredle.app)                   | [https://squaredle.app](https://squaredle.app)                                       |
-| 15 | [Squeezy](https://imsqueezy.com)                     | [https://imsqueezy.com](https://imsqueezy.com)                                       |
-| 16 | [Summit Game](https://summit-puzzle.me)              | [https://summit-puzzle.me](https://summit-puzzle.me)                                 |
-| 17 | [Symble](https://www.symble.app)                     | [https://www.symble.app](https://www.symble.app)                                     |
-| 18 | [Synthmaze](https://synthmaze.heliante.io/#/daily)   | [https://synthmaze.heliante.io/#/daily](https://synthmaze.heliante.io/#/daily)       |
-| 19 | [Toppled](https://bythomas.co.uk/toppled/)           | [https://bythomas.co.uk/toppled/](https://bythomas.co.uk/toppled/)                   |
-| 20 | [Worchle](https://www.worchle.com)                   | [https://www.worchle.com](https://www.worchle.com)                                   |
-| 21 | [Word Chain](https://wordnerd.co/wordchain/)         | [https://wordnerd.co/wordchain/](https://wordnerd.co/wordchain/)                     |
-| 22 | [Wordistance](https://wordistance.com/)              | [https://wordistance.com/](https://wordistance.com/)                                 |
-| 23 | [Zebra Puzzles](https://www.zebrapuzzles.com)        | [https://www.zebrapuzzles.com](https://www.zebrapuzzles.com)                         |
+|  6 | [faces](https://faces.wtf/)                          | [https://faces.wtf/](https://faces.wtf/)                                             |
+|  7 | [Fusele](https://fusele.netlify.app/?daily)          | [https://fusele.netlify.app/?daily](https://fusele.netlify.app/?daily)               |
+|  8 | [I Called Game](https://icalledgame.hoopgrids.com/)  | [https://icalledgame.hoopgrids.com/](https://icalledgame.hoopgrids.com/)             |
+|  9 | [Logiquiz](https://www.logiquiz.com)                 | [https://www.logiquiz.com](https://www.logiquiz.com)                                 |
+| 10 | [One Up Puzzle](https://www.oneuppuzzle.com)         | [https://www.oneuppuzzle.com](https://www.oneuppuzzle.com)                           |
+| 11 | [Pokedle](https://pokedle.net)                       | [https://pokedle.net](https://pokedle.net)                                           |
+| 12 | [relatle.io](https://relatle.io)                     | [https://relatle.io](https://relatle.io)                                             |
+| 13 | [Scramble](https://playscramble.vercel.app/?daily=1) | [https://playscramble.vercel.app/?daily=1](https://playscramble.vercel.app/?daily=1) |
+| 14 | [Shikaku of the day](https://shikakuofthe.day)       | [https://shikakuofthe.day](https://shikakuofthe.day)                                 |
+| 15 | [Squaredle](https://squaredle.app)                   | [https://squaredle.app](https://squaredle.app)                                       |
+| 16 | [Squeezy](https://imsqueezy.com)                     | [https://imsqueezy.com](https://imsqueezy.com)                                       |
+| 17 | [Summit Game](https://summit-puzzle.me)              | [https://summit-puzzle.me](https://summit-puzzle.me)                                 |
+| 18 | [Symble](https://www.symble.app)                     | [https://www.symble.app](https://www.symble.app)                                     |
+| 19 | [Synthmaze](https://synthmaze.heliante.io/#/daily)   | [https://synthmaze.heliante.io/#/daily](https://synthmaze.heliante.io/#/daily)       |
+| 20 | [Toppled](https://bythomas.co.uk/toppled/)           | [https://bythomas.co.uk/toppled/](https://bythomas.co.uk/toppled/)                   |
+| 21 | [Worchle](https://www.worchle.com)                   | [https://www.worchle.com](https://www.worchle.com)                                   |
+| 22 | [Word Chain](https://wordnerd.co/wordchain/)         | [https://wordnerd.co/wordchain/](https://wordnerd.co/wordchain/)                     |
+| 23 | [Wordistance](https://wordistance.com/)              | [https://wordistance.com/](https://wordistance.com/)                                 |
+| 24 | [Zebra Puzzles](https://www.zebrapuzzles.com)        | [https://www.zebrapuzzles.com](https://www.zebrapuzzles.com)                         |
 
 ## 2024-06-06
 

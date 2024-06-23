@@ -1,7 +1,7 @@
 [
   {
     "date": "2024-06-22",
-    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 26 dles.",
+    "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 27 dles.",
     "dles added": [
       {
         "name": "Capitale",
@@ -20,6 +20,7 @@
         "name": "Dotadle",
         "url": "https://dotadle.net"
       },
+      { "name": "faces", "url": "https://faces.wtf/" },
       {
         "name": "Fusele",
         "url": "https://fusele.netlify.app/?daily"

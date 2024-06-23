@@ -574,6 +574,17 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "faces",
+    "url": "https://faces.wtf/",
+    "description": "Guess the names of the movie stars that are blended together into a single image.",
+    "tags": [
+      "archive",
+      "movies",
+      "pictures"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Fibble",
     "url": "https://fibble.xyz/",
     "description": "Wordle but it lies to you.",
