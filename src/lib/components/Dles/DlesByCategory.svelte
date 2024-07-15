@@ -12,6 +12,7 @@
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { clickOutside } from "$lib/js/clickOutside"
   import { base } from "$app/paths"
+  import BannerText from "../BannerText.svelte"
 
   let pageX = 0
   let pageY = 0
@@ -34,11 +35,7 @@
 
 <svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
-<p class="p-3 text-center text-sm">
-  <strong>New feature</strong>: Favorites! Click the heart icon after selecting
-  a dle to add/remove it from
-  <a class="underline" href="{base}/favorites">your favorites</a>.
-</p>
+<BannerText />
 <div class="dlesContainer" in:fly={{ y: 500, duration: 150 }}>
   {#each $categories as category, i (i)}
     <div class="card">

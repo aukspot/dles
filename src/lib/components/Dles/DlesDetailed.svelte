@@ -1,8 +1,10 @@
 <script>
   import { filteredDles } from "$lib/stores"
+  import BannerText from "../BannerText.svelte"
   import DleCard from "./DleCard.svelte"
 </script>
 
+<BannerText />
 <ol class="mt-4 px-1 gap-2 grid grid-cols-1 lg:grid-cols-2">
   {#each $filteredDles as dle, i (i)}
     <li>
