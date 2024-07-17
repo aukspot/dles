@@ -1,0 +1,16 @@
+[
+  {
+    "name": "PlusWord",
+    "url": "https://puzzles-prod.telegraph.co.uk/plusword",
+    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
+    "tags": ["words"],
+    "category": "Words"
+  },
+  {
+    "name": "Verticle",
+    "url": "https://verticle.netlify.app",
+    "description": "A vertical variant of Wordle",
+    "tags": ["wordle", "words"],
+    "category": "Words"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "NYT Connections Archive",
+    "url": "https://connectionsplus.io/nyt-archive?sortBy=newest&page=1",
+    "description": "A fan-made archive of NYT Connections puzzles, includes tons of community-made puzzles and a puzzle creation tool."
+  },
+  {
+    "name": "Simon Tatham's Portable Puzzle Collection",
+    "url": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles",
+    "description": "A collection of 40 unique logic puzzle games."
+  }
+]
