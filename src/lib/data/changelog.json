@@ -1,5 +1,103 @@
 [
   {
+    "date": "2024-07-20",
+    "description": "Add 23 dles.",
+    "dles added": [
+      {
+        "name": "Balatrodle",
+        "url": "https://www.balatrodle.com"
+      },
+      {
+        "name": "ClickWord",
+        "url": "https://clickword.org"
+      },
+      {
+        "name": "cryptle",
+        "url": "https://cryptle.xyz"
+      },
+      {
+        "name": "Decipher",
+        "url": "https://decipher.wtf"
+      },
+      {
+        "name": "Eruptle",
+        "url": "https://eruptle.app"
+      },
+      {
+        "name": "Factle",
+        "url": "https://factle.app"
+      },
+      {
+        "name": "Factle Sports",
+        "url": "https://factle.app/sports"
+      },
+      {
+        "name": "Mahjong Handle",
+        "url": "https://mahjong-handle.update.sh"
+      },
+      {
+        "name": "Mazele",
+        "url": "https://mazele.io"
+      },
+      {
+        "name": "Minute Cryptic",
+        "url": "https://www.minutecryptic.com"
+      },
+      {
+        "name": "On the Record",
+        "url": "https://www.washingtonpost.com/news-quiz"
+      },
+      {
+        "name": "Orbits",
+        "url": "https://www.playorbits.com"
+      },
+      {
+        "name": "Outword",
+        "url": "https://outword.me"
+      },
+      {
+        "name": "PlusWord",
+        "url": "https://puzzles-prod.telegraph.co.uk/plusword"
+      },
+      {
+        "name": "Pocket Puzzles",
+        "url": "https://playpocketpuzzles.com"
+      },
+      {
+        "name": "Rotaboxes",
+        "url": "https://rotaboxes.com"
+      },
+      {
+        "name": "sedecordle",
+        "url": "https://sedecordle.com"
+      },
+      {
+        "name": "Soulsborndle",
+        "url": "https://malthesers.github.io/soulsborndle"
+      },
+      {
+        "name": "Squareword",
+        "url": "https://squareword.org"
+      },
+      {
+        "name": "Verticle",
+        "url": "https://verticle.netlify.app"
+      },
+      {
+        "name": "Waffle",
+        "url": "https://wafflegame.net/daily"
+      },
+      {
+        "name": "WordLinx",
+        "url": "https://sacsgames.com/wordlinx"
+      },
+      {
+        "name": "xdle",
+        "url": "https://zaratustra.itch.io/xdle"
+      }
+    ]
+  },
+  {
     "date": "2024-06-22",
     "description": "Add <a href=\"https://dles.aukspot.com/changelog\">changelog page</a>.<br>Add 27 dles.<br>Remove 1 dle.",
     "dles added": [
@@ -7,7 +105,10 @@
         "name": "Capitale",
         "url": "https://capitale.countryle.com"
       },
-      { "name": "Circuits", "url": "https://circuitsgame.com" },
+      {
+        "name": "Circuits",
+        "url": "https://circuitsgame.com"
+      },
       {
         "name": "Daydoku",
         "url": "https://www.daydoku.com"
@@ -20,7 +121,10 @@
         "name": "Dotadle",
         "url": "https://dotadle.net"
       },
-      { "name": "faces", "url": "https://faces.wtf" },
+      {
+        "name": "faces",
+        "url": "https://faces.wtf"
+      },
       {
         "name": "Fusele",
         "url": "https://fusele.netlify.app/?daily"
@@ -49,12 +153,18 @@
         "name": "Scramble",
         "url": "https://playscramble.vercel.app/?daily=1"
       },
-      { "name": "Shikaku of the day", "url": "https://shikakuofthe.day" },
+      {
+        "name": "Shikaku of the day",
+        "url": "https://shikakuofthe.day"
+      },
       {
         "name": "Squaredle",
         "url": "https://squaredle.app"
       },
-      { "name": "Squeezy", "url": "https://imsqueezy.com" },
+      {
+        "name": "Squeezy",
+        "url": "https://imsqueezy.com"
+      },
       {
         "name": "Summit Game",
         "url": "https://summit-puzzle.me"
@@ -63,8 +173,14 @@
         "name": "Symble",
         "url": "https://www.symble.app"
       },
-      { "name": "Synthmaze", "url": "https://synthmaze.heliante.io/#/daily" },
-      { "name": "Toppled", "url": "https://bythomas.co.uk/toppled" },
+      {
+        "name": "Synthmaze",
+        "url": "https://synthmaze.heliante.io/#/daily"
+      },
+      {
+        "name": "Toppled",
+        "url": "https://bythomas.co.uk/toppled"
+      },
       {
         "name": "Worchle",
         "url": "https://www.worchle.com"

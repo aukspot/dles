@@ -10,6 +10,7 @@ from colour import Color
 
 
 DLES_FILE = "../lib/data/dles.json"
+NEW_DLES_FILE = "../lib/data/new_dles.json"
 TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
@@ -33,6 +34,14 @@ def sort_dles():
   write_dles(dles)
 
 
+def sort_new_dles():
+  backup_file(DLES_FILE)
+
+  dles = read_new_dles()
+  dles.sort(key=lambda d: d["name"].lower())
+  write_new_dles(dles)
+
+
 def backup_file(f):
   shutil.copy(f, f"{f}.bak")
 
@@ -45,6 +54,32 @@ def read_dles():
 def write_dles(d):
   with open(DLES_FILE, "w+") as f:
     f.write(json.dumps(d, indent=2))
+
+
+def read_new_dles():
+  with open(NEW_DLES_FILE, "r") as f:
+    return json.loads(f.read())
+
+
+def write_new_dles(d):
+  with open(NEW_DLES_FILE, "w+") as f:
+    f.write(json.dumps(d, indent=2))
+
+
+def add_new_dles_to_changelog():
+  changelog_json = read_changelog()
+  new_dles = read_new_dles()
+  entry = {"dles added": []}
+  for dle in new_dles:
+    entry["dles added"].append({
+      "name": dle["name"],
+      "url": dle["url"]
+    })
+  new_changelog = [entry] + changelog_json
+  backup_file(CHANGELOG_JSON)
+  with open(CHANGELOG_JSON, "w+") as f:
+    f.write(json.dumps(new_changelog, indent=2))
+
 
 
 def extract_tags(dles):
@@ -176,5 +211,5 @@ def write_dles_to_readme_md():
 
 
 if __name__ == "__main__":
-  # write_dles_to_readme_md()
+  add_new_dles_to_changelog()
   pass

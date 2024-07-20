@@ -113,6 +113,15 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "Balatrodle",
+    "url": "https://www.balatrodle.com",
+    "description": "Guess the Joker from the game Balatro.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Bandle",
     "url": "https://bandle.app",
     "description": "Guess the song, one instrument at a time (sort of).",
@@ -308,6 +317,15 @@
     "category": "Words"
   },
   {
+    "name": "ClickWord",
+    "url": "https://clickword.org",
+    "description": "Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Colorfle",
     "url": "https://colorfle.org/index.html",
     "description": "Figure out the color composition of the given color.",
@@ -437,6 +455,15 @@
     "category": "Words"
   },
   {
+    "name": "cryptle",
+    "url": "https://cryptle.xyz",
+    "description": "Slide each row of letters in to the right position to guess the secret word. You have 5 guesses.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Daily Dozen Trivia",
     "url": "https://dailydozentrivia.com",
     "description": "Answer 9 trivia questions from various categories.",
@@ -484,6 +511,15 @@
       "visual"
     ],
     "category": "Miscellaneous"
+  },
+  {
+    "name": "Decipher",
+    "url": "https://decipher.wtf",
+    "description": "Solve the daily cryptogram to reveal the quote.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Dicele",
@@ -565,6 +601,15 @@
     "category": "Words"
   },
   {
+    "name": "Eruptle",
+    "url": "https://eruptle.app",
+    "description": "Guess the 10 items that fit the prompt, kind of like Family Feud.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Facedle",
     "url": "https://facedle.app",
     "description": "Guess the famous person in the partially covered picture.",
@@ -583,6 +628,25 @@
       "pictures"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Factle",
+    "url": "https://factle.app",
+    "description": "Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
+    "name": "Factle Sports",
+    "url": "https://factle.app/sports",
+    "description": "Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.",
+    "tags": [
+      "sports",
+      "trivia"
+    ],
+    "category": "Sports"
   },
   {
     "name": "Fibble",
@@ -1153,6 +1217,13 @@
     "category": "Music"
   },
   {
+    "name": "Mahjong Handle",
+    "url": "https://mahjong-handle.update.sh",
+    "description": "Guess the Riichi Mahjong hand in 6 tries.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "MapGame",
     "url": "https://mapgame.net",
     "description": "Use the map to guess a country, getting new hints after each guess.",
@@ -1173,6 +1244,16 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Mazele",
+    "url": "https://mazele.io",
+    "description": "Guess the correct maze path in the grid in 6 tries or less.",
+    "tags": [
+      "logic",
+      "math"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Metaflora",
     "url": "https://flora.metazooa.com",
     "description": "Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.",
@@ -1189,6 +1270,15 @@
       "science"
     ],
     "category": "Miscellaneous"
+  },
+  {
+    "name": "Minute Cryptic",
+    "url": "https://www.minutecryptic.com",
+    "description": "Solve today's cryptic clue.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Mislettered",
@@ -1392,6 +1482,15 @@
     "category": "Geography/History"
   },
   {
+    "name": "On the Record",
+    "url": "https://www.washingtonpost.com/news-quiz",
+    "description": "Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "One Up Puzzle",
     "url": "https://www.oneuppuzzle.com",
     "description": "Sudoku-style game where you need to fill segmented rows and columns with numbers.",
@@ -1411,6 +1510,15 @@
     "category": "Words"
   },
   {
+    "name": "Orbits",
+    "url": "https://www.playorbits.com",
+    "description": "Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Order Up",
     "url": "https://orderup.games",
     "description": "Arrange the themed items in the correct order within 5 guesses.",
@@ -1418,6 +1526,15 @@
       "trivia"
     ],
     "category": "Trivia"
+  },
+  {
+    "name": "Outword",
+    "url": "https://outword.me",
+    "description": "Create 2 words from the given letters. Each letter has a base value and some letters have multipliers, like in Scrabble.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "pedantle",
@@ -1454,6 +1571,24 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "PlusWord",
+    "url": "https://puzzles-prod.telegraph.co.uk/plusword",
+    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Pocket Puzzles",
+    "url": "https://playpocketpuzzles.com",
+    "description": "A collection of daily word games.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Pokedle",
@@ -1676,6 +1811,15 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "Rotaboxes",
+    "url": "https://rotaboxes.com",
+    "description": "Rotate all the tiles into their correct orientation to reveal today's picture.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Satle",
     "url": "https://satle.ca",
     "description": "Guess the city given a satellite image, zooming out after each guess.",
@@ -1703,6 +1847,16 @@
     "description": "Guess the secret word of the day by completing the Google search prompt.",
     "tags": [
       "archive",
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "sedecordle",
+    "url": "https://sedecordle.com",
+    "description": "Solve 16 wordles at the same time. You have 21 guesses.",
+    "tags": [
       "wordle",
       "words"
     ],
@@ -1757,6 +1911,15 @@
       "music"
     ],
     "category": "Music"
+  },
+  {
+    "name": "Soulsborndle",
+    "url": "https://malthesers.github.io/soulsborndle",
+    "description": "Guess bosses from the Soulsborne games by their health, souls, weaknesses and resistances. For fans of Elden Ring, Dark Souls, Demon Souls, and Bloodborne.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Spellcheck",
@@ -1819,6 +1982,15 @@
     "name": "Squares",
     "url": "https://squares.org",
     "description": "Find all of the words in this daily Boggle game.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Squareword",
+    "url": "https://squareword.org",
+    "description": "Guess 5-letter words to uncover the square of words both horizontally and vertically.",
     "tags": [
       "words"
     ],
@@ -2053,6 +2225,26 @@
     "category": "Geography/History"
   },
   {
+    "name": "Verticle",
+    "url": "https://verticle.netlify.app",
+    "description": "A vertical variant of Wordle.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Waffle",
+    "url": "https://wafflegame.net/daily",
+    "description": "Swap letters to create words both horizontally and vertically. Seems to have been made before Word Waffle.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Weaver",
     "url": "https://weavergame.org",
     "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
@@ -2163,7 +2355,7 @@
   {
     "name": "Word Waffle",
     "url": "https://wordwaffle.org",
-    "description": "Move letters to create words both horizontally and vertically.",
+    "description": "Swap letters to create words both horizontally and vertically.",
     "tags": [
       "wordle",
       "words"
@@ -2220,6 +2412,15 @@
     "category": "Words"
   },
   {
+    "name": "WordLinx",
+    "url": "https://sacsgames.com/wordlinx",
+    "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Worldle",
     "url": "https://worldle.teuteuf.fr",
     "description": "Guess the country by its shape on the world map.",
@@ -2228,6 +2429,16 @@
       "maps"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "xdle",
+    "url": "https://zaratustra.itch.io/xdle",
+    "description": "Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.",
+    "tags": [
+      "math",
+      "numbers"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Yeardle",

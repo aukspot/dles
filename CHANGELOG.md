@@ -1,5 +1,36 @@
 # Changelog - The Dles
 
+## 2024-07-20
+
+Add 22 dles.
+
+dles added: 
+|    | name                                                      | url                                                                                            |
+|---:|:----------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+|  1 | [Balatrodle](https://www.balatrodle.com)                  | [https://www.balatrodle.com](https://www.balatrodle.com)                                       |
+|  2 | [ClickWord](https://clickword.org)                        | [https://clickword.org](https://clickword.org)                                                 |
+|  3 | [cryptle](https://cryptle.xyz)                            | [https://cryptle.xyz](https://cryptle.xyz)                                                     |
+|  4 | [Decipher](https://decipher.wtf)                          | [https://decipher.wtf](https://decipher.wtf)                                                   |
+|  5 | [Eruptle](https://eruptle.app)                            | [https://eruptle.app](https://eruptle.app)                                                     |
+|  6 | [Factle](https://factle.app)                              | [https://factle.app](https://factle.app)                                                       |
+|  7 | [Factle Sports](https://factle.app/sports)                | [https://factle.app/sports](https://factle.app/sports)                                         |
+|  8 | [Mahjong Handle](https://mahjong-handle.update.sh)        | [https://mahjong-handle.update.sh](https://mahjong-handle.update.sh)                           |
+|  9 | [Mazele](https://mazele.io)                               | [https://mazele.io](https://mazele.io)                                                         |
+| 10 | [Minute Cryptic](https://www.minutecryptic.com)           | [https://www.minutecryptic.com](https://www.minutecryptic.com)                                 |
+| 11 | [On the Record](https://www.washingtonpost.com/news-quiz) | [https://www.washingtonpost.com/news-quiz](https://www.washingtonpost.com/news-quiz)           |
+| 12 | [Orbits](https://www.playorbits.com)                      | [https://www.playorbits.com](https://www.playorbits.com)                                       |
+| 13 | [Outword](https://outword.me)                             | [https://outword.me](https://outword.me)                                                       |
+| 14 | [PlusWord](https://puzzles-prod.telegraph.co.uk/plusword) | [https://puzzles-prod.telegraph.co.uk/plusword](https://puzzles-prod.telegraph.co.uk/plusword) |
+| 15 | [Pocket Puzzles](https://playpocketpuzzles.com)           | [https://playpocketpuzzles.com](https://playpocketpuzzles.com)                                 |
+| 16 | [Rotaboxes](https://rotaboxes.com)                        | [https://rotaboxes.com](https://rotaboxes.com)                                                 |
+| 17 | [sedecordle](https://sedecordle.com)                      | [https://sedecordle.com](https://sedecordle.com)                                               |
+| 18 | [Soulsborndle](https://malthesers.github.io/soulsborndle) | [https://malthesers.github.io/soulsborndle](https://malthesers.github.io/soulsborndle)         |
+| 19 | [Squareword](https://squareword.org)                      | [https://squareword.org](https://squareword.org)                                               |
+| 20 | [Verticle](https://verticle.netlify.app)                  | [https://verticle.netlify.app](https://verticle.netlify.app)                                   |
+| 21 | [Waffle](https://wafflegame.net/daily)                    | [https://wafflegame.net/daily](https://wafflegame.net/daily)                                   |
+| 22 | [WordLinx](https://sacsgames.com/wordlinx)                | [https://sacsgames.com/wordlinx](https://sacsgames.com/wordlinx)                               |
+| 23 | [xdle](https://zaratustra.itch.io/xdle)                   | [https://zaratustra.itch.io/xdle](https://zaratustra.itch.io/xdle)                             |
+
 ## 2024-06-22
 
 Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 27 dles.<br>Remove 1 dle.

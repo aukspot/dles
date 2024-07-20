@@ -4,10 +4,12 @@
     categories,
     categoryColors,
     categorizedDles,
+    newDles,
     poppedUpDle,
   } from "$lib/stores"
 
   import DlePopUp from "./DlePopUp.svelte"
+  import IconNew from "../Icons/IconNew.svelte"
 
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { clickOutside } from "$lib/js/clickOutside"
@@ -17,6 +19,10 @@
   let pageX = 0
   let pageY = 0
   let clientY = 0
+
+  function isNewDle(dle) {
+    return $newDles.filter((d) => d.url === dle.url).length === 1
+  }
 
   function resetPoppedUpDle() {
     $poppedUpDle = ""
@@ -70,7 +76,9 @@
                   }}
                 >
                   {dle.name}
-                </button>
+                </button>{#if isNewDle(dle)}
+                  <IconNew />
+                {/if}
               </div>
               {#if $poppedUpDle === dle.name}
                 <div use:clickOutside on:click_outside={handleClickOutside}>
@@ -105,7 +113,7 @@
     @apply p-1 px-2;
   }
   .dleName {
-    @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-all hover:duration-300;
+    @apply mr-1 inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-all hover:duration-300;
     text-decoration-thickness: 2px;
     width: auto;
   }
