@@ -2,7 +2,7 @@
 
 ## 2024-07-20
 
-Add 22 dles.
+Add 23 dles.
 
 dles added: 
 |    | name                                                      | url                                                                                            |
@@ -28,7 +28,7 @@ dles added:
 | 19 | [Squareword](https://squareword.org)                      | [https://squareword.org](https://squareword.org)                                               |
 | 20 | [Verticle](https://verticle.netlify.app)                  | [https://verticle.netlify.app](https://verticle.netlify.app)                                   |
 | 21 | [Waffle](https://wafflegame.net/daily)                    | [https://wafflegame.net/daily](https://wafflegame.net/daily)                                   |
-| 22 | [WordLinx](https://sacsgames.com/wordlinx)                | [https://sacsgames.com/wordlinx](https://sacsgames.com/wordlinx)                               |
+| 22 | [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily)   | [https://sacsgames.com/wordlinx/#/todaydaily](https://sacsgames.com/wordlinx/#/todaydaily)     |
 | 23 | [xdle](https://zaratustra.itch.io/xdle)                   | [https://zaratustra.itch.io/xdle](https://zaratustra.itch.io/xdle)                             |
 
 ## 2024-06-22
