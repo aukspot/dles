@@ -1,5 +1,67 @@
 [
   {
+    "date": "2024-09-18",
+    "description": "Add 14 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.",
+    "dles added": [
+      {
+        "name": "Daily Fact or Fiction",
+        "url": "https://dailyfactorfiction.com"
+      },
+      {
+        "name": "Flagdoku",
+        "url": "https://flagdoku.com"
+      },
+      {
+        "name": "morsle",
+        "url": "https://morsle.fun"
+      },
+      {
+        "name": "Perfect Pitch Puzzle",
+        "url": "https://www.perfectpitchpuzzle.com"
+      },
+      {
+        "name": "Picsey",
+        "url": "https://picsey.io"
+      },
+      {
+        "name": "Pivots",
+        "url": "https://playpivots.com"
+      },
+      {
+        "name": "Pufferdle",
+        "url": "https://pufferdle.com/#/daily"
+      },
+      {
+        "name": "Reciple",
+        "url": "https://reciple.net"
+      },
+      {
+        "name": "Shaple",
+        "url": "https://swag.github.io/shaple"
+      },
+      {
+        "name": "Spell Bee",
+        "url": "https://www.spell-bee.com/game-daily.html"
+      },
+      {
+        "name": "Spindle",
+        "url": "https://playspindle.com"
+      },
+      {
+        "name": "Video Game Bandle",
+        "url": "https://www.vgbandle.app"
+      },
+      {
+        "name": "Wordiply",
+        "url": "https://www.wordiply.com"
+      },
+      {
+        "name": "Zaku Chess",
+        "url": "https://zakuchess.com"
+      }
+    ]
+  },
+  {
     "date": "2024-07-20",
     "description": "Add 23 dles.",
     "dles added": [

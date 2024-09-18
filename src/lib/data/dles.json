@@ -473,6 +473,15 @@
     "category": "Trivia"
   },
   {
+    "name": "Daily Fact or Fiction",
+    "url": "https://dailyfactorfiction.com",
+    "description": "Guess whether today's statement is fact or fiction.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Daily Jingle",
     "url": "https://dailyjingle.me",
     "description": "Guess the melody within 5 tries.",
@@ -631,7 +640,7 @@
   },
   {
     "name": "Factle",
-    "url": "https://factle.app",
+    "url": "https://trivia.frontofficesports.com/factle",
     "description": "Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.",
     "tags": [
       "trivia"
@@ -640,7 +649,7 @@
   },
   {
     "name": "Factle Sports",
-    "url": "https://factle.app/sports",
+    "url": "https://trivia.frontofficesports.com/factle-sports",
     "description": "Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.",
     "tags": [
       "sports",
@@ -671,6 +680,16 @@
     "name": "Flagdle",
     "url": "https://www.flagdle.org",
     "description": "Guess the country by its flag.",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Flagdoku",
+    "url": "https://flagdoku.com",
+    "description": "Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.",
     "tags": [
       "flags",
       "geography"
@@ -787,7 +806,7 @@
   {
     "name": "GeoGrid",
     "url": "https://www.geogridgame.com",
-    "description": "Fill in the grid with countries that matches each cell's corresponding row and column categories.",
+    "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
     "tags": [
       "archive",
       "geography"
@@ -1300,6 +1319,15 @@
     "category": "Sports"
   },
   {
+    "name": "morsle",
+    "url": "https://morsle.fun",
+    "description": "Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.",
+    "tags": [
+      "audio"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Movie Grid",
     "url": "https://moviegrid.io",
     "description": "Fill out the grid with movies matching the criteria of each cell's row and column.",
@@ -1546,6 +1574,16 @@
     "category": "Words"
   },
   {
+    "name": "Perfect Pitch Puzzle",
+    "url": "https://www.perfectpitchpuzzle.com",
+    "description": "After listening to a short tune, identify the first 6 notes that were played.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "Petdle",
     "url": "https://petdle.link",
     "description": "Guess the pet taken from the game Super Auto Pets.",
@@ -1562,6 +1600,25 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Picsey",
+    "url": "https://picsey.io",
+    "description": "Identify today's picture by flipping over as few tiles as possible.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Pivots",
+    "url": "https://playpivots.com",
+    "description": "Sort the board by pivoting parts of it at a time.",
+    "tags": [
+      "logic",
+      "visual"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Plotwords",
@@ -1648,6 +1705,15 @@
     "category": "Sports"
   },
   {
+    "name": "Pufferdle",
+    "url": "https://pufferdle.com/#/daily",
+    "description": "Catch a fish from the game Stardew Valley and then guess what fish it was.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Puzzmo - Crossword",
     "url": "https://www.puzzmo.com/play/crossword",
     "description": "Crosswords without getting stuck.",
@@ -1724,6 +1790,13 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Reciple",
+    "url": "https://reciple.net",
+    "description": "Guess the ingredients of today's recipe.",
+    "tags": [],
+    "category": "Miscellaneous"
   },
   {
     "name": "Redactle",
@@ -1873,6 +1946,15 @@
     "category": "Words"
   },
   {
+    "name": "Shaple",
+    "url": "https://swag.github.io/shaple",
+    "description": "Choose the shape that matches the top shape.",
+    "tags": [
+      "visual"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Shikaku of the day",
     "url": "https://shikakuofthe.day",
     "description": "5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.",
@@ -1922,6 +2004,15 @@
     "category": "Video Games"
   },
   {
+    "name": "Spell Bee",
+    "url": "https://www.spell-bee.com/game-daily.html",
+    "description": "Create words using the given 7 letters. Each word must contain the center letter.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Spellcheck",
     "url": "https://spellcheck.xyz",
     "description": "Spell the words correctly after listening to them.",
@@ -1945,6 +2036,15 @@
     "name": "Spelling Bee",
     "url": "https://spellsbee.com",
     "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Spindle",
+    "url": "https://playspindle.com",
+    "description": "Rearrange the grid of letters so that the target word is spelled out. Rearranging is done by spinning words.",
     "tags": [
       "words"
     ],
@@ -2115,8 +2215,8 @@
     "category": "Math/Logic"
   },
   {
-    "name": "The Wikipedia Game",
-    "url": "https://www.thewikipediagame.com",
+    "name": "The Wiki Game Daily",
+    "url": "https://www.thewikigamedaily.com",
     "description": "Race from one Wikipedia page to the target page using as few links as possible",
     "tags": [
       "fast-paced",
@@ -2233,6 +2333,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Video Game Bandle",
+    "url": "https://www.vgbandle.app",
+    "description": "Guess the video game and song played by the MIDI band",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
   },
   {
     "name": "Waffle",
@@ -2392,6 +2501,15 @@
     "category": "Words"
   },
   {
+    "name": "Wordiply",
+    "url": "https://www.wordiply.com",
+    "description": "Try to make the longest word that contains the given word in 5 tries or less.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Wordistance",
     "url": "https://wordistance.com",
     "description": "Keep guessing words until you find the mystery word, each guess revealing the distance between the guessed word and mystery word.",
@@ -2449,6 +2567,15 @@
       "time"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Zaku Chess",
+    "url": "https://zakuchess.com",
+    "description": "A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Zebra Puzzles",

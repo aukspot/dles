@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2024-09-08
+
+Add 12 dles.
+
+
 ## 2024-07-20
 
 Add 23 dles.
