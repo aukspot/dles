@@ -1,5 +1,4 @@
 <script>
-  import { fly } from "svelte/transition"
   import {
     categories,
     categoryColors,
@@ -42,7 +41,7 @@
 <svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <BannerText />
-<div class="dlesContainer" in:fly={{ y: 500, duration: 150 }}>
+<div class="dlesContainer">
   {#each $categories as category, i (i)}
     <div class="card">
       <div
