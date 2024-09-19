@@ -1,5 +1,24 @@
 [
   {
+    "name": "23 Words",
+    "url": "https://wordnerd.co/23words",
+    "description": "Unscramble 23 words, one by one, without running out of time.",
+    "tags": [
+      "fast-paced",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Cluewords",
+    "url": "https://wordnerd.co/cluewords",
+    "description": "Solve the clues to find the hidden words.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Daily Fact or Fiction",
     "url": "https://dailyfactorfiction.com",
     "description": "Guess whether today's statement is fact or fiction.",
@@ -7,6 +26,15 @@
       "trivia"
     ],
     "category": "Trivia"
+  },
+  {
+    "name": "Daily Fill-Ins",
+    "url": "https://azgames.io/game/daily-fill-ins",
+    "description": "Properly fill in the clue-less crossword with all of the words from the given word list.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Flagdoku",
@@ -82,6 +110,15 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "Sorted",
+    "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
+    "description": "Place the items in the correct order, 3 new rounds everyday.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Spell Bee",
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",
@@ -98,6 +135,16 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Tightrope",
+    "url": "https://www.britannica.com/quiz/tightrope",
+    "description": "Answer 9 timed trivia questions without running out of lives!",
+    "tags": [
+      "fast-paced",
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "Video Game Bandle",

@@ -1,11 +1,23 @@
 [
   {
     "date": "2024-09-18",
-    "description": "Add 14 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.",
+    "description": "Add 19 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.",
     "dles added": [
+      {
+        "name": "23 Words",
+        "url": "https://wordnerd.co/23words"
+      },
+      {
+        "name": "Cluewords",
+        "url": "https://wordnerd.co/cluewords"
+      },
       {
         "name": "Daily Fact or Fiction",
         "url": "https://dailyfactorfiction.com"
+      },
+      {
+        "name": "Daily Fill-Ins",
+        "url": "https://azgames.io/game/daily-fill-ins"
       },
       {
         "name": "Flagdoku",
@@ -40,12 +52,20 @@
         "url": "https://swag.github.io/shaple"
       },
       {
+        "name": "Sorted",
+        "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html"
+      },
+      {
         "name": "Spell Bee",
         "url": "https://www.spell-bee.com/game-daily.html"
       },
       {
         "name": "Spindle",
         "url": "https://playspindle.com"
+      },
+      {
+        "name": "Tightrope",
+        "url": "https://www.britannica.com/quiz/tightrope"
       },
       {
         "name": "Video Game Bandle",

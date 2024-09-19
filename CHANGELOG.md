@@ -1,9 +1,31 @@
 # Changelog - The Dles
 
-## 2024-09-08
+## 2024-09-18
 
-Add 12 dles.
+Add 19 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.
 
+dles added: 
+|    | name                                                             | url                                                                                                              |
+|---:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+|  1 | [23 Words](https://wordnerd.co/23words)                          | [https://wordnerd.co/23words](https://wordnerd.co/23words)                                                       |
+|  2 | [Cluewords](https://wordnerd.co/cluewords)                       | [https://wordnerd.co/cluewords](https://wordnerd.co/cluewords)                                                   |
+|  3 | [Daily Fact or Fiction](https://dailyfactorfiction.com)          | [https://dailyfactorfiction.com](https://dailyfactorfiction.com)                                                 |
+|  4 | [Daily Fill-Ins](https://azgames.io/game/daily-fill-ins)         | [https://azgames.io/game/daily-fill-ins](https://azgames.io/game/daily-fill-ins)                                 |
+|  5 | [Flagdoku](https://flagdoku.com)                                 | [https://flagdoku.com](https://flagdoku.com)                                                                     |
+|  6 | [morsle](https://morsle.fun)                                     | [https://morsle.fun](https://morsle.fun)                                                                         |
+|  7 | [Perfect Pitch Puzzle](https://www.perfectpitchpuzzle.com)       | [https://www.perfectpitchpuzzle.com](https://www.perfectpitchpuzzle.com)                                         |
+|  8 | [Picsey](https://picsey.io)                                      | [https://picsey.io](https://picsey.io)                                                                           |
+|  9 | [Pivots](https://playpivots.com)                                 | [https://playpivots.com](https://playpivots.com)                                                                 |
+| 10 | [Pufferdle](https://pufferdle.com/#/daily)                       | [https://pufferdle.com/#/daily](https://pufferdle.com/#/daily)                                                   |
+| 11 | [Reciple](https://reciple.net)                                   | [https://reciple.net](https://reciple.net)                                                                       |
+| 12 | [Shaple](https://swag.github.io/shaple)                          | [https://swag.github.io/shaple](https://swag.github.io/shaple)                                                   |
+| 13 | [Sorted](https://puzzles-prod.telegraph.co.uk/sorted/index.html) | [https://puzzles-prod.telegraph.co.uk/sorted/index.html](https://puzzles-prod.telegraph.co.uk/sorted/index.html) |
+| 14 | [Spell Bee](https://www.spell-bee.com/game-daily.html)           | [https://www.spell-bee.com/game-daily.html](https://www.spell-bee.com/game-daily.html)                           |
+| 15 | [Spindle](https://playspindle.com)                               | [https://playspindle.com](https://playspindle.com)                                                               |
+| 16 | [Tightrope](https://www.britannica.com/quiz/tightrope)           | [https://www.britannica.com/quiz/tightrope](https://www.britannica.com/quiz/tightrope)                           |
+| 17 | [Video Game Bandle](https://www.vgbandle.app)                    | [https://www.vgbandle.app](https://www.vgbandle.app)                                                             |
+| 18 | [Wordiply](https://www.wordiply.com)                             | [https://www.wordiply.com](https://www.wordiply.com)                                                             |
+| 19 | [Zaku Chess](https://zakuchess.com)                              | [https://zakuchess.com](https://zakuchess.com)                                                                   |
 
 ## 2024-07-20
 

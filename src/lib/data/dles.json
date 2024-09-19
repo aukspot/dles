@@ -1,5 +1,15 @@
 [
   {
+    "name": "23 Words",
+    "url": "https://wordnerd.co/23words",
+    "description": "Unscramble 23 words, one by one, without running out of time.",
+    "tags": [
+      "fast-paced",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Absurdle",
     "url": "https://qntm.org/files/absurdle/absurdle.html",
     "description": "An adversarial version of Wordle that actively avoids giving you the answer.",
@@ -326,6 +336,15 @@
     "category": "Words"
   },
   {
+    "name": "Cluewords",
+    "url": "https://wordnerd.co/cluewords",
+    "description": "Solve the clues to find the hidden words.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Colorfle",
     "url": "https://colorfle.org/index.html",
     "description": "Figure out the color composition of the given color.",
@@ -480,6 +499,15 @@
       "trivia"
     ],
     "category": "Trivia"
+  },
+  {
+    "name": "Daily Fill-Ins",
+    "url": "https://azgames.io/game/daily-fill-ins",
+    "description": "Properly fill in the clue-less crossword with all of the words from the given word list.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Daily Jingle",
@@ -1995,6 +2023,15 @@
     "category": "Music"
   },
   {
+    "name": "Sorted",
+    "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
+    "description": "Place the items in the correct order, 3 new rounds everyday.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Soulsborndle",
     "url": "https://malthesers.github.io/soulsborndle",
     "description": "Guess bosses from the Soulsborne games by their health, souls, weaknesses and resistances. For fans of Elden Ring, Dark Souls, Demon Souls, and Bloodborne.",
@@ -2239,6 +2276,16 @@
     "url": "https://thrice.geekswhodrink.com",
     "description": "Answer today's 5 trivia questions, each from a different category.",
     "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
+    "name": "Tightrope",
+    "url": "https://www.britannica.com/quiz/tightrope",
+    "description": "Answer 9 timed trivia questions without running out of lives!",
+    "tags": [
+      "fast-paced",
       "trivia"
     ],
     "category": "Trivia"
