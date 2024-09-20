@@ -277,7 +277,7 @@ Add 8 dles.
 dles added: 
 |    | name                                                        | url                                                                                        |
 |---:|:------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
-|  1 | [Connections Game](https://connectionsgame.com)             | [https://connectionsgame.com](https://connectionsgame.com)                                 |
+|  1 | [Connections Game](https://connectionsgame.org)             | [https://connectionsgame.org](https://connectionsgame.org)                                 |
 |  2 | [Daily Tomato](https://www.rottentomatoes.com/movie-trivia) | [https://www.rottentomatoes.com/movie-trivia](https://www.rottentomatoes.com/movie-trivia) |
 |  3 | [Dordle](https://zaratustra.itch.io/dordle)                 | [https://zaratustra.itch.io/dordle](https://zaratustra.itch.io/dordle)                     |
 |  4 | [hello wordl](https://hellowordl.net/?today)                | [https://hellowordl.net/?today](https://hellowordl.net/?today)                             |
