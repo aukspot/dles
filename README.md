@@ -112,7 +112,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2024-09-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2024-10-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 |     | name                                                                                       | description                                                                                                                                                                    | category          |
 |----:|:-------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|
@@ -151,7 +151,7 @@ This will update the `./docs` directory with a new build of the site.
 |  33 | [Circuits](https://circuitsgame.com)                                                       | Place words into the empty boxes so that each connection of two words make a compound word.                                                                                    | Words             |
 |  34 | [ClickWord](https://clickword.org)                                                         | Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.                                                                          | Words             |
 |  35 | [Cluewords](https://wordnerd.co/cluewords)                                                 | Solve the clues to find the hidden words.                                                                                                                                      | Words             |
-|  36 | [Colorfle](https://colorfle.org/index.html)                                                | Figure out the color composition of the given color.                                                                                                                           | Miscellaneous     |
+|  36 | [Colorfle](https://colorfle.com)                                                           | Figure out the color composition of the given color.                                                                                                                           | Miscellaneous     |
 |  37 | [ColorGuesser](https://colorguesser.com)                                                   | Guess the actual color that each of the color names represent.                                                                                                                 | Miscellaneous     |
 |  38 | [Combinations](https://combinations.org)                                                   | Create words using combinations of letters from the grid.                                                                                                                      | Words             |
 |  39 | [Concludle](https://tryhardguides.com/concludle)                                           | Guess the secret answer from a series of clues.                                                                                                                                | Trivia            |

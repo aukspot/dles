@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2024-10-06
+
+Fix link to Colorfle.
+
+
 ## 2024-09-18
 
 Add 19 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.
