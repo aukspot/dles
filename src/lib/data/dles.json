@@ -668,7 +668,7 @@
   },
   {
     "name": "Factle",
-    "url": "https://trivia.frontofficesports.com/factle",
+    "url": "https://frontofficesports.com/trivia/factle",
     "description": "Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.",
     "tags": [
       "trivia"
@@ -677,7 +677,7 @@
   },
   {
     "name": "Factle Sports",
-    "url": "https://trivia.frontofficesports.com/factle-sports",
+    "url": "https://frontofficesports.com/trivia/factle-sports",
     "description": "Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.",
     "tags": [
       "sports",
