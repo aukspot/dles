@@ -1,5 +1,14 @@
 [
   {
+    "name": "Airport Guessr",
+    "url": "https://airportguessr.bytecatch.io/",
+    "description": "Guess the airport given its satellite image.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Blunderwall",
     "url": "https://bythomas.co.uk/blunderwall",
     "description": "Find the secret word on the Blunderwall in 4 tries.",
@@ -197,7 +206,7 @@
   {
     "name": "NYT Connections: Sports Edition",
     "url": "https://www.nytimes.com/athletic/connections-sports-edition",
-    "description": "Group sports terms that share a common thread",
+    "description": "Group sports terms that share a common thread.",
     "tags": [
       "sports"
     ],

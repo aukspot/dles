@@ -83,6 +83,15 @@
     "category": "Words"
   },
   {
+    "name": "Airport Guessr",
+    "url": "https://airportguessr.bytecatch.io/",
+    "description": "Guess the airport given its satellite image.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Angle",
     "url": "https://angle.wtf",
     "description": "Guess the angle in 4 guesses or less.",
@@ -1669,7 +1678,7 @@
   {
     "name": "NYT Connections: Sports Edition",
     "url": "https://www.nytimes.com/athletic/connections-sports-edition",
-    "description": "Group sports terms that share a common thread",
+    "description": "Group sports terms that share a common thread.",
     "tags": [
       "sports"
     ],

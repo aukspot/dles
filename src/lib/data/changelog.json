@@ -1,8 +1,12 @@
 [
   {
     "date": "2024-11-24",
-    "description": "Add 34 dles.",
+    "description": "Add 35 dles.",
     "dles added": [
+      {
+        "name": "Airport Guessr",
+        "url": "https://airportguessr.bytecatch.io"
+      },
       {
         "name": "Blunderwall",
         "url": "https://bythomas.co.uk/blunderwall"
