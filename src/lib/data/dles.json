@@ -111,17 +111,6 @@
     "category": "Words"
   },
   {
-    "name": "Apparle",
-    "url": "https://www.apparle.com",
-    "description": "Guess the price of the shown apparel product in 6 guesses or less.",
-    "tags": [
-      "archive",
-      "pictures",
-      "prices"
-    ],
-    "category": "Prices"
-  },
-  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com",
     "description": "Guess the name of the architecture, given a series of pictures.",

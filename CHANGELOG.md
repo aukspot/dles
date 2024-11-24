@@ -2,7 +2,7 @@
 
 ## 2024-11-24
 
-Add 35 dles.
+Add 35 dles. Remove 1 dle.
 
 dles added: 
 |    | name                                                                                                     | url                                                                                                                                                |
@@ -43,6 +43,10 @@ dles added:
 | 34 | [Word Box](https://wordbox.game)                                                                         | [https://wordbox.game](https://wordbox.game)                                                                                                       |
 | 35 | [Zeldadle](https://www.zeldadle.net)                                                                     | [https://www.zeldadle.net](https://www.zeldadle.net)                                                                                               |
 
+dles removed: 
+|    | name                               | url                                                | reason                        |
+|---:|:-----------------------------------|:---------------------------------------------------|:------------------------------|
+|  1 | [Apparle](https://www.apparle.com) | [https://www.apparle.com](https://www.apparle.com) | Game does not load most days. |
 ## 2024-10-06
 
 Fix link to Colorfle.
