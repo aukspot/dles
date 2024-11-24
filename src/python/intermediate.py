@@ -81,7 +81,6 @@ def add_new_dles_to_changelog():
     f.write(json.dumps(new_changelog, indent=2))
 
 
-
 def extract_tags(dles):
   return list(set([
     tag for dle in dles 
@@ -211,5 +210,5 @@ def write_dles_to_readme_md():
 
 
 if __name__ == "__main__":
-  add_new_dles_to_changelog()
+  # add_new_dles_to_changelog()
   pass

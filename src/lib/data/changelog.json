@@ -1,5 +1,147 @@
 [
   {
+    "date": "2024-11-24",
+    "description": "Add 34 dles.",
+    "dles added": [
+      {
+        "name": "Blunderwall",
+        "url": "https://bythomas.co.uk/blunderwall"
+      },
+      {
+        "name": "Cardle",
+        "url": "https://cardle.boxbox.autos"
+      },
+      {
+        "name": "Chessguessr",
+        "url": "https://www.chessguessr.com"
+      },
+      {
+        "name": "Cyphr",
+        "url": "https://cyphrgame.com"
+      },
+      {
+        "name": "Daily Tens",
+        "url": "https://dailytens.com"
+      },
+      {
+        "name": "DBDle",
+        "url": "https://dbdle.net"
+      },
+      {
+        "name": "Flagle Game",
+        "url": "https://flagle-game.com"
+      },
+      {
+        "name": "Geocircles",
+        "url": "https://geocircles.io"
+      },
+      {
+        "name": "Geographle",
+        "url": "https://geographle.com"
+      },
+      {
+        "name": "graphs.world",
+        "url": "https://www.graphs.world"
+      },
+      {
+        "name": "Harmonies: Music Connections",
+        "url": "https://harmonies.io"
+      },
+      {
+        "name": "Hidden Mirrors",
+        "url": "https://www.hidden-mirrors.com"
+      },
+      {
+        "name": "Letroso",
+        "url": "https://letroso.com/en/daily"
+      },
+      {
+        "name": "Lirdle",
+        "url": "https://lirdle.com"
+      },
+      {
+        "name": "List Them All!",
+        "url": "https://listthemall.com"
+      },
+      {
+        "name": "MinecraftDle",
+        "url": "https://www.minecraftdle.net"
+      },
+      {
+        "name": "Mini Crossword (The Observer)",
+        "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword"
+      },
+      {
+        "name": "More/Less",
+        "url": "https://lessgames.com/moreless"
+      },
+      {
+        "name": "Moviedle (from Histordle)",
+        "url": "https://histordle.com/moviedle"
+      },
+      {
+        "name": "Moview",
+        "url": "https://moview.online"
+      },
+      {
+        "name": "Number Island",
+        "url": "https://numberisland.com"
+      },
+      {
+        "name": "NYT Connections: Sports Edition",
+        "url": "https://www.nytimes.com/athletic/connections-sports-edition"
+      },
+      {
+        "name": "Octordle",
+        "url": "https://www.britannica.com/games/octordle"
+      },
+      {
+        "name": "Planespottle",
+        "url": "https://planespottle.bytecatch.io"
+      },
+      {
+        "name": "Poeltl",
+        "url": "https://poeltl.nbpa.com"
+      },
+      {
+        "name": "QuickQ",
+        "url": "https://www.quickqtrivia.com"
+      },
+      {
+        "name": "Runedle",
+        "url": "https://runedle.com"
+      },
+      {
+        "name": "Terradle",
+        "url": "https://www.terradle.com"
+      },
+      {
+        "name": "Valodle",
+        "url": "https://valodle.eu"
+      },
+      {
+        "name": "VideoPuzzle",
+        "url": "https://videopuzzle.org"
+      },
+      {
+        "name": "Vowel Play",
+        "url": "https://bythomas.co.uk/vowelplay"
+      },
+      {
+        "name": "Vox Daily Crossword",
+        "url": "https://www.vox.com/21523212/crossword-puzzles-free-daily-printable"
+      },
+      {
+        "name": "Word Box",
+        "url": "https://wordbox.game"
+      },
+      {
+        "name": "Zeldadle",
+        "url": "https://www.zeldadle.net"
+      }
+    ]
+  },
+  {
     "date": "2024-10-06",
     "description": "Fix link to Colorfle."
   },

@@ -151,6 +151,15 @@
     "category": "Words"
   },
   {
+    "name": "Blunderwall",
+    "url": "https://bythomas.co.uk/blunderwall",
+    "description": "Find the secret word on the Blunderwall in 4 tries.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Boggdle",
     "url": "https://simenmh.com/boggdle",
     "description": "Search for the best 3 words you can find in the Boggle grid.",
@@ -220,6 +229,15 @@
     "category": "Geography/History"
   },
   {
+    "name": "Cardle",
+    "url": "https://cardle.boxbox.autos",
+    "description": "Correctly identify the pictured car's make, model, and year.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Categories",
     "url": "https://categories.clevergoat.com",
     "description": "Group the words in the grid into the 4 secret categories, like Connections or Conexo.",
@@ -252,6 +270,15 @@
     "name": "Chess.com Daily Puzzle",
     "url": "https://www.chess.com/daily-chess-puzzle",
     "description": "Solve the daily chess puzzle from chess.com.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Chessguessr",
+    "url": "https://www.chessguessr.com",
+    "description": "Given a snapshot from a chess game, guess the next 5 moves played.",
     "tags": [
       "logic"
     ],
@@ -435,7 +462,6 @@
     "url": "https://craftword.game",
     "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
     "tags": [
-      "wordle",
       "words"
     ],
     "category": "Words"
@@ -483,6 +509,15 @@
     "category": "Words"
   },
   {
+    "name": "Cyphr",
+    "url": "https://cyphrgame.com",
+    "description": "Guess letters to form a word on each row of the pyramid, starting from the top row.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Daily Dozen Trivia",
     "url": "https://dailydozentrivia.com",
     "description": "Answer 9 trivia questions from various categories.",
@@ -520,6 +555,15 @@
     "category": "Music"
   },
   {
+    "name": "Daily Tens",
+    "url": "https://dailytens.com",
+    "description": "Guess the top 10 items of today's category.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "DayBrix",
     "url": "https://vole.wtf/daybrix",
     "description": "Daily tetris-style falling blocks game.",
@@ -548,6 +592,15 @@
       "visual"
     ],
     "category": "Miscellaneous"
+  },
+  {
+    "name": "DBDle",
+    "url": "https://dbdle.net",
+    "description": "Test your Dead by Daylight knowledge in these daily games.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Decipher",
@@ -688,7 +741,7 @@
   {
     "name": "Fibble",
     "url": "https://fibble.xyz",
-    "description": "Wordle but it lies to you.",
+    "description": "Wordle but it lies to you.  (Like Lirdle)",
     "tags": [
       "wordle",
       "words"
@@ -728,6 +781,16 @@
     "name": "Flagle",
     "url": "https://www.flagle.io",
     "description": "Guess the flag in 5 guesses or less.",
+    "tags": [
+      "flags",
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Flagle Game",
+    "url": "https://flagle-game.com",
+    "description": "Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.",
     "tags": [
       "flags",
       "geography"
@@ -832,6 +895,24 @@
     "category": "Movies/TV"
   },
   {
+    "name": "Geocircles",
+    "url": "https://geocircles.io",
+    "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Geographle",
+    "url": "https://geographle.com",
+    "description": "Find out where you are in the world in as few guesses as you can.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
     "name": "GeoGrid",
     "url": "https://www.geogridgame.com",
     "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
@@ -869,6 +950,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "graphs.world",
+    "url": "https://www.graphs.world",
+    "description": "Select the dataset that fits the displayed graph.",
+    "tags": [
+      "archive"
+    ],
+    "category": "Miscellaneous"
   },
   {
     "name": "Griddle",
@@ -909,6 +999,15 @@
       "video games"
     ],
     "category": "Video Games"
+  },
+  {
+    "name": "Harmonies: Music Connections",
+    "url": "https://harmonies.io",
+    "description": "Find the groups of 4 that share some musical theme.",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
   },
   {
     "name": "Heardle 1950's",
@@ -1015,6 +1114,15 @@
     "description": "Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.",
     "tags": [
       "colors"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Hidden Mirrors",
+    "url": "https://www.hidden-mirrors.com",
+    "description": "A unique daily symmetry game where you try to match the given pattern.",
+    "tags": [
+      "visual"
     ],
     "category": "Miscellaneous"
   },
@@ -1180,6 +1288,16 @@
     "category": "Words"
   },
   {
+    "name": "Letroso",
+    "url": "https://letroso.com/en/daily",
+    "description": "Guess the secret word that can be up to 10 letters long.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "LetterLoop",
     "url": "https://theletterloop.com",
     "description": "Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.",
@@ -1224,6 +1342,24 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Lirdle",
+    "url": "https://lirdle.com",
+    "description": "Wordle except each line contains a lie. (Like Fibble)",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "List Them All!",
+    "url": "https://listthemall.com",
+    "description": "List all of the items that fit today's category.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "Listed",
@@ -1319,6 +1455,25 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "MinecraftDle",
+    "url": "https://www.minecraftdle.net",
+    "description": "Test your Minecraft knowledge in these daily games.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "Mini Crossword (The Observer)",
+    "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+    "description": "A daily mini crossword from The Observer.",
+    "tags": [
+      "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Minute Cryptic",
     "url": "https://www.minutecryptic.com",
     "description": "Solve today's cryptic clue.",
@@ -1345,6 +1500,15 @@
       "sports"
     ],
     "category": "Sports"
+  },
+  {
+    "name": "More/Less",
+    "url": "https://lessgames.com/moreless",
+    "description": "Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "morsle",
@@ -1385,6 +1549,16 @@
     "category": "Movies/TV"
   },
   {
+    "name": "Moviedle (from Histordle)",
+    "url": "https://histordle.com/moviedle",
+    "description": "Guess the year that the given movies were released.",
+    "tags": [
+      "movies",
+      "time"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Moviedle - Fill The Grid",
     "url": "https://moviedle.xyz/fill-the-grid",
     "description": "Fill the grid with movies that contain actors from each cell's corresponding row and column.",
@@ -1414,6 +1588,15 @@
     "category": "Movies/TV"
   },
   {
+    "name": "Moview",
+    "url": "https://moview.online",
+    "description": "Guess the movie, starting with a single review from Letterboxd. Gain more information after each incorrect guess.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Murdle",
     "url": "https://murdle.com",
     "description": "Solve today's murder-mystery logic puzzle.",
@@ -1436,6 +1619,17 @@
     "name": "Nerdle",
     "url": "https://nerdlegame.com",
     "description": "Guess the secret arithmetic equation.",
+    "tags": [
+      "archive",
+      "math",
+      "numbers"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Number Island",
+    "url": "https://numberisland.com",
+    "description": "Divide the number board into islands that match the target sums.",
     "tags": [
       "archive",
       "math",
@@ -1473,6 +1667,15 @@
     "category": "Words"
   },
   {
+    "name": "NYT Connections: Sports Edition",
+    "url": "https://www.nytimes.com/athletic/connections-sports-edition",
+    "description": "Group sports terms that share a common thread",
+    "tags": [
+      "sports"
+    ],
+    "category": "Sports"
+  },
+  {
     "name": "NYT Mini Crossword",
     "url": "https://www.nytimes.com/crosswords/game/mini",
     "description": "A very small crossword puzzle by the New York Times.",
@@ -1504,6 +1707,16 @@
     "name": "NYT Wordle",
     "url": "https://www.nytimes.com/games/wordle/index.html",
     "description": "Guess the 5-letter word in six or fewer attempts.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Octordle",
+    "url": "https://www.britannica.com/games/octordle",
+    "description": "Solve 8 Wordle puzzles at the same time. You have 13 guesses.",
     "tags": [
       "wordle",
       "words"
@@ -1649,6 +1862,15 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Planespottle",
+    "url": "https://planespottle.bytecatch.io",
+    "description": "Given an image of an airplane, determine the make, type, and the airline it belongs to.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Plotwords",
     "url": "https://plotwords.com/daily",
     "description": "Guess the name of the movie using as few plot keywords as possible!",
@@ -1674,6 +1896,16 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Poeltl",
+    "url": "https://poeltl.nbpa.com",
+    "description": "Guess the NBA player in 8 guesses.",
+    "tags": [
+      "nba",
+      "sports"
+    ],
+    "category": "Sports"
   },
   {
     "name": "Pokedle",
@@ -1789,6 +2021,16 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "QuickQ",
+    "url": "https://www.quickqtrivia.com",
+    "description": "A 90 second trivia game with questions from 8 categories.",
+    "tags": [
+      "fast-paced",
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "Quintessential",
@@ -1919,6 +2161,15 @@
       "pictures"
     ],
     "category": "Miscellaneous"
+  },
+  {
+    "name": "Runedle",
+    "url": "https://runedle.com",
+    "description": "Guess today's Runescape NPC.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Satle",
@@ -2252,6 +2503,15 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Terradle",
+    "url": "https://www.terradle.com",
+    "description": "Guess today's weapon from the game Terraria.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "The Wiki Game Daily",
     "url": "https://www.thewikigamedaily.com",
     "description": "Race from one Wikipedia page to the target page using as few links as possible",
@@ -2372,6 +2632,15 @@
     "category": "Geography/History"
   },
   {
+    "name": "Valodle",
+    "url": "https://valodle.eu",
+    "description": "Test your Valorant knowledge in these daily games.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Verticle",
     "url": "https://verticle.netlify.app",
     "description": "A vertical variant of Wordle.",
@@ -2389,6 +2658,33 @@
       "music"
     ],
     "category": "Music"
+  },
+  {
+    "name": "VideoPuzzle",
+    "url": "https://videopuzzle.org",
+    "description": "Swap tiles to unscramble the puzzle of a looping short video.",
+    "tags": [
+      "visual"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Vowel Play",
+    "url": "https://bythomas.co.uk/vowelplay",
+    "description": "Guess the words with their vowels removed.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Vox Daily Crossword",
+    "url": "https://www.vox.com/21523212/crossword-puzzles-free-daily-printable",
+    "description": "A free daily crossword from Vox, skips Sundays.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Waffle",
@@ -2457,6 +2753,15 @@
     "name": "Worchle",
     "url": "https://www.worchle.com",
     "description": "Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Word Box",
+    "url": "https://wordbox.game",
+    "description": "Swap letters until each row and column forms a valid word.",
     "tags": [
       "words"
     ],
@@ -2632,5 +2937,14 @@
       "logic"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Zeldadle",
+    "url": "https://www.zeldadle.net",
+    "description": "Test your Zelda knowledge in these daily games.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   }
 ]
