@@ -14,6 +14,7 @@
   import { clickOutside } from "$lib/js/clickOutside"
   import { base } from "$app/paths"
   import BannerText from "../BannerText.svelte"
+  import { openInNewTab } from "$lib/js/utilities"
 
   let pageX = 0
   let pageY = 0
@@ -73,6 +74,7 @@
                     pageY = e.pageY
                     clientY = e.clientY
                   }}
+                  on:auxclick={(e) => openInNewTab(dle.url)}
                 >
                   {dle.name}
                 </button>{#if isNewDle(dle)}
