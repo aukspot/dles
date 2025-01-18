@@ -400,7 +400,7 @@ dles added:
 | 22 | [Gamedle Keywords](https://www.gamedle.wtf/keywords)                                    | [https://www.gamedle.wtf/keywords](https://www.gamedle.wtf/keywords)                                 |
 | 23 | [Globle](https://globle-game.com/game)                                                  | [https://globle-game.com/game](https://globle-game.com/game)                                         |
 | 24 | [Guess The Game](https://guessthe.game)                                                 | [https://guessthe.game](https://guessthe.game)                                                       |
-| 25 | [Housle](https://housle.house/game)                                                     | [https://housle.house/game](https://housle.house/game)                                               |
+| 25 | [Housle](https://housle.house)                                                          | [https://housle.house](https://housle.house)                                                         |
 | 26 | [Immaculate Footy](https://www.immaculatefooty.com)                                     | [https://www.immaculatefooty.com](https://www.immaculatefooty.com)                                   |
 | 27 | [Immaculate Grid: Baseball](https://www.immaculategrid.com)                             | [https://www.immaculategrid.com](https://www.immaculategrid.com)                                     |
 | 28 | [Immaculate Grid: Men's Basketball](https://www.immaculategrid.com/basketball/mens)     | [https://www.immaculategrid.com/basketball/mens](https://www.immaculategrid.com/basketball/mens)     |
