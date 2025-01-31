@@ -1,0 +1,50 @@
+name: Build and deploy
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+        
+      - name: Install Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.1  2'
+          
+      - name: Create Python virtual environment
+        run: python3 -m venv src/python/.venv
+
+      - name: Activate virtual environment
+        run: source src/python/.venv/bin/activate
+
+      - name: Install requirements.txt
+        run: pip install -r src/python/requirements.txt
+
+      - name: Change into python directory and run main.py
+        run: cd src/python && python main.py
+
+      - name: Install node version 22
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Build site
+        run: npm run build
+        
+      - name: Commit all changed files back to the repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Build and deploy (Automated)
