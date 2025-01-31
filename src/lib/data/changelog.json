@@ -1,5 +1,37 @@
 [
   {
+    "date": "2025-01-31",
+    "dles removed": [
+      {
+        "name": "Acted",
+        "url": "https://acted.wtf"
+      },
+      {
+        "name": "Moviemoji",
+        "url": "https://www.playmoviemoji.com"
+      }
+    ],
+    "description": "Add 4 dles. Remove 2 dle.",
+    "dles added": [
+      {
+        "name": "Pokle",
+        "url": "https://poklegame.com"
+      },
+      {
+        "name": "Artle",
+        "url": "https://www.nga.gov/artle.html"
+      },
+      {
+        "name": "Geodle",
+        "url": "https://geodle.me"
+      },
+      {
+        "name": "NHLdle",
+        "url": "https://nhldle.com/classic"
+      }
+    ]
+  },
+  {
     "date": "2024-11-24",
     "description": "Add 35 dles. Remove 1 dle.",
     "dles added": [

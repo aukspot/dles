@@ -1,5 +1,21 @@
 # Changelog - The Dles
 
+## 2025-01-31
+
+Add 4 dles. Remove 1 dle.
+
+dles added: 
+|    | name                                    | url                                                              |
+|---:|:----------------------------------------|:-----------------------------------------------------------------|
+|  1 | [Pokle](https://poklegame.com)          | [https://poklegame.com](https://poklegame.com)                   |
+|  2 | [Artle](https://www.nga.gov/artle.html) | [https://www.nga.gov/artle.html](https://www.nga.gov/artle.html) |
+|  3 | [Geodle](https://geodle.me)             | [https://geodle.me](https://geodle.me)                           |
+|  4 | [NHLdle](https://nhldle.com/classic)    | [https://nhldle.com/classic](https://nhldle.com/classic)         |
+
+dles removed: 
+|    | name                       | url                                    |
+|---:|:---------------------------|:---------------------------------------|
+|  1 | [Acted](https://acted.wtf) | [https://acted.wtf](https://acted.wtf) |
 ## 2024-11-24
 
 Add 35 dles. Remove 1 dle.
