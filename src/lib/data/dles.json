@@ -20,17 +20,6 @@
     "category": "Words"
   },
   {
-    "name": "Acted",
-    "url": "https://acted.wtf",
-    "description": "Guess the name of the movie based on images of its actors.",
-    "tags": [
-      "archive",
-      "movies",
-      "pictures"
-    ],
-    "category": "Movies/TV"
-  },
-  {
     "name": "Actorle",
     "url": "https://actorle.com",
     "description": "Guess the movie actor based on the given information, with each guess revealing matching information.",
@@ -1572,15 +1561,6 @@
     "description": "Guess the movie based on the given emojis.",
     "tags": [
       "archive",
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-  {
-    "name": "Moviemoji",
-    "url": "https://www.playmoviemoji.com",
-    "description": "Guess the movie based on the given emojis.",
-    "tags": [
       "movies"
     ],
     "category": "Movies/TV"
