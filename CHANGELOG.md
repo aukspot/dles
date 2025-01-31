@@ -2,7 +2,7 @@
 
 ## 2025-01-31
 
-Add 4 dles. Remove 1 dle.
+Add 4 dles. Remove 2 dles.
 
 dles added: 
 |    | name                                    | url                                                              |
@@ -13,9 +13,10 @@ dles added:
 |  4 | [NHLdle](https://nhldle.com/classic)    | [https://nhldle.com/classic](https://nhldle.com/classic)         |
 
 dles removed: 
-|    | name                       | url                                    |
-|---:|:---------------------------|:---------------------------------------|
-|  1 | [Acted](https://acted.wtf) | [https://acted.wtf](https://acted.wtf) |
+|    | name                                       | url                                                            |
+|---:|:-------------------------------------------|:---------------------------------------------------------------|
+|  1 | [Acted](https://acted.wtf)                 | [https://acted.wtf](https://acted.wtf)                         |
+|  2 | [Moviemoji](https://www.playmoviemoji.com) | [https://www.playmoviemoji.com](https://www.playmoviemoji.com) |
 ## 2024-11-24
 
 Add 35 dles. Remove 1 dle.
