@@ -19,7 +19,7 @@ jobs:
       - name: Install Python 3.12
         uses: actions/setup-python@v5
         with:
-          python-version: '3.1  2'
+          python-version: '3.12'
           
       - name: Create Python virtual environment
         run: python3 -m venv src/python/.venv
