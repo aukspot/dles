@@ -146,15 +146,15 @@ def add_changes_to_changelog():
                 len(entry["dles added"]), len(entry["dles removed"]))
             break
 
-    if not is_date_in_changelog:
-        changelog_json.insert(0, {
-            "date": date,
-            "dles added": new_dles,
-            "dles removed": removed_dles,
-            "description": get_changelog_description(len(new_dles), len(removed_dles))
-        })
-
     if len(entry["dles added"]) > 0 or len(entry["dles removed"]) > 0:
+        if not is_date_in_changelog:
+            changelog_json.insert(0, {
+                "date": date,
+                "dles added": new_dles,
+                "dles removed": removed_dles,
+                "description": get_changelog_description(len(new_dles), len(removed_dles))
+            })
+
         backup_file(CHANGELOG_JSON)
         with open(CHANGELOG_JSON, "w+") as f:
             f.write(json.dumps(changelog_json, indent=2))
