@@ -7,7 +7,7 @@ if __name__ == "__main__":
     create_tag_colors()
     sort_tags()
     sort_dles()
-    sort_new_dles()
     add_changes_to_changelog()
+    sort_new_dles()
     create_changelog_md()
     write_dles_to_readme_md()

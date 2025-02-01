@@ -2,16 +2,17 @@
   import { base } from "$app/paths"
   import { infoHidden } from "$lib/stores"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import { slide } from "svelte/transition"
 
   function hideInfo() {
     $infoHidden = true
     if (isLocalStorageAvailable()) {
-      localStorage.closedBefore = true
+      localStorage.infoHidden = $infoHidden
     }
   }
 </script>
 
-<div id="info" class="m-auto max-w-[36rem] p-2">
+<div id="info" class="m-auto max-w-[36rem] p-2" transition:slide>
   <div class="text-center text-2xl md:text-3xl font-semibold font-mono">
     info
   </div>
@@ -49,13 +50,6 @@
     "They call them the dles, but they are anything but." - <em>Northernlion</em
     >
   </p>
-  <div class="flex justify-center">
-    <button
-      on:click={hideInfo}
-      class="my-4 mx-auto p-1 w-48 rounded-md bg-colorCardB shadow-md active:shadow-none"
-      >Hide above info</button
-    >
-  </div>
 </div>
 
 <!-- class="fixed z-30 top-[50%] md:top-[30%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[95%] min-w-80 max-w-[32rem] p-4 bg-colorCardA rounded-lg border-4 border-colorTextSoft shadow-md shadow-colorTextSofter" -->

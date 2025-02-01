@@ -167,6 +167,9 @@ def add_changes_to_changelog():
         print(f"Duplicate dles tried to be removed ({len(duplicates_tried_to_remove)}): {
               ', '.join(dle['name'] for dle in duplicates_tried_to_remove)}")
 
+    if "dles added" in changelog_json[0]:
+        write_new_dles(changelog_json[0]["dles added"])
+
     backup_file(DLES_FILE, extension=".old")
 
 

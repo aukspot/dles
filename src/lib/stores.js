@@ -13,6 +13,7 @@ export let randomCategories = writable([])
 export let infoHidden = writable(false)
 export let favorites = writable([])
 export let poppedUpDle = writable("")
+export let searchQuery = writable("")
 export let categorizedDles = writable({})
 export let categories = readable([
   "Geography/History",

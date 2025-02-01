@@ -102,7 +102,7 @@
   onMount(() => {
     loading = false
     if (isLocalStorageAvailable()) {
-      $infoHidden = localStorage.closedBefore !== undefined
+      $infoHidden = localStorage.infoHidden
     }
   })
 </script>

@@ -42,56 +42,60 @@
 <svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <BannerText />
-<div class="dlesContainer">
-  {#each $categories as category, i (i)}
-    <div class="card">
-      <div
-        class="labelContainer"
-        style="background-color: {$categoryColors[category]}"
-      >
-        <div class="label">
-          <div class="flex-shrink-0">
-            <svelte:component this={categoryIcons[category]} />
-          </div>
-          {category}
-        </div>
-      </div>
-      <div>
-        <ol class="dleList">
-          {#each $categorizedDles[category] as dle, j (j)}
-            <li class="dleContainer">
-              <!-- svelte-ignore a11y-click-events-have-key-events -->
-              <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-              <!-- svelte-ignore a11y-no-static-element-interactions -->
-              <div class="dleTop">
-                <button
-                  class="dleName"
-                  on:click={(e) => {
-                    $poppedUpDle === dle.name
-                      ? ($poppedUpDle = "")
-                      : ($poppedUpDle = dle.name)
-                    pageX = e.pageX
-                    pageY = e.pageY
-                    clientY = e.clientY
-                  }}
-                  on:auxclick={(e) => openInNewTab(dle.url)}
-                >
-                  {dle.name}
-                </button>{#if isNewDle(dle)}
-                  <IconNew />
-                {/if}
+<div class="w-full mx-auto">
+  <div class="dlesContainer">
+    {#each $categories as category, i (i)}
+      {#if $categorizedDles[category].length !== 0}
+        <div class="card">
+          <div
+            class="labelContainer"
+            style="background-color: {$categoryColors[category]}"
+          >
+            <div class="label">
+              <div class="flex-shrink-0">
+                <svelte:component this={categoryIcons[category]} />
               </div>
-              {#if $poppedUpDle === dle.name}
-                <div use:clickOutside on:click_outside={handleClickOutside}>
-                  <DlePopUp {dle} {pageX} {pageY} {clientY} />
-                </div>
-              {/if}
-            </li>
-          {/each}
-        </ol>
-      </div>
-    </div>
-  {/each}
+              {category}
+            </div>
+          </div>
+          <div>
+            <ol class="dleList">
+              {#each $categorizedDles[category] as dle, j (j)}
+                <li class="dleContainer">
+                  <!-- svelte-ignore a11y-click-events-have-key-events -->
+                  <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+                  <!-- svelte-ignore a11y-no-static-element-interactions -->
+                  <div class="dleTop">
+                    <button
+                      class="dleName"
+                      on:click={(e) => {
+                        $poppedUpDle === dle.name
+                          ? ($poppedUpDle = "")
+                          : ($poppedUpDle = dle.name)
+                        pageX = e.pageX
+                        pageY = e.pageY
+                        clientY = e.clientY
+                      }}
+                      on:auxclick={(e) => openInNewTab(dle.url)}
+                    >
+                      {dle.name}
+                    </button>{#if isNewDle(dle)}
+                      <IconNew />
+                    {/if}
+                  </div>
+                  {#if $poppedUpDle === dle.name}
+                    <div use:clickOutside on:click_outside={handleClickOutside}>
+                      <DlePopUp {dle} {pageX} {pageY} {clientY} />
+                    </div>
+                  {/if}
+                </li>
+              {/each}
+            </ol>
+          </div>
+        </div>
+      {/if}
+    {/each}
+  </div>
 </div>
 
 <style lang="postcss">
