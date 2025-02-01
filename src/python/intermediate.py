@@ -128,7 +128,8 @@ def add_changes_to_changelog():
                     else:
                         duplicates_tried_to_add.append(dle)
             else:
-                entry["dles added"] = new_dles
+                if len(new_dles) > 0:
+                    entry["dles added"] = new_dles
                 new_dles_count = len(new_dles)
             if "dles removed" in entry:
                 for dle in removed_dles:
@@ -138,7 +139,8 @@ def add_changes_to_changelog():
                     else:
                         duplicates_tried_to_remove.append(dle)
             else:
-                entry["dles removed"] = removed_dles
+                if len(removed_dles) > 0:
+                    entry["dles removed"] = removed_dles
                 removed_dles_count = len(removed_dles)
             entry["description"] = get_changelog_description(
                 len(entry["dles added"]), len(entry["dles removed"]))
@@ -152,20 +154,21 @@ def add_changes_to_changelog():
             "description": get_changelog_description(len(new_dles), len(removed_dles))
         })
 
-    backup_file(CHANGELOG_JSON)
-    with open(CHANGELOG_JSON, "w+") as f:
-        f.write(json.dumps(changelog_json, indent=2))
+    if len(entry["dles added"]) > 0 or len(entry["dles removed"]) > 0:
+        backup_file(CHANGELOG_JSON)
+        with open(CHANGELOG_JSON, "w+") as f:
+            f.write(json.dumps(changelog_json, indent=2))
 
-    if is_date_in_changelog:
-        print(f"Changelog updated for {date}: {
-              changelog_json[0]['description']}")
+        if is_date_in_changelog:
+            print(f"Changelog updated for {date}: {
+                changelog_json[0]['description']}")
 
-    if duplicates_tried_to_add:
-        print(f"Duplicate dles tried to be added ({len(duplicates_tried_to_add)}): {', '.join(
-            dle['name'] for dle in duplicates_tried_to_add)}")
-    if duplicates_tried_to_remove:
-        print(f"Duplicate dles tried to be removed ({len(duplicates_tried_to_remove)}): {
-              ', '.join(dle['name'] for dle in duplicates_tried_to_remove)}")
+        if duplicates_tried_to_add:
+            print(f"Duplicate dles tried to be added ({len(duplicates_tried_to_add)}): {', '.join(
+                dle['name'] for dle in duplicates_tried_to_add)}")
+        if duplicates_tried_to_remove:
+            print(f"Duplicate dles tried to be removed ({len(duplicates_tried_to_remove)}): {
+                ', '.join(dle['name'] for dle in duplicates_tried_to_remove)}")
 
     if "dles added" in changelog_json[0]:
         write_new_dles(changelog_json[0]["dles added"])
