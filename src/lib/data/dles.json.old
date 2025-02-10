@@ -696,6 +696,15 @@
     "category": "Trivia"
   },
   {
+    "name": "Face Guessr",
+    "url": "https://www.faceguesser.com",
+    "description": "Guess the pixelated face of today's notable figure.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Facedle",
     "url": "https://facedle.app",
     "description": "Guess the famous person in the partially covered picture.",
@@ -1152,6 +1161,15 @@
     "category": "Prices"
   },
   {
+    "name": "HowLongToBeat Daily Challenge",
+    "url": "https://howlongtobeat.com/play",
+    "description": "Guess how long it takes to beat the given video game. Use power-ups if you need help.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Huewords",
     "url": "https://huewords.snellman.net",
     "description": "Fill the partitioned grid with letters to form 5-letter words, choosing from the given groups of letters.",
@@ -1317,6 +1335,61 @@
     "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
     "tags": [
       "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Lex.Games - By A Vowel",
+    "url": "https://lex.games/byavowel/",
+    "description": "Unjumble five words by inserting a unique vowel into each word.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Lex.Games - Conlextions",
+    "url": "https://lex.games/connections/",
+    "description": "Group words that share a common thread, like Connections.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Lex.Games - Lexicogs",
+    "url": "https://lex.games/lexicogs/",
+    "description": "Solve today's clues by combining blocks of letters. Like the game 7 Little Words.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Lex.Games - Mini Crossword",
+    "url": "https://lex.games/mini/",
+    "description": "A daily mini crossword from Lex.Games",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Lex.Games - Six Appeal",
+    "url": "https://lex.games/six/",
+    "description": "Guess the 6-letter word, like Wordle, but you don't have to guess real words. The answer is a real word.",
+    "tags": [
+      "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Lex.Games - Square Dance",
+    "url": "https://lex.games/squaredance",
+    "description": "Make a word with each group of letters, but you must add a letter to each word.",
+    "tags": [
       "words"
     ],
     "category": "Words"
@@ -2233,6 +2306,27 @@
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
     "tags": [
       "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Sequences",
+    "url": "https://www.dailyfastgames.com/sequences",
+    "description": "Guess the next number in today's sequence.",
+    "tags": [
+      "logic",
+      "math",
+      "numbers"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Sexaginta-quattuordle",
+    "url": "https://64ordle.au/?mode=daily",
+    "description": "Solve 64 Wordle puzzles at the same time.",
+    "tags": [
+      "wordle",
       "words"
     ],
     "category": "Words"
