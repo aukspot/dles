@@ -1,5 +1,25 @@
 # Changelog - The Dles
 
+## 2025-02-10
+
+Add 10 dles. Remove 0 dles.
+
+dles added: 
+|    | name                                                            | url                                                                                  |
+|---:|:----------------------------------------------------------------|:-------------------------------------------------------------------------------------|
+|  1 | [Face Guessr](https://www.faceguesser.com)                      | [https://www.faceguesser.com](https://www.faceguesser.com)                           |
+|  2 | [HowLongToBeat Daily Challenge](https://howlongtobeat.com/play) | [https://howlongtobeat.com/play](https://howlongtobeat.com/play)                     |
+|  3 | [Lex.Games - By A Vowel](https://lex.games/byavowel/)           | [https://lex.games/byavowel/](https://lex.games/byavowel/)                           |
+|  4 | [Lex.Games - Conlextions](https://lex.games/connections/)       | [https://lex.games/connections/](https://lex.games/connections/)                     |
+|  5 | [Lex.Games - Lexicogs](https://lex.games/lexicogs/)             | [https://lex.games/lexicogs/](https://lex.games/lexicogs/)                           |
+|  6 | [Lex.Games - Mini Crossword](https://lex.games/mini/)           | [https://lex.games/mini/](https://lex.games/mini/)                                   |
+|  7 | [Lex.Games - Six Appeal](https://lex.games/six/)                | [https://lex.games/six/](https://lex.games/six/)                                     |
+|  8 | [Lex.Games - Square Dance](https://lex.games/squaredance)       | [https://lex.games/squaredance](https://lex.games/squaredance)                       |
+|  9 | [Sequences](https://www.dailyfastgames.com/sequences)           | [https://www.dailyfastgames.com/sequences](https://www.dailyfastgames.com/sequences) |
+| 10 | [Sexaginta-quattuordle](https://64ordle.au/?mode=daily)         | [https://64ordle.au/?mode=daily](https://64ordle.au/?mode=daily)                     |
+
+dles removed: 
+
 ## 2025-01-31
 
 Add 4 dles. Remove 2 dles.

@@ -1,5 +1,52 @@
 [
   {
+    "date": "2025-02-10",
+    "dles added": [
+      {
+        "name": "Face Guessr",
+        "url": "https://www.faceguesser.com"
+      },
+      {
+        "name": "HowLongToBeat Daily Challenge",
+        "url": "https://howlongtobeat.com/play"
+      },
+      {
+        "name": "Lex.Games - By A Vowel",
+        "url": "https://lex.games/byavowel/"
+      },
+      {
+        "name": "Lex.Games - Conlextions",
+        "url": "https://lex.games/connections/"
+      },
+      {
+        "name": "Lex.Games - Lexicogs",
+        "url": "https://lex.games/lexicogs/"
+      },
+      {
+        "name": "Lex.Games - Mini Crossword",
+        "url": "https://lex.games/mini/"
+      },
+      {
+        "name": "Lex.Games - Six Appeal",
+        "url": "https://lex.games/six/"
+      },
+      {
+        "name": "Lex.Games - Square Dance",
+        "url": "https://lex.games/squaredance"
+      },
+      {
+        "name": "Sequences",
+        "url": "https://www.dailyfastgames.com/sequences"
+      },
+      {
+        "name": "Sexaginta-quattuordle",
+        "url": "https://64ordle.au/?mode=daily"
+      }
+    ],
+    "dles removed": [],
+    "description": "Add 10 dles. Remove 0 dles."
+  },
+  {
     "date": "2025-01-31",
     "dles removed": [
       {

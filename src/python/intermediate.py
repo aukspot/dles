@@ -106,6 +106,7 @@ def current_date():
 
 def add_changes_to_changelog():
     changes = compare_dles_to_old_dles(read_dles(), read_old_dles())
+    print(changes)
     new_dles = changes["new"]
     removed_dles = changes["removed"]
     new_dles_count = 0
@@ -146,7 +147,7 @@ def add_changes_to_changelog():
                 len(entry["dles added"]), len(entry["dles removed"]))
             break
 
-    if not is_date_in_changelog and (new_dles_count > 0 or removed_dles_count > 0):
+    if not is_date_in_changelog and (len(new_dles) > 0 or len(removed_dles) > 0):
         changelog_json.insert(0, {
             "date": date,
             "dles added": new_dles,
