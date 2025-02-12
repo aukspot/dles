@@ -2,7 +2,7 @@
 
 ## 2025-02-10
 
-Add 10 dles. Remove 0 dles.
+Add 10 dles.
 
 dles added: 
 |    | name                                                            | url                                                                                  |
@@ -17,8 +17,6 @@ dles added:
 |  8 | [Lex.Games - Square Dance](https://lex.games/squaredance)       | [https://lex.games/squaredance](https://lex.games/squaredance)                       |
 |  9 | [Sequences](https://www.dailyfastgames.com/sequences)           | [https://www.dailyfastgames.com/sequences](https://www.dailyfastgames.com/sequences) |
 | 10 | [Sexaginta-quattuordle](https://64ordle.au/?mode=daily)         | [https://64ordle.au/?mode=daily](https://64ordle.au/?mode=daily)                     |
-
-dles removed: 
 
 ## 2025-01-31
 

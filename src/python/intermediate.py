@@ -148,12 +148,15 @@ def add_changes_to_changelog():
             break
 
     if not is_date_in_changelog and (len(new_dles) > 0 or len(removed_dles) > 0):
-        changelog_json.insert(0, {
+        entry = {
             "date": date,
-            "dles added": new_dles,
-            "dles removed": removed_dles,
             "description": get_changelog_description(len(new_dles), len(removed_dles))
-        })
+        }
+        if len(new_dles) > 0:
+            entry["dles added"] = new_dles
+        if len(removed_dles) > 0:
+            entry["dles removed"] = removed_dles
+        changelog_json.insert(0, entry)
 
     backup_file(CHANGELOG_JSON)
     with open(CHANGELOG_JSON, "w+") as f:
@@ -236,9 +239,14 @@ def last_update_date():
 
 
 def get_changelog_description(dles_added_count, dles_removed_count):
+    description = ""
     plural_added = "s" if dles_added_count > 1 or dles_added_count == 0 else ""
     plural_removed = "s" if dles_removed_count > 1 or dles_removed_count == 0 else ""
-    return f"Add {dles_added_count} dle{plural_added}. Remove {dles_removed_count} dle{plural_removed}."
+    if dles_added_count > 0:
+        description += f"Add {dles_added_count} dle{plural_added}. "
+    if dles_removed_count > 0:
+        description += f"Remove {dles_removed_count} dle{plural_removed}. "
+    return description
 
 
 def changelog_json_to_md_str():
