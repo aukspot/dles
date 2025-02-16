@@ -1,5 +1,23 @@
 # Changelog - The Dles
 
+## 2025-02-16
+
+Add 10 dles. 
+
+dles added: 
+|    | name                                                                | url                                                                                            |
+|---:|:--------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+|  1 | [Catfishing](https://catfishing.net/game/today)                     | [https://catfishing.net/game/today](https://catfishing.net/game/today)                         |
+|  2 | [Couples](https://www.couples.game)                                 | [https://www.couples.game](https://www.couples.game)                                           |
+|  3 | [Dungleon](https://www.dungleon.com)                                | [https://www.dungleon.com](https://www.dungleon.com)                                           |
+|  4 | [Eightile](https://eightile.com)                                    | [https://eightile.com](https://eightile.com)                                                   |
+|  5 | [GeoConnections](https://geoconnections.net)                        | [https://geoconnections.net](https://geoconnections.net)                                       |
+|  6 | [Isaacle](https://isaacle.net)                                      | [https://isaacle.net](https://isaacle.net)                                                     |
+|  7 | [Isaaconnect](https://isaaconnect.com)                              | [https://isaaconnect.com](https://isaaconnect.com)                                             |
+|  8 | [LA Times Crossword](https://www.latimes.com/games/daily-crossword) | [https://www.latimes.com/games/daily-crossword](https://www.latimes.com/games/daily-crossword) |
+|  9 | [Top 5](https://top5-game.com)                                      | [https://top5-game.com](https://top5-game.com)                                                 |
+| 10 | [WhenTaken Movies](https://movies.whentaken.com)                    | [https://movies.whentaken.com](https://movies.whentaken.com)                                   |
+
 ## 2025-02-10
 
 Add 10 dles.

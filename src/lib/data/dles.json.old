@@ -244,6 +244,16 @@
     "category": "Words"
   },
   {
+    "name": "Catfishing",
+    "url": "https://catfishing.net/game/today",
+    "description": "Guess the Wikipedia article by its categories. 10 rounds per day.",
+    "tags": [
+      "trivia",
+      "words"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Cell Tower",
     "url": "https://www.andrewt.net/puzzles/cell-tower",
     "description": "Divide the grid into regions such that each region represents a word.",
@@ -452,6 +462,15 @@
       "geography"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Couples",
+    "url": "https://www.couples.game",
+    "description": "Guess the chained word pairs in 3 tries.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "CraftWord",
@@ -677,11 +696,28 @@
     "category": "Video Games"
   },
   {
+    "name": "Dungleon",
+    "url": "https://www.dungleon.com",
+    "description": "Guess the dungeon's composition in 6 guesses.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Duotrigordle",
     "url": "https://duotrigordle.com",
     "description": "Solve 32 Wordle puzzles at the same time.",
     "tags": [
       "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Eightile",
+    "url": "https://eightile.com",
+    "description": "Unscramble each word, adding a new letter each time. You have 5 minutes.",
+    "tags": [
+      "fast-paced",
       "words"
     ],
     "category": "Words"
@@ -905,6 +941,16 @@
     "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
     "tags": [
       "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "GeoConnections",
+    "url": "https://geoconnections.net",
+    "description": "Group mostly geography-related pictures that share a common theme.",
+    "tags": [
+      "geography",
+      "pictures"
     ],
     "category": "Geography/History"
   },
@@ -1257,6 +1303,24 @@
     "category": "Sports"
   },
   {
+    "name": "Isaacle",
+    "url": "https://isaacle.net",
+    "description": "Guess the items from the game The Binding of Isaac in these daily quizzes.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "Isaaconnect",
+    "url": "https://isaaconnect.com",
+    "description": "Group items from The Binding of Isaac that share a common theme.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "IYKYK",
     "url": "https://www.iykyk.com",
     "description": "Guess what today's acronym stands for. By the makers of the card game CultureTags.",
@@ -1305,6 +1369,15 @@
     "name": "Keyword",
     "url": "https://www.washingtonpost.com/games/keyword",
     "description": "Find the target word by guessing the final letter of the vertical words.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "LA Times Crossword",
+    "url": "https://www.latimes.com/games/daily-crossword",
+    "description": "Solve today's crossword from the Los Angeles Times.",
     "tags": [
       "words"
     ],
@@ -2681,6 +2754,15 @@
     "category": "Words"
   },
   {
+    "name": "Top 5",
+    "url": "https://top5-game.com",
+    "description": "Guess the top 5 items of today's category.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Toppled",
     "url": "https://bythomas.co.uk/toppled",
     "description": "Topple the letter wall by finding four 5-letter words",
@@ -2819,6 +2901,18 @@
     "tags": [
       "archive",
       "geography",
+      "time"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "WhenTaken Movies",
+    "url": "https://movies.whentaken.com",
+    "description": "Guess where and when the given movie scene was filmed.",
+    "tags": [
+      "geography",
+      "movies",
+      "pictures",
       "time"
     ],
     "category": "Geography/History"
