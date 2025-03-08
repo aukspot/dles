@@ -174,6 +174,15 @@
     "category": "Movies/TV"
   },
   {
+    "name": "Bracket City",
+    "url": "https://bracket.city",
+    "description": "Solve the clues within brackets, eventually completing the puzzle.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "BrainBashers Daily 30 Seconds",
     "url": "https://www.brainbashers.com/30seconds.asp",
     "description": "Try to solve the arithmetic questions in 30 seconds, but it is okay if you go over.",

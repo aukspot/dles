@@ -1,42 +1,6 @@
 [
   {
-    "name": "Catfishing",
-    "url": "https://catfishing.net/game/today"
-  },
-  {
-    "name": "Couples",
-    "url": "https://www.couples.game"
-  },
-  {
-    "name": "Dungleon",
-    "url": "https://www.dungleon.com"
-  },
-  {
-    "name": "Eightile",
-    "url": "https://eightile.com"
-  },
-  {
-    "name": "GeoConnections",
-    "url": "https://geoconnections.net"
-  },
-  {
-    "name": "Isaacle",
-    "url": "https://isaacle.net"
-  },
-  {
-    "name": "Isaaconnect",
-    "url": "https://isaaconnect.com"
-  },
-  {
-    "name": "LA Times Crossword",
-    "url": "https://www.latimes.com/games/daily-crossword"
-  },
-  {
-    "name": "Top 5",
-    "url": "https://top5-game.com"
-  },
-  {
-    "name": "WhenTaken Movies",
-    "url": "https://movies.whentaken.com"
+    "name": "Bracket City",
+    "url": "https://bracket.city"
   }
 ]

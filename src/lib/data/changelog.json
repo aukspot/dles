@@ -1,5 +1,15 @@
 [
   {
+    "date": "2025-03-08",
+    "description": "Add 1 dle. ",
+    "dles added": [
+      {
+        "name": "Bracket City",
+        "url": "https://bracket.city"
+      }
+    ]
+  },
+  {
     "date": "2025-02-16",
     "description": "Add 10 dles. ",
     "dles added": [

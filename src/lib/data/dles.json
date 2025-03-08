@@ -1,13 +1,4 @@
 [
-    {
-    "name": "Bracket City",
-    "url": "https://bracket.city",
-    "description": "Solve the clues within brackets, eventually completing the puzzle.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
   {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
@@ -181,6 +172,15 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Bracket City",
+    "url": "https://bracket.city",
+    "description": "Solve the clues within brackets, eventually completing the puzzle.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "BrainBashers Daily 30 Seconds",
