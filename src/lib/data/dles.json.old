@@ -254,7 +254,7 @@
   },
   {
     "name": "Catfishing",
-    "url": "https://catfishing.net/game/today",
+    "url": "https://catfishing.net",
     "description": "Guess the Wikipedia article by its categories. 10 rounds per day.",
     "tags": [
       "trivia",
