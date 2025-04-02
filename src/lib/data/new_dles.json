@@ -1,6 +1,82 @@
 [
   {
-    "name": "Bracket City",
-    "url": "https://bracket.city"
+    "name": "Cartoonguessr",
+    "url": "https://cartoonguesser.pythonanywhere.com"
+  },
+  {
+    "name": "Colordle",
+    "url": "https://colordle.ryantanen.com"
+  },
+  {
+    "name": "Compound Your Joy",
+    "url": "https://onelook.com/?loc=rd&w=cyj"
+  },
+  {
+    "name": "Cracked Sudoku",
+    "url": "https://danielchasehooper.com/projects/cracked-sudoku/"
+  },
+  {
+    "name": "Crossherd",
+    "url": "https://crossherd.clevergoat.com"
+  },
+  {
+    "name": "LoLdle",
+    "url": "https://loldle.net"
+  },
+  {
+    "name": "Minecraftle",
+    "url": "https://minecraftle.zachmanson.com"
+  },
+  {
+    "name": "Movie Pyramid",
+    "url": "https://moviepyramid.io"
+  },
+  {
+    "name": "Movie Reveal",
+    "url": "https://moviereveal.io"
+  },
+  {
+    "name": "Movie Snake",
+    "url": "https://moviesnake.io"
+  },
+  {
+    "name": "Musicdoku",
+    "url": "https://musicdoku.com"
+  },
+  {
+    "name": "Pandergram",
+    "url": "https://onelook.com/pandergram"
+  },
+  {
+    "name": "Real Bird Fake Bird",
+    "url": "https://realbirdfakebird.com"
+  },
+  {
+    "name": "Rivadle",
+    "url": "https://rivadle.net"
+  },
+  {
+    "name": "SpaceWord",
+    "url": "https://spaceword.org"
+  },
+  {
+    "name": "Stacked",
+    "url": "https://stacked.clevergoat.com"
+  },
+  {
+    "name": "The Daily Burgle",
+    "url": "https://www.thedailyburgle.app"
+  },
+  {
+    "name": "Threepeat",
+    "url": "https://onelook.com/threepeat"
+  },
+  {
+    "name": "Weddle",
+    "url": "https://www.weddlegame.com"
+  },
+  {
+    "name": "ZoomOut",
+    "url": "https://zoomout.videoludid.com"
   }
 ]

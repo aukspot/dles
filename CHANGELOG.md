@@ -1,5 +1,33 @@
 # Changelog - The Dles
 
+## 2025-04-02
+
+Add 20 dles. 
+
+dles added: 
+|    | name                                                                     | url                                                                                                              |
+|---:|:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+|  1 | [Cartoonguessr](https://cartoonguesser.pythonanywhere.com)               | [https://cartoonguesser.pythonanywhere.com](https://cartoonguesser.pythonanywhere.com)                           |
+|  2 | [Colordle](https://colordle.ryantanen.com)                               | [https://colordle.ryantanen.com](https://colordle.ryantanen.com)                                                 |
+|  3 | [Compound Your Joy](https://onelook.com/?loc=rd&w=cyj)                   | [https://onelook.com/?loc=rd&w=cyj](https://onelook.com/?loc=rd&w=cyj)                                           |
+|  4 | [Cracked Sudoku](https://danielchasehooper.com/projects/cracked-sudoku/) | [https://danielchasehooper.com/projects/cracked-sudoku/](https://danielchasehooper.com/projects/cracked-sudoku/) |
+|  5 | [Crossherd](https://crossherd.clevergoat.com)                            | [https://crossherd.clevergoat.com](https://crossherd.clevergoat.com)                                             |
+|  6 | [LoLdle](https://loldle.net)                                             | [https://loldle.net](https://loldle.net)                                                                         |
+|  7 | [Minecraftle](https://minecraftle.zachmanson.com)                        | [https://minecraftle.zachmanson.com](https://minecraftle.zachmanson.com)                                         |
+|  8 | [Movie Pyramid](https://moviepyramid.io)                                 | [https://moviepyramid.io](https://moviepyramid.io)                                                               |
+|  9 | [Movie Reveal](https://moviereveal.io)                                   | [https://moviereveal.io](https://moviereveal.io)                                                                 |
+| 10 | [Movie Snake](https://moviesnake.io)                                     | [https://moviesnake.io](https://moviesnake.io)                                                                   |
+| 11 | [Musicdoku](https://musicdoku.com)                                       | [https://musicdoku.com](https://musicdoku.com)                                                                   |
+| 12 | [Pandergram](https://onelook.com/pandergram)                             | [https://onelook.com/pandergram](https://onelook.com/pandergram)                                                 |
+| 13 | [Real Bird Fake Bird](https://realbirdfakebird.com)                      | [https://realbirdfakebird.com](https://realbirdfakebird.com)                                                     |
+| 14 | [Rivadle](https://rivadle.net)                                           | [https://rivadle.net](https://rivadle.net)                                                                       |
+| 15 | [SpaceWord](https://spaceword.org)                                       | [https://spaceword.org](https://spaceword.org)                                                                   |
+| 16 | [Stacked](https://stacked.clevergoat.com)                                | [https://stacked.clevergoat.com](https://stacked.clevergoat.com)                                                 |
+| 17 | [The Daily Burgle](https://www.thedailyburgle.app)                       | [https://www.thedailyburgle.app](https://www.thedailyburgle.app)                                                 |
+| 18 | [Threepeat](https://onelook.com/threepeat)                               | [https://onelook.com/threepeat](https://onelook.com/threepeat)                                                   |
+| 19 | [Weddle](https://www.weddlegame.com)                                     | [https://www.weddlegame.com](https://www.weddlegame.com)                                                         |
+| 20 | [ZoomOut](https://zoomout.videoludid.com)                                | [https://zoomout.videoludid.com](https://zoomout.videoludid.com)                                                 |
+
 ## 2025-03-08
 
 Add 1 dle. 

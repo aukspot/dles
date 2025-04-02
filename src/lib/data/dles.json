@@ -1,184 +1,4 @@
 [
-    {
-    "name": "The Daily Burgle",
-    "url": "https://www.thedailyburgle.app",
-    "description": "Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-    {
-    "name": "Musicdoku",
-    "url": "https://musicdoku.com",
-    "description": "Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.",
-    "tags": [
-      "music"
-    ],
-    "category": "Music"
-  },
-    {
-    "name": "ZoomOut",
-    "url": "https://zoomout.videoludid.com",
-    "description": "Guess the video game from the zoomed-in screenshot.",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-    {
-    "name": "Rivadle",
-    "url": "https://rivadle.net",
-    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-    {
-    "name": "Movie Reveal",
-    "url": "https://moviereveal.io",
-    "description": "Guess today's hidden movie by revealing clues that cost you points!",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-    {
-    "name": "Movie Pyramid",
-    "url": "https://moviepyramid.io",
-    "description": "Fill in the cells of the pyramid with movies that match the criteria of their given row.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-    {
-    "name": "Movie Snake",
-    "url": "https://moviesnake.io",
-    "description": "Guess movies that match pairs of criteria until all clues have been used.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-    {
-    "name": "Real Bird Fake Bird",
-    "url": "https://realbirdfakebird.com",
-    "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
-    "tags": [
-      "trivia"
-    ],
-    "category": "Trivia"
-  },
-    {
-    "name": "Weddle",
-    "url": "https://www.weddlegame.com",
-    "description": "Guess the NFL player within 8 guesses.",
-    "tags": [
-      "sports", "football"
-    ],
-    "category": "Sports"
-  },
-    {
-    "name": "SpaceWord",
-    "url": "https://spaceword.org",
-    "description": "Create crosswords using all letters, using as little space as possible.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-    {
-    "name": "LoLdle",
-    "url": "https://loldle.net",
-    "description": "A bunch of daily games where you guess the champion from League of Legends.",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-    {
-    "name": "Crossherd",
-    "url": "https://crossherd.clevergoat.com",
-    "description": "A daily mini crossword from Clever Goat.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-    {
-    "name": "Stacked",
-    "url": "https://stacked.clevergoat.com",
-    "description": "Find groups of different sizes that share something in common.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-    {
-    "name": "Minecraftle",
-    "url": "https://minecraftle.zachmanson.com",
-    "description": "Guess the crafting recipe from the game Minecraft.",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-    {
-    "name": "Cartoonguessr",
-    "url": "https://cartoonguesser.pythonanywhere.com",
-    "description": "Guess the cartoon character within 15 guesses.",
-    "tags": [
-      "tv"
-    ],
-    "category": "Movies/TV"
-  },
-    {
-    "name": "Threepeat",
-    "url": "https://onelook.com/threepeat",
-    "description": "Complete three words with the same three letters, three rounds everyday.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-    {
-    "name": "Compound Your Joy",
-    "url": "https://onelook.com/?loc=rd&w=cyj",
-    "description": "Rearrange the words into a chain of 2-word concepts.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-    {
-    "name": "Pandergram",
-    "url": "https://onelook.com/pandergram",
-    "description": "Swap out letters from the given words to create new words that together use the entire alphabet.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-    {
-    "name": "Colordle",
-    "url": "https://colordle.ryantanen.com",
-    "description": "Guess today's color by using color names.",
-    "tags": [
-      "colors"
-    ],
-    "category": "Miscellaneous"
-  },
-      {
-    "name": "Cracked Sudoku",
-    "url": "https://danielchasehooper.com/projects/cracked-sudoku/",
-    "description": "Fill the cells with numbers 1-9 without repeating numbers in a dark-outlined group or along a colored run line.",
-    "tags": [
-      "logic"
-    ],
-    "category": "Math/Logic"
-  },
   {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
@@ -423,6 +243,15 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "Cartoonguessr",
+    "url": "https://cartoonguesser.pythonanywhere.com",
+    "description": "Guess the cartoon character within 15 guesses.",
+    "tags": [
+      "tv"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Categories",
     "url": "https://categories.clevergoat.com",
     "description": "Group the words in the grid into the 4 secret categories, like Connections or Conexo.",
@@ -567,6 +396,15 @@
     "category": "Words"
   },
   {
+    "name": "Colordle",
+    "url": "https://colordle.ryantanen.com",
+    "description": "Guess today's color by using color names.",
+    "tags": [
+      "colors"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Colorfle",
     "url": "https://colorfle.com",
     "description": "Figure out the color composition of the given color.",
@@ -590,6 +428,15 @@
     "description": "Create words using combinations of letters from the grid.",
     "tags": [
       "archive",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Compound Your Joy",
+    "url": "https://onelook.com/?loc=rd&w=cyj",
+    "description": "Rearrange the words into a chain of 2-word concepts.",
+    "tags": [
       "words"
     ],
     "category": "Words"
@@ -662,9 +509,27 @@
     "category": "Words"
   },
   {
+    "name": "Cracked Sudoku",
+    "url": "https://danielchasehooper.com/projects/cracked-sudoku/",
+    "description": "Fill the cells with numbers 1-9 without repeating numbers in a dark-outlined group or along a colored run line.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "CraftWord",
     "url": "https://craftword.game",
     "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Crossherd",
+    "url": "https://crossherd.clevergoat.com",
+    "description": "A daily mini crossword from Clever Goat.",
     "tags": [
       "words"
     ],
@@ -1731,6 +1596,15 @@
     "category": "Math/Logic"
   },
   {
+    "name": "LoLdle",
+    "url": "https://loldle.net",
+    "description": "A bunch of daily games where you guess the champion from League of Legends.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Lyricle",
     "url": "https://www.lyricle.app",
     "description": "Guess the song from the given lyrics.",
@@ -1804,6 +1678,15 @@
     "category": "Video Games"
   },
   {
+    "name": "Minecraftle",
+    "url": "https://minecraftle.zachmanson.com",
+    "description": "Guess the crafting recipe from the game Minecraft.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Mini Crossword (The Observer)",
     "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
     "description": "A daily mini crossword from The Observer.",
@@ -1863,6 +1746,33 @@
     "name": "Movie Grid",
     "url": "https://moviegrid.io",
     "description": "Fill out the grid with movies matching the criteria of each cell's row and column.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Movie Pyramid",
+    "url": "https://moviepyramid.io",
+    "description": "Fill in the cells of the pyramid with movies that match the criteria of their given row.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Movie Reveal",
+    "url": "https://moviereveal.io",
+    "description": "Guess today's hidden movie by revealing clues that cost you points!",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Movie Snake",
+    "url": "https://moviesnake.io",
+    "description": "Guess movies that match pairs of criteria until all clues have been used.",
     "tags": [
       "movies"
     ],
@@ -1935,6 +1845,15 @@
       "logic"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Musicdoku",
+    "url": "https://musicdoku.com",
+    "description": "Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
   },
   {
     "name": "Neighborle",
@@ -2141,6 +2060,15 @@
     "name": "Outword",
     "url": "https://outword.me",
     "description": "Create 2 words from the given letters. Each letter has a base value and some letters have multipliers, like in Scrabble.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Pandergram",
+    "url": "https://onelook.com/pandergram",
+    "description": "Swap out letters from the given words to create new words that together use the entire alphabet.",
     "tags": [
       "words"
     ],
@@ -2410,6 +2338,15 @@
     "category": "Words"
   },
   {
+    "name": "Real Bird Fake Bird",
+    "url": "https://realbirdfakebird.com",
+    "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
     "name": "Reciple",
     "url": "https://reciple.net",
     "description": "Guess the ingredients of today's recipe.",
@@ -2491,6 +2428,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Rivadle",
+    "url": "https://rivadle.net",
+    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Rogule",
@@ -2661,6 +2607,15 @@
     "category": "Video Games"
   },
   {
+    "name": "SpaceWord",
+    "url": "https://spaceword.org",
+    "description": "Create crosswords using all letters, using as little space as possible.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Spell Bee",
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",
@@ -2772,6 +2727,15 @@
     "category": "Video Games"
   },
   {
+    "name": "Stacked",
+    "url": "https://stacked.clevergoat.com",
+    "description": "Find groups of different sizes that share something in common.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Stackle",
     "url": "https://www.stackle.fun",
     "description": "Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.",
@@ -2881,6 +2845,15 @@
     "category": "Video Games"
   },
   {
+    "name": "The Daily Burgle",
+    "url": "https://www.thedailyburgle.app",
+    "description": "Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "The Wiki Game Daily",
     "url": "https://www.thewikigamedaily.com",
     "description": "Race from one Wikipedia page to the target page using as few links as possible",
@@ -2896,6 +2869,15 @@
     "description": "Solve 3 Wordle puzzles crossed together.",
     "tags": [
       "wordle",
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Threepeat",
+    "url": "https://onelook.com/threepeat",
+    "description": "Complete three words with the same three letters, three rounds everyday.",
+    "tags": [
       "words"
     ],
     "category": "Words"
@@ -3082,6 +3064,16 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Weddle",
+    "url": "https://www.weddlegame.com",
+    "description": "Guess the NFL player within 8 guesses.",
+    "tags": [
+      "football",
+      "sports"
+    ],
+    "category": "Sports"
   },
   {
     "name": "WhenTaken",
@@ -3332,6 +3324,15 @@
     "name": "Zeldadle",
     "url": "https://www.zeldadle.net",
     "description": "Test your Zelda knowledge in these daily games.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "ZoomOut",
+    "url": "https://zoomout.videoludid.com",
+    "description": "Guess the video game from the zoomed-in screenshot.",
     "tags": [
       "video games"
     ],
