@@ -3337,5 +3337,18 @@
       "video games"
     ],
     "category": "Video Games"
+  },
+  {
+    "name": "Nodes",
+    "url": "https://www.nodes-game.com",
+    "description": "Connect dots and reveal the image.",
+    "tags": [
+      "connect dots",
+      "vertex",
+      "visual",
+      "calming",
+      "relaxing"
+    ],
+    "category": "Miscellaneous"
   }
 ]
