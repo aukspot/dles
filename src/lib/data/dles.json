@@ -1,4 +1,13 @@
 [
+    {
+    "name": "Daily Akari",
+    "url": "https://dailyakari.com",
+    "description": "A classic logic puzzle game where you must light up the grid.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
   {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
