@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-04-10
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                  | url                                              |
+|---:|:--------------------------------------|:-------------------------------------------------|
+|  1 | [Daily Akari](https://dailyakari.com) | [https://dailyakari.com](https://dailyakari.com) |
+
 ## 2025-04-02
 
 Add 20 dles. 
