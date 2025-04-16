@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-04-16
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                | url                                            |
+|---:|:------------------------------------|:-----------------------------------------------|
+|  1 | [Echo Chess](https://echochess.com) | [https://echochess.com](https://echochess.com) |
+
 ## 2025-04-10
 
 Add 1 dle. 
