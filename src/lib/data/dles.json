@@ -1,5 +1,14 @@
 [
   {
+    "name": "Echo Chess",
+    "url": "https://echochess.com",
+    "description": "Solve the chess puzzle where you have to capture all black pieces to win and your piece becomes what it captures.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
