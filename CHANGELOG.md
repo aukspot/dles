@@ -2,7 +2,7 @@
 
 ## 2025-05-08
 
-Add 30 dles. Remove 1 dle. 
+Add 29 dles. Remove 1 dle. 
 
 dles added: 
 |    | name                                                           | url                                                                                |
@@ -30,13 +30,12 @@ dles added:
 | 21 | [Scrandle](https://scrandle.com)                               | [https://scrandle.com](https://scrandle.com)                                       |
 | 22 | [Smixed](https://smixed.com)                                   | [https://smixed.com](https://smixed.com)                                           |
 | 23 | [Snapdle](https://snapdle.github.io/classic)                   | [https://snapdle.github.io/classic](https://snapdle.github.io/classic)             |
-| 24 | [Snapdle](https://snapdle.github.io/classic)                   | [https://snapdle.github.io/classic](https://snapdle.github.io/classic)             |
-| 25 | [Spot the differences](https://www.spot-differences.com)       | [https://www.spot-differences.com](https://www.spot-differences.com)               |
-| 26 | [Talldle](https://www.talldle.com)                             | [https://www.talldle.com](https://www.talldle.com)                                 |
-| 27 | [Warbl](https://www.warbl.org)                                 | [https://www.warbl.org](https://www.warbl.org)                                     |
-| 28 | [Which year](https://whichyr.com)                              | [https://whichyr.com](https://whichyr.com)                                         |
-| 29 | [Wordcell](https://wordcell.gamebunny.app)                     | [https://wordcell.gamebunny.app](https://wordcell.gamebunny.app)                   |
-| 30 | [words for days](https://wordsfordays.com)                     | [https://wordsfordays.com](https://wordsfordays.com)                               |
+| 24 | [Spot the differences](https://www.spot-differences.com)       | [https://www.spot-differences.com](https://www.spot-differences.com)               |
+| 25 | [Talldle](https://www.talldle.com)                             | [https://www.talldle.com](https://www.talldle.com)                                 |
+| 26 | [Warbl](https://www.warbl.org)                                 | [https://www.warbl.org](https://www.warbl.org)                                     |
+| 27 | [Which year](https://whichyr.com)                              | [https://whichyr.com](https://whichyr.com)                                         |
+| 28 | [Wordcell](https://wordcell.gamebunny.app)                     | [https://wordcell.gamebunny.app](https://wordcell.gamebunny.app)                   |
+| 29 | [words for days](https://wordsfordays.com)                     | [https://wordsfordays.com](https://wordsfordays.com)                               |
 
 dles removed: 
 |    | name                            | url                                            |
