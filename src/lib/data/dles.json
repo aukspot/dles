@@ -1,259 +1,5 @@
 [
   {
-    "name": "lichess.org Daily Puzzle",
-    "url": "https://lichess.org/training/daily",
-    "description": "Solve the daily chess puzzle from lichess.org.",
-    "tags": [
-      "logic"
-    ],
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Kinda Hard Golf",
-    "url": "https://kindahardgolf.com",
-    "description": "A challenging daily golf game.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "BingeWatcher",
-    "url": "https://bingewatcher.org",
-    "description": "Guess the daily movie title by revealing its details.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-  {
-    "name": "Jigsaw Explorer",
-    "url": "https://www.jigsawexplorer.com",
-    "description": "Solve the jigsaw puzzles, two new puzzles everyday.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Spot the differences",
-    "url": "https://www.spot-differences.com",
-    "description": "Spot all of the differences in the two pictures.",
-    "tags": [
-      "pictures"
-    ],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Breadle",
-    "url": "https://breadle.us",
-    "description": "Solve the daily 5-letter word that is related to food.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "Wordcell",
-    "url": "https://wordcell.gamebunny.app",
-    "description": "Find the hidden words on the board by throwing the ball, picking letters up along the way.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "Nodes",
-    "url": "https://www.nodes-game.com",
-    "description": "A puzzle game where you connect dots to reveal beautiful images.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Lexicle",
-    "url": "https://lexicle.com",
-    "description": "You have 8 guesses to find the secret word based on its meaning.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "RADDLE",
-    "url": "https://raddle.quest",
-    "description": "Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "Chiddle",
-    "url": "https://www.chiddle.net",
-    "description": "Try to find five high scoring words in the puzzle grid, like Boggle.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "words for days",
-    "url": "https://wordsfordays.com",
-    "description": "A word alchemy game with a daily objective, like infinite craft.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "Clues By Sam",
-    "url": "https://cluesbysam.com",
-    "description": "Use the clues to figure out which characters are innocent and which are criminals.",
-    "tags": [
-      "logic"
-    ],
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Smixed",
-    "url": "https://smixed.com",
-    "description": "Make increasingly longer words using the given 6 letters, each word starting with a different letter.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "Scrandle",
-    "url": "https://scrandle.com",
-    "description": "Guess which scran (stadium food) is more popular based on their pictures and prices.",
-    "tags": [
-      "pictures"
-    ],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Fishdle",
-    "url": "https://tacklevillage.com/fishdle-game/",
-    "description": "Guess the fish based on its silhouette and number of letters.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Warbl",
-    "url": "https://www.warbl.org",
-    "description": "Guess the song playing backwards.",
-    "tags": [
-      "music"
-    ],
-    "category": "Music"
-  },
-  {
-    "name": "Chemdle",
-    "url": "https://www.chemdle.com",
-    "description": "Solve the daily organic chemistry problem.",
-    "tags": [
-      "science"
-    ],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Talldle",
-    "url": "https://www.talldle.com",
-    "description": "Sort the famous people from shortest to tallest.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "OWdle",
-    "url": "https://owdle.guessing.day",
-    "description": "Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-  {
-    "name": "MusicVidle",
-    "url": "https://www.musicvidle.com",
-    "description": "Guess the song based on selected frames from its music video.",
-    "tags": [
-      "pictures"
-    ],
-    "category": "Music"
-  },
-  {
-    "name": "Pixletters",
-    "url": "https://pixletters.com",
-    "description": "Guess the word, except each letter is represented in a pixel grid.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
-    "name": "Which year",
-    "url": "https://whichyr.com",
-    "description": "Guess which year each photo was taken.",
-    "tags": [
-      "pictures"
-    ],
-    "category": "Geography/History"
-  },
-  {
-    "name": "Snapdle",
-    "url": "https://snapdle.github.io/classic",
-    "description": "Guess the card from the game Marvel Snap.",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-  {
-    "name": "Guess The House",
-    "url": "https://guessthe.house",
-    "description": "Guess the price of the house by its pictures and information.",
-    "tags": [
-      "prices", "pictures"
-    ],
-    "category": "Prices"
-  },
-  {
-    "name": "Guess The Book",
-    "url": "https://guessthebook.app",
-    "description": "Guess the book based on short snippets and details.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Guess The Movie",
-    "url": "https://guessthemovie.name",
-    "description": "Guess the movie based on its screenshots and details.",
-    "tags": [
-      "movies"
-    ],
-    "category": "Movies/TV"
-  },
-  {
-    "name": "Guess The Logo",
-    "url": "https://guessthelogo.wtf",
-    "description": "Guess the logo which becomes less blurry with each guess.",
-    "tags": [],
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Guess The Angle",
-    "url": "https://guesstheangle.wtf",
-    "description": "Guess today's angle in 4 guesses or less.",
-    "tags": ["math"],
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Snapdle",
-    "url": "https://snapdle.github.io/classic",
-    "description": "Guess the card from the game Marvel Snap",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -401,6 +147,15 @@
     "category": "Words"
   },
   {
+    "name": "BingeWatcher",
+    "url": "https://bingewatcher.org",
+    "description": "Guess the daily movie title by revealing its details.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Blunderwall",
     "url": "https://bythomas.co.uk/blunderwall",
     "description": "Find the secret word on the Blunderwall in 4 tries.",
@@ -456,6 +211,15 @@
       "logic"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Breadle",
+    "url": "https://breadle.us",
+    "description": "Solve the daily 5-letter word that is related to food.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Brickdle",
@@ -545,6 +309,15 @@
     "category": "Words"
   },
   {
+    "name": "Chemdle",
+    "url": "https://www.chemdle.com",
+    "description": "Solve the daily organic chemistry problem.",
+    "tags": [
+      "science"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Chess.com Daily Puzzle",
     "url": "https://www.chess.com/daily-chess-puzzle",
     "description": "Solve the daily chess puzzle from chess.com.",
@@ -570,6 +343,15 @@
       "logic"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Chiddle",
+    "url": "https://www.chiddle.net",
+    "description": "Try to find five high scoring words in the puzzle grid, like Boggle.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Chrono",
@@ -639,6 +421,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Clues By Sam",
+    "url": "https://cluesbysam.com",
+    "description": "Use the clues to figure out which characters are innocent and which are criminals.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Cluewords",
@@ -1125,6 +916,13 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Fishdle",
+    "url": "https://tacklevillage.com/fishdle-game/",
+    "description": "Guess the fish based on its silhouette and number of letters.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Flagdle",
     "url": "https://www.flagdle.org",
     "description": "Guess the country by its flag.",
@@ -1365,6 +1163,15 @@
     "category": "Words"
   },
   {
+    "name": "Guess The Angle",
+    "url": "https://guesstheangle.wtf",
+    "description": "Guess today's angle in 4 guesses or less.",
+    "tags": [
+      "math"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Guess The Audio",
     "url": "https://guesstheaudio.com",
     "description": "Guess the song from listening to small parts of it, getting a clue after each guess.",
@@ -1376,6 +1183,13 @@
     "category": "Music"
   },
   {
+    "name": "Guess The Book",
+    "url": "https://guessthebook.app",
+    "description": "Guess the book based on short snippets and details.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Guess The Game",
     "url": "https://guessthe.game",
     "description": "Guess the video game by its cropped screenshots.",
@@ -1385,6 +1199,32 @@
       "video games"
     ],
     "category": "Video Games"
+  },
+  {
+    "name": "Guess The House",
+    "url": "https://guessthe.house",
+    "description": "Guess the price of the house by its pictures and information.",
+    "tags": [
+      "pictures",
+      "prices"
+    ],
+    "category": "Prices"
+  },
+  {
+    "name": "Guess The Logo",
+    "url": "https://guessthelogo.wtf",
+    "description": "Guess the logo which becomes less blurry with each guess.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Guess The Movie",
+    "url": "https://guessthemovie.name",
+    "description": "Guess the movie based on its screenshots and details.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
   },
   {
     "name": "Harmonies: Music Connections",
@@ -1665,6 +1505,13 @@
     "category": "Trivia"
   },
   {
+    "name": "Jigsaw Explorer",
+    "url": "https://www.jigsawexplorer.com",
+    "description": "Solve the jigsaw puzzles, two new puzzles everyday.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Jumblie",
     "url": "https://jumblie.com",
     "description": "Find the 4 themed words hidden amongst the letters such that all letters are used exactly once.",
@@ -1699,6 +1546,13 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Kinda Hard Golf",
+    "url": "https://kindahardgolf.com",
+    "description": "A challenging daily golf game.",
+    "tags": [],
+    "category": "Miscellaneous"
   },
   {
     "name": "LA Times Crossword",
@@ -1792,6 +1646,24 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Lexicle",
+    "url": "https://lexicle.com",
+    "description": "You have 8 guesses to find the secret word based on its meaning.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "lichess.org Daily Puzzle",
+    "url": "https://lichess.org/training/daily",
+    "description": "Solve the daily chess puzzle from lichess.org.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Lingule",
@@ -2119,6 +1991,15 @@
     "category": "Music"
   },
   {
+    "name": "MusicVidle",
+    "url": "https://www.musicvidle.com",
+    "description": "Guess the song based on selected frames from its music video.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "Neighborle",
     "url": "https://neighborle.com",
     "description": "Guess the countries that border the highlighted country on the map.",
@@ -2148,6 +2029,13 @@
       "sports"
     ],
     "category": "Sports"
+  },
+  {
+    "name": "Nodes",
+    "url": "https://www.nodes-game.com",
+    "description": "A puzzle game where you connect dots to reveal beautiful images.",
+    "tags": [],
+    "category": "Miscellaneous"
   },
   {
     "name": "Number Island",
@@ -2329,6 +2217,15 @@
     "category": "Words"
   },
   {
+    "name": "OWdle",
+    "url": "https://owdle.guessing.day",
+    "description": "Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Pandergram",
     "url": "https://onelook.com/pandergram",
     "description": "Swap out letters from the given words to create new words that together use the entire alphabet.",
@@ -2392,6 +2289,15 @@
       "visual"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Pixletters",
+    "url": "https://pixletters.com",
+    "description": "Guess the word, except each letter is represented in a pixel grid.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Planespottle",
@@ -2601,6 +2507,15 @@
     "category": "Words"
   },
   {
+    "name": "RADDLE",
+    "url": "https://raddle.quest",
+    "description": "Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Real Bird Fake Bird",
     "url": "https://realbirdfakebird.com",
     "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
@@ -2751,6 +2666,15 @@
     "category": "Words"
   },
   {
+    "name": "Scrandle",
+    "url": "https://scrandle.com",
+    "description": "Guess which scran (stadium food) is more popular based on their pictures and prices.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Searchle",
     "url": "https://searchle.net",
     "description": "Guess the secret word of the day by completing the Google search prompt.",
@@ -2826,6 +2750,33 @@
     "name": "Smashdle",
     "url": "https://smashdle.net",
     "description": "A bunch of daily games where you guess the character from Super Smash Bros.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "Smixed",
+    "url": "https://smixed.com",
+    "description": "Make increasingly longer words using the given 6 letters, each word starting with a different letter.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Snapdle",
+    "url": "https://snapdle.github.io/classic",
+    "description": "Guess the card from the game Marvel Snap.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "Snapdle",
+    "url": "https://snapdle.github.io/classic",
+    "description": "Guess the card from the game Marvel Snap",
     "tags": [
       "video games"
     ],
@@ -2924,6 +2875,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Spot the differences",
+    "url": "https://www.spot-differences.com",
+    "description": "Spot all of the differences in the two pictures.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous"
   },
   {
     "name": "Spotle",
@@ -3097,6 +3057,13 @@
       "logic"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Talldle",
+    "url": "https://www.talldle.com",
+    "description": "Sort the famous people from shortest to tallest.",
+    "tags": [],
+    "category": "Miscellaneous"
   },
   {
     "name": "Terradle",
@@ -3320,6 +3287,15 @@
     "category": "Words"
   },
   {
+    "name": "Warbl",
+    "url": "https://www.warbl.org",
+    "description": "Guess the song playing backwards.",
+    "tags": [
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "Weaver",
     "url": "https://weavergame.org",
     "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
@@ -3391,6 +3367,15 @@
       "geography",
       "pictures",
       "usa"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Which year",
+    "url": "https://whichyr.com",
+    "description": "Guess which year each photo was taken.",
+    "tags": [
+      "pictures"
     ],
     "category": "Geography/History"
   },
@@ -3489,6 +3474,15 @@
     "category": "Words"
   },
   {
+    "name": "Wordcell",
+    "url": "https://wordcell.gamebunny.app",
+    "description": "Find the hidden words on the board by throwing the ball, picking letters up along the way.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Wordga",
     "url": "https://wordga.com/daily",
     "description": "Find as many 4+ letter words using today's letters.",
@@ -3530,6 +3524,15 @@
     "name": "WordLinx",
     "url": "https://sacsgames.com/wordlinx/#/todaydaily",
     "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "words for days",
+    "url": "https://wordsfordays.com",
+    "description": "A word alchemy game with a daily objective, like infinite craft.",
     "tags": [
       "words"
     ],

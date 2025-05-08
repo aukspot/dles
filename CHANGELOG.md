@@ -1,5 +1,47 @@
 # Changelog - The Dles
 
+## 2025-05-08
+
+Add 30 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                           | url                                                                                |
+|---:|:---------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+|  1 | [BingeWatcher](https://bingewatcher.org)                       | [https://bingewatcher.org](https://bingewatcher.org)                               |
+|  2 | [Breadle](https://breadle.us)                                  | [https://breadle.us](https://breadle.us)                                           |
+|  3 | [Chemdle](https://www.chemdle.com)                             | [https://www.chemdle.com](https://www.chemdle.com)                                 |
+|  4 | [Chiddle](https://www.chiddle.net)                             | [https://www.chiddle.net](https://www.chiddle.net)                                 |
+|  5 | [Clues By Sam](https://cluesbysam.com)                         | [https://cluesbysam.com](https://cluesbysam.com)                                   |
+|  6 | [Fishdle](https://tacklevillage.com/fishdle-game/)             | [https://tacklevillage.com/fishdle-game/](https://tacklevillage.com/fishdle-game/) |
+|  7 | [Guess The Angle](https://guesstheangle.wtf)                   | [https://guesstheangle.wtf](https://guesstheangle.wtf)                             |
+|  8 | [Guess The Book](https://guessthebook.app)                     | [https://guessthebook.app](https://guessthebook.app)                               |
+|  9 | [Guess The House](https://guessthe.house)                      | [https://guessthe.house](https://guessthe.house)                                   |
+| 10 | [Guess The Logo](https://guessthelogo.wtf)                     | [https://guessthelogo.wtf](https://guessthelogo.wtf)                               |
+| 11 | [Guess The Movie](https://guessthemovie.name)                  | [https://guessthemovie.name](https://guessthemovie.name)                           |
+| 12 | [Jigsaw Explorer](https://www.jigsawexplorer.com)              | [https://www.jigsawexplorer.com](https://www.jigsawexplorer.com)                   |
+| 13 | [Kinda Hard Golf](https://kindahardgolf.com)                   | [https://kindahardgolf.com](https://kindahardgolf.com)                             |
+| 14 | [Lexicle](https://lexicle.com)                                 | [https://lexicle.com](https://lexicle.com)                                         |
+| 15 | [lichess.org Daily Puzzle](https://lichess.org/training/daily) | [https://lichess.org/training/daily](https://lichess.org/training/daily)           |
+| 16 | [MusicVidle](https://www.musicvidle.com)                       | [https://www.musicvidle.com](https://www.musicvidle.com)                           |
+| 17 | [Nodes](https://www.nodes-game.com)                            | [https://www.nodes-game.com](https://www.nodes-game.com)                           |
+| 18 | [OWdle](https://owdle.guessing.day)                            | [https://owdle.guessing.day](https://owdle.guessing.day)                           |
+| 19 | [Pixletters](https://pixletters.com)                           | [https://pixletters.com](https://pixletters.com)                                   |
+| 20 | [RADDLE](https://raddle.quest)                                 | [https://raddle.quest](https://raddle.quest)                                       |
+| 21 | [Scrandle](https://scrandle.com)                               | [https://scrandle.com](https://scrandle.com)                                       |
+| 22 | [Smixed](https://smixed.com)                                   | [https://smixed.com](https://smixed.com)                                           |
+| 23 | [Snapdle](https://snapdle.github.io/classic)                   | [https://snapdle.github.io/classic](https://snapdle.github.io/classic)             |
+| 24 | [Snapdle](https://snapdle.github.io/classic)                   | [https://snapdle.github.io/classic](https://snapdle.github.io/classic)             |
+| 25 | [Spot the differences](https://www.spot-differences.com)       | [https://www.spot-differences.com](https://www.spot-differences.com)               |
+| 26 | [Talldle](https://www.talldle.com)                             | [https://www.talldle.com](https://www.talldle.com)                                 |
+| 27 | [Warbl](https://www.warbl.org)                                 | [https://www.warbl.org](https://www.warbl.org)                                     |
+| 28 | [Which year](https://whichyr.com)                              | [https://whichyr.com](https://whichyr.com)                                         |
+| 29 | [Wordcell](https://wordcell.gamebunny.app)                     | [https://wordcell.gamebunny.app](https://wordcell.gamebunny.app)                   |
+| 30 | [words for days](https://wordsfordays.com)                     | [https://wordsfordays.com](https://wordsfordays.com)                               |
+
+dles removed: 
+|    | name                            | url                                            |
+|---:|:--------------------------------|:-----------------------------------------------|
+|  1 | [Moview](https://moview.online) | [https://moview.online](https://moview.online) |
 ## 2025-04-16
 
 Add 1 dle. 

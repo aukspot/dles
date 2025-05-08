@@ -1,5 +1,137 @@
 [
   {
+    "date": "2025-05-08",
+    "description": "Add 30 dles. Remove 1 dle. ",
+    "dles added": [
+      {
+        "name": "BingeWatcher",
+        "url": "https://bingewatcher.org"
+      },
+      {
+        "name": "Breadle",
+        "url": "https://breadle.us"
+      },
+      {
+        "name": "Chemdle",
+        "url": "https://www.chemdle.com"
+      },
+      {
+        "name": "Chiddle",
+        "url": "https://www.chiddle.net"
+      },
+      {
+        "name": "Clues By Sam",
+        "url": "https://cluesbysam.com"
+      },
+      {
+        "name": "Fishdle",
+        "url": "https://tacklevillage.com/fishdle-game/"
+      },
+      {
+        "name": "Guess The Angle",
+        "url": "https://guesstheangle.wtf"
+      },
+      {
+        "name": "Guess The Book",
+        "url": "https://guessthebook.app"
+      },
+      {
+        "name": "Guess The House",
+        "url": "https://guessthe.house"
+      },
+      {
+        "name": "Guess The Logo",
+        "url": "https://guessthelogo.wtf"
+      },
+      {
+        "name": "Guess The Movie",
+        "url": "https://guessthemovie.name"
+      },
+      {
+        "name": "Jigsaw Explorer",
+        "url": "https://www.jigsawexplorer.com"
+      },
+      {
+        "name": "Kinda Hard Golf",
+        "url": "https://kindahardgolf.com"
+      },
+      {
+        "name": "Lexicle",
+        "url": "https://lexicle.com"
+      },
+      {
+        "name": "lichess.org Daily Puzzle",
+        "url": "https://lichess.org/training/daily"
+      },
+      {
+        "name": "MusicVidle",
+        "url": "https://www.musicvidle.com"
+      },
+      {
+        "name": "Nodes",
+        "url": "https://www.nodes-game.com"
+      },
+      {
+        "name": "OWdle",
+        "url": "https://owdle.guessing.day"
+      },
+      {
+        "name": "Pixletters",
+        "url": "https://pixletters.com"
+      },
+      {
+        "name": "RADDLE",
+        "url": "https://raddle.quest"
+      },
+      {
+        "name": "Scrandle",
+        "url": "https://scrandle.com"
+      },
+      {
+        "name": "Smixed",
+        "url": "https://smixed.com"
+      },
+      {
+        "name": "Snapdle",
+        "url": "https://snapdle.github.io/classic"
+      },
+      {
+        "name": "Snapdle",
+        "url": "https://snapdle.github.io/classic"
+      },
+      {
+        "name": "Spot the differences",
+        "url": "https://www.spot-differences.com"
+      },
+      {
+        "name": "Talldle",
+        "url": "https://www.talldle.com"
+      },
+      {
+        "name": "Warbl",
+        "url": "https://www.warbl.org"
+      },
+      {
+        "name": "Which year",
+        "url": "https://whichyr.com"
+      },
+      {
+        "name": "Wordcell",
+        "url": "https://wordcell.gamebunny.app"
+      },
+      {
+        "name": "words for days",
+        "url": "https://wordsfordays.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Moview",
+        "url": "https://moview.online"
+      }
+    ]
+  },
+  {
     "date": "2025-04-16",
     "description": "Add 1 dle. ",
     "dles added": [
