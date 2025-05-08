@@ -2774,15 +2774,6 @@
     "category": "Video Games"
   },
   {
-    "name": "Snapdle",
-    "url": "https://snapdle.github.io/classic",
-    "description": "Guess the card from the game Marvel Snap",
-    "tags": [
-      "video games"
-    ],
-    "category": "Video Games"
-  },
-  {
     "name": "Songle",
     "url": "https://histordle.com/songle",
     "description": "Guess the year given three songs that were released that year.",
