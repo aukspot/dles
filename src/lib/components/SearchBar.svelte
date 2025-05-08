@@ -1,6 +1,5 @@
 <script>
   import { searchQuery, filteredDles, dles } from "$lib/stores"
-  import { slide } from "svelte/transition"
 </script>
 
 <input
@@ -13,7 +12,6 @@
       return dle.name.toLowerCase().includes($searchQuery.toLowerCase())
     })
   }}
-  transition:slide
 />
 
 <style lang="postcss">
