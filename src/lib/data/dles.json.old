@@ -2668,7 +2668,7 @@
   {
     "name": "Scrandle",
     "url": "https://scrandle.com",
-    "description": "Guess which scran (stadium food) is more popular based on their pictures and prices.",
+    "description": "Guess which scran (stadium food) is more popular based on their pictures and prices. If on mobile, rotate your phone to landscape mode for a better experience.",
     "tags": [
       "pictures"
     ],
