@@ -1,5 +1,15 @@
 [
   {
+    "date": "2025-05-15",
+    "description": "Remove 1 dle. ",
+    "dles removed": [
+      {
+        "name": "Anigrams",
+        "url": "https://anigrams.us"
+      }
+    ]
+  },
+  {
     "date": "2025-05-08",
     "description": "Add 29 dles. Remove 1 dle. ",
     "dles added": [

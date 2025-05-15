@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-05-15
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                            | url                                        |
+|---:|:--------------------------------|:-------------------------------------------|
+|  1 | [Anigrams](https://anigrams.us) | [https://anigrams.us](https://anigrams.us) |
 ## 2025-05-08
 
 Add 29 dles. Remove 1 dle. 
