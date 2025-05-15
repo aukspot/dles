@@ -5,7 +5,8 @@
     "dles removed": [
       {
         "name": "Anigrams",
-        "url": "https://anigrams.us"
+        "url": "https://anigrams.us",
+        "reason": "The game has been paused."
       }
     ]
   },
@@ -133,7 +134,8 @@
     "dles removed": [
       {
         "name": "Moview",
-        "url": "https://moview.online"
+        "url": "https://moview.online",
+        "reason": "No new puzzles for months."
       }
     ]
   },
@@ -350,11 +352,13 @@
     "dles removed": [
       {
         "name": "Acted",
-        "url": "https://acted.wtf"
+        "url": "https://acted.wtf",
+        "reason": "Site no longer loads."
       },
       {
         "name": "Moviemoji",
-        "url": "https://www.playmoviemoji.com"
+        "url": "https://www.playmoviemoji.com",
+        "reason": "Site no longer loads."
       }
     ],
     "description": "Add 4 dles. Remove 2 dles.",
