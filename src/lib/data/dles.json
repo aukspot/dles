@@ -91,15 +91,6 @@
     "category": "Math/Logic"
   },
   {
-    "name": "Anigrams",
-    "url": "https://anigrams.us",
-    "description": "Unscramble a series of words, revealing a new letter each time.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com",
     "description": "Guess the name of the architecture, given a series of pictures.",
