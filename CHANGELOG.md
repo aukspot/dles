@@ -6,9 +6,9 @@ Remove 1 dle.
 
 
 dles removed: 
-|    | name                            | url                                        |
-|---:|:--------------------------------|:-------------------------------------------|
-|  1 | [Anigrams](https://anigrams.us) | [https://anigrams.us](https://anigrams.us) |
+|    | name                            | url                                        | reason                    |
+|---:|:--------------------------------|:-------------------------------------------|:--------------------------|
+|  1 | [Anigrams](https://anigrams.us) | [https://anigrams.us](https://anigrams.us) | The game has been paused. |
 ## 2025-05-08
 
 Add 29 dles. Remove 1 dle. 
@@ -47,9 +47,9 @@ dles added:
 | 29 | [words for days](https://wordsfordays.com)                     | [https://wordsfordays.com](https://wordsfordays.com)                               |
 
 dles removed: 
-|    | name                            | url                                            |
-|---:|:--------------------------------|:-----------------------------------------------|
-|  1 | [Moview](https://moview.online) | [https://moview.online](https://moview.online) |
+|    | name                            | url                                            | reason                     |
+|---:|:--------------------------------|:-----------------------------------------------|:---------------------------|
+|  1 | [Moview](https://moview.online) | [https://moview.online](https://moview.online) | No new puzzles for months. |
 ## 2025-04-16
 
 Add 1 dle. 
@@ -154,10 +154,10 @@ dles added:
 |  4 | [NHLdle](https://nhldle.com/classic)    | [https://nhldle.com/classic](https://nhldle.com/classic)         |
 
 dles removed: 
-|    | name                                       | url                                                            |
-|---:|:-------------------------------------------|:---------------------------------------------------------------|
-|  1 | [Acted](https://acted.wtf)                 | [https://acted.wtf](https://acted.wtf)                         |
-|  2 | [Moviemoji](https://www.playmoviemoji.com) | [https://www.playmoviemoji.com](https://www.playmoviemoji.com) |
+|    | name                                       | url                                                            | reason                |
+|---:|:-------------------------------------------|:---------------------------------------------------------------|:----------------------|
+|  1 | [Acted](https://acted.wtf)                 | [https://acted.wtf](https://acted.wtf)                         | Site no longer loads. |
+|  2 | [Moviemoji](https://www.playmoviemoji.com) | [https://www.playmoviemoji.com](https://www.playmoviemoji.com) | Site no longer loads. |
 ## 2024-11-24
 
 Add 35 dles. Remove 1 dle.
