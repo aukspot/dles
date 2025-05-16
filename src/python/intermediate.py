@@ -144,13 +144,13 @@ def add_changes_to_changelog():
                     entry["dles removed"] = removed_dles
                 removed_dles_count = len(removed_dles)
             entry["description"] = get_changelog_description(
-                len(entry["dles added"]), len(entry["dles removed"]))
+                entry["dles added"], entry["dles removed"])
             break
 
     if not is_date_in_changelog and (len(new_dles) > 0 or len(removed_dles) > 0):
         entry = {
             "date": date,
-            "description": get_changelog_description(len(new_dles), len(removed_dles))
+            "description": get_changelog_description(new_dles, removed_dles)
         }
         if len(new_dles) > 0:
             entry["dles added"] = new_dles
@@ -238,7 +238,13 @@ def last_update_date():
     return changelog_json[0]["date"]
 
 
-def get_changelog_description(dles_added_count, dles_removed_count):
+def get_changelog_description(dles_added, dles_removed):
+    if not dles_added:
+        dles_added = []
+    if not dles_removed:
+        dles_removed = []
+    dles_added_count = len(dles_added)
+    dles_removed_count = len(dles_removed)
     description = ""
     plural_added = "s" if dles_added_count > 1 or dles_added_count == 0 else ""
     plural_removed = "s" if dles_removed_count > 1 or dles_removed_count == 0 else ""
