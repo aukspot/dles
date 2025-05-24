@@ -12,10 +12,78 @@ from colour import Color
 DLES_FILE = "../lib/data/dles.json"
 DLES_FILE_OLD = "../lib/data/dles.json.old"
 NEW_DLES_FILE = "../lib/data/new_dles.json"
+DLES_MAX_ID = "../lib/data/max_id.txt"
 TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
 README_MD = "../../README.md"
+
+
+def main():
+    print(get_max_id())
+    try_add_ids_to_dles()
+
+
+def get_max_id():
+    with open(DLES_MAX_ID, 'r') as f:
+        contents = f.read().strip()
+        if contents == "":
+            return 0
+        return int(contents)
+
+
+def add_ids_to_dles():
+    dles = read_dles()
+    
+    # Check if IDs already exist
+    filled_with_ids = True
+    for dle in dles:
+        if 'id' not in dle:
+            filled_with_ids = False
+            break
+
+    if filled_with_ids:
+        print("IDs already exist in the file. Skipping...")
+        return True
+    
+    # Add IDs
+    i = get_max_id() + 1
+    for dle in dles:
+        if 'id' not in dle:
+            dle['id'] = i
+            i += 1
+    
+    # Update max ID
+    old_max_id = get_max_id()
+    if i - 1 > old_max_id:
+        new_max_id = i - 1
+        with open(DLES_MAX_ID, 'w') as f:
+            f.write(str(new_max_id))
+    
+    # Backup dles
+    backup_file(DLES_FILE)
+
+    # Write the updated JSON
+    try:
+        write_dles(dles)
+        return True
+    except Exception as e:
+        print(f"Error writing file: {e}")
+        return False
+
+
+def try_add_ids_to_dles():
+    success = add_ids_to_dles()
+    if success:
+        print("\nExample playlist URLs:")
+        print("First 5 games: ?playlist=1,2,3,4,5")
+        print("Random selection: ?playlist=1,15,42,100,200")
+        print("Single game: ?playlist=73")
+        
+        next_id = get_max_id() + 1
+        print(f"\nNext available ID for new games: {next_id}")
+    else:
+        print("Failed to add IDs. Please check the errors above.")
 
 
 def sort_tags():
@@ -327,6 +395,5 @@ def write_dles_to_readme_md():
 
 
 if __name__ == "__main__":
-    # add_new_dles_to_changelog()
-    add_changes_to_changelog()
-    pass
+    main()
+
