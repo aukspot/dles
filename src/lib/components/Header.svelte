@@ -8,23 +8,21 @@
   function toggleInfo() {
     $infoHidden = !$infoHidden
     if (isLocalStorageAvailable()) {
-      localStorage.closedBefore = true
+      localStorage.infoHidden = $infoHidden
     }
   }
 </script>
 
 <header class="flex justify-between items-center gap-3 px-2 py-2 relative">
   <div>
-    <h1 class="text-colorText flex items-baseline gap-3 fill-colorText">
-      <a class="title" href="{base}/"> The Dles </a>
-      <button
-        id="button-information"
-        aria-label="information"
-        on:click={toggleInfo}
-      >
-        <IconInformation />
-      </button>
-    </h1>
+    <div class="flex gap-3 items-baseline content-start">
+      <h1 class="text-colorText flex items-baseline gap-3 fill-colorText">
+        <a class="title whitespace-nowrap" href="{base}/"> The Dles </a>
+      </h1>
+      <p class="whitespace-nowrap">
+        <em>by <a href="https://aukspot.com">aukspot</a></em>
+      </p>
+    </div>
     <p class="pt-1 pl-1 leading-none text-sm md:text-base">
       A curated collection of <strong>{$dles.length}</strong> daily games.
     </p>

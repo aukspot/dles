@@ -1,5 +1,273 @@
 # Changelog - The Dles
 
+## 2025-05-15
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                            | url                                        | reason                    |
+|---:|:--------------------------------|:-------------------------------------------|:--------------------------|
+|  1 | [Anigrams](https://anigrams.us) | [https://anigrams.us](https://anigrams.us) | The game has been paused. |
+## 2025-05-08
+
+Add 29 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                           | url                                                                                |
+|---:|:---------------------------------------------------------------|:-----------------------------------------------------------------------------------|
+|  1 | [BingeWatcher](https://bingewatcher.org)                       | [https://bingewatcher.org](https://bingewatcher.org)                               |
+|  2 | [Breadle](https://breadle.us)                                  | [https://breadle.us](https://breadle.us)                                           |
+|  3 | [Chemdle](https://www.chemdle.com)                             | [https://www.chemdle.com](https://www.chemdle.com)                                 |
+|  4 | [Chiddle](https://www.chiddle.net)                             | [https://www.chiddle.net](https://www.chiddle.net)                                 |
+|  5 | [Clues By Sam](https://cluesbysam.com)                         | [https://cluesbysam.com](https://cluesbysam.com)                                   |
+|  6 | [Fishdle](https://tacklevillage.com/fishdle-game/)             | [https://tacklevillage.com/fishdle-game/](https://tacklevillage.com/fishdle-game/) |
+|  7 | [Guess The Angle](https://guesstheangle.wtf)                   | [https://guesstheangle.wtf](https://guesstheangle.wtf)                             |
+|  8 | [Guess The Book](https://guessthebook.app)                     | [https://guessthebook.app](https://guessthebook.app)                               |
+|  9 | [Guess The House](https://guessthe.house)                      | [https://guessthe.house](https://guessthe.house)                                   |
+| 10 | [Guess The Logo](https://guessthelogo.wtf)                     | [https://guessthelogo.wtf](https://guessthelogo.wtf)                               |
+| 11 | [Guess The Movie](https://guessthemovie.name)                  | [https://guessthemovie.name](https://guessthemovie.name)                           |
+| 12 | [Jigsaw Explorer](https://www.jigsawexplorer.com)              | [https://www.jigsawexplorer.com](https://www.jigsawexplorer.com)                   |
+| 13 | [Kinda Hard Golf](https://kindahardgolf.com)                   | [https://kindahardgolf.com](https://kindahardgolf.com)                             |
+| 14 | [Lexicle](https://lexicle.com)                                 | [https://lexicle.com](https://lexicle.com)                                         |
+| 15 | [lichess.org Daily Puzzle](https://lichess.org/training/daily) | [https://lichess.org/training/daily](https://lichess.org/training/daily)           |
+| 16 | [MusicVidle](https://www.musicvidle.com)                       | [https://www.musicvidle.com](https://www.musicvidle.com)                           |
+| 17 | [Nodes](https://www.nodes-game.com)                            | [https://www.nodes-game.com](https://www.nodes-game.com)                           |
+| 18 | [OWdle](https://owdle.guessing.day)                            | [https://owdle.guessing.day](https://owdle.guessing.day)                           |
+| 19 | [Pixletters](https://pixletters.com)                           | [https://pixletters.com](https://pixletters.com)                                   |
+| 20 | [RADDLE](https://raddle.quest)                                 | [https://raddle.quest](https://raddle.quest)                                       |
+| 21 | [Scrandle](https://scrandle.com)                               | [https://scrandle.com](https://scrandle.com)                                       |
+| 22 | [Smixed](https://smixed.com)                                   | [https://smixed.com](https://smixed.com)                                           |
+| 23 | [Snapdle](https://snapdle.github.io/classic)                   | [https://snapdle.github.io/classic](https://snapdle.github.io/classic)             |
+| 24 | [Spot the differences](https://www.spot-differences.com)       | [https://www.spot-differences.com](https://www.spot-differences.com)               |
+| 25 | [Talldle](https://www.talldle.com)                             | [https://www.talldle.com](https://www.talldle.com)                                 |
+| 26 | [Warbl](https://www.warbl.org)                                 | [https://www.warbl.org](https://www.warbl.org)                                     |
+| 27 | [Which year](https://whichyr.com)                              | [https://whichyr.com](https://whichyr.com)                                         |
+| 28 | [Wordcell](https://wordcell.gamebunny.app)                     | [https://wordcell.gamebunny.app](https://wordcell.gamebunny.app)                   |
+| 29 | [words for days](https://wordsfordays.com)                     | [https://wordsfordays.com](https://wordsfordays.com)                               |
+
+dles removed: 
+|    | name                            | url                                            | reason                     |
+|---:|:--------------------------------|:-----------------------------------------------|:---------------------------|
+|  1 | [Moview](https://moview.online) | [https://moview.online](https://moview.online) | No new puzzles for months. |
+## 2025-04-16
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                | url                                            |
+|---:|:------------------------------------|:-----------------------------------------------|
+|  1 | [Echo Chess](https://echochess.com) | [https://echochess.com](https://echochess.com) |
+
+## 2025-04-10
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                  | url                                              |
+|---:|:--------------------------------------|:-------------------------------------------------|
+|  1 | [Daily Akari](https://dailyakari.com) | [https://dailyakari.com](https://dailyakari.com) |
+
+## 2025-04-02
+
+Add 20 dles. 
+
+dles added: 
+|    | name                                                                     | url                                                                                                              |
+|---:|:-------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+|  1 | [Cartoonguessr](https://cartoonguesser.pythonanywhere.com)               | [https://cartoonguesser.pythonanywhere.com](https://cartoonguesser.pythonanywhere.com)                           |
+|  2 | [Colordle](https://colordle.ryantanen.com)                               | [https://colordle.ryantanen.com](https://colordle.ryantanen.com)                                                 |
+|  3 | [Compound Your Joy](https://onelook.com/?loc=rd&w=cyj)                   | [https://onelook.com/?loc=rd&w=cyj](https://onelook.com/?loc=rd&w=cyj)                                           |
+|  4 | [Cracked Sudoku](https://danielchasehooper.com/projects/cracked-sudoku/) | [https://danielchasehooper.com/projects/cracked-sudoku/](https://danielchasehooper.com/projects/cracked-sudoku/) |
+|  5 | [Crossherd](https://crossherd.clevergoat.com)                            | [https://crossherd.clevergoat.com](https://crossherd.clevergoat.com)                                             |
+|  6 | [LoLdle](https://loldle.net)                                             | [https://loldle.net](https://loldle.net)                                                                         |
+|  7 | [Minecraftle](https://minecraftle.zachmanson.com)                        | [https://minecraftle.zachmanson.com](https://minecraftle.zachmanson.com)                                         |
+|  8 | [Movie Pyramid](https://moviepyramid.io)                                 | [https://moviepyramid.io](https://moviepyramid.io)                                                               |
+|  9 | [Movie Reveal](https://moviereveal.io)                                   | [https://moviereveal.io](https://moviereveal.io)                                                                 |
+| 10 | [Movie Snake](https://moviesnake.io)                                     | [https://moviesnake.io](https://moviesnake.io)                                                                   |
+| 11 | [Musicdoku](https://musicdoku.com)                                       | [https://musicdoku.com](https://musicdoku.com)                                                                   |
+| 12 | [Pandergram](https://onelook.com/pandergram)                             | [https://onelook.com/pandergram](https://onelook.com/pandergram)                                                 |
+| 13 | [Real Bird Fake Bird](https://realbirdfakebird.com)                      | [https://realbirdfakebird.com](https://realbirdfakebird.com)                                                     |
+| 14 | [Rivadle](https://rivadle.net)                                           | [https://rivadle.net](https://rivadle.net)                                                                       |
+| 15 | [SpaceWord](https://spaceword.org)                                       | [https://spaceword.org](https://spaceword.org)                                                                   |
+| 16 | [Stacked](https://stacked.clevergoat.com)                                | [https://stacked.clevergoat.com](https://stacked.clevergoat.com)                                                 |
+| 17 | [The Daily Burgle](https://www.thedailyburgle.app)                       | [https://www.thedailyburgle.app](https://www.thedailyburgle.app)                                                 |
+| 18 | [Threepeat](https://onelook.com/threepeat)                               | [https://onelook.com/threepeat](https://onelook.com/threepeat)                                                   |
+| 19 | [Weddle](https://www.weddlegame.com)                                     | [https://www.weddlegame.com](https://www.weddlegame.com)                                                         |
+| 20 | [ZoomOut](https://zoomout.videoludid.com)                                | [https://zoomout.videoludid.com](https://zoomout.videoludid.com)                                                 |
+
+## 2025-03-08
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                 | url                                          |
+|---:|:-------------------------------------|:---------------------------------------------|
+|  1 | [Bracket City](https://bracket.city) | [https://bracket.city](https://bracket.city) |
+
+## 2025-02-16
+
+Add 10 dles. 
+
+dles added: 
+|    | name                                                                | url                                                                                            |
+|---:|:--------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+|  1 | [Catfishing](https://catfishing.net/game/today)                     | [https://catfishing.net/game/today](https://catfishing.net/game/today)                         |
+|  2 | [Couples](https://www.couples.game)                                 | [https://www.couples.game](https://www.couples.game)                                           |
+|  3 | [Dungleon](https://www.dungleon.com)                                | [https://www.dungleon.com](https://www.dungleon.com)                                           |
+|  4 | [Eightile](https://eightile.com)                                    | [https://eightile.com](https://eightile.com)                                                   |
+|  5 | [GeoConnections](https://geoconnections.net)                        | [https://geoconnections.net](https://geoconnections.net)                                       |
+|  6 | [Isaacle](https://isaacle.net)                                      | [https://isaacle.net](https://isaacle.net)                                                     |
+|  7 | [Isaaconnect](https://isaaconnect.com)                              | [https://isaaconnect.com](https://isaaconnect.com)                                             |
+|  8 | [LA Times Crossword](https://www.latimes.com/games/daily-crossword) | [https://www.latimes.com/games/daily-crossword](https://www.latimes.com/games/daily-crossword) |
+|  9 | [Top 5](https://top5-game.com)                                      | [https://top5-game.com](https://top5-game.com)                                                 |
+| 10 | [WhenTaken Movies](https://movies.whentaken.com)                    | [https://movies.whentaken.com](https://movies.whentaken.com)                                   |
+
+## 2025-02-10
+
+Add 10 dles.
+
+dles added: 
+|    | name                                                            | url                                                                                  |
+|---:|:----------------------------------------------------------------|:-------------------------------------------------------------------------------------|
+|  1 | [Face Guessr](https://www.faceguesser.com)                      | [https://www.faceguesser.com](https://www.faceguesser.com)                           |
+|  2 | [HowLongToBeat Daily Challenge](https://howlongtobeat.com/play) | [https://howlongtobeat.com/play](https://howlongtobeat.com/play)                     |
+|  3 | [Lex.Games - By A Vowel](https://lex.games/byavowel/)           | [https://lex.games/byavowel/](https://lex.games/byavowel/)                           |
+|  4 | [Lex.Games - Conlextions](https://lex.games/connections/)       | [https://lex.games/connections/](https://lex.games/connections/)                     |
+|  5 | [Lex.Games - Lexicogs](https://lex.games/lexicogs/)             | [https://lex.games/lexicogs/](https://lex.games/lexicogs/)                           |
+|  6 | [Lex.Games - Mini Crossword](https://lex.games/mini/)           | [https://lex.games/mini/](https://lex.games/mini/)                                   |
+|  7 | [Lex.Games - Six Appeal](https://lex.games/six/)                | [https://lex.games/six/](https://lex.games/six/)                                     |
+|  8 | [Lex.Games - Square Dance](https://lex.games/squaredance)       | [https://lex.games/squaredance](https://lex.games/squaredance)                       |
+|  9 | [Sequences](https://www.dailyfastgames.com/sequences)           | [https://www.dailyfastgames.com/sequences](https://www.dailyfastgames.com/sequences) |
+| 10 | [Sexaginta-quattuordle](https://64ordle.au/?mode=daily)         | [https://64ordle.au/?mode=daily](https://64ordle.au/?mode=daily)                     |
+
+## 2025-01-31
+
+Add 4 dles. Remove 2 dles.
+
+dles added: 
+|    | name                                    | url                                                              |
+|---:|:----------------------------------------|:-----------------------------------------------------------------|
+|  1 | [Pokle](https://poklegame.com)          | [https://poklegame.com](https://poklegame.com)                   |
+|  2 | [Artle](https://www.nga.gov/artle.html) | [https://www.nga.gov/artle.html](https://www.nga.gov/artle.html) |
+|  3 | [Geodle](https://geodle.me)             | [https://geodle.me](https://geodle.me)                           |
+|  4 | [NHLdle](https://nhldle.com/classic)    | [https://nhldle.com/classic](https://nhldle.com/classic)         |
+
+dles removed: 
+|    | name                                       | url                                                            | reason                |
+|---:|:-------------------------------------------|:---------------------------------------------------------------|:----------------------|
+|  1 | [Acted](https://acted.wtf)                 | [https://acted.wtf](https://acted.wtf)                         | Site no longer loads. |
+|  2 | [Moviemoji](https://www.playmoviemoji.com) | [https://www.playmoviemoji.com](https://www.playmoviemoji.com) | Site no longer loads. |
+## 2024-11-24
+
+Add 35 dles. Remove 1 dle.
+
+dles added: 
+|    | name                                                                                                     | url                                                                                                                                                |
+|---:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+|  1 | [Airport Guessr](https://airportguessr.bytecatch.io)                                                     | [https://airportguessr.bytecatch.io](https://airportguessr.bytecatch.io)                                                                           |
+|  2 | [Blunderwall](https://bythomas.co.uk/blunderwall)                                                        | [https://bythomas.co.uk/blunderwall](https://bythomas.co.uk/blunderwall)                                                                           |
+|  3 | [Cardle](https://cardle.boxbox.autos)                                                                    | [https://cardle.boxbox.autos](https://cardle.boxbox.autos)                                                                                         |
+|  4 | [Chessguessr](https://www.chessguessr.com)                                                               | [https://www.chessguessr.com](https://www.chessguessr.com)                                                                                         |
+|  5 | [Cyphr](https://cyphrgame.com)                                                                           | [https://cyphrgame.com](https://cyphrgame.com)                                                                                                     |
+|  6 | [Daily Tens](https://dailytens.com)                                                                      | [https://dailytens.com](https://dailytens.com)                                                                                                     |
+|  7 | [DBDle](https://dbdle.net)                                                                               | [https://dbdle.net](https://dbdle.net)                                                                                                             |
+|  8 | [Flagle Game](https://flagle-game.com)                                                                   | [https://flagle-game.com](https://flagle-game.com)                                                                                                 |
+|  9 | [Geocircles](https://geocircles.io)                                                                      | [https://geocircles.io](https://geocircles.io)                                                                                                     |
+| 10 | [Geographle](https://geographle.com)                                                                     | [https://geographle.com](https://geographle.com)                                                                                                   |
+| 11 | [graphs.world](https://www.graphs.world)                                                                 | [https://www.graphs.world](https://www.graphs.world)                                                                                               |
+| 12 | [Harmonies: Music Connections](https://harmonies.io)                                                     | [https://harmonies.io](https://harmonies.io)                                                                                                       |
+| 13 | [Hidden Mirrors](https://www.hidden-mirrors.com)                                                         | [https://www.hidden-mirrors.com](https://www.hidden-mirrors.com)                                                                                   |
+| 14 | [Letroso](https://letroso.com/en/daily)                                                                  | [https://letroso.com/en/daily](https://letroso.com/en/daily)                                                                                       |
+| 15 | [Lirdle](https://lirdle.com)                                                                             | [https://lirdle.com](https://lirdle.com)                                                                                                           |
+| 16 | [List Them All!](https://listthemall.com)                                                                | [https://listthemall.com](https://listthemall.com)                                                                                                 |
+| 17 | [MinecraftDle](https://www.minecraftdle.net)                                                             | [https://www.minecraftdle.net](https://www.minecraftdle.net)                                                                                       |
+| 18 | [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) | [https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) |
+| 19 | [More/Less](https://lessgames.com/moreless)                                                              | [https://lessgames.com/moreless](https://lessgames.com/moreless)                                                                                   |
+| 20 | [Moviedle (from Histordle)](https://histordle.com/moviedle)                                              | [https://histordle.com/moviedle](https://histordle.com/moviedle)                                                                                   |
+| 21 | [Moview](https://moview.online)                                                                          | [https://moview.online](https://moview.online)                                                                                                     |
+| 22 | [Number Island](https://numberisland.com)                                                                | [https://numberisland.com](https://numberisland.com)                                                                                               |
+| 23 | [NYT Connections: Sports Edition](https://www.nytimes.com/athletic/connections-sports-edition)           | [https://www.nytimes.com/athletic/connections-sports-edition](https://www.nytimes.com/athletic/connections-sports-edition)                         |
+| 24 | [Octordle](https://www.britannica.com/games/octordle)                                                    | [https://www.britannica.com/games/octordle](https://www.britannica.com/games/octordle)                                                             |
+| 25 | [Planespottle](https://planespottle.bytecatch.io)                                                        | [https://planespottle.bytecatch.io](https://planespottle.bytecatch.io)                                                                             |
+| 26 | [Poeltl](https://poeltl.nbpa.com)                                                                        | [https://poeltl.nbpa.com](https://poeltl.nbpa.com)                                                                                                 |
+| 27 | [QuickQ](https://www.quickqtrivia.com)                                                                   | [https://www.quickqtrivia.com](https://www.quickqtrivia.com)                                                                                       |
+| 28 | [Runedle](https://runedle.com)                                                                           | [https://runedle.com](https://runedle.com)                                                                                                         |
+| 29 | [Terradle](https://www.terradle.com)                                                                     | [https://www.terradle.com](https://www.terradle.com)                                                                                               |
+| 30 | [Valodle](https://valodle.eu)                                                                            | [https://valodle.eu](https://valodle.eu)                                                                                                           |
+| 31 | [VideoPuzzle](https://videopuzzle.org)                                                                   | [https://videopuzzle.org](https://videopuzzle.org)                                                                                                 |
+| 32 | [Vowel Play](https://bythomas.co.uk/vowelplay)                                                           | [https://bythomas.co.uk/vowelplay](https://bythomas.co.uk/vowelplay)                                                                               |
+| 33 | [Vox Daily Crossword](https://www.vox.com/21523212/crossword-puzzles-free-daily-printable)               | [https://www.vox.com/21523212/crossword-puzzles-free-daily-printable](https://www.vox.com/21523212/crossword-puzzles-free-daily-printable)         |
+| 34 | [Word Box](https://wordbox.game)                                                                         | [https://wordbox.game](https://wordbox.game)                                                                                                       |
+| 35 | [Zeldadle](https://www.zeldadle.net)                                                                     | [https://www.zeldadle.net](https://www.zeldadle.net)                                                                                               |
+
+dles removed: 
+|    | name                               | url                                                | reason                        |
+|---:|:-----------------------------------|:---------------------------------------------------|:------------------------------|
+|  1 | [Apparle](https://www.apparle.com) | [https://www.apparle.com](https://www.apparle.com) | Game does not load most days. |
+## 2024-10-06
+
+Fix link to Colorfle.
+
+
+## 2024-09-18
+
+Add 19 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.
+
+dles added: 
+|    | name                                                             | url                                                                                                              |
+|---:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+|  1 | [23 Words](https://wordnerd.co/23words)                          | [https://wordnerd.co/23words](https://wordnerd.co/23words)                                                       |
+|  2 | [Cluewords](https://wordnerd.co/cluewords)                       | [https://wordnerd.co/cluewords](https://wordnerd.co/cluewords)                                                   |
+|  3 | [Daily Fact or Fiction](https://dailyfactorfiction.com)          | [https://dailyfactorfiction.com](https://dailyfactorfiction.com)                                                 |
+|  4 | [Daily Fill-Ins](https://azgames.io/game/daily-fill-ins)         | [https://azgames.io/game/daily-fill-ins](https://azgames.io/game/daily-fill-ins)                                 |
+|  5 | [Flagdoku](https://flagdoku.com)                                 | [https://flagdoku.com](https://flagdoku.com)                                                                     |
+|  6 | [morsle](https://morsle.fun)                                     | [https://morsle.fun](https://morsle.fun)                                                                         |
+|  7 | [Perfect Pitch Puzzle](https://www.perfectpitchpuzzle.com)       | [https://www.perfectpitchpuzzle.com](https://www.perfectpitchpuzzle.com)                                         |
+|  8 | [Picsey](https://picsey.io)                                      | [https://picsey.io](https://picsey.io)                                                                           |
+|  9 | [Pivots](https://playpivots.com)                                 | [https://playpivots.com](https://playpivots.com)                                                                 |
+| 10 | [Pufferdle](https://pufferdle.com/#/daily)                       | [https://pufferdle.com/#/daily](https://pufferdle.com/#/daily)                                                   |
+| 11 | [Reciple](https://reciple.net)                                   | [https://reciple.net](https://reciple.net)                                                                       |
+| 12 | [Shaple](https://swag.github.io/shaple)                          | [https://swag.github.io/shaple](https://swag.github.io/shaple)                                                   |
+| 13 | [Sorted](https://puzzles-prod.telegraph.co.uk/sorted/index.html) | [https://puzzles-prod.telegraph.co.uk/sorted/index.html](https://puzzles-prod.telegraph.co.uk/sorted/index.html) |
+| 14 | [Spell Bee](https://www.spell-bee.com/game-daily.html)           | [https://www.spell-bee.com/game-daily.html](https://www.spell-bee.com/game-daily.html)                           |
+| 15 | [Spindle](https://playspindle.com)                               | [https://playspindle.com](https://playspindle.com)                                                               |
+| 16 | [Tightrope](https://www.britannica.com/quiz/tightrope)           | [https://www.britannica.com/quiz/tightrope](https://www.britannica.com/quiz/tightrope)                           |
+| 17 | [Video Game Bandle](https://www.vgbandle.app)                    | [https://www.vgbandle.app](https://www.vgbandle.app)                                                             |
+| 18 | [Wordiply](https://www.wordiply.com)                             | [https://www.wordiply.com](https://www.wordiply.com)                                                             |
+| 19 | [Zaku Chess](https://zakuchess.com)                              | [https://zakuchess.com](https://zakuchess.com)                                                                   |
+
+## 2024-07-20
+
+Add 23 dles.
+
+dles added: 
+|    | name                                                      | url                                                                                            |
+|---:|:----------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+|  1 | [Balatrodle](https://www.balatrodle.com)                  | [https://www.balatrodle.com](https://www.balatrodle.com)                                       |
+|  2 | [ClickWord](https://clickword.org)                        | [https://clickword.org](https://clickword.org)                                                 |
+|  3 | [cryptle](https://cryptle.xyz)                            | [https://cryptle.xyz](https://cryptle.xyz)                                                     |
+|  4 | [Decipher](https://decipher.wtf)                          | [https://decipher.wtf](https://decipher.wtf)                                                   |
+|  5 | [Eruptle](https://eruptle.app)                            | [https://eruptle.app](https://eruptle.app)                                                     |
+|  6 | [Factle](https://factle.app)                              | [https://factle.app](https://factle.app)                                                       |
+|  7 | [Factle Sports](https://factle.app/sports)                | [https://factle.app/sports](https://factle.app/sports)                                         |
+|  8 | [Mahjong Handle](https://mahjong-handle.update.sh)        | [https://mahjong-handle.update.sh](https://mahjong-handle.update.sh)                           |
+|  9 | [Mazele](https://mazele.io)                               | [https://mazele.io](https://mazele.io)                                                         |
+| 10 | [Minute Cryptic](https://www.minutecryptic.com)           | [https://www.minutecryptic.com](https://www.minutecryptic.com)                                 |
+| 11 | [On the Record](https://www.washingtonpost.com/news-quiz) | [https://www.washingtonpost.com/news-quiz](https://www.washingtonpost.com/news-quiz)           |
+| 12 | [Orbits](https://www.playorbits.com)                      | [https://www.playorbits.com](https://www.playorbits.com)                                       |
+| 13 | [Outword](https://outword.me)                             | [https://outword.me](https://outword.me)                                                       |
+| 14 | [PlusWord](https://puzzles-prod.telegraph.co.uk/plusword) | [https://puzzles-prod.telegraph.co.uk/plusword](https://puzzles-prod.telegraph.co.uk/plusword) |
+| 15 | [Pocket Puzzles](https://playpocketpuzzles.com)           | [https://playpocketpuzzles.com](https://playpocketpuzzles.com)                                 |
+| 16 | [Rotaboxes](https://rotaboxes.com)                        | [https://rotaboxes.com](https://rotaboxes.com)                                                 |
+| 17 | [sedecordle](https://sedecordle.com)                      | [https://sedecordle.com](https://sedecordle.com)                                               |
+| 18 | [Soulsborndle](https://malthesers.github.io/soulsborndle) | [https://malthesers.github.io/soulsborndle](https://malthesers.github.io/soulsborndle)         |
+| 19 | [Squareword](https://squareword.org)                      | [https://squareword.org](https://squareword.org)                                               |
+| 20 | [Verticle](https://verticle.netlify.app)                  | [https://verticle.netlify.app](https://verticle.netlify.app)                                   |
+| 21 | [Waffle](https://wafflegame.net/daily)                    | [https://wafflegame.net/daily](https://wafflegame.net/daily)                                   |
+| 22 | [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily)   | [https://sacsgames.com/wordlinx/#/todaydaily](https://sacsgames.com/wordlinx/#/todaydaily)     |
+| 23 | [xdle](https://zaratustra.itch.io/xdle)                   | [https://zaratustra.itch.io/xdle](https://zaratustra.itch.io/xdle)                             |
+
 ## 2024-06-22
 
 Add <a href="https://dles.aukspot.com/changelog">changelog page</a>.<br>Add 27 dles.<br>Remove 1 dle.
@@ -219,7 +487,7 @@ Add 8 dles.
 dles added: 
 |    | name                                                        | url                                                                                        |
 |---:|:------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
-|  1 | [Connections Game](https://connectionsgame.com)             | [https://connectionsgame.com](https://connectionsgame.com)                                 |
+|  1 | [Connections Game](https://connectionsgame.org)             | [https://connectionsgame.org](https://connectionsgame.org)                                 |
 |  2 | [Daily Tomato](https://www.rottentomatoes.com/movie-trivia) | [https://www.rottentomatoes.com/movie-trivia](https://www.rottentomatoes.com/movie-trivia) |
 |  3 | [Dordle](https://zaratustra.itch.io/dordle)                 | [https://zaratustra.itch.io/dordle](https://zaratustra.itch.io/dordle)                     |
 |  4 | [hello wordl](https://hellowordl.net/?today)                | [https://hellowordl.net/?today](https://hellowordl.net/?today)                             |
@@ -290,7 +558,7 @@ dles added:
 | 22 | [Gamedle Keywords](https://www.gamedle.wtf/keywords)                                    | [https://www.gamedle.wtf/keywords](https://www.gamedle.wtf/keywords)                                 |
 | 23 | [Globle](https://globle-game.com/game)                                                  | [https://globle-game.com/game](https://globle-game.com/game)                                         |
 | 24 | [Guess The Game](https://guessthe.game)                                                 | [https://guessthe.game](https://guessthe.game)                                                       |
-| 25 | [Housle](https://housle.house/game)                                                     | [https://housle.house/game](https://housle.house/game)                                               |
+| 25 | [Housle](https://housle.house)                                                          | [https://housle.house](https://housle.house)                                                         |
 | 26 | [Immaculate Footy](https://www.immaculatefooty.com)                                     | [https://www.immaculatefooty.com](https://www.immaculatefooty.com)                                   |
 | 27 | [Immaculate Grid: Baseball](https://www.immaculategrid.com)                             | [https://www.immaculategrid.com](https://www.immaculategrid.com)                                     |
 | 28 | [Immaculate Grid: Men's Basketball](https://www.immaculategrid.com/basketball/mens)     | [https://www.immaculategrid.com/basketball/mens](https://www.immaculategrid.com/basketball/mens)     |

@@ -100,34 +100,32 @@
     "id": 9
   },
   {
-    "name": "Anigrams",
-    "url": "https://anigrams.us",
-    "description": "Unscramble a series of words, revealing a new letter each time.",
-    "tags": [
-      "words"
-    ],
-    "category": "Miscellaneous",
-    "id": 10
-  },
-  {
-    "name": "Apparle",
-    "url": "https://www.apparle.com",
-    "description": "Guess the price of the shown apparel product in 6 guesses or less.",
-    "tags": [
-      "archive",
-      "pictures",
-      "prices"
-    ],
-    "category": "Miscellaneous",
-    "id": 11
-  },
-  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com",
     "description": "Guess the name of the architecture, given a series of pictures.",
     "tags": [
       "archive",
       "pictures"
+    ],
+    "category": "Miscellaneous",
+    "id": 10
+  },
+  {
+    "name": "Artle",
+    "url": "https://www.nga.gov/artle.html",
+    "description": "Guess the artist of the shown work of art.",
+    "tags": [
+      "pictures"
+    ],
+    "category": "Miscellaneous",
+    "id": 11
+  },
+  {
+    "name": "Balatrodle",
+    "url": "https://www.balatrodle.com",
+    "description": "Guess the Joker from the game Balatro.",
+    "tags": [
+      "video games"
     ],
     "category": "Video Games",
     "id": 12
@@ -490,7 +488,7 @@
   },
   {
     "name": "Colorfle",
-    "url": "https://colorfle.org/index.html",
+    "url": "https://colorfle.com",
     "description": "Figure out the color composition of the given color.",
     "tags": [
       "colors"
@@ -552,7 +550,7 @@
   },
   {
     "name": "Connections Game",
-    "url": "https://connectionsgame.com",
+    "url": "https://connectionsgame.org",
     "description": "Group words that share a common thread. Basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
     "tags": [
       "archive",
@@ -618,7 +616,6 @@
     "url": "https://craftword.game",
     "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
     "tags": [
-      "wordle",
       "words"
     ],
     "category": "Words",
@@ -986,7 +983,7 @@
   {
     "name": "Fibble",
     "url": "https://fibble.xyz",
-    "description": "Wordle but it lies to you.",
+    "description": "Wordle but it lies to you.  (Like Lirdle)",
     "tags": [
       "wordle",
       "words"
@@ -1207,7 +1204,7 @@
   {
     "name": "GeoGrid",
     "url": "https://www.geogridgame.com",
-    "description": "Fill in the grid with countries that matches each cell's corresponding row and column categories.",
+    "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
     "tags": [
       "archive",
       "geography"
@@ -1500,7 +1497,7 @@
   },
   {
     "name": "Housle",
-    "url": "https://housle.house/game",
+    "url": "https://housle.house",
     "description": "Guess the price of the house, given pictures of parts of the house.",
     "tags": [
       "pictures",
@@ -3334,7 +3331,7 @@
   },
   {
     "name": "Syllacrostic",
-    "url": "https://www.syllacrostic.com/daily-puzzle",
+    "url": "https://www.syllacrostic.com/daily",
     "description": "Combine syllables to solve the clues.",
     "tags": [
       "archive",
@@ -3792,7 +3789,7 @@
   {
     "name": "Word Waffle",
     "url": "https://wordwaffle.org",
-    "description": "Move letters to create words both horizontally and vertically.",
+    "description": "Swap letters to create words both horizontally and vertically.",
     "tags": [
       "wordle",
       "words"

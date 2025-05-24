@@ -7,10 +7,10 @@
   <meta name="description" content="Changelog for The Dles." />
 </svelte:head>
 
-<h2 class="my-3 text-2xl text-center">Changelog</h2>
+<h2 class="my-8 text-2xl text-center">Changelog</h2>
 <div id="changelog">
   {#each $changelog as log}
-    <table class="mb-8">
+    <table class="mb-10 bg-colorCardC">
       <th id={log.date} class="text-xl">{log.date}</th>
       <tr class="text-center text-sm md:text-base">{@html log.description}</tr>
       {#if "dles added" in log}
@@ -54,9 +54,11 @@
                     <a href={dleRemoved.url} target="_blank">{dleRemoved.url}</a
                     >
                   </div>
-                  <div>
-                    <strong>reason removed</strong>: {dleRemoved.reason}
-                  </div>
+                  {#if dleRemoved.reason}
+                    <div>
+                      <strong>reason removed</strong>: {dleRemoved.reason}
+                    </div>
+                  {/if}
                 </td>
               </tr>
             {/each}
@@ -76,7 +78,7 @@
   }
   th,
   td {
-    @apply p-1 border border-colorTextSoft border-collapse;
+    @apply p-[5px] border border-colorTextSoftest border-collapse;
   }
   a {
     @apply break-words;

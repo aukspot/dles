@@ -1,5 +1,6 @@
 <script>
   import { categories, categorizedDles, categoryColors } from "$lib/stores"
+  import BannerText from "../BannerText.svelte"
 
   import IconGeography from "../Icons/IconGeography.svelte"
   import IconMath from "../Icons/IconMath.svelte"
@@ -26,6 +27,7 @@
   }
 </script>
 
+<BannerText />
 <div class="dlesContainer">
   {#each $categories as category, i (i)}
     <div class="card">

@@ -1,5 +1,5 @@
 <script>
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import { isLocalStorageAvailable, openInNewTab } from "$lib/js/utilities"
   import { categories, dles, randomCategories } from "$lib/stores"
   import { onMount } from "svelte"
   import DropdownMenu from "./DropdownMenu.svelte"
@@ -31,14 +31,6 @@
     }
 
     updateOptions()
-  }
-
-  function openInNewTab(href) {
-    Object.assign(document.createElement("a"), {
-      target: "_blank",
-      rel: "noopener",
-      href: href,
-    }).click()
   }
 
   function playRandom() {

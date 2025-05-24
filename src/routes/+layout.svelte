@@ -1,6 +1,7 @@
 <script>
   import "../app.css"
   import dles_json from "$lib/data/dles.json"
+  import new_dles_json from "$lib/data/new_dles.json"
   import changelog_json from "$lib/data/changelog.json"
 
   import {
@@ -8,6 +9,7 @@
     categorizedDles,
     changelog,
     dles,
+    newDles,
     favorites,
     filteredDles,
     infoHidden,
@@ -41,6 +43,10 @@
     }
   }
 
+  function initializeNewDles() {
+    $newDles = new_dles_json
+  }
+
   function initializeTags() {
     $tagNames = $dles
       .map((dle) => dle.tags)
@@ -62,6 +68,7 @@
   }
 
   initializeDles()
+  initializeNewDles()
   initializeTags()
   initializeChangelog()
 
@@ -95,7 +102,7 @@
   onMount(() => {
     loading = false
     if (isLocalStorageAvailable()) {
-      $infoHidden = localStorage.closedBefore !== undefined
+      $infoHidden = localStorage.infoHidden
     }
   })
 </script>
