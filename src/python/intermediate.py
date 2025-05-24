@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-import json
+import datetime
+import json, os
+import pandas
 import shutil
 import string
 
@@ -14,6 +16,59 @@ TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
 README_MD = "../../README.md"
+
+
+def add_ids_to_dles():
+    dles = read_dles()
+    
+    # Check if IDs already exist
+    filled_with_ids = True
+    for dle in dles:
+        if 'id' not in dle:
+            filled_with_ids = False
+            break
+
+    if filled_with_ids:
+        print("IDs already exist in the file. Skipping...")
+        return True
+    
+    # Add IDs
+    i = get_next_available_id()
+    for dle in dles:
+        if 'id' not in dle:
+            dle['id'] = i
+            i += 1
+    
+    # Backup dles
+    backup_file(DLES_FILE)
+
+    # Write the updated JSON
+    try:
+        write_dles(dles)
+        return True
+    except Exception as e:
+        print(f"Error writing file: {e}")
+        return False
+
+
+def get_next_available_id():
+    dles = read_dles()
+    max_id = max(dle.get('id', 0) for dle in dles)
+    return max_id + 1
+
+
+def try_add_ids_to_dles():
+    success = add_ids_to_dles()
+    if success:
+        print("\nExample playlist URLs:")
+        print("First 5 games: ?playlist=1,2,3,4,5")
+        print("Random selection: ?playlist=1,15,42,100,200")
+        print("Single game: ?playlist=73")
+        
+        next_id = get_next_available_id()
+        print(f"\nNext available ID for new games: {next_id}")
+    else:
+        print("Failed to add IDs. Please check the errors above.")
 
 
 def sort_tags():
@@ -176,5 +231,7 @@ def write_dles_to_readme_md():
 
 
 if __name__ == "__main__":
-  # write_dles_to_readme_md()
-  pass
+    # add_new_dles_to_changelog()
+    # add_changes_to_changelog()
+    try_add_ids_to_dles()
+    pass
