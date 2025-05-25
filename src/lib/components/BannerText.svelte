@@ -11,7 +11,7 @@
   }
 </script>
 
-<div class="flex justify-between items-middle md:items-center w-full gap-2">
+<div class="flex justify-between items-start md:items-start w-full gap-2">
   <div class="p-3 set-width text-sm md:p-2 md:text-base">
     <strong>Last updated: </strong><a
       class="underline"
