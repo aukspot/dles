@@ -20,10 +20,6 @@
               <tr>
                 <th colspan="2">dles added</th>
               </tr>
-              <tr>
-                <th class="head-small">name</th>
-                <th class="head-small">url</th>
-              </tr>
             </thead>
             {#each log["dles added"] as dleAdded}
               <tr>
