@@ -107,10 +107,10 @@
   })
 </script>
 
-<div class="w-full text-colorText bg-colorBackground">
+<div class="w-full text-colorText bg-colorCardA first">
   <div class="flex flex-col max-w-screen-xl mx-auto">
     <main
-      class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border"
+      class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border bg-colorBackground"
     >
       <div>
         <Header />
@@ -124,3 +124,18 @@
     <Footer />
   </div>
 </div>
+
+<style lang="postcss">
+  .first {
+    background-image: radial-gradient(
+      circle at 2px 2px, 
+      color-mix(in srgb, theme('colors.colorText') 5%, transparent) 2px, 
+      transparent 0
+    );
+    background-size: 25px 25px;
+  }
+
+  main {
+  
+  }
+</style>
