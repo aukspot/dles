@@ -2001,6 +2001,16 @@
     "category": "Geography/History"
   },
   {
+    "name": "NBAGrid",
+    "url": "https://nbagrid.pythonanywhere.com",
+    "description": "Guess a grid of NBA players that fit into specific categories.",
+    "tags": [
+      "basketball",
+      "sports"
+    ],
+    "category": "Sports"
+  },
+  {
     "name": "Nerdle",
     "url": "https://nerdlegame.com",
     "description": "Guess the secret arithmetic equation.",
