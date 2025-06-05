@@ -355,16 +355,6 @@
     "category": "Geography/History"
   },
   {
-    "name": "Chronoline",
-    "url": "https://chronoline.app/daily",
-    "description": "One by one, place each historical event in the correct spot on the timeline without making 5 mistakes.",
-    "tags": [
-      "history",
-      "time"
-    ],
-    "category": "Geography/History"
-  },
-  {
     "name": "Chronophoto",
     "url": "https://www.chronophoto.app",
     "description": "Guess the year in which each historical picture was taken.",
@@ -1079,15 +1069,6 @@
     "category": "Geography/History"
   },
   {
-    "name": "Geographle",
-    "url": "https://geographle.com",
-    "description": "Find out where you are in the world in as few guesses as you can.",
-    "tags": [
-      "geography"
-    ],
-    "category": "Geography/History"
-  },
-  {
     "name": "GeoGrid",
     "url": "https://www.geogridgame.com",
     "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
@@ -1702,16 +1683,6 @@
     "category": "Trivia"
   },
   {
-    "name": "Listed",
-    "url": "https://listed.fun",
-    "description": "Guess the price of the recently sold property.",
-    "tags": [
-      "pictures",
-      "prices"
-    ],
-    "category": "Prices"
-  },
-  {
     "name": "Locatle",
     "url": "https://locatle.strct.net",
     "description": "Guess the country that the picture was taken in.",
@@ -2190,24 +2161,6 @@
     "category": "Words"
   },
   {
-    "name": "Order Up",
-    "url": "https://orderup.games",
-    "description": "Arrange the themed items in the correct order within 5 guesses.",
-    "tags": [
-      "trivia"
-    ],
-    "category": "Trivia"
-  },
-  {
-    "name": "Outword",
-    "url": "https://outword.me",
-    "description": "Create 2 words from the given letters. Each letter has a base value and some letters have multipliers, like in Scrabble.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
     "name": "OWdle",
     "url": "https://owdle.guessing.day",
     "description": "Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.",
@@ -2227,7 +2180,7 @@
   },
   {
     "name": "pedantle",
-    "url": "https://cemantle.certitudes.org/pedantle",
+    "url": "https://pedantle.certitudes.org",
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
     "tags": [
       "words"
