@@ -1,5 +1,52 @@
 # Changelog - The Dles
 
+## 2025-06-11
+
+Add 31 dles. Remove 5 dles. 
+
+dles added: 
+|    | name                                                                  | url                                                                                      |
+|---:|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
+|  1 | [AniGuessr](https://aniguessr.com)                                    | [https://aniguessr.com](https://aniguessr.com)                                           |
+|  2 | [Birdle](https://www.play-birdle.com)                                 | [https://www.play-birdle.com](https://www.play-birdle.com)                               |
+|  3 | [Birdle (like Wordle)](https://birdle.escism.net)                     | [https://birdle.escism.net](https://birdle.escism.net)                                   |
+|  4 | [Couplit](https://couplit.io)                                         | [https://couplit.io](https://couplit.io)                                                 |
+|  5 | [Crosstune](https://crosstune.io)                                     | [https://crosstune.io](https://crosstune.io)                                             |
+|  6 | [Disordle](https://disordle.com)                                      | [https://disordle.com](https://disordle.com)                                             |
+|  7 | [Dodeku](https://dodeku.com)                                          | [https://dodeku.com](https://dodeku.com)                                                 |
+|  8 | [Emoji Quiz - Movies](https://www.emojiquiz.net/movies)               | [https://www.emojiquiz.net/movies](https://www.emojiquiz.net/movies)                     |
+|  9 | [Emoji Quiz - TV](https://www.emojiquiz.net/tv)                       | [https://www.emojiquiz.net/tv](https://www.emojiquiz.net/tv)                             |
+| 10 | [Emoji Quiz - Video Games](https://www.emojiquiz.net/games)           | [https://www.emojiquiz.net/games](https://www.emojiquiz.net/games)                       |
+| 11 | [Enchant Wordle](https://enchantworldle.com)                          | [https://enchantworldle.com](https://enchantworldle.com)                                 |
+| 12 | [Futdoku](https://futdoku.com)                                        | [https://futdoku.com](https://futdoku.com)                                               |
+| 13 | [GuessTen](https://guessten.com)                                      | [https://guessten.com](https://guessten.com)                                             |
+| 14 | [Langle](https://langle.uk)                                           | [https://langle.uk](https://langle.uk)                                                   |
+| 15 | [MapTap](https://maptap.gg)                                           | [https://maptap.gg](https://maptap.gg)                                                   |
+| 16 | [Mathdle](https://mathdle.app)                                        | [https://mathdle.app](https://mathdle.app)                                               |
+| 17 | [Musicle](https://musicle.app)                                        | [https://musicle.app](https://musicle.app)                                               |
+| 18 | [Puzzmo - Bongo](https://www.puzzmo.com/game/bongo)                   | [https://www.puzzmo.com/game/bongo](https://www.puzzmo.com/game/bongo)                   |
+| 19 | [Puzzmo - Memoku](https://www.puzzmo.com/play/memoku)                 | [https://www.puzzmo.com/play/memoku](https://www.puzzmo.com/play/memoku)                 |
+| 20 | [Puzzmo - Pile-Up Poker](https://www.puzzmo.com/play/pile-up-poker)   | [https://www.puzzmo.com/play/pile-up-poker](https://www.puzzmo.com/play/pile-up-poker)   |
+| 21 | [Puzzmo - Weather Memoku](https://www.puzzmo.com/play/weather-memoku) | [https://www.puzzmo.com/play/weather-memoku](https://www.puzzmo.com/play/weather-memoku) |
+| 22 | [Quizmoji](https://quizmoji.com)                                      | [https://quizmoji.com](https://quizmoji.com)                                             |
+| 23 | [Quotesed](https://www.quotesed.com)                                  | [https://www.quotesed.com](https://www.quotesed.com)                                     |
+| 24 | [Retro Game Trivia](https://retrotrivia.games)                        | [https://retrotrivia.games](https://retrotrivia.games)                                   |
+| 25 | [Stardewdle](https://stardewdle.com/game)                             | [https://stardewdle.com/game](https://stardewdle.com/game)                               |
+| 26 | [Steamdle](https://steamdle.com)                                      | [https://steamdle.com](https://steamdle.com)                                             |
+| 27 | [Streetfighterdle](https://streetfighterdle.net)                      | [https://streetfighterdle.net](https://streetfighterdle.net)                             |
+| 28 | [Temple](https://tck.mn/temple)                                       | [https://tck.mn/temple](https://tck.mn/temple)                                           |
+| 29 | [TFTdle](https://tftdle.gg/classic)                                   | [https://tftdle.gg/classic](https://tftdle.gg/classic)                                   |
+| 30 | [Tracell](https://tracellgame.com)                                    | [https://tracellgame.com](https://tracellgame.com)                                       |
+| 31 | [Wildlife Sudoku](https://flagdoku.com/wildlife.html)                 | [https://flagdoku.com/wildlife.html](https://flagdoku.com/wildlife.html)                 |
+
+dles removed: 
+|    | name                                       | url                                                          |
+|---:|:-------------------------------------------|:-------------------------------------------------------------|
+|  1 | [Chronoline](https://chronoline.app/daily) | [https://chronoline.app/daily](https://chronoline.app/daily) |
+|  2 | [Geographle](https://geographle.com)       | [https://geographle.com](https://geographle.com)             |
+|  3 | [Listed](https://listed.fun)               | [https://listed.fun](https://listed.fun)                     |
+|  4 | [Order Up](https://orderup.games)          | [https://orderup.games](https://orderup.games)               |
+|  5 | [Outword](https://outword.me)              | [https://outword.me](https://outword.me)                     |
 ## 2025-05-15
 
 Remove 1 dle. 

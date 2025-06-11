@@ -91,6 +91,15 @@
     "category": "Math/Logic"
   },
   {
+    "name": "AniGuessr",
+    "url": "https://aniguessr.com",
+    "description": "A collection of daily games related to Japanese animation.",
+    "tags": [
+      "tv"
+    ],
+    "category": "Movies/TV"
+  },
+  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com",
     "description": "Guess the name of the architecture, given a series of pictures.",
@@ -145,6 +154,25 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "Birdle",
+    "url": "https://www.play-birdle.com",
+    "description": "Identify today's bird in 6 guesses or less.",
+    "tags": [
+      "nature"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Birdle (like Wordle)",
+    "url": "https://birdle.escism.net",
+    "description": "Guess the 5-letter bird name in 6 guesses or less.",
+    "tags": [
+      "nature",
+      "words"
+    ],
+    "category": "Miscellaneous"
   },
   {
     "name": "Blunderwall",
@@ -355,16 +383,6 @@
     "category": "Geography/History"
   },
   {
-    "name": "Chronoline",
-    "url": "https://chronoline.app/daily",
-    "description": "One by one, place each historical event in the correct spot on the timeline without making 5 mistakes.",
-    "tags": [
-      "history",
-      "time"
-    ],
-    "category": "Geography/History"
-  },
-  {
     "name": "Chronophoto",
     "url": "https://www.chronophoto.app",
     "description": "Guess the year in which each historical picture was taken.",
@@ -545,6 +563,15 @@
     "category": "Words"
   },
   {
+    "name": "Couplit",
+    "url": "https://couplit.io",
+    "description": "Arrange the letters to spell out a phrase based on today's theme.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Cracked Sudoku",
     "url": "https://danielchasehooper.com/projects/cracked-sudoku/",
     "description": "Fill the cells with numbers 1-9 without repeating numbers in a dark-outlined group or along a colored run line.",
@@ -570,6 +597,16 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Crosstune",
+    "url": "https://crosstune.io",
+    "description": "A music crossword puzzle where the clues include song audio.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
   },
   {
     "name": "Crosswordle",
@@ -756,6 +793,24 @@
     "category": "Trivia"
   },
   {
+    "name": "Disordle",
+    "url": "https://disordle.com",
+    "description": "Diagnose the patient with a disorder based on their symptoms.",
+    "tags": [
+      "science"
+    ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Dodeku",
+    "url": "https://dodeku.com",
+    "description": "Make the sum of each row and column match the numbers on the perimeter.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "Domino Fit",
     "url": "https://dominofit.isotropic.us",
     "description": "Fill the board with dominoes so that the dots add up in each row and column.",
@@ -829,6 +884,40 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Emoji Quiz - Movies",
+    "url": "https://www.emojiquiz.net/movies",
+    "description": "Use the emojis to guess the title of the movie.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Emoji Quiz - TV",
+    "url": "https://www.emojiquiz.net/tv",
+    "description": "Use the emojis to guess the title of the tv show.",
+    "tags": [
+      "tv"
+    ],
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Emoji Quiz - Video Games",
+    "url": "https://www.emojiquiz.net/games",
+    "description": "Use the emojis to guess the title of the video game.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "Enchant Wordle",
+    "url": "https://enchantworldle.com",
+    "description": "Guess the card from Magic the Gathering within 20 tries.",
+    "tags": [],
+    "category": "Miscellaneous"
   },
   {
     "name": "Eruptle",
@@ -1003,6 +1092,16 @@
     "category": "Words"
   },
   {
+    "name": "Futdoku",
+    "url": "https://futdoku.com",
+    "description": "Guess 9 soccer players that fill the FUTDOKU grid.",
+    "tags": [
+      "soccer",
+      "sports"
+    ],
+    "category": "Sports"
+  },
+  {
     "name": "Gamedle Artwork",
     "url": "https://www.gamedle.wtf/artwork",
     "description": "Guess the video game by its artwork.",
@@ -1073,15 +1172,6 @@
     "name": "Geodle",
     "url": "https://geodle.me",
     "description": "Guess today's mystery country within 7 guesses.",
-    "tags": [
-      "geography"
-    ],
-    "category": "Geography/History"
-  },
-  {
-    "name": "Geographle",
-    "url": "https://geographle.com",
-    "description": "Find out where you are in the world in as few guesses as you can.",
     "tags": [
       "geography"
     ],
@@ -1216,6 +1306,15 @@
       "movies"
     ],
     "category": "Movies/TV"
+  },
+  {
+    "name": "GuessTen",
+    "url": "https://guessten.com",
+    "description": "Guess the top ten entries of today's category.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
   },
   {
     "name": "Harmonies: Music Connections",
@@ -1555,6 +1654,15 @@
     "category": "Words"
   },
   {
+    "name": "Langle",
+    "url": "https://langle.uk",
+    "description": "Guess the world language from a few example sentences.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Letroso",
     "url": "https://letroso.com/en/daily",
     "description": "Guess the secret word that can be up to 10 letters long.",
@@ -1702,16 +1810,6 @@
     "category": "Trivia"
   },
   {
-    "name": "Listed",
-    "url": "https://listed.fun",
-    "description": "Guess the price of the recently sold property.",
-    "tags": [
-      "pictures",
-      "prices"
-    ],
-    "category": "Prices"
-  },
-  {
     "name": "Locatle",
     "url": "https://locatle.strct.net",
     "description": "Guess the country that the picture was taken in.",
@@ -1764,6 +1862,24 @@
       "maps"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "MapTap",
+    "url": "https://maptap.gg",
+    "description": "Click as close as you can to the given world cities, 5 rounds per day.",
+    "tags": [
+      "geography"
+    ],
+    "category": "Geography/History"
+  },
+  {
+    "name": "Mathdle",
+    "url": "https://mathdle.app",
+    "description": "Reach the target number using the given numbers and operations.",
+    "tags": [
+      "math"
+    ],
+    "category": "Math/Logic"
   },
   {
     "name": "Mathler",
@@ -1982,6 +2098,16 @@
     "category": "Music"
   },
   {
+    "name": "Musicle",
+    "url": "https://musicle.app",
+    "description": "Match the song audio to the correct album art. Lots of categories.",
+    "tags": [
+      "audio",
+      "music"
+    ],
+    "category": "Music"
+  },
+  {
     "name": "MusicVidle",
     "url": "https://www.musicvidle.com",
     "description": "Guess the song based on selected frames from its music video.",
@@ -2190,24 +2316,6 @@
     "category": "Words"
   },
   {
-    "name": "Order Up",
-    "url": "https://orderup.games",
-    "description": "Arrange the themed items in the correct order within 5 guesses.",
-    "tags": [
-      "trivia"
-    ],
-    "category": "Trivia"
-  },
-  {
-    "name": "Outword",
-    "url": "https://outword.me",
-    "description": "Create 2 words from the given letters. Each letter has a base value and some letters have multipliers, like in Scrabble.",
-    "tags": [
-      "words"
-    ],
-    "category": "Words"
-  },
-  {
     "name": "OWdle",
     "url": "https://owdle.guessing.day",
     "description": "Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.",
@@ -2227,7 +2335,7 @@
   },
   {
     "name": "pedantle",
-    "url": "https://cemantle.certitudes.org/pedantle",
+    "url": "https://pedantle.certitudes.org",
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
     "tags": [
       "words"
@@ -2410,6 +2518,15 @@
     "category": "Video Games"
   },
   {
+    "name": "Puzzmo - Bongo",
+    "url": "https://www.puzzmo.com/game/bongo",
+    "description": "Lay tiles onto the grid to spell the best 6 words you can.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Puzzmo - Crossword",
     "url": "https://www.puzzmo.com/play/crossword",
     "description": "Crosswords without getting stuck.",
@@ -2427,6 +2544,22 @@
       "puzzmo",
       "visual"
     ],
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Puzzmo - Memoku",
+    "url": "https://www.puzzmo.com/play/memoku",
+    "description": "A daily sudoku game where you match numbers instead of entering them.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Puzzmo - Pile-Up Poker",
+    "url": "https://www.puzzmo.com/play/pile-up-poker",
+    "description": "Make poker hands by placing cards onto the grid.",
+    "tags": [],
     "category": "Miscellaneous"
   },
   {
@@ -2459,6 +2592,15 @@
     "category": "Words"
   },
   {
+    "name": "Puzzmo - Weather Memoku",
+    "url": "https://www.puzzmo.com/play/weather-memoku",
+    "description": "Fill out grid by finding matching tiles. Each row and column have the same number of each tile.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "QuickQ",
     "url": "https://www.quickqtrivia.com",
     "description": "A 90 second trivia game with questions from 8 categories.",
@@ -2488,6 +2630,15 @@
     "category": "Trivia"
   },
   {
+    "name": "Quizmoji",
+    "url": "https://quizmoji.com",
+    "description": "Answer each clue with pairs of emojis.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Quordle",
     "url": "https://quordlegame.com",
     "description": "Solve 4 Wordle puzzles at the same time.",
@@ -2496,6 +2647,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Quotesed",
+    "url": "https://www.quotesed.com",
+    "description": "Guess the movie given 6 quotes.",
+    "tags": [
+      "movies"
+    ],
+    "category": "Movies/TV"
   },
   {
     "name": "RADDLE",
@@ -2588,6 +2748,15 @@
       "music"
     ],
     "category": "Music"
+  },
+  {
+    "name": "Retro Game Trivia",
+    "url": "https://retrotrivia.games",
+    "description": "Daily games where you guess the retro game that was released on this date in history.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Rhyme Time",
@@ -2950,6 +3119,15 @@
     "category": "Words"
   },
   {
+    "name": "Stardewdle",
+    "url": "https://stardewdle.com/game",
+    "description": "Guess today's mystery crop from Stardew Valley.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Statele",
     "url": "https://statele.teuteuf.fr",
     "description": "Guess the US State by its outline on the map.",
@@ -2961,6 +3139,15 @@
     "category": "Geography/History"
   },
   {
+    "name": "Steamdle",
+    "url": "https://steamdle.com",
+    "description": "Guess the game based on the Steam review.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
     "name": "Stepdle",
     "url": "https://www.stepdle.com",
     "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
@@ -2969,6 +3156,15 @@
       "words"
     ],
     "category": "Words"
+  },
+  {
+    "name": "Streetfighterdle",
+    "url": "https://streetfighterdle.net",
+    "description": "Guess the daily Street Fighter character in as few tries as possible.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
   },
   {
     "name": "Summit Game",
@@ -3048,9 +3244,25 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "Temple",
+    "url": "https://tck.mn/temple",
+    "description": "Guess a duration or tempo by looking at a flashing light, or give a duration or tempo by clicking one.",
+    "tags": [],
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Terradle",
     "url": "https://www.terradle.com",
     "description": "Guess today's weapon from the game Terraria.",
+    "tags": [
+      "video games"
+    ],
+    "category": "Video Games"
+  },
+  {
+    "name": "TFTdle",
+    "url": "https://tftdle.gg/classic",
+    "description": "Daily games related to Teamfight Tactics.",
     "tags": [
       "video games"
     ],
@@ -3149,6 +3361,15 @@
     "name": "Toppled",
     "url": "https://bythomas.co.uk/toppled",
     "description": "Topple the letter wall by finding four 5-letter words",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Tracell",
+    "url": "https://tracellgame.com",
+    "description": "Uncover the hidden text by placing the letter tiles in the grid.",
     "tags": [
       "words"
     ],
@@ -3360,6 +3581,15 @@
       "pictures"
     ],
     "category": "Geography/History"
+  },
+  {
+    "name": "Wildlife Sudoku",
+    "url": "https://flagdoku.com/wildlife.html",
+    "description": "Guess 9 animals that properly fill in the grid.",
+    "tags": [
+      "science"
+    ],
+    "category": "Miscellaneous"
   },
   {
     "name": "Worchle",

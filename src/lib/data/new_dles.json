@@ -1,118 +1,126 @@
 [
   {
-    "name": "BingeWatcher",
-    "url": "https://bingewatcher.org"
+    "name": "AniGuessr",
+    "url": "https://aniguessr.com"
   },
   {
-    "name": "Breadle",
-    "url": "https://breadle.us"
+    "name": "Birdle",
+    "url": "https://www.play-birdle.com"
   },
   {
-    "name": "Chemdle",
-    "url": "https://www.chemdle.com"
+    "name": "Birdle (like Wordle)",
+    "url": "https://birdle.escism.net"
   },
   {
-    "name": "Chiddle",
-    "url": "https://www.chiddle.net"
+    "name": "Couplit",
+    "url": "https://couplit.io"
   },
   {
-    "name": "Clues By Sam",
-    "url": "https://cluesbysam.com"
+    "name": "Crosstune",
+    "url": "https://crosstune.io"
   },
   {
-    "name": "Fishdle",
-    "url": "https://tacklevillage.com/fishdle-game/"
+    "name": "Disordle",
+    "url": "https://disordle.com"
   },
   {
-    "name": "Guess The Angle",
-    "url": "https://guesstheangle.wtf"
+    "name": "Dodeku",
+    "url": "https://dodeku.com"
   },
   {
-    "name": "Guess The Book",
-    "url": "https://guessthebook.app"
+    "name": "Emoji Quiz - Movies",
+    "url": "https://www.emojiquiz.net/movies"
   },
   {
-    "name": "Guess The House",
-    "url": "https://guessthe.house"
+    "name": "Emoji Quiz - TV",
+    "url": "https://www.emojiquiz.net/tv"
   },
   {
-    "name": "Guess The Logo",
-    "url": "https://guessthelogo.wtf"
+    "name": "Emoji Quiz - Video Games",
+    "url": "https://www.emojiquiz.net/games"
   },
   {
-    "name": "Guess The Movie",
-    "url": "https://guessthemovie.name"
+    "name": "Enchant Wordle",
+    "url": "https://enchantworldle.com"
   },
   {
-    "name": "Jigsaw Explorer",
-    "url": "https://www.jigsawexplorer.com"
+    "name": "Futdoku",
+    "url": "https://futdoku.com"
   },
   {
-    "name": "Kinda Hard Golf",
-    "url": "https://kindahardgolf.com"
+    "name": "GuessTen",
+    "url": "https://guessten.com"
   },
   {
-    "name": "Lexicle",
-    "url": "https://lexicle.com"
+    "name": "Langle",
+    "url": "https://langle.uk"
   },
   {
-    "name": "lichess.org Daily Puzzle",
-    "url": "https://lichess.org/training/daily"
+    "name": "MapTap",
+    "url": "https://maptap.gg"
   },
   {
-    "name": "MusicVidle",
-    "url": "https://www.musicvidle.com"
+    "name": "Mathdle",
+    "url": "https://mathdle.app"
   },
   {
-    "name": "Nodes",
-    "url": "https://www.nodes-game.com"
+    "name": "Musicle",
+    "url": "https://musicle.app"
   },
   {
-    "name": "OWdle",
-    "url": "https://owdle.guessing.day"
+    "name": "Puzzmo - Bongo",
+    "url": "https://www.puzzmo.com/game/bongo"
   },
   {
-    "name": "Pixletters",
-    "url": "https://pixletters.com"
+    "name": "Puzzmo - Memoku",
+    "url": "https://www.puzzmo.com/play/memoku"
   },
   {
-    "name": "RADDLE",
-    "url": "https://raddle.quest"
+    "name": "Puzzmo - Pile-Up Poker",
+    "url": "https://www.puzzmo.com/play/pile-up-poker"
   },
   {
-    "name": "Scrandle",
-    "url": "https://scrandle.com"
+    "name": "Puzzmo - Weather Memoku",
+    "url": "https://www.puzzmo.com/play/weather-memoku"
   },
   {
-    "name": "Smixed",
-    "url": "https://smixed.com"
+    "name": "Quizmoji",
+    "url": "https://quizmoji.com"
   },
   {
-    "name": "Snapdle",
-    "url": "https://snapdle.github.io/classic"
+    "name": "Quotesed",
+    "url": "https://www.quotesed.com"
   },
   {
-    "name": "Spot the differences",
-    "url": "https://www.spot-differences.com"
+    "name": "Retro Game Trivia",
+    "url": "https://retrotrivia.games"
   },
   {
-    "name": "Talldle",
-    "url": "https://www.talldle.com"
+    "name": "Stardewdle",
+    "url": "https://stardewdle.com/game"
   },
   {
-    "name": "Warbl",
-    "url": "https://www.warbl.org"
+    "name": "Steamdle",
+    "url": "https://steamdle.com"
   },
   {
-    "name": "Which year",
-    "url": "https://whichyr.com"
+    "name": "Streetfighterdle",
+    "url": "https://streetfighterdle.net"
   },
   {
-    "name": "Wordcell",
-    "url": "https://wordcell.gamebunny.app"
+    "name": "Temple",
+    "url": "https://tck.mn/temple"
   },
   {
-    "name": "words for days",
-    "url": "https://wordsfordays.com"
+    "name": "TFTdle",
+    "url": "https://tftdle.gg/classic"
+  },
+  {
+    "name": "Tracell",
+    "url": "https://tracellgame.com"
+  },
+  {
+    "name": "Wildlife Sudoku",
+    "url": "https://flagdoku.com/wildlife.html"
   }
 ]
