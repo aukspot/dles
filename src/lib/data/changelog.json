@@ -1,5 +1,157 @@
 [
   {
+    "date": "2025-06-11",
+    "description": "Add 31 dles. Remove 5 dles. ",
+    "dles added": [
+      {
+        "name": "AniGuessr",
+        "url": "https://aniguessr.com"
+      },
+      {
+        "name": "Birdle",
+        "url": "https://www.play-birdle.com"
+      },
+      {
+        "name": "Birdle (like Wordle)",
+        "url": "https://birdle.escism.net"
+      },
+      {
+        "name": "Couplit",
+        "url": "https://couplit.io"
+      },
+      {
+        "name": "Crosstune",
+        "url": "https://crosstune.io"
+      },
+      {
+        "name": "Disordle",
+        "url": "https://disordle.com"
+      },
+      {
+        "name": "Dodeku",
+        "url": "https://dodeku.com"
+      },
+      {
+        "name": "Emoji Quiz - Movies",
+        "url": "https://www.emojiquiz.net/movies"
+      },
+      {
+        "name": "Emoji Quiz - TV",
+        "url": "https://www.emojiquiz.net/tv"
+      },
+      {
+        "name": "Emoji Quiz - Video Games",
+        "url": "https://www.emojiquiz.net/games"
+      },
+      {
+        "name": "Enchant Wordle",
+        "url": "https://enchantworldle.com"
+      },
+      {
+        "name": "Futdoku",
+        "url": "https://futdoku.com"
+      },
+      {
+        "name": "GuessTen",
+        "url": "https://guessten.com"
+      },
+      {
+        "name": "Langle",
+        "url": "https://langle.uk"
+      },
+      {
+        "name": "MapTap",
+        "url": "https://maptap.gg"
+      },
+      {
+        "name": "Mathdle",
+        "url": "https://mathdle.app"
+      },
+      {
+        "name": "Musicle",
+        "url": "https://musicle.app"
+      },
+      {
+        "name": "Puzzmo - Bongo",
+        "url": "https://www.puzzmo.com/game/bongo"
+      },
+      {
+        "name": "Puzzmo - Memoku",
+        "url": "https://www.puzzmo.com/play/memoku"
+      },
+      {
+        "name": "Puzzmo - Pile-Up Poker",
+        "url": "https://www.puzzmo.com/play/pile-up-poker"
+      },
+      {
+        "name": "Puzzmo - Weather Memoku",
+        "url": "https://www.puzzmo.com/play/weather-memoku"
+      },
+      {
+        "name": "Quizmoji",
+        "url": "https://quizmoji.com"
+      },
+      {
+        "name": "Quotesed",
+        "url": "https://www.quotesed.com"
+      },
+      {
+        "name": "Retro Game Trivia",
+        "url": "https://retrotrivia.games"
+      },
+      {
+        "name": "Stardewdle",
+        "url": "https://stardewdle.com/game"
+      },
+      {
+        "name": "Steamdle",
+        "url": "https://steamdle.com"
+      },
+      {
+        "name": "Streetfighterdle",
+        "url": "https://streetfighterdle.net"
+      },
+      {
+        "name": "Temple",
+        "url": "https://tck.mn/temple"
+      },
+      {
+        "name": "TFTdle",
+        "url": "https://tftdle.gg/classic"
+      },
+      {
+        "name": "Tracell",
+        "url": "https://tracellgame.com"
+      },
+      {
+        "name": "Wildlife Sudoku",
+        "url": "https://flagdoku.com/wildlife.html"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Chronoline",
+        "url": "https://chronoline.app/daily"
+      },
+      {
+        "name": "Geographle",
+        "url": "https://geographle.com"
+      },
+      {
+        "name": "Listed",
+        "url": "https://listed.fun"
+      },
+      {
+        "name": "Order Up",
+        "url": "https://orderup.games"
+      },
+      {
+        "name": "Outword",
+        "url": "https://outword.me"
+      }
+    ]
+  },
+  {
     "date": "2025-05-15",
     "description": "Remove 1 dle. ",
     "dles removed": [
