@@ -131,23 +131,28 @@
     "dles removed": [
       {
         "name": "Chronoline",
-        "url": "https://chronoline.app/daily"
+        "url": "https://chronoline.app/daily",
+        "reason": "The daily challenge does not work."
       },
       {
         "name": "Geographle",
-        "url": "https://geographle.com"
+        "url": "https://geographle.com",
+        "reason": "Daily puzzles do not load."
       },
       {
         "name": "Listed",
-        "url": "https://listed.fun"
+        "url": "https://listed.fun",
+        "reason": "The game has been concluded."
       },
       {
         "name": "Order Up",
-        "url": "https://orderup.games"
+        "url": "https://orderup.games",
+        "reason": "The game has been paused."
       },
       {
         "name": "Outword",
-        "url": "https://outword.me"
+        "url": "https://outword.me",
+        "reason": "The website does not load."
       }
     ]
   },
