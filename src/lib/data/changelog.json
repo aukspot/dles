@@ -4,38 +4,6 @@
     "description": "Add 39 dles. Remove 5 dles.",
     "dles added": [
       {
-        "name": "LinkedIn - Crossclimb",
-        "url": "https://www.linkedin.com/games/crossclimb"
-      },
-      {
-        "name": "LinkedIn - Pinpoint",
-        "url": "https://www.linkedin.com/games/pinpoint"
-      },
-      {
-        "name": "LinkedIn - Queens",
-        "url": "https://www.linkedin.com/games/queens"
-      },
-      {
-        "name": "LinkedIn - Tango",
-        "url": "https://www.linkedin.com/games/tango"
-      },
-      {
-        "name": "LinkedIn - Zip",
-        "url": "https://www.linkedin.com/games/zip"
-      },
-      {
-        "name": "Three Magic Words",
-        "url": "https://www.threemagicwords.app/play"
-      },
-      {
-        "name": "Truncate",
-        "url": "https://truncate.town"
-      },
-      {
-        "name": "Wordcrux",
-        "url": "https://wordnerd.co/23words"
-      },
-      {
         "name": "AniGuessr",
         "url": "https://aniguessr.com"
       },
@@ -90,6 +58,26 @@
       {
         "name": "Langle",
         "url": "https://langle.uk"
+      },
+      {
+        "name": "LinkedIn - Crossclimb",
+        "url": "https://www.linkedin.com/games/crossclimb"
+      },
+      {
+        "name": "LinkedIn - Pinpoint",
+        "url": "https://www.linkedin.com/games/pinpoint"
+      },
+      {
+        "name": "LinkedIn - Queens",
+        "url": "https://www.linkedin.com/games/queens"
+      },
+      {
+        "name": "LinkedIn - Tango",
+        "url": "https://www.linkedin.com/games/tango"
+      },
+      {
+        "name": "LinkedIn - Zip",
+        "url": "https://www.linkedin.com/games/zip"
       },
       {
         "name": "MapTap",
@@ -148,6 +136,10 @@
         "url": "https://tck.mn/temple"
       },
       {
+        "name": "Three Magic Words",
+        "url": "https://www.threemagicwords.app/play"
+      },
+      {
         "name": "TFTdle",
         "url": "https://tftdle.gg/classic"
       },
@@ -156,8 +148,16 @@
         "url": "https://tracellgame.com"
       },
       {
+        "name": "Truncate",
+        "url": "https://truncate.town"
+      },
+      {
         "name": "Wildlife Sudoku",
         "url": "https://flagdoku.com/wildlife.html"
+      },
+      {
+        "name": "Wordcrux",
+        "url": "https://wordnerd.co/23words"
       }
     ],
     "dles removed": [
