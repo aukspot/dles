@@ -3,11 +3,17 @@
   import { changelog, infoHidden, searchQuery } from "$lib/stores"
   import SearchBar from "./SearchBar.svelte"
 
+  export let includeSearch = false
+
   function toggleInfo() {
     $infoHidden = !$infoHidden
     if (isLocalStorageAvailable()) {
       localStorage.infoHidden = $infoHidden
     }
+  }
+
+  if (includeSearch) {
+    console.log("including search bar")
   }
 </script>
 
@@ -34,7 +40,9 @@
     </div>
   {/if}
   <div class="set-width flex justify-end items-center">
-    <SearchBar />
+    {#if includeSearch}
+      <SearchBar />
+    {/if}
   </div>
 </div>
 

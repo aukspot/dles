@@ -3,6 +3,7 @@
   import SimpleLink from "$lib/components/SimpleLink.svelte"
   import SimpleCard from "$lib/components/SimpleCard.svelte"
   import IconBug from "$lib/components/Icons/IconBug.svelte"
+  import Banner from "$lib/components/Banner.svelte"
 
   export let description = ""
   export let platform = ""
@@ -19,15 +20,18 @@
 </svelte:head>
 
 <!-- <div class="divider"></div> -->
-<div class="mt-2 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+<Banner />
+<div class="mt-4 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+  <h2
+    class="mb-2 flex justify-center gap-2 text-xl fill-colorText font-semibold"
+  >
+    <IconBug /> Report a bug!
+  </h2>
+  <p class="text-center text-sm md:text-base text-colorTextSoft px-2 mb-2">
+    Find a typo or broken link? Or does something just not work the way you
+    expected? Whatever the bug is, describe it below!
+  </p>
   <SimpleCard>
-    <h2 class="mb-2 flex justify-center gap-2 text-xl fill-colorText font-bold">
-      <IconBug /> Report a bug!
-    </h2>
-    <p class="text-center text-sm md:text-base text-colorTextSoft px-2 mb-2">
-      Find a typo or broken link? Or does something just not work the way you
-      expected? Whatever the bug is, describe it below!
-    </p>
     <div class="flex justify-center items-center">
       <form
         class="w-full"

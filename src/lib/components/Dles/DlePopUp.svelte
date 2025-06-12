@@ -27,7 +27,7 @@
   }
 </script>
 
-<div class="dlePopUp" style="left: {pageX}px; top: {pageY}px; width: {width}px">
+<div class="dlePopUp bevel" style="left: {pageX}px; top: {pageY}px; width: {width}px">
   <div class="flex justify-around items-start gap-2">
     <DleFavorite {dle} />
 
@@ -50,12 +50,10 @@
 
 <style lang="postcss">
   .dlePopUp {
-    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-lg border-2 border-colorTextSoftest shadow-sm shadow-colorTextSoftest;
+    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-lg shadow-sm shadow-colorTextSoftest;
     transform: translate(-50%, -99%);
-
-    @layer bevel;
   }
-  
+
   a {
     @apply text-center text-base underline break-words;
   }

@@ -13,7 +13,7 @@
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { clickOutside } from "$lib/js/clickOutside"
   import { base } from "$app/paths"
-  import BannerText from "../BannerText.svelte"
+  import Banner from "../Banner.svelte"
   import { openInNewTab } from "$lib/js/utilities"
 
   let pageX = 0
@@ -41,7 +41,7 @@
 
 <svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
-<BannerText />
+<Banner includeSearch={true} />
 <div class="w-full mx-auto">
   <div class="dlesContainer">
     {#each $categories as category, i (i)}

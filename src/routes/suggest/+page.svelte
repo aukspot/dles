@@ -3,6 +3,7 @@
   import SimpleLink from "$lib/components/SimpleLink.svelte"
   import SimpleCard from "$lib/components/SimpleCard.svelte"
   import IconSuggest from "$lib/components/Icons/IconSuggest.svelte"
+  import Banner from "$lib/components/Banner.svelte"
 
   export let url = ""
   export let description = ""
@@ -21,17 +22,18 @@
 </svelte:head>
 
 <!-- <div class="divider"></div> -->
-<div class="mt-2 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+<Banner />
+<div class="mt-8 mx-auto sm:w-full max-w-lg flex flex-col gap-3">
+  <h2
+    class="mb-2 flex justify-center gap-2 text-xl font-semibold fill-colorText"
+  >
+    <IconSuggest /> Suggest a game!
+  </h2>
+  <p class="text-center text-colorTextSoft px-2 mb-2">
+    Is there a fun daily game that is missing from the list? Make an anonymous
+    suggestion below!
+  </p>
   <SimpleCard>
-    <h2
-      class="mb-2 flex justify-center gap-2 text-xl font-semibold fill-colorText"
-    >
-      <IconSuggest /> Suggest a game!
-    </h2>
-    <p class="text-center text-colorTextSoft px-2 mb-2">
-      Is there a fun daily game that is missing from the list? Make an anonymous
-      suggestion below!
-    </p>
     <div class="flex justify-center items-center">
       <form
         class="w-full"
