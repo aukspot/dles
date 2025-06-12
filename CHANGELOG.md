@@ -7,45 +7,45 @@ Add 39 dles. Remove 5 dles.
 dles added: 
 |    | name                                                                  | url                                                                                      |
 |---:|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
-|  1 | [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb)    | [https://www.linkedin.com/games/crossclimb](https://www.linkedin.com/games/crossclimb)   |
-|  2 | [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint)        | [https://www.linkedin.com/games/pinpoint](https://www.linkedin.com/games/pinpoint)       |
-|  3 | [LinkedIn - Queens](https://www.linkedin.com/games/queens)            | [https://www.linkedin.com/games/queens](https://www.linkedin.com/games/queens)           |
-|  4 | [LinkedIn - Tango](https://www.linkedin.com/games/tango)              | [https://www.linkedin.com/games/tango](https://www.linkedin.com/games/tango)             |
-|  5 | [LinkedIn - Zip](https://www.linkedin.com/games/zip)                  | [https://www.linkedin.com/games/zip](https://www.linkedin.com/games/zip)                 |
-|  6 | [Three Magic Words](https://www.threemagicwords.app/play)             | [https://www.threemagicwords.app/play](https://www.threemagicwords.app/play)             |
-|  7 | [Truncate](https://truncate.town)                                     | [https://truncate.town](https://truncate.town)                                           |
-|  8 | [Wordcrux](https://wordnerd.co/23words)                               | [https://wordnerd.co/23words](https://wordnerd.co/23words)                               |
-|  9 | [AniGuessr](https://aniguessr.com)                                    | [https://aniguessr.com](https://aniguessr.com)                                           |
-| 10 | [Birdle](https://www.play-birdle.com)                                 | [https://www.play-birdle.com](https://www.play-birdle.com)                               |
-| 11 | [Birdle (like Wordle)](https://birdle.escism.net)                     | [https://birdle.escism.net](https://birdle.escism.net)                                   |
-| 12 | [Couplit](https://couplit.io)                                         | [https://couplit.io](https://couplit.io)                                                 |
-| 13 | [Crosstune](https://crosstune.io)                                     | [https://crosstune.io](https://crosstune.io)                                             |
-| 14 | [Disordle](https://disordle.com)                                      | [https://disordle.com](https://disordle.com)                                             |
-| 15 | [Dodeku](https://dodeku.com)                                          | [https://dodeku.com](https://dodeku.com)                                                 |
-| 16 | [Emoji Quiz - Movies](https://www.emojiquiz.net/movies)               | [https://www.emojiquiz.net/movies](https://www.emojiquiz.net/movies)                     |
-| 17 | [Emoji Quiz - TV](https://www.emojiquiz.net/tv)                       | [https://www.emojiquiz.net/tv](https://www.emojiquiz.net/tv)                             |
-| 18 | [Emoji Quiz - Video Games](https://www.emojiquiz.net/games)           | [https://www.emojiquiz.net/games](https://www.emojiquiz.net/games)                       |
-| 19 | [Enchant Wordle](https://enchantworldle.com)                          | [https://enchantworldle.com](https://enchantworldle.com)                                 |
-| 20 | [Futdoku](https://futdoku.com)                                        | [https://futdoku.com](https://futdoku.com)                                               |
-| 21 | [GuessTen](https://guessten.com)                                      | [https://guessten.com](https://guessten.com)                                             |
-| 22 | [Langle](https://langle.uk)                                           | [https://langle.uk](https://langle.uk)                                                   |
-| 23 | [MapTap](https://maptap.gg)                                           | [https://maptap.gg](https://maptap.gg)                                                   |
-| 24 | [Mathdle](https://mathdle.app)                                        | [https://mathdle.app](https://mathdle.app)                                               |
-| 25 | [Musicle](https://musicle.app)                                        | [https://musicle.app](https://musicle.app)                                               |
-| 26 | [Puzzmo - Bongo](https://www.puzzmo.com/game/bongo)                   | [https://www.puzzmo.com/game/bongo](https://www.puzzmo.com/game/bongo)                   |
-| 27 | [Puzzmo - Memoku](https://www.puzzmo.com/play/memoku)                 | [https://www.puzzmo.com/play/memoku](https://www.puzzmo.com/play/memoku)                 |
-| 28 | [Puzzmo - Pile-Up Poker](https://www.puzzmo.com/play/pile-up-poker)   | [https://www.puzzmo.com/play/pile-up-poker](https://www.puzzmo.com/play/pile-up-poker)   |
-| 29 | [Puzzmo - Weather Memoku](https://www.puzzmo.com/play/weather-memoku) | [https://www.puzzmo.com/play/weather-memoku](https://www.puzzmo.com/play/weather-memoku) |
-| 30 | [Quizmoji](https://quizmoji.com)                                      | [https://quizmoji.com](https://quizmoji.com)                                             |
-| 31 | [Quotesed](https://www.quotesed.com)                                  | [https://www.quotesed.com](https://www.quotesed.com)                                     |
-| 32 | [Retro Game Trivia](https://retrotrivia.games)                        | [https://retrotrivia.games](https://retrotrivia.games)                                   |
-| 33 | [Stardewdle](https://stardewdle.com/game)                             | [https://stardewdle.com/game](https://stardewdle.com/game)                               |
-| 34 | [Steamdle](https://steamdle.com)                                      | [https://steamdle.com](https://steamdle.com)                                             |
-| 35 | [Streetfighterdle](https://streetfighterdle.net)                      | [https://streetfighterdle.net](https://streetfighterdle.net)                             |
-| 36 | [Temple](https://tck.mn/temple)                                       | [https://tck.mn/temple](https://tck.mn/temple)                                           |
-| 37 | [TFTdle](https://tftdle.gg/classic)                                   | [https://tftdle.gg/classic](https://tftdle.gg/classic)                                   |
-| 38 | [Tracell](https://tracellgame.com)                                    | [https://tracellgame.com](https://tracellgame.com)                                       |
-| 39 | [Wildlife Sudoku](https://flagdoku.com/wildlife.html)                 | [https://flagdoku.com/wildlife.html](https://flagdoku.com/wildlife.html)                 |
+|  1 | [AniGuessr](https://aniguessr.com)                                    | [https://aniguessr.com](https://aniguessr.com)                                           |
+|  2 | [Birdle](https://www.play-birdle.com)                                 | [https://www.play-birdle.com](https://www.play-birdle.com)                               |
+|  3 | [Birdle (like Wordle)](https://birdle.escism.net)                     | [https://birdle.escism.net](https://birdle.escism.net)                                   |
+|  4 | [Couplit](https://couplit.io)                                         | [https://couplit.io](https://couplit.io)                                                 |
+|  5 | [Crosstune](https://crosstune.io)                                     | [https://crosstune.io](https://crosstune.io)                                             |
+|  6 | [Disordle](https://disordle.com)                                      | [https://disordle.com](https://disordle.com)                                             |
+|  7 | [Dodeku](https://dodeku.com)                                          | [https://dodeku.com](https://dodeku.com)                                                 |
+|  8 | [Emoji Quiz - Movies](https://www.emojiquiz.net/movies)               | [https://www.emojiquiz.net/movies](https://www.emojiquiz.net/movies)                     |
+|  9 | [Emoji Quiz - TV](https://www.emojiquiz.net/tv)                       | [https://www.emojiquiz.net/tv](https://www.emojiquiz.net/tv)                             |
+| 10 | [Emoji Quiz - Video Games](https://www.emojiquiz.net/games)           | [https://www.emojiquiz.net/games](https://www.emojiquiz.net/games)                       |
+| 11 | [Enchant Wordle](https://enchantworldle.com)                          | [https://enchantworldle.com](https://enchantworldle.com)                                 |
+| 12 | [Futdoku](https://futdoku.com)                                        | [https://futdoku.com](https://futdoku.com)                                               |
+| 13 | [GuessTen](https://guessten.com)                                      | [https://guessten.com](https://guessten.com)                                             |
+| 14 | [Langle](https://langle.uk)                                           | [https://langle.uk](https://langle.uk)                                                   |
+| 15 | [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb)    | [https://www.linkedin.com/games/crossclimb](https://www.linkedin.com/games/crossclimb)   |
+| 16 | [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint)        | [https://www.linkedin.com/games/pinpoint](https://www.linkedin.com/games/pinpoint)       |
+| 17 | [LinkedIn - Queens](https://www.linkedin.com/games/queens)            | [https://www.linkedin.com/games/queens](https://www.linkedin.com/games/queens)           |
+| 18 | [LinkedIn - Tango](https://www.linkedin.com/games/tango)              | [https://www.linkedin.com/games/tango](https://www.linkedin.com/games/tango)             |
+| 19 | [LinkedIn - Zip](https://www.linkedin.com/games/zip)                  | [https://www.linkedin.com/games/zip](https://www.linkedin.com/games/zip)                 |
+| 20 | [MapTap](https://maptap.gg)                                           | [https://maptap.gg](https://maptap.gg)                                                   |
+| 21 | [Mathdle](https://mathdle.app)                                        | [https://mathdle.app](https://mathdle.app)                                               |
+| 22 | [Musicle](https://musicle.app)                                        | [https://musicle.app](https://musicle.app)                                               |
+| 23 | [Puzzmo - Bongo](https://www.puzzmo.com/game/bongo)                   | [https://www.puzzmo.com/game/bongo](https://www.puzzmo.com/game/bongo)                   |
+| 24 | [Puzzmo - Memoku](https://www.puzzmo.com/play/memoku)                 | [https://www.puzzmo.com/play/memoku](https://www.puzzmo.com/play/memoku)                 |
+| 25 | [Puzzmo - Pile-Up Poker](https://www.puzzmo.com/play/pile-up-poker)   | [https://www.puzzmo.com/play/pile-up-poker](https://www.puzzmo.com/play/pile-up-poker)   |
+| 26 | [Puzzmo - Weather Memoku](https://www.puzzmo.com/play/weather-memoku) | [https://www.puzzmo.com/play/weather-memoku](https://www.puzzmo.com/play/weather-memoku) |
+| 27 | [Quizmoji](https://quizmoji.com)                                      | [https://quizmoji.com](https://quizmoji.com)                                             |
+| 28 | [Quotesed](https://www.quotesed.com)                                  | [https://www.quotesed.com](https://www.quotesed.com)                                     |
+| 29 | [Retro Game Trivia](https://retrotrivia.games)                        | [https://retrotrivia.games](https://retrotrivia.games)                                   |
+| 30 | [Stardewdle](https://stardewdle.com/game)                             | [https://stardewdle.com/game](https://stardewdle.com/game)                               |
+| 31 | [Steamdle](https://steamdle.com)                                      | [https://steamdle.com](https://steamdle.com)                                             |
+| 32 | [Streetfighterdle](https://streetfighterdle.net)                      | [https://streetfighterdle.net](https://streetfighterdle.net)                             |
+| 33 | [Temple](https://tck.mn/temple)                                       | [https://tck.mn/temple](https://tck.mn/temple)                                           |
+| 34 | [Three Magic Words](https://www.threemagicwords.app/play)             | [https://www.threemagicwords.app/play](https://www.threemagicwords.app/play)             |
+| 35 | [TFTdle](https://tftdle.gg/classic)                                   | [https://tftdle.gg/classic](https://tftdle.gg/classic)                                   |
+| 36 | [Tracell](https://tracellgame.com)                                    | [https://tracellgame.com](https://tracellgame.com)                                       |
+| 37 | [Truncate](https://truncate.town)                                     | [https://truncate.town](https://truncate.town)                                           |
+| 38 | [Wildlife Sudoku](https://flagdoku.com/wildlife.html)                 | [https://flagdoku.com/wildlife.html](https://flagdoku.com/wildlife.html)                 |
+| 39 | [Wordcrux](https://wordnerd.co/23words)                               | [https://wordnerd.co/23words](https://wordnerd.co/23words)                               |
 
 dles removed: 
 |    | name                                       | url                                                          | reason                             |
