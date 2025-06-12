@@ -143,8 +143,9 @@ def add_changes_to_changelog():
                 if len(removed_dles) > 0:
                     entry["dles removed"] = removed_dles
                 removed_dles_count = len(removed_dles)
-            entry["description"] = get_changelog_description(
-                entry["dles added"], entry["dles removed"])
+            if "dles added" in entry or "dles removed" in entry:
+                entry["description"] = get_changelog_description(
+                    entry["dles added"], entry["dles removed"])
             break
 
     if not is_date_in_changelog and (len(new_dles) > 0 or len(removed_dles) > 0):
