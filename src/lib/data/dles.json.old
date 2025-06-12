@@ -3759,10 +3759,9 @@
   },
   {
     "name": "Wordcrux",
-    "url": "https://wordnerd.co/23words",
-    "description": "Unscramble 23 words, one by one, without running out of time.",
+    "url": "https://wordcrux.com",
+    "description": "A mini crossword puzzle, but make too many wrong guesses.",
     "tags": [
-      "fast-paced",
       "words"
     ],
     "category": "Words"

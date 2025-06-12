@@ -2,19 +2,12 @@
 
 ## 2025-06-12
 
-Add 8 dles. 
+
 
 dles added: 
-|    | name                                                               | url                                                                                    |
-|---:|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
-|  1 | [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb) | [https://www.linkedin.com/games/crossclimb](https://www.linkedin.com/games/crossclimb) |
-|  2 | [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint)     | [https://www.linkedin.com/games/pinpoint](https://www.linkedin.com/games/pinpoint)     |
-|  3 | [LinkedIn - Queens](https://www.linkedin.com/games/queens)         | [https://www.linkedin.com/games/queens](https://www.linkedin.com/games/queens)         |
-|  4 | [LinkedIn - Tango](https://www.linkedin.com/games/tango)           | [https://www.linkedin.com/games/tango](https://www.linkedin.com/games/tango)           |
-|  5 | [LinkedIn - Zip](https://www.linkedin.com/games/zip)               | [https://www.linkedin.com/games/zip](https://www.linkedin.com/games/zip)               |
-|  6 | [Three Magic Words](https://www.threemagicwords.app/play)          | [https://www.threemagicwords.app/play](https://www.threemagicwords.app/play)           |
-|  7 | [Truncate](https://truncate.town)                                  | [https://truncate.town](https://truncate.town)                                         |
-|  8 | [Wordcrux](https://wordnerd.co/23words)                            | [https://wordnerd.co/23words](https://wordnerd.co/23words)                             |
+
+
+dles removed: 
 
 ## 2025-06-11
 
