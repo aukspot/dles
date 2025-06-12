@@ -2,7 +2,7 @@
 
 "They call them the dles but they are anything but." - Northernlion
 
-The dles is a curated collection of 300+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
+The dles is a curated collection of 400+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
 
 View the app [here](https://aukspot.github.io/dles/) or view the list in a markdown table at the [bottom of this README](https://github.com/aukspot/dles/tree/main?tab=readme-ov-file#current-list-of-dles).
 
@@ -22,7 +22,7 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 ### Current
 
-- A list of over 300 curated dles.
+- A list of over 400 curated dles.
 - Ten categories to help with organization.
 - Randomly choose and open a dle from selected categories.
 
