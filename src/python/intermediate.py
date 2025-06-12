@@ -119,8 +119,10 @@ def add_changes_to_changelog():
     duplicates_tried_to_remove = []
 
     for entry in changelog_json:
-        entry["dles added"] = []
-        entry["dles removed"] = []
+        if "dles added" not in entry:
+            entry["dles added"] = []
+        if "dles removed" not in entry:
+            entry["dles removed"] = []
         if entry["date"] == date:
             is_date_in_changelog = True
             if "dles added" in entry:
