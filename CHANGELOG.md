@@ -1,5 +1,21 @@
 # Changelog - The Dles
 
+## 2025-06-12
+
+Add 8 dles. 
+
+dles added: 
+|    | name                                                               | url                                                                                    |
+|---:|:-------------------------------------------------------------------|:---------------------------------------------------------------------------------------|
+|  1 | [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb) | [https://www.linkedin.com/games/crossclimb](https://www.linkedin.com/games/crossclimb) |
+|  2 | [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint)     | [https://www.linkedin.com/games/pinpoint](https://www.linkedin.com/games/pinpoint)     |
+|  3 | [LinkedIn - Queens](https://www.linkedin.com/games/queens)         | [https://www.linkedin.com/games/queens](https://www.linkedin.com/games/queens)         |
+|  4 | [LinkedIn - Tango](https://www.linkedin.com/games/tango)           | [https://www.linkedin.com/games/tango](https://www.linkedin.com/games/tango)           |
+|  5 | [LinkedIn - Zip](https://www.linkedin.com/games/zip)               | [https://www.linkedin.com/games/zip](https://www.linkedin.com/games/zip)               |
+|  6 | [Three Magic Words](https://www.threemagicwords.app/play)          | [https://www.threemagicwords.app/play](https://www.threemagicwords.app/play)           |
+|  7 | [Truncate](https://truncate.town)                                  | [https://truncate.town](https://truncate.town)                                         |
+|  8 | [Wordcrux](https://wordnerd.co/23words)                            | [https://wordnerd.co/23words](https://wordnerd.co/23words)                             |
+
 ## 2025-06-11
 
 Add 31 dles. Remove 5 dles. 
@@ -40,13 +56,13 @@ dles added:
 | 31 | [Wildlife Sudoku](https://flagdoku.com/wildlife.html)                 | [https://flagdoku.com/wildlife.html](https://flagdoku.com/wildlife.html)                 |
 
 dles removed: 
-|    | name                                       | url                                                          |
-|---:|:-------------------------------------------|:-------------------------------------------------------------|
-|  1 | [Chronoline](https://chronoline.app/daily) | [https://chronoline.app/daily](https://chronoline.app/daily) |
-|  2 | [Geographle](https://geographle.com)       | [https://geographle.com](https://geographle.com)             |
-|  3 | [Listed](https://listed.fun)               | [https://listed.fun](https://listed.fun)                     |
-|  4 | [Order Up](https://orderup.games)          | [https://orderup.games](https://orderup.games)               |
-|  5 | [Outword](https://outword.me)              | [https://outword.me](https://outword.me)                     |
+|    | name                                       | url                                                          | reason                             |
+|---:|:-------------------------------------------|:-------------------------------------------------------------|:-----------------------------------|
+|  1 | [Chronoline](https://chronoline.app/daily) | [https://chronoline.app/daily](https://chronoline.app/daily) | The daily challenge does not work. |
+|  2 | [Geographle](https://geographle.com)       | [https://geographle.com](https://geographle.com)             | Daily puzzles do not load.         |
+|  3 | [Listed](https://listed.fun)               | [https://listed.fun](https://listed.fun)                     | The game has been concluded.       |
+|  4 | [Order Up](https://orderup.games)          | [https://orderup.games](https://orderup.games)               | The game has been paused.          |
+|  5 | [Outword](https://outword.me)              | [https://outword.me](https://outword.me)                     | The website does not load.         |
 ## 2025-05-15
 
 Remove 1 dle. 

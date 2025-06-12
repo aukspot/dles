@@ -1774,6 +1774,51 @@
     "category": "Words"
   },
   {
+    "name": "LinkedIn - Crossclimb",
+    "url": "https://www.linkedin.com/games/crossclimb",
+    "description": "Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "LinkedIn - Pinpoint",
+    "url": "https://www.linkedin.com/games/pinpoint",
+    "description": "Guess today's category given as few clues as possible. Does not require a LinkedIn account.",
+    "tags": [
+      "trivia"
+    ],
+    "category": "Trivia"
+  },
+  {
+    "name": "LinkedIn - Queens",
+    "url": "https://www.linkedin.com/games/queens",
+    "description": "Place queens on the board such that exactly one is in each row, column, and color region. Does not require a LinkedIn account.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "LinkedIn - Tango",
+    "url": "https://www.linkedin.com/games/tango",
+    "description": "Fill in the grid properly with suns and moons. Does not require a LinkedIn account.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
+    "name": "LinkedIn - Zip",
+    "url": "https://www.linkedin.com/games/zip",
+    "description": "Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.",
+    "tags": [
+      "logic"
+    ],
+    "category": "Math/Logic"
+  },
+  {
     "name": "LINKR",
     "url": "https://www.playlinkr.net",
     "description": "Link each pair of numbered points together in three daily puzzles.",
@@ -3298,6 +3343,15 @@
     "category": "Words"
   },
   {
+    "name": "Three Magic Words",
+    "url": "https://www.threemagicwords.app/play",
+    "description": "Place letters in the empty spaces to form 3 words. Five rounds per day.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Threepeat",
     "url": "https://onelook.com/threepeat",
     "description": "Complete three words with the same three letters, three rounds everyday.",
@@ -3395,6 +3449,15 @@
       "visual"
     ],
     "category": "Math/Logic"
+  },
+  {
+    "name": "Truncate",
+    "url": "https://truncate.town",
+    "description": "Place a chain of tiles on the board and reach the opponent's base before they reach yours.",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
   },
   {
     "name": "Twofer Goofer",
@@ -3690,6 +3753,16 @@
     "url": "https://wordcell.gamebunny.app",
     "description": "Find the hidden words on the board by throwing the ball, picking letters up along the way.",
     "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
+    "name": "Wordcrux",
+    "url": "https://wordnerd.co/23words",
+    "description": "Unscramble 23 words, one by one, without running out of time.",
+    "tags": [
+      "fast-paced",
       "words"
     ],
     "category": "Words"
