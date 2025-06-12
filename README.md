@@ -69,7 +69,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2025-06-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2025-06-11`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 |     | name                                                                                                     | description                                                                                                                                                                    | category          |
 |----:|:---------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|
