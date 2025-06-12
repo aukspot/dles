@@ -1,5 +1,43 @@
 [
   {
+    "date": "2025-06-12",
+    "description": "Add 8 dles. ",
+    "dles added": [
+      {
+        "name": "LinkedIn - Crossclimb",
+        "url": "https://www.linkedin.com/games/crossclimb"
+      },
+      {
+        "name": "LinkedIn - Pinpoint",
+        "url": "https://www.linkedin.com/games/pinpoint"
+      },
+      {
+        "name": "LinkedIn - Queens",
+        "url": "https://www.linkedin.com/games/queens"
+      },
+      {
+        "name": "LinkedIn - Tango",
+        "url": "https://www.linkedin.com/games/tango"
+      },
+      {
+        "name": "LinkedIn - Zip",
+        "url": "https://www.linkedin.com/games/zip"
+      },
+      {
+        "name": "Three Magic Words",
+        "url": "https://www.threemagicwords.app/play"
+      },
+      {
+        "name": "Truncate",
+        "url": "https://truncate.town"
+      },
+      {
+        "name": "Wordcrux",
+        "url": "https://wordnerd.co/23words"
+      }
+    ]
+  },
+  {
     "date": "2025-06-11",
     "description": "Add 31 dles. Remove 5 dles. ",
     "dles added": [
