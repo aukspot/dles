@@ -3760,7 +3760,7 @@
   {
     "name": "Wordcrux",
     "url": "https://wordcrux.com",
-    "description": "A mini crossword puzzle, but make too many wrong guesses.",
+    "description": "A mini crossword puzzle, but don't make too many wrong guesses.",
     "tags": [
       "words"
     ],
