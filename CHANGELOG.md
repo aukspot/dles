@@ -45,7 +45,7 @@ dles added:
 | 36 | [Tracell](https://tracellgame.com)                                    | [https://tracellgame.com](https://tracellgame.com)                                       |
 | 37 | [Truncate](https://truncate.town)                                     | [https://truncate.town](https://truncate.town)                                           |
 | 38 | [Wildlife Sudoku](https://flagdoku.com/wildlife.html)                 | [https://flagdoku.com/wildlife.html](https://flagdoku.com/wildlife.html)                 |
-| 39 | [Wordcrux](https://wordnerd.co/23words)                               | [https://wordnerd.co/23words](https://wordnerd.co/23words)                               |
+| 39 | [Wordcrux](https://wordcrux.com)                                      | [https://wordcrux.com](https://wordcrux.com)                                             |
 
 dles removed: 
 |    | name                                       | url                                                          | reason                             |
