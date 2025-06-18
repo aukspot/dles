@@ -763,6 +763,15 @@
     "category": "Words"
   },
   {
+    "name": "Decodex",
+    "url": "https://playdecodex.com",
+    "description": "The daily the decrypting game",
+    "tags": [
+      "words"
+    ],
+    "category": "Words"
+  },
+  {
     "name": "Dicele",
     "url": "https://dicele.com",
     "description": "Swap dice to make each row and column sum up to their target number.",
