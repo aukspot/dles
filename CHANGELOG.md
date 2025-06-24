@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2025-06-24
+
+Add 6 categories: Card/Board Games, Colors, Food, Science/Nature, Shapes/Patterns, Vehicles.
+
+
 ## 2025-06-11
 
 Add 39 dles. Remove 5 dles.
