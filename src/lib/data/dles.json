@@ -78,7 +78,7 @@
     "tags": [
       "pictures"
     ],
-    "category": "Miscellaneous"
+    "category": "Vehicles"
   },
   {
     "name": "Angle",
@@ -162,7 +162,7 @@
     "tags": [
       "nature"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Birdle (like Wordle)",
@@ -172,7 +172,7 @@
       "nature",
       "words"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Blunderwall",
@@ -277,7 +277,7 @@
     "tags": [
       "pictures"
     ],
-    "category": "Miscellaneous"
+    "category": "Vehicles"
   },
   {
     "name": "Cartoonguessr",
@@ -334,7 +334,7 @@
     "tags": [
       "science"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Chess.com Daily Puzzle",
@@ -343,7 +343,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Chessguessr",
@@ -352,7 +352,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Chessle",
@@ -361,7 +361,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Chiddle",
@@ -456,7 +456,7 @@
     "tags": [
       "colors"
     ],
-    "category": "Miscellaneous"
+    "category": "Colors"
   },
   {
     "name": "Colorfle",
@@ -465,7 +465,7 @@
     "tags": [
       "colors"
     ],
-    "category": "Miscellaneous"
+    "category": "Colors"
   },
   {
     "name": "ColorGuesser",
@@ -474,7 +474,7 @@
     "tags": [
       "colors"
     ],
-    "category": "Miscellaneous"
+    "category": "Colors"
   },
   {
     "name": "Combinations",
@@ -722,7 +722,7 @@
       "fast-paced",
       "visual"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Daydle",
@@ -742,7 +742,7 @@
       "logic",
       "visual"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "DBDle",
@@ -799,7 +799,7 @@
     "tags": [
       "science"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Dodeku",
@@ -873,7 +873,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Eightile",
@@ -917,7 +917,7 @@
     "url": "https://enchantworldle.com",
     "description": "Guess the card from Magic the Gathering within 20 tries.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Card/Board Games"
   },
   {
     "name": "Eruptle",
@@ -1000,7 +1000,7 @@
     "url": "https://tacklevillage.com/fishdle-game/",
     "description": "Guess the fish based on its silhouette and number of letters.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Flagdle",
@@ -1068,7 +1068,7 @@
     "tags": [
       "pictures"
     ],
-    "category": "Geography/History"
+    "category": "Food"
   },
   {
     "name": "Framed",
@@ -1422,7 +1422,7 @@
     "tags": [
       "colors"
     ],
-    "category": "Miscellaneous"
+    "category": "Colors"
   },
   {
     "name": "Hexcodle Mini",
@@ -1431,7 +1431,7 @@
     "tags": [
       "colors"
     ],
-    "category": "Miscellaneous"
+    "category": "Colors"
   },
   {
     "name": "Hidden Mirrors",
@@ -1440,7 +1440,7 @@
     "tags": [
       "visual"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Hitori Conquest",
@@ -1599,7 +1599,7 @@
     "url": "https://www.jigsawexplorer.com",
     "description": "Solve the jigsaw puzzles, two new puzzles everyday.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Jumblie",
@@ -1762,7 +1762,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Lingule",
@@ -1816,7 +1816,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "LINKR",
@@ -1825,7 +1825,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Linxicon",
@@ -1896,7 +1896,7 @@
     "url": "https://mahjong-handle.update.sh",
     "description": "Guess the Riichi Mahjong hand in 6 tries.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Card/Board Games"
   },
   {
     "name": "MapGame",
@@ -1953,7 +1953,7 @@
     "tags": [
       "science"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Metazooa",
@@ -1962,7 +1962,7 @@
     "tags": [
       "science"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "MinecraftDle",
@@ -2197,7 +2197,7 @@
     "url": "https://www.nodes-game.com",
     "description": "A puzzle game where you connect dots to reveal beautiful images.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Number Island",
@@ -2450,7 +2450,7 @@
     "tags": [
       "pictures"
     ],
-    "category": "Miscellaneous"
+    "category": "Vehicles"
   },
   {
     "name": "Plotwords",
@@ -2512,7 +2512,7 @@
     "url": "https://poklegame.com",
     "description": "Guess the 5 board cards in this daily Texas Holdem challenge.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Card/Board Games"
   },
   {
     "name": "Polygonle",
@@ -2589,7 +2589,7 @@
       "puzzmo",
       "visual"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Puzzmo - Memoku",
@@ -2605,7 +2605,7 @@
     "url": "https://www.puzzmo.com/play/pile-up-poker",
     "description": "Make poker hands by placing cards onto the grid.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Card/Board Games"
   },
   {
     "name": "Puzzmo - Really Bad Chess",
@@ -2614,7 +2614,7 @@
     "tags": [
       "puzzmo"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Puzzmo - Spelltower",
@@ -2725,7 +2725,7 @@
     "url": "https://reciple.net",
     "description": "Guess the ingredients of today's recipe.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Food"
   },
   {
     "name": "Redactle",
@@ -2837,7 +2837,7 @@
     "tags": [
       "pictures"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Runedle",
@@ -2877,7 +2877,7 @@
     "tags": [
       "pictures"
     ],
-    "category": "Miscellaneous"
+    "category": "Food"
   },
   {
     "name": "Searchle",
@@ -2938,7 +2938,7 @@
     "tags": [
       "visual"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Shikaku of the day",
@@ -3448,7 +3448,7 @@
       "logic",
       "visual"
     ],
-    "category": "Math/Logic"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Truncate",
@@ -3522,7 +3522,7 @@
     "tags": [
       "visual"
     ],
-    "category": "Miscellaneous"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Vowel Play",
@@ -3652,7 +3652,7 @@
     "tags": [
       "science"
     ],
-    "category": "Miscellaneous"
+    "category": "Science/Nature"
   },
   {
     "name": "Worchle",
@@ -3859,7 +3859,7 @@
     "tags": [
       "logic"
     ],
-    "category": "Math/Logic"
+    "category": "Card/Board Games"
   },
   {
     "name": "Zebra Puzzles",
