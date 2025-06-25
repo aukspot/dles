@@ -2,9 +2,13 @@
 
 ## 2025-06-24
 
-Add 6 categories: Card/Board Games, Colors, Food, Science/Nature, Shapes/Patterns, Vehicles.
+Remove 1 dle. Remove 1 dle.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices
 
 
+dles removed: 
+|    | name                                       | url                                                              | reason                        |
+|---:|:-------------------------------------------|:-----------------------------------------------------------------|:------------------------------|
+|  1 | [Colordle](https://colordle.ryantanen.com) | [https://colordle.ryantanen.com](https://colordle.ryantanen.com) | Daily puzzle does not change. |
 ## 2025-06-11
 
 Add 39 dles. Remove 5 dles.
@@ -402,7 +406,7 @@ dles removed:
 
 ## 2024-05-28
 
-Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a class="changelog-link" href="https://dles.aukspot.com/report">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.
+Rework UI to be more compact.<br>Remove filtering, add categories.<br>Add a <a class="changelog-link" href="https://tally.so/r/wQpPpY">form to report a bug.</a><br>Add site information.<br>Add menu to play random dle.<br>Add 84 dles.<br>Remove 2 dles.
 
 dles added: 
 |    | name                                                                        | url                                                                                            |
@@ -590,7 +594,7 @@ dles removed:
 
 ## 2024-02-16
 
-Add a <a class="changelog-link" href="https://dles.aukspot.com/suggest">suggestion form</a>.<br>Add 4 dles.
+Add a <a class="changelog-link" href="https://tally.so/r/mOKOea">suggestion form</a>.<br>Add 4 dles.
 
 dles added: 
 |    | name                                                 | url                                                                              |

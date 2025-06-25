@@ -265,11 +265,11 @@ def changelog_json_to_md_str():
 
         if "suggestion form</a>" in day['description']:
             day['description'] = day['description'].replace(
-                "/suggest", "https://dles.aukspot.com/suggest")
+                "/suggest", "https://tally.so/r/mOKOea")
 
         if "form to report a bug.</a>" in day['description']:
             day['description'] = day['description'].replace(
-                "/report", "https://dles.aukspot.com/report")
+                "/report", "https://tally.so/r/wQpPpY")
 
         result += f"{day['description']}\n\n"
 

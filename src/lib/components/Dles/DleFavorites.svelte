@@ -28,7 +28,7 @@
   <h2 class="my-2 text-2xl text-center underline">Favorites</h2>
   <p class="pb-4 px-4 text-sm text-center mb-2">
     <strong>Note</strong>: favorites are a new feature, so please
-    <a href="{base}/report" class="underline">report a bug</a> if you run into a
+    <a href="https://tally.so/r/wQpPpY" target="_blank" class="underline">report a bug</a> if you run into a
     problem!
   </p>
   {#if $favorites.length === 0}

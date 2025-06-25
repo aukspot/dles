@@ -1,7 +1,7 @@
 [
   {
     "date": "2025-06-24",
-    "description": "Remove 1 dle.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices",
+    "description": "Remove 1 dle. Remove 1 dle.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices",
     "dles removed": [
       {
         "name": "Colordle",
