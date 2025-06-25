@@ -2,13 +2,14 @@
 
 ## 2025-06-24
 
-Remove 1 dle. Remove 1 dle.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices
+Remove 2 dles.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices
 
 
 dles removed: 
 |    | name                                       | url                                                              | reason                        |
 |---:|:-------------------------------------------|:-----------------------------------------------------------------|:------------------------------|
 |  1 | [Colordle](https://colordle.ryantanen.com) | [https://colordle.ryantanen.com](https://colordle.ryantanen.com) | Daily puzzle does not change. |
+|  2 | [Dicele](https://dicele.com)               | [https://dicele.com](https://dicele.com)                         | Site no longer loads.         |
 ## 2025-06-11
 
 Add 39 dles. Remove 5 dles.
