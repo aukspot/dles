@@ -754,17 +754,6 @@
     "category": "Words"
   },
   {
-    "name": "Dicele",
-    "url": "https://dicele.com",
-    "description": "Swap dice to make each row and column sum up to their target number.",
-    "tags": [
-      "archive",
-      "logic",
-      "math"
-    ],
-    "category": "Math/Logic"
-  },
-  {
     "name": "Disney Heardle",
     "url": "https://diz-nee-heardle.glitch.me",
     "description": "Guess the Disney song from listening to small parts of it.",
