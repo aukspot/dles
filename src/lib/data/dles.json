@@ -450,15 +450,6 @@
     "category": "Words"
   },
   {
-    "name": "Colordle",
-    "url": "https://colordle.ryantanen.com",
-    "description": "Guess today's color by using color names.",
-    "tags": [
-      "colors"
-    ],
-    "category": "Colors"
-  },
-  {
     "name": "Colorfle",
     "url": "https://colorfle.com",
     "description": "Figure out the color composition of the given color.",

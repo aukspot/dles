@@ -1,7 +1,14 @@
 [
   {
     "date": "2025-06-24",
-    "description": "Add 6 categories: Card/Board Games, Colors, Food, Science/Nature, Shapes/Patterns, Vehicles."
+    "description": "Remove 1 dle. Add 6 categories: Card/Board Games, Colors, Food, Science/Nature, Shapes/Patterns, Vehicles.",
+    "dles removed": [
+      {
+        "name": "Colordle",
+        "url": "https://colordle.ryantanen.com",
+        "reason": "Daily puzzle does not change."
+      }
+    ]
   },
   {
     "date": "2025-06-11",

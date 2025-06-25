@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+import re
 import datetime
 import json
 import pandas
@@ -142,14 +143,29 @@ def add_changes_to_changelog():
     
     for dle_list, key, dup_key in [(new_dles, "dles added", "added"), (removed_dles, "dles removed", "removed")]:
         for dle in dle_list:
-            (duplicates[dup_key] if dle in entry[key] else entry[key]).append(dle)
+            if any(entry[key][i]["url"] == dle["url"] for i in range(len(entry[key]))):
+                duplicates[dup_key].append(dle)
     
     if not entry["dles added"] and not entry["dles removed"]:
         print("No actual changes made - all items were duplicates")
         return
     
-    entry["description"] = get_changelog_description(entry["dles added"], entry["dles removed"])
+    # Check if there's an existing description and prepend to it
+    add_remove_description = create_add_remove_description(entry["dles added"], entry["dles removed"])
+    if "description" in entry and entry["description"]:
+        existing_description = entry["description"]
+        existing_description = re.sub(r'Add \d+ dles?\. ', '', existing_description)
+        existing_description = re.sub(r'Remove \d+ dles?\. ', '', existing_description)
+        entry["description"] = add_remove_description + existing_description
+    else:
+        entry["description"] = add_remove_description
     
+    if len(entry["dles added"]) == 0:
+        del entry["dles added"]
+    
+    if len(entry["dles removed"]) == 0:
+        del entry["dles removed"]
+
     backup_file(CHANGELOG_JSON)
     with open(CHANGELOG_JSON, "w+") as f:
         f.write(json.dumps(changelog_json, indent=2))
@@ -222,7 +238,7 @@ def last_update_date():
     return changelog_json[0]["date"]
 
 
-def get_changelog_description(dles_added, dles_removed):
+def create_add_remove_description(dles_added, dles_removed):
     if not dles_added:
         dles_added = []
     if not dles_removed:
