@@ -88,7 +88,7 @@
       "math",
       "visual"
     ],
-    "category": "Math/Logic"
+    "category": "Estimation"
   },
   {
     "name": "AniGuessr",
@@ -248,7 +248,7 @@
       "numbers",
       "unlimited"
     ],
-    "category": "Miscellaneous"
+    "category": "Estimation"
   },
   {
     "name": "Calcle",
@@ -533,7 +533,7 @@
       "pictures",
       "prices"
     ],
-    "category": "Prices"
+    "category": "Estimation"
   },
   {
     "name": "Countryle",
@@ -1241,7 +1241,7 @@
     "tags": [
       "math"
     ],
-    "category": "Math/Logic"
+    "category": "Estimation"
   },
   {
     "name": "Guess The Audio",
@@ -1280,7 +1280,7 @@
       "pictures",
       "prices"
     ],
-    "category": "Prices"
+    "category": "Estimation"
   },
   {
     "name": "Guess The Logo",
@@ -1451,7 +1451,7 @@
       "pictures",
       "prices"
     ],
-    "category": "Prices"
+    "category": "Estimation"
   },
   {
     "name": "HowLongToBeat Daily Challenge",
@@ -2018,7 +2018,7 @@
     "tags": [
       "trivia"
     ],
-    "category": "Trivia"
+    "category": "Estimation"
   },
   {
     "name": "morsle",
@@ -3284,7 +3284,7 @@
     "url": "https://tck.mn/temple",
     "description": "Guess a duration or tempo by looking at a flashing light, or give a duration or tempo by clicking one.",
     "tags": [],
-    "category": "Miscellaneous"
+    "category": "Estimation"
   },
   {
     "name": "Terradle",
