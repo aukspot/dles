@@ -1,5 +1,4 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
   export let i
   export let dle
