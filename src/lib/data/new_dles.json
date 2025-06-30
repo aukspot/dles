@@ -4,20 +4,8 @@
     "url": "https://alphalockgame.net"
   },
   {
-    "name": "Alphalock",
-    "url": "https://alphalockgame.net"
-  },
-  {
     "name": "Bazaar Doku",
     "url": "https://bazaardb.gg/doku"
-  },
-  {
-    "name": "Bazaar Doku",
-    "url": "https://bazaardb.gg/doku"
-  },
-  {
-    "name": "Birdie Game",
-    "url": "https://birdiegame.net"
   },
   {
     "name": "Birdie Game",
@@ -28,20 +16,8 @@
     "url": "https://cancelwise.com"
   },
   {
-    "name": "Cancelwise",
-    "url": "https://cancelwise.com"
-  },
-  {
     "name": "CarGuesser",
     "url": "https://carguesser.com"
-  },
-  {
-    "name": "CarGuesser",
-    "url": "https://carguesser.com"
-  },
-  {
-    "name": "Chronle",
-    "url": "https://chronle.com"
   },
   {
     "name": "Chronle",
@@ -52,20 +28,8 @@
     "url": "https://playdecodex.com"
   },
   {
-    "name": "Decodex",
-    "url": "https://playdecodex.com"
-  },
-  {
     "name": "Duolock Game",
     "url": "https://www.duolockgame.net"
-  },
-  {
-    "name": "Duolock Game",
-    "url": "https://www.duolockgame.net"
-  },
-  {
-    "name": "Emoji Test",
-    "url": "https://emojitest.com/en"
   },
   {
     "name": "Emoji Test",
@@ -76,20 +40,8 @@
     "url": "https://estimadle.com"
   },
   {
-    "name": "Estimadle",
-    "url": "https://estimadle.com"
-  },
-  {
     "name": "Estimate Me",
     "url": "https://estimate-me.aukspot.com"
-  },
-  {
-    "name": "Estimate Me",
-    "url": "https://estimate-me.aukspot.com"
-  },
-  {
-    "name": "Fluxis",
-    "url": "https://www.theatlantic.com/games/fluxis/"
   },
   {
     "name": "Fluxis",
@@ -100,20 +52,8 @@
     "url": "https://www.heardle.info/daily/"
   },
   {
-    "name": "Heardle Daily",
-    "url": "https://www.heardle.info/daily/"
-  },
-  {
     "name": "Monster Hunter-dle",
     "url": "https://monster-hunter-dle.akato.fr/classic"
-  },
-  {
-    "name": "Monster Hunter-dle",
-    "url": "https://monster-hunter-dle.akato.fr/classic"
-  },
-  {
-    "name": "Morsle (decipher.wiki)",
-    "url": "https://decipher.wiki/morsle"
   },
   {
     "name": "Morsle (decipher.wiki)",
@@ -124,20 +64,8 @@
     "url": "https://nookle.net"
   },
   {
-    "name": "Nookle",
-    "url": "https://nookle.net"
-  },
-  {
     "name": "Padlock",
     "url": "https://www.padlockgame.net"
-  },
-  {
-    "name": "Padlock",
-    "url": "https://www.padlockgame.net"
-  },
-  {
-    "name": "Palwordle",
-    "url": "https://palwordle.net"
   },
   {
     "name": "Palwordle",
@@ -148,28 +76,8 @@
     "url": "https://pokedle.com"
   },
   {
-    "name": "Pokedle.com",
-    "url": "https://pokedle.com"
-  },
-  {
-    "name": "Pokedle.net",
-    "url": "https://pokedle.net"
-  },
-  {
-    "name": "Pokedle.net",
-    "url": "https://pokedle.net"
-  },
-  {
     "name": "Quintalist",
     "url": "https://www.quintalist.com"
-  },
-  {
-    "name": "Quintalist",
-    "url": "https://www.quintalist.com"
-  },
-  {
-    "name": "Redividers",
-    "url": "https://redividers.netlify.app"
   },
   {
     "name": "Redividers",
@@ -180,20 +88,8 @@
     "url": "https://playsillylittlegames.com/codes"
   },
   {
-    "name": "Silly Little Codes",
-    "url": "https://playsillylittlegames.com/codes"
-  },
-  {
     "name": "Stacks",
     "url": "https://www.theatlantic.com/games/stacks/"
-  },
-  {
-    "name": "Stacks",
-    "url": "https://www.theatlantic.com/games/stacks/"
-  },
-  {
-    "name": "Swapple",
-    "url": "https://nibble.games/swapple/swapple-easy.html"
   },
   {
     "name": "Swapple",
@@ -204,20 +100,8 @@
     "url": "https://tarkovdle.com"
   },
   {
-    "name": "Tarkovdle",
-    "url": "https://tarkovdle.com"
-  },
-  {
     "name": "TF2dle",
     "url": "https://www.tf2dle.com"
-  },
-  {
-    "name": "TF2dle",
-    "url": "https://www.tf2dle.com"
-  },
-  {
-    "name": "The Atlantic Crossword",
-    "url": "https://www.theatlantic.com/games/daily-crossword/"
   },
   {
     "name": "The Atlantic Crossword",
@@ -228,20 +112,8 @@
     "url": "https://www.timdle.com"
   },
   {
-    "name": "Timdle",
-    "url": "https://www.timdle.com"
-  },
-  {
     "name": "TimeLine Game",
     "url": "https://www.playtimelines.com"
-  },
-  {
-    "name": "TimeLine Game",
-    "url": "https://www.playtimelines.com"
-  },
-  {
-    "name": "Unshuffle",
-    "url": "https://www.unshuffle.me"
   },
   {
     "name": "Unshuffle",
@@ -252,14 +124,6 @@
     "url": "https://wordladder.com"
   },
   {
-    "name": "Word Ladder",
-    "url": "https://wordladder.com"
-  },
-  {
-    "name": "WordLink",
-    "url": "https://playwordlink.com"
-  },
-  {
     "name": "WordLink",
     "url": "https://playwordlink.com"
   },
@@ -268,20 +132,8 @@
     "url": "https://word-loop.com"
   },
   {
-    "name": "Wordloop",
-    "url": "https://word-loop.com"
-  },
-  {
     "name": "Worpel",
     "url": "https://playworpel.com"
-  },
-  {
-    "name": "Worpel",
-    "url": "https://playworpel.com"
-  },
-  {
-    "name": "Wrodeo",
-    "url": "https://wrodeo.com"
   },
   {
     "name": "Wrodeo",
