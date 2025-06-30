@@ -11,10 +11,6 @@
       localStorage.infoHidden = $infoHidden
     }
   }
-
-  if (includeSearch) {
-    console.log("including search bar")
-  }
 </script>
 
 <div class="flex justify-between items-start md:items-start w-full gap-2">
