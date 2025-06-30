@@ -1,5 +1,18 @@
-<svg fill="currentColor" width="28" version="1.0" viewBox="0 0 64 64"
-  ><path
-    d="M32 0C15.776 0 2.381 12.077.292 27.729l-.006.047c-.056.421-.106.843-.146 1.269-.019.197-.029.396-.045.594-.021.28-.044.56-.058.842A33.192 33.192 0 0 0 0 32c0 17.673 14.327 32 32 32s32-14.327 32-32S49.673 0 32 0zm-4 50c-8.837 0-16-7.163-16-16s7.163-16 16-16 16 7.163 16 16-7.163 16-16 16zm0-28c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 4c.552 0 1 .448 1 1v6h5c.552 0 1 .448 1 1s-.448 1-1 1h-6c-.552 0-1-.448-1-1v-7c0-.552.448-1 1-1z"
-  />
-</svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  width="28"
+  viewBox="0 0 24 24"
+  ><g
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2.5"
+    clip-path="url(#a)"
+    ><path d="M5.636 18.364A9 9 0 1 0 3 12.004V14" /><path
+      d="m1 12 2 2 2-2M11 8v5h5"
+    /></g
+  ><defs
+    ><clipPath id="a"><path fill="#fff" d="M0 0h24v24H0z" /></clipPath></defs
+  ></svg
+>
