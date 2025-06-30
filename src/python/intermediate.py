@@ -5,27 +5,14 @@ import datetime
 import json
 import pandas
 import shutil
-import string
-
-from colour import Color
 
 
 DLES_FILE = "../lib/data/dles.json"
 DLES_FILE_OLD = "../lib/data/dles.json.old"
 NEW_DLES_FILE = "../lib/data/new_dles.json"
-TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
 README_MD = "../../README.md"
-
-
-def sort_tags():
-    backup_file(DLES_FILE)
-
-    dles = read_dles()
-    for dle in dles:
-        dle["tags"].sort()
-    write_dles(dles)
 
 
 def sort_dles():
@@ -179,42 +166,6 @@ def add_changes_to_changelog():
         write_new_dles(added_dles)
 
 
-def extract_tags(dles):
-    return list(set([
-        tag for dle in dles
-        for tag in dle["tags"]
-    ]))
-
-
-def word_to_color(word):
-    color = ""
-    letters = [c.lower() for c in word if c.lower() in string.ascii_lowercase]
-    hue = sum(
-        string.ascii_lowercase.index(letter) * 26 ** (len(letters) - i - 1)
-        for i, letter in enumerate(letters)
-    ) / 26 ** len(letters)
-
-    color = Color(hue=hue)
-    color.set_saturation(0.5)
-    color.set_luminance(0.75)
-    return color.hex
-
-
-def create_tag_colors():
-    backup_file(TAG_COLORS_FILE)
-
-    dles = read_dles()
-    tags = extract_tags(dles)
-    tags.sort()
-    tag_colors = {
-        tag: word_to_color(tag)
-        for tag in tags
-    }
-
-    with open(TAG_COLORS_FILE, "w+") as f:
-        f.write(json.dumps(tag_colors, indent=2))
-
-
 def read_changelog():
     with open(CHANGELOG_JSON, 'r') as f:
         return json.loads(f.read())
@@ -304,7 +255,6 @@ def dles_to_markdown_table():
 
     df = pandas.DataFrame.from_dict(dles)
     df.drop(['url'], axis=1, inplace=True)
-    df.drop(['tags'], axis=1, inplace=True)
     df.index = df.index + 1
 
     return df.to_markdown(index=True)

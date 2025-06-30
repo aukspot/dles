@@ -14,8 +14,6 @@
     filteredDles,
     infoHidden,
     randomCategories,
-    tagNames,
-    tags,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
@@ -47,48 +45,17 @@
     $newDles = new_dles_json
   }
 
-  function initializeTags() {
-    $tagNames = $dles
-      .map((dle) => dle.tags)
-      .flat()
-      .filter((x, i, a) => a.indexOf(x) == i)
-      .sort()
-
-    $tags = {}
-    for (let tag_name of $tagNames) {
-      $tags[tag_name] = {
-        included: false,
-        excluded: false,
-      }
-    }
-  }
-
   function initializeChangelog() {
     $changelog = changelog_json
   }
 
   initializeDles()
   initializeNewDles()
-  initializeTags()
   initializeChangelog()
 
   for (let category of $categories) {
     $categorizedDles[category] = $dles.filter((dle) => dle.category == category)
   }
-
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
-
-  $: $filteredDles = $dles.filter((dle) => {
-    let result = false
-    if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true
-    }
-    if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false
-    }
-    return result
-  })
 
   $: {
     for (let category of $categories) {

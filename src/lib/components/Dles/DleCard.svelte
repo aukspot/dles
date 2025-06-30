@@ -16,9 +16,6 @@
     <div class="cardDescription">
       {dle.description}
     </div>
-    <div class="mt-2">
-      <DleTagGroup tags={dle.tags}></DleTagGroup>
-    </div>
   </div>
 
   <div class="playButton">

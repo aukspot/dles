@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Quintalist",
+    "url": "https://www.quintalist.com",
+    "description": "Correctly choose the top 5 entries in 5 tries or fewer.",
+    "category": "Trivia"
+  },
+  {
+    "name": "Monster Hunter-dle",
+    "url": "https://monster-hunter-dle.akato.fr/classic",
+    "description": "Guess the monster in the Monster Hunter series.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Unshuffle",
+    "url": "https://www.unshuffle.me",
+    "description": "Unshuffle the grid using the numbers along each row and column as a guide.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Cancelwise",
+    "url": "https://cancelwise.com",
+    "description": "Cancel numbers in a way that the remaining tiles add up to the target numbers.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Worpel",
+    "url": "https://playworpel.com",
+    "description": "Guess the player in the Australian Football League (AFL).",
+    "category": "Sports"
+  },
+  {
+    "name": "Estimadle",
+    "url": "https://estimadle.com",
+    "description": "Estimate the number of circles within 10 seconds.",
+    "category": "Estimation"
+  },
+  {
+    "name": "Tarkovdle",
+    "url": "https://tarkovdle.com",
+    "description": "Guess the weapon from Escape from Tarkov by its properties or sound.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Wrodeo",
+    "url": "https://wrodeo.com",
+    "description": "Reveal the quote or book passage by guessing one word at a time, starting with some letters already shown.",
+    "category": "Words"
+  },
+  {
+    "name": "Swapple",
+    "url": "https://nibble.games/swapple/swapple-easy.html",
+    "description": "Swap letters such that every row and column is a word.",
+    "category": "Words"
+  },
+  {
+    "name": "Heardle Daily",
+    "url": "https://www.heardle.info/daily/",
+    "description": "Guess the song by listening to small parts of it.",
+    "category": "Music"
+  },
+  {
+    "name": "TF2dle",
+    "url": "https://www.tf2dle.com",
+    "description": "Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Morsle (decipher.wiki)",
+    "url": "https://decipher.wiki/morsle",
+    "description": "Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Decodex",
+    "url": "https://playdecodex.com",
+    "description": "A daily cryptography game. Decode a nice quote every day!",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Silly Little Codes",
+    "url": "https://playsillylittlegames.com/codes",
+    "description": "Guess the word or phrase represented by today's code.",
+    "category": "Words"
+  },
+  {
+    "name": "Nookle",
+    "url": "https://nookle.net",
+    "description": "Guess the villager from Animal Crossing.",
+    "category": "Video Games"
+  },
+  {
+    "name": "TimeLine Game",
+    "url": "https://www.playtimelines.com",
+    "description": "Arrange the historical events in the order they happened.",
+    "category": "Geography/History"
+  },
+  {
+    "name": "Estimate Me",
+    "url": "https://estimate-me.aukspot.com",
+    "description": "Each day features something new to estimate, such as 'How many jelly beans are in this jar?'",
+    "category": "Estimation"
+  },
+  {
+    "name": "Palwordle",
+    "url": "https://palwordle.net",
+    "description": "Daily games related to the video game Palworld.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Pokedle.com",
+    "url": "https://pokedle.com",
+    "description": "Guess the daily Pokemon from all generations.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Bazaar Doku",
+    "url": "https://bazaardb.gg/doku",
+    "description": "Doku-style trivia game for The Bazaar.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Word Ladder",
+    "url": "https://wordladder.com",
+    "description": "Change one word into another by switching one letter at a time, keeping a valid word at each step.",
+    "category": "Words"
+  },
+  {
+    "name": "Emoji Test",
+    "url": "https://emojitest.com/en",
+    "description": "Guess the hidden word represented by emojis.",
+    "category": "Words"
+  },
+  {
+    "name": "Padlock",
+    "url": "https://www.padlockgame.net",
+    "description": "Number puzzle game inspired by Wordle and Mastermind.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Alphalock",
+    "url": "https://alphalockgame.net",
+    "description": "Word puzzle game inspired by Wordle and Mastermind.",
+    "category": "Words"
+  },
+  {
+    "name": "Duolock Game",
+    "url": "https://www.duolockgame.net",
+    "description": "Solve two Alphalock puzzles at the same time. Includes a Padlock (number) mode.",
+    "category": "Words"
+  },
+  {
+    "name": "Birdie Game",
+    "url": "https://birdiegame.net",
+    "description": "Guess the bird from cropped images and audio.",
+    "category": "Science/Nature"
+  },
+  {
+    "name": "CarGuesser",
+    "url": "https://carguesser.com",
+    "description": "Guess the brand, model, and year of a car given pictures of parts of it.",
+    "category": "Vehicles"
+  },
+  {
+    "name": "Timdle",
+    "url": "https://www.timdle.com",
+    "description": "Place 8 historical events in chronological order.",
+    "category": "Geography/History"
+  },
+  {
+    "name": "Redividers",
+    "url": "https://redividers.netlify.app",
+    "description": "Find the word that fits the first blank, then split it to fill in the remaining blank(s).",
+    "category": "Words"
+  },
+  {
+    "name": "WordLink",
+    "url": "https://playwordlink.com",
+    "description": "Rearrange the words to form a chain of two-word phrases.",
+    "category": "Words"
+  },
+  {
+    "name": "Wordloop",
+    "url": "https://word-loop.com",
+    "description": "Place segments on the circle such that each pair of segments forms a valid word.",
+    "category": "Words"
+  },
+  {
+    "name": "Stacks",
+    "url": "https://www.theatlantic.com/games/stacks/",
+    "description": "Stack words from the word bank to create new words going horizontally. (From The Atlantic)",
+    "category": "Words"
+  },
+  {
+    "name": "Fluxis",
+    "url": "https://www.theatlantic.com/games/fluxis/",
+    "description": "Complete the chain by entering words that satisfy their category and build off the previous word. (From The Atlantic)",
+    "category": "Words"
+  },
+  {
+    "name": "The Atlantic Crossword",
+    "url": "https://www.theatlantic.com/games/daily-crossword/",
+    "description": "A daily crossword from The Atlantic.",
+    "category": "Words"
+  },
+  {
+    "name": "Chronle",
+    "url": "https://chronle.com",
+    "description": "Put the events in the order of when they happened.",
+    "category": "Geography/History"
+  }
+]
