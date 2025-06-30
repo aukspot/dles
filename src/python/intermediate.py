@@ -112,10 +112,14 @@ def add_changes_to_changelog():
     if not entry:
         entry = {"date": date, "dles added": [], "dles removed": []}
         changelog_json.insert(0, entry)
+    print(entry)
     
     entry.setdefault("dles added", [])
     entry.setdefault("dles removed", [])
     
+    entry["dles added"].extend(new_dles)
+    entry["dles removed"].extend(removed_dles)
+
     # Clean up non-existent dles from current entry
     cleaned_added = [dle for dle in entry["dles added"] if dle["name"] in current_dle_names]
     cleaned_removed = entry["dles removed"]  # Keep removed dles as historical record
@@ -132,6 +136,7 @@ def add_changes_to_changelog():
         for dle in dle_list:
             if any(entry[key][i]["url"] == dle["url"] for i in range(len(entry[key]))):
                 duplicates[dup_key].append(dle)
+
     
     if not entry["dles added"] and not entry["dles removed"]:
         print("No actual changes made - all items were duplicates")
@@ -164,6 +169,8 @@ def add_changes_to_changelog():
     added_dles = entry.get("dles added")
     if added_dles:
         write_new_dles(added_dles)
+    
+    backup_file(DLES_FILE, ".old")
 
 
 def read_changelog():

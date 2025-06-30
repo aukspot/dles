@@ -1,158 +1,290 @@
 [
   {
-    "name": "AniGuessr",
-    "url": "https://aniguessr.com"
+    "name": "Alphalock",
+    "url": "https://alphalockgame.net"
   },
   {
-    "name": "Birdle",
-    "url": "https://www.play-birdle.com"
+    "name": "Alphalock",
+    "url": "https://alphalockgame.net"
   },
   {
-    "name": "Birdle (like Wordle)",
-    "url": "https://birdle.escism.net"
+    "name": "Bazaar Doku",
+    "url": "https://bazaardb.gg/doku"
   },
   {
-    "name": "Couplit",
-    "url": "https://couplit.io"
+    "name": "Bazaar Doku",
+    "url": "https://bazaardb.gg/doku"
   },
   {
-    "name": "Crosstune",
-    "url": "https://crosstune.io"
+    "name": "Birdie Game",
+    "url": "https://birdiegame.net"
   },
   {
-    "name": "Disordle",
-    "url": "https://disordle.com"
+    "name": "Birdie Game",
+    "url": "https://birdiegame.net"
   },
   {
-    "name": "Dodeku",
-    "url": "https://dodeku.com"
+    "name": "Cancelwise",
+    "url": "https://cancelwise.com"
   },
   {
-    "name": "Emoji Quiz - Movies",
-    "url": "https://www.emojiquiz.net/movies"
+    "name": "Cancelwise",
+    "url": "https://cancelwise.com"
   },
   {
-    "name": "Emoji Quiz - TV",
-    "url": "https://www.emojiquiz.net/tv"
+    "name": "CarGuesser",
+    "url": "https://carguesser.com"
   },
   {
-    "name": "Emoji Quiz - Video Games",
-    "url": "https://www.emojiquiz.net/games"
+    "name": "CarGuesser",
+    "url": "https://carguesser.com"
   },
   {
-    "name": "Enchant Wordle",
-    "url": "https://enchantworldle.com"
+    "name": "Chronle",
+    "url": "https://chronle.com"
   },
   {
-    "name": "Futdoku",
-    "url": "https://futdoku.com"
+    "name": "Chronle",
+    "url": "https://chronle.com"
   },
   {
-    "name": "GuessTen",
-    "url": "https://guessten.com"
+    "name": "Decodex",
+    "url": "https://playdecodex.com"
   },
   {
-    "name": "Langle",
-    "url": "https://langle.uk"
+    "name": "Decodex",
+    "url": "https://playdecodex.com"
   },
   {
-    "name": "LinkedIn - Crossclimb",
-    "url": "https://www.linkedin.com/games/crossclimb"
+    "name": "Duolock Game",
+    "url": "https://www.duolockgame.net"
   },
   {
-    "name": "LinkedIn - Pinpoint",
-    "url": "https://www.linkedin.com/games/pinpoint"
+    "name": "Duolock Game",
+    "url": "https://www.duolockgame.net"
   },
   {
-    "name": "LinkedIn - Queens",
-    "url": "https://www.linkedin.com/games/queens"
+    "name": "Emoji Test",
+    "url": "https://emojitest.com/en"
   },
   {
-    "name": "LinkedIn - Tango",
-    "url": "https://www.linkedin.com/games/tango"
+    "name": "Emoji Test",
+    "url": "https://emojitest.com/en"
   },
   {
-    "name": "LinkedIn - Zip",
-    "url": "https://www.linkedin.com/games/zip"
+    "name": "Estimadle",
+    "url": "https://estimadle.com"
   },
   {
-    "name": "MapTap",
-    "url": "https://maptap.gg"
+    "name": "Estimadle",
+    "url": "https://estimadle.com"
   },
   {
-    "name": "Mathdle",
-    "url": "https://mathdle.app"
+    "name": "Estimate Me",
+    "url": "https://estimate-me.aukspot.com"
   },
   {
-    "name": "Musicle",
-    "url": "https://musicle.app"
+    "name": "Estimate Me",
+    "url": "https://estimate-me.aukspot.com"
   },
   {
-    "name": "Puzzmo - Bongo",
-    "url": "https://www.puzzmo.com/game/bongo"
+    "name": "Fluxis",
+    "url": "https://www.theatlantic.com/games/fluxis/"
   },
   {
-    "name": "Puzzmo - Memoku",
-    "url": "https://www.puzzmo.com/play/memoku"
+    "name": "Fluxis",
+    "url": "https://www.theatlantic.com/games/fluxis/"
   },
   {
-    "name": "Puzzmo - Pile-Up Poker",
-    "url": "https://www.puzzmo.com/play/pile-up-poker"
+    "name": "Heardle Daily",
+    "url": "https://www.heardle.info/daily/"
   },
   {
-    "name": "Puzzmo - Weather Memoku",
-    "url": "https://www.puzzmo.com/play/weather-memoku"
+    "name": "Heardle Daily",
+    "url": "https://www.heardle.info/daily/"
   },
   {
-    "name": "Quizmoji",
-    "url": "https://quizmoji.com"
+    "name": "Monster Hunter-dle",
+    "url": "https://monster-hunter-dle.akato.fr/classic"
   },
   {
-    "name": "Quotesed",
-    "url": "https://www.quotesed.com"
+    "name": "Monster Hunter-dle",
+    "url": "https://monster-hunter-dle.akato.fr/classic"
   },
   {
-    "name": "Retro Game Trivia",
-    "url": "https://retrotrivia.games"
+    "name": "Morsle (decipher.wiki)",
+    "url": "https://decipher.wiki/morsle"
   },
   {
-    "name": "Stardewdle",
-    "url": "https://stardewdle.com/game"
+    "name": "Morsle (decipher.wiki)",
+    "url": "https://decipher.wiki/morsle"
   },
   {
-    "name": "Steamdle",
-    "url": "https://steamdle.com"
+    "name": "Nookle",
+    "url": "https://nookle.net"
   },
   {
-    "name": "Streetfighterdle",
-    "url": "https://streetfighterdle.net"
+    "name": "Nookle",
+    "url": "https://nookle.net"
   },
   {
-    "name": "Temple",
-    "url": "https://tck.mn/temple"
+    "name": "Padlock",
+    "url": "https://www.padlockgame.net"
   },
   {
-    "name": "TFTdle",
-    "url": "https://tftdle.gg/classic"
+    "name": "Padlock",
+    "url": "https://www.padlockgame.net"
   },
   {
-    "name": "Three Magic Words",
-    "url": "https://www.threemagicwords.app/play"
+    "name": "Palwordle",
+    "url": "https://palwordle.net"
   },
   {
-    "name": "Tracell",
-    "url": "https://tracellgame.com"
+    "name": "Palwordle",
+    "url": "https://palwordle.net"
   },
   {
-    "name": "Truncate",
-    "url": "https://truncate.town"
+    "name": "Pokedle.com",
+    "url": "https://pokedle.com"
   },
   {
-    "name": "Wildlife Sudoku",
-    "url": "https://flagdoku.com/wildlife.html"
+    "name": "Pokedle.com",
+    "url": "https://pokedle.com"
   },
   {
-    "name": "Wordcrux",
-    "url": "https://wordcrux.com"
+    "name": "Pokedle.net",
+    "url": "https://pokedle.net"
+  },
+  {
+    "name": "Pokedle.net",
+    "url": "https://pokedle.net"
+  },
+  {
+    "name": "Quintalist",
+    "url": "https://www.quintalist.com"
+  },
+  {
+    "name": "Quintalist",
+    "url": "https://www.quintalist.com"
+  },
+  {
+    "name": "Redividers",
+    "url": "https://redividers.netlify.app"
+  },
+  {
+    "name": "Redividers",
+    "url": "https://redividers.netlify.app"
+  },
+  {
+    "name": "Silly Little Codes",
+    "url": "https://playsillylittlegames.com/codes"
+  },
+  {
+    "name": "Silly Little Codes",
+    "url": "https://playsillylittlegames.com/codes"
+  },
+  {
+    "name": "Stacks",
+    "url": "https://www.theatlantic.com/games/stacks/"
+  },
+  {
+    "name": "Stacks",
+    "url": "https://www.theatlantic.com/games/stacks/"
+  },
+  {
+    "name": "Swapple",
+    "url": "https://nibble.games/swapple/swapple-easy.html"
+  },
+  {
+    "name": "Swapple",
+    "url": "https://nibble.games/swapple/swapple-easy.html"
+  },
+  {
+    "name": "Tarkovdle",
+    "url": "https://tarkovdle.com"
+  },
+  {
+    "name": "Tarkovdle",
+    "url": "https://tarkovdle.com"
+  },
+  {
+    "name": "TF2dle",
+    "url": "https://www.tf2dle.com"
+  },
+  {
+    "name": "TF2dle",
+    "url": "https://www.tf2dle.com"
+  },
+  {
+    "name": "The Atlantic Crossword",
+    "url": "https://www.theatlantic.com/games/daily-crossword/"
+  },
+  {
+    "name": "The Atlantic Crossword",
+    "url": "https://www.theatlantic.com/games/daily-crossword/"
+  },
+  {
+    "name": "Timdle",
+    "url": "https://www.timdle.com"
+  },
+  {
+    "name": "Timdle",
+    "url": "https://www.timdle.com"
+  },
+  {
+    "name": "TimeLine Game",
+    "url": "https://www.playtimelines.com"
+  },
+  {
+    "name": "TimeLine Game",
+    "url": "https://www.playtimelines.com"
+  },
+  {
+    "name": "Unshuffle",
+    "url": "https://www.unshuffle.me"
+  },
+  {
+    "name": "Unshuffle",
+    "url": "https://www.unshuffle.me"
+  },
+  {
+    "name": "Word Ladder",
+    "url": "https://wordladder.com"
+  },
+  {
+    "name": "Word Ladder",
+    "url": "https://wordladder.com"
+  },
+  {
+    "name": "WordLink",
+    "url": "https://playwordlink.com"
+  },
+  {
+    "name": "WordLink",
+    "url": "https://playwordlink.com"
+  },
+  {
+    "name": "Wordloop",
+    "url": "https://word-loop.com"
+  },
+  {
+    "name": "Wordloop",
+    "url": "https://word-loop.com"
+  },
+  {
+    "name": "Worpel",
+    "url": "https://playworpel.com"
+  },
+  {
+    "name": "Worpel",
+    "url": "https://playworpel.com"
+  },
+  {
+    "name": "Wrodeo",
+    "url": "https://wrodeo.com"
+  },
+  {
+    "name": "Wrodeo",
+    "url": "https://wrodeo.com"
   }
 ]

@@ -1,5 +1,54 @@
 # Changelog - The Dles
 
+## 2025-06-29
+
+Add 36 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History.
+
+dles added: 
+|    | name                                                                         | url                                                                                                      |
+|---:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|
+|  1 | [Alphalock](https://alphalockgame.net)                                       | [https://alphalockgame.net](https://alphalockgame.net)                                                   |
+|  2 | [Bazaar Doku](https://bazaardb.gg/doku)                                      | [https://bazaardb.gg/doku](https://bazaardb.gg/doku)                                                     |
+|  3 | [Birdie Game](https://birdiegame.net)                                        | [https://birdiegame.net](https://birdiegame.net)                                                         |
+|  4 | [Cancelwise](https://cancelwise.com)                                         | [https://cancelwise.com](https://cancelwise.com)                                                         |
+|  5 | [CarGuesser](https://carguesser.com)                                         | [https://carguesser.com](https://carguesser.com)                                                         |
+|  6 | [Chronle](https://chronle.com)                                               | [https://chronle.com](https://chronle.com)                                                               |
+|  7 | [Decodex](https://playdecodex.com)                                           | [https://playdecodex.com](https://playdecodex.com)                                                       |
+|  8 | [Duolock Game](https://www.duolockgame.net)                                  | [https://www.duolockgame.net](https://www.duolockgame.net)                                               |
+|  9 | [Emoji Test](https://emojitest.com/en)                                       | [https://emojitest.com/en](https://emojitest.com/en)                                                     |
+| 10 | [Estimadle](https://estimadle.com)                                           | [https://estimadle.com](https://estimadle.com)                                                           |
+| 11 | [Estimate Me](https://estimate-me.aukspot.com)                               | [https://estimate-me.aukspot.com](https://estimate-me.aukspot.com)                                       |
+| 12 | [Fluxis](https://www.theatlantic.com/games/fluxis/)                          | [https://www.theatlantic.com/games/fluxis/](https://www.theatlantic.com/games/fluxis/)                   |
+| 13 | [Heardle Daily](https://www.heardle.info/daily/)                             | [https://www.heardle.info/daily/](https://www.heardle.info/daily/)                                       |
+| 14 | [Monster Hunter-dle](https://monster-hunter-dle.akato.fr/classic)            | [https://monster-hunter-dle.akato.fr/classic](https://monster-hunter-dle.akato.fr/classic)               |
+| 15 | [Morsle (decipher.wiki)](https://decipher.wiki/morsle)                       | [https://decipher.wiki/morsle](https://decipher.wiki/morsle)                                             |
+| 16 | [Nookle](https://nookle.net)                                                 | [https://nookle.net](https://nookle.net)                                                                 |
+| 17 | [Padlock](https://www.padlockgame.net)                                       | [https://www.padlockgame.net](https://www.padlockgame.net)                                               |
+| 18 | [Palwordle](https://palwordle.net)                                           | [https://palwordle.net](https://palwordle.net)                                                           |
+| 19 | [Pokedle.com](https://pokedle.com)                                           | [https://pokedle.com](https://pokedle.com)                                                               |
+| 20 | [Pokedle.net](https://pokedle.net)                                           | [https://pokedle.net](https://pokedle.net)                                                               |
+| 21 | [Quintalist](https://www.quintalist.com)                                     | [https://www.quintalist.com](https://www.quintalist.com)                                                 |
+| 22 | [Redividers](https://redividers.netlify.app)                                 | [https://redividers.netlify.app](https://redividers.netlify.app)                                         |
+| 23 | [Silly Little Codes](https://playsillylittlegames.com/codes)                 | [https://playsillylittlegames.com/codes](https://playsillylittlegames.com/codes)                         |
+| 24 | [Stacks](https://www.theatlantic.com/games/stacks/)                          | [https://www.theatlantic.com/games/stacks/](https://www.theatlantic.com/games/stacks/)                   |
+| 25 | [Swapple](https://nibble.games/swapple/swapple-easy.html)                    | [https://nibble.games/swapple/swapple-easy.html](https://nibble.games/swapple/swapple-easy.html)         |
+| 26 | [Tarkovdle](https://tarkovdle.com)                                           | [https://tarkovdle.com](https://tarkovdle.com)                                                           |
+| 27 | [TF2dle](https://www.tf2dle.com)                                             | [https://www.tf2dle.com](https://www.tf2dle.com)                                                         |
+| 28 | [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) | [https://www.theatlantic.com/games/daily-crossword/](https://www.theatlantic.com/games/daily-crossword/) |
+| 29 | [Timdle](https://www.timdle.com)                                             | [https://www.timdle.com](https://www.timdle.com)                                                         |
+| 30 | [TimeLine Game](https://www.playtimelines.com)                               | [https://www.playtimelines.com](https://www.playtimelines.com)                                           |
+| 31 | [Unshuffle](https://www.unshuffle.me)                                        | [https://www.unshuffle.me](https://www.unshuffle.me)                                                     |
+| 32 | [Word Ladder](https://wordladder.com)                                        | [https://wordladder.com](https://wordladder.com)                                                         |
+| 33 | [WordLink](https://playwordlink.com)                                         | [https://playwordlink.com](https://playwordlink.com)                                                     |
+| 34 | [Wordloop](https://word-loop.com)                                            | [https://word-loop.com](https://word-loop.com)                                                           |
+| 35 | [Worpel](https://playworpel.com)                                             | [https://playworpel.com](https://playworpel.com)                                                         |
+| 36 | [Wrodeo](https://wrodeo.com)                                                 | [https://wrodeo.com](https://wrodeo.com)                                                                 |
+
+dles removed: 
+|    | name                             | url                                            | reason             |
+|---:|:---------------------------------|:-----------------------------------------------|:-------------------|
+|  1 | [Reciple](No new daily recipes.) | [No new daily recipes.](No new daily recipes.) | nan                |
+|  2 | [Warbl](https://www.warbl.org)   | [https://www.warbl.org](https://www.warbl.org) | Songs do not play. |
 ## 2025-06-24
 
 Remove 2 dles.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices

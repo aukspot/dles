@@ -1,5 +1,166 @@
 [
   {
+    "date": "2025-06-29",
+    "dles added": [
+      {
+        "name": "Alphalock",
+        "url": "https://alphalockgame.net"
+      },
+      {
+        "name": "Bazaar Doku",
+        "url": "https://bazaardb.gg/doku"
+      },
+      {
+        "name": "Birdie Game",
+        "url": "https://birdiegame.net"
+      },
+      {
+        "name": "Cancelwise",
+        "url": "https://cancelwise.com"
+      },
+      {
+        "name": "CarGuesser",
+        "url": "https://carguesser.com"
+      },
+      {
+        "name": "Chronle",
+        "url": "https://chronle.com"
+      },
+      {
+        "name": "Decodex",
+        "url": "https://playdecodex.com"
+      },
+      {
+        "name": "Duolock Game",
+        "url": "https://www.duolockgame.net"
+      },
+      {
+        "name": "Emoji Test",
+        "url": "https://emojitest.com/en"
+      },
+      {
+        "name": "Estimadle",
+        "url": "https://estimadle.com"
+      },
+      {
+        "name": "Estimate Me",
+        "url": "https://estimate-me.aukspot.com"
+      },
+      {
+        "name": "Fluxis",
+        "url": "https://www.theatlantic.com/games/fluxis/"
+      },
+      {
+        "name": "Heardle Daily",
+        "url": "https://www.heardle.info/daily/"
+      },
+      {
+        "name": "Monster Hunter-dle",
+        "url": "https://monster-hunter-dle.akato.fr/classic"
+      },
+      {
+        "name": "Morsle (decipher.wiki)",
+        "url": "https://decipher.wiki/morsle"
+      },
+      {
+        "name": "Nookle",
+        "url": "https://nookle.net"
+      },
+      {
+        "name": "Padlock",
+        "url": "https://www.padlockgame.net"
+      },
+      {
+        "name": "Palwordle",
+        "url": "https://palwordle.net"
+      },
+      {
+        "name": "Pokedle.com",
+        "url": "https://pokedle.com"
+      },
+      {
+        "name": "Pokedle.net",
+        "url": "https://pokedle.net"
+      },
+      {
+        "name": "Quintalist",
+        "url": "https://www.quintalist.com"
+      },
+      {
+        "name": "Redividers",
+        "url": "https://redividers.netlify.app"
+      },
+      {
+        "name": "Silly Little Codes",
+        "url": "https://playsillylittlegames.com/codes"
+      },
+      {
+        "name": "Stacks",
+        "url": "https://www.theatlantic.com/games/stacks/"
+      },
+      {
+        "name": "Swapple",
+        "url": "https://nibble.games/swapple/swapple-easy.html"
+      },
+      {
+        "name": "Tarkovdle",
+        "url": "https://tarkovdle.com"
+      },
+      {
+        "name": "TF2dle",
+        "url": "https://www.tf2dle.com"
+      },
+      {
+        "name": "The Atlantic Crossword",
+        "url": "https://www.theatlantic.com/games/daily-crossword/"
+      },
+      {
+        "name": "Timdle",
+        "url": "https://www.timdle.com"
+      },
+      {
+        "name": "TimeLine Game",
+        "url": "https://www.playtimelines.com"
+      },
+      {
+        "name": "Unshuffle",
+        "url": "https://www.unshuffle.me"
+      },
+      {
+        "name": "Word Ladder",
+        "url": "https://wordladder.com"
+      },
+      {
+        "name": "WordLink",
+        "url": "https://playwordlink.com"
+      },
+      {
+        "name": "Wordloop",
+        "url": "https://word-loop.com"
+      },
+      {
+        "name": "Worpel",
+        "url": "https://playworpel.com"
+      },
+      {
+        "name": "Wrodeo",
+        "url": "https://wrodeo.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Reciple",
+        "url": "No new daily recipes."
+      },
+      {
+        "name": "Warbl",
+        "url": "https://www.warbl.org",
+        "reason": "Songs do not play."
+      }
+    ],
+    "description": "Add 36 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History."
+  },
+  {
     "date": "2025-06-24",
     "description": "Remove 2 dles.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices",
     "dles removed": [
