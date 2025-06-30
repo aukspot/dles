@@ -150,7 +150,8 @@
     "dles removed": [
       {
         "name": "Reciple",
-        "url": "No new daily recipes."
+        "url": "https://reciple.net",
+        "reason": "No new daily recipes."
       },
       {
         "name": "Warbl",
