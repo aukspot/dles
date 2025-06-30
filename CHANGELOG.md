@@ -45,10 +45,10 @@ dles added:
 | 36 | [Wrodeo](https://wrodeo.com)                                                 | [https://wrodeo.com](https://wrodeo.com)                                                                 |
 
 dles removed: 
-|    | name                             | url                                            | reason             |
-|---:|:---------------------------------|:-----------------------------------------------|:-------------------|
-|  1 | [Reciple](No new daily recipes.) | [No new daily recipes.](No new daily recipes.) | nan                |
-|  2 | [Warbl](https://www.warbl.org)   | [https://www.warbl.org](https://www.warbl.org) | Songs do not play. |
+|    | name                           | url                                            | reason                |
+|---:|:-------------------------------|:-----------------------------------------------|:----------------------|
+|  1 | [Reciple](https://reciple.net) | [https://reciple.net](https://reciple.net)     | No new daily recipes. |
+|  2 | [Warbl](https://www.warbl.org) | [https://www.warbl.org](https://www.warbl.org) | Songs do not play.    |
 ## 2025-06-24
 
 Remove 2 dles.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices
