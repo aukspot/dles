@@ -65,6 +65,8 @@
     }
   }
 
+  $: $filteredDles = $dles
+
   let loading = true
   onMount(() => {
     loading = false
