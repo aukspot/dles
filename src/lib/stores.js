@@ -3,8 +3,6 @@ import { readable, writable } from "svelte/store"
 export let dles = writable([])
 export let newDles = writable([])
 export let filteredDles = writable([])
-export let tagNames = writable([])
-export let tags = writable({})
 export let changelog = writable([])
 export let numColumns = writable(2)
 export let toolbarSelection = writable("")
@@ -20,7 +18,8 @@ export let categories = readable([
   "Colors",
   "Estimation",
   "Food",
-  "Geography/History",
+  "Geography",
+  "History",
   "Math/Logic",
   "Movies/TV",
   "Music",
@@ -38,7 +37,8 @@ export let categoryColors = readable({
   Colors: "hsl(24, 90%, 50%, 45%)",
   Estimation: "hsl(48, 90%, 50%, 45%)",
   Food: "hsl(72, 90%, 50%, 45%)",
-  "Geography/History": "hsl(96, 90%, 50%, 45%)",
+  "Geography": "hsl(96, 90%, 50%, 45%)",
+  "History": "hsl(108, 90%, 50%, 45%)",
   "Math/Logic": "hsl(120, 90%, 50%, 45%)",
   "Movies/TV": "hsl(144, 90%, 50%, 45%)",
   Music: "hsl(168, 90%, 50%, 45%)",

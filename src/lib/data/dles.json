@@ -165,7 +165,7 @@
     "name": "Capitale",
     "url": "https://capitale.countryle.com",
     "description": "Guess the world capital in as few attempts as possible with the given clues.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Cardle",
@@ -237,13 +237,13 @@
     "name": "Chrono",
     "url": "https://chrono.quest",
     "description": "Put the events in chronological order in 3 tries or less.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Chronophoto",
     "url": "https://www.chronophoto.app",
     "description": "Guess the year in which each historical picture was taken.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Cine2Nerdle",
@@ -339,7 +339,7 @@
     "name": "Countryle",
     "url": "https://www.countryle.com",
     "description": "Guess the country in as few attempts as possible with the given clues.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Couples",
@@ -453,7 +453,7 @@
     "name": "Daydle",
     "url": "https://daydle.com",
     "description": "Guess the year of a historical event that happened on this day in history.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Daydoku",
@@ -627,25 +627,25 @@
     "name": "Flagdle",
     "url": "https://www.flagdle.org",
     "description": "Guess the country by its flag.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Flagdoku",
     "url": "https://flagdoku.com",
     "description": "Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Flagle",
     "url": "https://www.flagle.io",
     "description": "Guess the flag in 5 guesses or less.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Flagle Game",
     "url": "https://flagle-game.com",
     "description": "Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Flickle",
@@ -717,37 +717,37 @@
     "name": "Geocircles",
     "url": "https://geocircles.io",
     "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "GeoConnections",
     "url": "https://geoconnections.net",
     "description": "Group mostly geography-related pictures that share a common theme.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Geodle",
     "url": "https://geodle.me",
     "description": "Guess today's mystery country within 7 guesses.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "GeoGrid",
     "url": "https://www.geogridgame.com",
     "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Globle",
     "url": "https://globle-game.com/game",
     "description": "Guess the mystery country, given how close it is to each guessed country.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Globle Capitals",
     "url": "https://globle-capitals.com",
     "description": "Guess the mystery world capital, given how close it is to each guessed world capital.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Gram Jam",
@@ -1005,7 +1005,7 @@
     "name": "Juxtastat",
     "url": "https://urbanstats.org/quiz.html",
     "description": "For 5 rounds, guess which of the two regions better fits the given criteria.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Karat",
@@ -1167,7 +1167,7 @@
     "name": "Locatle",
     "url": "https://locatle.strct.net",
     "description": "Guess the country that the picture was taken in.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Logiquiz",
@@ -1197,13 +1197,13 @@
     "name": "MapGame",
     "url": "https://mapgame.net",
     "description": "Use the map to guess a country, getting new hints after each guess.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "MapTap",
     "url": "https://maptap.gg",
     "description": "Click as close as you can to the given world cities, 5 rounds per day.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Mathdle",
@@ -1365,7 +1365,7 @@
     "name": "Neighborle",
     "url": "https://neighborle.com",
     "description": "Guess the countries that border the highlighted country on the map.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Nerdle",
@@ -1449,19 +1449,19 @@
     "name": "OEC Connectrade",
     "url": "https://oec.world/en/games/connectrade",
     "description": "Form groups of four exported products that are associated with one of the given countries.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "OEC Pick 5",
     "url": "https://oec.world/en/games/pick-5",
     "description": "Guess the top 5 countries that export the most of the given product.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "OEC Tradle",
     "url": "https://games.oec.world/en/tradle",
     "description": "Guess the country by its exports.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "On the Record",
@@ -1803,7 +1803,7 @@
     "name": "Satle",
     "url": "https://satle.ca",
     "description": "Guess the city given a satellite image, zooming out after each guess.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Scramble",
@@ -2007,7 +2007,7 @@
     "name": "Statele",
     "url": "https://statele.teuteuf.fr",
     "description": "Guess the US State by its outline on the map.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Steamdle",
@@ -2139,7 +2139,7 @@
     "name": "TimeGuessr",
     "url": "https://timeguessr.com",
     "description": "Guess the right time and location of each historical photo.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Toddle",
@@ -2169,7 +2169,7 @@
     "name": "travle",
     "url": "https://travle.earth",
     "description": "Connect the starting country to the ending country by naming countries in between them.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Triplets",
@@ -2199,7 +2199,7 @@
     "name": "Unzoomed",
     "url": "https://www.unzoomed.com/en",
     "description": "Guess the city based on the given satellite image.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Valodle",
@@ -2259,37 +2259,37 @@
     "name": "WhenTaken",
     "url": "https://whentaken.com",
     "description": "Guess the year and location of the given photo.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "WhenTaken Movies",
     "url": "https://movies.whentaken.com",
     "description": "Guess where and when the given movie scene was filmed.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Where in the USA is this?",
     "url": "https://pudding.cool/games/where",
     "description": "Guess the location in the United States given 5 pictures of the same place, one at a time.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "WhereTaken",
     "url": "https://wheretaken.teuteuf.fr",
     "description": "Guess the Country/Region in which the photo was taken.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "WhereTaken USA",
     "url": "https://wheretakenusa.teuteuf.fr",
     "description": "Guess the US State in which the photo was taken.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "Which year",
     "url": "https://whichyr.com",
     "description": "Guess which year each photo was taken.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Wildlife Sudoku",
@@ -2409,7 +2409,7 @@
     "name": "Worldle",
     "url": "https://worldle.teuteuf.fr",
     "description": "Guess the country by its shape on the world map.",
-    "category": "Geography/History"
+    "category": "Geography"
   },
   {
     "name": "xdle",
@@ -2421,7 +2421,7 @@
     "name": "Yeardle",
     "url": "https://histordle.com/yeardle",
     "description": "Guess the year based on the given historical events of that year.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Zaku Chess",
@@ -2541,7 +2541,7 @@
     "name": "TimeLine Game",
     "url": "https://www.playtimelines.com",
     "description": "Arrange the historical events in the order they happened.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Estimate Me",
@@ -2613,7 +2613,7 @@
     "name": "Timdle",
     "url": "https://www.timdle.com",
     "description": "Place 8 historical events in chronological order.",
-    "category": "Geography/History"
+    "category": "History"
   },
   {
     "name": "Redividers",
@@ -2655,6 +2655,6 @@
     "name": "Chronle",
     "url": "https://chronle.com",
     "description": "Put the events in the order of when they happened.",
-    "category": "Geography/History"
+    "category": "History"
   }
 ]

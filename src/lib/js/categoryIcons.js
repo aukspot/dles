@@ -3,6 +3,7 @@ import IconColors from "$lib/components/Icons/IconColors.svelte"
 import IconEstimation from "$lib/components/Icons/IconEstimation.svelte"
 import IconFood from "$lib/components/Icons/IconFood.svelte"
 import IconGeography from "$lib/components/Icons/IconGeography.svelte"
+import IconHistory from "$lib/components/Icons/IconHistory.svelte"
 import IconMath from "$lib/components/Icons/IconMath.svelte"
 import IconMovies from "$lib/components/Icons/IconMovies.svelte"
 import IconMusic from "$lib/components/Icons/IconMusic.svelte"
@@ -20,7 +21,8 @@ export const categoryIcons = {
   Colors: IconColors,
   Estimation: IconEstimation,
   Food: IconFood,
-  "Geography/History": IconGeography,
+  Geography: IconGeography,
+  History: IconHistory,
   "Math/Logic": IconMath,
   "Movies/TV": IconMovies,
   Music: IconMusic,
