@@ -166,10 +166,6 @@ def add_changes_to_changelog():
         if dup_list:
             print(f"Duplicate dles tried to be {dup_type} ({len(dup_list)}): {', '.join(dle['name'] for dle in dup_list)}")
     
-    added_dles = entry.get("dles added")
-    if added_dles:
-        write_new_dles(added_dles)
-    
     backup_file(DLES_FILE, ".old")
 
 
@@ -283,7 +279,65 @@ def write_dles_to_readme_md():
         f.write(dles_to_markdown_table())
 
 
+def update_new_dles_from_changelog(days_threshold=31):
+    changelog_json = read_changelog()
+    
+    threshold_date = datetime.datetime.now() - datetime.timedelta(days=days_threshold)
+    threshold_date_str = threshold_date.strftime("%Y-%m-%d")
+    
+    print(f"Looking for changelog entries from {threshold_date_str} onwards...")
+    
+    recent_dles = []
+    entries_processed = 0
+    
+    for entry in changelog_json:
+        entry_date = datetime.datetime.strptime(entry["date"], "%Y-%m-%d")
+        
+        if entry_date >= threshold_date:
+            entries_processed += 1
+            print(f"Processing entry from {entry['date']}...")
+            
+            if "dles added" in entry and isinstance(entry["dles added"], list):
+                print(f"  Found {len(entry['dles added'])} dles added")
+                recent_dles.extend(entry["dles added"])
+    
+    print(f"Processed {entries_processed} changelog entries")
+    print(f"Found {len(recent_dles)} total dles from the past {days_threshold} days")
+    
+    unique_dles = []
+    seen_urls = set()
+    
+    for dle in recent_dles:
+        if dle["url"] not in seen_urls:
+            seen_urls.add(dle["url"])
+            unique_dles.append({
+                "name": dle["name"],
+                "url": dle["url"]
+            })
+    
+    print(f"After removing duplicates: {len(unique_dles)} unique dles")
+    
+    unique_dles.sort(key=lambda d: d["name"].lower())
+    
+    backup_file(NEW_DLES_FILE)
+    write_new_dles(unique_dles)
+    
+    print(f"Successfully updated {NEW_DLES_FILE}")
+    print(f"New dles list contains {len(unique_dles)} games")
+    
+    if unique_dles:
+        print("\nFirst few entries:")
+        for i, dle in enumerate(unique_dles[:5]):
+            print(f"  {i + 1}. {dle['name']} - {dle['url']}")
+        
+        if len(unique_dles) > 5:
+            print(f"  ... and {len(unique_dles) - 5} more")
+    
+    return unique_dles
+
+
 if __name__ == "__main__":
     # add_new_dles_to_changelog()
-    add_changes_to_changelog()
+    # add_changes_to_changelog()
+    update_new_dles_from_changelog(17)
     pass
