@@ -16,3 +16,10 @@ export function openInNewTab(href) {
     href: href,
   }).click()
 }
+
+export function playRandom(options) {
+  if (options.length != 0) {
+    const choice = options[Math.floor(Math.random() * options.length)]
+    openInNewTab(choice.url)
+  }
+}

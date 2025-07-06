@@ -1,5 +1,65 @@
 [
   {
+    "date": "2025-07-06",
+    "description": "Add 12 dles.<br>Remove 1 dle.<br>Fix link to OEC Tradle.<br>Add button to play a random favorite.",
+    "dles added": [
+      {
+        "name": "Basketball 5",
+        "url": "https://basketball-5.com"
+      },
+      {
+        "name": "Bells & Whistles",
+        "url": "https://puzzmallow.com/bells"
+      },
+      {
+        "name": "Buzzled",
+        "url": "https://puzzmallow.com/buzzled"
+      },
+      {
+        "name": "Codenames Daily",
+        "url": "https://codenames.game/daily/en"
+      },
+      {
+        "name": "Collections",
+        "url": "https://puzzmallow.com/collections"
+      },
+      {
+        "name": "Guess The Jumpshot",
+        "url": "https://guessthepro.com/en/games/guess-the-jumpshot"
+      },
+      {
+        "name": "Letteripher",
+        "url": "https://letteripher.com"
+      },
+      {
+        "name": "Matle",
+        "url": "https://www.matle.io"
+      },
+      {
+        "name": "Quickflip",
+        "url": "https://puzzmallow.com/quickflip"
+      },
+      {
+        "name": "Rolldle",
+        "url": "https://www.light.gg/rolldle/"
+      },
+      {
+        "name": "Word to your Mother",
+        "url": "https://w2ym.org"
+      },
+      {
+        "name": "WrestlePlay",
+        "url": "https://wrestleplay.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Jeopardle",
+        "url": "https://jeopardle.co"
+      }
+    ]
+  },
+  {
     "date": "2025-06-29",
     "dles added": [
       {
@@ -79,10 +139,6 @@
         "url": "https://pokedle.com"
       },
       {
-        "name": "Pokedle.net",
-        "url": "https://pokedle.net"
-      },
-      {
         "name": "Quintalist",
         "url": "https://www.quintalist.com"
       },
@@ -159,7 +215,7 @@
         "reason": "Songs do not play."
       }
     ],
-    "description": "Add 36 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History."
+    "description": "Add 35 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History."
   },
   {
     "date": "2025-06-24",

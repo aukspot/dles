@@ -90,10 +90,22 @@
     "category": "Music"
   },
   {
+    "name": "Basketball 5",
+    "url": "https://basketball-5.com",
+    "description": "A collection of daily games related to basketball.",
+    "category": "Sports"
+  },
+  {
     "name": "Bazaar Doku",
     "url": "https://bazaardb.gg/doku",
     "description": "Doku-style trivia game for The Bazaar.",
     "category": "Video Games"
+  },
+  {
+    "name": "Bells & Whistles",
+    "url": "https://puzzmallow.com/bells",
+    "description": "Fill the grid with bells and whistles, matching the group numbers on the rows and columns.",
+    "category": "Math/Logic"
   },
   {
     "name": "Betweenle",
@@ -165,13 +177,19 @@
     "name": "Breadle",
     "url": "https://breadle.us",
     "description": "Solve the daily 5-letter word that is related to food.",
-    "category": "Words"
+    "category": "Food"
   },
   {
     "name": "Brickdle",
     "url": "https://www.brickdle.com",
     "description": "Guess the number of pieces in the pictured LEGO set.",
     "category": "Estimation"
+  },
+  {
+    "name": "Buzzled",
+    "url": "https://puzzmallow.com/buzzled",
+    "description": "Color each hex cell black or yellow to satisfy the target sums along the edges.",
+    "category": "Math/Logic"
   },
   {
     "name": "Calcle",
@@ -315,6 +333,18 @@
     "name": "Cluewords",
     "url": "https://wordnerd.co/cluewords",
     "description": "Solve the clues to find the hidden words.",
+    "category": "Words"
+  },
+  {
+    "name": "Codenames Daily",
+    "url": "https://codenames.game/daily/en",
+    "description": "A daily set of puzzles from Codenames, a word association game.",
+    "category": "Words"
+  },
+  {
+    "name": "Collections",
+    "url": "https://puzzmallow.com/collections",
+    "description": "Guess the category of the three hidden words by revealing one letter at a time.",
     "category": "Words"
   },
   {
@@ -876,6 +906,12 @@
     "category": "Estimation"
   },
   {
+    "name": "Guess The Jumpshot",
+    "url": "https://guessthepro.com/en/games/guess-the-jumpshot",
+    "description": "Guess the NBA player based on a silhouette video of their jumpshot.",
+    "category": "Sports"
+  },
+  {
     "name": "Guess The Logo",
     "url": "https://guessthelogo.wtf",
     "description": "Guess the logo which becomes less blurry with each guess.",
@@ -1062,12 +1098,6 @@
     "category": "Words"
   },
   {
-    "name": "Jeopardle",
-    "url": "https://jeopardle.co",
-    "description": "Answer today's Jeopardy questions from the given category.",
-    "category": "Trivia"
-  },
-  {
     "name": "Jigsaw Explorer",
     "url": "https://www.jigsawexplorer.com",
     "description": "Solve the jigsaw puzzles, two new puzzles everyday.",
@@ -1119,6 +1149,12 @@
     "name": "Letroso",
     "url": "https://letroso.com/en/daily",
     "description": "Guess the secret word that can be up to 10 letters long.",
+    "category": "Words"
+  },
+  {
+    "name": "Letteripher",
+    "url": "https://letteripher.com",
+    "description": "Guess letters to reveal all words of some daily category without losing all your lives.",
     "category": "Words"
   },
   {
@@ -1294,6 +1330,12 @@
     "url": "https://www.mathler.com",
     "description": "Find the hidden calculation that equals the given number.",
     "category": "Math/Logic"
+  },
+  {
+    "name": "Matle",
+    "url": "https://www.matle.io",
+    "description": "Guess the missing chess pieces on the board to match the checkmate from a real chess match.",
+    "category": "Card/Board Games"
   },
   {
     "name": "Mazele",
@@ -1555,7 +1597,7 @@
   },
   {
     "name": "OEC Tradle",
-    "url": "https://games.oec.world/en/tradle",
+    "url": "https://oec.world/en/games/tradle",
     "description": "Guess the country by its exports.",
     "category": "Geography"
   },
@@ -1788,6 +1830,12 @@
     "category": "Math/Logic"
   },
   {
+    "name": "Quickflip",
+    "url": "https://puzzmallow.com/quickflip",
+    "description": "Flip the tiles to make an 8 letter word. Two words are possible, but only one is the correct answer.",
+    "category": "Words"
+  },
+  {
     "name": "QuickQ",
     "url": "https://www.quickqtrivia.com",
     "description": "A 90 second trivia game with questions from 8 categories.",
@@ -1912,6 +1960,12 @@
     "url": "https://rogule.com/game.html",
     "description": "A daily emoji dungeon crawler roguelike.",
     "category": "Miscellaneous"
+  },
+  {
+    "name": "Rolldle",
+    "url": "https://www.light.gg/rolldle/",
+    "description": "Guess the roll of the weapon from Destiny 2.",
+    "category": "Video Games"
   },
   {
     "name": "Rotaboxes",
@@ -2211,7 +2265,7 @@
     "name": "Synthmaze",
     "url": "https://synthmaze.heliante.io/#/daily",
     "description": "Swap tiles in the maze so that the rocket reaches the exit.",
-    "category": "Math/Logic"
+    "category": "Shapes/Patterns"
   },
   {
     "name": "Talldle",
@@ -2526,6 +2580,12 @@
     "category": "Words"
   },
   {
+    "name": "Word to your Mother",
+    "url": "https://w2ym.org",
+    "description": "Guess all possible Wordle words based on the two starting words and their results.",
+    "category": "Words"
+  },
+  {
     "name": "Word Waffle",
     "url": "https://wordwaffle.org",
     "description": "Swap letters to create words both horizontally and vertically.",
@@ -2613,6 +2673,12 @@
     "name": "Worpel",
     "url": "https://playworpel.com",
     "description": "Guess the player in the Australian Football League (AFL).",
+    "category": "Sports"
+  },
+  {
+    "name": "WrestlePlay",
+    "url": "https://wrestleplay.com",
+    "description": "A collection of daily games related to wrestling.",
     "category": "Sports"
   },
   {
