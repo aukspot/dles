@@ -1,8 +1,32 @@
 # Changelog - The Dles
 
+## 2025-07-06
+
+Add 12 dles.<br>Remove 1 dle.<br>Fix link to OEC Tradle.<br>Add button to play a random favorite.
+
+dles added: 
+|    | name                                                                      | url                                                                                                        |
+|---:|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
+|  1 | [Basketball 5](https://basketball-5.com)                                  | [https://basketball-5.com](https://basketball-5.com)                                                       |
+|  2 | [Bells & Whistles](https://puzzmallow.com/bells)                          | [https://puzzmallow.com/bells](https://puzzmallow.com/bells)                                               |
+|  3 | [Buzzled](https://puzzmallow.com/buzzled)                                 | [https://puzzmallow.com/buzzled](https://puzzmallow.com/buzzled)                                           |
+|  4 | [Codenames Daily](https://codenames.game/daily/en)                        | [https://codenames.game/daily/en](https://codenames.game/daily/en)                                         |
+|  5 | [Collections](https://puzzmallow.com/collections)                         | [https://puzzmallow.com/collections](https://puzzmallow.com/collections)                                   |
+|  6 | [Guess The Jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) | [https://guessthepro.com/en/games/guess-the-jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) |
+|  7 | [Letteripher](https://letteripher.com)                                    | [https://letteripher.com](https://letteripher.com)                                                         |
+|  8 | [Matle](https://www.matle.io)                                             | [https://www.matle.io](https://www.matle.io)                                                               |
+|  9 | [Quickflip](https://puzzmallow.com/quickflip)                             | [https://puzzmallow.com/quickflip](https://puzzmallow.com/quickflip)                                       |
+| 10 | [Rolldle](https://www.light.gg/rolldle/)                                  | [https://www.light.gg/rolldle/](https://www.light.gg/rolldle/)                                             |
+| 11 | [Word to your Mother](https://w2ym.org)                                   | [https://w2ym.org](https://w2ym.org)                                                                       |
+| 12 | [WrestlePlay](https://wrestleplay.com)                                    | [https://wrestleplay.com](https://wrestleplay.com)                                                         |
+
+dles removed: 
+|    | name                              | url                                          |
+|---:|:----------------------------------|:---------------------------------------------|
+|  1 | [Jeopardle](https://jeopardle.co) | [https://jeopardle.co](https://jeopardle.co) |
 ## 2025-06-29
 
-Add 36 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History.
+Add 35 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History.
 
 dles added: 
 |    | name                                                                         | url                                                                                                      |
@@ -26,23 +50,22 @@ dles added:
 | 17 | [Padlock](https://www.padlockgame.net)                                       | [https://www.padlockgame.net](https://www.padlockgame.net)                                               |
 | 18 | [Palwordle](https://palwordle.net)                                           | [https://palwordle.net](https://palwordle.net)                                                           |
 | 19 | [Pokedle.com](https://pokedle.com)                                           | [https://pokedle.com](https://pokedle.com)                                                               |
-| 20 | [Pokedle.net](https://pokedle.net)                                           | [https://pokedle.net](https://pokedle.net)                                                               |
-| 21 | [Quintalist](https://www.quintalist.com)                                     | [https://www.quintalist.com](https://www.quintalist.com)                                                 |
-| 22 | [Redividers](https://redividers.netlify.app)                                 | [https://redividers.netlify.app](https://redividers.netlify.app)                                         |
-| 23 | [Silly Little Codes](https://playsillylittlegames.com/codes)                 | [https://playsillylittlegames.com/codes](https://playsillylittlegames.com/codes)                         |
-| 24 | [Stacks](https://www.theatlantic.com/games/stacks/)                          | [https://www.theatlantic.com/games/stacks/](https://www.theatlantic.com/games/stacks/)                   |
-| 25 | [Swapple](https://nibble.games/swapple/swapple-easy.html)                    | [https://nibble.games/swapple/swapple-easy.html](https://nibble.games/swapple/swapple-easy.html)         |
-| 26 | [Tarkovdle](https://tarkovdle.com)                                           | [https://tarkovdle.com](https://tarkovdle.com)                                                           |
-| 27 | [TF2dle](https://www.tf2dle.com)                                             | [https://www.tf2dle.com](https://www.tf2dle.com)                                                         |
-| 28 | [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) | [https://www.theatlantic.com/games/daily-crossword/](https://www.theatlantic.com/games/daily-crossword/) |
-| 29 | [Timdle](https://www.timdle.com)                                             | [https://www.timdle.com](https://www.timdle.com)                                                         |
-| 30 | [TimeLine Game](https://www.playtimelines.com)                               | [https://www.playtimelines.com](https://www.playtimelines.com)                                           |
-| 31 | [Unshuffle](https://www.unshuffle.me)                                        | [https://www.unshuffle.me](https://www.unshuffle.me)                                                     |
-| 32 | [Word Ladder](https://wordladder.com)                                        | [https://wordladder.com](https://wordladder.com)                                                         |
-| 33 | [WordLink](https://playwordlink.com)                                         | [https://playwordlink.com](https://playwordlink.com)                                                     |
-| 34 | [Wordloop](https://word-loop.com)                                            | [https://word-loop.com](https://word-loop.com)                                                           |
-| 35 | [Worpel](https://playworpel.com)                                             | [https://playworpel.com](https://playworpel.com)                                                         |
-| 36 | [Wrodeo](https://wrodeo.com)                                                 | [https://wrodeo.com](https://wrodeo.com)                                                                 |
+| 20 | [Quintalist](https://www.quintalist.com)                                     | [https://www.quintalist.com](https://www.quintalist.com)                                                 |
+| 21 | [Redividers](https://redividers.netlify.app)                                 | [https://redividers.netlify.app](https://redividers.netlify.app)                                         |
+| 22 | [Silly Little Codes](https://playsillylittlegames.com/codes)                 | [https://playsillylittlegames.com/codes](https://playsillylittlegames.com/codes)                         |
+| 23 | [Stacks](https://www.theatlantic.com/games/stacks/)                          | [https://www.theatlantic.com/games/stacks/](https://www.theatlantic.com/games/stacks/)                   |
+| 24 | [Swapple](https://nibble.games/swapple/swapple-easy.html)                    | [https://nibble.games/swapple/swapple-easy.html](https://nibble.games/swapple/swapple-easy.html)         |
+| 25 | [Tarkovdle](https://tarkovdle.com)                                           | [https://tarkovdle.com](https://tarkovdle.com)                                                           |
+| 26 | [TF2dle](https://www.tf2dle.com)                                             | [https://www.tf2dle.com](https://www.tf2dle.com)                                                         |
+| 27 | [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) | [https://www.theatlantic.com/games/daily-crossword/](https://www.theatlantic.com/games/daily-crossword/) |
+| 28 | [Timdle](https://www.timdle.com)                                             | [https://www.timdle.com](https://www.timdle.com)                                                         |
+| 29 | [TimeLine Game](https://www.playtimelines.com)                               | [https://www.playtimelines.com](https://www.playtimelines.com)                                           |
+| 30 | [Unshuffle](https://www.unshuffle.me)                                        | [https://www.unshuffle.me](https://www.unshuffle.me)                                                     |
+| 31 | [Word Ladder](https://wordladder.com)                                        | [https://wordladder.com](https://wordladder.com)                                                         |
+| 32 | [WordLink](https://playwordlink.com)                                         | [https://playwordlink.com](https://playwordlink.com)                                                     |
+| 33 | [Wordloop](https://word-loop.com)                                            | [https://word-loop.com](https://word-loop.com)                                                           |
+| 34 | [Worpel](https://playworpel.com)                                             | [https://playworpel.com](https://playworpel.com)                                                         |
+| 35 | [Wrodeo](https://wrodeo.com)                                                 | [https://wrodeo.com](https://wrodeo.com)                                                                 |
 
 dles removed: 
 |    | name                           | url                                            | reason                |
