@@ -69,7 +69,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2025-07-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2025-07-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 |     | name                                                                                                     | description                                                                                                                                                                    | category         |
 |----:|:---------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
@@ -164,7 +164,7 @@ This will update the `./docs` directory with a new build of the site.
 |  89 | [DBDle](https://dbdle.net)                                                                               | Test your Dead by Daylight knowledge in these daily games.                                                                                                                     | Video Games      |
 |  90 | [Decipher](https://decipher.wtf)                                                                         | Solve the daily cryptogram to reveal the quote.                                                                                                                                | Words            |
 |  91 | [Decodex](https://playdecodex.com)                                                                       | A daily cryptography game. Decode a nice quote every day!                                                                                                                      | Words            |
-|  92 | [Disney Heardle](https://diz-nee-heardle.glitch.me)                                                      | Guess the Disney song from listening to small parts of it.                                                                                                                     | Music            |
+|  92 | [Disney Heardle](https://www.disney.heardledecades.com)                                                  | Guess the Disney song from listening to small parts of it.                                                                                                                     | Music            |
 |  93 | [Disorderly](https://playdisorderly.com)                                                                 | Order the items correctly based on the given criteria.                                                                                                                         | Trivia           |
 |  94 | [Disordle](https://disordle.com)                                                                         | Diagnose the patient with a disorder based on their symptoms.                                                                                                                  | Science/Nature   |
 |  95 | [Dodeku](https://dodeku.com)                                                                             | Make the sum of each row and column match the numbers on the perimeter.                                                                                                        | Math/Logic       |

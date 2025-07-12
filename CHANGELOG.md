@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2025-07-12
+
+Update link to Disney Heardle.
+
+
 ## 2025-07-06
 
 Add 12 dles.<br>Remove 1 dle.<br>Fix link to OEC Tradle.<br>Add button to play a random favorite.
