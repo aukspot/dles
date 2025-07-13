@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     sort_dles()
     add_changes_to_changelog()
-    update_new_dles_from_changelog(17)
+    update_new_dles_from_changelog()
     sort_new_dles()
     create_changelog_md()
     write_dles_to_readme_md()
