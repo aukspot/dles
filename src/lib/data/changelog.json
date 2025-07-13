@@ -435,8 +435,7 @@
         "url": "https://anigrams.us",
         "reason": "The game has been paused."
       }
-    ],
-    "dles added": []
+    ]
   },
   {
     "date": "2025-05-08",
@@ -575,8 +574,7 @@
         "name": "Echo Chess",
         "url": "https://echochess.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2025-04-10",
@@ -586,8 +584,7 @@
         "name": "Daily Akari",
         "url": "https://dailyakari.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2025-04-02",
@@ -673,8 +670,7 @@
         "name": "ZoomOut",
         "url": "https://zoomout.videoludid.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2025-03-08",
@@ -684,8 +680,7 @@
         "name": "Bracket City",
         "url": "https://bracket.city"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2025-02-16",
@@ -731,8 +726,7 @@
         "name": "WhenTaken Movies",
         "url": "https://movies.whentaken.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2025-02-10",
@@ -778,8 +772,7 @@
         "url": "https://64ordle.au/?mode=daily"
       }
     ],
-    "description": "Add 10 dles.",
-    "dles removed": []
+    "description": "Add 10 dles."
   },
   {
     "date": "2025-01-31",
@@ -970,9 +963,7 @@
   },
   {
     "date": "2024-10-06",
-    "description": "Fix link to Colorfle.",
-    "dles added": [],
-    "dles removed": []
+    "description": "Fix link to Colorfle."
   },
   {
     "date": "2024-09-18",
@@ -1054,8 +1045,7 @@
         "name": "Zaku Chess",
         "url": "https://zakuchess.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-07-20",
@@ -1153,8 +1143,7 @@
         "name": "xdle",
         "url": "https://zaratustra.itch.io/xdle"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-06-22",
@@ -1285,8 +1274,7 @@
         "name": "Word Grid",
         "url": "https://wordgrid.clevergoat.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-05-28",
@@ -1738,8 +1726,7 @@
         "name": "Word Chase",
         "url": "https://wordchase.semantle.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-03-17",
@@ -1773,8 +1760,7 @@
         "name": "Primel",
         "url": "https://converged.yt/primel"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-02-27",
@@ -1832,8 +1818,7 @@
         "name": "Yeardle",
         "url": "https://histordle.com/yeardle"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-02-17",
@@ -1871,8 +1856,7 @@
         "name": "Spelling Bee",
         "url": "https://spellsbee.com"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-02-16",
@@ -1894,8 +1878,7 @@
         "name": "NYT Sudoku",
         "url": "https://www.nytimes.com/puzzles/sudoku"
       }
-    ],
-    "dles removed": []
+    ]
   },
   {
     "date": "2024-02-14",
@@ -2170,7 +2153,6 @@
         "name": "Worldle",
         "url": "https://worldle.teuteuf.fr"
       }
-    ],
-    "dles removed": []
+    ]
   }
 ]
