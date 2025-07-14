@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2025-07-14
+
+Add dles of the week feature.
+
+
 ## 2025-07-12
 
 Update link to Disney Heardle.
