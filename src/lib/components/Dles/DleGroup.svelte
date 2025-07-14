@@ -40,8 +40,8 @@
               $poppedUpDle === dle.name
                 ? ($poppedUpDle = "")
                 : ($poppedUpDle = dle.name)
-              pageX = e.clientX
-              pageY = e.clientY
+              pageX = e.pageX
+              pageY = e.pageY
               clientY = e.clientY
             }}
             on:auxclick={(e) => openInNewTab(dle.url)}
