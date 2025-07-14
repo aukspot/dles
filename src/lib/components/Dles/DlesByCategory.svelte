@@ -5,6 +5,8 @@
     categorizedDles,
     newDles,
     poppedUpDle,
+    dlesOfTheWeek,
+    favorites,
   } from "$lib/stores"
 
   import DlePopUp from "./DlePopUp.svelte"
@@ -15,14 +17,12 @@
   import { base } from "$app/paths"
   import Banner from "../Banner.svelte"
   import { openInNewTab } from "$lib/js/utilities"
+  import IconCalendarHeart from "../Icons/IconCalendarHeart.svelte"
+  import DleGroup from "./DleGroup.svelte"
 
   let pageX = 0
   let pageY = 0
   let clientY = 0
-
-  function isNewDle(dle) {
-    return $newDles.filter((d) => d.url === dle.url).length === 1
-  }
 
   function resetPoppedUpDle() {
     $poppedUpDle = ""
@@ -44,6 +44,24 @@
 <Banner includeSearch={true} />
 <div class="w-full mx-auto">
   <div class="dlesContainer">
+    {#if $dlesOfTheWeek.length !== 0}
+      <div class="card">
+        <div class="labelContainer rainbow-gradient">
+          <div class="label">
+            <div class="flex-shrink-0">
+              <IconCalendarHeart />
+            </div>
+            DLES of the Week
+          </div>
+        </div>
+        <DleGroup
+          dleGroup={$dlesOfTheWeek}
+          bind:pageX
+          bind:pageY
+          bind:clientY
+        />
+      </div>
+    {/if}
     {#each $categories as category, i (i)}
       {#if $categorizedDles[category].length !== 0}
         <div class="card">
@@ -58,40 +76,12 @@
               {category}
             </div>
           </div>
-          <div>
-            <ol class="dleList">
-              {#each $categorizedDles[category] as dle, j (j)}
-                <li class="dleContainer">
-                  <!-- svelte-ignore a11y-click-events-have-key-events -->
-                  <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-                  <!-- svelte-ignore a11y-no-static-element-interactions -->
-                  <div class="dleTop">
-                    <button
-                      class="dleName"
-                      on:click={(e) => {
-                        $poppedUpDle === dle.name
-                          ? ($poppedUpDle = "")
-                          : ($poppedUpDle = dle.name)
-                        pageX = e.pageX
-                        pageY = e.pageY
-                        clientY = e.clientY
-                      }}
-                      on:auxclick={(e) => openInNewTab(dle.url)}
-                    >
-                      {dle.name}
-                    </button>{#if isNewDle(dle)}
-                      <IconNew />
-                    {/if}
-                  </div>
-                  {#if $poppedUpDle === dle.name}
-                    <div use:clickOutside on:click_outside={handleClickOutside}>
-                      <DlePopUp {dle} {pageX} {pageY} {clientY} />
-                    </div>
-                  {/if}
-                </li>
-              {/each}
-            </ol>
-          </div>
+          <DleGroup
+            dleGroup={$categorizedDles[category]}
+            bind:pageX
+            bind:pageY
+            bind:clientY
+          />
         </div>
       {/if}
     {/each}
@@ -111,15 +101,24 @@
   .label {
     @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
   }
-  .dleContainer {
-    @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
+  .rainbow-gradient {
+    background: repeating-linear-gradient(
+      60deg,
+      hsl(0, 90%, 70%, 0.8) 0% 20%,
+      /* Red */ hsl(72, 90%, 70%, 0.8) 20% 40%,
+      /* Yellow */ hsl(144, 90%, 70%, 0.8) 40% 60%,
+      /* Green */ hsl(216, 90%, 70%, 0.8) 60% 80%,
+      /* Blue */ hsl(288, 90%, 70%, 0.8) 80% 100% /* Purple */
+    );
   }
-  .dleTop {
-    @apply p-1 px-2;
-  }
-  .dleName {
-    @apply mr-1 inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-all hover:duration-300;
-    text-decoration-thickness: 2px;
-    width: auto;
+  :global(.dark) .rainbow-gradient {
+    background: repeating-linear-gradient(
+      60deg,
+      hsl(0, 90%, 30%, 0.9) 0% 20%,
+      /* Dark Red */ hsl(72, 90%, 30%, 0.9) 20% 40%,
+      /* Dark Yellow */ hsl(144, 90%, 30%, 0.9) 40% 60%,
+      /* Dark Green */ hsl(216, 90%, 30%, 0.9) 60% 80%,
+      /* Dark Blue */ hsl(288, 90%, 30%, 0.9) 80% 100% /* Dark Purple */
+    );
   }
 </style>

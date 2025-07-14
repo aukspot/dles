@@ -146,8 +146,6 @@ dles removed:
 
 Remove 1 dle. 
 
-dles added: 
-
 
 dles removed: 
 |    | name                            | url                                        | reason                    |
@@ -203,8 +201,6 @@ dles added:
 |---:|:------------------------------------|:-----------------------------------------------|
 |  1 | [Echo Chess](https://echochess.com) | [https://echochess.com](https://echochess.com) |
 
-dles removed: 
-
 ## 2025-04-10
 
 Add 1 dle. 
@@ -213,8 +209,6 @@ dles added:
 |    | name                                  | url                                              |
 |---:|:--------------------------------------|:-------------------------------------------------|
 |  1 | [Daily Akari](https://dailyakari.com) | [https://dailyakari.com](https://dailyakari.com) |
-
-dles removed: 
 
 ## 2025-04-02
 
@@ -244,8 +238,6 @@ dles added:
 | 19 | [Weddle](https://www.weddlegame.com)                                     | [https://www.weddlegame.com](https://www.weddlegame.com)                                                         |
 | 20 | [ZoomOut](https://zoomout.videoludid.com)                                | [https://zoomout.videoludid.com](https://zoomout.videoludid.com)                                                 |
 
-dles removed: 
-
 ## 2025-03-08
 
 Add 1 dle. 
@@ -254,8 +246,6 @@ dles added:
 |    | name                                 | url                                          |
 |---:|:-------------------------------------|:---------------------------------------------|
 |  1 | [Bracket City](https://bracket.city) | [https://bracket.city](https://bracket.city) |
-
-dles removed: 
 
 ## 2025-02-16
 
@@ -275,8 +265,6 @@ dles added:
 |  9 | [Top 5](https://top5-game.com)                                      | [https://top5-game.com](https://top5-game.com)                                                 |
 | 10 | [WhenTaken Movies](https://movies.whentaken.com)                    | [https://movies.whentaken.com](https://movies.whentaken.com)                                   |
 
-dles removed: 
-
 ## 2025-02-10
 
 Add 10 dles.
@@ -294,8 +282,6 @@ dles added:
 |  8 | [Lex.Games - Square Dance](https://lex.games/squaredance)       | [https://lex.games/squaredance](https://lex.games/squaredance)                       |
 |  9 | [Sequences](https://www.dailyfastgames.com/sequences)           | [https://www.dailyfastgames.com/sequences](https://www.dailyfastgames.com/sequences) |
 | 10 | [Sexaginta-quattuordle](https://64ordle.au/?mode=daily)         | [https://64ordle.au/?mode=daily](https://64ordle.au/?mode=daily)                     |
-
-dles removed: 
 
 ## 2025-01-31
 
@@ -365,10 +351,6 @@ dles removed:
 
 Fix link to Colorfle.
 
-dles added: 
-
-
-dles removed: 
 
 ## 2024-09-18
 
@@ -396,8 +378,6 @@ dles added:
 | 17 | [Video Game Bandle](https://www.vgbandle.app)                    | [https://www.vgbandle.app](https://www.vgbandle.app)                                                             |
 | 18 | [Wordiply](https://www.wordiply.com)                             | [https://www.wordiply.com](https://www.wordiply.com)                                                             |
 | 19 | [Zaku Chess](https://zakuchess.com)                              | [https://zakuchess.com](https://zakuchess.com)                                                                   |
-
-dles removed: 
 
 ## 2024-07-20
 
@@ -429,8 +409,6 @@ dles added:
 | 21 | [Waffle](https://wafflegame.net/daily)                    | [https://wafflegame.net/daily](https://wafflegame.net/daily)                                   |
 | 22 | [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily)   | [https://sacsgames.com/wordlinx/#/todaydaily](https://sacsgames.com/wordlinx/#/todaydaily)     |
 | 23 | [xdle](https://zaratustra.itch.io/xdle)                   | [https://zaratustra.itch.io/xdle](https://zaratustra.itch.io/xdle)                             |
-
-dles removed: 
 
 ## 2024-06-22
 
@@ -479,8 +457,6 @@ dles added:
 |  2 | [Flipple](https://flipple.clevergoat.com)    | [https://flipple.clevergoat.com](https://flipple.clevergoat.com)   |
 |  3 | [Fibble](https://fibble.xyz)                 | [https://fibble.xyz](https://fibble.xyz)                           |
 |  4 | [Word Grid](https://wordgrid.clevergoat.com) | [https://wordgrid.clevergoat.com](https://wordgrid.clevergoat.com) |
-
-dles removed: 
 
 ## 2024-05-28
 
@@ -610,8 +586,6 @@ dles added:
 | 22 | [Where in the USA is this?](https://pudding.cool/games/where) | [https://pudding.cool/games/where](https://pudding.cool/games/where)                                 |
 | 23 | [Word Chase](https://wordchase.semantle.com)                  | [https://wordchase.semantle.com](https://wordchase.semantle.com)                                     |
 
-dles removed: 
-
 ## 2024-03-17
 
 Redesign with Tailwind CSS.<br>Add button to play a random dle.<br>Remove tags: architecture, art, and color.<br> Add 7 dles.
@@ -626,8 +600,6 @@ dles added:
 |  5 | [NYT Strands](https://www.nytimes.com/games/strands)                                       | [https://www.nytimes.com/games/strands](https://www.nytimes.com/games/strands)                                                                               |
 |  6 | [Plotwords](https://plotwords.com/daily)                                                   | [https://plotwords.com/daily](https://plotwords.com/daily)                                                                                                   |
 |  7 | [Primel](https://converged.yt/primel)                                                      | [https://converged.yt/primel](https://converged.yt/primel)                                                                                                   |
-
-dles removed: 
 
 ## 2024-02-27
 
@@ -650,8 +622,6 @@ dles added:
 | 12 | [Syllacrostic](https://www.syllacrostic.com/daily-puzzle) | [https://www.syllacrostic.com/daily-puzzle](https://www.syllacrostic.com/daily-puzzle)       |
 | 13 | [Yeardle](https://histordle.com/yeardle)                  | [https://histordle.com/yeardle](https://histordle.com/yeardle)                               |
 
-dles removed: 
-
 ## 2024-02-17
 
 Add 8 dles.
@@ -668,8 +638,6 @@ dles added:
 |  7 | [Quordle](https://quordlegame.com)                          | [https://quordlegame.com](https://quordlegame.com)                                         |
 |  8 | [Spelling Bee](https://spellsbee.com)                       | [https://spellsbee.com](https://spellsbee.com)                                             |
 
-dles removed: 
-
 ## 2024-02-16
 
 Add a <a class="changelog-link" href="https://tally.so/r/mOKOea">suggestion form</a>.<br>Add 4 dles.
@@ -681,8 +649,6 @@ dles added:
 |  2 | [Concludle](https://tryhardguides.com/concludle)     | [https://tryhardguides.com/concludle](https://tryhardguides.com/concludle)       |
 |  3 | [Globle Capitals](https://globle-capitals.com)       | [https://globle-capitals.com](https://globle-capitals.com)                       |
 |  4 | [NYT Sudoku](https://www.nytimes.com/puzzles/sudoku) | [https://www.nytimes.com/puzzles/sudoku](https://www.nytimes.com/puzzles/sudoku) |
-
-dles removed: 
 
 ## 2024-02-14
 
@@ -767,6 +733,4 @@ dles added:
 | 55 | [Wordle](https://www.nytimes.com/games/wordle/index.html)                               | [https://www.nytimes.com/games/wordle/index.html](https://www.nytimes.com/games/wordle/index.html)   |
 | 56 | [Wordless](https://lessgames.com/wordless)                                              | [https://lessgames.com/wordless](https://lessgames.com/wordless)                                     |
 | 57 | [Worldle](https://worldle.teuteuf.fr)                                                   | [https://worldle.teuteuf.fr](https://worldle.teuteuf.fr)                                             |
-
-dles removed: 
 

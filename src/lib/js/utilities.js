@@ -23,3 +23,17 @@ export function playRandom(options) {
     openInNewTab(choice.url)
   }
 }
+
+export function getCurrentDlesOfTheWeek(dlesOfWeek) {
+  const now = new Date();
+  const estTime = new Date(now.toLocaleString("en-US", { timeZone: "America/New_York" }));
+
+  for (const entry of dlesOfWeek) {
+    const entryDate = new Date(entry.date);
+    if (entryDate < estTime) {
+      return entry;
+    }
+  }
+
+  return dlesOfWeek[dlesOfWeek.length - 1];
+}

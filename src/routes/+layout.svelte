@@ -3,6 +3,7 @@
   import dles_json from "$lib/data/dles.json"
   import new_dles_json from "$lib/data/new_dles.json"
   import changelog_json from "$lib/data/changelog.json"
+  import dles_of_the_week_json from "$lib/data/dles_of_the_week.json"
 
   import {
     categories,
@@ -14,13 +15,17 @@
     filteredDles,
     infoHidden,
     randomCategories,
+    dlesOfTheWeek,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
   import { onMount } from "svelte"
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import {
+    getCurrentDlesOfTheWeek,
+    isLocalStorageAvailable,
+  } from "$lib/js/utilities"
   import LatestChange from "$lib/components/LatestChange.svelte"
 
   onMount(() => {
@@ -65,7 +70,12 @@
     }
   }
 
+  let currentDlesOfTheWeek = getCurrentDlesOfTheWeek(dles_of_the_week_json)
+
   $: $filteredDles = $dles
+  $: $dlesOfTheWeek = $filteredDles.filter((dle) =>
+    currentDlesOfTheWeek["dle_ids"].includes(dle.id),
+  )
 
   let loading = true
   onMount(() => {

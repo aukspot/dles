@@ -3,6 +3,7 @@ import { readable, writable } from "svelte/store"
 export let dles = writable([])
 export let newDles = writable([])
 export let filteredDles = writable([])
+export let dlesOfTheWeek = writable([])
 export let changelog = writable([])
 export let numColumns = writable(2)
 export let toolbarSelection = writable("")
