@@ -265,6 +265,7 @@ def dles_to_markdown_table():
 
     df = pandas.DataFrame.from_dict(dles)
     df.drop(['url'], axis=1, inplace=True)
+    df.drop(['id'], axis=1, inplace=True)
     df.index = df.index + 1
 
     return df.to_markdown(index=True)
@@ -345,8 +346,38 @@ def update_new_dles_from_changelog(days_threshold=31):
     return unique_dles
 
 
+def read_metadata():
+    with open(DLES_METADATA_FILE, "r") as f:
+        return json.load(f)
+
+
+def get_max_id():
+    metadata = read_metadata()
+    return int(metadata["max_id"])
+
+
+def write_metadata(key, value):
+    metadata = read_metadata()
+    metadata[key] = value
+    with open(DLES_METADATA_FILE, "w") as f:
+        f.write(json.dumps(metadata, indent=2))
+
+
+def add_ids_to_dles():
+    dles = read_dles()
+    max_id = get_max_id()
+    i = max_id + 1
+    for dle in dles:
+        if "id" not in dle:
+            dle["id"] = i
+            i += 1
+    if i - 1 > max_id:
+        write_metadata("max_id", i - 1)
+    write_dles(dles)
+
+
 if __name__ == "__main__":
     # add_new_dles_to_changelog()
     # add_changes_to_changelog()
-    update_new_dles_from_changelog(17)
+    # update_new_dles_from_changelog(17)
     pass
