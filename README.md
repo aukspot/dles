@@ -12,7 +12,7 @@ The easiest way to help the project is to suggest new dles by either filling out
 
 If you'd like to make changes directly, you can edit [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) and do one of three things:
 
-1. **Add a new dle**: copy and paste an existing dle in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) and then change the information to that of the new dle. It's okay if its tags are empty, but make sure all of the other fields are filled appropriately.
+1. **Add a new dle**: copy and paste an existing dle in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) and then change the information to that of the new dle.
 2. **Remove a dle** (if there's a broken link): delete the dle from [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json).
 3. **Fix a dle** (if there's a typo, broken link): Open [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json), find the dle you'd like to fix, and make the changes you'd like to make.
 
