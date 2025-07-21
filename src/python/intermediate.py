@@ -1,30 +1,19 @@
 #!/usr/bin/python3
 
+import re
 import datetime
 import json
 import pandas
 import shutil
-import string
-
-from colour import Color
 
 
 DLES_FILE = "../lib/data/dles.json"
 DLES_FILE_OLD = "../lib/data/dles.json.old"
+DLES_METADATA_FILE = "../lib/data/dles_metadata.json"
 NEW_DLES_FILE = "../lib/data/new_dles.json"
-TAG_COLORS_FILE = "../lib/data/tag_colors.json"
 CHANGELOG_JSON = "../lib/data/changelog.json"
 CHANGELOG_MD = "../../CHANGELOG.md"
 README_MD = "../../README.md"
-
-
-def sort_tags():
-    backup_file(DLES_FILE)
-
-    dles = read_dles()
-    for dle in dles:
-        dle["tags"].sort()
-    write_dles(dles)
 
 
 def sort_dles():
@@ -107,112 +96,84 @@ def current_date():
 def add_changes_to_changelog():
     changes = compare_dles_to_old_dles(read_dles(), read_old_dles())
     print(changes)
+
+    current_dles = read_dles()
+    current_dle_names = {dle["name"] for dle in current_dles}
     new_dles = changes["new"]
     removed_dles = changes["removed"]
-    new_dles_count = 0
-    removed_dles_count = 0
+
+    if not (new_dles or removed_dles):
+        print("No changes to add to changelog")
+        return
 
     date = current_date()
-    is_date_in_changelog = False
     changelog_json = read_changelog()
-    duplicates_tried_to_add = []
-    duplicates_tried_to_remove = []
 
-    for entry in changelog_json:
-        if entry["date"] == date:
-            is_date_in_changelog = True
-            if "dles added" in entry:
-                for dle in new_dles:
-                    if dle not in entry["dles added"]:
-                        entry["dles added"].append(dle)
-                        new_dles_count += 1
-                    else:
-                        duplicates_tried_to_add.append(dle)
-            else:
-                if len(new_dles) > 0:
-                    entry["dles added"] = new_dles
-                new_dles_count = len(new_dles)
-            if "dles removed" in entry:
-                for dle in removed_dles:
-                    if dle not in entry["dles removed"]:
-                        entry["dles removed"].append(dle)
-                        removed_dles_count += 1
-                    else:
-                        duplicates_tried_to_remove.append(dle)
-            else:
-                if len(removed_dles) > 0:
-                    entry["dles removed"] = removed_dles
-                removed_dles_count = len(removed_dles)
-            entry["description"] = get_changelog_description(
-                entry["dles added"], entry["dles removed"])
-            break
-
-    if not is_date_in_changelog and (len(new_dles) > 0 or len(removed_dles) > 0):
-        entry = {
-            "date": date,
-            "description": get_changelog_description(new_dles, removed_dles)
-        }
-        if len(new_dles) > 0:
-            entry["dles added"] = new_dles
-        if len(removed_dles) > 0:
-            entry["dles removed"] = removed_dles
+    entry = next((e for e in changelog_json if e["date"] == date), None)
+    if not entry:
+        entry = {"date": date, "dles added": [], "dles removed": []}
         changelog_json.insert(0, entry)
+    print(entry)
+
+    entry.setdefault("dles added", [])
+    entry.setdefault("dles removed", [])
+
+    entry["dles added"].extend(new_dles)
+    entry["dles removed"].extend(removed_dles)
+
+    # Clean up non-existent dles from current entry
+    cleaned_added = [dle for dle in entry["dles added"]
+                     if dle["name"] in current_dle_names]
+    # Keep removed dles as historical record
+    cleaned_removed = entry["dles removed"]
+
+    if len(cleaned_added) != len(entry["dles added"]):
+        print(
+            f"Cleaned {len(entry['dles added']) - len(cleaned_added)} non-existent dles from changelog")
+
+    entry["dles added"] = cleaned_added
+    entry["dles removed"] = cleaned_removed
+
+    duplicates = {"added": [], "removed": []}
+
+    for dle_list, key, dup_key in [(new_dles, "dles added", "added"), (removed_dles, "dles removed", "removed")]:
+        for dle in dle_list:
+            if any(entry[key][i]["url"] == dle["url"] for i in range(len(entry[key]))):
+                duplicates[dup_key].append(dle)
+
+    if not entry["dles added"] and not entry["dles removed"]:
+        print("No actual changes made - all items were duplicates")
+        return
+
+    # Check if there's an existing description and prepend to it
+    add_remove_description = create_add_remove_description(
+        entry["dles added"], entry["dles removed"])
+    if "description" in entry and entry["description"]:
+        existing_description = entry["description"]
+        existing_description = re.sub(
+            r'Add \d+ dles?\. ', '', existing_description)
+        existing_description = re.sub(
+            r'Remove \d+ dles?\. ', '', existing_description)
+        entry["description"] = add_remove_description + existing_description
+    else:
+        entry["description"] = add_remove_description
+
+    if len(entry["dles added"]) == 0:
+        del entry["dles added"]
+
+    if len(entry["dles removed"]) == 0:
+        del entry["dles removed"]
 
     backup_file(CHANGELOG_JSON)
     with open(CHANGELOG_JSON, "w+") as f:
         f.write(json.dumps(changelog_json, indent=2))
 
-    if is_date_in_changelog:
-        print(f"Changelog updated for {date}: {
-            changelog_json[0]['description']}")
+    for dup_type, dup_list in duplicates.items():
+        if dup_list:
+            print(
+                f"Duplicate dles tried to be {dup_type} ({len(dup_list)}): {', '.join(dle['name'] for dle in dup_list)}")
 
-    if duplicates_tried_to_add:
-        print(f"Duplicate dles tried to be added ({len(duplicates_tried_to_add)}): {', '.join(
-            dle['name'] for dle in duplicates_tried_to_add)}")
-    if duplicates_tried_to_remove:
-        print(f"Duplicate dles tried to be removed ({len(duplicates_tried_to_remove)}): {
-            ', '.join(dle['name'] for dle in duplicates_tried_to_remove)}")
-
-    if "dles added" in changelog_json[0]:
-        write_new_dles(changelog_json[0]["dles added"])
-
-    backup_file(DLES_FILE, extension=".old")
-
-
-def extract_tags(dles):
-    return list(set([
-        tag for dle in dles
-        for tag in dle["tags"]
-    ]))
-
-
-def word_to_color(word):
-    color = ""
-    letters = [c.lower() for c in word if c.lower() in string.ascii_lowercase]
-    hue = sum(
-        string.ascii_lowercase.index(letter) * 26 ** (len(letters) - i - 1)
-        for i, letter in enumerate(letters)
-    ) / 26 ** len(letters)
-
-    color = Color(hue=hue)
-    color.set_saturation(0.5)
-    color.set_luminance(0.75)
-    return color.hex
-
-
-def create_tag_colors():
-    backup_file(TAG_COLORS_FILE)
-
-    dles = read_dles()
-    tags = extract_tags(dles)
-    tags.sort()
-    tag_colors = {
-        tag: word_to_color(tag)
-        for tag in tags
-    }
-
-    with open(TAG_COLORS_FILE, "w+") as f:
-        f.write(json.dumps(tag_colors, indent=2))
+    backup_file(DLES_FILE, ".old")
 
 
 def read_changelog():
@@ -238,7 +199,7 @@ def last_update_date():
     return changelog_json[0]["date"]
 
 
-def get_changelog_description(dles_added, dles_removed):
+def create_add_remove_description(dles_added, dles_removed):
     if not dles_added:
         dles_added = []
     if not dles_removed:
@@ -265,11 +226,11 @@ def changelog_json_to_md_str():
 
         if "suggestion form</a>" in day['description']:
             day['description'] = day['description'].replace(
-                "/suggest", "https://dles.aukspot.com/suggest")
+                "/suggest", "https://tally.so/r/mOKOea")
 
         if "form to report a bug.</a>" in day['description']:
             day['description'] = day['description'].replace(
-                "/report", "https://dles.aukspot.com/report")
+                "/report", "https://tally.so/r/wQpPpY")
 
         result += f"{day['description']}\n\n"
 
@@ -304,7 +265,7 @@ def dles_to_markdown_table():
 
     df = pandas.DataFrame.from_dict(dles)
     df.drop(['url'], axis=1, inplace=True)
-    df.drop(['tags'], axis=1, inplace=True)
+    df.drop(['id'], axis=1, inplace=True)
     df.index = df.index + 1
 
     return df.to_markdown(index=True)
@@ -326,7 +287,97 @@ def write_dles_to_readme_md():
         f.write(dles_to_markdown_table())
 
 
+def update_new_dles_from_changelog(days_threshold=31):
+    changelog_json = read_changelog()
+
+    threshold_date = datetime.datetime.now() - datetime.timedelta(days=days_threshold)
+    threshold_date_str = threshold_date.strftime("%Y-%m-%d")
+
+    print(
+        f"Looking for changelog entries from {threshold_date_str} onwards...")
+
+    recent_dles = []
+    entries_processed = 0
+
+    for entry in changelog_json:
+        entry_date = datetime.datetime.strptime(entry["date"], "%Y-%m-%d")
+
+        if entry_date >= threshold_date:
+            entries_processed += 1
+            print(f"Processing entry from {entry['date']}...")
+
+            if "dles added" in entry and isinstance(entry["dles added"], list):
+                print(f"  Found {len(entry['dles added'])} dles added")
+                recent_dles.extend(entry["dles added"])
+
+    print(f"Processed {entries_processed} changelog entries")
+    print(
+        f"Found {len(recent_dles)} total dles from the past {days_threshold} days")
+
+    unique_dles = []
+    seen_urls = set()
+
+    for dle in recent_dles:
+        if dle["url"] not in seen_urls:
+            seen_urls.add(dle["url"])
+            unique_dles.append({
+                "name": dle["name"],
+                "url": dle["url"]
+            })
+
+    print(f"After removing duplicates: {len(unique_dles)} unique dles")
+
+    unique_dles.sort(key=lambda d: d["name"].lower())
+
+    backup_file(NEW_DLES_FILE)
+    write_new_dles(unique_dles)
+
+    print(f"Successfully updated {NEW_DLES_FILE}")
+    print(f"New dles list contains {len(unique_dles)} games")
+
+    if unique_dles:
+        print("\nFirst few entries:")
+        for i, dle in enumerate(unique_dles[:5]):
+            print(f"  {i + 1}. {dle['name']} - {dle['url']}")
+
+        if len(unique_dles) > 5:
+            print(f"  ... and {len(unique_dles) - 5} more")
+
+    return unique_dles
+
+
+def read_metadata():
+    with open(DLES_METADATA_FILE, "r") as f:
+        return json.load(f)
+
+
+def get_max_id():
+    metadata = read_metadata()
+    return int(metadata["max_id"])
+
+
+def write_metadata(key, value):
+    metadata = read_metadata()
+    metadata[key] = value
+    with open(DLES_METADATA_FILE, "w") as f:
+        f.write(json.dumps(metadata, indent=2))
+
+
+def add_ids_to_dles():
+    dles = read_dles()
+    max_id = get_max_id()
+    i = max_id + 1
+    for dle in dles:
+        if "id" not in dle:
+            dle["id"] = i
+            i += 1
+    if i - 1 > max_id:
+        write_metadata("max_id", i - 1)
+    write_dles(dles)
+
+
 if __name__ == "__main__":
     # add_new_dles_to_changelog()
-    add_changes_to_changelog()
+    # add_changes_to_changelog()
+    # update_new_dles_from_changelog(17)
     pass

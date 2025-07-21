@@ -16,9 +16,8 @@
             class="time underline"
             href="https://dles.aukspot.com/changelog#{entry.date}"
           >
-            <time datetime={entry.date}><strong>{entry.date}</strong>:</time>
-          </a>
-
+            <time datetime={entry.date}><strong>{entry.date}</strong></time>:</a
+          >
           <section>{@html entry.description}</section>
         </div>
       {/each}

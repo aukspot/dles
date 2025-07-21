@@ -1,7 +1,9 @@
 @import "@fontsource/fira-mono";
 
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
 
 a {
@@ -13,32 +15,41 @@ a {
 }
 
 .btn {
-  @apply text-base p-1 rounded-md shadow-md shadow-colorNeutralSofter text-colorText border border-colorNeutral active:shadow-none md:text-lg;
+  @apply shadow-colorNeutralSofter text-colorText border-colorNeutral rounded-md
+    border p-1 text-base shadow-md hover:shadow-none active:shadow-none md:text-lg;
 }
 
 .btn:disabled {
   cursor: unset;
-  @apply shadow-none text-colorNeutral bg-colorBackground border-colorNeutralSofter;
+  @apply text-colorNeutral bg-colorBackground border-colorNeutralSofter
+    shadow-none;
 }
 
 .btn-icon {
-  @apply flex justify-center items-center w-9 h-9 rounded fill-colorTextSoft hover:border hover:border-colorNeutralSoft active:shadow-none;
+  @apply fill-colorTextSoft flex h-9 w-9 items-center justify-center rounded
+    hover:border hover:border-colorNeutralSoft active:shadow-none;
 }
 
 .btn-dropdown-menu {
-  @apply z-30 gap-1 p-1 flex justify-between items-center rounded-md text-colorText bg-colorCardB fill-colorTextSofter border-2 border-transparent shadow-md hover:border-2 hover:border-colorTextSofter active:shadow-none;
+  @apply text-colorText bg-colorCardB fill-colorTextSofter z-30 flex items-center
+    justify-between gap-1 rounded-md border-2 border-transparent p-1 shadow-md
+    hover:border-2 hover:border-colorTextSofter active:shadow-none;
 }
 
 .btn-menu-item {
-  @apply gap-1 p-1 flex justify-center items-center text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorTextSofter hover:!bg-colorBackground;
+  @apply text-colorText bg-colorCardB fill-colorTextSoft flex items-center
+    justify-center gap-1 border-2 border-transparent p-1 hover:border-2
+    hover:border-colorTextSofter hover:!bg-colorBackground;
 }
 
 .btn-settings {
-  @apply gap-1 p-1 flex justify-center items-center rounded-md text-colorText bg-colorCardB fill-colorTextSoft border-2 border-transparent hover:border-2 hover:border-colorText;
+  @apply text-colorText bg-colorCardB fill-colorTextSoft flex items-center
+    justify-center gap-1 rounded-md border-2 border-transparent p-1 hover:border-2
+    hover:border-colorText;
 }
 
 .btn-toolbar {
-  @apply flex flex-row justify-center items-center bg-colorCardB rounded-md;
+  @apply bg-colorCardB flex flex-row items-center justify-center rounded-md;
 }
 
 .btn-svg {
@@ -52,7 +63,8 @@ a {
 }
 
 .menu-link {
-  @apply p-2 flex gap-2 justify-center  text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB;
+  @apply text-colorText [&:nth-child(odd)]:bg-colorCardA
+    [&:nth-child(even)]:bg-colorCardB flex justify-center gap-2 p-2;
 }
 
 .only-md {
@@ -60,7 +72,7 @@ a {
 }
 
 .divider {
-  @apply border-t border-colorNeutral;
+  @apply border-colorNeutral border-t;
 }
 
 button:disabled:hover {
@@ -82,15 +94,16 @@ input {
 input[type="number"],
 input[type="text"],
 textarea {
-  @apply p-2 font-mono text-xs sm:text-sm bg-colorBackground rounded border border-colorNeutral placeholder:text-colorTextSofter;
+  @apply font-mono bg-colorBackground border-colorNeutral rounded border p-2
+    text-xs placeholder:text-colorTextSofter sm:text-sm;
 }
 
 textarea {
-  @apply m-2 resize-y min-h-10 max-h-32;
+  @apply min-h-10 m-2 max-h-32 resize-y;
 }
 
 table {
-  @apply my-2 p-1 w-full border-none border-spacing-4 shadow;
+  @apply my-2 w-full border-spacing-4 border-none p-1 shadow;
 }
 
 tr {
@@ -101,9 +114,23 @@ td {
   @apply border-none p-2 text-sm md:text-base;
 }
 
+.bevel {
+  /* 3D bevel effect */
+  border: 2px solid;
+  border-color: theme('colors.colorTextSoftest') theme('colors.colorTextSoft') theme('colors.colorTextSoft') theme('colors.colorTextSoftest');
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.3),
+    inset -1px -1px 0 rgba(0, 0, 0, 0.2),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-
-@layer utilities {
+@layer components {
+  .cardComponent {
+    background-color: var(--color-white);
+    border-radius: var(--rounded-lg);
+    padding: var(--spacing-6);
+    box-shadow: var(--shadow-xl);
+  }
+  
   .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -112,6 +139,7 @@ td {
     -ms-user-select: none;
     user-select: none;
   }
+  
   .grid-cols-var {
     grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
   }

@@ -1,4 +1,5 @@
 <script>
+  import Banner from "$lib/components/Banner.svelte"
   import { changelog } from "$lib/stores"
 </script>
 
@@ -7,6 +8,7 @@
   <meta name="description" content="Changelog for The Dles." />
 </svelte:head>
 
+<Banner />
 <h2 class="my-8 text-2xl text-center">Changelog</h2>
 <div id="changelog">
   {#each $changelog as log}

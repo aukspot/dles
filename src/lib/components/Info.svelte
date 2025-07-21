@@ -34,9 +34,9 @@
   </p>
   <p class="question">Can I help?</p>
   <p class="answer">
-    Sure! You can <a href="{base}/suggest" on:click={hideInfo}>suggest a dle</a>
+    Sure! You can <a href="https://tally.so/r/mOKOea" target="_blank" on:click={hideInfo}>suggest a dle</a>
     or
-    <a href="{base}/report" on:click={hideInfo}>report a bug</a>. If you want to
+    <a href="https://tally.so/r/wQpPpY" target="_blank" on:click={hideInfo}>report a bug</a>. If you want to
     support monetarily, you can
     <a href="https://ko-fi.com/aukspot" target="_blank">donate on Ko-fi</a>.
     Lastly, you can

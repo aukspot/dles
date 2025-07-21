@@ -1,5 +1,436 @@
 [
   {
+    "date": "2025-07-14",
+    "description": "Add dles of the week feature."
+  },
+  {
+    "date": "2025-07-12",
+    "description": "Update link to Disney Heardle."
+  },
+  {
+    "date": "2025-07-06",
+    "description": "Add 12 dles.<br>Remove 1 dle.<br>Fix link to OEC Tradle.<br>Add button to play a random favorite.",
+    "dles added": [
+      {
+        "name": "Basketball 5",
+        "url": "https://basketball-5.com"
+      },
+      {
+        "name": "Bells & Whistles",
+        "url": "https://puzzmallow.com/bells"
+      },
+      {
+        "name": "Buzzled",
+        "url": "https://puzzmallow.com/buzzled"
+      },
+      {
+        "name": "Codenames Daily",
+        "url": "https://codenames.game/daily/en"
+      },
+      {
+        "name": "Collections",
+        "url": "https://puzzmallow.com/collections"
+      },
+      {
+        "name": "Guess The Jumpshot",
+        "url": "https://guessthepro.com/en/games/guess-the-jumpshot"
+      },
+      {
+        "name": "Letteripher",
+        "url": "https://letteripher.com"
+      },
+      {
+        "name": "Matle",
+        "url": "https://www.matle.io"
+      },
+      {
+        "name": "Quickflip",
+        "url": "https://puzzmallow.com/quickflip"
+      },
+      {
+        "name": "Rolldle",
+        "url": "https://www.light.gg/rolldle/"
+      },
+      {
+        "name": "Word to your Mother",
+        "url": "https://w2ym.org"
+      },
+      {
+        "name": "WrestlePlay",
+        "url": "https://wrestleplay.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Jeopardle",
+        "url": "https://jeopardle.co"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-29",
+    "dles added": [
+      {
+        "name": "Alphalock",
+        "url": "https://alphalockgame.net"
+      },
+      {
+        "name": "Bazaar Doku",
+        "url": "https://bazaardb.gg/doku"
+      },
+      {
+        "name": "Birdie Game",
+        "url": "https://birdiegame.net"
+      },
+      {
+        "name": "Cancelwise",
+        "url": "https://cancelwise.com"
+      },
+      {
+        "name": "CarGuesser",
+        "url": "https://carguesser.com"
+      },
+      {
+        "name": "Chronle",
+        "url": "https://chronle.com"
+      },
+      {
+        "name": "Decodex",
+        "url": "https://playdecodex.com"
+      },
+      {
+        "name": "Duolock Game",
+        "url": "https://www.duolockgame.net"
+      },
+      {
+        "name": "Emoji Test",
+        "url": "https://emojitest.com/en"
+      },
+      {
+        "name": "Estimadle",
+        "url": "https://estimadle.com"
+      },
+      {
+        "name": "Estimate Me",
+        "url": "https://estimate-me.aukspot.com"
+      },
+      {
+        "name": "Fluxis",
+        "url": "https://www.theatlantic.com/games/fluxis/"
+      },
+      {
+        "name": "Heardle Daily",
+        "url": "https://www.heardle.info/daily/"
+      },
+      {
+        "name": "Monster Hunter-dle",
+        "url": "https://monster-hunter-dle.akato.fr/classic"
+      },
+      {
+        "name": "Morsle (decipher.wiki)",
+        "url": "https://decipher.wiki/morsle"
+      },
+      {
+        "name": "Nookle",
+        "url": "https://nookle.net"
+      },
+      {
+        "name": "Padlock",
+        "url": "https://www.padlockgame.net"
+      },
+      {
+        "name": "Palwordle",
+        "url": "https://palwordle.net"
+      },
+      {
+        "name": "Pokedle.com",
+        "url": "https://pokedle.com"
+      },
+      {
+        "name": "Quintalist",
+        "url": "https://www.quintalist.com"
+      },
+      {
+        "name": "Redividers",
+        "url": "https://redividers.netlify.app"
+      },
+      {
+        "name": "Silly Little Codes",
+        "url": "https://playsillylittlegames.com/codes"
+      },
+      {
+        "name": "Stacks",
+        "url": "https://www.theatlantic.com/games/stacks/"
+      },
+      {
+        "name": "Swapple",
+        "url": "https://nibble.games/swapple/swapple-easy.html"
+      },
+      {
+        "name": "Tarkovdle",
+        "url": "https://tarkovdle.com"
+      },
+      {
+        "name": "TF2dle",
+        "url": "https://www.tf2dle.com"
+      },
+      {
+        "name": "The Atlantic Crossword",
+        "url": "https://www.theatlantic.com/games/daily-crossword/"
+      },
+      {
+        "name": "Timdle",
+        "url": "https://www.timdle.com"
+      },
+      {
+        "name": "TimeLine Game",
+        "url": "https://www.playtimelines.com"
+      },
+      {
+        "name": "Unshuffle",
+        "url": "https://www.unshuffle.me"
+      },
+      {
+        "name": "Word Ladder",
+        "url": "https://wordladder.com"
+      },
+      {
+        "name": "WordLink",
+        "url": "https://playwordlink.com"
+      },
+      {
+        "name": "Wordloop",
+        "url": "https://word-loop.com"
+      },
+      {
+        "name": "Worpel",
+        "url": "https://playworpel.com"
+      },
+      {
+        "name": "Wrodeo",
+        "url": "https://wrodeo.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Reciple",
+        "url": "https://reciple.net",
+        "reason": "No new daily recipes."
+      },
+      {
+        "name": "Warbl",
+        "url": "https://www.warbl.org",
+        "reason": "Songs do not play."
+      }
+    ],
+    "description": "Add 35 dles. Remove 2 dles.<br>Split Geography/History category into Geography and History."
+  },
+  {
+    "date": "2025-06-24",
+    "description": "Remove 2 dles.<br>Add 7 categories: Card/Board Games, Colors, Estimation, Food, Science/Nature, Shapes/Patterns, Vehicles<br>Remove 1 category: Prices",
+    "dles removed": [
+      {
+        "name": "Colordle",
+        "url": "https://colordle.ryantanen.com",
+        "reason": "Daily puzzle does not change."
+      },
+      {
+        "name": "Dicele",
+        "url": "https://dicele.com",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "date": "2025-06-11",
+    "description": "Add 39 dles. Remove 5 dles.",
+    "dles added": [
+      {
+        "name": "AniGuessr",
+        "url": "https://aniguessr.com"
+      },
+      {
+        "name": "Birdle",
+        "url": "https://www.play-birdle.com"
+      },
+      {
+        "name": "Birdle (like Wordle)",
+        "url": "https://birdle.escism.net"
+      },
+      {
+        "name": "Couplit",
+        "url": "https://couplit.io"
+      },
+      {
+        "name": "Crosstune",
+        "url": "https://crosstune.io"
+      },
+      {
+        "name": "Disordle",
+        "url": "https://disordle.com"
+      },
+      {
+        "name": "Dodeku",
+        "url": "https://dodeku.com"
+      },
+      {
+        "name": "Emoji Quiz - Movies",
+        "url": "https://www.emojiquiz.net/movies"
+      },
+      {
+        "name": "Emoji Quiz - TV",
+        "url": "https://www.emojiquiz.net/tv"
+      },
+      {
+        "name": "Emoji Quiz - Video Games",
+        "url": "https://www.emojiquiz.net/games"
+      },
+      {
+        "name": "Enchant Wordle",
+        "url": "https://enchantworldle.com"
+      },
+      {
+        "name": "Futdoku",
+        "url": "https://futdoku.com"
+      },
+      {
+        "name": "GuessTen",
+        "url": "https://guessten.com"
+      },
+      {
+        "name": "Langle",
+        "url": "https://langle.uk"
+      },
+      {
+        "name": "LinkedIn - Crossclimb",
+        "url": "https://www.linkedin.com/games/crossclimb"
+      },
+      {
+        "name": "LinkedIn - Pinpoint",
+        "url": "https://www.linkedin.com/games/pinpoint"
+      },
+      {
+        "name": "LinkedIn - Queens",
+        "url": "https://www.linkedin.com/games/queens"
+      },
+      {
+        "name": "LinkedIn - Tango",
+        "url": "https://www.linkedin.com/games/tango"
+      },
+      {
+        "name": "LinkedIn - Zip",
+        "url": "https://www.linkedin.com/games/zip"
+      },
+      {
+        "name": "MapTap",
+        "url": "https://maptap.gg"
+      },
+      {
+        "name": "Mathdle",
+        "url": "https://mathdle.app"
+      },
+      {
+        "name": "Musicle",
+        "url": "https://musicle.app"
+      },
+      {
+        "name": "Puzzmo - Bongo",
+        "url": "https://www.puzzmo.com/game/bongo"
+      },
+      {
+        "name": "Puzzmo - Memoku",
+        "url": "https://www.puzzmo.com/play/memoku"
+      },
+      {
+        "name": "Puzzmo - Pile-Up Poker",
+        "url": "https://www.puzzmo.com/play/pile-up-poker"
+      },
+      {
+        "name": "Puzzmo - Weather Memoku",
+        "url": "https://www.puzzmo.com/play/weather-memoku"
+      },
+      {
+        "name": "Quizmoji",
+        "url": "https://quizmoji.com"
+      },
+      {
+        "name": "Quotesed",
+        "url": "https://www.quotesed.com"
+      },
+      {
+        "name": "Retro Game Trivia",
+        "url": "https://retrotrivia.games"
+      },
+      {
+        "name": "Stardewdle",
+        "url": "https://stardewdle.com/game"
+      },
+      {
+        "name": "Steamdle",
+        "url": "https://steamdle.com"
+      },
+      {
+        "name": "Streetfighterdle",
+        "url": "https://streetfighterdle.net"
+      },
+      {
+        "name": "Temple",
+        "url": "https://tck.mn/temple"
+      },
+      {
+        "name": "Three Magic Words",
+        "url": "https://www.threemagicwords.app/play"
+      },
+      {
+        "name": "TFTdle",
+        "url": "https://tftdle.gg/classic"
+      },
+      {
+        "name": "Tracell",
+        "url": "https://tracellgame.com"
+      },
+      {
+        "name": "Truncate",
+        "url": "https://truncate.town"
+      },
+      {
+        "name": "Wildlife Sudoku",
+        "url": "https://flagdoku.com/wildlife.html"
+      },
+      {
+        "name": "Wordcrux",
+        "url": "https://wordcrux.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Chronoline",
+        "url": "https://chronoline.app/daily",
+        "reason": "The daily challenge does not work."
+      },
+      {
+        "name": "Geographle",
+        "url": "https://geographle.com",
+        "reason": "Daily puzzles do not load."
+      },
+      {
+        "name": "Listed",
+        "url": "https://listed.fun",
+        "reason": "The game has been concluded."
+      },
+      {
+        "name": "Order Up",
+        "url": "https://orderup.games",
+        "reason": "The game has been paused."
+      },
+      {
+        "name": "Outword",
+        "url": "https://outword.me",
+        "reason": "The website does not load."
+      }
+    ]
+  },
+  {
     "date": "2025-05-15",
     "description": "Remove 1 dle. ",
     "dles removed": [

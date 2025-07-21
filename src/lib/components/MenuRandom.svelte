@@ -1,5 +1,5 @@
 <script>
-  import { isLocalStorageAvailable, openInNewTab } from "$lib/js/utilities"
+  import { isLocalStorageAvailable, playRandom } from "$lib/js/utilities"
   import { categories, dles, randomCategories } from "$lib/stores"
   import { onMount } from "svelte"
   import DropdownMenu from "./DropdownMenu.svelte"
@@ -33,13 +33,6 @@
     updateOptions()
   }
 
-  function playRandom() {
-    if (options.length != 0) {
-      const choice = options[Math.floor(Math.random() * options.length)]
-      openInNewTab(choice.url)
-    }
-  }
-
   onMount(() => {
     updateOptions()
   })
@@ -54,7 +47,7 @@
   <div class="flex justify-center">
     <button
       class="menu-link btn-menu-item rounded-md shadow-sm shadow-colorTextSofter active:shadow-none"
-      on:click={playRandom}
+      on:click={() => playRandom(options)}
     >
       Go! (opens in new tab)</button
     >

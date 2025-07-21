@@ -3,6 +3,7 @@
   import dles_json from "$lib/data/dles.json"
   import new_dles_json from "$lib/data/new_dles.json"
   import changelog_json from "$lib/data/changelog.json"
+  import dles_of_the_week_json from "$lib/data/dles_of_the_week.json"
 
   import {
     categories,
@@ -14,15 +15,17 @@
     filteredDles,
     infoHidden,
     randomCategories,
-    tagNames,
-    tags,
+    dlesOfTheWeek,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
   import { onMount } from "svelte"
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import {
+    getCurrentDlesOfTheWeek,
+    isLocalStorageAvailable,
+  } from "$lib/js/utilities"
   import LatestChange from "$lib/components/LatestChange.svelte"
 
   onMount(() => {
@@ -47,48 +50,17 @@
     $newDles = new_dles_json
   }
 
-  function initializeTags() {
-    $tagNames = $dles
-      .map((dle) => dle.tags)
-      .flat()
-      .filter((x, i, a) => a.indexOf(x) == i)
-      .sort()
-
-    $tags = {}
-    for (let tag_name of $tagNames) {
-      $tags[tag_name] = {
-        included: false,
-        excluded: false,
-      }
-    }
-  }
-
   function initializeChangelog() {
     $changelog = changelog_json
   }
 
   initializeDles()
   initializeNewDles()
-  initializeTags()
   initializeChangelog()
 
   for (let category of $categories) {
     $categorizedDles[category] = $dles.filter((dle) => dle.category == category)
   }
-
-  $: includedTags = $tagNames.filter((tagName) => $tags[tagName].included)
-  $: excludedTags = $tagNames.filter((tagName) => $tags[tagName].excluded)
-
-  $: $filteredDles = $dles.filter((dle) => {
-    let result = false
-    if (includedTags.every((tag) => dle.tags.includes(tag))) {
-      result = true
-    }
-    if (excludedTags.some((tag) => dle.tags.includes(tag))) {
-      result = false
-    }
-    return result
-  })
 
   $: {
     for (let category of $categories) {
@@ -97,6 +69,13 @@
       )
     }
   }
+
+  let currentDlesOfTheWeek = getCurrentDlesOfTheWeek(dles_of_the_week_json)
+
+  $: $filteredDles = $dles
+  $: $dlesOfTheWeek = $filteredDles.filter((dle) =>
+    currentDlesOfTheWeek["dle_ids"].includes(dle.id),
+  )
 
   let loading = true
   onMount(() => {
@@ -110,7 +89,7 @@
 <div class="w-full text-colorText bg-colorBackground">
   <div class="flex flex-col max-w-screen-xl mx-auto">
     <main
-      class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border"
+      class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border bg-colorBackground"
     >
       <div>
         <Header />

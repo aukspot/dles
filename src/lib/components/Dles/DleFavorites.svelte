@@ -1,10 +1,17 @@
 <script>
-  import { favorites, categoryColors } from "$lib/stores"
+  import { favorites, categoryColors, dles } from "$lib/stores"
+  import { playRandom } from "$lib/js/utilities"
   import { categoryIcons } from "$lib/js/categoryIcons"
+  import IconRandom from "$lib/components/Icons/IconRandom.svelte"
+  import FavoriteButton from "$lib/components/Buttons/FavoriteButton.svelte"
   import { onMount } from "svelte"
   import { base } from "$app/paths"
-  import FavoriteButton from "../Buttons/FavoriteButton.svelte"
+
   let loading = true
+  $: nonFavorites = $dles.filter(
+    (dle) => !$favorites.find((f) => f.name === dle.name),
+  )
+
   onMount(() => {
     loading = false
   })
@@ -26,11 +33,6 @@
 
 {#if !loading}
   <h2 class="my-2 text-2xl text-center underline">Favorites</h2>
-  <p class="pb-4 px-4 text-sm text-center mb-2">
-    <strong>Note</strong>: favorites are a new feature, so please
-    <a href="{base}/report" class="underline">report a bug</a> if you run into a
-    problem!
-  </p>
   {#if $favorites.length === 0}
     <p class="text-center">No favorites.</p>
   {:else}
@@ -40,6 +42,12 @@
       >
       <button class="btn w-40 !text-sm" on:click={sortAlphabetically}
         >Sort Alphabetically</button
+      >
+    </div>
+
+    <div class="flex justify-center my-4">
+      <button class="btn-dropdown-menu" on:click={() => playRandom($favorites)}>
+        <IconRandom /> Play random favorite!</button
       >
     </div>
   {/if}

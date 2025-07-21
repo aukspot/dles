@@ -1,5 +1,4 @@
 <script>
-  import DleTagGroup from "./DleTagGroup.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
   export let i
   export let dle
@@ -15,9 +14,6 @@
     </div>
     <div class="cardDescription">
       {dle.description}
-    </div>
-    <div class="mt-2">
-      <DleTagGroup tags={dle.tags}></DleTagGroup>
     </div>
   </div>
 

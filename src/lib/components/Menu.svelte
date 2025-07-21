@@ -19,11 +19,11 @@
   <h3 class="pb-1 my-1 text-center text-lg border-b border-colorTextSoftest">
     How to help
   </h3>
-  <div data-sveltekit-reload>
-    <a class="menu-link btn-menu-item" href="{base}/suggest"
+  <div>
+    <a class="menu-link btn-menu-item" href="https://tally.so/r/mOKOea" target="_blank"
       ><IconSuggest /> Suggest a game</a
     >
-    <a class="menu-link btn-menu-item" href="{base}/report"
+    <a class="menu-link btn-menu-item" href="https://tally.so/r/wQpPpY" target="_blank"
       ><IconBug /> Report a bug</a
     >
     <a
