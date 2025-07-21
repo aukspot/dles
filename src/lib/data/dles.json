@@ -1750,6 +1750,12 @@
     "id": 250
   },
   {
+    "name": "NBAGrid",
+    "url": "https://www.nbagr.id",
+    "description": "Guess a grid of NBA players that fit into specific categories.",
+    "category": "Sports"
+  },
+  {
     "name": "Nerdle",
     "url": "https://nerdlegame.com",
     "description": "Guess the secret arithmetic equation.",
