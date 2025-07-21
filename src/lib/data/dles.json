@@ -1751,12 +1751,8 @@
   },
   {
     "name": "NBAGrid",
-    "url": "https://nbagrid.pythonanywhere.com",
+    "url": "https://www.nbagr.id",
     "description": "Guess a grid of NBA players that fit into specific categories.",
-    "tags": [
-      "basketball",
-      "sports"
-    ],
     "category": "Sports"
   },
   {
