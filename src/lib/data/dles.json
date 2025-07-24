@@ -3183,5 +3183,11 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
+  },
+  {
+    "name": "Gamedle Character",
+    "url": "https://www.gamedle.wtf/characters",
+    "description": "Guess the video game character by their artwork.",
+    "category": "Video Games"
   }
 ]
