@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-07-24
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                                    | url                                                                      |
+|---:|:--------------------------------------------------------|:-------------------------------------------------------------------------|
+|  1 | [Gamedle Character](https://www.gamedle.wtf/characters) | [https://www.gamedle.wtf/characters](https://www.gamedle.wtf/characters) |
+
 ## 2025-07-21
 
 Add 1 dle. 

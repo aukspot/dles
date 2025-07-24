@@ -924,6 +924,13 @@
     "id": 132
   },
   {
+    "name": "Gamedle Character",
+    "url": "https://www.gamedle.wtf/characters",
+    "description": "Guess the video game character by their artwork.",
+    "category": "Video Games",
+    "id": 456
+  },
+  {
     "name": "Gamedle Classic",
     "url": "https://www.gamedle.wtf/classic",
     "description": "Guess the video game by its cover.",
@@ -3183,11 +3190,5 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
-  },
-  {
-    "name": "Gamedle Character",
-    "url": "https://www.gamedle.wtf/characters",
-    "description": "Guess the video game character by their artwork.",
-    "category": "Video Games"
   }
 ]
