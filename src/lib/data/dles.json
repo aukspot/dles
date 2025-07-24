@@ -3188,7 +3188,6 @@
     "name": "Gamedle Character",
     "url": "https://www.gamedle.wtf/characters",
     "description": "Guess the video game character by their artwork.",
-    "category": "Video Games",
-    "id": 455
+    "category": "Video Games"
   }
 ]
