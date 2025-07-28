@@ -1,5 +1,15 @@
 # Changelog - The Dles
 
+## 2025-07-28
+
+Remove 2 dles. 
+
+
+dles removed: 
+|    | name                                                             | url                                                                                                              |
+|---:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
+|  1 | [QuickQ](https://www.quickqtrivia.com)                           | [https://www.quickqtrivia.com](https://www.quickqtrivia.com)                                                     |
+|  2 | [Sorted](https://puzzles-prod.telegraph.co.uk/sorted/index.html) | [https://puzzles-prod.telegraph.co.uk/sorted/index.html](https://puzzles-prod.telegraph.co.uk/sorted/index.html) |
 ## 2025-07-24
 
 Add 1 dle. 

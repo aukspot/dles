@@ -890,7 +890,7 @@
   },
   {
     "name": "Foodguessr",
-    "url": "https://www.foodguessr.com/daily",
+    "url": "https://www.foodguessr.com",
     "description": "Guess what country each of the food dishes are from.",
     "category": "Food",
     "id": 128
@@ -2156,13 +2156,6 @@
     "id": 306
   },
   {
-    "name": "QuickQ",
-    "url": "https://www.quickqtrivia.com",
-    "description": "A 90 second trivia game with questions from 8 categories.",
-    "category": "Trivia",
-    "id": 307
-  },
-  {
     "name": "Quintalist",
     "url": "https://www.quintalist.com",
     "description": "Correctly choose the top 5 entries in 5 tries or fewer.",
@@ -2434,13 +2427,6 @@
     "description": "Guess the song from listening to small parts of it.",
     "category": "Music",
     "id": 346
-  },
-  {
-    "name": "Sorted",
-    "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
-    "description": "Place the items in the correct order, 3 new rounds everyday.",
-    "category": "Trivia",
-    "id": 347
   },
   {
     "name": "Soulsborndle",

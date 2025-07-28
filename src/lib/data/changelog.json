@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-07-28",
+    "dles removed": [
+      {
+        "name": "QuickQ",
+        "url": "https://www.quickqtrivia.com"
+      },
+      {
+        "name": "Sorted",
+        "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html"
+      }
+    ],
+    "description": "Remove 2 dles. "
+  },
+  {
     "date": "2025-07-24",
     "dles added": [
       {
