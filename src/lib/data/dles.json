@@ -890,7 +890,7 @@
   },
   {
     "name": "Foodguessr",
-    "url": "https://www.foodguessr.com/daily",
+    "url": "https://www.foodguessr.com",
     "description": "Guess what country each of the food dishes are from.",
     "category": "Food",
     "id": 128
@@ -922,6 +922,13 @@
     "description": "Guess the video game by its artwork.",
     "category": "Video Games",
     "id": 132
+  },
+  {
+    "name": "Gamedle Character",
+    "url": "https://www.gamedle.wtf/characters",
+    "description": "Guess the video game character by their artwork.",
+    "category": "Video Games",
+    "id": 456
   },
   {
     "name": "Gamedle Classic",
@@ -1741,6 +1748,13 @@
     "description": "Guess the song based on selected frames from its music video.",
     "category": "Music",
     "id": 249
+  },
+  {
+    "name": "NBAGrid",
+    "url": "https://www.nbagr.id",
+    "description": "Guess a grid of NBA players that fit into specific categories.",
+    "category": "Sports",
+    "id": 455
   },
   {
     "name": "Neighborle",
