@@ -1,39 +1,15 @@
 [
   {
-    "name": "Alphalock",
-    "url": "https://alphalockgame.net"
-  },
-  {
     "name": "Basketball 5",
     "url": "https://basketball-5.com"
-  },
-  {
-    "name": "Bazaar Doku",
-    "url": "https://bazaardb.gg/doku"
   },
   {
     "name": "Bells & Whistles",
     "url": "https://puzzmallow.com/bells"
   },
   {
-    "name": "Birdie Game",
-    "url": "https://birdiegame.net"
-  },
-  {
     "name": "Buzzled",
     "url": "https://puzzmallow.com/buzzled"
-  },
-  {
-    "name": "Cancelwise",
-    "url": "https://cancelwise.com"
-  },
-  {
-    "name": "CarGuesser",
-    "url": "https://carguesser.com"
-  },
-  {
-    "name": "Chronle",
-    "url": "https://chronle.com"
   },
   {
     "name": "Codenames Daily",
@@ -44,40 +20,12 @@
     "url": "https://puzzmallow.com/collections"
   },
   {
-    "name": "Decodex",
-    "url": "https://playdecodex.com"
-  },
-  {
-    "name": "Duolock Game",
-    "url": "https://www.duolockgame.net"
-  },
-  {
-    "name": "Emoji Test",
-    "url": "https://emojitest.com/en"
-  },
-  {
-    "name": "Estimadle",
-    "url": "https://estimadle.com"
-  },
-  {
-    "name": "Estimate Me",
-    "url": "https://estimate-me.aukspot.com"
-  },
-  {
-    "name": "Fluxis",
-    "url": "https://www.theatlantic.com/games/fluxis/"
-  },
-  {
     "name": "Gamedle Character",
     "url": "https://www.gamedle.wtf/characters"
   },
   {
     "name": "Guess The Jumpshot",
     "url": "https://guessthepro.com/en/games/guess-the-jumpshot"
-  },
-  {
-    "name": "Heardle Daily",
-    "url": "https://www.heardle.info/daily/"
   },
   {
     "name": "Letteripher",
@@ -88,111 +36,23 @@
     "url": "https://www.matle.io"
   },
   {
-    "name": "Monster Hunter-dle",
-    "url": "https://monster-hunter-dle.akato.fr/classic"
-  },
-  {
-    "name": "Morsle (decipher.wiki)",
-    "url": "https://decipher.wiki/morsle"
-  },
-  {
     "name": "NBAGrid",
     "url": "https://www.nbagr.id"
-  },
-  {
-    "name": "Nookle",
-    "url": "https://nookle.net"
-  },
-  {
-    "name": "Padlock",
-    "url": "https://www.padlockgame.net"
-  },
-  {
-    "name": "Palwordle",
-    "url": "https://palwordle.net"
-  },
-  {
-    "name": "Pokedle.com",
-    "url": "https://pokedle.com"
   },
   {
     "name": "Quickflip",
     "url": "https://puzzmallow.com/quickflip"
   },
   {
-    "name": "Quintalist",
-    "url": "https://www.quintalist.com"
-  },
-  {
-    "name": "Redividers",
-    "url": "https://redividers.netlify.app"
-  },
-  {
     "name": "Rolldle",
     "url": "https://www.light.gg/rolldle/"
-  },
-  {
-    "name": "Silly Little Codes",
-    "url": "https://playsillylittlegames.com/codes"
-  },
-  {
-    "name": "Stacks",
-    "url": "https://www.theatlantic.com/games/stacks/"
-  },
-  {
-    "name": "Swapple",
-    "url": "https://nibble.games/swapple/swapple-easy.html"
-  },
-  {
-    "name": "Tarkovdle",
-    "url": "https://tarkovdle.com"
-  },
-  {
-    "name": "TF2dle",
-    "url": "https://www.tf2dle.com"
-  },
-  {
-    "name": "The Atlantic Crossword",
-    "url": "https://www.theatlantic.com/games/daily-crossword/"
-  },
-  {
-    "name": "Timdle",
-    "url": "https://www.timdle.com"
-  },
-  {
-    "name": "TimeLine Game",
-    "url": "https://www.playtimelines.com"
-  },
-  {
-    "name": "Unshuffle",
-    "url": "https://www.unshuffle.me"
-  },
-  {
-    "name": "Word Ladder",
-    "url": "https://wordladder.com"
   },
   {
     "name": "Word to your Mother",
     "url": "https://w2ym.org"
   },
   {
-    "name": "WordLink",
-    "url": "https://playwordlink.com"
-  },
-  {
-    "name": "Wordloop",
-    "url": "https://word-loop.com"
-  },
-  {
-    "name": "Worpel",
-    "url": "https://playworpel.com"
-  },
-  {
     "name": "WrestlePlay",
     "url": "https://wrestleplay.com"
-  },
-  {
-    "name": "Wrodeo",
-    "url": "https://wrodeo.com"
   }
 ]
