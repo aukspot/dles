@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2025-08-08
+
+Fix bug where DLES of the week could not be favorited.
+
+
 ## 2025-07-28
 
 Remove 2 dles. 
