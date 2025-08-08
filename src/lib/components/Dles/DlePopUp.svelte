@@ -2,7 +2,8 @@
   import { poppedUpDle } from "$lib/stores"
   import IconClose from "../Icons/IconClose.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
-  export let dle, pageX, pageY, clientY
+  import { clickOutside } from "$lib/js/clickOutside"
+  export let dle, pageX, pageY, clientY, handleClickOutside
 
   let width = 310
   let height =
@@ -27,7 +28,7 @@
   }
 </script>
 
-<div class="dlePopUp bevel" style="left: {pageX}px; top: {pageY}px; width: {width}px">
+<div class="dlePopUp bevel" style="left: {pageX}px; top: {pageY}px; width: {width}px" use:clickOutside on:click_outside={handleClickOutside}>
   <div class="flex justify-around items-start gap-2">
     <DleFavorite {dle} />
 

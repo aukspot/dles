@@ -3,7 +3,6 @@
   import { openInNewTab } from "$lib/js/utilities"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
-  import { clickOutside } from "$lib/js/clickOutside"
 
   export let pageX
   export let pageY
@@ -14,19 +13,18 @@
     return $newDles.filter((d) => d.url === dle.url).length === 1
   }
 
-  function resetPoppedUpDle() {
+  function handleClickOutside(event) {
+    const originalEvent = event.detail?.originalEvent
+    const target = originalEvent?.target
+    
+    // Don't close if clicking inside the popup
+    if (target && target.closest('.dlePopUp')) {
+      return
+    }
+    
     $poppedUpDle = ""
   }
 
-  function handleKeyUp(event) {
-    if (event.key == "Escape") {
-      resetPoppedUpDle()
-    }
-  }
-
-  function handleClickOutside() {
-    resetPoppedUpDle()
-  }
 </script>
 
 <div>
@@ -52,9 +50,7 @@
           {/if}
         </div>
         {#if $poppedUpDle === dle.name}
-          <div use:clickOutside on:click_outside={handleClickOutside}>
-            <DlePopUp {dle} {pageX} {pageY} {clientY} />
-          </div>
+          <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} />
         {/if}
       </li>
     {/each}

@@ -1,5 +1,9 @@
 [
   {
+    "date": "2025-08-08",
+    "description": "Fix bug where DLES of the week could not be favorited."
+  },
+  {
     "date": "2025-07-28",
     "dles removed": [
       {

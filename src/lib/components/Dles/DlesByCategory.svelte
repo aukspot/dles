@@ -13,7 +13,6 @@
   import IconNew from "../Icons/IconNew.svelte"
 
   import { categoryIcons } from "$lib/js/categoryIcons"
-  import { clickOutside } from "$lib/js/clickOutside"
   import { base } from "$app/paths"
   import Banner from "../Banner.svelte"
   import { openInNewTab } from "$lib/js/utilities"
@@ -34,9 +33,6 @@
     }
   }
 
-  function handleClickOutside() {
-    resetPoppedUpDle()
-  }
 </script>
 
 <svelte:window on:resize={resetPoppedUpDle} />
