@@ -1,20 +1,5 @@
 # Changelog - The Dles
 
-## 2025-08-31
-
-Add 2 dles. Remove 2 dles. 
-
-dles added: 
-|    | name                                           | url                                                                  |
-|---:|:-----------------------------------------------|:---------------------------------------------------------------------|
-|  1 | [Jeopardy 6](https://www.jeopardy.com/play/j6) | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6) |
-|  2 | [Tescodle](https://tescodle.com/)              | [https://tescodle.com/](https://tescodle.com/)                       |
-
-dles removed: 
-|    | name                                         | url                                                                  |
-|---:|:---------------------------------------------|:---------------------------------------------------------------------|
-|  1 | [Jeopardy](https://www.jeopardy.com/play/j6) | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6) |
-|  2 | [Tescodle-FLAGGED](https://tescodle.com/)    | [https://tescodle.com/](https://tescodle.com/)                       |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
