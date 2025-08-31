@@ -5,15 +5,23 @@
       {
         "name": "Jeopardy 6",
         "url": "https://www.jeopardy.com/play/j6"
+      },
+      {
+        "name": "Tescodle",
+        "url": "https://tescodle.com/"
       }
     ],
     "dles removed": [
       {
         "name": "Jeopardy",
         "url": "https://www.jeopardy.com/play/j6"
+      },
+      {
+        "name": "Tescodle-FLAGGED",
+        "url": "https://tescodle.com/"
       }
     ],
-    "description": "Add 1 dle. Remove 1 dle. "
+    "description": "Add 2 dles. Remove 2 dles. "
   },
   {
     "date": "2025-08-30",

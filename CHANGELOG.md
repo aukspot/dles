@@ -2,17 +2,19 @@
 
 ## 2025-08-31
 
-Add 1 dle. Remove 1 dle. 
+Add 2 dles. Remove 2 dles. 
 
 dles added: 
 |    | name                                           | url                                                                  |
 |---:|:-----------------------------------------------|:---------------------------------------------------------------------|
 |  1 | [Jeopardy 6](https://www.jeopardy.com/play/j6) | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6) |
+|  2 | [Tescodle](https://tescodle.com/)              | [https://tescodle.com/](https://tescodle.com/)                       |
 
 dles removed: 
 |    | name                                         | url                                                                  |
 |---:|:---------------------------------------------|:---------------------------------------------------------------------|
 |  1 | [Jeopardy](https://www.jeopardy.com/play/j6) | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6) |
+|  2 | [Tescodle-FLAGGED](https://tescodle.com/)    | [https://tescodle.com/](https://tescodle.com/)                       |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
@@ -67,7 +69,7 @@ dles added:
 | 45 | [Stars](https://inkwellgames.com/games/stars)                   | [https://inkwellgames.com/games/stars](https://inkwellgames.com/games/stars)                   |
 | 46 | [Supervivedle](https://supervivedle.com)                        | [https://supervivedle.com](https://supervivedle.com)                                           |
 | 47 | [Tally Game](https://tally-game.com)                            | [https://tally-game.com](https://tally-game.com)                                               |
-| 48 | [Tescodle-FLAGGED](https://tescodle.com/)                       | [https://tescodle.com/](https://tescodle.com/)                                                 |
+| 48 | [Tescodle](https://tescodle.com/)                               | [https://tescodle.com/](https://tescodle.com/)                                                 |
 | 49 | [Totem Words](https://totemwords.com)                           | [https://totemwords.com](https://totemwords.com)                                               |
 | 50 | [Traindle](https://www.traindle.io)                             | [https://www.traindle.io](https://www.traindle.io)                                             |
 | 51 | [Treasure Guessr](https://play.treasureguessr.com)              | [https://play.treasureguessr.com](https://play.treasureguessr.com)                             |
