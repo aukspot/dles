@@ -6,7 +6,7 @@
   <title>The Dles - a curated collection of daily games.</title>
   <meta
     name="description"
-    content="A curated collection of free daily games. Contains 400+ games, like Wordle, Connections, Bandle, and many more."
+    content="A curated collection of free daily games. Contains 500+ games, like Wordle, Connections, Bandle, and many more."
   />
   <meta
     name="keywords"
@@ -20,7 +20,7 @@
   <meta property="og:locale" content="en_US" />
   <meta
     property="og:description"
-    content="A curated collection of dles, or free daily games. Contains 400+ games - like Wordle, Connections, Bandle, and many more."
+    content="A curated collection of dles, or free daily games. Contains 500+ games - like Wordle, Connections, Bandle, and many more."
   />
 </svelte:head>
 <DleList />
