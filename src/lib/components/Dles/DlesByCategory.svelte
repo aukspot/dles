@@ -59,8 +59,7 @@
       </div>
     {/if}
     {#each $categories as category, i (i)}
-      {@const categoryThemes = $categorizedDles[category] || {}}
-      {@const categoryDles = Object.values(categoryThemes).flat()}
+      {@const categoryDles = $categorizedDles[category] || []}
       {#if categoryDles.length !== 0}
         <div class="card">
           <div
