@@ -1536,20 +1536,20 @@
     "id": 479
   },
   {
-    "name": "LA Times Word Search",
-    "url": "https://www.latimes.com/games/wordsearch",
-    "description": "A daily word search puzzle from the Los Angeles Times.",
-    "category": "Words",
-    "theme": "Find words",
-    "id": 480
-  },
-  {
     "name": "LA Times Sudoku",
     "url": "https://www.latimes.com/games/sudoku",
     "description": "Daily sudoku puzzles across 5 difficulties from the Los Angeles Times.",
     "category": "Math/Logic",
     "theme": "Sudoku",
     "id": 481
+  },
+  {
+    "name": "LA Times Word Search",
+    "url": "https://www.latimes.com/games/wordsearch",
+    "description": "A daily word search puzzle from the Los Angeles Times.",
+    "category": "Words",
+    "theme": "Find words",
+    "id": 480
   },
   {
     "name": "LA Times Wordflower",

@@ -92,12 +92,12 @@
     "url": "https://www.latimes.com/games/mini-crossword"
   },
   {
-    "name": "LA Times Mini",
-    "url": "https://www.latimes.com/games/wordsearch"
-  },
-  {
     "name": "LA Times Sudoku",
     "url": "https://www.latimes.com/games/sudoku"
+  },
+  {
+    "name": "LA Times Word Search",
+    "url": "https://www.latimes.com/games/wordsearch"
   },
   {
     "name": "LA Times Wordflower",

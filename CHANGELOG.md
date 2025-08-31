@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-08-31
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                                             | url                                                                                  |
+|---:|:-----------------------------------------------------------------|:-------------------------------------------------------------------------------------|
+|  1 | [LA Times Word Search](https://www.latimes.com/games/wordsearch) | [https://www.latimes.com/games/wordsearch](https://www.latimes.com/games/wordsearch) |
+
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
