@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2025-08-31
+
+Add 1 dle. Remove 1 dle. 
+
+dles added: 
+|    | name                                              | url                                                                                |
+|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------------|
+|  1 | [Noggle](https://nibble.games/noggle/noggle.html) | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html) |
+
+dles removed: 
+|    | name                                              | url                                                                                |
+|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------------|
+|  1 | [Nibble](https://nibble.games/noggle/noggle.html) | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html) |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
@@ -37,7 +50,7 @@ dles added:
 | 28 | [Mcbirdle](https://kendisc.com/mcbirdle)                         | [https://kendisc.com/mcbirdle](https://kendisc.com/mcbirdle)                                   |
 | 29 | [Mcdle](https://www.mcdle.net)                                   | [https://www.mcdle.net](https://www.mcdle.net)                                                 |
 | 30 | [Meleedle](https://meleedle.netlify.app/)                        | [https://meleedle.netlify.app/](https://meleedle.netlify.app/)                                 |
-| 31 | [Nibble](https://nibble.games/noggle/noggle.html)                | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html)             |
+| 31 | [Noggle](https://nibble.games/noggle/noggle.html)                | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html)             |
 | 32 | [NYT Pips](https://www.nytimes.com/games/pips)                   | [https://www.nytimes.com/games/pips](https://www.nytimes.com/games/pips)                       |
 | 33 | [Omiword](https://www.omiword.com)                               | [https://www.omiword.com](https://www.omiword.com)                                             |
 | 34 | [Parlorbox](https://parlorbox.com/)                              | [https://parlorbox.com/](https://parlorbox.com/)                                               |

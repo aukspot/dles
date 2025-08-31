@@ -2039,18 +2039,18 @@
     "id": 252
   },
   {
-    "name": "Nibble",
-    "url": "https://nibble.games/noggle/noggle.html",
-    "description": "A daily logic puzzle with a touch of learning and trivia",
-    "category": "Trivia",
-    "id": 487
-  },
-  {
     "name": "Nodes",
     "url": "https://www.nodes-game.com",
     "description": "A puzzle game where you connect dots to reveal beautiful images.",
     "category": "Shapes/Patterns",
     "id": 253
+  },
+  {
+    "name": "Noggle",
+    "url": "https://nibble.games/noggle/noggle.html",
+    "description": "A daily logic puzzle with a touch of learning and trivia.",
+    "category": "Trivia",
+    "id": 487
   },
   {
     "name": "Nookle",
@@ -3553,7 +3553,7 @@
   },
   {
     "name": "Wordspan",
-    "url": "https://Puzzmallow.com/wordspan",
+    "url": "https://puzzmallow.com/wordspan",
     "description": "Guess the 5-letter word based on where adjacent letters relatively appear in the alphabet.",
     "category": "Words",
     "id": 512
