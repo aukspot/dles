@@ -1,5 +1,78 @@
 # Changelog - The Dles
 
+## 2025-08-30
+
+Add 58 dles. Remove 4 dles. 
+
+dles added: 
+|    | name                                                            | url                                                                                            |
+|---:|:----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+|  1 | [Ace Attorneydle](https://aceattorneydle.fr)                    | [https://aceattorneydle.fr](https://aceattorneydle.fr)                                         |
+|  2 | [Anidle](https://anidle.net)                                    | [https://anidle.net](https://anidle.net)                                                       |
+|  3 | [Avatardle](https://avatardle.com/home)                         | [https://avatardle.com/home](https://avatardle.com/home)                                       |
+|  4 | [Blockle](https://blockle.au)                                   | [https://blockle.au](https://blockle.au)                                                       |
+|  5 | [Clasherdle](https://clasherdle.pixelcrux.com/)                 | [https://clasherdle.pixelcrux.com/](https://clasherdle.pixelcrux.com/)                         |
+|  6 | [Daily Analogy](https://dailyanalogy.com)                       | [https://dailyanalogy.com](https://dailyanalogy.com)                                           |
+|  7 | [Daily Crypticle](https://dailycrypticle.com/dailyclue.html)    | [https://dailycrypticle.com/dailyclue.html](https://dailycrypticle.com/dailyclue.html)         |
+|  8 | [Eater of Wordles](https://hexdecima.github.io/eowordles/)      | [https://hexdecima.github.io/eowordles/](https://hexdecima.github.io/eowordles/)               |
+|  9 | [Elemingle](https://elemingle.com)                              | [https://elemingle.com](https://elemingle.com)                                                 |
+| 10 | [Etyle](https://www.etyle.app)                                  | [https://www.etyle.app](https://www.etyle.app)                                                 |
+| 11 | [Fields](https://inkwellgames.com/games/fields)                 | [https://inkwellgames.com/games/fields](https://inkwellgames.com/games/fields)                 |
+| 12 | [FlashPopTiles](https://flashpoptiles.com)                      | [https://flashpoptiles.com](https://flashpoptiles.com)                                         |
+| 13 | [Forgeous](https://forgeous.fun)                                | [https://forgeous.fun](https://forgeous.fun)                                                   |
+| 14 | [Framedle](https://framedle.org)                                | [https://framedle.org](https://framedle.org)                                                   |
+| 15 | [Futbol 11](https://futbol-11.com/)                             | [https://futbol-11.com/](https://futbol-11.com/)                                               |
+| 16 | [Hexle](https://frankljin.github.io/hexle/)                     | [https://frankljin.github.io/hexle/](https://frankljin.github.io/hexle/)                       |
+| 17 | [Hoopgrids](https://www.hoopgrids.com)                          | [https://www.hoopgrids.com](https://www.hoopgrids.com)                                         |
+| 18 | [HOTSdle](https://hotsdle.zgame.studio/)                        | [https://hotsdle.zgame.studio/](https://hotsdle.zgame.studio/)                                 |
+| 19 | [Jeopardy](https://www.jeopardy.com/play/j6)                    | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6)                           |
+| 20 | [Keyboard Lines](https://keyboardlines.com)                     | [https://keyboardlines.com](https://keyboardlines.com)                                         |
+| 21 | [Knotilus](https://knotil.us)                                   | [https://knotil.us](https://knotil.us)                                                         |
+| 22 | [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle)  | [https://www.latimes.com/games/jigsaw-puzzle](https://www.latimes.com/games/jigsaw-puzzle)     |
+| 23 | [LA Times Mini](https://www.latimes.com/games/mini-crossword)   | [https://www.latimes.com/games/mini-crossword](https://www.latimes.com/games/mini-crossword)   |
+| 24 | [LA Times Mini](https://www.latimes.com/games/wordsearch)       | [https://www.latimes.com/games/wordsearch](https://www.latimes.com/games/wordsearch)           |
+| 25 | [LA Times Sudoku](https://www.latimes.com/games/sudoku)         | [https://www.latimes.com/games/sudoku](https://www.latimes.com/games/sudoku)                   |
+| 26 | [LA Times Wordflower](https://www.latimes.com/games/wordflower) | [https://www.latimes.com/games/wordflower](https://www.latimes.com/games/wordflower)           |
+| 27 | [Leetle](https://leetle.app/)                                   | [https://leetle.app/](https://leetle.app/)                                                     |
+| 28 | [Mcbirdle](https://kendisc.com/mcbirdle)                        | [https://kendisc.com/mcbirdle](https://kendisc.com/mcbirdle)                                   |
+| 29 | [Mcdle](https://www.mcdle.net)                                  | [https://www.mcdle.net](https://www.mcdle.net)                                                 |
+| 30 | [Meleedle](https://meleedle.netlify.app/)                       | [https://meleedle.netlify.app/](https://meleedle.netlify.app/)                                 |
+| 31 | [Nibble](https://nibble.games/noggle/noggle.html)               | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html)             |
+| 32 | [NYT Pips](https://www.nytimes.com/games/pips)                  | [https://www.nytimes.com/games/pips](https://www.nytimes.com/games/pips)                       |
+| 33 | [Omiword](https://www.omiword.com)                              | [https://www.omiword.com](https://www.omiword.com)                                             |
+| 34 | [Parlorbox](https://parlorbox.com/)                             | [https://parlorbox.com/](https://parlorbox.com/)                                               |
+| 35 | [Pikadoku](https://pikadoku.dentotino.com)                      | [https://pikadoku.dentotino.com](https://pikadoku.dentotino.com)                               |
+| 36 | [Pimantle](https://semantle.pimanrul.es)                        | [https://semantle.pimanrul.es](https://semantle.pimanrul.es)                                   |
+| 37 | [Pokegrid](https://www.pokegrid.net/)                           | [https://www.pokegrid.net/](https://www.pokegrid.net/)                                         |
+| 38 | [Pokerating](https://pokerating.com/puzzle)                     | [https://pokerating.com/puzzle](https://pokerating.com/puzzle)                                 |
+| 39 | [Posterdle](https://likewise.com/games/posterdle)               | [https://likewise.com/games/posterdle](https://likewise.com/games/posterdle)                   |
+| 40 | [R6dle](https://r6dle.net)                                      | [https://r6dle.net](https://r6dle.net)                                                         |
+| 41 | [Raindle](https://raindle.net/items)                            | [https://raindle.net/items](https://raindle.net/items)                                         |
+| 42 | [Reversle](https://reversle.net)                                | [https://reversle.net](https://reversle.net)                                                   |
+| 43 | [Sortdle](https://sortdle.com)                                  | [https://sortdle.com](https://sortdle.com)                                                     |
+| 44 | [Sortwise](https://sortwise.fun)                                | [https://sortwise.fun](https://sortwise.fun)                                                   |
+| 45 | [Stars](https://inkwellgames.com/games/stars)                   | [https://inkwellgames.com/games/stars](https://inkwellgames.com/games/stars)                   |
+| 46 | [Supervivedle](https://supervivedle.com)                        | [https://supervivedle.com](https://supervivedle.com)                                           |
+| 47 | [Tally Game](https://tally-game.com)                            | [https://tally-game.com](https://tally-game.com)                                               |
+| 48 | [Tescodle-FLAGGED](https://tescodle.com/)                       | [https://tescodle.com/](https://tescodle.com/)                                                 |
+| 49 | [Totem Words](https://totemwords.com)                           | [https://totemwords.com](https://totemwords.com)                                               |
+| 50 | [Traindle](https://www.traindle.io)                             | [https://www.traindle.io](https://www.traindle.io)                                             |
+| 51 | [Treasure Guessr](https://play.treasureguessr.com)              | [https://play.treasureguessr.com](https://play.treasureguessr.com)                             |
+| 52 | [Wardle](https://wardlegame.com/)                               | [https://wardlegame.com/](https://wardlegame.com/)                                             |
+| 53 | [Weakdle](https://dentotino.com/weakdle)                        | [https://dentotino.com/weakdle](https://dentotino.com/weakdle)                                 |
+| 54 | [Weakdoku](https://weakdoku.dentotino.com)                      | [https://weakdoku.dentotino.com](https://weakdoku.dentotino.com)                               |
+| 55 | [Wordspan](https://Puzzmallow.com/wordspan)                     | [https://Puzzmallow.com/wordspan](https://Puzzmallow.com/wordspan)                             |
+| 56 | [Wowdle](https://www.wowdle.app)                                | [https://www.wowdle.app](https://www.wowdle.app)                                               |
+| 57 | [Wridges](https://www.washingtonpost.com/games/wridges/)        | [https://www.washingtonpost.com/games/wridges/](https://www.washingtonpost.com/games/wridges/) |
+| 58 | [Zeldle](https://zeldle.xyz)                                    | [https://zeldle.xyz](https://zeldle.xyz)                                                       |
+
+dles removed: 
+|    | name                                                                      | url                                                                                                        |
+|---:|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
+|  1 | [Guess The Jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) | [https://guessthepro.com/en/games/guess-the-jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) |
+|  2 | [NYT Mini Crossword](https://www.nytimes.com/crosswords/game/mini)        | [https://www.nytimes.com/crosswords/game/mini](https://www.nytimes.com/crosswords/game/mini)               |
+|  3 | [Toppled](https://bythomas.co.uk/toppled)                                 | [https://bythomas.co.uk/toppled](https://bythomas.co.uk/toppled)                                           |
+|  4 | [Where in the USA is this?](https://pudding.cool/games/where)             | [https://pudding.cool/games/where](https://pudding.cool/games/where)                                       |
 ## 2025-08-08
 
 Fix bug where DLES of the week could not be favorited.
