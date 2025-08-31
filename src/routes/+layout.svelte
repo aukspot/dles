@@ -54,19 +54,31 @@
     $changelog = changelog_json
   }
 
+  function partitionDlesByTheme(dlesInCategory) {
+    let partitionedDles = {}
+    for (let dle of dlesInCategory) {
+      let theme = dle.theme || "General"
+      if (!partitionedDles[theme]) {
+        partitionedDles[theme] = []
+      }
+      partitionedDles[theme].push(dle)
+    }
+    return partitionedDles
+  }
+
   initializeDles()
   initializeNewDles()
   initializeChangelog()
 
   for (let category of $categories) {
-    $categorizedDles[category] = $dles.filter((dle) => dle.category == category)
+    let dlesInCategory = $dles.filter((dle) => dle.category == category)
+    $categorizedDles[category] = partitionDlesByTheme(dlesInCategory)
   }
 
   $: {
     for (let category of $categories) {
-      $categorizedDles[category] = $filteredDles.filter(
-        (dle) => dle.category == category,
-      )
+      let dlesInCategory = $filteredDles.filter((dle) => dle.category == category)
+      $categorizedDles[category] = partitionDlesByTheme(dlesInCategory)
     }
   }
 

@@ -8,23 +8,64 @@
   export let pageY
   export let clientY
   export let dleGroup
+  // export let showThemes = false
+  // export let category = ""
 
   function isNewDle(dle) {
     return $newDles.filter((d) => d.url === dle.url).length === 1
   }
 
+  // function groupDlesByTheme(dles) {
+  //   const grouped = {}
+  //   
+  //   // Special handling for Video Games - group all themed games together
+  //   if (category === "Video Games") {
+  //     for (const dle of dles) {
+  //       const theme = dle.theme ? "Themed" : "General"
+  //       if (!grouped[theme]) {
+  //         grouped[theme] = []
+  //       }
+  //       grouped[theme].push(dle)
+  //     }
+  //   } else {
+  //     // Normal grouping by individual themes for other categories
+  //     for (const dle of dles) {
+  //       const theme = dle.theme || "General"
+  //       if (!grouped[theme]) {
+  //         grouped[theme] = []
+  //       }
+  //       grouped[theme].push(dle)
+  //     }
+  //   }
+
+  //   // Sort themes with "General" first, then alphabetically
+  //   const sortedThemes = Object.keys(grouped).sort((a, b) => {
+  //     if (a === "General") return -1
+  //     if (b === "General") return 1
+  //     return a.localeCompare(b)
+  //   })
+
+  //   const result = {}
+  //   for (const theme of sortedThemes) {
+  //     result[theme] = grouped[theme]
+  //   }
+
+  //   return result
+  // }
+
+  // $: groupedDles = showThemes ? groupDlesByTheme(dleGroup) : { "": dleGroup }
+
   function handleClickOutside(event) {
     const originalEvent = event.detail?.originalEvent
     const target = originalEvent?.target
-    
+
     // Don't close if clicking inside the popup
-    if (target && target.closest('.dlePopUp')) {
+    if (target && target.closest(".dlePopUp")) {
       return
     }
-    
+
     $poppedUpDle = ""
   }
-
 </script>
 
 <div>

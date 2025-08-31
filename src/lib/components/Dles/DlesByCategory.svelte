@@ -59,7 +59,9 @@
       </div>
     {/if}
     {#each $categories as category, i (i)}
-      {#if $categorizedDles[category].length !== 0}
+      {@const categoryThemes = $categorizedDles[category] || {}}
+      {@const categoryDles = Object.values(categoryThemes).flat()}
+      {#if categoryDles.length !== 0}
         <div class="card">
           <div
             class="labelContainer"
@@ -73,7 +75,7 @@
             </div>
           </div>
           <DleGroup
-            dleGroup={$categorizedDles[category]}
+            dleGroup={categoryDles}
             bind:pageX
             bind:pageY
             bind:clientY
