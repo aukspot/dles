@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2025-08-31
+
+Add 1 dle. Remove 1 dle. 
+
+dles added: 
+|    | name                                           | url                                                                  |
+|---:|:-----------------------------------------------|:---------------------------------------------------------------------|
+|  1 | [Jeopardy 6](https://www.jeopardy.com/play/j6) | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6) |
+
+dles removed: 
+|    | name                                         | url                                                                  |
+|---:|:---------------------------------------------|:---------------------------------------------------------------------|
+|  1 | [Jeopardy](https://www.jeopardy.com/play/j6) | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6) |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
@@ -25,7 +38,7 @@ dles added:
 | 16 | [Hexle](https://frankljin.github.io/hexle/)                     | [https://frankljin.github.io/hexle/](https://frankljin.github.io/hexle/)                       |
 | 17 | [Hoopgrids](https://www.hoopgrids.com)                          | [https://www.hoopgrids.com](https://www.hoopgrids.com)                                         |
 | 18 | [HOTSdle](https://hotsdle.zgame.studio/)                        | [https://hotsdle.zgame.studio/](https://hotsdle.zgame.studio/)                                 |
-| 19 | [Jeopardy](https://www.jeopardy.com/play/j6)                    | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6)                           |
+| 19 | [Jeopardy 6](https://www.jeopardy.com/play/j6)                  | [https://www.jeopardy.com/play/j6](https://www.jeopardy.com/play/j6)                           |
 | 20 | [Keyboard Lines](https://keyboardlines.com)                     | [https://keyboardlines.com](https://keyboardlines.com)                                         |
 | 21 | [Knotilus](https://knotil.us)                                   | [https://knotil.us](https://knotil.us)                                                         |
 | 22 | [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle)  | [https://www.latimes.com/games/jigsaw-puzzle](https://www.latimes.com/games/jigsaw-puzzle)     |
@@ -67,12 +80,12 @@ dles added:
 | 58 | [Zeldle](https://zeldle.xyz)                                    | [https://zeldle.xyz](https://zeldle.xyz)                                                       |
 
 dles removed: 
-|    | name                                                                      | url                                                                                                        |
-|---:|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
-|  1 | [Guess The Jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) | [https://guessthepro.com/en/games/guess-the-jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) |
-|  2 | [NYT Mini Crossword](https://www.nytimes.com/crosswords/game/mini)        | [https://www.nytimes.com/crosswords/game/mini](https://www.nytimes.com/crosswords/game/mini)               |
-|  3 | [Toppled](https://bythomas.co.uk/toppled)                                 | [https://bythomas.co.uk/toppled](https://bythomas.co.uk/toppled)                                           |
-|  4 | [Where in the USA is this?](https://pudding.cool/games/where)             | [https://pudding.cool/games/where](https://pudding.cool/games/where)                                       |
+|    | name                                                                      | url                                                                                                        | reason                                                            |
+|---:|:--------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------|
+|  1 | [Guess The Jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) | [https://guessthepro.com/en/games/guess-the-jumpshot](https://guessthepro.com/en/games/guess-the-jumpshot) | Stuck on loading screen, doesn't always have a new game everyday. |
+|  2 | [NYT Mini Crossword](https://www.nytimes.com/crosswords/game/mini)        | [https://www.nytimes.com/crosswords/game/mini](https://www.nytimes.com/crosswords/game/mini)               | Now behind a paywall.                                             |
+|  3 | [Toppled](https://bythomas.co.uk/toppled)                                 | [https://bythomas.co.uk/toppled](https://bythomas.co.uk/toppled)                                           | Cannot access the game, stuck on advertisement.                   |
+|  4 | [Where in the USA is this?](https://pudding.cool/games/where)             | [https://pudding.cool/games/where](https://pudding.cool/games/where)                                       | The game has ended.                                               |
 ## 2025-08-08
 
 Fix bug where DLES of the week could not be favorited.
@@ -84,10 +97,10 @@ Remove 2 dles.
 
 
 dles removed: 
-|    | name                                                             | url                                                                                                              |
-|---:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|
-|  1 | [QuickQ](https://www.quickqtrivia.com)                           | [https://www.quickqtrivia.com](https://www.quickqtrivia.com)                                                     |
-|  2 | [Sorted](https://puzzles-prod.telegraph.co.uk/sorted/index.html) | [https://puzzles-prod.telegraph.co.uk/sorted/index.html](https://puzzles-prod.telegraph.co.uk/sorted/index.html) |
+|    | name                                                             | url                                                                                                              | reason                   |
+|---:|:-----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------|:-------------------------|
+|  1 | [QuickQ](https://www.quickqtrivia.com)                           | [https://www.quickqtrivia.com](https://www.quickqtrivia.com)                                                     | No new games for months. |
+|  2 | [Sorted](https://puzzles-prod.telegraph.co.uk/sorted/index.html) | [https://puzzles-prod.telegraph.co.uk/sorted/index.html](https://puzzles-prod.telegraph.co.uk/sorted/index.html) | Stuck on Sorted #234.    |
 ## 2025-07-24
 
 Add 1 dle. 
