@@ -3083,13 +3083,6 @@
     "id": 382
   },
   {
-    "name": "Tescodle",
-    "url": "https://tescodle.com/",
-    "description": "Guess the price of today's Tesco product.",
-    "category": "Estimation",
-    "id": 505
-  },
-  {
     "name": "TF2dle",
     "url": "https://www.tf2dle.com",
     "description": "Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.",

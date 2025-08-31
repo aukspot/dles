@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-08-31
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                              | url                                            |
+|---:|:----------------------------------|:-----------------------------------------------|
+|  1 | [Tescodle](https://tescodle.com/) | [https://tescodle.com/](https://tescodle.com/) |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
@@ -54,17 +63,16 @@ dles added:
 | 45 | [Stars](https://inkwellgames.com/games/stars)                   | [https://inkwellgames.com/games/stars](https://inkwellgames.com/games/stars)                   |
 | 46 | [Supervivedle](https://supervivedle.com)                        | [https://supervivedle.com](https://supervivedle.com)                                           |
 | 47 | [Tally Game](https://tally-game.com)                            | [https://tally-game.com](https://tally-game.com)                                               |
-| 48 | [Tescodle](https://tescodle.com/)                               | [https://tescodle.com/](https://tescodle.com/)                                                 |
-| 49 | [Totem Words](https://totemwords.com)                           | [https://totemwords.com](https://totemwords.com)                                               |
-| 50 | [Traindle](https://www.traindle.io)                             | [https://www.traindle.io](https://www.traindle.io)                                             |
-| 51 | [Treasure Guessr](https://play.treasureguessr.com)              | [https://play.treasureguessr.com](https://play.treasureguessr.com)                             |
-| 52 | [Wardle](https://wardlegame.com/)                               | [https://wardlegame.com/](https://wardlegame.com/)                                             |
-| 53 | [Weakdle](https://dentotino.com/weakdle)                        | [https://dentotino.com/weakdle](https://dentotino.com/weakdle)                                 |
-| 54 | [Weakdoku](https://weakdoku.dentotino.com)                      | [https://weakdoku.dentotino.com](https://weakdoku.dentotino.com)                               |
-| 55 | [Wordspan](https://Puzzmallow.com/wordspan)                     | [https://Puzzmallow.com/wordspan](https://Puzzmallow.com/wordspan)                             |
-| 56 | [Wowdle](https://www.wowdle.app)                                | [https://www.wowdle.app](https://www.wowdle.app)                                               |
-| 57 | [Wridges](https://www.washingtonpost.com/games/wridges/)        | [https://www.washingtonpost.com/games/wridges/](https://www.washingtonpost.com/games/wridges/) |
-| 58 | [Zeldle](https://zeldle.xyz)                                    | [https://zeldle.xyz](https://zeldle.xyz)                                                       |
+| 48 | [Totem Words](https://totemwords.com)                           | [https://totemwords.com](https://totemwords.com)                                               |
+| 49 | [Traindle](https://www.traindle.io)                             | [https://www.traindle.io](https://www.traindle.io)                                             |
+| 50 | [Treasure Guessr](https://play.treasureguessr.com)              | [https://play.treasureguessr.com](https://play.treasureguessr.com)                             |
+| 51 | [Wardle](https://wardlegame.com/)                               | [https://wardlegame.com/](https://wardlegame.com/)                                             |
+| 52 | [Weakdle](https://dentotino.com/weakdle)                        | [https://dentotino.com/weakdle](https://dentotino.com/weakdle)                                 |
+| 53 | [Weakdoku](https://weakdoku.dentotino.com)                      | [https://weakdoku.dentotino.com](https://weakdoku.dentotino.com)                               |
+| 54 | [Wordspan](https://Puzzmallow.com/wordspan)                     | [https://Puzzmallow.com/wordspan](https://Puzzmallow.com/wordspan)                             |
+| 55 | [Wowdle](https://www.wowdle.app)                                | [https://www.wowdle.app](https://www.wowdle.app)                                               |
+| 56 | [Wridges](https://www.washingtonpost.com/games/wridges/)        | [https://www.washingtonpost.com/games/wridges/](https://www.washingtonpost.com/games/wridges/) |
+| 57 | [Zeldle](https://zeldle.xyz)                                    | [https://zeldle.xyz](https://zeldle.xyz)                                                       |
 
 dles removed: 
 |    | name                                                                      | url                                                                                                        | reason                                                            |
