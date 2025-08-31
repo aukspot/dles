@@ -1,18 +1,5 @@
 # Changelog - The Dles
 
-## 2025-08-31
-
-Add 1 dle. Remove 1 dle. 
-
-dles added: 
-|    | name                                              | url                                                                                |
-|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------------|
-|  1 | [Noggle](https://nibble.games/noggle/noggle.html) | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html) |
-
-dles removed: 
-|    | name                                              | url                                                                                |
-|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------------|
-|  1 | [Nibble](https://nibble.games/noggle/noggle.html) | [https://nibble.games/noggle/noggle.html](https://nibble.games/noggle/noggle.html) |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
