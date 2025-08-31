@@ -268,11 +268,13 @@
     "dles removed": [
       {
         "name": "QuickQ",
-        "url": "https://www.quickqtrivia.com"
+        "url": "https://www.quickqtrivia.com",
+        "reason": "No new games for months."
       },
       {
         "name": "Sorted",
-        "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html"
+        "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
+        "reason": "Stuck on Sorted #234."
       }
     ],
     "description": "Remove 2 dles. "
