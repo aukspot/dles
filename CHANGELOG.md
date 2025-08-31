@@ -1,14 +1,5 @@
 # Changelog - The Dles
 
-## 2025-08-31
-
-Remove 1 dle. 
-
-
-dles removed: 
-|    | name                              | url                                            |
-|---:|:----------------------------------|:-----------------------------------------------|
-|  1 | [Tescodle](https://tescodle.com/) | [https://tescodle.com/](https://tescodle.com/) |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
