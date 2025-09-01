@@ -52,18 +52,19 @@ dles added:
 | 43 | [Sortdle](https://sortdle.com)                                   | [https://sortdle.com](https://sortdle.com)                                                     |
 | 44 | [Sortwise](https://sortwise.fun)                                 | [https://sortwise.fun](https://sortwise.fun)                                                   |
 | 45 | [Stars](https://inkwellgames.com/games/stars)                    | [https://inkwellgames.com/games/stars](https://inkwellgames.com/games/stars)                   |
-| 46 | [Supervivedle](https://supervivedle.com)                         | [https://supervivedle.com](https://supervivedle.com)                                           |
-| 47 | [Tally Game](https://tally-game.com)                             | [https://tally-game.com](https://tally-game.com)                                               |
-| 48 | [Totem Words](https://totemwords.com)                            | [https://totemwords.com](https://totemwords.com)                                               |
-| 49 | [Traindle](https://www.traindle.io)                              | [https://www.traindle.io](https://www.traindle.io)                                             |
-| 50 | [Treasure Guessr](https://play.treasureguessr.com)               | [https://play.treasureguessr.com](https://play.treasureguessr.com)                             |
-| 51 | [Wardle](https://wardlegame.com/)                                | [https://wardlegame.com/](https://wardlegame.com/)                                             |
-| 52 | [Weakdle](https://dentotino.com/weakdle)                         | [https://dentotino.com/weakdle](https://dentotino.com/weakdle)                                 |
-| 53 | [Weakdoku](https://weakdoku.dentotino.com)                       | [https://weakdoku.dentotino.com](https://weakdoku.dentotino.com)                               |
-| 54 | [Wordspan](https://puzzmallow.com/wordspan)                      | [https://puzzmallow.com/wordspan](https://puzzmallow.com/wordspan)                             |
-| 55 | [Wowdle](https://www.wowdle.app)                                 | [https://www.wowdle.app](https://www.wowdle.app)                                               |
-| 56 | [Wridges](https://www.washingtonpost.com/games/wridges/)         | [https://www.washingtonpost.com/games/wridges/](https://www.washingtonpost.com/games/wridges/) |
-| 57 | [Zeldle](https://zeldle.xyz)                                     | [https://zeldle.xyz](https://zeldle.xyz)                                                       |
+| 46 | [steamdle.pro](https://steamdle.pro)                             | [https://steamdle.pro](https://steamdle.pro)                                                   |
+| 47 | [Supervivedle](https://supervivedle.com)                         | [https://supervivedle.com](https://supervivedle.com)                                           |
+| 48 | [Tally Game](https://tally-game.com)                             | [https://tally-game.com](https://tally-game.com)                                               |
+| 49 | [Totem Words](https://totemwords.com)                            | [https://totemwords.com](https://totemwords.com)                                               |
+| 50 | [Traindle](https://www.traindle.io)                              | [https://www.traindle.io](https://www.traindle.io)                                             |
+| 51 | [Treasure Guessr](https://play.treasureguessr.com)               | [https://play.treasureguessr.com](https://play.treasureguessr.com)                             |
+| 52 | [Wardle](https://wardlegame.com/)                                | [https://wardlegame.com/](https://wardlegame.com/)                                             |
+| 53 | [Weakdle](https://dentotino.com/weakdle)                         | [https://dentotino.com/weakdle](https://dentotino.com/weakdle)                                 |
+| 54 | [Weakdoku](https://weakdoku.dentotino.com)                       | [https://weakdoku.dentotino.com](https://weakdoku.dentotino.com)                               |
+| 55 | [Wordspan](https://puzzmallow.com/wordspan)                      | [https://puzzmallow.com/wordspan](https://puzzmallow.com/wordspan)                             |
+| 56 | [Wowdle](https://www.wowdle.app)                                 | [https://www.wowdle.app](https://www.wowdle.app)                                               |
+| 57 | [Wridges](https://www.washingtonpost.com/games/wridges/)         | [https://www.washingtonpost.com/games/wridges/](https://www.washingtonpost.com/games/wridges/) |
+| 58 | [Zeldle](https://zeldle.xyz)                                     | [https://zeldle.xyz](https://zeldle.xyz)                                                       |
 
 dles removed: 
 |    | name                                                                      | url                                                                                                        | reason                                                            |
@@ -234,7 +235,7 @@ dles added:
 | 28 | [Quotesed](https://www.quotesed.com)                                  | [https://www.quotesed.com](https://www.quotesed.com)                                     |
 | 29 | [Retro Game Trivia](https://retrotrivia.games)                        | [https://retrotrivia.games](https://retrotrivia.games)                                   |
 | 30 | [Stardewdle](https://stardewdle.com/game)                             | [https://stardewdle.com/game](https://stardewdle.com/game)                               |
-| 31 | [Steamdle](https://steamdle.com)                                      | [https://steamdle.com](https://steamdle.com)                                             |
+| 31 | [steamdle.com](https://steamdle.com)                                  | [https://steamdle.com](https://steamdle.com)                                             |
 | 32 | [Streetfighterdle](https://streetfighterdle.net)                      | [https://streetfighterdle.net](https://streetfighterdle.net)                             |
 | 33 | [Temple](https://tck.mn/temple)                                       | [https://tck.mn/temple](https://tck.mn/temple)                                           |
 | 34 | [Three Magic Words](https://www.threemagicwords.app/play)             | [https://www.threemagicwords.app/play](https://www.threemagicwords.app/play)             |
