@@ -2953,18 +2953,18 @@
     "id": 367
   },
   {
-    "name": "steamdle.pro",
-    "url": "https://steamdle.pro",
-    "description": "Guess the Steam game with hints each level based on Release Date, Reviews, and more.",
-    "category": "Video Games",
-    "id": 502
-  },
-  {
     "name": "steamdle.com",
     "url": "https://steamdle.com",
     "description": "Guess the game based on the Steam review.",
     "category": "Video Games",
     "id": 368
+  },
+  {
+    "name": "steamdle.pro",
+    "url": "https://steamdle.pro",
+    "description": "Guess the Steam game with hints each level based on Release Date, Reviews, and more.",
+    "category": "Video Games",
+    "id": 502
   },
   {
     "name": "Stepdle",

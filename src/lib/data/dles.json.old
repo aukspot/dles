@@ -192,7 +192,7 @@
   {
     "name": "Blockle",
     "url": "https://blockle.au",
-    "description": "A daily puzzle game that combines Wordle and Tetris",
+    "description": "A daily puzzle game that combines Wordle and Tetris.",
     "category": "Words",
     "id": 460
   },
@@ -2049,7 +2049,7 @@
     "name": "Noggle",
     "url": "https://nibble.games/noggle/noggle.html",
     "description": "A daily logic puzzle with a touch of learning and trivia.",
-    "category": "Trivia",
+    "category": "Math/Logic",
     "id": 487
   },
   {
@@ -2953,18 +2953,18 @@
     "id": 367
   },
   {
-    "name": "Steamdle",
-    "url": "https://steamdle.pro/",
-    "description": "Guess the Steam game with hints each level based on Release Date, Reviews, and more.",
-    "category": "Video Games",
-    "id": 502
-  },
-  {
-    "name": "Steamdle",
+    "name": "steamdle.com",
     "url": "https://steamdle.com",
     "description": "Guess the game based on the Steam review.",
     "category": "Video Games",
     "id": 368
+  },
+  {
+    "name": "steamdle.pro",
+    "url": "https://steamdle.pro",
+    "description": "Guess the Steam game with hints each level based on Release Date, Reviews, and more.",
+    "category": "Video Games",
+    "id": 502
   },
   {
     "name": "Stepdle",
