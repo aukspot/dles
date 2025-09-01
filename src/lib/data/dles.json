@@ -2962,7 +2962,7 @@
   {
     "name": "steamdle.pro",
     "url": "https://steamdle.pro",
-    "description": "Guess the Steam game with hints each level based on Release Date, Reviews, and more.",
+    "description": "Guess the Steam game with new hints after each guess, such as release date, reviews, and tags.",
     "category": "Video Games",
     "id": 502
   },
