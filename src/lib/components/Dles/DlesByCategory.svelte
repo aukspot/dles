@@ -58,6 +58,42 @@
         />
       </div>
     {/if}
+    
+    <!-- Sponsors Section -->
+    <div class="card">
+      <div class="labelContainer" style="background-color: #6b46c1;">
+        <div class="label">
+          <div class="flex-shrink-0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7v10c0 5.55 3.84 10 9 10s9-4.45 9-10V7l-10-5z"/>
+              <path d="M8 11v6"/>
+              <path d="M16 11v6"/>
+              <path d="M12 11v6"/>
+            </svg>
+          </div>
+          Sponsors
+        </div>
+      </div>
+      <div class="sponsor-grid p-4">
+        <!-- Placeholder sponsor content -->
+        <div class="sponsor-item">
+          <div class="sponsor-placeholder">
+            <span class="text-sm text-colorTextSecondary">Sponsor Slot 1</span>
+          </div>
+        </div>
+        <div class="sponsor-item">
+          <div class="sponsor-placeholder">
+            <span class="text-sm text-colorTextSecondary">Sponsor Slot 2</span>
+          </div>
+        </div>
+        <div class="sponsor-item">
+          <div class="sponsor-placeholder">
+            <span class="text-sm text-colorTextSecondary">Sponsor Slot 3</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     {#each $categories as category, i (i)}
       {@const categoryDles = $categorizedDles[category] || []}
       {#if categoryDles.length !== 0}
@@ -117,5 +153,17 @@
       /* Dark Green */ hsl(216, 90%, 30%, 0.9) 60% 80%,
       /* Dark Blue */ hsl(288, 90%, 30%, 0.9) 80% 100% /* Dark Purple */
     );
+  }
+  
+  .sponsor-grid {
+    @apply grid grid-cols-1 gap-3 md:grid-cols-3;
+  }
+  
+  .sponsor-item {
+    @apply flex justify-center;
+  }
+  
+  .sponsor-placeholder {
+    @apply w-full h-16 bg-colorCardA border border-colorNeutralSoft rounded flex items-center justify-center hover:bg-colorCardB transition-colors;
   }
 </style>
