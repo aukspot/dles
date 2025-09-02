@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2025-09-02
+
+Add 1 dle. Remove 1 dle. 
+
+dles added: 
+|    | name                                     | url                                                      |
+|---:|:-----------------------------------------|:---------------------------------------------------------|
+|  1 | [FoodGuessr](https://www.foodguessr.com) | [https://www.foodguessr.com](https://www.foodguessr.com) |
+
+dles removed: 
+|    | name                                     | url                                                      |
+|---:|:-----------------------------------------|:---------------------------------------------------------|
+|  1 | [Foodguessr](https://www.foodguessr.com) | [https://www.foodguessr.com](https://www.foodguessr.com) |
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 

@@ -1005,7 +1005,7 @@
     "id": 127
   },
   {
-    "name": "Foodguessr",
+    "name": "FoodGuessr",
     "url": "https://www.foodguessr.com",
     "description": "Guess what country each of the food dishes are from.",
     "category": "Food",
@@ -2549,7 +2549,7 @@
     "name": "Raindle",
     "url": "https://raindle.net/items",
     "description": "Guess the Risk of Rain 2 item.",
-    "category": "Estimation",
+    "category": "Video Games",
     "id": 497
   },
   {
@@ -2962,7 +2962,7 @@
   {
     "name": "steamdle.pro",
     "url": "https://steamdle.pro",
-    "description": "Guess the Steam game with hints each level based on Release Date, Reviews, and more.",
+    "description": "Guess the Steam game with new hints after each guess, such as release date, reviews, and tags.",
     "category": "Video Games",
     "id": 502
   },
