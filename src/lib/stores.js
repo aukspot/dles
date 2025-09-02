@@ -45,6 +45,7 @@ export let categoryColors = readable({
   Music: "hsl(168, 90%, 50%, 45%)",
   "Science/Nature": "hsl(192, 90%, 50%, 45%)",
   "Shapes/Patterns": "hsl(216, 90%, 50%, 45%)",
+  Sponsors: "hsl(226, 90%, 50%, 45%)",
   Sports: "hsl(240, 90%, 50%, 45%)",
   Trivia: "hsl(264, 90%, 50%, 45%)",
   Vehicles: "hsl(288, 90%, 50%, 45%)",
