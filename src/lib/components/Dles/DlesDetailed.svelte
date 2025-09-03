@@ -5,6 +5,7 @@
 </script>
 
 <Banner includeSearch={true} />
+
 <ol class="mt-4 px-1 gap-2 grid grid-cols-1 lg:grid-cols-2">
   {#each $filteredDles as dle, i (i)}
     <li>

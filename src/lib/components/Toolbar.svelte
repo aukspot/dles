@@ -3,7 +3,7 @@
   import Settings from "./Settings.svelte"
   import MenuRandomButton from "./Buttons/MenuRandomButton.svelte"
   import MenuButton from "./Buttons/MenuButton.svelte"
-
+  import DailyDleButton from "./Buttons/DailyDleButton.svelte";
   $settings.test = true
 </script>
 
@@ -12,6 +12,8 @@
     <MenuRandomButton />
     <!-- <FilterButton /> -->
     <MenuButton />
+    <DailyDleButton />
+
     <!-- <SearchButton /> -->
   </div>
   <noscript class="text-center"
