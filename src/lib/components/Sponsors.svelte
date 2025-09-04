@@ -49,8 +49,8 @@
       </div>
     </div>
     {#if $searchQuery.length == 0}
-      <div class="sponsor-cta-header">
-        <p class="sponsor-cta-text">Play one of our sponsors!</p>
+      <div class="partner-cta-header">
+        <p class="partner-cta-text">Play one of our sponsors!</p>
       </div>
     {/if}
     <div class="partner-grid p-2">
@@ -80,10 +80,10 @@
     </div>
 
     {#if $searchQuery.length == 0}
-      <div class="sponsor-footer">
+      <div class="partner-footer">
         <a
           href="https://tally.so/r/wgEX5K"
-          class="sponsor-inquiry-link"
+          class="partner-inquiry-link"
           target="_blank">Want to sponsor? Message me!</a
         >
       </div>
@@ -105,11 +105,11 @@
   :global(.dark) #partner-nibble .partner-logo-img {
     filter: brightness(1.7) drop-shadow(0 0 4px rgba(255, 255, 255, 0.35));
   }
-  .sponsor-cta-header {
+  .partner-cta-header {
     @apply px-2 py-2 bg-colorCardB border-b border-colorNeutralSoft;
   }
 
-  .sponsor-cta-text {
+  .partner-cta-text {
     @apply text-sm text-center text-colorTextSofter italic;
   }
 
@@ -117,11 +117,11 @@
     @apply grid grid-cols-1 gap-2;
   }
 
-  .sponsor-footer {
+  .partner-footer {
     @apply px-1 py-1 bg-colorCardB border-t border-colorNeutralSoft text-center;
   }
 
-  .sponsor-inquiry-link {
+  .partner-inquiry-link {
     @apply text-xs text-colorTextSofter hover:hover:text-colorLinkHover underline decoration-1 underline-offset-2 transition-colors;
   }
 
@@ -156,5 +156,4 @@
   :global(.dark) .partner-logo-dark {
     @apply block;
   }
-
 </style>
