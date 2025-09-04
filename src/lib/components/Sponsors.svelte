@@ -141,6 +141,10 @@
     @apply h-10 w-auto object-contain flex-shrink-0;
   }
 
+  .sponsor-logo-light {
+    @apply block;
+  }
+
   .sponsor-logo-dark {
     @apply hidden;
   }
