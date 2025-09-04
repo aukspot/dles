@@ -2,9 +2,9 @@
   import { categoryColors, searchQuery } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
 
-  const sponsors = [
+  const partners = [
     {
-      id: "sponsor-nibble",
+      id: "partner-nibble",
       name: "nibble.games",
       url: "https://nibble.games",
       logoLight: "/nibble.games_cropped_small.png",
@@ -12,7 +12,7 @@
       backgroundColor: "bg-white dark:bg-gray-950",
     },
     {
-      id: "sponsor-quintalist",
+      id: "partner-quintalist",
       name: "Quintalist",
       url: "https://quintalist.com?dles",
       logoLight: "/QuintalistLightSmall.jpg",
@@ -21,10 +21,10 @@
     },
   ]
 
-  $: filteredSponsors = enhancedSearch(sponsors, $searchQuery)
+  $: filteredPartners = enhancedSearch(partners, $searchQuery)
 </script>
 
-{#if $searchQuery.length == 0 || filteredSponsors.length > 0}
+{#if $searchQuery.length == 0 || filteredPartners.length > 0}
   <div class="card">
     <div
       class="labelContainer"
@@ -53,20 +53,25 @@
         <p class="sponsor-cta-text">Play one of our sponsors!</p>
       </div>
     {/if}
-    <div class="sponsor-grid p-2">
-      {#each filteredSponsors as sponsor}
-        <div class="sponsor-item">
+    <div class="partner-grid p-2">
+      {#each filteredPartners as partner}
+        <div class="partner-item">
           <a
-            href={sponsor.url}
+            href={partner.url}
             target="_blank"
-            class="sponsor-link"
-            id={sponsor.id}
+            class="partner-link"
+            id={partner.id}
           >
-            <div class="sponsor-card-content {sponsor.backgroundColor}">
+            <div class="partner-card-content {partner.backgroundColor}">
               <img
-                src={sponsor.logoLight}
-                alt={sponsor.name}
-                class="sponsor-logo-img"
+                src={partner.logoLight}
+                alt={partner.name}
+                class="partner-logo-img partner-logo-light"
+              />
+              <img
+                src={partner.logoDark}
+                alt={partner.name}
+                class="partner-logo-img partner-logo-dark"
               />
             </div>
           </a>
@@ -97,7 +102,7 @@
     @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
   }
 
-  :global(.dark) #sponsor-nibble .sponsor-logo-img {
+  :global(.dark) #partner-nibble .partner-logo-img {
     filter: brightness(1.7) drop-shadow(0 0 4px rgba(255, 255, 255, 0.35));
   }
   .sponsor-cta-header {
@@ -108,7 +113,7 @@
     @apply text-sm text-center text-colorTextSofter italic;
   }
 
-  .sponsor-grid {
+  .partner-grid {
     @apply grid grid-cols-1 gap-2;
   }
 
@@ -120,20 +125,36 @@
     @apply text-xs text-colorTextSofter hover:hover:text-colorLinkHover underline decoration-1 underline-offset-2 transition-colors;
   }
 
-  .sponsor-item {
+  .partner-item {
     @apply flex justify-center;
   }
 
-  .sponsor-link {
+  .partner-link {
     @apply block w-full no-underline;
   }
 
-  .sponsor-card-content {
+  .partner-card-content {
     @apply border border-colorNeutralSoft rounded hover:scale-105 transition-transform flex items-center justify-center h-12;
   }
 
-  .sponsor-logo-img {
-    @apply h-10 w-auto object-contain flex-shrink-0 block;
+  .partner-logo-img {
+    @apply h-10 w-auto object-contain flex-shrink-0;
+  }
+
+  .partner-logo-light {
+    @apply block;
+  }
+
+  .partner-logo-dark {
+    @apply hidden;
+  }
+
+  :global(.dark) .partner-logo-light {
+    @apply hidden;
+  }
+
+  :global(.dark) .partner-logo-dark {
+    @apply block;
   }
 
 </style>
