@@ -66,12 +66,7 @@
               <img
                 src={sponsor.logoLight}
                 alt={sponsor.name}
-                class="sponsor-logo-img sponsor-logo-light"
-              />
-              <img
-                src={sponsor.logoDark}
-                alt={sponsor.name}
-                class="sponsor-logo-img sponsor-logo-dark"
+                class="sponsor-logo-img"
               />
             </div>
           </a>
@@ -141,24 +136,4 @@
     @apply h-10 w-auto object-contain flex-shrink-0 block;
   }
 
-  .sponsor-logo-dark {
-    @apply hidden;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .sponsor-logo-light {
-      @apply hidden;
-    }
-    .sponsor-logo-dark {
-      @apply block;
-    }
-  }
-
-  :global(.dark) .sponsor-logo-light {
-    @apply hidden;
-  }
-
-  :global(.dark) .sponsor-logo-dark {
-    @apply block;
-  }
 </style>
