@@ -1,22 +1,8 @@
 <script>
   import { searchQuery, filteredDles, dles } from "$lib/stores"
+  import { enhancedSearch } from "$lib/js/utilities"
 
-  let searchByDescription = true;
-
-  function enhancedSearch(dles, query) {
-    if (!query.trim()) return dles;
-    
-    const searchTerms = query.toLowerCase().trim().split(/\s+/);
-    
-    return dles.filter((dle) => {
-      const searchableText = [
-        dle.name,
-        ...(searchByDescription ? [dle.description] : [])
-      ].join(' ').toLowerCase();
-      
-      return searchTerms.every(term => searchableText.includes(term));
-    });
-  }
+  let searchByDescription = true
 </script>
 
 <div class="search-container">
@@ -26,28 +12,32 @@
     class="search-bar"
     bind:value={$searchQuery}
     on:input={() => {
-      $filteredDles = enhancedSearch($dles, $searchQuery);
+      $filteredDles = enhancedSearch($dles, $searchQuery, searchByDescription)
     }}
   />
-  
+
   {#if $searchQuery.trim()}
     <label class="checkbox-container">
-    <input 
-      type="checkbox" 
-      bind:checked={searchByDescription}
-      on:change={() => {
-        if ($searchQuery.trim()) {
-          $filteredDles = enhancedSearch($dles, $searchQuery);
-        }
-      }}
-    />
-    Search by description
-  </label>
+      <input
+        type="checkbox"
+        bind:checked={searchByDescription}
+        on:change={() => {
+          if ($searchQuery.trim()) {
+            $filteredDles = enhancedSearch(
+              $dles,
+              $searchQuery,
+              searchByDescription,
+            )
+          }
+        }}
+      />
+      Search by description
+    </label>
     <button
       class="clear-button"
       on:click={() => {
-        $searchQuery = '';
-        $filteredDles = $dles;
+        $searchQuery = ""
+        $filteredDles = $dles
       }}
       aria-label="Clear search"
     >
@@ -60,7 +50,7 @@
   .search-container {
     @apply flex flex-col items-center w-full ml-2;
   }
-  
+
   .search-bar {
     @apply w-full lg:w-72 h-10 px-4;
   }

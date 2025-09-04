@@ -37,3 +37,18 @@ export function getCurrentDlesOfTheWeek(dlesOfWeek) {
 
   return dlesOfWeek[dlesOfWeek.length - 1];
 }
+
+export function enhancedSearch(dles, query, searchByDescription = false) {
+  if (!query.trim()) return dles;
+
+  const searchTerms = query.toLowerCase().trim().split(/\s+/);
+
+  return dles.filter((dle) => {
+    const searchableText = [
+      dle.name,
+      ...(searchByDescription ? [dle.description] : [])
+    ].join(' ').toLowerCase();
+
+    return searchTerms.every(term => searchableText.includes(term));
+  });
+}
