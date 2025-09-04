@@ -138,15 +138,20 @@
   }
 
   .sponsor-logo-img {
-    @apply h-10 w-auto object-contain flex-shrink-0;
-  }
-
-  .sponsor-logo-light {
-    @apply block;
+    @apply h-10 w-auto object-contain flex-shrink-0 block;
   }
 
   .sponsor-logo-dark {
     @apply hidden;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .sponsor-logo-light {
+      @apply hidden;
+    }
+    .sponsor-logo-dark {
+      @apply block;
+    }
   }
 
   :global(.dark) .sponsor-logo-light {
