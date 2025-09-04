@@ -48,7 +48,7 @@
 <Banner includeSearch={true} />
 <div class="text-center mb-8">
   <h1 class="text-3xl font-bold  mb-4 leading-tight">
-    🚀 Challenge Mode
+    Challenge Mode
   </h1>
   <p class="text-lg  max-w-xl mx-auto">
     See how quickly you can complete all dailies. You'll see the dailies when you press the start button.

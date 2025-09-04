@@ -13,7 +13,6 @@
     <!-- <FilterButton /> -->
     <MenuButton />
     <DailyDleButton />
-
     <!-- <SearchButton /> -->
   </div>
   <noscript class="text-center"

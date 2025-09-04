@@ -46,15 +46,7 @@
     <IconRandom /> Begin Challenge Mode 
   </h2>
   <div class="flex justify-center">
-    <div class="mx-auto">
-      <label>
-      <input
-      name="single_mode"
-      type="checkbox"
-      />
-      <span aria-label="single-mode" class="text-sm">Singular Mode (Hard)</span>
-      </label>
-    </div>
+
     <div data-sveltekit-reload>
       <a class="menu-link btn-menu-item rounded-md shadow-sm shadow-colorTextSofter active:shadow-none" href="{base}/challenge"
         ><IconRandom /> Begin</a

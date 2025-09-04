@@ -10,7 +10,6 @@
   <DlesDetailed />
 {:else if $settings.view == "Category View"}
   <DlesByCategory />
-
 {/if}
 
 <noscript>
