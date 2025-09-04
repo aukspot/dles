@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2025-09-03
+
+Add sponsors section.
+
+
 ## 2025-08-30
 
 Add 58 dles. Remove 4 dles. 
