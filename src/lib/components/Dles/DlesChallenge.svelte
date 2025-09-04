@@ -5,12 +5,12 @@
   import IconFavorite from "../Icons/IconFavorite.svelte"
     import { onMount } from "svelte"
   let randomizedDles = []
-  let currentIndex = 0;  // Current position in the dataset
   let passed = 0;
   let failed = 0;
   let timer = false
   let challenge_begin = false;
   let elapsed = 0;
+
   function beginChallenge() {
     randomizedDles = [...$filteredDles].sort(() => Math.random() - 0.5);
     elapsed = 0;
