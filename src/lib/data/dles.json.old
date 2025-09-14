@@ -192,7 +192,7 @@
   {
     "name": "Blockle",
     "url": "https://blockle.au",
-    "description": "A daily puzzle game that combines Wordle and Tetris.",
+    "description": "Fill a square grid with Tetris pieces to spell out words horizontally.",
     "category": "Words",
     "id": 460
   },
@@ -846,7 +846,7 @@
     "id": 108
   },
   {
-    "name": "Enchant Wordle",
+    "name": "Enchant Worldle",
     "url": "https://enchantworldle.com",
     "description": "Guess the card from Magic the Gathering within 20 tries.",
     "category": "Card/Board Games",
