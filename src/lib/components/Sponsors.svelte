@@ -4,14 +4,6 @@
 
   const partners = [
     {
-      id: "partner-flashpoptiles",
-      name: "FlashPopTiles",
-      url: "https://flashpoptiles.com?utm_source=aukspot&utm_medium=banner&utm_campaign=sponsorship",
-      logoLight: "/flashpoptiles.png",
-      logoDark: "/flashpoptiles.png",
-      backgroundColor: "bg-white dark:bg-gray-950",
-    },
-    {
       id: "partner-nibble",
       name: "nibble.games",
       url: "https://nibble.games",
@@ -26,6 +18,14 @@
       logoLight: "/QuintalistLightSmall.jpg",
       logoDark: "/QuintalistDarkSmall.jpg",
       backgroundColor: "bg-white dark:bg-black",
+    },
+    {
+      id: "partner-flashpoptiles",
+      name: "FlashPopTiles",
+      url: "https://flashpoptiles.com?utm_source=aukspot&utm_medium=banner&utm_campaign=sponsorship",
+      logoLight: "/flashpoptiles.png",
+      logoDark: "/flashpoptiles.png",
+      backgroundColor: "bg-white dark:bg-gray-950",
     },
   ]
 
@@ -142,19 +142,19 @@
   }
 
   .partner-card-content {
-    @apply border border-colorNeutralSoft rounded hover:scale-105 transition-transform flex items-center justify-center h-12 w-full p-2;
+    @apply border border-colorNeutralSoft rounded hover:scale-105 transition-transform flex items-center justify-center h-8 sm:h-10 w-full p-2;
+  }
+
+  .partner-logo-img {
+    @apply h-8 w-auto object-contain sm:h-9;
   }
 
   #partner-flashpoptiles .partner-card-content {
-    @apply p-0 overflow-hidden h-auto min-h-12;
+    @apply p-0;
   }
 
   #partner-flashpoptiles .partner-logo-img {
-    @apply w-full h-auto object-contain rounded;
-  }
-
-  .partner-link:not(#partner-flashpoptiles) .partner-logo-img {
-    @apply h-10 w-auto object-contain;
+    @apply h-full w-full object-cover rounded;
   }
 
   .partner-logo-light {
