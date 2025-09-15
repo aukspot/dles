@@ -1,5 +1,15 @@
 [
   {
+    "date": "2025-09-15",
+    "dles removed": [
+      {
+        "name": "Leetle",
+        "url": "https://leetle.app/"
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2025-09-03",
     "description": "Add sponsors section."
   },

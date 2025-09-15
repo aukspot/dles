@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-09-15
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                          | url                                        |
+|---:|:------------------------------|:-------------------------------------------|
+|  1 | [Leetle](https://leetle.app/) | [https://leetle.app/](https://leetle.app/) |
 ## 2025-09-03
 
 Add sponsors section.
