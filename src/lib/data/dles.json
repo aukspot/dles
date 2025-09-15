@@ -1567,13 +1567,6 @@
     "id": 191
   },
   {
-    "name": "Leetle",
-    "url": "https://leetle.app/",
-    "description": "Daily programming problem in the style of LeetCode.",
-    "category": "Miscellaneous",
-    "id": 483
-  },
-  {
     "name": "Letroso",
     "url": "https://letroso.com/en/daily",
     "description": "Guess the secret word that can be up to 10 letters long.",
