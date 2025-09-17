@@ -1,6 +1,7 @@
 <script>
   import { poppedUpDle, newDles } from "$lib/stores"
   import { openInNewTab } from "$lib/js/utilities"
+  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
 
@@ -67,6 +68,20 @@
 
     $poppedUpDle = ""
   }
+
+  function handleAuxClick(dle, position) {
+    handleGameClick(dle, position, 'middle-click');
+  }
+
+  function handleCtrlClick(dle, position) {
+    handleGameClick(dle, position, 'ctrl-click');
+  }
+
+  function handleGameClick(dle, position, clickType) {
+    const trackingData = createTrackingData(dle, clickType, 'list', section, position);
+    trackEvent('game-click', trackingData, `DleGroup ${clickType}`);
+    openInNewTab(dle.url, trackingData);
+  }
 </script>
 
 <div>
@@ -77,21 +92,30 @@
           <button
             class="dleName"
             on:click={(e) => {
-              $poppedUpDle === dle.name
+              // If Ctrl/Cmd is held, navigate directly to the game
+              if (e.ctrlKey || e.metaKey) {
+                handleCtrlClick(dle, j);
+                return;
+              }
+
+              // Otherwise, show/hide popup
+              // Use section + name to make popup unique per section
+              const popupKey = `${section}-${dle.name}`
+              $poppedUpDle === popupKey
                 ? ($poppedUpDle = "")
-                : ($poppedUpDle = dle.name)
+                : ($poppedUpDle = popupKey)
               pageX = e.pageX
               pageY = e.pageY
               clientY = e.clientY
             }}
-            on:auxclick={(e) => openInNewTab(dle.url)}
+            on:auxclick={(e) => handleAuxClick(dle, j)}
           >
             {dle.name}
           </button>{#if isNewDle(dle)}
             <IconNew />
           {/if}
         </div>
-        {#if $poppedUpDle === dle.name}
+        {#if $poppedUpDle === `${section}-${dle.name}`}
           <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} {section} position={j} />
         {/if}
       </li>

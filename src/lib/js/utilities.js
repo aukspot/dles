@@ -9,7 +9,11 @@ export function isLocalStorageAvailable() {
   }
 }
 
-export function openInNewTab(href) {
+export function openInNewTab(href, trackingData = null) {
+  if (trackingData && typeof window !== 'undefined' && window.umami) {
+    window.umami.track('game-click', trackingData);
+  }
+
   Object.assign(document.createElement("a"), {
     target: "_blank",
     rel: "noopener",
