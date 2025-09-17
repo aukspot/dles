@@ -5,6 +5,8 @@
   import IconFavorite from "../Icons/IconFavorite.svelte"
 
   export let dle
+  export let section = 'regular'
+  export let position = null
 
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
@@ -52,13 +54,20 @@
     }
 
     if (typeof window !== 'undefined' && window.umami) {
-      window.umami.track('favorite-action', {
+      const trackingData = {
         game_name: dle.name,
         game_category: dle.category,
         game_id: dle.id,
         action: wasInFavorites ? 'unfavorite' : 'favorite',
-        total_favorites: $favorites.length
-      });
+        total_favorites: $favorites.length,
+        section: section
+      };
+
+      if (position !== null && section === 'dles-of-the-week') {
+        trackingData.position_id = `${section}-${position + 1}`;
+      }
+
+      window.umami.track('favorite-action', trackingData);
     }
 
     if (isLocalStorageAvailable()) {

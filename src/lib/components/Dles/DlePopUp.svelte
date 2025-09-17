@@ -18,7 +18,7 @@
         section: section
       };
 
-      if (position !== null) {
+      if (position !== null && section === 'dles-of-the-week') {
         trackingData.position_id = `${section}-${position + 1}`;
       }
 
@@ -51,7 +51,7 @@
 
 <div class="dlePopUp bevel" style="left: {pageX}px; top: {pageY}px; width: {width}px" use:clickOutside on:click_outside={handleClickOutside}>
   <div class="flex justify-around items-start gap-2">
-    <DleFavorite {dle} />
+    <DleFavorite {dle} {section} {position} />
 
     <div class="text-center text-xl font-bold">
       {dle.name}
