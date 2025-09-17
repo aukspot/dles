@@ -2,6 +2,19 @@
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
   export let i
   export let dle
+
+  function trackGameClick(dle, clickType) {
+    if (typeof window !== 'undefined' && window.umami) {
+      window.umami.track('game-click', {
+        game_name: dle.name,
+        game_category: dle.category,
+        game_id: dle.id,
+        click_type: clickType, // 'play-button' or 'title-link'
+        game_position: i,
+        view_type: 'card'
+      });
+    }
+  }
 </script>
 
 <div class="card">
@@ -9,7 +22,7 @@
     <div class="cardTop">
       <div class="cardLabel">
         <span class="unselectable">{i}. </span>
-        <span class="cardName"><a href={dle.url}>{dle.name}</a></span>
+        <span class="cardName"><a href={dle.url} on:click={() => trackGameClick(dle, 'title-link')}>{dle.name}</a></span>
       </div>
     </div>
     <div class="cardDescription">
@@ -21,7 +34,7 @@
     <span class="flex items-baseline">
       <FavoriteButton {dle} />
     </span>
-    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener"
+    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener" on:click={() => trackGameClick(dle, 'play-button')}
       ><button class="btn unselectable">Play</button></a
     >
   </div>

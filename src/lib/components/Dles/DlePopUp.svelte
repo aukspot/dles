@@ -5,6 +5,18 @@
   import { clickOutside } from "$lib/js/clickOutside"
   export let dle, pageX, pageY, clientY, handleClickOutside
 
+  function trackGameClick(dle, clickType) {
+    if (typeof window !== 'undefined' && window.umami) {
+      window.umami.track('game-click', {
+        game_name: dle.name,
+        game_category: dle.category,
+        game_id: dle.id,
+        click_type: clickType,
+        view_type: 'popup'
+      });
+    }
+  }
+
   let width = 310
   let height =
     30 +
@@ -44,7 +56,7 @@
     {dle.description}
   </div>
 
-  <a href={dle.url} target="_blank">
+  <a href={dle.url} target="_blank" on:click={() => trackGameClick(dle, 'popup-link')}>
     {dle.url}
   </a>
 </div>

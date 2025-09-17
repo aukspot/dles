@@ -20,6 +20,17 @@ export function openInNewTab(href) {
 export function playRandom(options) {
   if (options.length != 0) {
     const choice = options[Math.floor(Math.random() * options.length)]
+
+    if (typeof window !== 'undefined' && window.umami) {
+      window.umami.track('game-click', {
+        game_name: choice.name,
+        game_category: choice.category,
+        game_id: choice.id,
+        click_type: 'random-button',
+        available_options: options.length
+      });
+    }
+
     openInNewTab(choice.url)
   }
 }
