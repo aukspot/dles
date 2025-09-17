@@ -2,15 +2,28 @@
   import { categoryColors, searchQuery } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
 
-  function trackSponsorClick(partner, position) {
+  function trackSponsorClick(partner, position, clickType = 'left-click') {
     if (typeof window !== 'undefined' && window.umami) {
       window.umami.track('sponsor-click', {
         sponsor_name: partner.name,
         sponsor_id: partner.id,
         sponsor_url: partner.url,
-        position_id: `sponsor-${position + 1}`
+        position_id: `sponsor-${position + 1}`,
+        click_type: clickType
       });
     }
+  }
+
+  function handleSponsorClick(event, partner, position) {
+    if (event.ctrlKey || event.metaKey) {
+      trackSponsorClick(partner, position, 'ctrl-click');
+    } else {
+      trackSponsorClick(partner, position, 'left-click');
+    }
+  }
+
+  function handleSponsorAuxClick(partner, position) {
+    trackSponsorClick(partner, position, 'middle-click');
   }
 
   const partners = [
@@ -80,7 +93,8 @@
             target="_blank"
             class="partner-link"
             id={partner.id}
-            on:click={() => trackSponsorClick(partner, i)}
+            on:click={(e) => handleSponsorClick(e, partner, i)}
+            on:auxclick={() => handleSponsorAuxClick(partner, i)}
           >
             <div class="partner-card-content {partner.backgroundColor}">
               <img
