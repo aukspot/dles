@@ -41,13 +41,26 @@
   }
 
   function toggleFavorite() {
-    if (inFavorites(dle)) {
+    const wasInFavorites = inFavorites(dle)
+
+    if (wasInFavorites) {
       removeFromFavorites(dle)
       favoriteFill = unFavoriteColor
     } else {
       $favorites = [...$favorites, dle]
       favoriteFill = favoriteColor
     }
+
+    if (typeof window !== 'undefined' && window.umami) {
+      window.umami.track('favorite-action', {
+        game_name: dle.name,
+        game_category: dle.category,
+        game_id: dle.id,
+        action: wasInFavorites ? 'unfavorite' : 'favorite',
+        total_favorites: $favorites.length
+      });
+    }
+
     if (isLocalStorageAvailable()) {
       localStorage.favorites = JSON.stringify($favorites)
     }

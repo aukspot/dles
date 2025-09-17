@@ -4,16 +4,25 @@
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
   import { clickOutside } from "$lib/js/clickOutside"
   export let dle, pageX, pageY, clientY, handleClickOutside
+  export let section = 'regular'
+  export let position = null
 
   function trackGameClick(dle, clickType) {
     if (typeof window !== 'undefined' && window.umami) {
-      window.umami.track('game-click', {
+      const trackingData = {
         game_name: dle.name,
         game_category: dle.category,
         game_id: dle.id,
         click_type: clickType,
-        view_type: 'popup'
-      });
+        view_type: 'popup',
+        section: section
+      };
+
+      if (position !== null) {
+        trackingData.position_id = `${section}-${position + 1}`;
+      }
+
+      window.umami.track('game-click', trackingData);
     }
   }
 

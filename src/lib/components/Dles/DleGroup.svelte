@@ -8,6 +8,7 @@
   export let pageY
   export let clientY
   export let dleGroup
+  export let section = 'regular'
   // export let showThemes = false
   // export let category = ""
 
@@ -91,7 +92,7 @@
           {/if}
         </div>
         {#if $poppedUpDle === dle.name}
-          <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} />
+          <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} {section} position={j} />
         {/if}
       </li>
     {/each}

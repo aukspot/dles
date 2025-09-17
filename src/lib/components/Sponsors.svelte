@@ -2,12 +2,13 @@
   import { categoryColors, searchQuery } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
 
-  function trackSponsorClick(partner) {
+  function trackSponsorClick(partner, position) {
     if (typeof window !== 'undefined' && window.umami) {
       window.umami.track('sponsor-click', {
         sponsor_name: partner.name,
         sponsor_id: partner.id,
-        sponsor_url: partner.url
+        sponsor_url: partner.url,
+        position_id: `sponsor-${position + 1}`
       });
     }
   }
@@ -72,14 +73,14 @@
       </div>
     {/if}
     <div class="partner-grid p-2">
-      {#each filteredPartners as partner}
+      {#each filteredPartners as partner, i}
         <div class="partner-item">
           <a
             href={partner.url}
             target="_blank"
             class="partner-link"
             id={partner.id}
-            on:click={() => trackSponsorClick(partner)}
+            on:click={() => trackSponsorClick(partner, i)}
           >
             <div class="partner-card-content {partner.backgroundColor}">
               <img
