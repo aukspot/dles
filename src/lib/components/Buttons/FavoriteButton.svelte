@@ -1,12 +1,15 @@
 <script>
   import { isLocalStorageAvailable } from "$lib/js/utilities"
-  import { favorites } from "$lib/stores"
+  import { favorites, dlesOfTheWeek } from "$lib/stores"
   import { onMount } from "svelte"
   import IconFavorite from "../Icons/IconFavorite.svelte"
 
   export let dle
   export let section = 'regular'
   export let position = null
+
+  // Check if this game is currently a DLE of the Week
+  $: isCurrentDleOfWeek = $dlesOfTheWeek.some(weeklyDle => weeklyDle.id === dle.id)
 
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
@@ -65,6 +68,11 @@
 
       if (position !== null && section === 'dles-of-the-week') {
         trackingData.position_id = `${section}-${position + 1}`;
+      }
+
+      // Mark if this is a current DLE of the Week viewed in regular section
+      if (section === 'regular' && isCurrentDleOfWeek) {
+        trackingData.is_dle_of_week = true;
       }
 
       window.umami.track('favorite-action', trackingData);

@@ -1,11 +1,14 @@
 <script>
-  import { poppedUpDle } from "$lib/stores"
+  import { poppedUpDle, dlesOfTheWeek } from "$lib/stores"
   import IconClose from "../Icons/IconClose.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
   import { clickOutside } from "$lib/js/clickOutside"
   export let dle, pageX, pageY, clientY, handleClickOutside
   export let section = 'regular'
   export let position = null
+
+  // Check if this game is currently a DLE of the Week
+  $: isCurrentDleOfWeek = $dlesOfTheWeek.some(weeklyDle => weeklyDle.id === dle.id)
 
   function trackGameClick(dle, clickType) {
     if (typeof window !== 'undefined' && window.umami) {
@@ -18,8 +21,14 @@
         section: section
       };
 
+      // Add position tracking for DLES of the Week section
       if (position !== null && section === 'dles-of-the-week') {
         trackingData.position_id = `${section}-${position + 1}`;
+      }
+
+      // Mark if this is a current DLE of the Week viewed in regular section
+      if (section === 'regular' && isCurrentDleOfWeek) {
+        trackingData.is_dle_of_week = true;
       }
 
       window.umami.track('game-click', trackingData);
