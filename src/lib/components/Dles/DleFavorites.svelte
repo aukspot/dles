@@ -1,5 +1,5 @@
 <script>
-  import { favorites, categoryColors, dles } from "$lib/stores"
+  import { favorites, favoriteIds, categoryColors, dles } from "$lib/stores"
   import { playRandom } from "$lib/js/utilities"
   import { categoryIcons } from "$lib/js/categoryIcons"
   import IconRandom from "$lib/components/Icons/IconRandom.svelte"
@@ -17,17 +17,19 @@
   })
 
   function sortByCategory() {
-    $favorites = $favorites.sort((a, b) => {
+    const sortedFavorites = $favorites.sort((a, b) => {
       return a.category.toLowerCase() > b.category.toLowerCase()
     })
-    localStorage.favorites = JSON.stringify($favorites)
+    $favoriteIds = sortedFavorites.map(fav => fav.id)
+    localStorage.favorites = JSON.stringify($favoriteIds)
   }
 
   function sortAlphabetically() {
-    $favorites = $favorites.sort((a, b) => {
+    const sortedFavorites = $favorites.sort((a, b) => {
       return a.name.toLowerCase() > b.name.toLowerCase()
     })
-    localStorage.favorites = JSON.stringify($favorites)
+    $favoriteIds = sortedFavorites.map(fav => fav.id)
+    localStorage.favorites = JSON.stringify($favoriteIds)
   }
 </script>
 

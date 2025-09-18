@@ -1,5 +1,5 @@
 <script>
-  import { poppedUpDle, newDles, favorites } from "$lib/stores"
+  import { poppedUpDle, newDles, favorites, favoriteIds } from "$lib/stores"
   import { openInNewTab, isLocalStorageAvailable } from "$lib/js/utilities"
   import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import DlePopUp from "./DlePopUp.svelte"
@@ -23,7 +23,7 @@
   }
 
   function isFavorited(dle) {
-    return $favorites.some((favorite) => favorite.name === dle.name)
+    return $favoriteIds.includes(dle.id)
   }
 
   // function groupDlesByTheme(dles) {
@@ -95,18 +95,18 @@
     if (!reorderable || !editMode) return
 
     if (draggedIndex !== null && dragOverIndex !== null && draggedIndex !== dragOverIndex) {
-      const newFavorites = [...$favorites]
-      const draggedItem = newFavorites[draggedIndex]
+      const newFavoriteIds = [...$favoriteIds]
+      const draggedId = newFavoriteIds[draggedIndex]
 
       // Remove the dragged item
-      newFavorites.splice(draggedIndex, 1)
+      newFavoriteIds.splice(draggedIndex, 1)
       // Insert it at the new position
-      newFavorites.splice(dragOverIndex, 0, draggedItem)
+      newFavoriteIds.splice(dragOverIndex, 0, draggedId)
 
-      $favorites = newFavorites
+      $favoriteIds = newFavoriteIds
 
       if (isLocalStorageAvailable()) {
-        localStorage.favorites = JSON.stringify($favorites)
+        localStorage.favorites = JSON.stringify($favoriteIds)
       }
     }
 

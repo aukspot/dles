@@ -1,5 +1,5 @@
 <script>
-  import { dles, favorites } from "$lib/stores"
+  import { dles, favorites, favoriteIds } from "$lib/stores"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { categoryColors } from "$lib/stores"
@@ -45,7 +45,7 @@
           dle.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           dle.category.toLowerCase().includes(searchQuery.toLowerCase())
         )
-        .filter((dle) => !$favorites.find((f) => f.name === dle.name))
+        .filter((dle) => !$favoriteIds.includes(dle.id))
         .slice(0, 20)
     } else {
       filteredDles = []
@@ -53,11 +53,11 @@
   }
 
   function addToFavorites(dle) {
-    $favorites = [...$favorites, dle]
+    $favoriteIds = [...$favoriteIds, dle.id]
     if (isLocalStorageAvailable()) {
-      localStorage.favorites = JSON.stringify($favorites)
+      localStorage.favorites = JSON.stringify($favoriteIds)
     }
-    filteredDles = filteredDles.filter((d) => d.name !== dle.name)
+    filteredDles = filteredDles.filter((d) => d.id !== dle.id)
   }
 
   function handleKeydown(event) {

@@ -1,6 +1,6 @@
 <script>
   import { isLocalStorageAvailable } from "$lib/js/utilities"
-  import { favorites } from "$lib/stores"
+  import { favorites, favoriteIds } from "$lib/stores"
   import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import { onMount } from "svelte"
   import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
@@ -28,12 +28,7 @@
   })
 
   function inFavorites(dle) {
-    for (let favorite of $favorites) {
-      if (dle.name === favorite.name) {
-        return true
-      }
-    }
-    return false
+    return $favoriteIds.includes(dle.id)
   }
 
   function setFill() {
@@ -45,7 +40,7 @@
   }
 
   function removeFromFavorites(dle) {
-    $favorites = $favorites.filter((d) => d.name !== dle.name)
+    $favoriteIds = $favoriteIds.filter((id) => id !== dle.id)
   }
 
   function toggleFavorite() {
@@ -55,20 +50,20 @@
       removeFromFavorites(dle)
       favoriteFill = unFavoriteColor
     } else {
-      $favorites = [...$favorites, dle]
+      $favoriteIds = [...$favoriteIds, dle.id]
       favoriteFill = favoriteColor
     }
 
     if (typeof window !== 'undefined' && window.umami) {
       const trackingData = createTrackingData(dle, wasInFavorites ? 'unfavorite' : 'favorite', 'button', section, position);
-      trackingData.total_favorites = $favorites.length;
+      trackingData.total_favorites = $favoriteIds.length;
       trackingData.action = wasInFavorites ? 'unfavorite' : 'favorite';
 
       trackEvent('favorite-action', trackingData, `FavoriteButton ${trackingData.action}`);
     }
 
     if (isLocalStorageAvailable()) {
-      localStorage.favorites = JSON.stringify($favorites)
+      localStorage.favorites = JSON.stringify($favoriteIds)
     }
   }
 </script>

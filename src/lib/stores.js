@@ -1,4 +1,5 @@
-import { readable, writable } from "svelte/store"
+import { readable, writable, derived } from "svelte/store"
+import { getFavoritesFromIds } from "$lib/js/favoritesMigration"
 
 export let dles = writable([])
 export let newDles = writable([])
@@ -10,7 +11,11 @@ export let toolbarSelection = writable("")
 export let settings = writable({})
 export let randomCategories = writable([])
 export let infoHidden = writable(false)
-export let favorites = writable([])
+export let favoriteIds = writable([])
+export let favorites = derived(
+  [favoriteIds, filteredDles],
+  ([$favoriteIds, $filteredDles]) => getFavoritesFromIds($favoriteIds, $filteredDles)
+)
 export let poppedUpDle = writable("")
 export let searchQuery = writable("")
 export let categorizedDles = writable({})

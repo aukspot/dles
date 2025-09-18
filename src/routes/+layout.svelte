@@ -11,7 +11,7 @@
     changelog,
     dles,
     newDles,
-    favorites,
+    favoriteIds,
     filteredDles,
     infoHidden,
     randomCategories,
@@ -26,6 +26,10 @@
     getCurrentDlesOfTheWeek,
     isLocalStorageAvailable,
   } from "$lib/js/utilities"
+  import {
+    migrateFavoritesToIds,
+    needsFavoritesMigration
+  } from "$lib/js/favoritesMigration"
   import LatestChange from "$lib/components/LatestChange.svelte"
 
   onMount(() => {
@@ -35,7 +39,27 @@
       } else {
         $randomCategories = $categories
       }
-      $favorites = JSON.parse(localStorage.favorites || "[]")
+      const rawFavorites = JSON.parse(localStorage.favorites || "[]")
+
+      // Check if migration is needed
+      if (needsFavoritesMigration(rawFavorites)) {
+        console.log('🔄 Migrating favorites to new ID-based format...')
+        const migrationResult = migrateFavoritesToIds(rawFavorites, $dles)
+        $favoriteIds = migrationResult.ids
+        localStorage.favorites = JSON.stringify(migrationResult.ids)
+
+        const { report } = migrationResult
+        console.log(`✅ Migration complete: ${report.migrated}/${report.total} favorites migrated`)
+
+        if (report.failed.length > 0) {
+          console.warn('⚠️ Some favorites could not be migrated:', report.failed)
+          if (report.suggestions.length > 0) {
+            console.log('💡 Suggestions for failed migrations:', report.suggestions)
+          }
+        }
+      } else {
+        $favoriteIds = rawFavorites
+      }
     }
   })
 
