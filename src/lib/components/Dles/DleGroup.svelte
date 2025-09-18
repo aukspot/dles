@@ -17,6 +17,11 @@
 
   let draggedIndex = null
   let dragOverIndex = null
+  let touchStartY = 0
+  let touchCurrentY = 0
+  let isDragging = false
+  let draggedElement = null
+  let touchOffset = { x: 0, y: 0 }
 
   function isNewDle(dle) {
     return $newDles.filter((d) => d.url === dle.url).length === 1
@@ -118,6 +123,88 @@
     dragOverIndex = null
   }
 
+  function handleTouchStart(event, index) {
+    if (!reorderable || !editMode) return
+
+    const touch = event.touches[0]
+    const target = event.currentTarget
+
+    const rect = target.getBoundingClientRect()
+    touchOffset.x = touch.clientX - rect.left
+    touchOffset.y = touch.clientY - rect.top
+
+    touchStartY = touch.clientY
+    draggedIndex = index
+    isDragging = true
+    draggedElement = target
+
+    const originalWidth = rect.width
+    const originalHeight = rect.height
+
+    target.style.cssText = `
+      position: fixed !important;
+      z-index: 1000 !important;
+      pointer-events: none !important;
+      transform: scale(1.05) translate3d(${touch.clientX - touchOffset.x}px, ${touch.clientY - touchOffset.y}px, 0) !important;
+      opacity: 0.9 !important;
+      width: ${originalWidth}px !important;
+      height: ${originalHeight}px !important;
+      will-change: transform !important;
+      transition: none !important;
+      left: 0 !important;
+      top: 0 !important;
+    `
+
+    event.preventDefault()
+  }
+
+  function handleTouchMove(event) {
+    if (!isDragging || draggedIndex === null || !draggedElement) return
+
+    const touch = event.touches[0]
+    touchCurrentY = touch.clientY
+
+    const newX = touch.clientX - touchOffset.x
+    const newY = touch.clientY - touchOffset.y
+
+    draggedElement.style.transform = `scale(1.05) translate3d(${newX}px, ${newY}px, 0)`
+
+    if (!draggedElement._lastHitTest || Date.now() - draggedElement._lastHitTest > 16) {
+      draggedElement._lastHitTest = Date.now()
+
+      const elementBelow = document.elementFromPoint(touch.clientX, touch.clientY)
+      const dleElement = elementBelow?.closest('[data-dle-index]')
+
+      if (dleElement) {
+        const newIndex = parseInt(dleElement.dataset.dleIndex)
+        if (newIndex !== draggedIndex && !isNaN(newIndex)) {
+          dragOverIndex = newIndex
+        }
+      }
+    }
+
+    event.preventDefault()
+  }
+
+  function handleTouchEnd(event) {
+    if (!isDragging) return
+
+    if (draggedElement) {
+      draggedElement.style.cssText = ''
+      draggedElement._lastHitTest = null
+    }
+
+    handleDragEnd()
+
+    isDragging = false
+    draggedElement = null
+    touchStartY = 0
+    touchCurrentY = 0
+    touchOffset = { x: 0, y: 0 }
+
+    event.preventDefault()
+  }
+
   function handleAuxClick(dle, position) {
     handleGameClick(dle, position, 'middle-click');
   }
@@ -140,11 +227,15 @@
         class="dleContainer"
         class:dragging={reorderable && editMode && draggedIndex === j}
         class:drag-over={reorderable && editMode && dragOverIndex === j}
+        data-dle-index={j}
         draggable={reorderable && editMode}
         on:dragstart={(e) => handleDragStart(e, j)}
         on:dragover={(e) => handleDragOver(e, j)}
         on:dragend={handleDragEnd}
         on:dragleave={handleDragLeave}
+        on:touchstart={(e) => handleTouchStart(e, j)}
+        on:touchmove={handleTouchMove}
+        on:touchend={handleTouchEnd}
       >
         <div class="dleTop" class:draggable-row={reorderable && editMode}>
           <div class="dleLeft">
@@ -153,16 +244,13 @@
                 class="dleName"
                 class:with-drag-handle={reorderable && editMode}
                 on:click={(e) => {
-                  if (reorderable && editMode) return // Disable popup in edit mode
+                  if (reorderable && editMode) return 
 
-                  // If Ctrl/Cmd is held, navigate directly to the game
                   if (e.ctrlKey || e.metaKey) {
                     handleCtrlClick(dle, j);
                     return;
                   }
 
-                  // Otherwise, show/hide popup
-                  // Use section + name to make popup unique per section
                   const popupKey = `${section}-${dle.name}`
                   $poppedUpDle === popupKey
                     ? ($poppedUpDle = "")
