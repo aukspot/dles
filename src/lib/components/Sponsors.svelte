@@ -2,6 +2,30 @@
   import { categoryColors, searchQuery } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
 
+  function trackSponsorClick(partner, position, clickType = 'left-click') {
+    if (typeof window !== 'undefined' && window.umami) {
+      window.umami.track('sponsor-click', {
+        sponsor_name: partner.name,
+        sponsor_id: partner.id,
+        sponsor_url: partner.url,
+        position_id: `sponsor-${position + 1}`,
+        click_type: clickType
+      });
+    }
+  }
+
+  function handleSponsorClick(event, partner, position) {
+    if (event.ctrlKey || event.metaKey) {
+      trackSponsorClick(partner, position, 'ctrl-click');
+    } else {
+      trackSponsorClick(partner, position, 'left-click');
+    }
+  }
+
+  function handleSponsorAuxClick(partner, position) {
+    trackSponsorClick(partner, position, 'middle-click');
+  }
+
   const partners = [
     {
       id: "partner-nibble",
@@ -62,13 +86,15 @@
       </div>
     {/if}
     <div class="partner-grid p-2">
-      {#each filteredPartners as partner}
+      {#each filteredPartners as partner, i}
         <div class="partner-item">
           <a
             href={partner.url}
             target="_blank"
             class="partner-link"
             id={partner.id}
+            on:click={(e) => handleSponsorClick(e, partner, i)}
+            on:auxclick={() => handleSponsorAuxClick(partner, i)}
           >
             <div class="partner-card-content {partner.backgroundColor}">
               <img
@@ -92,7 +118,12 @@
         <a
           href="https://tally.so/r/wgEX5K"
           class="partner-inquiry-link"
-          target="_blank">Want to sponsor? Message me!</a
+          target="_blank"
+          on:click={() => {
+            if (typeof window !== 'undefined' && window.umami) {
+              window.umami.track('sponsor-inquiry-click');
+            }
+          }}>Want to sponsor? Message me!</a
         >
       </div>
     {/if}

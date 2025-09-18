@@ -209,6 +209,7 @@
           bind:pageX
           bind:pageY
           bind:clientY
+          section="dles-of-the-week"
         />
       </div>
     {/if}

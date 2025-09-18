@@ -1,6 +1,7 @@
 <script>
   import { poppedUpDle, newDles, favorites } from "$lib/stores"
   import { openInNewTab, isLocalStorageAvailable } from "$lib/js/utilities"
+  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
@@ -10,6 +11,7 @@
   export let pageY
   export let clientY
   export let dleGroup
+  export let section = 'regular'
   export let reorderable = false
   export let editMode = false
 
@@ -114,6 +116,20 @@
 
   function handleDragLeave() {
     dragOverIndex = null
+  }
+
+  function handleAuxClick(dle, position) {
+    handleGameClick(dle, position, 'middle-click');
+  }
+
+  function handleCtrlClick(dle, position) {
+    handleGameClick(dle, position, 'ctrl-click');
+  }
+
+  function handleGameClick(dle, position, clickType) {
+    const trackingData = createTrackingData(dle, clickType, 'list', section, position);
+    trackEvent('game-click', trackingData, `DleGroup ${clickType}`);
+    openInNewTab(dle.url, trackingData);
   }
 </script>
 

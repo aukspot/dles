@@ -1,11 +1,15 @@
 <script>
   import { isLocalStorageAvailable } from "$lib/js/utilities"
   import { favorites } from "$lib/stores"
+  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import { onMount } from "svelte"
   import IconFavorite from "../Icons/IconFavorite.svelte"
 
   export let dle
   export let size = "normal" // "normal" or "small"
+  export let section = 'regular'
+  export let position = null
+
 
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
@@ -42,13 +46,24 @@
   }
 
   function toggleFavorite() {
-    if (inFavorites(dle)) {
+    const wasInFavorites = inFavorites(dle)
+
+    if (wasInFavorites) {
       removeFromFavorites(dle)
       favoriteFill = unFavoriteColor
     } else {
       $favorites = [...$favorites, dle]
       favoriteFill = favoriteColor
     }
+
+    if (typeof window !== 'undefined' && window.umami) {
+      const trackingData = createTrackingData(dle, wasInFavorites ? 'unfavorite' : 'favorite', 'button', section, position);
+      trackingData.total_favorites = $favorites.length;
+      trackingData.action = wasInFavorites ? 'unfavorite' : 'favorite';
+
+      trackEvent('favorite-action', trackingData, `FavoriteButton ${trackingData.action}`);
+    }
+
     if (isLocalStorageAvailable()) {
       localStorage.favorites = JSON.stringify($favorites)
     }

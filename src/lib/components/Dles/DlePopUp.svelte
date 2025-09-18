@@ -1,9 +1,17 @@
 <script>
   import { poppedUpDle } from "$lib/stores"
+  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import IconClose from "../Icons/IconClose.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
   import { clickOutside } from "$lib/js/clickOutside"
   export let dle, pageX, pageY, clientY, handleClickOutside
+  export let section = 'regular'
+  export let position = null
+
+  function trackGameClick(dle, clickType) {
+    const trackingData = createTrackingData(dle, clickType, 'popup', section, position);
+    trackEvent('game-click', trackingData, `DlePopUp ${clickType}`);
+  }
 
   let width = 310
   let height =
@@ -30,7 +38,7 @@
 
 <div class="dlePopUp bevel" style="left: {pageX}px; top: {pageY}px; width: {width}px" use:clickOutside on:click_outside={handleClickOutside}>
   <div class="flex justify-around items-start gap-2">
-    <DleFavorite {dle} />
+    <DleFavorite {dle} {section} {position} />
 
     <div class="text-center text-xl font-bold">
       {dle.name}
@@ -44,7 +52,7 @@
     {dle.description}
   </div>
 
-  <a href={dle.url} target="_blank">
+  <a href={dle.url} target="_blank" on:click={() => trackGameClick(dle, 'popup-link')} on:auxclick={() => trackGameClick(dle, 'popup-middle-click')}>
     {dle.url}
   </a>
 </div>
