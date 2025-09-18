@@ -17,7 +17,8 @@
   import Banner from "../Banner.svelte"
   import { openInNewTab } from "$lib/js/utilities"
   import IconCalendarHeart from "../Icons/IconCalendarHeart.svelte"
-  import IconFavorite from "../Icons/IconFavorite.svelte"
+  import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
+  import IconFavoriteFilled from "../Icons/IconFavoriteFilled.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
   import IconEdit from "../Icons/IconEdit.svelte"
   import DleGroup from "./DleGroup.svelte"
@@ -149,14 +150,18 @@
         >
           <div class="label">
             <div class="flex-shrink-0">
-              <IconFavorite />
+              <IconFavoriteFilled />
             </div>
             Favorites
           </div>
         </div>
-        <div class="favorites-add-row">
+        <div class="favorites-add-row" class:edit-mode={editMode}>
           <div class="favorites-add-text">
-            {card.data.length === 0 ? 'No favorites yet' : `${card.data.length} favorite${card.data.length !== 1 ? 's' : ''}`}
+            {#if editMode}
+              <span class="edit-mode-text">Drag to reorder!</span>
+            {:else}
+              {card.data.length === 0 ? 'No favorites yet' : `${card.data.length} favorite${card.data.length !== 1 ? 's' : ''}`}
+            {/if}
           </div>
           <div class="favorites-buttons">
             <button
@@ -171,9 +176,12 @@
                 class="favorites-edit-button"
                 class:active={editMode}
                 on:click={toggleEditMode}
-                title={editMode ? "Done rearranging" : "Rearrange favorites"}
+                title={editMode ? "Click to finish rearranging" : "Rearrange favorites"}
               >
                 <IconEdit />
+                {#if editMode}
+                  <span class="edit-button-text">Done</span>
+                {/if}
               </button>
             {/if}
           </div>
@@ -183,6 +191,7 @@
             dleGroup={card.data}
             reorderable={true}
             {editMode}
+            section="favorites"
             bind:pageX
             bind:pageY
             bind:clientY
@@ -209,7 +218,6 @@
           bind:pageX
           bind:pageY
           bind:clientY
-          section="dles-of-the-week"
         />
       </div>
     {/if}
@@ -251,16 +259,29 @@
     );
   }
 
-  .empty-favorites {
-    @apply min-h-[60px];
-  }
 
   .favorites-add-row {
-    @apply flex items-center justify-between p-1 px-2 bg-colorCardC border-t border-colorTextSoftest;
+    @apply flex items-center justify-between p-1 pl-2 bg-colorCardC border-t border-colorTextSoftest transition-colors duration-200;
+  }
+
+  .favorites-add-row.edit-mode {
+    @apply bg-blue-50 border-blue-200;
+  }
+
+  :global(.dark) .favorites-add-row.edit-mode {
+    @apply bg-blue-900/30 border-blue-700;
   }
 
   .favorites-add-text {
     @apply text-sm text-colorTextSoft;
+  }
+
+  .edit-mode-text {
+    @apply text-blue-700 font-medium;
+  }
+
+  :global(.dark) .edit-mode-text {
+    @apply text-blue-300;
   }
 
   .favorites-buttons {
@@ -268,11 +289,23 @@
   }
 
   .favorites-add-button, .favorites-edit-button {
-    @apply p-1 hover:bg-colorCardB rounded transition-colors text-colorTextSofter hover:text-colorText;
+    @apply p-1 hover:bg-colorCardB rounded-sm stroke-colorTextSoft transition-all duration-200;
+  }
+
+  .favorites-edit-button {
+    @apply flex items-center gap-1 border border-transparent;
   }
 
   .favorites-edit-button.active {
-    @apply bg-colorCardB text-colorText;
+    @apply bg-blue-100 border-blue-300 text-blue-700 stroke-blue-600;
+  }
+
+  :global(.dark) .favorites-edit-button.active {
+    @apply bg-blue-900/40 border-blue-600 text-blue-300 stroke-blue-400;
+  }
+
+  .edit-button-text {
+    @apply text-xs font-medium;
   }
 
 </style>

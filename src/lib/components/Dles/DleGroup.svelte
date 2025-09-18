@@ -148,25 +148,37 @@
       >
         <div class="dleTop" class:draggable-row={reorderable && editMode}>
           <div class="dleLeft">
-            <button
-              class="dleName"
-              class:with-drag-handle={reorderable && editMode}
-              on:click={(e) => {
-                if (reorderable && editMode) return // Disable popup in edit mode
-                $poppedUpDle === dle.name
-                  ? ($poppedUpDle = "")
-                  : ($poppedUpDle = dle.name)
-                pageX = e.pageX
-                pageY = e.pageY
-                clientY = e.clientY
-              }}
-              on:auxclick={(e) => openInNewTab(dle.url)}
-            >
-              {dle.name}
-            </button>
-            {#if isNewDle(dle)}
-              <IconNew />
-            {/if}
+            <div class="dle-name-container">
+              <button
+                class="dleName"
+                class:with-drag-handle={reorderable && editMode}
+                on:click={(e) => {
+                  if (reorderable && editMode) return // Disable popup in edit mode
+
+                  // If Ctrl/Cmd is held, navigate directly to the game
+                  if (e.ctrlKey || e.metaKey) {
+                    handleCtrlClick(dle, j);
+                    return;
+                  }
+
+                  // Otherwise, show/hide popup
+                  // Use section + name to make popup unique per section
+                  const popupKey = `${section}-${dle.name}`
+                  $poppedUpDle === popupKey
+                    ? ($poppedUpDle = "")
+                    : ($poppedUpDle = popupKey)
+                  pageX = e.pageX
+                  pageY = e.pageY
+                  clientY = e.clientY
+                }}
+                on:auxclick={(e) => handleAuxClick(dle, j)}
+              >
+                {dle.name}
+              </button>
+              {#if isNewDle(dle)}
+                <IconNew />
+              {/if}
+            </div>
           </div>
           {#if reorderable && editMode}
             <div class="drag-handle">
@@ -178,8 +190,8 @@
             </div>
           {/if}
         </div>
-        {#if $poppedUpDle === dle.name && !(reorderable && editMode)}
-          <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} />
+        {#if $poppedUpDle === `${section}-${dle.name}` && !(reorderable && editMode)}
+          <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} {section} position={j} />
         {/if}
       </li>
     {/each}
@@ -208,7 +220,7 @@
   }
 
   .dleLeft {
-    @apply flex items-center gap-1 flex-1;
+    @apply flex items-center gap-1;
   }
 
   .drag-handle {
@@ -216,12 +228,30 @@
   }
 
   .dleName {
-    @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-all hover:duration-300;
+    @apply inline text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-all hover:duration-300;
     text-decoration-thickness: 2px;
+    padding: 0;
+    border: none;
+    background: none;
+    display: inline;
   }
 
   .dleName.with-drag-handle {
     @apply cursor-move;
+  }
+
+  /* Different hover color in edit mode */
+  .dleName.with-drag-handle:hover {
+    @apply text-blue-600 decoration-blue-400;
+  }
+
+  /* Subtle background highlight when hovering in edit mode */
+  .dleContainer:has(.dleName.with-drag-handle):hover {
+    @apply bg-blue-50;
+  }
+
+  :global(.dark) .dleContainer:has(.dleName.with-drag-handle):hover {
+    @apply bg-blue-900/20;
   }
 
   .hover-favorite {

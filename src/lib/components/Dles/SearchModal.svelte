@@ -5,7 +5,7 @@
   import { categoryColors } from "$lib/stores"
   import { clickOutside } from "$lib/js/clickOutside"
   import IconClose from "../Icons/IconClose.svelte"
-  import IconFavorite from "../Icons/IconFavorite.svelte"
+  import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
 
   export let onClose
   export let pageX
@@ -122,7 +122,7 @@
               on:click={() => addToFavorites(dle)}
               title="Add to favorites"
             >
-              <IconFavorite />
+              <IconFavoriteOutline />
             </button>
           </div>
         {/each}
@@ -133,16 +133,24 @@
 
 <style lang="postcss">
   .searchPopup {
-    @apply absolute p-3 flex flex-col bg-colorCardC rounded-lg shadow-sm shadow-colorTextSoftest;
+    @apply absolute p-3 flex flex-col bg-colorCardC rounded-lg border border-colorNeutralSoft;
     z-index: 100;
+    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  :global(.dark) .searchPopup {
+    @apply border-colorTextSoftest;
+    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
   }
 
   .search-header {
-    @apply flex-shrink-0 mb-2;
+    @apply flex-shrink-0 mb-2 flex justify-center;
   }
 
   .search-input {
-    @apply w-full p-2 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
+    @apply p-2 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
+    width: 80%;
+    max-width: 300px;
   }
 
   .results-container {

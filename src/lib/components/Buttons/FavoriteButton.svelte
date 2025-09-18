@@ -3,7 +3,8 @@
   import { favorites } from "$lib/stores"
   import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import { onMount } from "svelte"
-  import IconFavorite from "../Icons/IconFavorite.svelte"
+  import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
+  import IconFavoriteRemove from "../Icons/IconFavoriteRemove.svelte"
 
   export let dle
   export let size = "normal" // "normal" or "small"
@@ -14,7 +15,9 @@
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
   let unFavoriteColor = "transparent"
+  let isHovered = false
 
+  $: isFavorited = inFavorites(dle)
   $: {
     $favorites
     setFill()
@@ -73,10 +76,19 @@
 <button
   style="fill: {favoriteFill ?? 'transparent'};"
   on:click={toggleFavorite}
-  class="stroke-colorTextSofter transition-colors duration-200 hover:scale-105 active:stroke-2 flex items-center justify-center"
+  on:mouseenter={() => isHovered = true}
+  on:mouseleave={() => isHovered = false}
+  class="hover:scale-105 flex items-center justify-center favorite-button"
   class:small={size === "small"}
+  class:is-favorited={isFavorited}
+  title={isFavorited ? "Remove from favorites" : "Add to favorites"}
 >
-  <IconFavorite /></button
+  {#if isFavorited && isHovered}
+    <IconFavoriteRemove />
+  {:else}
+    <IconFavoriteOutline />
+  {/if}
+</button
 >
 
 <style lang="postcss">

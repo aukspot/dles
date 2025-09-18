@@ -14,8 +14,8 @@
     if (!browser) return 2
 
     const width = window.innerWidth
-    if (width <= 290) return 1
-    if (width >= 768) return Math.min(Math.floor(width / 192), 4) // 12rem = 192px, max 4 columns
+    if (width <= 336) return 1  // Increased threshold to prevent overflow
+    if (width >= 768) return Math.min(Math.floor(width / 220), 4) // Increased min width per column
     if (width >= 570) return 3
     return 2
   }
@@ -146,7 +146,7 @@
 
 <style lang="postcss">
   .grid-container {
-    @apply pb-3 px-1 mt-1 mb-2 gap-2;
+    @apply pb-3 mt-1 mb-2 gap-2;
     display: grid;
     grid-template-columns: repeat(var(--num-columns), 1fr);
   }

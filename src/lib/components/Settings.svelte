@@ -5,7 +5,7 @@
   import { isLocalStorageAvailable } from "$lib/js/utilities"
   import { page } from "$app/stores"
   import { base } from "$app/paths"
-  import IconFavorite from "./Icons/IconFavorite.svelte"
+  import IconFavoriteOutline from "./Icons/IconFavoriteOutline.svelte"
 
   onMount(() => {
     if (isLocalStorageAvailable()) {
@@ -48,7 +48,7 @@
 </div>
 <div data-sveltekit-reload class="flex justify-center items-center gap-1">
   <a class="menu-link btn-menu-item" href="{base}/favorites"
-    ><IconFavorite /> Favorites</a
+    ><IconFavoriteOutline /> Favorites</a
   >
 </div>
 

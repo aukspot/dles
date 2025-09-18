@@ -1,0 +1,22 @@
+<svg
+   width="28"
+   viewBox="0 0 24 24"
+   fill="currentColor">
+  <defs>
+    <mask id="brokenHeartMask">
+      <!-- White area shows the heart -->
+      <rect width="24" height="24" fill="white"/>
+      <!-- Black line creates the crack/break -->
+      <path
+         fill="none"
+         stroke="black"
+         stroke-width="2"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         d="m 12.453133,4.7825861 -1.6652,2.6158265 3.001768,3.0270634 -2.386811,2.974459"/>
+    </mask>
+  </defs>
+  <path
+     mask="url(#brokenHeartMask)"
+     d="M2 9.137C2 14 6.02 16.591 8.962 18.911 10 19.729 11 20.5 12 20.5s2-.77 3.038-1.59C17.981 16.592 22 14 22 9.138c0-4.863-5.5-8.312-10-3.636C7.5.825 2 4.274 2 9.137Z"/>
+</svg>
