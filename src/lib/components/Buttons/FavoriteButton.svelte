@@ -5,6 +5,7 @@
   import IconFavorite from "../Icons/IconFavorite.svelte"
 
   export let dle
+  export let size = "normal" // "normal" or "small"
 
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
@@ -57,7 +58,18 @@
 <button
   style="fill: {favoriteFill ?? 'transparent'};"
   on:click={toggleFavorite}
-  class="stroke-colorTextSofter transition-colors duration-200 hover:scale-105 active:stroke-2"
+  class="stroke-colorTextSofter transition-colors duration-200 hover:scale-105 active:stroke-2 flex items-center justify-center"
+  class:small={size === "small"}
 >
   <IconFavorite /></button
 >
+
+<style lang="postcss">
+  .small {
+    @apply h-6 w-8 min-h-0;
+  }
+
+  .small :global(svg) {
+    @apply w-6 h-6;
+  }
+</style>

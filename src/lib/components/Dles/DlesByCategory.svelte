@@ -17,12 +17,21 @@
   import Banner from "../Banner.svelte"
   import { openInNewTab } from "$lib/js/utilities"
   import IconCalendarHeart from "../Icons/IconCalendarHeart.svelte"
+  import IconFavorite from "../Icons/IconFavorite.svelte"
+  import IconPlus from "../Icons/IconPlus.svelte"
+  import IconEdit from "../Icons/IconEdit.svelte"
   import DleGroup from "./DleGroup.svelte"
+  import DleGrid from "./DleGrid.svelte"
+  import SearchModal from "./SearchModal.svelte"
   import Sponsors from "../Sponsors.svelte"
 
   let pageX = 0
   let pageY = 0
   let clientY = 0
+  let allCards = []
+  let favoriteCardIndex = -1
+  let showSearchModal = false
+  let editMode = false
 
   function resetPoppedUpDle() {
     $poppedUpDle = ""
@@ -31,7 +40,82 @@
   function handleKeyUp(event) {
     if (event.key == "Escape") {
       resetPoppedUpDle()
+      if (showSearchModal) {
+        showSearchModal = false
+      }
     }
+  }
+
+  function openSearchModal(event) {
+    pageX = event.pageX
+    pageY = event.pageY
+    clientY = event.clientY
+    showSearchModal = true
+  }
+
+  function closeSearchModal() {
+    showSearchModal = false
+  }
+
+  function toggleEditMode() {
+    editMode = !editMode
+  }
+
+
+  function buildCards() {
+    const cards = []
+    let currentIndex = 0
+
+    // Add DLES of the Week
+    if ($dlesOfTheWeek.length !== 0) {
+      cards.push({
+        id: 'dlesOfTheWeek',
+        type: 'dlesOfTheWeek',
+        data: $dlesOfTheWeek
+      })
+      currentIndex++
+    }
+
+    // Add Favorites (always present, even if empty)
+    favoriteCardIndex = currentIndex
+    cards.push({
+      id: 'favorites',
+      type: 'favorites',
+      data: $favorites
+    })
+    currentIndex++
+
+    // Add Sponsors
+    cards.push({
+      id: 'sponsors',
+      type: 'sponsors',
+      data: null
+    })
+    currentIndex++
+
+    // Add category cards
+    for (const category of $categories) {
+      const categoryDles = $categorizedDles[category] || []
+      if (categoryDles.length !== 0) {
+        cards.push({
+          id: category,
+          type: 'category',
+          data: categoryDles,
+          category
+        })
+        currentIndex++
+      }
+    }
+
+    allCards = cards
+  }
+
+  $: {
+    $dlesOfTheWeek
+    $favorites
+    $categorizedDles
+    $categories
+    buildCards()
   }
 </script>
 
@@ -39,8 +123,8 @@
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <Banner includeSearch={true} />
 <div class="w-full mx-auto">
-  <div class="dlesContainer">
-    {#if $dlesOfTheWeek.length !== 0}
+  <DleGrid cards={allCards} {favoriteCardIndex} let:card>
+    {#if card.type === 'dlesOfTheWeek'}
       <div class="card">
         <div class="labelContainer rainbow-gradient">
           <div class="label">
@@ -51,47 +135,91 @@
           </div>
         </div>
         <DleGroup
-          dleGroup={$dlesOfTheWeek}
+          dleGroup={card.data}
+          bind:pageX
+          bind:pageY
+          bind:clientY
+        />
+      </div>
+    {:else if card.type === 'favorites'}
+      <div class="card">
+        <div
+          class="labelContainer"
+          style="background-color: hsl(320, 90%, 50%, 45%);"
+        >
+          <div class="label">
+            <div class="flex-shrink-0">
+              <IconFavorite />
+            </div>
+            Favorites
+          </div>
+        </div>
+        <div class="favorites-add-row">
+          <div class="favorites-add-text">
+            {card.data.length === 0 ? 'No favorites yet' : `${card.data.length} favorite${card.data.length !== 1 ? 's' : ''}`}
+          </div>
+          <div class="favorites-buttons">
+            <button
+              class="favorites-add-button"
+              on:click={openSearchModal}
+              title="Add dle to favorites"
+            >
+              <IconPlus />
+            </button>
+            {#if card.data.length > 0}
+              <button
+                class="favorites-edit-button"
+                class:active={editMode}
+                on:click={toggleEditMode}
+                title={editMode ? "Done rearranging" : "Rearrange favorites"}
+              >
+                <IconEdit />
+              </button>
+            {/if}
+          </div>
+        </div>
+        {#if card.data.length > 0}
+          <DleGroup
+            dleGroup={card.data}
+            reorderable={true}
+            {editMode}
+            bind:pageX
+            bind:pageY
+            bind:clientY
+          />
+        {/if}
+      </div>
+    {:else if card.type === 'sponsors'}
+      <Sponsors />
+    {:else if card.type === 'category'}
+      <div class="card">
+        <div
+          class="labelContainer"
+          style="background-color: {$categoryColors[card.category]}"
+        >
+          <div class="label">
+            <div class="flex-shrink-0">
+              <svelte:component this={categoryIcons[card.category]} />
+            </div>
+            {card.category}
+          </div>
+        </div>
+        <DleGroup
+          dleGroup={card.data}
           bind:pageX
           bind:pageY
           bind:clientY
         />
       </div>
     {/if}
-
-    <Sponsors />
-
-    {#each $categories as category, i (i)}
-      {@const categoryDles = $categorizedDles[category] || []}
-      {#if categoryDles.length !== 0}
-        <div class="card">
-          <div
-            class="labelContainer"
-            style="background-color: {$categoryColors[category]}"
-          >
-            <div class="label">
-              <div class="flex-shrink-0">
-                <svelte:component this={categoryIcons[category]} />
-              </div>
-              {category}
-            </div>
-          </div>
-          <DleGroup
-            dleGroup={categoryDles}
-            bind:pageX
-            bind:pageY
-            bind:clientY
-          />
-        </div>
-      {/if}
-    {/each}
-  </div>
+  </DleGrid>
 </div>
 
+{#if showSearchModal}
+  <SearchModal onClose={closeSearchModal} {pageX} {pageY} {clientY} />
+{/if}
+
 <style lang="postcss">
-  .dlesContainer {
-    @apply pb-3 px-1 mt-1 mb-2 gap-2 columns-2 md:columns-[12rem] max-[290px]:columns-1;
-  }
   .card {
     @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
   }
@@ -120,6 +248,30 @@
       /* Dark Green */ hsl(216, 90%, 30%, 0.9) 60% 80%,
       /* Dark Blue */ hsl(288, 90%, 30%, 0.9) 80% 100% /* Dark Purple */
     );
+  }
+
+  .empty-favorites {
+    @apply min-h-[60px];
+  }
+
+  .favorites-add-row {
+    @apply flex items-center justify-between p-1 px-2 bg-colorCardC border-t border-colorTextSoftest;
+  }
+
+  .favorites-add-text {
+    @apply text-sm text-colorTextSoft;
+  }
+
+  .favorites-buttons {
+    @apply flex items-center justify-end gap-1;
+  }
+
+  .favorites-add-button, .favorites-edit-button {
+    @apply p-1 hover:bg-colorCardB rounded transition-colors text-colorTextSofter hover:text-colorText;
+  }
+
+  .favorites-edit-button.active {
+    @apply bg-colorCardB text-colorText;
   }
 
 </style>
