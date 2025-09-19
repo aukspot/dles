@@ -113,6 +113,10 @@
   onMount(() => {
     isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
   })
+
+  function focusInput(element) {
+    element.focus()
+  }
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
@@ -137,7 +141,7 @@
       placeholder="Search dles..."
       bind:value={searchQuery}
       class="search-input"
-      autofocus
+      use:focusInput
     />
   </div>
 
