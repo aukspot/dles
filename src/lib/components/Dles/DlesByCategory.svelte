@@ -10,7 +10,6 @@
     searchQuery,
   } from "$lib/stores"
 
-  import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
 
   import { categoryIcons } from "$lib/js/categoryIcons"

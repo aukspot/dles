@@ -23,22 +23,32 @@
     Math.floor(Math.ceil(28 * dle.name.length) / 10) +
     Math.floor(Math.ceil(24 * dle.description.length) / 26) +
     Math.floor(Math.ceil(24 * dle.url.length) / 26)
-  if (pageX < width / 2) {
-    pageX = width / 2 + 5
-  }
-  if (pageX + width / 2 > document.documentElement.clientWidth) {
-    pageX = document.documentElement.clientWidth - width / 2 - 5
-  }
-  if (clientY < height) {
-    pageY += height - clientY
-  }
+
+  $: adjustedPageX = (() => {
+    let x = pageX
+    if (x < width / 2) {
+      x = width / 2 + 5
+    }
+    if (x + width / 2 > document.documentElement.clientWidth) {
+      x = document.documentElement.clientWidth - width / 2 - 5
+    }
+    return x
+  })()
+
+  $: adjustedPageY = (() => {
+    let y = pageY
+    if (clientY < height) {
+      y += height - clientY
+    }
+    return y
+  })()
 
   function closePopup() {
     $poppedUpDle = ""
   }
 </script>
 
-<div class="dlePopUp bevel" style="left: {pageX}px; top: {pageY}px; width: {width}px" use:clickOutside on:click_outside={handleClickOutside}>
+<div class="dlePopUp bevel" style="left: {adjustedPageX}px; top: {adjustedPageY}px; width: {width}px" use:clickOutside on:click_outside={handleClickOutside}>
   <div class="flex justify-around items-start gap-2">
     <DleFavorite {dle} {section} {position} />
 
