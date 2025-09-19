@@ -4,7 +4,16 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%sveltekit.assets%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script defer src="https://analytics.aukspot.com/script.js" data-website-id="14fa27d1-104f-4567-9ae6-23fbb218885f"></script>
+    <script>
+      if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+        const umamiScript = document.createElement('script');
+        umamiScript.id = 'umami';
+        umamiScript.defer = true;
+        umamiScript.src = 'https://analytics.aukspot.com/script.js';
+        umamiScript.setAttribute('data-website-id', '14fa27d1-104f-4567-9ae6-23fbb218885f');
+        document.head.appendChild(umamiScript);
+      }
+    </script>
     %sveltekit.head%
   </head>
   <body data-sveltekit-preload-data="hover">
