@@ -42,6 +42,22 @@ export function useTracking() {
     }
   }
 
+  function trackGameClick(dle, clickType, source, section, position) {
+    try {
+      if (typeof window === 'undefined' || !window.umami) {
+        return false
+      }
+
+      const trackingData = createTrackingData(dle, clickType, source, section, position)
+      trackEvent('game-click', trackingData, `${source} ${clickType}`)
+
+      return true
+    } catch (error) {
+      console.error('Failed to track game click:', error)
+      return false
+    }
+  }
+
   function isTrackingAvailable() {
     return typeof window !== 'undefined' && !!window.umami
   }
@@ -49,6 +65,7 @@ export function useTracking() {
   return {
     trackFavoriteAction,
     trackInteraction,
+    trackGameClick,
     isTrackingAvailable
   }
 }

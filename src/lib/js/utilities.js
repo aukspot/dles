@@ -25,17 +25,18 @@ export function playRandom(options) {
   if (options.length != 0) {
     const choice = options[Math.floor(Math.random() * options.length)]
 
-    if (typeof window !== 'undefined' && window.umami) {
-      window.umami.track('game-click', {
-        game_name: choice.name,
-        game_category: choice.category,
-        game_id: choice.id,
-        click_type: 'random-button',
-        available_options: options.length
-      });
-    }
+    const trackingData = {
+      dle_name: choice.name,
+      dle_url: choice.url,
+      dle_category: choice.category,
+      dle_id: choice.id,
+      click_type: 'random-button',
+      source: 'random-button',
+      section: 'random',
+      available_options: options.length
+    };
 
-    openInNewTab(choice.url)
+    openInNewTab(choice.url, trackingData)
   }
 }
 

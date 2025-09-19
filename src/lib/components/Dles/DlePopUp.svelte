@@ -1,16 +1,18 @@
 <script>
   import { poppedUpDle } from "$lib/stores"
-  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
+  import { useTracking } from "$lib/composables/useTracking.js"
   import IconClose from "../Icons/IconClose.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
   import { clickOutside } from "$lib/js/clickOutside"
+
   export let dle, pageX, pageY, clientY, handleClickOutside
   export let section = 'regular'
   export let position = null
 
+  const tracking = useTracking()
+
   function trackGameClick(dle, clickType) {
-    const trackingData = createTrackingData(dle, clickType, 'popup', section, position);
-    trackEvent('game-click', trackingData, `DlePopUp ${clickType}`);
+    tracking.trackGameClick(dle, clickType, 'popup', section, position)
   }
 
   let width = 310
