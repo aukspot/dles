@@ -1,5 +1,10 @@
 # Changelog - The Dles
 
+## 2025-09-19
+
+Add favorites to the main page. You can now quickly add/remove favorites by pressing the heart icons next to each dle.<br>Add one extra column to larger screens.<br>Move the Miscellaneous category to the left column to give more space to Words for the far right column.
+
+
 ## 2025-09-15
 
 Remove 1 dle. 
