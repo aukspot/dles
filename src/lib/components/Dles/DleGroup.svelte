@@ -324,11 +324,14 @@
         <div class="dleTop" class:draggable-row={reorderable && editMode}>
           <div class="dleLeft">
             <div class="dle-name-container">
-              <button
+              <!-- svelte-ignore a11y-click-events-have-key-events -->
+              <span
                 class="dleName"
                 class:with-drag-handle={reorderable && editMode}
+                role="button"
+                tabindex="0"
                 on:click={(e) => {
-                  if (reorderable && editMode) return 
+                  if (reorderable && editMode) return
 
                   if (e.ctrlKey || e.metaKey) {
                     handleCtrlClick(dle, j);
@@ -346,7 +349,7 @@
                 on:auxclick={(e) => handleAuxClick(dle, j)}
               >
                 {dle.name}
-              </button>
+              </span>
               {#if isNewDle(dle)}
                 <IconNew />
               {/if}
