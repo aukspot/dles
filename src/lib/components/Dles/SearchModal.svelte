@@ -4,7 +4,9 @@
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { categoryColors } from "$lib/stores"
   import { clickOutside } from "$lib/js/clickOutside"
+  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import IconClose from "../Icons/IconClose.svelte"
+  import IconPlus from "../Icons/IconPlus.svelte"
 
   export let onClose
   export let pageX
@@ -72,7 +74,7 @@
           // Priority 2: Alphabetical by name
           return aName.localeCompare(bName)
         })
-        .slice(0, 20)
+        .slice(0, )
     } else {
       filteredDles = []
     }
@@ -93,12 +95,23 @@
   }
 
   function toggleFavorite(dle) {
-    if ($favoriteIds.includes(dle.id)) {
+    const wasInFavorites = $favoriteIds.includes(dle.id)
+
+    if (wasInFavorites) {
       removeFromFavorites(dle)
     } else {
       addToFavorites(dle)
     }
     newlyToggledInSession.add(dle.id)
+
+    // Add umami tracking for favorites search modal actions
+    if (typeof window !== 'undefined' && window.umami) {
+      const trackingData = createTrackingData(dle, wasInFavorites ? 'unfavorite' : 'favorite', 'search-modal', 'favorites-search', null);
+      trackingData.total_favorites = $favoriteIds.length;
+      trackingData.action = wasInFavorites ? 'unfavorite' : 'favorite';
+
+      trackEvent('favorite-action', trackingData, `SearchModal ${trackingData.action}`);
+    }
   }
 
   function handleKeydown(event) {
@@ -145,11 +158,13 @@
       </div>
     {:else if filteredDles.length > 0}
       <div class="results">
-        {#each filteredDles as dle (dle.name)}
+        {#each filteredDles as dle, index (dle.id)}
           {@const isFavorited = $favoriteIds.includes(dle.id)}
+          {@const bgColor = index % 2 === 0 ? 'rgb(var(--colors-colorCardB))' : 'rgb(var(--colors-colorCardA))'}
           <button
             class="result-item"
             class:favorited={isFavorited}
+            style="background-color: {isFavorited ? '' : bgColor};"
             on:click={() => toggleFavorite(dle)}
             title={isFavorited ? `Remove ${dle.name} from favorites` : `Add ${dle.name} to favorites`}
           >
@@ -169,6 +184,10 @@
               <div class="favorite-message">
                 <div class="favorite-text">Added!</div>
                 <div class="favorite-subtext">Click to remove</div>
+              </div>
+            {:else if !isFavorited}
+              <div class="plus-icon">
+                <IconPlus />
               </div>
             {/if}
           </button>
@@ -210,19 +229,32 @@
   }
 
   .results {
-    @apply space-y-1;
   }
 
   .result-item {
-    @apply flex items-center justify-between p-2 bg-colorCardB rounded hover:bg-colorCardA transition-colors cursor-pointer border-none w-full text-left;
+    @apply flex items-center justify-between p-2 pr-4 rounded cursor-pointer border-none w-full text-left;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .result-item:hover {
+    @apply bg-colorCardC;
+    background-color: rgb(var(--colors-colorCardC)) !important;
   }
 
   .result-item.favorited {
-    @apply bg-pink-50 hover:bg-pink-100;
+    @apply bg-green-200 hover:bg-green-300 dark:bg-green-900/20 dark:hover:bg-green-800/30;
+
+    .favorite-text {
+      @apply text-xs font-bold text-green-900 dark:text-green-200;
+    }
+
+    .favorite-subtext {
+      @apply text-xs text-green-800 dark:text-green-100;
+    }
   }
 
-  :global(.dark) .result-item.favorited {
-    @apply bg-pink-900/20 hover:bg-pink-900/30;
+  .favorite-message {
+    @apply text-right flex-shrink-0 px-2;
   }
 
   .dle-info {
@@ -245,24 +277,13 @@
     @apply text-xs text-colorTextSoft;
   }
 
-  .favorite-message {
-    @apply text-right flex-shrink-0 px-2;
+  .plus-icon {
+    @apply opacity-0 flex items-center flex-shrink-0 text-colorTextSofter;
   }
 
-  .favorite-text {
-    @apply text-xs font-medium text-pink-600;
+  .result-item:hover .plus-icon {
+    @apply opacity-100;
   }
 
-  .favorite-subtext {
-    @apply text-xs text-pink-500;
-  }
-
-  :global(.dark) .favorite-text {
-    @apply text-pink-400;
-  }
-
-  :global(.dark) .favorite-subtext {
-    @apply text-pink-300;
-  }
 
 </style>

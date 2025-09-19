@@ -297,7 +297,9 @@
       <li
         class="dleContainer"
         class:dragging={reorderable && editMode && draggedIndex === j}
-        class:drag-over={reorderable && editMode && dragOverIndex === j}
+        class:drag-over-above={reorderable && editMode && dragOverIndex === j && draggedIndex !== null && j < draggedIndex}
+        class:drag-over-below={reorderable && editMode && dragOverIndex === j && draggedIndex !== null && j > draggedIndex}
+        class:drag-over={reorderable && editMode && dragOverIndex === j && draggedIndex !== null && j === draggedIndex}
         data-dle-index={j}
         draggable={reorderable && editMode}
         on:dragstart={(e) => handleDragStart(e, j)}
@@ -370,6 +372,14 @@
 
   .dleContainer.dragging {
     @apply opacity-50 scale-105;
+  }
+
+  .dleContainer.drag-over-above {
+    @apply border-t-2 border-blue-500;
+  }
+
+  .dleContainer.drag-over-below {
+    @apply border-b-2 border-blue-500;
   }
 
   .dleContainer.drag-over {

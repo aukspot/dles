@@ -320,7 +320,7 @@
   }
 
   .edit-mode-text {
-    @apply text-blue-700 font-medium;
+    @apply text-blue-700 font-medium text-xs;
   }
 
   :global(.dark) .edit-mode-text {
