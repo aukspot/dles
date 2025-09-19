@@ -15,7 +15,8 @@
 
     const width = window.innerWidth
     if (width <= 336) return 1  // Increased threshold to prevent overflow
-    if (width >= 768) return Math.min(Math.floor(width / 220), 4) // Increased min width per column
+    if (width >= 1200) return Math.min(Math.floor(width / 220), 5) // 5 columns when there's space
+    if (width >= 768) return Math.min(Math.floor(width / 220), 4) // 4 columns on large screens
     if (width >= 570) return 3
     return 2
   }

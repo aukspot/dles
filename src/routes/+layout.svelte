@@ -111,7 +111,7 @@
 </script>
 
 <div class="w-full text-colorText bg-colorBackground">
-  <div class="flex flex-col max-w-screen-xl mx-auto">
+  <div class="flex flex-col max-w-screen-xl xl:max-w-[1100px] mx-auto">
     <main
       class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border bg-colorBackground"
     >
