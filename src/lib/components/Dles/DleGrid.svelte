@@ -40,18 +40,15 @@
       numColumns = newNumColumns
     }
 
-    // Initialize columns with height tracking
     columns = Array.from({ length: numColumns }, () => [])
     const columnHeights = Array.from({ length: numColumns }, () => 0)
 
-    // Separate special cards from category cards
     const favoriteCard = favoriteCardIndex >= 0 ? cards[favoriteCardIndex] : null
     const dlesOfTheWeekCard = cards.find(card => card.type === 'dlesOfTheWeek')
     const sponsorsCard = cards.find(card => card.type === 'sponsors')
     const categoryCards = cards.filter(card => card.type === 'category')
 
     if (numColumns === 1) {
-      // Mobile: single column with special order
       const orderedCards = []
 
       if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
@@ -64,9 +61,6 @@
         columnHeights[0] += estimateCardHeight(card)
       })
     } else {
-      // Multi-column: Place special cards in fixed positions
-
-      // First column: DLES of the Week and Sponsors at top
       if (dlesOfTheWeekCard) {
         columns[0].push(dlesOfTheWeekCard)
         columnHeights[0] += estimateCardHeight(dlesOfTheWeekCard)
@@ -76,46 +70,52 @@
         columnHeights[0] += estimateCardHeight(sponsorsCard)
       }
 
-      // Second column: Favorites at top
       if (favoriteCard) {
         columns[1].push(favoriteCard)
         columnHeights[1] += estimateCardHeight(favoriteCard)
       }
 
-      // Filter out Miscellaneous since it's handled separately in DlesByCategory.svelte
       const regularCategoryCards = categoryCards.filter(card => card.category !== 'Miscellaneous')
 
-      // Sort remaining category cards alphabetically with Words last
       const sortedCategoryCards = [...regularCategoryCards].sort((a, b) => {
-        // Words should come last to appear in far-right column
         if (a.category === 'Words') return 1
         if (b.category === 'Words') return -1
-        // Everything else alphabetically
         return a.category.localeCompare(b.category)
       })
 
-      // Add Miscellaneous card after sponsors in first column if it exists
       const miscellaneousCard = categoryCards.find(card => card.category === 'Miscellaneous')
       if (miscellaneousCard) {
         columns[0].push(miscellaneousCard)
         columnHeights[0] += estimateCardHeight(miscellaneousCard)
       }
 
-      // Separate Words from other cards for proper distribution
       const wordsCard = sortedCategoryCards.find(card => card.category === 'Words')
       const nonWordsCards = sortedCategoryCards.filter(card => card.category !== 'Words')
 
-      // Distribute non-Words cards across available columns
-      const availableColumns = numColumns - (wordsCard ? 1 : 0) // Reserve last column for Words if it exists
-      const cardsPerColumn = Math.ceil(nonWordsCards.length / availableColumns)
+      if (numColumns === 2) {
+        const firstColumnCards = nonWordsCards.filter(card => card.category < 'Trivia')
+        const secondColumnCards = nonWordsCards.filter(card => card.category >= 'Trivia')
 
-      nonWordsCards.forEach((card, index) => {
-        const targetColumn = Math.min(Math.floor(index / cardsPerColumn), availableColumns - 1)
-        columns[targetColumn].push(card)
-        columnHeights[targetColumn] += estimateCardHeight(card)
-      })
+        firstColumnCards.forEach(card => {
+          columns[0].push(card)
+          columnHeights[0] += estimateCardHeight(card)
+        })
 
-      // Add Words to the last column if it exists
+        secondColumnCards.forEach(card => {
+          columns[1].push(card)
+          columnHeights[1] += estimateCardHeight(card)
+        })
+      } else {
+        const availableColumns = numColumns - (wordsCard ? 1 : 0) 
+        const cardsPerColumn = Math.ceil(nonWordsCards.length / availableColumns)
+
+        nonWordsCards.forEach((card, index) => {
+          const targetColumn = Math.min(Math.floor(index / cardsPerColumn), availableColumns - 1)
+          columns[targetColumn].push(card)
+          columnHeights[targetColumn] += estimateCardHeight(card)
+        })
+      }
+
       if (wordsCard) {
         columns[numColumns - 1].push(wordsCard)
         columnHeights[numColumns - 1] += estimateCardHeight(wordsCard)
