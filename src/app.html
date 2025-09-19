@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script>
-      if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-        const umamiScript = document.createElement('script');
-        umamiScript.id = 'umami';
-        umamiScript.defer = true;
-        umamiScript.src = 'https://analytics.aukspot.com/script.js';
-        umamiScript.setAttribute('data-website-id', '14fa27d1-104f-4567-9ae6-23fbb218885f');
-        document.head.appendChild(umamiScript);
-      }
-    </script>
-    %sveltekit.head%
-  </head>
-  <body data-sveltekit-preload-data="hover">
-    <script>
-      function isLocalStorageAvailable() {
-        let test = "test";
-        try {
-          localStorage.setItem(test, test);
-          localStorage.removeItem(test);
-          return true;
-        } catch (e) {
-          return false;
-        }
-      }
-      if (isLocalStorageAvailable()) {
-        const theme = localStorage.getItem("theme");
-        if (theme && theme == "dark") document.body.classList.add("dark");
-      }
-    </script>
 
-    <div style="display: contents">%sveltekit.body%</div>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script defer src="https://analytics.aukspot.com/script.js"
+    data-website-id="14fa27d1-104f-4567-9ae6-23fbb218885f"></script>
+  %sveltekit.head%
+</head>
+
+<body data-sveltekit-preload-data="hover">
+  <script>
+    function isLocalStorageAvailable() {
+      let test = "test";
+      try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+      } catch (e) {
+        return false;
+      }
+    }
+    if (isLocalStorageAvailable()) {
+      const theme = localStorage.getItem("theme");
+      if (theme && theme == "dark") document.body.classList.add("dark");
+    }
+  </script>
+
+  <div style="display: contents">%sveltekit.body%</div>
+</body>
+
 </html>
