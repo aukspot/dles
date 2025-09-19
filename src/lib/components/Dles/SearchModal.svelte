@@ -5,6 +5,7 @@
   import { clickOutside } from "$lib/js/clickOutside"
   import { useFavorites } from "$lib/composables/useFavorites.js"
   import { useTracking } from "$lib/composables/useTracking.js"
+  import { onMount } from "svelte"
   import IconClose from "../Icons/IconClose.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
 
@@ -17,7 +18,8 @@
 
   let searchQuery = ""
   let filteredDles = []
-  let newlyToggledInSession = new Set() 
+  let newlyToggledInSession = new Set()
+  let isTouchDevice = false
 
   let width = 320
   let baseHeight = 120
@@ -107,6 +109,10 @@
   function handleClickOutside() {
     onClose()
   }
+
+  onMount(() => {
+    isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+  })
 </script>
 
 <svelte:window on:keydown={handleKeydown} />
@@ -169,7 +175,7 @@
                 <div class="favorite-text">Added!</div>
                 <div class="favorite-subtext">Click to remove</div>
               </div>
-            {:else if !isFavorited}
+            {:else if !isFavorited && !isTouchDevice}
               <div class="plus-icon">
                 <IconPlus />
               </div>

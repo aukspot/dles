@@ -17,12 +17,15 @@
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
   let unFavoriteColor = "transparent"
   let isHovered = false
+  let isTouchDevice = false
 
   $: isFavorited = favorites.isFavorited(dle)
   $: setFill(isFavorited)
 
   onMount(() => {
     setFill(favorites.isFavorited(dle))
+
+    isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
   })
 
   function setFill(isFavorited) {
@@ -50,14 +53,14 @@
 <button
   style="fill: {favoriteFill ?? 'transparent'};"
   on:click={toggleFavorite}
-  on:mouseenter={() => isHovered = true}
+  on:mouseenter={() => !isTouchDevice && (isHovered = true)}
   on:mouseleave={() => isHovered = false}
   class="hover:scale-105 flex items-center justify-center favorite-button"
   class:small={size === "small"}
   class:is-favorited={isFavorited}
   title={isFavorited ? "Remove from favorites" : "Add to favorites"}
 >
-  {#if isFavorited && isHovered}
+  {#if isFavorited && isHovered && !isTouchDevice}
     <IconFavoriteRemove />
   {:else}
     <IconFavoriteOutline />
