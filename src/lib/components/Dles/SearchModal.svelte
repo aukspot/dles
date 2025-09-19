@@ -1,16 +1,19 @@
 <script>
-  import { dles, favorites, favoriteIds } from "$lib/stores"
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import { dles, favoriteIds } from "$lib/stores"
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { categoryColors } from "$lib/stores"
   import { clickOutside } from "$lib/js/clickOutside"
-  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
+  import { useFavorites } from "$lib/composables/useFavorites.js"
+  import { useTracking } from "$lib/composables/useTracking.js"
   import IconClose from "../Icons/IconClose.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
 
   export let onClose
   export let pageX
   export let pageY
+
+  const favorites = useFavorites()
+  const tracking = useTracking()
 
   let searchQuery = ""
   let filteredDles = []
@@ -22,14 +25,12 @@
 
   $: currentHeight = filteredDles.length > 0 ? maxHeight : baseHeight
 
-  // Check if we're on mobile
   $: isMobile = typeof window !== 'undefined' && window.innerWidth <= 768
 
   let adjustedPageX, adjustedPageY, transformX, transformY
 
   $: {
     if (isMobile) {
-      // Center horizontally and position at the very top on mobile
       adjustedPageX = '50%'
       adjustedPageY = '2%'
       transformX = '-50%'
@@ -80,37 +81,20 @@
     }
   }
 
-  function addToFavorites(dle) {
-    $favoriteIds = [...$favoriteIds, dle.id]
-    if (isLocalStorageAvailable()) {
-      localStorage.favorites = JSON.stringify($favoriteIds)
-    }
-  }
-
-  function removeFromFavorites(dle) {
-    $favoriteIds = $favoriteIds.filter(id => id !== dle.id)
-    if (isLocalStorageAvailable()) {
-      localStorage.favorites = JSON.stringify($favoriteIds)
-    }
-  }
-
   function toggleFavorite(dle) {
-    const wasInFavorites = $favoriteIds.includes(dle.id)
+    const result = favorites.toggleFavorite(dle)
 
-    if (wasInFavorites) {
-      removeFromFavorites(dle)
-    } else {
-      addToFavorites(dle)
-    }
-    newlyToggledInSession.add(dle.id)
+    if (result.success) {
+      newlyToggledInSession.add(dle.id)
 
-    // Add umami tracking for favorites search modal actions
-    if (typeof window !== 'undefined' && window.umami) {
-      const trackingData = createTrackingData(dle, wasInFavorites ? 'unfavorite' : 'favorite', 'search-modal', 'favorites-search', null);
-      trackingData.total_favorites = $favoriteIds.length;
-      trackingData.action = wasInFavorites ? 'unfavorite' : 'favorite';
-
-      trackEvent('favorite-action', trackingData, `SearchModal ${trackingData.action}`);
+      tracking.trackFavoriteAction(
+        dle,
+        result.action,
+        'search-modal',
+        'favorites-search',
+        null,
+        result.totalFavorites
+      )
     }
   }
 
@@ -159,7 +143,7 @@
     {:else if filteredDles.length > 0}
       <div class="results">
         {#each filteredDles as dle, index (dle.id)}
-          {@const isFavorited = $favoriteIds.includes(dle.id)}
+          {@const isFavorited = favorites.isFavorited(dle)}
           {@const bgColor = index % 2 === 0 ? 'rgb(var(--colors-colorCardB))' : 'rgb(var(--colors-colorCardA))'}
           <button
             class="result-item"

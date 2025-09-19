@@ -1,8 +1,7 @@
 <script>
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
-  import { favorites, favoriteIds } from "$lib/stores"
-  import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
   import { onMount } from "svelte"
+  import { useFavorites } from "$lib/composables/useFavorites.js"
+  import { useTracking } from "$lib/composables/useTracking.js"
   import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
   import IconFavoriteRemove from "../Icons/IconFavoriteRemove.svelte"
 
@@ -11,59 +10,39 @@
   export let section = 'regular'
   export let position = null
 
+  const favorites = useFavorites()
+  const tracking = useTracking()
 
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
   let unFavoriteColor = "transparent"
   let isHovered = false
 
-  $: isFavorited = inFavorites(dle)
-  $: {
-    $favorites
-    setFill()
-  }
+  $: isFavorited = favorites.isFavorited(dle)
+  $: setFill(isFavorited)
 
   onMount(() => {
-    setFill()
+    setFill(favorites.isFavorited(dle))
   })
 
-  function inFavorites(dle) {
-    return $favoriteIds.includes(dle.id)
-  }
-
-  function setFill() {
-    if (inFavorites(dle)) {
-      favoriteFill = favoriteColor
-    } else {
-      favoriteFill = unFavoriteColor
-    }
-  }
-
-  function removeFromFavorites(dle) {
-    $favoriteIds = $favoriteIds.filter((id) => id !== dle.id)
+  function setFill(isFavorited) {
+    favoriteFill = isFavorited ? favoriteColor : unFavoriteColor
   }
 
   function toggleFavorite() {
-    const wasInFavorites = inFavorites(dle)
+    const result = favorites.toggleFavorite(dle)
 
-    if (wasInFavorites) {
-      removeFromFavorites(dle)
-      favoriteFill = unFavoriteColor
-    } else {
-      $favoriteIds = [...$favoriteIds, dle.id]
-      favoriteFill = favoriteColor
-    }
+    if (result.success) {
+      setFill(!result.wasInFavorites)
 
-    if (typeof window !== 'undefined' && window.umami) {
-      const trackingData = createTrackingData(dle, wasInFavorites ? 'unfavorite' : 'favorite', 'button', section, position);
-      trackingData.total_favorites = $favoriteIds.length;
-      trackingData.action = wasInFavorites ? 'unfavorite' : 'favorite';
-
-      trackEvent('favorite-action', trackingData, `FavoriteButton ${trackingData.action}`);
-    }
-
-    if (isLocalStorageAvailable()) {
-      localStorage.favorites = JSON.stringify($favoriteIds)
+      tracking.trackFavoriteAction(
+        dle,
+        result.action,
+        'button',
+        section,
+        position,
+        result.totalFavorites
+      )
     }
   }
 </script>
