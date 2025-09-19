@@ -5,15 +5,14 @@
   import { categoryColors } from "$lib/stores"
   import { clickOutside } from "$lib/js/clickOutside"
   import IconClose from "../Icons/IconClose.svelte"
-  import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
 
   export let onClose
   export let pageX
   export let pageY
-  export let clientY
 
   let searchQuery = ""
   let filteredDles = []
+  let newlyToggledInSession = new Set() 
 
   let width = 320
   let baseHeight = 120
@@ -34,7 +33,6 @@
       transformX = '-50%'
       transformY = '0%'
     } else {
-      // Desktop positioning logic
       if (pageX < width / 2) {
         pageX = width / 2 + 5
       }
@@ -42,13 +40,10 @@
         pageX = document.documentElement.clientWidth - width / 2 - 5
       }
 
-      if (pageY - maxHeight < window.scrollY) {
-        adjustedPageY = pageY - 60
-        transformY = "0%"
-      } else {
-        adjustedPageY = pageY - 50
-        transformY = "-100%"
-      }
+      const viewportY = pageY - window.scrollY
+
+      adjustedPageY = viewportY - 68
+      transformY = "0%"
 
       adjustedPageX = pageX
       transformX = '-50%'
@@ -63,7 +58,7 @@
         .filter((dle) =>
           dle.name.toLowerCase().includes(query)
         )
-        .filter((dle) => !$favoriteIds.includes(dle.id))
+        .filter((dle) => !$favoriteIds.includes(dle.id) || newlyToggledInSession.has(dle.id))
         .sort((a, b) => {
           const aName = a.name.toLowerCase()
           const bName = b.name.toLowerCase()
@@ -88,7 +83,22 @@
     if (isLocalStorageAvailable()) {
       localStorage.favorites = JSON.stringify($favoriteIds)
     }
-    filteredDles = filteredDles.filter((d) => d.id !== dle.id)
+  }
+
+  function removeFromFavorites(dle) {
+    $favoriteIds = $favoriteIds.filter(id => id !== dle.id)
+    if (isLocalStorageAvailable()) {
+      localStorage.favorites = JSON.stringify($favoriteIds)
+    }
+  }
+
+  function toggleFavorite(dle) {
+    if ($favoriteIds.includes(dle.id)) {
+      removeFromFavorites(dle)
+    } else {
+      addToFavorites(dle)
+    }
+    newlyToggledInSession.add(dle.id)
   }
 
   function handleKeydown(event) {
@@ -131,15 +141,17 @@
   <div class="results-container">
     {#if searchQuery.trim() && filteredDles.length === 0}
       <div class="no-results">
-        No dles found or all matches are already favorites.
+        No dles found.
       </div>
     {:else if filteredDles.length > 0}
       <div class="results">
         {#each filteredDles as dle (dle.name)}
+          {@const isFavorited = $favoriteIds.includes(dle.id)}
           <button
             class="result-item"
-            on:click={() => addToFavorites(dle)}
-            title="Add {dle.name} to favorites"
+            class:favorited={isFavorited}
+            on:click={() => toggleFavorite(dle)}
+            title={isFavorited ? `Remove ${dle.name} from favorites` : `Add ${dle.name} to favorites`}
           >
             <div class="dle-info">
               <div
@@ -153,6 +165,12 @@
                 <div class="dle-category">{dle.category}</div>
               </div>
             </div>
+            {#if isFavorited && newlyToggledInSession.has(dle.id)}
+              <div class="favorite-message">
+                <div class="favorite-text">Added!</div>
+                <div class="favorite-subtext">Click to remove</div>
+              </div>
+            {/if}
           </button>
         {/each}
       </div>
@@ -199,6 +217,14 @@
     @apply flex items-center justify-between p-2 bg-colorCardB rounded hover:bg-colorCardA transition-colors cursor-pointer border-none w-full text-left;
   }
 
+  .result-item.favorited {
+    @apply bg-pink-50 hover:bg-pink-100;
+  }
+
+  :global(.dark) .result-item.favorited {
+    @apply bg-pink-900/20 hover:bg-pink-900/30;
+  }
+
   .dle-info {
     @apply flex items-center gap-2 flex-1;
   }
@@ -217,6 +243,26 @@
 
   .dle-category {
     @apply text-xs text-colorTextSoft;
+  }
+
+  .favorite-message {
+    @apply text-right flex-shrink-0 px-2;
+  }
+
+  .favorite-text {
+    @apply text-xs font-medium text-pink-600;
+  }
+
+  .favorite-subtext {
+    @apply text-xs text-pink-500;
+  }
+
+  :global(.dark) .favorite-text {
+    @apply text-pink-400;
+  }
+
+  :global(.dark) .favorite-subtext {
+    @apply text-pink-300;
   }
 
 </style>
