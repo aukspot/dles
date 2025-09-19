@@ -23,11 +23,11 @@ export function openInNewTab(href, trackingData = null) {
   }).click()
 }
 
-export function playRandom(options) {
+export function playRandom(options, customTrackingData = null) {
   if (options.length != 0) {
     const choice = options[Math.floor(Math.random() * options.length)]
 
-    const trackingData = {
+    const trackingData = customTrackingData || {
       dle_name: choice.name,
       dle_url: choice.url,
       dle_category: choice.category,
@@ -37,6 +37,13 @@ export function playRandom(options) {
       section: 'random',
       available_options: options.length
     };
+
+    if (customTrackingData) {
+      trackingData.dle_name = choice.name;
+      trackingData.dle_url = choice.url;
+      trackingData.dle_category = choice.category;
+      trackingData.dle_id = choice.id;
+    }
 
     openInNewTab(choice.url, trackingData)
   }
