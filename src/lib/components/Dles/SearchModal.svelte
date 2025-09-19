@@ -21,31 +21,62 @@
 
   $: currentHeight = filteredDles.length > 0 ? maxHeight : baseHeight
 
-  if (pageX < width / 2) {
-    pageX = width / 2 + 5
-  }
-  if (pageX + width / 2 > document.documentElement.clientWidth) {
-    pageX = document.documentElement.clientWidth - width / 2 - 5
-  }
+  // Check if we're on mobile
+  $: isMobile = typeof window !== 'undefined' && window.innerWidth <= 768
 
-  let adjustedPageY, transformY
+  let adjustedPageX, adjustedPageY, transformX, transformY
 
-  if (pageY - maxHeight < window.scrollY) {
-    adjustedPageY = pageY - 60
-    transformY = "0%"
-  } else {
-    adjustedPageY = pageY - 50
-    transformY = "-100%"
+  $: {
+    if (isMobile) {
+      // Center horizontally and position at the very top on mobile
+      adjustedPageX = '50%'
+      adjustedPageY = '2%'
+      transformX = '-50%'
+      transformY = '0%'
+    } else {
+      // Desktop positioning logic
+      if (pageX < width / 2) {
+        pageX = width / 2 + 5
+      }
+      if (pageX + width / 2 > document.documentElement.clientWidth) {
+        pageX = document.documentElement.clientWidth - width / 2 - 5
+      }
+
+      if (pageY - maxHeight < window.scrollY) {
+        adjustedPageY = pageY - 60
+        transformY = "0%"
+      } else {
+        adjustedPageY = pageY - 50
+        transformY = "-100%"
+      }
+
+      adjustedPageX = pageX
+      transformX = '-50%'
+    }
   }
 
   $: {
     if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase()
+
       filteredDles = $dles
         .filter((dle) =>
-          dle.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          dle.category.toLowerCase().includes(searchQuery.toLowerCase())
+          dle.name.toLowerCase().includes(query)
         )
         .filter((dle) => !$favoriteIds.includes(dle.id))
+        .sort((a, b) => {
+          const aName = a.name.toLowerCase()
+          const bName = b.name.toLowerCase()
+
+          // Priority 1: Name starts with query
+          const aNameStarts = aName.startsWith(query)
+          const bNameStarts = bName.startsWith(query)
+          if (aNameStarts && !bNameStarts) return -1
+          if (!aNameStarts && bNameStarts) return 1
+
+          // Priority 2: Alphabetical by name
+          return aName.localeCompare(bName)
+        })
         .slice(0, 20)
     } else {
       filteredDles = []
@@ -75,12 +106,13 @@
 
 <div
   class="searchPopup"
-  style="left: {pageX}px; top: {adjustedPageY}px; width: {width}px; height: {currentHeight}px; transform: translate(-50%, {transformY});"
+  style="left: {adjustedPageX}{typeof adjustedPageX === 'number' ? 'px' : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number' ? 'px' : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY});"
   use:clickOutside
   on:click_outside={handleClickOutside}
 >
-  <div class="flex justify-between items-center mb-2">
-    <h3 class="text-lg font-semibold text-colorText">Add Favorite</h3>
+  <div class="flex justify-around items-center mb-2">
+    <div class="w-6"></div> <!-- Placeholder for balance -->
+    <h3 class="text-lg font-semibold text-colorText">Add a new favorite!</h3>
     <button on:click={onClose}>
       <IconClose />
     </button>
@@ -104,7 +136,11 @@
     {:else if filteredDles.length > 0}
       <div class="results">
         {#each filteredDles as dle (dle.name)}
-          <div class="result-item">
+          <button
+            class="result-item"
+            on:click={() => addToFavorites(dle)}
+            title="Add {dle.name} to favorites"
+          >
             <div class="dle-info">
               <div
                 class="category-icon"
@@ -117,14 +153,7 @@
                 <div class="dle-category">{dle.category}</div>
               </div>
             </div>
-            <button
-              class="add-button"
-              on:click={() => addToFavorites(dle)}
-              title="Add to favorites"
-            >
-              <IconFavoriteOutline />
-            </button>
-          </div>
+          </button>
         {/each}
       </div>
     {/if}
@@ -133,7 +162,7 @@
 
 <style lang="postcss">
   .searchPopup {
-    @apply absolute p-3 flex flex-col bg-colorCardC rounded-lg border border-colorNeutralSoft;
+    @apply fixed p-3 flex flex-col bg-colorCardC rounded-lg border border-colorNeutralSoft;
     z-index: 100;
     box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
@@ -167,7 +196,7 @@
   }
 
   .result-item {
-    @apply flex items-center justify-between p-2 bg-colorCardB rounded hover:bg-colorCardA transition-colors;
+    @apply flex items-center justify-between p-2 bg-colorCardB rounded hover:bg-colorCardA transition-colors cursor-pointer border-none w-full text-left;
   }
 
   .dle-info {
@@ -190,7 +219,4 @@
     @apply text-xs text-colorTextSoft;
   }
 
-  .add-button {
-    @apply p-1 hover:bg-colorCardC rounded transition-colors text-colorTextSofter hover:text-colorText;
-  }
 </style>

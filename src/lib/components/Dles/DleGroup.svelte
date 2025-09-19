@@ -100,13 +100,29 @@
     if (!reorderable || !editMode) return
 
     if (draggedIndex !== null && dragOverIndex !== null && draggedIndex !== dragOverIndex) {
-      const newFavoriteIds = [...$favoriteIds]
-      const draggedId = newFavoriteIds[draggedIndex]
+      // Get the actual dle IDs from the displayed (possibly filtered) list
+      const draggedDle = dleGroup[draggedIndex]
+      const targetDle = dleGroup[dragOverIndex]
 
-      // Remove the dragged item
-      newFavoriteIds.splice(draggedIndex, 1)
-      // Insert it at the new position
-      newFavoriteIds.splice(dragOverIndex, 0, draggedId)
+      if (!draggedDle || !targetDle) return
+
+      const newFavoriteIds = [...$favoriteIds]
+
+      // Find actual positions in the full favorites list
+      const actualDraggedIndex = newFavoriteIds.indexOf(draggedDle.id)
+      const actualTargetIndex = newFavoriteIds.indexOf(targetDle.id)
+
+      if (actualDraggedIndex === -1 || actualTargetIndex === -1) return
+
+      // Remove the dragged item from its current position
+      newFavoriteIds.splice(actualDraggedIndex, 1)
+
+      // Find the new target index (it might have shifted after removal)
+      const updatedTargetIndex = newFavoriteIds.indexOf(targetDle.id)
+      const insertIndex = draggedIndex < dragOverIndex ? updatedTargetIndex + 1 : updatedTargetIndex
+
+      // Insert at the new position
+      newFavoriteIds.splice(insertIndex, 0, draggedDle.id)
 
       $favoriteIds = newFavoriteIds
 

@@ -7,6 +7,7 @@
     poppedUpDle,
     dlesOfTheWeek,
     favorites,
+    searchQuery,
   } from "$lib/stores"
 
   import DlePopUp from "./DlePopUp.svelte"
@@ -25,6 +26,7 @@
   import DleGrid from "./DleGrid.svelte"
   import SearchModal from "./SearchModal.svelte"
   import Sponsors from "../Sponsors.svelte"
+  import { enhancedSearch } from "$lib/js/utilities"
 
   let pageX = 0
   let pageY = 0
@@ -62,6 +64,31 @@
     editMode = !editMode
   }
 
+  function hasSponsorMatches() {
+    if (!$searchQuery || $searchQuery.trim() === '') return true
+
+    // Same sponsors array as in Sponsors.svelte
+    const partners = [
+      {
+        id: "partner-nibble",
+        name: "nibble.games",
+        url: "https://nibble.games",
+      },
+      {
+        id: "partner-quintalist",
+        name: "Quintalist",
+        url: "https://quintalist.com?dles",
+      },
+      {
+        id: "partner-flashpoptiles",
+        name: "FlashPopTiles",
+        url: "https://flashpoptiles.com?utm_source=aukspot&utm_medium=banner&utm_campaign=sponsorship",
+      },
+    ]
+
+    const filteredPartners = enhancedSearch(partners, $searchQuery)
+    return filteredPartners.length > 0
+  }
 
   function buildCards() {
     const cards = []
@@ -86,13 +113,16 @@
     })
     currentIndex++
 
-    // Add Sponsors
-    cards.push({
-      id: 'sponsors',
-      type: 'sponsors',
-      data: null
-    })
-    currentIndex++
+    // Add Sponsors (when not searching or when sponsors match search)
+    const shouldShowSponsors = !$searchQuery || $searchQuery.trim() === '' || hasSponsorMatches()
+    if (shouldShowSponsors) {
+      cards.push({
+        id: 'sponsors',
+        type: 'sponsors',
+        data: null
+      })
+      currentIndex++
+    }
 
     // Add category cards
     for (const category of $categories) {
@@ -160,7 +190,7 @@
             {#if editMode}
               <span class="edit-mode-text">Drag to reorder!</span>
             {:else}
-              {card.data.length === 0 ? 'No favorites yet' : `${card.data.length} favorite${card.data.length !== 1 ? 's' : ''}`}
+              {card.data.length === 0 ? 'No favorites' : `${card.data.length} favorite${card.data.length !== 1 ? 's' : ''}`}
             {/if}
           </div>
           <div class="favorites-buttons">
