@@ -35,8 +35,8 @@ export let categories = readable([
   "Trivia",
   "Vehicles",
   "Video Games",
-  "Words",
   "Miscellaneous",
+  "Words",
 ])
 export let categoryColors = readable({
   "Card/Board Games": "hsl(0, 90%, 50%, 45%)",

@@ -1,5 +1,5 @@
 <script>
-  import { onMount, afterUpdate } from "svelte"
+  import { onMount, afterUpdate, onDestroy } from "svelte"
   import { browser } from "$app/environment"
 
   export let cards = []
@@ -9,6 +9,7 @@
   let columns = []
   let numColumns = 2
   let isResizing = false
+  let organizeTimeout = null
 
   function getNumColumns() {
     if (!browser) return 2
@@ -81,26 +82,44 @@
         columnHeights[1] += estimateCardHeight(favoriteCard)
       }
 
-      // Sort category cards alphabetically with Miscellaneous last
-      const sortedCategoryCards = [...categoryCards].sort((a, b) => {
-        // Miscellaneous always goes last
-        if (a.category === 'Miscellaneous') return 1
-        if (b.category === 'Miscellaneous') return -1
+      // Filter out Miscellaneous since it's handled separately in DlesByCategory.svelte
+      const regularCategoryCards = categoryCards.filter(card => card.category !== 'Miscellaneous')
+
+      // Sort remaining category cards alphabetically with Words last
+      const sortedCategoryCards = [...regularCategoryCards].sort((a, b) => {
+        // Words should come last to appear in far-right column
+        if (a.category === 'Words') return 1
+        if (b.category === 'Words') return -1
         // Everything else alphabetically
         return a.category.localeCompare(b.category)
       })
 
-      // Distribute category cards by column in alphabetical order
-      const cardsPerColumn = Math.ceil(sortedCategoryCards.length / numColumns)
+      // Add Miscellaneous card after sponsors in first column if it exists
+      const miscellaneousCard = categoryCards.find(card => card.category === 'Miscellaneous')
+      if (miscellaneousCard) {
+        columns[0].push(miscellaneousCard)
+        columnHeights[0] += estimateCardHeight(miscellaneousCard)
+      }
 
-      sortedCategoryCards.forEach((card, index) => {
-        // Calculate which column this card should go to (fill columns vertically)
-        const targetColumn = Math.floor(index / cardsPerColumn)
+      // Separate Words from other cards for proper distribution
+      const wordsCard = sortedCategoryCards.find(card => card.category === 'Words')
+      const nonWordsCards = sortedCategoryCards.filter(card => card.category !== 'Words')
 
-        // Add card to target column
+      // Distribute non-Words cards across available columns
+      const availableColumns = numColumns - (wordsCard ? 1 : 0) // Reserve last column for Words if it exists
+      const cardsPerColumn = Math.ceil(nonWordsCards.length / availableColumns)
+
+      nonWordsCards.forEach((card, index) => {
+        const targetColumn = Math.min(Math.floor(index / cardsPerColumn), availableColumns - 1)
         columns[targetColumn].push(card)
         columnHeights[targetColumn] += estimateCardHeight(card)
       })
+
+      // Add Words to the last column if it exists
+      if (wordsCard) {
+        columns[numColumns - 1].push(wordsCard)
+        columnHeights[numColumns - 1] += estimateCardHeight(wordsCard)
+      }
     }
 
     // Force reactivity
@@ -128,9 +147,20 @@
     organizeCards()
   })
 
-  $: if (cards.length > 0) {
-    organizeCards()
+  function debouncedOrganizeCards() {
+    clearTimeout(organizeTimeout)
+    organizeTimeout = setTimeout(() => {
+      organizeCards()
+    }, 100) // 100ms debounce
   }
+
+  $: if (cards.length > 0) {
+    debouncedOrganizeCards()
+  }
+
+  onDestroy(() => {
+    clearTimeout(organizeTimeout)
+  })
 </script>
 
 <div bind:this={gridContainer} class="grid-container" style="--num-columns: {numColumns}">

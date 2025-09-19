@@ -113,6 +113,21 @@
     })
     currentIndex++
 
+    // Add category cards (except Miscellaneous)
+    for (const category of $categories) {
+      if (category === 'Miscellaneous') continue // Skip Miscellaneous for now
+      const categoryDles = $categorizedDles[category] || []
+      if (categoryDles.length !== 0) {
+        cards.push({
+          id: category,
+          type: 'category',
+          data: categoryDles,
+          category
+        })
+        currentIndex++
+      }
+    }
+
     // Add Sponsors (when not searching or when sponsors match search)
     const shouldShowSponsors = !$searchQuery || $searchQuery.trim() === '' || hasSponsorMatches()
     if (shouldShowSponsors) {
@@ -124,18 +139,16 @@
       currentIndex++
     }
 
-    // Add category cards
-    for (const category of $categories) {
-      const categoryDles = $categorizedDles[category] || []
-      if (categoryDles.length !== 0) {
-        cards.push({
-          id: category,
-          type: 'category',
-          data: categoryDles,
-          category
-        })
-        currentIndex++
-      }
+    // Add Miscellaneous category after sponsors
+    const miscellaneousDles = $categorizedDles['Miscellaneous'] || []
+    if (miscellaneousDles.length !== 0) {
+      cards.push({
+        id: 'Miscellaneous',
+        type: 'category',
+        data: miscellaneousDles,
+        category: 'Miscellaneous'
+      })
+      currentIndex++
     }
 
     allCards = cards

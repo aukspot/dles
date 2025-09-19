@@ -6,6 +6,7 @@
   import IconNew from "../Icons/IconNew.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
   import IconDragHandle from "../Icons/IconDragHandle.svelte"
+  import { onDestroy } from "svelte"
 
   export let pageX
   export let pageY
@@ -22,6 +23,8 @@
   let isDragging = false
   let draggedElement = null
   let touchOffset = { x: 0, y: 0 }
+  let originalBodyOverflow = ''
+  let originalBodyPosition = ''
 
   function isNewDle(dle) {
     return $newDles.filter((d) => d.url === dle.url).length === 1
@@ -139,8 +142,55 @@
     dragOverIndex = null
   }
 
+  function preventBodyScroll() {
+    if (typeof document !== 'undefined') {
+      originalBodyOverflow = document.body.style.overflow
+      originalBodyPosition = document.body.style.position
+      document.body.style.overflow = 'hidden'
+      document.body.style.position = 'fixed'
+      document.body.style.width = '100%'
+    }
+  }
+
+  function restoreBodyScroll() {
+    if (typeof document !== 'undefined') {
+      document.body.style.overflow = originalBodyOverflow
+      document.body.style.position = originalBodyPosition
+      document.body.style.width = ''
+    }
+  }
+
+  function cleanupDrag() {
+    if (isDragging) {
+      if (draggedElement) {
+        draggedElement.style.cssText = ''
+        draggedElement._lastHitTest = null
+      }
+      restoreBodyScroll()
+      isDragging = false
+      draggedElement = null
+      draggedIndex = null
+      dragOverIndex = null
+      touchStartY = 0
+      touchCurrentY = 0
+      touchOffset = { x: 0, y: 0 }
+    }
+  }
+
+  // Cleanup on component destroy to ensure body scroll is restored
+  onDestroy(() => {
+    cleanupDrag()
+  })
+
   function handleTouchStart(event, index) {
     if (!reorderable || !editMode) return
+
+    // Prevent default immediately to stop any scroll behavior
+    event.preventDefault()
+    event.stopPropagation()
+
+    // Prevent body scrolling during drag
+    preventBodyScroll()
 
     const touch = event.touches[0]
     const target = event.currentTarget
@@ -170,12 +220,14 @@
       left: 0 !important;
       top: 0 !important;
     `
-
-    event.preventDefault()
   }
 
   function handleTouchMove(event) {
     if (!isDragging || draggedIndex === null || !draggedElement) return
+
+    // Prevent default immediately to stop any scroll behavior
+    event.preventDefault()
+    event.stopPropagation()
 
     const touch = event.touches[0]
     touchCurrentY = touch.clientY
@@ -198,12 +250,14 @@
         }
       }
     }
-
-    event.preventDefault()
   }
 
   function handleTouchEnd(event) {
     if (!isDragging) return
+
+    // Prevent default immediately to stop any scroll behavior
+    event.preventDefault()
+    event.stopPropagation()
 
     if (draggedElement) {
       draggedElement.style.cssText = ''
@@ -212,13 +266,14 @@
 
     handleDragEnd()
 
+    // Restore body scrolling
+    restoreBodyScroll()
+
     isDragging = false
     draggedElement = null
     touchStartY = 0
     touchCurrentY = 0
     touchOffset = { x: 0, y: 0 }
-
-    event.preventDefault()
   }
 
   function handleAuxClick(dle, position) {
@@ -252,6 +307,7 @@
         on:touchstart={(e) => handleTouchStart(e, j)}
         on:touchmove={handleTouchMove}
         on:touchend={handleTouchEnd}
+        on:touchcancel={handleTouchEnd}
       >
         <div class="dleTop" class:draggable-row={reorderable && editMode}>
           <div class="dleLeft">
@@ -307,6 +363,11 @@
     @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA transition-all duration-200;
   }
 
+  /* Prevent scrolling during drag operations */
+  .dleContainer[draggable="true"] {
+    touch-action: none;
+  }
+
   .dleContainer.dragging {
     @apply opacity-50 scale-105;
   }
@@ -321,6 +382,7 @@
 
   .dleTop.draggable-row {
     @apply cursor-move;
+    touch-action: none; /* Prevent browser scrolling during drag */
   }
 
   .dleLeft {

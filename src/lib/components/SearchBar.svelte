@@ -48,7 +48,7 @@
 
 <style lang="postcss">
   .search-container {
-    @apply flex flex-col items-center w-full ml-2;
+    @apply flex flex-col items-end w-full ml-2;
   }
 
   .search-bar {

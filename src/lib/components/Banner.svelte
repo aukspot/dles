@@ -35,7 +35,7 @@
       >
     </div>
   {/if}
-  <div class="set-width flex justify-end items-center">
+  <div class="set-width flex justify-end">
     {#if includeSearch}
       <SearchBar />
     {/if}
