@@ -1,19 +1,18 @@
 <script>
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
+  import { trackEvent } from "$lib/js/trackingUtils"
   export let i
   export let dle
 
   function trackGameClick(dle, clickType) {
-    if (typeof window !== 'undefined' && window.umami) {
-      window.umami.track('game-click', {
-        game_name: dle.name,
-        game_category: dle.category,
-        game_id: dle.id,
-        click_type: clickType, // 'play-button' or 'title-link'
-        game_position: i,
-        view_type: 'card'
-      });
-    }
+    trackEvent('game-click', {
+      game_name: dle.name,
+      game_category: dle.category,
+      game_id: dle.id,
+      click_type: clickType, // 'play-button' or 'title-link'
+      game_position: i,
+      view_type: 'card'
+    });
   }
 </script>
 

@@ -9,9 +9,11 @@ export function isLocalStorageAvailable() {
   }
 }
 
+import { trackEvent } from './trackingUtils.js';
+
 export function openInNewTab(href, trackingData = null) {
-  if (trackingData && typeof window !== 'undefined' && window.umami) {
-    window.umami.track('game-click', trackingData);
+  if (trackingData) {
+    trackEvent('game-click', trackingData);
   }
 
   Object.assign(document.createElement("a"), {
