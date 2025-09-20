@@ -13,7 +13,19 @@ import { trackEvent } from './trackingUtils.js';
 
 export function openInNewTab(href, trackingData = null) {
   if (trackingData) {
-    trackEvent('game-click', trackingData);
+    const result = {
+      dle_name: trackingData.dle_name,
+      dle_id: trackingData.dle_id,
+      click_type: trackingData.click_type,
+      section: trackingData.section || 'random'
+    };
+
+    // Keep position_id only for dles-of-the-week
+    if (trackingData.position_id && trackingData.section && trackingData.section.includes('dles-of-the-week')) {
+      result.position_id = trackingData.position_id;
+    }
+
+    trackEvent('game-click', result);
   }
 
   Object.assign(document.createElement("a"), {
@@ -29,19 +41,13 @@ export function playRandom(options, customTrackingData = null) {
 
     const trackingData = customTrackingData || {
       dle_name: choice.name,
-      dle_url: choice.url,
-      dle_category: choice.category,
       dle_id: choice.id,
       click_type: 'random-button',
-      source: 'random-button',
-      section: 'random',
-      available_options: options.length
+      section: 'random'
     };
 
     if (customTrackingData) {
       trackingData.dle_name = choice.name;
-      trackingData.dle_url = choice.url;
-      trackingData.dle_category = choice.category;
       trackingData.dle_id = choice.id;
     }
 

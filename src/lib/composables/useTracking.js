@@ -2,42 +2,25 @@ import { createTrackingData, trackEvent } from "$lib/js/trackingUtils"
 
 export function useTracking() {
 
-  function trackFavoriteAction(dle, action, type, section, position, totalFavorites) {
+  function trackFavoriteAction(dle, action, type, section, position) {
     try {
       if (typeof window === 'undefined' || !window.umami) {
         return false
       }
 
-      const trackingData = createTrackingData(dle, action, type, section, position)
-      trackingData.total_favorites = totalFavorites
-      trackingData.action = action
+      const trackingData = {
+        dle_name: dle.name,
+        dle_id: dle.id,
+        action: action,
+        view_type: type,
+        section: section
+      }
 
       trackEvent('favorite-action', trackingData, `${type} ${action}`)
 
       return true
     } catch (error) {
       console.error('Failed to track favorite action:', error)
-      return false
-    }
-  }
-
-  
-  function trackInteraction(eventName, dle, interactionType, source, position = null, additionalData = {}) {
-    try {
-      if (typeof window === 'undefined' || !window.umami) {
-        return false
-      }
-
-      const trackingData = createTrackingData(dle, interactionType, source, 'interaction', position)
-
-      // Merge additional data
-      Object.assign(trackingData, additionalData)
-
-      trackEvent(eventName, trackingData, `${source} ${interactionType}`)
-
-      return true
-    } catch (error) {
-      console.error('Failed to track interaction:', error)
       return false
     }
   }
@@ -64,7 +47,6 @@ export function useTracking() {
 
   return {
     trackFavoriteAction,
-    trackInteraction,
     trackGameClick,
     isTrackingAvailable
   }

@@ -7,19 +7,17 @@ const POSITION_ID_FORMATS = {
 };
 
 /**
- * Creates standardized tracking data for dles-of-the-week interactions
+ * Creates selective tracking data
  */
 export function createTrackingData(dle, clickType, viewType, section, position = null) {
   const trackingData = {
-    game_name: dle.name,
-    game_category: dle.category,
-    game_id: dle.id,
+    dle_name: dle.name,
+    dle_id: dle.id,
     click_type: clickType,
-    view_type: viewType,
     section: section
   };
 
-  // Add position tracking
+  // Add position tracking only for dles-of-the-week
   const positionId = getPositionId(dle, section, position);
   if (positionId) {
     trackingData.position_id = positionId;

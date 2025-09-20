@@ -1,18 +1,13 @@
 <script>
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
-  import { trackEvent } from "$lib/js/trackingUtils"
+  import { useTracking } from "$lib/composables/useTracking"
   export let i
   export let dle
 
-  function trackGameClick(dle, clickType) {
-    trackEvent('game-click', {
-      game_name: dle.name,
-      game_category: dle.category,
-      game_id: dle.id,
-      click_type: clickType, // 'play-button' or 'title-link'
-      game_position: i,
-      view_type: 'card'
-    });
+  const { trackGameClick } = useTracking()
+
+  function handleGameClick(dle, clickType) {
+    trackGameClick(dle, clickType, 'card', 'regular', i - 1)
   }
 </script>
 
@@ -21,7 +16,7 @@
     <div class="cardTop">
       <div class="cardLabel">
         <span class="unselectable">{i}. </span>
-        <span class="cardName"><a href={dle.url} on:click={() => trackGameClick(dle, 'title-link')}>{dle.name}</a></span>
+        <span class="cardName"><a href={dle.url} on:click={() => handleGameClick(dle, 'title-link')}>{dle.name}</a></span>
       </div>
     </div>
     <div class="cardDescription">
@@ -33,7 +28,7 @@
     <span class="flex items-baseline">
       <FavoriteButton {dle} />
     </span>
-    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener" on:click={() => trackGameClick(dle, 'play-button')}
+    <a class="flex justify-center" href={dle.url} target="_blank" rel="noopener" on:click={() => handleGameClick(dle, 'play-button')}
       ><button class="btn unselectable">Play</button></a
     >
   </div>

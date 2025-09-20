@@ -7,7 +7,7 @@
   import SearchModal from "$lib/components/Dles/SearchModal.svelte"
   import { onMount } from "svelte"
   import { base } from "$app/paths"
-  import { trackEvent } from "$lib/js/trackingUtils"
+  import { useTracking } from "$lib/composables/useTracking"
 
   let loading = true
   let showSearchModal = false
@@ -45,15 +45,10 @@
     localStorage.favorites = JSON.stringify($favoriteIds)
   }
 
+  const { trackGameClick } = useTracking()
+
   function handleGameUrlClick(favorite) {
-    trackEvent('game-click', {
-      game_name: favorite.name,
-      game_category: favorite.category,
-      game_id: favorite.id,
-      click_type: 'url-link',
-      view_type: 'favorites',
-      section: 'favorites-dedicated'
-    });
+    trackGameClick(favorite, 'url-link', 'favorites', 'favorites-dedicated')
   }
 
   function handlePlayRandomFavorite() {
@@ -67,11 +62,6 @@
   }
 
   function openSearchModal(event) {
-    trackEvent('favorites-search-open', {
-      source: 'favorites-page',
-      total_favorites: $favorites.length
-    });
-
     const rect = event.target.closest('button').getBoundingClientRect();
     modalX = rect.left + rect.width / 2;
     modalY = rect.bottom - 10;
