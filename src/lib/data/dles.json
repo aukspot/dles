@@ -404,13 +404,6 @@
     "id": 52
   },
   {
-    "name": "Circuits",
-    "url": "https://circuitsgame.com",
-    "description": "Place words into the empty boxes so that each connection of two words make a compound word.",
-    "category": "Words",
-    "id": 53
-  },
-  {
     "name": "Clasherdle",
     "url": "https://clasherdle.pixelcrux.com/",
     "description": "A daily guessing game for Clash Royale.",
@@ -2025,13 +2018,6 @@
     "id": 251
   },
   {
-    "name": "NHLdle",
-    "url": "https://nhldle.com/classic",
-    "description": "Guess today's mystery NHL player.",
-    "category": "Sports",
-    "id": 252
-  },
-  {
     "name": "Nodes",
     "url": "https://www.nodes-game.com",
     "description": "A puzzle game where you connect dots to reveal beautiful images.",
@@ -2414,6 +2400,13 @@
     "description": "Lay tiles onto the grid to spell the best 6 words you can.",
     "category": "Words",
     "id": 297
+  },
+  {
+    "name": "Puzzmo - Circuits",
+    "url": "https://www.puzzmo.com/play/circuits",
+    "description": "Place words into the empty boxes so that each connection of two words make a compound word.",
+    "category": "Words",
+    "id": 53
   },
   {
     "name": "Puzzmo - Crossword",
