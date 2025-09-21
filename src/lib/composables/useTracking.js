@@ -8,12 +8,20 @@ export function useTracking() {
         return false
       }
 
+      // Use createTrackingData for dles-of-the-week to get position_id
+      const baseTrackingData = createTrackingData(dle, action, type, section, position)
+
+      // Override with favorite-specific fields
       const trackingData = {
-        dle_name: dle.name,
-        dle_id: dle.id,
+        dle_name: baseTrackingData.dle_name,
+        dle_id: baseTrackingData.dle_id,
         action: action,
-        view_type: type,
-        section: section
+        section: baseTrackingData.section
+      }
+
+      // Add position_id only for dles-of-the-week
+      if (baseTrackingData.position_id) {
+        trackingData.position_id = baseTrackingData.position_id
       }
 
       trackEvent('favorite-action', trackingData, `${type} ${action}`)

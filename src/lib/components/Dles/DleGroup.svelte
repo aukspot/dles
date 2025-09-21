@@ -287,17 +287,8 @@
   }
 
   function handleGameClick(dle, position, clickType) {
-    const trackingData = {
-      dle_name: dle.name,
-      dle_url: dle.url,
-      dle_category: dle.category,
-      dle_id: dle.id,
-      click_type: clickType,
-      source: 'list',
-      section: section,
-      position: position
-    };
-    openInNewTab(dle.url, trackingData);
+    tracking.trackGameClick(dle, clickType, 'list', section, position);
+    openInNewTab(dle.url);
   }
 </script>
 
@@ -361,7 +352,7 @@
             </div>
           {:else}
             <div class="hover-favorite" class:favorited={isFavorited(dle)}>
-              <FavoriteButton {dle} size="small" />
+              <FavoriteButton {dle} {section} position={j} size="small" />
             </div>
           {/if}
         </div>

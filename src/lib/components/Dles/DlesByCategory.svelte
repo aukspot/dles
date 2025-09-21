@@ -179,6 +179,7 @@
         </div>
         <DleGroup
           dleGroup={card.data}
+          section="dles-of-the-week"
           bind:pageX
           bind:pageY
           bind:clientY
