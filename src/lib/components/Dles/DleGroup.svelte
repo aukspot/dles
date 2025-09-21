@@ -366,7 +366,9 @@
 
 <style lang="postcss">
   .dleContainer {
-    @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA transition-all duration-200;
+    @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
+    /* Specific transitions to avoid flash during theme toggle */
+    transition: opacity 200ms ease, transform 200ms ease, border-color 200ms ease;
   }
 
   /* Prevent scrolling during drag operations */
@@ -408,7 +410,7 @@
   }
 
   .dleName {
-    @apply inline text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-all hover:duration-300;
+    @apply inline text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-colors hover:duration-300;
     text-decoration-thickness: 2px;
     padding: 0;
     border: none;

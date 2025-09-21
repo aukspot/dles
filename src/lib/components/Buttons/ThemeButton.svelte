@@ -33,7 +33,7 @@
 
   const applyTheme = () => {
     if (!isLocalStorageAvailable()) {
-      document.body.classList.toggle(THEMES.DARK)
+      document.documentElement.classList.toggle(THEMES.DARK)
       return
     }
 
@@ -41,9 +41,9 @@
     let currentTheme = localStorage.getItem(STORAGE_KEY) ?? preferredTheme
 
     if (currentTheme && currentTheme == THEMES.DARK) {
-      document.body.classList.add(THEMES.DARK)
+      document.documentElement.classList.add(THEMES.DARK)
     } else {
-      document.body.classList.remove(THEMES.DARK)
+      document.documentElement.classList.remove(THEMES.DARK)
     }
   }
 

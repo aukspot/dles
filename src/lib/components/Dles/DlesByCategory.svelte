@@ -7,6 +7,7 @@
     poppedUpDle,
     dlesOfTheWeek,
     favorites,
+    favoriteIds,
     searchQuery,
   } from "$lib/stores"
 
@@ -20,6 +21,7 @@
   import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
   import IconFavoriteFilled from "../Icons/IconFavoriteFilled.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
+  import IconSort from "../Icons/IconSort.svelte"
   import IconEdit from "../Icons/IconEdit.svelte"
   import DleGroup from "./DleGroup.svelte"
   import DleGrid from "./DleGrid.svelte"
@@ -34,6 +36,21 @@
   let favoriteCardIndex = -1
   let showSearchModal = false
   let editMode = false
+  function toggleFavoritesSort() {
+    const currentNames = $favorites.map(fav => fav.name.toLowerCase())
+    const sortedAscending = [...currentNames].sort()
+    const isCurrentlyAscending = currentNames.every((name, index) => name === sortedAscending[index])
+
+    const sortedFavorites = $favorites.sort((a, b) => {
+      const comparison = a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+      return isCurrentlyAscending ? -comparison : comparison
+    })
+
+    $favoriteIds = sortedFavorites.map(fav => fav.id)
+    if (typeof localStorage !== 'undefined') {
+      localStorage.favorites = JSON.stringify($favoriteIds)
+    }
+  }
 
   function resetPoppedUpDle() {
     $poppedUpDle = ""
@@ -207,13 +224,23 @@
             {/if}
           </div>
           <div class="favorites-buttons">
-            <button
-              class="favorites-add-button"
-              on:click={openSearchModal}
-              title="Add dle to favorites"
-            >
-              <IconPlus />
-            </button>
+            {#if editMode}
+              <button
+                class="favorites-sort-button"
+                on:click={toggleFavoritesSort}
+                title="Sort favorites alphabetically"
+              >
+                <IconSort />
+              </button>
+            {:else}
+              <button
+                class="favorites-add-button"
+                on:click={openSearchModal}
+                title="Add dle to favorites"
+              >
+                <IconPlus />
+              </button>
+            {/if}
             {#if card.data.length > 0}
               <button
                 class="favorites-edit-button"
@@ -221,9 +248,11 @@
                 on:click={toggleEditMode}
                 title={editMode ? "Click to finish rearranging" : "Rearrange favorites"}
               >
-                <IconEdit />
                 {#if editMode}
-                  <span class="edit-button-text">Done</span>
+                  <span class="edit-button-text p-1">Done</span>
+                {:else}
+                <IconEdit />
+
                 {/if}
               </button>
             {/if}
@@ -304,7 +333,7 @@
 
 
   .favorites-add-row {
-    @apply flex items-center justify-between p-1 pl-2 bg-colorCardC border-t border-colorTextSoftest transition-colors duration-200;
+    @apply flex items-center gap-1 justify-between p-1 pl-2 bg-colorCardC border-t border-colorTextSoftest;
   }
 
   .favorites-add-row.edit-mode {
@@ -320,7 +349,7 @@
   }
 
   .edit-mode-text {
-    @apply text-blue-700 font-medium text-xs;
+    @apply text-blue-700 font-medium text-xs md:text-sm;
   }
 
   :global(.dark) .edit-mode-text {
@@ -331,24 +360,24 @@
     @apply flex items-center justify-end gap-1;
   }
 
-  .favorites-add-button, .favorites-edit-button {
-    @apply p-1 hover:bg-colorCardB rounded-sm stroke-colorTextSoft transition-all duration-200;
+  .favorites-add-button, .favorites-edit-button, .favorites-sort-button {
+    @apply p-1 bg-colorBackground hover:bg-gray-50 hover:border-colorTextSoft hover:shadow-md  active:scale-95 rounded-sm stroke-colorTextSoft transition-colors duration-75 border border-colorNeutralSoft shadow-md opacity-80;
   }
 
-  .favorites-edit-button {
-    @apply flex items-center gap-1 border border-transparent;
+  :global(.dark) .favorites-add-button, :global(.dark) .favorites-edit-button, :global(.dark) .favorites-sort-button {
+    @apply hover:bg-zinc-800;
   }
 
   .favorites-edit-button.active {
-    @apply bg-blue-100 border-blue-300 text-blue-700 stroke-blue-600;
+    @apply bg-blue-100 border-blue-300 text-blue-700 stroke-blue-600 hover:border-blue-400 hover:bg-blue-200;
   }
 
   :global(.dark) .favorites-edit-button.active {
-    @apply bg-blue-900/40 border-blue-600 text-blue-300 stroke-blue-400;
+    @apply bg-blue-900/40 border-blue-400 text-blue-300 stroke-blue-400 hover:border-blue-300 hover:bg-blue-800/50;
   }
 
   .edit-button-text {
-    @apply text-xs font-medium;
+    @apply text-xs font-bold;
   }
 
 </style>

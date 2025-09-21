@@ -7,26 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <script defer src="https://analytics.aukspot.com/script.js"
     data-website-id="14fa27d1-104f-4567-9ae6-23fbb218885f"></script>
+  <script>
+    function isLocalStorageAvailable() {
+      try {
+        const test = '__localStorage_test__';
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return true;
+      } catch {
+        return false;
+      }
+    }
+
+    if (isLocalStorageAvailable()) {
+      (function () {
+        const theme = localStorage.getItem('theme');
+        if (
+          theme === 'dark' ||
+          (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    }
+  </script>
   %sveltekit.head%
 </head>
 
 <body data-sveltekit-preload-data="hover">
-  <script>
-    function isLocalStorageAvailable() {
-      let test = "test";
-      try {
-        localStorage.setItem(test, test);
-        localStorage.removeItem(test);
-        return true;
-      } catch (e) {
-        return false;
-      }
-    }
-    if (isLocalStorageAvailable()) {
-      const theme = localStorage.getItem("theme");
-      if (theme && theme == "dark") document.body.classList.add("dark");
-    }
-  </script>
 
   <div style="display: contents">%sveltekit.body%</div>
 </body>
