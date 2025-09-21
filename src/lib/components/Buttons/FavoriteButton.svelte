@@ -44,7 +44,6 @@
         'button',
         section,
         position,
-        result.totalFavorites
       )
     }
   }

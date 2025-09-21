@@ -20,11 +20,6 @@
   })
 
   function sortByCategory() {
-    trackEvent('favorites-sort', {
-      sort_type: 'category',
-      total_favorites: $favorites.length
-    });
-
     const sortedFavorites = $favorites.sort((a, b) => {
       return a.category.toLowerCase() > b.category.toLowerCase()
     })
@@ -33,11 +28,6 @@
   }
 
   function sortAlphabetically() {
-    trackEvent('favorites-sort', {
-      sort_type: 'alphabetical',
-      total_favorites: $favorites.length
-    });
-
     const sortedFavorites = $favorites.sort((a, b) => {
       return a.name.toLowerCase() > b.name.toLowerCase()
     })
