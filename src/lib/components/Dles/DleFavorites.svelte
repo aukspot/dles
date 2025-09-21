@@ -105,7 +105,7 @@
   {#if $favorites.length > 0}
     <div class="m-auto columns-sm">
       <div data-sveltekit-reload class="favoritesContainer">
-        {#each $favorites as favorite, i (i)}
+        {#each $favorites as favorite, i (favorite.id)}
         <div class="card flex break-inside-avoid">
           <div
             class="p-2 flex justify-center items-center"
