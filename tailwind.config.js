@@ -2,6 +2,12 @@
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   darkMode: "class",
+  corePlugins: {
+    preflight: true,
+  },
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {
       colors: {

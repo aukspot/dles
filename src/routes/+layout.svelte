@@ -1,4 +1,6 @@
 <script>
+  export let params = undefined
+
   import "../app.css"
   import dles_json from "$lib/data/dles.json"
   import new_dles_json from "$lib/data/new_dles.json"

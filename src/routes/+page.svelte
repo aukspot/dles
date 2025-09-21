@@ -1,4 +1,6 @@
 <script>
+  export let params = undefined
+
   import DleList from "$lib/components/Dles/DleList.svelte"
 </script>
 

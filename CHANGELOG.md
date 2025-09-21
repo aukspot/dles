@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-09-21
+
+Remove 1 dle.<br>Update Circuits, which is now part of Puzzmo.
+
+
+dles removed: 
+|    | name                                 | url                                                      |
+|---:|:-------------------------------------|:---------------------------------------------------------|
+|  1 | [NHLdle](https://nhldle.com/classic) | [https://nhldle.com/classic](https://nhldle.com/classic) |
 ## 2025-09-19
 
 Add favorites to the main page.<br>You can now quickly add/remove favorites by pressing the heart icons next to each dle.<br>Add one extra column to larger screens.<br>Move the Miscellaneous category to the left column to give more space to Words for the far right column.
