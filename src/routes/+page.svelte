@@ -1,5 +1,5 @@
 <script>
-  export let params = undefined
+  export const params = undefined
 
   import DleList from "$lib/components/Dles/DleList.svelte"
 </script>

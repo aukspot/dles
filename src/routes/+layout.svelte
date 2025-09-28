@@ -1,5 +1,5 @@
 <script>
-  export let params = undefined
+  export const params = undefined
 
   import "../app.css"
   import dles_json from "$lib/data/dles.json"
@@ -30,7 +30,7 @@
   } from "$lib/js/utilities"
   import {
     migrateFavoritesToIds,
-    needsFavoritesMigration
+    needsFavoritesMigration,
   } from "$lib/js/favoritesMigration"
   import LatestChange from "$lib/components/LatestChange.svelte"
 
@@ -45,18 +45,26 @@
 
       // Check if migration is needed
       if (needsFavoritesMigration(rawFavorites)) {
-        console.log('🔄 Migrating favorites to new ID-based format...')
+        console.log("🔄 Migrating favorites to new ID-based format...")
         const migrationResult = migrateFavoritesToIds(rawFavorites, $dles)
         $favoriteIds = migrationResult.ids
         localStorage.favorites = JSON.stringify(migrationResult.ids)
 
         const { report } = migrationResult
-        console.log(`✅ Migration complete: ${report.migrated}/${report.total} favorites migrated`)
+        console.log(
+          `✅ Migration complete: ${report.migrated}/${report.total} favorites migrated`,
+        )
 
         if (report.failed.length > 0) {
-          console.warn('⚠️ Some favorites could not be migrated:', report.failed)
+          console.warn(
+            "⚠️ Some favorites could not be migrated:",
+            report.failed,
+          )
           if (report.suggestions.length > 0) {
-            console.log('💡 Suggestions for failed migrations:', report.suggestions)
+            console.log(
+              "💡 Suggestions for failed migrations:",
+              report.suggestions,
+            )
           }
         }
       } else {
@@ -91,7 +99,9 @@
 
   $: {
     for (let category of $categories) {
-      let dlesInCategory = $filteredDles.filter((dle) => dle.category == category)
+      let dlesInCategory = $filteredDles.filter(
+        (dle) => dle.category == category,
+      )
       $categorizedDles[category] = dlesInCategory
     }
   }
