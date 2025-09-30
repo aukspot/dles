@@ -1,54 +1,37 @@
 <script>
   import { categoryColors, searchQuery } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
+  import DleGroup from "$lib/components/Dles/DleGroup.svelte"
   import { trackEvent } from "$lib/js/trackingUtils"
 
-  function trackSponsorClick(partner, position, clickType = 'left-click') {
-    trackEvent('sponsor-click', {
-      sponsor_name: partner.name,
-      sponsor_id: partner.id,
-      sponsor_url: partner.url,
-      position_id: `sponsor-${position + 1}`,
-      click_type: clickType
-    });
-  }
-
-  function handleSponsorClick(event, partner, position) {
-    if (event.ctrlKey || event.metaKey) {
-      trackSponsorClick(partner, position, 'ctrl-click');
-    } else {
-      trackSponsorClick(partner, position, 'left-click');
-    }
-  }
-
-  function handleSponsorAuxClick(partner, position) {
-    trackSponsorClick(partner, position, 'middle-click');
-  }
+  let pageX = 0
+  let pageY = 0
+  let clientY = 0
 
   const partners = [
     {
-      id: "partner-nibble",
-      name: "nibble.games",
-      url: "https://nibble.games",
-      logoLight: "/nibble.games_cropped_small.png",
-      logoDark: "/nibble.games_cropped_dark_small.png",
-      backgroundColor: "bg-white dark:bg-gray-950",
+      id: 220,
+      name: "MapTap",
+      url: "https://maptap.gg",
+      description:
+        "Click as close as you can to the given world cities, 5 rounds per day.",
+      category: "Geography",
     },
     {
-      id: "partner-quintalist",
+      id: 308,
       name: "Quintalist",
-      url: "https://quintalist.com?dles",
-      logoLight: "/QuintalistLightSmall.jpg",
-      logoDark: "/QuintalistDarkSmall.jpg",
-      backgroundColor: "bg-white dark:bg-black",
+      url: "https://www.quintalist.com?dles",
+      description: "Correctly choose the top 5 entries in 5 tries or fewer.",
+      category: "Trivia",
+      theme: "Guess the List",
     },
     {
-      id: "partner-flashpoptiles",
+      id: 468,
       name: "FlashPopTiles",
-      url: "https://flashpoptiles.com?utm_source=aukspot&utm_medium=banner&utm_campaign=sponsorship",
-      logoLight: "/flashpoptiles.png",
-      logoDark: "/flashpoptiles.png",
-      backgroundColor: "bg-white dark:bg-gray-950",
+      url: "https://flashpoptiles.com",
+      description:
+        "Traverse the grid while changing either shape or color, never both!",
+      category: "Shapes/Patterns",
     },
   ]
 
@@ -79,38 +62,18 @@
         Sponsors
       </div>
     </div>
-    {#if $searchQuery.length == 0}
+    <!-- {#if $searchQuery.length == 0}
       <div class="partner-cta-header">
         <p class="partner-cta-text">Play one of our sponsors!</p>
       </div>
-    {/if}
-    <div class="partner-grid p-2">
-      {#each filteredPartners as partner, i}
-        <div class="partner-item">
-          <a
-            href={partner.url}
-            target="_blank"
-            class="partner-link"
-            id={partner.id}
-            on:click={(e) => handleSponsorClick(e, partner, i)}
-            on:auxclick={() => handleSponsorAuxClick(partner, i)}
-          >
-            <div class="partner-card-content {partner.backgroundColor}">
-              <img
-                src={partner.logoLight}
-                alt={partner.name}
-                class="partner-logo-img partner-logo-light"
-              />
-              <img
-                src={partner.logoDark}
-                alt={partner.name}
-                class="partner-logo-img partner-logo-dark"
-              />
-            </div>
-          </a>
-        </div>
-      {/each}
-    </div>
+    {/if} -->
+    <DleGroup
+      bind:pageX
+      bind:pageY
+      bind:clientY
+      dleGroup={filteredPartners}
+      section="sponsors"
+    />
 
     {#if $searchQuery.length == 0}
       <div class="partner-footer">
@@ -118,7 +81,7 @@
           href="https://tally.so/r/wgEX5K"
           class="partner-inquiry-link"
           target="_blank"
-          on:click={() => trackEvent('sponsor-inquiry-click', {})}
+          on:click={() => trackEvent("sponsor-inquiry-click", {})}
           >Want to sponsor? Message me!</a
         >
       </div>
@@ -137,66 +100,11 @@
     @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
   }
 
-  :global(.dark) #partner-nibble .partner-logo-img {
-    filter: brightness(1.7) drop-shadow(0 0 4px rgba(255, 255, 255, 0.35));
-  }
-  .partner-cta-header {
-    @apply px-2 py-2 bg-colorCardB border-b border-colorNeutralSoft;
-  }
-
-  .partner-cta-text {
-    @apply text-sm text-center text-colorTextSofter italic;
-  }
-
-  .partner-grid {
-    @apply grid grid-cols-1 gap-2;
-  }
-
   .partner-footer {
     @apply px-1 py-1 bg-colorCardB border-t border-colorNeutralSoft text-center;
   }
 
   .partner-inquiry-link {
     @apply text-xs text-colorTextSofter hover:hover:text-colorLinkHover underline decoration-1 underline-offset-2 transition-colors;
-  }
-
-  .partner-item {
-    @apply flex justify-center;
-  }
-
-  .partner-link {
-    @apply block w-full no-underline;
-  }
-
-  .partner-card-content {
-    @apply border border-colorNeutralSoft rounded hover:scale-105 transition-transform flex items-center justify-center h-8 sm:h-10 w-full p-2;
-  }
-
-  .partner-logo-img {
-    @apply h-8 w-auto object-contain sm:h-9;
-  }
-
-  #partner-flashpoptiles .partner-card-content {
-    @apply p-0;
-  }
-
-  #partner-flashpoptiles .partner-logo-img {
-    @apply h-full w-full object-cover rounded;
-  }
-
-  .partner-logo-light {
-    @apply block;
-  }
-
-  .partner-logo-dark {
-    @apply hidden;
-  }
-
-  :global(.dark) .partner-logo-light {
-    @apply hidden;
-  }
-
-  :global(.dark) .partner-logo-dark {
-    @apply block;
   }
 </style>

@@ -49,6 +49,33 @@ export function useTracking() {
     }
   }
 
+  function trackSponsorClick(sponsor, clickType, position) {
+    try {
+      if (typeof window === 'undefined' || !window.umami) {
+        return false
+      }
+
+      const trackingData = {
+        sponsor_name: sponsor.name,
+        sponsor_id: sponsor.id,
+        sponsor_url: sponsor.url,
+        click_type: clickType
+      }
+
+      // Add position_id if position is provided
+      if (position !== null && position !== undefined) {
+        trackingData.position_id = `sponsor-${position + 1}`
+      }
+
+      trackEvent('sponsor-click', trackingData, `sponsor ${clickType}`)
+
+      return true
+    } catch (error) {
+      console.error('Failed to track sponsor click:', error)
+      return false
+    }
+  }
+
   function isTrackingAvailable() {
     return typeof window !== 'undefined' && !!window.umami
   }
@@ -56,6 +83,7 @@ export function useTracking() {
   return {
     trackFavoriteAction,
     trackGameClick,
+    trackSponsorClick,
     isTrackingAvailable
   }
 }

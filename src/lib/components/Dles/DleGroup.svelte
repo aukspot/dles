@@ -12,7 +12,7 @@
   export let pageY
   export let clientY
   export let dleGroup
-  export let section = 'regular'
+  export let section = "regular"
   export let reorderable = false
   export let editMode = false
 
@@ -25,8 +25,8 @@
   let isDragging = false
   let draggedElement = null
   let touchOffset = { x: 0, y: 0 }
-  let originalBodyOverflow = ''
-  let originalBodyPosition = ''
+  let originalBodyOverflow = ""
+  let originalBodyPosition = ""
 
   function isNewDle(dle) {
     return $newDles.filter((d) => d.url === dle.url).length === 1
@@ -38,7 +38,7 @@
 
   // function groupDlesByTheme(dles) {
   //   const grouped = {}
-  //   
+  //
   //   // Special handling for Video Games - group all themed games together
   //   if (category === "Video Games") {
   //     for (const dle of dles) {
@@ -104,7 +104,11 @@
   function handleDragEnd() {
     if (!reorderable || !editMode) return
 
-    if (draggedIndex !== null && dragOverIndex !== null && draggedIndex !== dragOverIndex) {
+    if (
+      draggedIndex !== null &&
+      dragOverIndex !== null &&
+      draggedIndex !== dragOverIndex
+    ) {
       // Get the actual dle IDs from the displayed (possibly filtered) list
       const draggedDle = dleGroup[draggedIndex]
       const targetDle = dleGroup[dragOverIndex]
@@ -124,7 +128,10 @@
 
       // Find the new target index (it might have shifted after removal)
       const updatedTargetIndex = newFavoriteIds.indexOf(targetDle.id)
-      const insertIndex = draggedIndex < dragOverIndex ? updatedTargetIndex + 1 : updatedTargetIndex
+      const insertIndex =
+        draggedIndex < dragOverIndex
+          ? updatedTargetIndex + 1
+          : updatedTargetIndex
 
       // Insert at the new position
       newFavoriteIds.splice(insertIndex, 0, draggedDle.id)
@@ -145,27 +152,27 @@
   }
 
   function preventBodyScroll() {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       originalBodyOverflow = document.body.style.overflow
       originalBodyPosition = document.body.style.position
-      document.body.style.overflow = 'hidden'
-      document.body.style.position = 'fixed'
-      document.body.style.width = '100%'
+      document.body.style.overflow = "hidden"
+      document.body.style.position = "fixed"
+      document.body.style.width = "100%"
     }
   }
 
   function restoreBodyScroll() {
-    if (typeof document !== 'undefined') {
+    if (typeof document !== "undefined") {
       document.body.style.overflow = originalBodyOverflow
       document.body.style.position = originalBodyPosition
-      document.body.style.width = ''
+      document.body.style.width = ""
     }
   }
 
   function cleanupDrag() {
     if (isDragging) {
       if (draggedElement) {
-        draggedElement.style.cssText = ''
+        draggedElement.style.cssText = ""
         draggedElement._lastHitTest = null
       }
       restoreBodyScroll()
@@ -239,11 +246,17 @@
 
     draggedElement.style.transform = `scale(1.05) translate3d(${newX}px, ${newY}px, 0)`
 
-    if (!draggedElement._lastHitTest || Date.now() - draggedElement._lastHitTest > 16) {
+    if (
+      !draggedElement._lastHitTest ||
+      Date.now() - draggedElement._lastHitTest > 16
+    ) {
       draggedElement._lastHitTest = Date.now()
 
-      const elementBelow = document.elementFromPoint(touch.clientX, touch.clientY)
-      const dleElement = elementBelow?.closest('[data-dle-index]')
+      const elementBelow = document.elementFromPoint(
+        touch.clientX,
+        touch.clientY,
+      )
+      const dleElement = elementBelow?.closest("[data-dle-index]")
 
       if (dleElement) {
         const newIndex = parseInt(dleElement.dataset.dleIndex)
@@ -262,7 +275,7 @@
     event.stopPropagation()
 
     if (draggedElement) {
-      draggedElement.style.cssText = ''
+      draggedElement.style.cssText = ""
       draggedElement._lastHitTest = null
     }
 
@@ -279,16 +292,20 @@
   }
 
   function handleAuxClick(dle, position) {
-    handleGameClick(dle, position, 'middle-click');
+    handleGameClick(dle, position, "middle-click")
   }
 
   function handleCtrlClick(dle, position) {
-    handleGameClick(dle, position, 'ctrl-click');
+    handleGameClick(dle, position, "ctrl-click")
   }
 
   function handleGameClick(dle, position, clickType) {
-    tracking.trackGameClick(dle, clickType, 'list', section, position);
-    openInNewTab(dle.url);
+    if (section === "sponsors") {
+      tracking.trackSponsorClick(dle, clickType, position)
+    } else {
+      tracking.trackGameClick(dle, clickType, "list", section, position)
+    }
+    openInNewTab(dle.url)
   }
 </script>
 
@@ -298,9 +315,21 @@
       <li
         class="dleContainer"
         class:dragging={reorderable && editMode && draggedIndex === j}
-        class:drag-over-above={reorderable && editMode && dragOverIndex === j && draggedIndex !== null && j < draggedIndex}
-        class:drag-over-below={reorderable && editMode && dragOverIndex === j && draggedIndex !== null && j > draggedIndex}
-        class:drag-over={reorderable && editMode && dragOverIndex === j && draggedIndex !== null && j === draggedIndex}
+        class:drag-over-above={reorderable &&
+          editMode &&
+          dragOverIndex === j &&
+          draggedIndex !== null &&
+          j < draggedIndex}
+        class:drag-over-below={reorderable &&
+          editMode &&
+          dragOverIndex === j &&
+          draggedIndex !== null &&
+          j > draggedIndex}
+        class:drag-over={reorderable &&
+          editMode &&
+          dragOverIndex === j &&
+          draggedIndex !== null &&
+          j === draggedIndex}
         data-dle-index={j}
         draggable={reorderable && editMode}
         on:dragstart={(e) => handleDragStart(e, j)}
@@ -325,8 +354,8 @@
                   if (reorderable && editMode) return
 
                   if (e.ctrlKey || e.metaKey) {
-                    handleCtrlClick(dle, j);
-                    return;
+                    handleCtrlClick(dle, j)
+                    return
                   }
 
                   const popupKey = `${section}-${dle.name}`
@@ -357,7 +386,15 @@
           {/if}
         </div>
         {#if $poppedUpDle === `${section}-${dle.name}` && !(reorderable && editMode)}
-          <DlePopUp {dle} {pageX} {pageY} {clientY} {handleClickOutside} {section} position={j} />
+          <DlePopUp
+            {dle}
+            {pageX}
+            {pageY}
+            {clientY}
+            {handleClickOutside}
+            {section}
+            position={j}
+          />
         {/if}
       </li>
     {/each}
@@ -368,7 +405,10 @@
   .dleContainer {
     @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
     /* Specific transitions to avoid flash during theme toggle */
-    transition: opacity 200ms ease, transform 200ms ease, border-color 200ms ease;
+    transition:
+      opacity 200ms ease,
+      transform 200ms ease,
+      border-color 200ms ease;
   }
 
   /* Prevent scrolling during drag operations */

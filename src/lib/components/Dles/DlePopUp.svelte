@@ -12,7 +12,11 @@
   const tracking = useTracking()
 
   function trackGameClick(dle, clickType) {
-    tracking.trackGameClick(dle, clickType, 'popup', section, position)
+    if (section === 'sponsors') {
+      tracking.trackSponsorClick(dle, clickType, position);
+    } else {
+      tracking.trackGameClick(dle, clickType, 'popup', section, position)
+    }
   }
 
   let width = 310
@@ -71,7 +75,7 @@
 
 <style lang="postcss">
   .dlePopUp {
-    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-lg shadow-sm shadow-colorTextSoftest;
+    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-lg shadow-sm shadow-colorTextSoftest z-50;
     transform: translate(-50%, -99%);
   }
 
