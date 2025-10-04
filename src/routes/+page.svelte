@@ -6,12 +6,12 @@
 
 <svelte:head>
   <title
-    >The Dles - Play 500+ Free Daily Games | Wordle, Connections & More</title
+    >The Dles - Discover 500+ Free Daily Games | Wordle, Connections & More</title
   >
 
   <meta
     name="description"
-    content="Play 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
+    content="Discover 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
   />
   <meta
     name="keywords"
@@ -28,7 +28,7 @@
   <meta property="og:locale" content="en_US" />
   <meta
     property="og:description"
-    content="Play 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
+    content="Discover 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
   />
   <meta property="og:image" content="https://dles.aukspot.com/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -38,7 +38,7 @@
   <meta name="twitter:title" content="The Dles - Play 500+ Free Daily Games" />
   <meta
     name="twitter:description"
-    content="Play 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
+    content="Discover 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
   />
   <link rel="canonical" href="https://dles.aukspot.com" />
   {@html `<script type="application/ld+json">
@@ -46,7 +46,7 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "The Dles - Free Daily Games Collection",
-  "description": "Play 500+ free games updated daily including Wordle, Connections, Bandle, and more",
+  "description": "Discover 500+ free games updated daily including Wordle, Connections, Bandle, and more",
   "url": "https://dles.aukspot.com"
 }
 </script>`}
