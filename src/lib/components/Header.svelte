@@ -24,7 +24,7 @@
       </p>
     </div>
     <p class="pt-1 pl-1 leading-none text-sm md:text-base">
-      Play <strong>{$dles.length}</strong> free daily games.
+      Discover <strong>{$dles.length}</strong> free daily games.
     </p>
   </div>
   <Toolbar />
