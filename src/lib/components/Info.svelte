@@ -2,7 +2,6 @@
   import { base } from "$app/paths"
   import { infoHidden } from "$lib/stores"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
-  import { slide } from "svelte/transition"
 
   function hideInfo() {
     $infoHidden = true
@@ -12,13 +11,20 @@
   }
 </script>
 
-<div id="info" class="m-auto max-w-[36rem] p-2" transition:slide>
+<div id="info" class="m-auto max-w-[36rem] p-2">
   <div class="text-center text-2xl md:text-3xl font-semibold font-mono">
     info
   </div>
 
   <div class="divider mt-2"></div>
-  <p class="question">What is a dle?</p>
+
+  <h2 class="question">What is this?</h2>
+  <p class="answer">
+    A curated collection of 500+ free games that are updated daily: puzzle
+    games, word games, trivia, logic games, and more! All games are completely
+    free and <em>do not require an account or subscription.</em>
+  </p>
+  <h2 class="question">What is a dle?</h2>
   <p class="answer">
     A <strong>dle</strong>, or <em>daily game</em>, is generally a game that
     changes everyday which has the same version for everyone that plays, often
@@ -27,17 +33,17 @@
       >Wor<strong>dle</strong></a
     >.
   </p>
-  <p class="question">What is this?</p>
+  <h2 class="question">Can I help?</h2>
   <p class="answer">
-    A collection of the best dles that I've come across. These games are free
-    and <em>do not require an account or subscription.</em>
-  </p>
-  <p class="question">Can I help?</p>
-  <p class="answer">
-    Sure! You can <a href="https://tally.so/r/mOKOea" target="_blank" on:click={hideInfo}>suggest a dle</a>
+    Sure! You can <a
+      href="https://tally.so/r/mOKOea"
+      target="_blank"
+      on:click={hideInfo}>suggest a dle</a
+    >
     or
-    <a href="https://tally.so/r/wQpPpY" target="_blank" on:click={hideInfo}>report a bug</a>. If you want to
-    support monetarily, you can
+    <a href="https://tally.so/r/wQpPpY" target="_blank" on:click={hideInfo}
+      >report a bug</a
+    >. If you want to support monetarily, you can
     <a href="https://ko-fi.com/aukspot" target="_blank">donate on Ko-fi</a>.
     Lastly, you can
     <a href="https://github.com/aukspot/dles" target="_blank"
@@ -59,7 +65,7 @@
     @apply text-center;
   }
   .question {
-    @apply mt-2 text-sm font-bold md:text-base;
+    @apply mt-2 text-sm font-bold md:text-base text-center;
   }
   .answer {
     @apply mt-1 text-xs md:text-sm leading-snug;

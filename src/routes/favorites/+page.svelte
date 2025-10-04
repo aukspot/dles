@@ -5,7 +5,7 @@
 
 <svelte:head>
   <title>Your favorite dles!</title>
-  <meta name="description" content="These are your favorite daily games." />
+  <meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
 <Banner />

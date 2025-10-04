@@ -129,9 +129,9 @@
     >
       <div>
         <Header />
-        {#if !loading && !$infoHidden}
+        <div class:hidden={loading || $infoHidden}>
           <Info />
-        {/if}
+        </div>
         <slot />
       </div>
       <LatestChange />
