@@ -2539,6 +2539,12 @@
     "id": 497
   },
   {
+    "name": "Rankle",
+    "url": "https://www.rankle.app",
+    "description": "Rank 6 things in 4 guesses. Every day is a different category.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Real Bird Fake Bird",
     "url": "https://realbirdfakebird.com",
     "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
