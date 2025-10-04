@@ -20,7 +20,7 @@
   <meta name="author" content="aukspot" />
   <meta
     property="og:title"
-    content="The Dles - Play 500+ Free Daily Games | Wordle, Connections & More"
+    content="The Dles - Discover 500+ Free Daily Games | Wordle, Connections & More"
   />
   <meta property="og:site_name" content="The Dles" />
   <meta property="og:url" content="https://dles.aukspot.com" />
@@ -35,7 +35,10 @@
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="https://dles.aukspot.com/og-image.jpg" />
-  <meta name="twitter:title" content="The Dles - Play 500+ Free Daily Games" />
+  <meta
+    name="twitter:title"
+    content="The Dles - Discover 500+ Free Daily Games"
+  />
   <meta
     name="twitter:description"
     content="Discover 500+ free games updated daily - Wordle, Connections, Bandle, and more. Your curated collection of daily puzzles, word games, trivia, and logic games."
