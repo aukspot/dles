@@ -10,28 +10,19 @@
 
   const partners = [
     {
-      id: 220,
-      name: "MapTap",
-      url: "https://maptap.gg",
-      description:
-        "Click as close as you can to the given world cities, 5 rounds per day.",
-      category: "Geography",
-    },
-    {
-      id: 308,
-      name: "Quintalist",
-      url: "https://www.quintalist.com?dles",
-      description: "Correctly choose the top 5 entries in 5 tries or fewer.",
-      category: "Trivia",
-      theme: "Guess the List",
-    },
-    {
       id: 468,
       name: "FlashPopTiles",
       url: "https://flashpoptiles.com",
       description:
         "Traverse the grid while changing either shape or color, never both!",
       category: "Shapes/Patterns",
+    },
+    {
+      id: 91,
+      name: "Decodex",
+      url: "https://playdecodex.com",
+      description: "A daily cryptography game. Decode a new quote every day!",
+      category: "Words",
     },
   ]
 
