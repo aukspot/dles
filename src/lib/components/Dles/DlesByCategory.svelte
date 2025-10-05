@@ -23,11 +23,13 @@
   import IconPlus from "../Icons/IconPlus.svelte"
   import IconSort from "../Icons/IconSort.svelte"
   import IconEdit from "../Icons/IconEdit.svelte"
+  import IconRandom from "../Icons/IconRandom.svelte"
   import DleGroup from "./DleGroup.svelte"
   import DleGrid from "./DleGrid.svelte"
   import SearchModal from "./SearchModal.svelte"
   import Sponsors from "../Sponsors.svelte"
-  import { enhancedSearch } from "$lib/js/utilities"
+  import { enhancedSearch, playRandom } from "$lib/js/utilities"
+  import { useTracking } from "$lib/composables/useTracking"
 
   let pageX = 0
   let pageY = 0
@@ -36,18 +38,35 @@
   let favoriteCardIndex = -1
   let showSearchModal = false
   let editMode = false
+
+  const tracking = useTracking()
+
+  function handlePlayRandomFavorite() {
+    const customTrackingData = {
+      click_type: "random-button-favorites",
+      source: "main-page",
+      section: "favorites",
+      available_options: $favorites.length,
+    }
+    playRandom($favorites, customTrackingData)
+  }
+
   function toggleFavoritesSort() {
-    const currentNames = $favorites.map(fav => fav.name.toLowerCase())
+    const currentNames = $favorites.map((fav) => fav.name.toLowerCase())
     const sortedAscending = [...currentNames].sort()
-    const isCurrentlyAscending = currentNames.every((name, index) => name === sortedAscending[index])
+    const isCurrentlyAscending = currentNames.every(
+      (name, index) => name === sortedAscending[index],
+    )
 
     const sortedFavorites = $favorites.sort((a, b) => {
-      const comparison = a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+      const comparison = a.name
+        .toLowerCase()
+        .localeCompare(b.name.toLowerCase())
       return isCurrentlyAscending ? -comparison : comparison
     })
 
-    $favoriteIds = sortedFavorites.map(fav => fav.id)
-    if (typeof localStorage !== 'undefined') {
+    $favoriteIds = sortedFavorites.map((fav) => fav.id)
+    if (typeof localStorage !== "undefined") {
       localStorage.favorites = JSON.stringify($favoriteIds)
     }
   }
@@ -81,7 +100,7 @@
   }
 
   function hasSponsorMatches() {
-    if (!$searchQuery || $searchQuery.trim() === '') return true
+    if (!$searchQuery || $searchQuery.trim() === "") return true
 
     // Same sponsors array as in Sponsors.svelte
     const partners = [
@@ -113,9 +132,9 @@
     // Add DLES of the Week
     if ($dlesOfTheWeek.length !== 0) {
       cards.push({
-        id: 'dlesOfTheWeek',
-        type: 'dlesOfTheWeek',
-        data: $dlesOfTheWeek
+        id: "dlesOfTheWeek",
+        type: "dlesOfTheWeek",
+        data: $dlesOfTheWeek,
       })
       currentIndex++
     }
@@ -123,46 +142,47 @@
     // Add Favorites (always present, even if empty)
     favoriteCardIndex = currentIndex
     cards.push({
-      id: 'favorites',
-      type: 'favorites',
-      data: $favorites
+      id: "favorites",
+      type: "favorites",
+      data: $favorites,
     })
     currentIndex++
 
     // Add category cards (except Miscellaneous)
     for (const category of $categories) {
-      if (category === 'Miscellaneous') continue // Skip Miscellaneous for now
+      if (category === "Miscellaneous") continue // Skip Miscellaneous for now
       const categoryDles = $categorizedDles[category] || []
       if (categoryDles.length !== 0) {
         cards.push({
           id: category,
-          type: 'category',
+          type: "category",
           data: categoryDles,
-          category
+          category,
         })
         currentIndex++
       }
     }
 
     // Add Sponsors (when not searching or when sponsors match search)
-    const shouldShowSponsors = !$searchQuery || $searchQuery.trim() === '' || hasSponsorMatches()
+    const shouldShowSponsors =
+      !$searchQuery || $searchQuery.trim() === "" || hasSponsorMatches()
     if (shouldShowSponsors) {
       cards.push({
-        id: 'sponsors',
-        type: 'sponsors',
-        data: null
+        id: "sponsors",
+        type: "sponsors",
+        data: null,
       })
       currentIndex++
     }
 
     // Add Miscellaneous category after sponsors
-    const miscellaneousDles = $categorizedDles['Miscellaneous'] || []
+    const miscellaneousDles = $categorizedDles["Miscellaneous"] || []
     if (miscellaneousDles.length !== 0) {
       cards.push({
-        id: 'Miscellaneous',
-        type: 'category',
+        id: "Miscellaneous",
+        type: "category",
         data: miscellaneousDles,
-        category: 'Miscellaneous'
+        category: "Miscellaneous",
       })
       currentIndex++
     }
@@ -183,8 +203,13 @@
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <Banner includeSearch={true} />
 <div class="w-full mx-auto">
-  <DleGrid cards={allCards} {favoriteCardIndex} cardsVersion={allCards.length} let:card>
-    {#if card.type === 'dlesOfTheWeek'}
+  <DleGrid
+    cards={allCards}
+    {favoriteCardIndex}
+    cardsVersion={allCards.length}
+    let:card
+  >
+    {#if card.type === "dlesOfTheWeek"}
       <div class="card">
         <div class="labelContainer rainbow-gradient">
           <div class="label">
@@ -202,7 +227,7 @@
           bind:clientY
         />
       </div>
-    {:else if card.type === 'favorites'}
+    {:else if card.type === "favorites"}
       <div class="card">
         <div
           class="labelContainer"
@@ -220,7 +245,9 @@
             {#if editMode}
               <span class="edit-mode-text">Drag to reorder!</span>
             {:else}
-              {card.data.length === 0 ? 'No favorites' : `${card.data.length} favorite${card.data.length !== 1 ? 's' : ''}`}
+              {card.data.length === 0
+                ? "No favorites"
+                : `${card.data.length} favorite${card.data.length !== 1 ? "s" : ""}`}
             {/if}
           </div>
           <div class="favorites-buttons">
@@ -233,6 +260,17 @@
                 <IconSort />
               </button>
             {:else}
+              {#if card.data.length > 0}
+                <button
+                  class="favorites-random-button"
+                  on:click={handlePlayRandomFavorite}
+                  title="Play random favorite"
+                >
+                  <div class="icon-container">
+                    <IconRandom />
+                  </div>
+                </button>
+              {/if}
               <button
                 class="favorites-add-button"
                 on:click={openSearchModal}
@@ -246,13 +284,14 @@
                 class="favorites-edit-button"
                 class:active={editMode}
                 on:click={toggleEditMode}
-                title={editMode ? "Click to finish rearranging" : "Rearrange favorites"}
+                title={editMode
+                  ? "Click to finish rearranging"
+                  : "Rearrange favorites"}
               >
                 {#if editMode}
                   <span class="edit-button-text p-1">Done</span>
                 {:else}
-                <IconEdit />
-
+                  <IconEdit />
                 {/if}
               </button>
             {/if}
@@ -270,9 +309,9 @@
           />
         {/if}
       </div>
-    {:else if card.type === 'sponsors'}
+    {:else if card.type === "sponsors"}
       <Sponsors />
-    {:else if card.type === 'category'}
+    {:else if card.type === "category"}
       <div class="card">
         <div
           class="labelContainer"
@@ -285,12 +324,7 @@
             {card.category}
           </div>
         </div>
-        <DleGroup
-          dleGroup={card.data}
-          bind:pageX
-          bind:pageY
-          bind:clientY
-        />
+        <DleGroup dleGroup={card.data} bind:pageX bind:pageY bind:clientY />
       </div>
     {/if}
   </DleGrid>
@@ -331,7 +365,6 @@
     );
   }
 
-
   .favorites-add-row {
     @apply flex items-center gap-1 justify-between p-1 pl-2 bg-colorCardC border-t border-colorTextSoftest;
   }
@@ -360,11 +393,33 @@
     @apply flex items-center justify-end gap-1;
   }
 
-  .favorites-add-button, .favorites-edit-button, .favorites-sort-button {
-    @apply p-1 bg-colorBackground hover:bg-gray-50 hover:border-colorTextSoft hover:shadow-md  active:scale-95 rounded-sm stroke-colorTextSoft transition-colors duration-75 border border-colorNeutralSoft shadow-md opacity-80;
+  .favorites-add-button,
+  .favorites-edit-button,
+  .favorites-sort-button,
+  .favorites-random-button {
+    @apply p-1 bg-colorBackground hover:bg-gray-50 hover:border-colorTextSoft hover:shadow-md  active:scale-95 rounded-sm  transition-colors duration-75 border border-colorNeutralSoft shadow-md opacity-80;
   }
 
-  :global(.dark) .favorites-add-button, :global(.dark) .favorites-edit-button, :global(.dark) .favorites-sort-button {
+  .favorites-add-button,
+  .favorites-edit-button,
+  .favorites-sort-button {
+    @apply stroke-colorTextSoft;
+  }
+
+  stroke-colorTextSoft .favorites-random-button .icon-container {
+    @apply w-6 h-6 flex items-center justify-center;
+  }
+
+  .favorites-random-button :global(svg) {
+    width: 24px;
+    height: 24px;
+    @apply fill-colorTextSofter;
+  }
+
+  :global(.dark) .favorites-add-button,
+  :global(.dark) .favorites-edit-button,
+  :global(.dark) .favorites-sort-button,
+  :global(.dark) .favorites-random-button {
     @apply hover:bg-zinc-800;
   }
 
@@ -379,5 +434,4 @@
   .edit-button-text {
     @apply text-xs font-bold;
   }
-
 </style>
