@@ -1,14 +1,18 @@
 <script>
   import IconNew from "./Icons/IconNew.svelte"
-  import { changelog, infoHidden, searchQuery } from "$lib/stores"
+  import { changelog, searchQuery } from "$lib/stores"
   import SearchBar from "./SearchBar.svelte"
+  import { getContext } from "svelte"
 
   export let includeSearch = false
 
+  const infoOpenStore = getContext("infoOpen")
+
+  $: buttonText = $infoOpenStore ? "Close info" : "Site info"
+
   function toggleInfo() {
-    $infoHidden = !$infoHidden
-    if (isLocalStorageAvailable()) {
-      localStorage.infoHidden = $infoHidden
+    if (infoOpenStore) {
+      infoOpenStore.update(v => !v)
     }
   }
 </script>
@@ -22,19 +26,11 @@
       {$changelog[0].date}</a
     >
   </div>
-  {#if $infoHidden}
-    <div class="flex justify-center set-width">
-      <button on:click={toggleInfo} aria-label="information" class="btn-info"
-        >What is this site?</button
-      >
-    </div>
-  {:else}
-    <div class="flex justify-center set-width">
-      <button on:click={toggleInfo} aria-label="information" class="btn-info"
-        >Hide info</button
-      >
-    </div>
-  {/if}
+  <div class="flex justify-center set-width">
+    <button on:click={toggleInfo} class="btn-info cursor-pointer">
+      {buttonText}
+    </button>
+  </div>
   <div class="set-width flex justify-end">
     {#if includeSearch}
       <SearchBar />

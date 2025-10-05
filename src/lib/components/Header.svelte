@@ -1,16 +1,8 @@
 <script>
   import { base } from "$app/paths"
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
-  import { dles, infoHidden } from "$lib/stores"
+  import { dles } from "$lib/stores"
   import IconInformation from "./Icons/IconInformation.svelte"
   import Toolbar from "./Toolbar.svelte"
-
-  function toggleInfo() {
-    $infoHidden = !$infoHidden
-    if (isLocalStorageAvailable()) {
-      localStorage.infoHidden = $infoHidden
-    }
-  }
 </script>
 
 <header class="flex justify-between items-center gap-3 px-2 py-2 relative">

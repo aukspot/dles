@@ -183,7 +183,7 @@
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <Banner includeSearch={true} />
 <div class="w-full mx-auto">
-  <DleGrid cards={allCards} {favoriteCardIndex} let:card>
+  <DleGrid cards={allCards} {favoriteCardIndex} cardsVersion={allCards.length} let:card>
     {#if card.type === 'dlesOfTheWeek'}
       <div class="card">
         <div class="labelContainer rainbow-gradient">

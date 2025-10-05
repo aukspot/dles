@@ -10,7 +10,6 @@ export let numColumns = writable(2)
 export let toolbarSelection = writable("")
 export let settings = writable({})
 export let randomCategories = writable([])
-export let infoHidden = writable(false)
 export let favoriteIds = writable([])
 export let favorites = derived(
   [favoriteIds, filteredDles],

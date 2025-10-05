@@ -15,13 +15,13 @@
     newDles,
     favoriteIds,
     filteredDles,
-    infoHidden,
     randomCategories,
     dlesOfTheWeek,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
-  import { onMount } from "svelte"
+  import { onMount, setContext } from "svelte"
+  import { writable } from "svelte/store"
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
   import {
@@ -114,11 +114,11 @@
   )
 
   let loading = true
+  const infoOpenStore = writable(false)
+  setContext("infoOpen", infoOpenStore)
+
   onMount(() => {
     loading = false
-    if (isLocalStorageAvailable()) {
-      $infoHidden = localStorage.infoHidden
-    }
   })
 </script>
 
@@ -129,8 +129,8 @@
     >
       <div>
         <Header />
-        <div class:hidden={loading || $infoHidden}>
-          <Info />
+        <div class:hidden={loading}>
+          <Info open={$infoOpenStore} />
         </div>
         <slot />
       </div>
