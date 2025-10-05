@@ -21,7 +21,7 @@
 
   function sortByCategory() {
     const sortedFavorites = $favorites.sort((a, b) => {
-      return a.category.toLowerCase() > b.category.toLowerCase()
+      return a.category.toLowerCase().localeCompare(b.category.toLowerCase())
     })
     $favoriteIds = sortedFavorites.map(fav => fav.id)
     localStorage.favorites = JSON.stringify($favoriteIds)
@@ -29,7 +29,7 @@
 
   function sortAlphabetically() {
     const sortedFavorites = $favorites.sort((a, b) => {
-      return a.name.toLowerCase() > b.name.toLowerCase()
+      return a.name.toLowerCase().localeCompare(b.name.toLowerCase())
     })
     $favoriteIds = sortedFavorites.map(fav => fav.id)
     localStorage.favorites = JSON.stringify($favoriteIds)
