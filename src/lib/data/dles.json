@@ -3475,10 +3475,46 @@
   },
   {
     "name": "Wordcell",
-    "url": "https://wordcell.gamebunny.app",
-    "description": "Find the hidden words on the board by throwing the ball, picking letters up along the way.",
+    "url": "https://gamebunny.app/wordcell",
+    "description": "Handcrafted and thematic puzzles. Launch the ball around the board to collect letters and compose the hidden words.",
     "category": "Words",
     "id": 435
+  },
+  {
+    "name": "Tiler",
+    "url": "https://gamebunny.app/tiler",
+    "description": "Assemble tiles with unique designs to recompose intertwined words. Play in English, or learn French words as well!",
+    "category": "Words"
+  },
+  {
+    "name": "Flagged",
+    "url": "https://gamebunny.app/flagged",
+    "description": "Guess the country from pieces of its flag, and collect every flag on your 3D globe. Daily handmade challenges.",
+    "category": "Geography"
+  },
+  {
+    "name": "GuessTheMovie.me",
+    "url": "https://guessthemovie.me",
+    "description": "Guess the movie based on its reviews on Letterboxd.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "CineLine",
+    "url": "https://www.playcineline.com",
+    "description": "A daily movie puzzle where you place films in chronological order.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Poople",
+    "url": "https://poople.io",
+    "description": "Get to 'POOP' in as few steps as possible!",
+    "category": "Words"
+  },
+  {
+    "name": "BopMatch",
+    "url": "https://bopmatch.com",
+    "description": "Match the target artist with one of the same popularity - the closer the match, the higher your score! 5 new rounds every day.",
+    "category": "Music"
   },
   {
     "name": "Wordcrux",
