@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "name": "BopMatch",
+    "url": "https://bopmatch.com"
+  },
+  {
+    "name": "CineLine",
+    "url": "https://www.playcineline.com"
+  },
+  {
+    "name": "Flagged",
+    "url": "https://gamebunny.app/flagged"
+  },
+  {
+    "name": "GuessTheMovie.me",
+    "url": "https://guessthemovie.me"
+  },
+  {
+    "name": "Poople",
+    "url": "https://poople.io"
+  },
+  {
+    "name": "Rankle",
+    "url": "https://www.rankle.app"
+  },
+  {
+    "name": "Tiler",
+    "url": "https://gamebunny.app/tiler"
+  }
+]

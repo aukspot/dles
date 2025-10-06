@@ -1,5 +1,20 @@
 # Changelog - The Dles
 
+## 2025-10-06
+
+Add 7 dles. 
+
+dles added: 
+|    | name                                         | url                                                            |
+|---:|:---------------------------------------------|:---------------------------------------------------------------|
+|  1 | [BopMatch](https://bopmatch.com)             | [https://bopmatch.com](https://bopmatch.com)                   |
+|  2 | [CineLine](https://www.playcineline.com)     | [https://www.playcineline.com](https://www.playcineline.com)   |
+|  3 | [Flagged](https://gamebunny.app/flagged)     | [https://gamebunny.app/flagged](https://gamebunny.app/flagged) |
+|  4 | [GuessTheMovie.me](https://guessthemovie.me) | [https://guessthemovie.me](https://guessthemovie.me)           |
+|  5 | [Poople](https://poople.io)                  | [https://poople.io](https://poople.io)                         |
+|  6 | [Rankle](https://www.rankle.app)             | [https://www.rankle.app](https://www.rankle.app)               |
+|  7 | [Tiler](https://gamebunny.app/tiler)         | [https://gamebunny.app/tiler](https://gamebunny.app/tiler)     |
+
 ## 2025-09-21
 
 Remove 1 dle.<br>Update Circuits, which is now part of Puzzmo.
