@@ -1048,16 +1048,9 @@
     "id": 470
   },
   {
-    "name": "Framedle.com Ability",
-    "url": "https://framedle.com/ability",
-    "description": "Use your Warframe knowledge to figure out the mystery Warframe in as few guesses as possible.",
-    "category": "Video Games",
-    "theme": "Warframe"
-  },
-  {
-    "name": "Framedle.com Classic",
-    "url": "https://framedle.com/classic",
-    "description": "Guess which Warframe has this ability.",
+    "name": "Framedle.com",
+    "url": "https://framedle.com",
+    "description": "A collection of daily games related to Warframe.",
     "category": "Video Games",
     "theme": "Warframe"
   },
