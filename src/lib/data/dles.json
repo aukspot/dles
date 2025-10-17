@@ -1,5 +1,41 @@
 [
   {
+    "name": "Cropple",
+    "url": "https://cropple.app",
+    "description": "Guess the thing based on a cropped image, you can zoom out or ask for letters.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Coindle",
+    "url": "https://muhashi.com/coindle/",
+    "description": "Get as many coin flips correct in a row as you can. Only one attempt per day.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Crosslink",
+    "url": "https://romainpastureau.github.io/crosslink/",
+    "description": "Guess the two words crossed together that are related in some way.",
+    "category": "Words"
+  },
+  {
+    "name": "Wordgy",
+    "url": "https://wordgy.com",
+    "description": "Guess all five missing words by forming two-word phrases or compound words with the word below each tile.",
+    "category": "Words"
+  },
+  {
+    "name": "Gisnep",
+    "url": "https://gisnep.com",
+    "description": "Solve the daily quote with the letters above each column.",
+    "category": "Words"
+  },
+  {
+    "name": "Wantedle",
+    "url": "https://wantedle.com",
+    "description": "Find the 'WANTED' character among all of the moving characters on the screen.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -2834,7 +2870,7 @@
   {
     "name": "Sortwise",
     "url": "https://sortwise.fun",
-    "description": "Drag to sort times of events and counts of things in a row",
+    "description": "Drag to sort the events in chronological order.",
     "category": "History",
     "id": 500
   },
