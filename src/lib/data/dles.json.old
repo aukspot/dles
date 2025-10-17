@@ -1048,6 +1048,14 @@
     "id": 470
   },
   {
+    "name": "Framedle.com",
+    "url": "https://framedle.com",
+    "description": "A collection of daily games related to Warframe.",
+    "category": "Video Games",
+    "theme": "Warframe",
+    "id": 523
+  },
+  {
     "name": "Fusele",
     "url": "https://fusele.netlify.app/?daily",
     "description": "A Wordle variant in which each row has a unique twist.",
@@ -1123,7 +1131,7 @@
   {
     "name": "GeoConnections",
     "url": "https://geoconnections.net",
-    "description": "Group mostly geography-related pictures that share a common theme.",
+    "description": "Group geography-related squares that share a common theme.",
     "category": "Geography",
     "id": 138
   },

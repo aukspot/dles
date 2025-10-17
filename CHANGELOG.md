@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-10-17
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                 | url                                          |
+|---:|:-------------------------------------|:---------------------------------------------|
+|  1 | [Framedle.com](https://framedle.com) | [https://framedle.com](https://framedle.com) |
+
 ## 2025-10-06
 
 Add 7 dles. 

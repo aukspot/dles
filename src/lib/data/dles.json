@@ -1052,7 +1052,8 @@
     "url": "https://framedle.com",
     "description": "A collection of daily games related to Warframe.",
     "category": "Video Games",
-    "theme": "Warframe"
+    "theme": "Warframe",
+    "id": 523
   },
   {
     "name": "Fusele",
