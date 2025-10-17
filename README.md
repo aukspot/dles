@@ -4,11 +4,11 @@
 
 The dles is a curated collection of 500+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
 
-View the app [here](https://aukspot.github.io/dles/) or view the list in a markdown table at the [bottom of this README](https://github.com/aukspot/dles/tree/main?tab=readme-ov-file#current-list-of-dles).
+View the app [here](https://dles.aukspot.com) or view the list in a markdown table at the [bottom of this README](https://github.com/aukspot/dles/tree/main?tab=readme-ov-file#current-list-of-dles).
 
 ## Contributing
 
-The easiest way to help the project is to suggest new dles by either filling out [this form](https://aukspot.github.io/dles/suggest) or [opening a "dle suggestion" issue](https://github.com/aukspot/dles/issues/new?assignees=&labels=dles+suggestion&projects=&template=suggest-a-dle-.md&title=Dle+suggestion).
+The easiest way to help the project is to suggest new dles by either filling out [this form](https://tally.so/r/mOKOea) or [opening a "dle suggestion" issue](https://github.com/aukspot/dles/issues/new?assignees=&labels=dles+suggestion&projects=&template=suggest-a-dle-.md&title=Dle+suggestion).
 
 If you'd like to make changes directly, you can edit [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) and do one of three things:
 
@@ -22,8 +22,9 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 ### Current
 
-- A list of over 400 curated dles.
-- Ten categories to help with organization.
+- A list of over 500 curated dles.
+- 17 categories to help with organization.
+- Users can select their favorite dles for quick access.
 - Randomly choose and open a dle from selected categories.
 
 ### Planned
