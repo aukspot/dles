@@ -8,12 +8,28 @@
     "url": "https://www.playcineline.com"
   },
   {
+    "name": "Coindle",
+    "url": "https://muhashi.com/coindle/"
+  },
+  {
+    "name": "Cropple",
+    "url": "https://cropple.app"
+  },
+  {
+    "name": "Crosslink",
+    "url": "https://romainpastureau.github.io/crosslink/"
+  },
+  {
     "name": "Flagged",
     "url": "https://gamebunny.app/flagged"
   },
   {
     "name": "Framedle.com",
     "url": "https://framedle.com"
+  },
+  {
+    "name": "Gisnep",
+    "url": "https://gisnep.com"
   },
   {
     "name": "GuessTheMovie.me",
@@ -30,5 +46,13 @@
   {
     "name": "Tiler",
     "url": "https://gamebunny.app/tiler"
+  },
+  {
+    "name": "Wantedle",
+    "url": "https://wantedle.com"
+  },
+  {
+    "name": "Wordgy",
+    "url": "https://wordgy.com"
   }
 ]

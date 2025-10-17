@@ -2,12 +2,18 @@
 
 ## 2025-10-17
 
-Add 1 dle. 
+Add 7 dles. 
 
 dles added: 
-|    | name                                 | url                                          |
-|---:|:-------------------------------------|:---------------------------------------------|
-|  1 | [Framedle.com](https://framedle.com) | [https://framedle.com](https://framedle.com) |
+|    | name                                                      | url                                                                                          |
+|---:|:----------------------------------------------------------|:---------------------------------------------------------------------------------------------|
+|  1 | [Framedle.com](https://framedle.com)                      | [https://framedle.com](https://framedle.com)                                                 |
+|  2 | [Coindle](https://muhashi.com/coindle/)                   | [https://muhashi.com/coindle/](https://muhashi.com/coindle/)                                 |
+|  3 | [Cropple](https://cropple.app)                            | [https://cropple.app](https://cropple.app)                                                   |
+|  4 | [Crosslink](https://romainpastureau.github.io/crosslink/) | [https://romainpastureau.github.io/crosslink/](https://romainpastureau.github.io/crosslink/) |
+|  5 | [Gisnep](https://gisnep.com)                              | [https://gisnep.com](https://gisnep.com)                                                     |
+|  6 | [Wantedle](https://wantedle.com)                          | [https://wantedle.com](https://wantedle.com)                                                 |
+|  7 | [Wordgy](https://wordgy.com)                              | [https://wordgy.com](https://wordgy.com)                                                     |
 
 ## 2025-10-06
 

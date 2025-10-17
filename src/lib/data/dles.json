@@ -1,41 +1,5 @@
 [
   {
-    "name": "Cropple",
-    "url": "https://cropple.app",
-    "description": "Guess the thing based on a cropped image, you can zoom out or ask for letters.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Coindle",
-    "url": "https://muhashi.com/coindle/",
-    "description": "Get as many coin flips correct in a row as you can. Only one attempt per day.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Crosslink",
-    "url": "https://romainpastureau.github.io/crosslink/",
-    "description": "Guess the two words crossed together that are related in some way.",
-    "category": "Words"
-  },
-  {
-    "name": "Wordgy",
-    "url": "https://wordgy.com",
-    "description": "Guess all five missing words by forming two-word phrases or compound words with the word below each tile.",
-    "category": "Words"
-  },
-  {
-    "name": "Gisnep",
-    "url": "https://gisnep.com",
-    "description": "Solve the daily quote with the letters above each column.",
-    "category": "Words"
-  },
-  {
-    "name": "Wantedle",
-    "url": "https://wantedle.com",
-    "description": "Find the 'WANTED' character among all of the moving characters on the screen.",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -490,6 +454,13 @@
     "id": 57
   },
   {
+    "name": "Coindle",
+    "url": "https://muhashi.com/coindle/",
+    "description": "Get as many coin flips correct in a row as you can. Only one attempt per day.",
+    "category": "Miscellaneous",
+    "id": 524
+  },
+  {
     "name": "Collections",
     "url": "https://puzzmallow.com/collections",
     "description": "Guess the category of the three hidden words by revealing one letter at a time.",
@@ -598,12 +569,26 @@
     "id": 72
   },
   {
+    "name": "Cropple",
+    "url": "https://cropple.app",
+    "description": "Guess the thing based on a cropped image, you can zoom out or ask for letters.",
+    "category": "Miscellaneous",
+    "id": 525
+  },
+  {
     "name": "Crossherd",
     "url": "https://crossherd.clevergoat.com",
     "description": "A daily mini crossword from Clever Goat.",
     "category": "Words",
     "theme": "Crosswords",
     "id": 73
+  },
+  {
+    "name": "Crosslink",
+    "url": "https://romainpastureau.github.io/crosslink/",
+    "description": "Guess the two words crossed together that are related in some way.",
+    "category": "Words",
+    "id": 526
   },
   {
     "name": "Crosstune",
@@ -1184,6 +1169,13 @@
     "description": "Fill in the grid with countries that match each cell's corresponding row and column categories.",
     "category": "Geography",
     "id": 140
+  },
+  {
+    "name": "Gisnep",
+    "url": "https://gisnep.com",
+    "description": "Solve the daily quote with the letters above each column.",
+    "category": "Words",
+    "id": 527
   },
   {
     "name": "Globle",
@@ -3397,6 +3389,13 @@
     "id": 413
   },
   {
+    "name": "Wantedle",
+    "url": "https://wantedle.com",
+    "description": "Find the 'WANTED' character among all of the moving characters on the screen.",
+    "category": "Miscellaneous",
+    "id": 528
+  },
+  {
     "name": "Wardle",
     "url": "https://wardlegame.com/",
     "description": "A collection of daily games related to War Thunder",
@@ -3580,6 +3579,13 @@
     "description": "Find as many 4+ letter words using today's letters.",
     "category": "Words",
     "id": 437
+  },
+  {
+    "name": "Wordgy",
+    "url": "https://wordgy.com",
+    "description": "Guess all five missing words by forming two-word phrases or compound words with the word below each tile.",
+    "category": "Words",
+    "id": 529
   },
   {
     "name": "Wordiply",
