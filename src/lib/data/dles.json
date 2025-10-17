@@ -1048,6 +1048,13 @@
     "id": 470
   },
   {
+    "name": "Framedle.com",
+    "url": "https://framedle.com",
+    "description": "A collection of daily games related to Warframe.",
+    "category": "Video Games",
+    "theme": "Warframe"
+  },
+  {
     "name": "Fusele",
     "url": "https://fusele.netlify.app/?daily",
     "description": "A Wordle variant in which each row has a unique twist.",
