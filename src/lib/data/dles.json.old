@@ -288,13 +288,6 @@
     "id": 34
   },
   {
-    "name": "Capitale",
-    "url": "https://capitale.countryle.com",
-    "description": "Guess the world capital in as few attempts as possible with the given clues.",
-    "category": "Geography",
-    "id": 35
-  },
-  {
     "name": "Cardle",
     "url": "https://cardle.boxbox.autos",
     "description": "Correctly identify the pictured car's make, model, and year.",
@@ -2082,13 +2075,6 @@
     "id": 246
   },
   {
-    "name": "Musicdoku",
-    "url": "https://musicdoku.com",
-    "description": "Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.",
-    "category": "Music",
-    "id": 247
-  },
-  {
     "name": "Musicle",
     "url": "https://musicle.app",
     "description": "Match the song audio to the correct album art. Lots of categories.",
@@ -3372,13 +3358,6 @@
     "description": "Place a chain of tiles on the board and reach the opponent's base before they reach yours.",
     "category": "Words",
     "id": 402
-  },
-  {
-    "name": "Twofer Goofer",
-    "url": "https://twofergoofer.com",
-    "description": "Guess the pair of rhyming words that form the given nonsensical phrase.",
-    "category": "Words",
-    "id": 403
   },
   {
     "name": "Unolingo",

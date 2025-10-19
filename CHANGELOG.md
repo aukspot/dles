@@ -2,7 +2,7 @@
 
 ## 2025-10-19
 
-Add 9 dles. 
+Add 9 dles. Remove 3 dles. 
 
 dles added: 
 |    | name                                                                  | url                                                                                                            |
@@ -17,6 +17,12 @@ dles added:
 |  8 | [sqnces](https://sqnces.com)                                          | [https://sqnces.com](https://sqnces.com)                                                                       |
 |  9 | [Timingle](https://timingle.com)                                      | [https://timingle.com](https://timingle.com)                                                                   |
 
+dles removed: 
+|    | name                                       | url                                                              |
+|---:|:-------------------------------------------|:-----------------------------------------------------------------|
+|  1 | [Capitale](https://capitale.countryle.com) | [https://capitale.countryle.com](https://capitale.countryle.com) |
+|  2 | [Musicdoku](https://musicdoku.com)         | [https://musicdoku.com](https://musicdoku.com)                   |
+|  3 | [Twofer Goofer](https://twofergoofer.com)  | [https://twofergoofer.com](https://twofergoofer.com)             |
 ## 2025-10-17
 
 Add 7 dles. 

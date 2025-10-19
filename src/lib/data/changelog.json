@@ -39,7 +39,21 @@
         "url": "https://timingle.com"
       }
     ],
-    "description": "Add 9 dles. "
+    "description": "Add 9 dles. Remove 3 dles. ",
+    "dles removed": [
+      {
+        "name": "Capitale",
+        "url": "https://capitale.countryle.com"
+      },
+      {
+        "name": "Musicdoku",
+        "url": "https://musicdoku.com"
+      },
+      {
+        "name": "Twofer Goofer",
+        "url": "https://twofergoofer.com"
+      }
+    ]
   },
   {
     "date": "2025-10-17",
