@@ -1,5 +1,59 @@
 [
   {
+    "name": "Geonections",
+    "url": "https://geonections.com",
+    "description": "Connections but you group countries based on StreetView images.",
+    "category": "Geography"
+  },
+  {
+    "name": "Minigolfle",
+    "url": "https://minigolfle.com",
+    "description": "2D retro minigolf game with 3 randomly generated levels each day.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "riddl.ing",
+    "url": "https://riddl.ing",
+    "description": "Guess the answer to the handmade daily riddle in five clues.",
+    "category": "Trivia"
+  },
+  {
+    "name": "Timingle",
+    "url": "https://timingle.com",
+    "description": "Try to time when the countdown reaches 0. Each day the beat is different.",
+    "category": "Estimation"
+  },
+  {
+    "name": "Jumble Daily",
+    "url": "https://fun.chicagotribune.com/game/tca-jumble-daily/",
+    "description": "Unscramble each word to reveal letters to be used in the punchline of a punny cartoon.",
+    "category": "Words"
+  },
+  {
+    "name": "Mineswifter",
+    "url": "https://mineswifter.com",
+    "description": "Solvable Minesweeper puzzles with daily challenges.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Jingle.rs",
+    "url": "https://jingle.rs",
+    "description": "Place the OldSchool RuneScape song on the in-game map to where you would hear it, 5 rounds daily.",
+    "category": "Video Games"
+  },
+  {
+    "name": "sqnces",
+    "url": "https://sqnces.com",
+    "description": "Find the secret word that contains the given 3-letter sequence. Three words everyday (6, 7, & 8-letter words).",
+    "category": "Words"
+  },
+  {
+    "name": "7 Little Words",
+    "url": "https://7littlewords.com/7lw",
+    "description": "Combine tiles to create words matching the clues, 5 rounds everyday",
+    "category": "Words"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -2393,8 +2447,8 @@
   },
   {
     "name": "Pokegrid",
-    "url": "https://www.pokegrid.net/",
-    "description": "quess the combination of attributes of pokemon in a grid",
+    "url": "https://www.pokegrid.net",
+    "description": "Guess the combination of attributes of pokemon in a grid.",
     "category": "Video Games",
     "theme": "Pokemon",
     "id": 493
