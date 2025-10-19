@@ -1,5 +1,22 @@
 # Changelog - The Dles
 
+## 2025-10-19
+
+Add 9 dles. 
+
+dles added: 
+|    | name                                                                  | url                                                                                                            |
+|---:|:----------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+|  1 | [7 Little Words](https://7littlewords.com/7lw)                        | [https://7littlewords.com/7lw](https://7littlewords.com/7lw)                                                   |
+|  2 | [Geonections](https://geonections.com)                                | [https://geonections.com](https://geonections.com)                                                             |
+|  3 | [Jingle.rs](https://jingle.rs)                                        | [https://jingle.rs](https://jingle.rs)                                                                         |
+|  4 | [Jumble Daily](https://fun.chicagotribune.com/game/tca-jumble-daily/) | [https://fun.chicagotribune.com/game/tca-jumble-daily/](https://fun.chicagotribune.com/game/tca-jumble-daily/) |
+|  5 | [Mineswifter](https://mineswifter.com)                                | [https://mineswifter.com](https://mineswifter.com)                                                             |
+|  6 | [Minigolfle](https://minigolfle.com)                                  | [https://minigolfle.com](https://minigolfle.com)                                                               |
+|  7 | [riddl.ing](https://riddl.ing)                                        | [https://riddl.ing](https://riddl.ing)                                                                         |
+|  8 | [sqnces](https://sqnces.com)                                          | [https://sqnces.com](https://sqnces.com)                                                                       |
+|  9 | [Timingle](https://timingle.com)                                      | [https://timingle.com](https://timingle.com)                                                                   |
+
 ## 2025-10-17
 
 Add 7 dles. 

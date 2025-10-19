@@ -1,64 +1,17 @@
 [
   {
-    "name": "Geonections",
-    "url": "https://geonections.com",
-    "description": "Connections but you group countries based on StreetView images.",
-    "category": "Geography"
-  },
-  {
-    "name": "Minigolfle",
-    "url": "https://minigolfle.com",
-    "description": "2D retro minigolf game with 3 randomly generated levels each day.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "riddl.ing",
-    "url": "https://riddl.ing",
-    "description": "Guess the answer to the handmade daily riddle in five clues.",
-    "category": "Trivia"
-  },
-  {
-    "name": "Timingle",
-    "url": "https://timingle.com",
-    "description": "Try to time when the countdown reaches 0. Each day the beat is different.",
-    "category": "Estimation"
-  },
-  {
-    "name": "Jumble Daily",
-    "url": "https://fun.chicagotribune.com/game/tca-jumble-daily/",
-    "description": "Unscramble each word to reveal letters to be used in the punchline of a punny cartoon.",
-    "category": "Words"
-  },
-  {
-    "name": "Mineswifter",
-    "url": "https://mineswifter.com",
-    "description": "Solvable Minesweeper puzzles with daily challenges.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Jingle.rs",
-    "url": "https://jingle.rs",
-    "description": "Place the OldSchool RuneScape song on the in-game map to where you would hear it, 5 rounds daily.",
-    "category": "Video Games"
-  },
-  {
-    "name": "sqnces",
-    "url": "https://sqnces.com",
-    "description": "Find the secret word that contains the given 3-letter sequence. Three words everyday (6, 7, & 8-letter words).",
-    "category": "Words"
-  },
-  {
-    "name": "7 Little Words",
-    "url": "https://7littlewords.com/7lw",
-    "description": "Combine tiles to create words matching the clues, 5 rounds everyday",
-    "category": "Words"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
     "category": "Words",
     "id": 1
+  },
+  {
+    "name": "7 Little Words",
+    "url": "https://7littlewords.com/7lw",
+    "description": "Combine tiles to create words matching the clues, 5 rounds everyday",
+    "category": "Words",
+    "id": 530
   },
   {
     "name": "Absurdle",
@@ -1225,6 +1178,13 @@
     "id": 140
   },
   {
+    "name": "Geonections",
+    "url": "https://geonections.com",
+    "description": "Connections but you group countries based on StreetView images.",
+    "category": "Geography",
+    "id": 531
+  },
+  {
     "name": "Gisnep",
     "url": "https://gisnep.com",
     "description": "Solve the daily quote with the letters above each column.",
@@ -1573,6 +1533,20 @@
     "description": "Solve the jigsaw puzzles, two new puzzles everyday.",
     "category": "Shapes/Patterns",
     "id": 184
+  },
+  {
+    "name": "Jingle.rs",
+    "url": "https://jingle.rs",
+    "description": "Place the OldSchool RuneScape song on the in-game map to where you would hear it, 5 rounds daily.",
+    "category": "Video Games",
+    "id": 532
+  },
+  {
+    "name": "Jumble Daily",
+    "url": "https://fun.chicagotribune.com/game/tca-jumble-daily/",
+    "description": "Unscramble each word to reveal letters to be used in the punchline of a punny cartoon.",
+    "category": "Words",
+    "id": 533
   },
   {
     "name": "Jumblie",
@@ -1967,11 +1941,25 @@
     "id": 228
   },
   {
+    "name": "Mineswifter",
+    "url": "https://mineswifter.com",
+    "description": "Solvable Minesweeper puzzles with daily challenges.",
+    "category": "Math/Logic",
+    "id": 534
+  },
+  {
     "name": "Mini Crossword (The Observer)",
     "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
     "description": "A daily mini crossword from The Observer.",
     "category": "Words",
     "id": 229
+  },
+  {
+    "name": "Minigolfle",
+    "url": "https://minigolfle.com",
+    "description": "2D retro minigolf game with 3 randomly generated levels each day.",
+    "category": "Miscellaneous",
+    "id": 535
   },
   {
     "name": "Minute Cryptic",
@@ -2755,6 +2743,13 @@
     "id": 325
   },
   {
+    "name": "riddl.ing",
+    "url": "https://riddl.ing",
+    "description": "Guess the answer to the handmade daily riddle in five clues.",
+    "category": "Trivia",
+    "id": 536
+  },
+  {
     "name": "Rivadle",
     "url": "https://rivadle.net",
     "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
@@ -2983,6 +2978,13 @@
     "description": "Guess the music artist in 10 tries, gaining new information based on each guess.",
     "category": "Music",
     "id": 356
+  },
+  {
+    "name": "sqnces",
+    "url": "https://sqnces.com",
+    "description": "Find the secret word that contains the given 3-letter sequence. Three words everyday (6, 7, & 8-letter words).",
+    "category": "Words",
+    "id": 537
   },
   {
     "name": "Squardle",
@@ -3299,6 +3301,13 @@
     "description": "Arrange the historical events in the order they happened.",
     "category": "History",
     "id": 395
+  },
+  {
+    "name": "Timingle",
+    "url": "https://timingle.com",
+    "description": "Try to time when the countdown reaches 0. Each day the beat is different.",
+    "category": "Estimation",
+    "id": 538
   },
   {
     "name": "Toddle",

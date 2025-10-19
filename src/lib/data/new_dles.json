@@ -1,5 +1,9 @@
 [
   {
+    "name": "7 Little Words",
+    "url": "https://7littlewords.com/7lw"
+  },
+  {
     "name": "BopMatch",
     "url": "https://bopmatch.com"
   },
@@ -28,12 +32,32 @@
     "url": "https://framedle.com"
   },
   {
+    "name": "Geonections",
+    "url": "https://geonections.com"
+  },
+  {
     "name": "Gisnep",
     "url": "https://gisnep.com"
   },
   {
     "name": "GuessTheMovie.me",
     "url": "https://guessthemovie.me"
+  },
+  {
+    "name": "Jingle.rs",
+    "url": "https://jingle.rs"
+  },
+  {
+    "name": "Jumble Daily",
+    "url": "https://fun.chicagotribune.com/game/tca-jumble-daily/"
+  },
+  {
+    "name": "Mineswifter",
+    "url": "https://mineswifter.com"
+  },
+  {
+    "name": "Minigolfle",
+    "url": "https://minigolfle.com"
   },
   {
     "name": "Poople",
@@ -44,8 +68,20 @@
     "url": "https://www.rankle.app"
   },
   {
+    "name": "riddl.ing",
+    "url": "https://riddl.ing"
+  },
+  {
+    "name": "sqnces",
+    "url": "https://sqnces.com"
+  },
+  {
     "name": "Tiler",
     "url": "https://gamebunny.app/tiler"
+  },
+  {
+    "name": "Timingle",
+    "url": "https://timingle.com"
   },
   {
     "name": "Wantedle",
