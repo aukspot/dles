@@ -9,21 +9,6 @@
   let clientY = 0
 
   const partners = [
-    {
-      id: 468,
-      name: "FlashPopTiles",
-      url: "https://flashpoptiles.com",
-      description:
-        "Traverse the grid while changing either shape or color, never both!",
-      category: "Shapes/Patterns",
-    },
-    {
-      id: 91,
-      name: "Decodex",
-      url: "https://playdecodex.com",
-      description: "A daily cryptography game. Decode a new quote every day!",
-      category: "Words",
-    },
   ]
 
   $: filteredPartners = enhancedSearch(partners, $searchQuery)
