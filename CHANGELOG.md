@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-10-27
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                         | url                                                              |
+|---:|:---------------------------------------------|:-----------------------------------------------------------------|
+|  1 | [Pandergram](https://onelook.com/pandergram) | [https://onelook.com/pandergram](https://onelook.com/pandergram) |
 ## 2025-10-19
 
 Add 9 dles. Remove 3 dles. 
