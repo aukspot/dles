@@ -2245,7 +2245,7 @@
   },
   {
     "name": "One Word Search",
-    "url": "https://onewordsearch.com",
+    "url": "https://puzzlist.com/onewordsearch/",
     "description": "Repeatedly search for the only word in a grid of letters.",
     "category": "Words",
     "id": 270
@@ -2596,7 +2596,7 @@
   },
   {
     "name": "Quordle",
-    "url": "https://quordlegame.com",
+    "url": "https://quordly.org",
     "description": "Solve 4 Wordle puzzles at the same time.",
     "category": "Words",
     "id": 312
