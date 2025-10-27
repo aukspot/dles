@@ -20,6 +20,12 @@
     }
 
     if (isLocalStorageAvailable()) {
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        localStorage.setItem('umami.disabled', '1');
+      } else {
+        localStorage.removeItem('umami.disabled');
+      }
+
       (function () {
         const theme = localStorage.getItem('theme');
         if (
