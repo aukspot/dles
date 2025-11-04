@@ -9,6 +9,14 @@
   let clientY = 0
 
   const partners = [
+    {
+      id: 202,
+      name: "Lexicle",
+      url: "https://lexicle.com",
+      description:
+        "You have 8 guesses to find the secret word based on its meaning.",
+      category: "Words",
+    },
   ]
 
   $: filteredPartners = enhancedSearch(partners, $searchQuery)
