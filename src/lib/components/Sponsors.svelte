@@ -14,7 +14,7 @@
       name: "Lexicle",
       url: "https://lexicle.com",
       description:
-        "You have 8 guesses to find the secret word based on its meaning.",
+        "Guess the secret word based on its meaning before running out of tries.",
       category: "Words",
     },
   ]
