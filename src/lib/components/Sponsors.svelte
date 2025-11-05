@@ -13,8 +13,7 @@
       id: 202,
       name: "Lexicle",
       url: "https://lexicle.com",
-      description:
-        "Guess the secret word based on its meaning before running out of tries.",
+      description: "Guess the secret word based on its meaning.",
       category: "Words",
     },
   ]
