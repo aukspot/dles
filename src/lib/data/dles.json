@@ -117,8 +117,8 @@
   },
   {
     "name": "Avatardle",
-    "url": "https://avatardle.com/home",
-    "description": "A daily guessing game based on the cartoon show Avatar: The Last Airbender with 3 modes.",
+    "url": "https://avatardle.com",
+    "description": "A daily guessing game based on the show Avatar: The Last Airbender.",
     "category": "Movies/TV",
     "theme": "Avatar: The Last Airbender",
     "id": 459
