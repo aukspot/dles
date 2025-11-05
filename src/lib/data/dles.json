@@ -3679,6 +3679,12 @@
     "id": 512
   },
   {
+    "name": "Waffle UK",
+    "url": "https://wafflegame.uk/",
+    "description": "Swap letters to form words across rows and columns in a waffle-style grid, with UK English spellings and phonetic cues tailored for en-GB players.",
+    "category": "Words"
+  },
+  {
     "name": "Worldle",
     "url": "https://worldle.teuteuf.fr",
     "description": "Guess the country by its shape on the world map.",
