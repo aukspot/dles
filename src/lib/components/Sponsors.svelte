@@ -16,6 +16,21 @@
       description: "Guess the secret word based on its meaning.",
       category: "Words",
     },
+    {
+      id: 400,
+      name: "travle",
+      url: "https://travle.earth",
+      description:
+        "Connect the starting country to the ending country by naming countries in between them.",
+      category: "Geography",
+    },
+    {
+      id: 417,
+      name: "WhenTaken Movies",
+      url: "https://movies.whentaken.com",
+      description: "Guess where and when the given movie scene was filmed.",
+      category: "Geography",
+    },
   ]
 
   $: filteredPartners = enhancedSearch(partners, $searchQuery)
