@@ -1,5 +1,27 @@
 [
   {
+    "date": "2025-11-11",
+    "dles removed": [
+      {
+        "name": "Etyle",
+        "url": "https://www.etyle.app"
+      },
+      {
+        "name": "Letterset",
+        "url": "https://www.letterset.net/daily"
+      },
+      {
+        "name": "Rolldle",
+        "url": "https://www.light.gg/rolldle/"
+      },
+      {
+        "name": "Unshuffle",
+        "url": "https://www.unshuffle.me"
+      }
+    ],
+    "description": "Remove 4 dles. "
+  },
+  {
     "date": "2025-10-27",
     "dles removed": [
       {

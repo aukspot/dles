@@ -1,5 +1,17 @@
 # Changelog - The Dles
 
+## 2025-11-11
+
+Remove 4 dles. 
+
+
+dles removed: 
+|    | name                                         | url                                                                |
+|---:|:---------------------------------------------|:-------------------------------------------------------------------|
+|  1 | [Etyle](https://www.etyle.app)               | [https://www.etyle.app](https://www.etyle.app)                     |
+|  2 | [Letterset](https://www.letterset.net/daily) | [https://www.letterset.net/daily](https://www.letterset.net/daily) |
+|  3 | [Rolldle](https://www.light.gg/rolldle/)     | [https://www.light.gg/rolldle/](https://www.light.gg/rolldle/)     |
+|  4 | [Unshuffle](https://www.unshuffle.me)        | [https://www.unshuffle.me](https://www.unshuffle.me)               |
 ## 2025-10-27
 
 Remove 1 dle. 
