@@ -904,13 +904,6 @@
     "id": 112
   },
   {
-    "name": "Etyle",
-    "url": "https://www.etyle.app",
-    "description": "Guess the root words of the daily word. A game about Etymology.",
-    "category": "Words",
-    "id": 466
-  },
-  {
     "name": "Face Guessr",
     "url": "https://www.faceguesser.com",
     "description": "Guess the pixelated face of today's notable figure.",
@@ -1664,13 +1657,6 @@
     "description": "Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.",
     "category": "Words",
     "id": 194
-  },
-  {
-    "name": "Letterset",
-    "url": "https://www.letterset.net/daily",
-    "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
-    "category": "Words",
-    "id": 195
   },
   {
     "name": "Lex.Games - By A Vowel",
@@ -2744,14 +2730,6 @@
     "id": 327
   },
   {
-    "name": "Rolldle",
-    "url": "https://www.light.gg/rolldle/",
-    "description": "Guess the roll of the weapon from Destiny 2.",
-    "category": "Video Games",
-    "theme": "Destiny",
-    "id": 328
-  },
-  {
     "name": "Rotaboxes",
     "url": "https://rotaboxes.com",
     "description": "Rotate all the tiles into their correct orientation to reveal today's picture.",
@@ -3358,13 +3336,6 @@
     "description": "Solve the clueless crossword by using each letter of the English alphabet exactly once.",
     "category": "Words",
     "id": 404
-  },
-  {
-    "name": "Unshuffle",
-    "url": "https://www.unshuffle.me",
-    "description": "Unshuffle the grid using the numbers along each row and column as a guide.",
-    "category": "Math/Logic",
-    "id": 405
   },
   {
     "name": "Unzoomed",
