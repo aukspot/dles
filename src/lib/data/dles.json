@@ -1,5 +1,161 @@
 [
   {
+    "name": "Word Zip",
+    "url": "https://www.wfhgames.com/word-zip",
+    "description": "Build as many words as you can by alternating between two pools of letters.",
+    "category": "Words"
+  },
+  {
+    "name": "Narutodle",
+    "url": "https://narutodle.net",
+    "description": "A collection of daily games where you guess characters from Naruto.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Cinema Circuit",
+    "url": "https://www.wfhgames.com/cinema-circuit",
+    "description": "Connect the two movie actors in the fewest links possible.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "TV Circuit",
+    "url": "https://www.wfhgames.com/tv-circuit",
+    "description": "Connect the two TV actors in the fewest links possible.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Goaldle",
+    "url": "https://goaldle.net",
+    "description": "Guess the scorer based on a short goal video. (Soccer/Fútbol)",
+    "category": "Sports"
+  },
+  {
+    "name": "Bonedle",
+    "url": "https://bonedle.rito.lol",
+    "description": "Guess the League of Legends champion based on a series of animated clues.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Chartle",
+    "url": "https://chartle.cc",
+    "description": "Guess the country based on the chart.",
+    "category": "Geography"
+  },
+  {
+    "name": "Terraformation",
+    "url": "https://puzzmallow.com/terraformation",
+    "description": "Fill in the hex grid planet with the correct terrains.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Doggle",
+    "url": "https://doggle.app",
+    "description": "Guess breed of the dog in the picture.",
+    "category": "Science/Nature"
+  },
+  {
+    "name": "Onepiecedle",
+    "url": "https://onepiecedle.net",
+    "description": "Guess One Piece characters in these daily games.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Guess The Phrase",
+    "url": "https://guessthephrase.xyz",
+    "description": "Solve each of the inner clues until you reveal the phrase, like Bracket City.",
+    "category": "Words"
+  },
+  {
+    "name": "Spiredle",
+    "url": "https://spiredle.com",
+    "description": "Guess the daily Slay the Spire card.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Cobble",
+    "url": "https://wilf.live/cobble/",
+    "description": "Find two words that together use up all the given letters.",
+    "category": "Words"
+  },
+  {
+    "name": "Mapster",
+    "url": "https://mapster.teuteuf.fr",
+    "description": "Draw the outline of a country as close as you can to the country's actual borders.",
+    "category": "Geography"
+  },
+  {
+    "name": "Numblino",
+    "url": "https://numblino.com",
+    "description": "Guess the number based on the given fact. You have 6 guesses.",
+    "category": "Estimation"
+  },
+  {
+    "name": "Sporcle Daily Acrostic",
+    "url": "https://www.sporcle.com/acrostic/todays-acrostic",
+    "description": "A daily acrostic puzzle from Sporcle.",
+    "category": "Words"
+  },
+  {
+    "name": "Stackdown",
+    "url": "https://puzzlist.com/stackdown/",
+    "description": "Clear the stack of letters by finding each of the 5-letter words.",
+    "category": "Words"
+  },
+  {
+    "name": "Quolture",
+    "url": "https://www.quolture.com/#/",
+    "description": "Guess the movie or TV show the given quote is from. 1st round is a movie, 2nd round is a TV show.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Trivial Pursuit Daily",
+    "url": "https://www.trivialpursuit.com/daily",
+    "description": "Daily trivia game from Trivial Pursuit. One question from each category.",
+    "category": "Trivia"
+  },
+  {
+    "name": "The New Daily - Trivia",
+    "url": "https://www.thenewdaily.com.au/puzzles/quiz-trivia",
+    "description": "Daily trivia quizzes from multiple categories.",
+    "category": "Trivia"
+  },
+  {
+    "name": "Wordamid",
+    "url": "https://www.wordamid.com",
+    "description": "Solve the daily word pyramid by guessing words of increasing length.",
+    "category": "Words"
+  },
+  {
+    "name": "Phrasicle",
+    "url": "https://phrasicle.com",
+    "description": "Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.",
+    "category": "Words"
+  },
+  {
+    "name": "Fortnitedle",
+    "url": "https://www.fortnitedle.net",
+    "description": "Test your Fortnite knowledge in these daily games",
+    "category": "Video Games"
+  },
+  {
+    "name": "Equations",
+    "url": "https://www.equations-game.com",
+    "description": "Find 5 groups of 3 numbers, each of which represents an equation.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Batter Up",
+    "url": "https://www.batter-up.app",
+    "description": "Based on a silhouette video of their batting stance, guess the MLB player.",
+    "category": "Sports"
+  },
+  {
+    "name": "Daily Walkoff",
+    "url": "https://www.dailywalkoff.com",
+    "description": "Put each baseball player in the correct trivia column to walk-off the game!",
+    "category": "Sports"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
