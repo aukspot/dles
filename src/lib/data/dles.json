@@ -1443,42 +1443,42 @@
   },
   {
     "name": "Immaculate Footy",
-    "url": "https://www.immaculatefooty.com",
+    "url": "https://www.sports-reference.com/immaculate-footy/",
     "description": "Fill out the grid with soccer players matching the criteria of each cell's row and column.",
     "category": "Sports",
     "id": 175
   },
   {
     "name": "Immaculate Grid: Baseball",
-    "url": "https://www.immaculategrid.com",
+    "url": "https://www.sports-reference.com/immaculate-grid/",
     "description": "Fill out the grid with baseball players matching the criteria of each cell's row and column.",
     "category": "Sports",
     "id": 176
   },
   {
     "name": "Immaculate Grid: Hockey",
-    "url": "https://www.immaculategrid.com/hockey",
+    "url": "https://www.sports-reference.com/immaculate-grid/hockey",
     "description": "Fill out the grid with hockey players matching the criteria of each cell's row and column.",
     "category": "Sports",
     "id": 177
   },
   {
     "name": "Immaculate Grid: Men's Basketball",
-    "url": "https://www.immaculategrid.com/basketball/mens",
+    "url": "https://www.sports-reference.com/immaculate-grid/basketball/mens",
     "description": "Fill out the grid with men's basketball players matching the criteria of each cell's row and column.",
     "category": "Sports",
     "id": 178
   },
   {
     "name": "Immaculate Grid: Pro Football",
-    "url": "https://www.immaculategrid.com/football",
+    "url": "https://www.sports-reference.com/immaculate-grid/football",
     "description": "Fill out the grid with pro football players matching the criteria of each cell's row and column.",
     "category": "Sports",
     "id": 179
   },
   {
     "name": "Immaculate Grid: Women's Basketball",
-    "url": "https://www.immaculategrid.com/basketball/womens",
+    "url": "https://www.sports-reference.com/immaculate-grid/basketball/womens",
     "description": "Fill out the grid with women's basketball players matching the criteria of each cell's row and column.",
     "category": "Sports",
     "id": 180
