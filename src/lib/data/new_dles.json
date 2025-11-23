@@ -1,38 +1,106 @@
 [
   {
-    "name": "7 Little Words",
-    "url": "https://7littlewords.com/7lw"
+    "name": "Batter Up",
+    "url": "https://www.batter-up.app"
   },
   {
-    "name": "Geonections",
-    "url": "https://geonections.com"
+    "name": "Bonedle",
+    "url": "https://bonedle.rito.lol"
   },
   {
-    "name": "Jingle.rs",
-    "url": "https://jingle.rs"
+    "name": "Chartle",
+    "url": "https://chartle.cc"
   },
   {
-    "name": "Jumble Daily",
-    "url": "https://fun.chicagotribune.com/game/tca-jumble-daily/"
+    "name": "Cinema Circuit",
+    "url": "https://www.wfhgames.com/cinema-circuit"
   },
   {
-    "name": "Mineswifter",
-    "url": "https://mineswifter.com"
+    "name": "Cobble",
+    "url": "https://wilf.live/cobble/"
   },
   {
-    "name": "Minigolfle",
-    "url": "https://minigolfle.com"
+    "name": "Daily Walkoff",
+    "url": "https://www.dailywalkoff.com"
   },
   {
-    "name": "riddl.ing",
-    "url": "https://riddl.ing"
+    "name": "Doggle",
+    "url": "https://doggle.app"
   },
   {
-    "name": "sqnces",
-    "url": "https://sqnces.com"
+    "name": "Equations",
+    "url": "https://www.equations-game.com"
   },
   {
-    "name": "Timingle",
-    "url": "https://timingle.com"
+    "name": "Fortnitedle",
+    "url": "https://www.fortnitedle.net"
+  },
+  {
+    "name": "Goaldle",
+    "url": "https://goaldle.net"
+  },
+  {
+    "name": "Guess The Phrase",
+    "url": "https://guessthephrase.xyz"
+  },
+  {
+    "name": "Mapster",
+    "url": "https://mapster.teuteuf.fr"
+  },
+  {
+    "name": "Narutodle",
+    "url": "https://narutodle.net"
+  },
+  {
+    "name": "Numblino",
+    "url": "https://numblino.com"
+  },
+  {
+    "name": "Onepiecedle",
+    "url": "https://onepiecedle.net"
+  },
+  {
+    "name": "Phrasicle",
+    "url": "https://phrasicle.com"
+  },
+  {
+    "name": "Quolture",
+    "url": "https://www.quolture.com/#/"
+  },
+  {
+    "name": "Spiredle",
+    "url": "https://spiredle.com"
+  },
+  {
+    "name": "Sporcle Daily Acrostic",
+    "url": "https://www.sporcle.com/acrostic/todays-acrostic"
+  },
+  {
+    "name": "Stackdown",
+    "url": "https://puzzlist.com/stackdown/"
+  },
+  {
+    "name": "Terraformation",
+    "url": "https://puzzmallow.com/terraformation"
+  },
+  {
+    "name": "The New Daily - Trivia",
+    "url": "https://www.thenewdaily.com.au/puzzles/quiz-trivia"
+  },
+  {
+    "name": "Trivial Pursuit Daily",
+    "url": "https://www.trivialpursuit.com/daily"
+  },
+  {
+    "name": "TV Circuit",
+    "url": "https://www.wfhgames.com/tv-circuit"
+  },
+  {
+    "name": "Word Zip",
+    "url": "https://www.wfhgames.com/word-zip"
+  },
+  {
+    "name": "Wordamid",
+    "url": "https://www.wordamid.com"
   }
 ]

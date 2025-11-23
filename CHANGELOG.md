@@ -1,5 +1,39 @@
 # Changelog - The Dles
 
+## 2025-11-23
+
+Add 26 dles. 
+
+dles added: 
+|    | name                                                                         | url                                                                                                      |
+|---:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|
+|  1 | [Batter Up](https://www.batter-up.app)                                       | [https://www.batter-up.app](https://www.batter-up.app)                                                   |
+|  2 | [Bonedle](https://bonedle.rito.lol)                                          | [https://bonedle.rito.lol](https://bonedle.rito.lol)                                                     |
+|  3 | [Chartle](https://chartle.cc)                                                | [https://chartle.cc](https://chartle.cc)                                                                 |
+|  4 | [Cinema Circuit](https://www.wfhgames.com/cinema-circuit)                    | [https://www.wfhgames.com/cinema-circuit](https://www.wfhgames.com/cinema-circuit)                       |
+|  5 | [Cobble](https://wilf.live/cobble/)                                          | [https://wilf.live/cobble/](https://wilf.live/cobble/)                                                   |
+|  6 | [Daily Walkoff](https://www.dailywalkoff.com)                                | [https://www.dailywalkoff.com](https://www.dailywalkoff.com)                                             |
+|  7 | [Doggle](https://doggle.app)                                                 | [https://doggle.app](https://doggle.app)                                                                 |
+|  8 | [Equations](https://www.equations-game.com)                                  | [https://www.equations-game.com](https://www.equations-game.com)                                         |
+|  9 | [Fortnitedle](https://www.fortnitedle.net)                                   | [https://www.fortnitedle.net](https://www.fortnitedle.net)                                               |
+| 10 | [Goaldle](https://goaldle.net)                                               | [https://goaldle.net](https://goaldle.net)                                                               |
+| 11 | [Guess The Phrase](https://guessthephrase.xyz)                               | [https://guessthephrase.xyz](https://guessthephrase.xyz)                                                 |
+| 12 | [Mapster](https://mapster.teuteuf.fr)                                        | [https://mapster.teuteuf.fr](https://mapster.teuteuf.fr)                                                 |
+| 13 | [Narutodle](https://narutodle.net)                                           | [https://narutodle.net](https://narutodle.net)                                                           |
+| 14 | [Numblino](https://numblino.com)                                             | [https://numblino.com](https://numblino.com)                                                             |
+| 15 | [Onepiecedle](https://onepiecedle.net)                                       | [https://onepiecedle.net](https://onepiecedle.net)                                                       |
+| 16 | [Phrasicle](https://phrasicle.com)                                           | [https://phrasicle.com](https://phrasicle.com)                                                           |
+| 17 | [Quolture](https://www.quolture.com/#/)                                      | [https://www.quolture.com/#/](https://www.quolture.com/#/)                                               |
+| 18 | [Spiredle](https://spiredle.com)                                             | [https://spiredle.com](https://spiredle.com)                                                             |
+| 19 | [Sporcle Daily Acrostic](https://www.sporcle.com/acrostic/todays-acrostic)   | [https://www.sporcle.com/acrostic/todays-acrostic](https://www.sporcle.com/acrostic/todays-acrostic)     |
+| 20 | [Stackdown](https://puzzlist.com/stackdown/)                                 | [https://puzzlist.com/stackdown/](https://puzzlist.com/stackdown/)                                       |
+| 21 | [Terraformation](https://puzzmallow.com/terraformation)                      | [https://puzzmallow.com/terraformation](https://puzzmallow.com/terraformation)                           |
+| 22 | [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) | [https://www.thenewdaily.com.au/puzzles/quiz-trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) |
+| 23 | [Trivial Pursuit Daily](https://www.trivialpursuit.com/daily)                | [https://www.trivialpursuit.com/daily](https://www.trivialpursuit.com/daily)                             |
+| 24 | [TV Circuit](https://www.wfhgames.com/tv-circuit)                            | [https://www.wfhgames.com/tv-circuit](https://www.wfhgames.com/tv-circuit)                               |
+| 25 | [Word Zip](https://www.wfhgames.com/word-zip)                                | [https://www.wfhgames.com/word-zip](https://www.wfhgames.com/word-zip)                                   |
+| 26 | [Wordamid](https://www.wordamid.com)                                         | [https://www.wordamid.com](https://www.wordamid.com)                                                     |
+
 ## 2025-11-11
 
 Remove 4 dles. 
