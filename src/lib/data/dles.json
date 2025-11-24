@@ -1255,13 +1255,6 @@
     "id": 142
   },
   {
-    "name": "Goaldle",
-    "url": "https://goaldle.net",
-    "description": "Guess the scorer based on a short goal video. (Soccer/F\u00fatbol)",
-    "category": "Sports",
-    "id": 548
-  },
-  {
     "name": "Gram Jam",
     "url": "https://gramjam.app",
     "description": "Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.",
