@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-11-24",
-    "dles removed": [
-      {
-        "name": "Goaldle",
-        "url": "https://goaldle.net"
-      }
-    ],
-    "description": "Remove 1 dle. "
-  },
-  {
     "date": "2025-11-23",
     "dles added": [
       {
@@ -47,10 +37,6 @@
       {
         "name": "Fortnitedle",
         "url": "https://www.fortnitedle.net"
-      },
-      {
-        "name": "Goaldle",
-        "url": "https://goaldle.net"
       },
       {
         "name": "Guess The Phrase",
@@ -117,7 +103,7 @@
         "url": "https://www.wordamid.com"
       }
     ],
-    "description": "Add 26 dles. "
+    "description": "Add 25 dles. "
   },
   {
     "date": "2025-11-11",
