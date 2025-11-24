@@ -1105,7 +1105,7 @@
   {
     "name": "Fortnitedle",
     "url": "https://www.fortnitedle.net",
-    "description": "Test your Fortnite knowledge in these daily games",
+    "description": "Test your Fortnite knowledge in these daily games.",
     "category": "Video Games",
     "id": 547
   },
@@ -1253,13 +1253,6 @@
     "description": "Guess the mystery world capital, given how close it is to each guessed world capital.",
     "category": "Geography",
     "id": 142
-  },
-  {
-    "name": "Goaldle",
-    "url": "https://goaldle.net",
-    "description": "Guess the scorer based on a short goal video. (Soccer/F\u00fatbol)",
-    "category": "Sports",
-    "id": 548
   },
   {
     "name": "Gram Jam",

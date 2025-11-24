@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-11-24
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                           | url                                        |
+|---:|:-------------------------------|:-------------------------------------------|
+|  1 | [Goaldle](https://goaldle.net) | [https://goaldle.net](https://goaldle.net) |
 ## 2025-11-23
 
 Add 26 dles. 
