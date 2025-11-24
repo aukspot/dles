@@ -1,17 +1,8 @@
 # Changelog - The Dles
 
-## 2025-11-24
-
-Remove 1 dle. 
-
-
-dles removed: 
-|    | name                           | url                                        |
-|---:|:-------------------------------|:-------------------------------------------|
-|  1 | [Goaldle](https://goaldle.net) | [https://goaldle.net](https://goaldle.net) |
 ## 2025-11-23
 
-Add 26 dles. 
+Add 25 dles. 
 
 dles added: 
 |    | name                                                                         | url                                                                                                      |
@@ -25,23 +16,22 @@ dles added:
 |  7 | [Doggle](https://doggle.app)                                                 | [https://doggle.app](https://doggle.app)                                                                 |
 |  8 | [Equations](https://www.equations-game.com)                                  | [https://www.equations-game.com](https://www.equations-game.com)                                         |
 |  9 | [Fortnitedle](https://www.fortnitedle.net)                                   | [https://www.fortnitedle.net](https://www.fortnitedle.net)                                               |
-| 10 | [Goaldle](https://goaldle.net)                                               | [https://goaldle.net](https://goaldle.net)                                                               |
-| 11 | [Guess The Phrase](https://guessthephrase.xyz)                               | [https://guessthephrase.xyz](https://guessthephrase.xyz)                                                 |
-| 12 | [Mapster](https://mapster.teuteuf.fr)                                        | [https://mapster.teuteuf.fr](https://mapster.teuteuf.fr)                                                 |
-| 13 | [Narutodle](https://narutodle.net)                                           | [https://narutodle.net](https://narutodle.net)                                                           |
-| 14 | [Numblino](https://numblino.com)                                             | [https://numblino.com](https://numblino.com)                                                             |
-| 15 | [Onepiecedle](https://onepiecedle.net)                                       | [https://onepiecedle.net](https://onepiecedle.net)                                                       |
-| 16 | [Phrasicle](https://phrasicle.com)                                           | [https://phrasicle.com](https://phrasicle.com)                                                           |
-| 17 | [Quolture](https://www.quolture.com/#/)                                      | [https://www.quolture.com/#/](https://www.quolture.com/#/)                                               |
-| 18 | [Spiredle](https://spiredle.com)                                             | [https://spiredle.com](https://spiredle.com)                                                             |
-| 19 | [Sporcle Daily Acrostic](https://www.sporcle.com/acrostic/todays-acrostic)   | [https://www.sporcle.com/acrostic/todays-acrostic](https://www.sporcle.com/acrostic/todays-acrostic)     |
-| 20 | [Stackdown](https://puzzlist.com/stackdown/)                                 | [https://puzzlist.com/stackdown/](https://puzzlist.com/stackdown/)                                       |
-| 21 | [Terraformation](https://puzzmallow.com/terraformation)                      | [https://puzzmallow.com/terraformation](https://puzzmallow.com/terraformation)                           |
-| 22 | [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) | [https://www.thenewdaily.com.au/puzzles/quiz-trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) |
-| 23 | [Trivial Pursuit Daily](https://www.trivialpursuit.com/daily)                | [https://www.trivialpursuit.com/daily](https://www.trivialpursuit.com/daily)                             |
-| 24 | [TV Circuit](https://www.wfhgames.com/tv-circuit)                            | [https://www.wfhgames.com/tv-circuit](https://www.wfhgames.com/tv-circuit)                               |
-| 25 | [Word Zip](https://www.wfhgames.com/word-zip)                                | [https://www.wfhgames.com/word-zip](https://www.wfhgames.com/word-zip)                                   |
-| 26 | [Wordamid](https://www.wordamid.com)                                         | [https://www.wordamid.com](https://www.wordamid.com)                                                     |
+| 10 | [Guess The Phrase](https://guessthephrase.xyz)                               | [https://guessthephrase.xyz](https://guessthephrase.xyz)                                                 |
+| 11 | [Mapster](https://mapster.teuteuf.fr)                                        | [https://mapster.teuteuf.fr](https://mapster.teuteuf.fr)                                                 |
+| 12 | [Narutodle](https://narutodle.net)                                           | [https://narutodle.net](https://narutodle.net)                                                           |
+| 13 | [Numblino](https://numblino.com)                                             | [https://numblino.com](https://numblino.com)                                                             |
+| 14 | [Onepiecedle](https://onepiecedle.net)                                       | [https://onepiecedle.net](https://onepiecedle.net)                                                       |
+| 15 | [Phrasicle](https://phrasicle.com)                                           | [https://phrasicle.com](https://phrasicle.com)                                                           |
+| 16 | [Quolture](https://www.quolture.com/#/)                                      | [https://www.quolture.com/#/](https://www.quolture.com/#/)                                               |
+| 17 | [Spiredle](https://spiredle.com)                                             | [https://spiredle.com](https://spiredle.com)                                                             |
+| 18 | [Sporcle Daily Acrostic](https://www.sporcle.com/acrostic/todays-acrostic)   | [https://www.sporcle.com/acrostic/todays-acrostic](https://www.sporcle.com/acrostic/todays-acrostic)     |
+| 19 | [Stackdown](https://puzzlist.com/stackdown/)                                 | [https://puzzlist.com/stackdown/](https://puzzlist.com/stackdown/)                                       |
+| 20 | [Terraformation](https://puzzmallow.com/terraformation)                      | [https://puzzmallow.com/terraformation](https://puzzmallow.com/terraformation)                           |
+| 21 | [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) | [https://www.thenewdaily.com.au/puzzles/quiz-trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) |
+| 22 | [Trivial Pursuit Daily](https://www.trivialpursuit.com/daily)                | [https://www.trivialpursuit.com/daily](https://www.trivialpursuit.com/daily)                             |
+| 23 | [TV Circuit](https://www.wfhgames.com/tv-circuit)                            | [https://www.wfhgames.com/tv-circuit](https://www.wfhgames.com/tv-circuit)                               |
+| 24 | [Word Zip](https://www.wfhgames.com/word-zip)                                | [https://www.wfhgames.com/word-zip](https://www.wfhgames.com/word-zip)                                   |
+| 25 | [Wordamid](https://www.wordamid.com)                                         | [https://www.wordamid.com](https://www.wordamid.com)                                                     |
 
 ## 2025-11-11
 
