@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-11-24
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                 | url                                          |
+|---:|:-------------------------------------|:---------------------------------------------|
+|  1 | [steamdle.pro](https://steamdle.pro) | [https://steamdle.pro](https://steamdle.pro) |
 ## 2025-11-23
 
 Add 25 dles. 

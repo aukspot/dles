@@ -3170,13 +3170,6 @@
     "id": 368
   },
   {
-    "name": "steamdle.pro",
-    "url": "https://steamdle.pro",
-    "description": "Guess the Steam game with new hints after each guess, such as release date, reviews, and tags.",
-    "category": "Video Games",
-    "id": 502
-  },
-  {
     "name": "Stepdle",
     "url": "https://www.stepdle.com",
     "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
