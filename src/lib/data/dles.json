@@ -3228,13 +3228,6 @@
     "id": 375
   },
   {
-    "name": "Syllacrostic",
-    "url": "https://www.syllacrostic.com/daily",
-    "description": "Combine syllables to solve the clues.",
-    "category": "Words",
-    "id": 376
-  },
-  {
     "name": "Symble",
     "url": "https://www.symble.app",
     "description": "A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.",
