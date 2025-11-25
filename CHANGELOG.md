@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-11-25
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                               | url                                                                      |
+|---:|:---------------------------------------------------|:-------------------------------------------------------------------------|
+|  1 | [Syllacrostic](https://www.syllacrostic.com/daily) | [https://www.syllacrostic.com/daily](https://www.syllacrostic.com/daily) |
 ## 2025-11-24
 
 Remove 1 dle. 
