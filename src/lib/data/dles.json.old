@@ -1199,13 +1199,6 @@
     "id": 136
   },
   {
-    "name": "Geocircles",
-    "url": "https://geocircles.io",
-    "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
-    "category": "Geography",
-    "id": 137
-  },
-  {
     "name": "GeoConnections",
     "url": "https://geoconnections.net",
     "description": "Group geography-related squares that share a common theme.",

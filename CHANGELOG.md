@@ -2,13 +2,14 @@
 
 ## 2025-12-02
 
-Remove 1 dle. 
+Remove 2 dles. 
 
 
 dles removed: 
 |    | name                                    | url                                                        |
 |---:|:----------------------------------------|:-----------------------------------------------------------|
 |  1 | [Unzoomed](https://www.unzoomed.com/en) | [https://www.unzoomed.com/en](https://www.unzoomed.com/en) |
+|  2 | [Geocircles](https://geocircles.io)     | [https://geocircles.io](https://geocircles.io)             |
 ## 2025-11-25
 
 Remove 1 dle. 
