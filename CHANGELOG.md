@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-12-02
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                    | url                                                        |
+|---:|:----------------------------------------|:-----------------------------------------------------------|
+|  1 | [Unzoomed](https://www.unzoomed.com/en) | [https://www.unzoomed.com/en](https://www.unzoomed.com/en) |
 ## 2025-11-25
 
 Remove 1 dle. 
