@@ -1,17 +1,5 @@
 [
   {
-    "name": "Silksongdle",
-    "url": "https://silksongdle.com",
-    "description": "Daily guessing games related to Hollow Knight: Silksong.",
-    "category": "Video Games"
-  },
-  {
-    "name": "LinkedIn - Mini Sudoku",
-    "url": "https://www.linkedin.com/games/mini-sudoku/",
-    "description": "A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.",
-    "category": "Math/Logic"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -1805,6 +1793,13 @@
     "id": 205
   },
   {
+    "name": "LinkedIn - Mini Sudoku",
+    "url": "https://www.linkedin.com/games/mini-sudoku/",
+    "description": "A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.",
+    "category": "Math/Logic",
+    "id": 565
+  },
+  {
     "name": "LinkedIn - Pinpoint",
     "url": "https://www.linkedin.com/games/pinpoint",
     "description": "Guess today's category given as few clues as possible. Does not require a LinkedIn account.",
@@ -2930,6 +2925,13 @@
     "description": "5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.",
     "category": "Math/Logic",
     "id": 340
+  },
+  {
+    "name": "Silksongdle",
+    "url": "https://silksongdle.com",
+    "description": "Daily guessing games related to Hollow Knight: Silksong.",
+    "category": "Video Games",
+    "id": 566
   },
   {
     "name": "Silly Little Codes",

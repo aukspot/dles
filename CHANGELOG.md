@@ -2,8 +2,13 @@
 
 ## 2025-12-02
 
-Remove 2 dles. 
+Add 2 dles. Remove 2 dles. 
 
+dles added: 
+|    | name                                                                  | url                                                                                        |
+|---:|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
+|  1 | [LinkedIn - Mini Sudoku](https://www.linkedin.com/games/mini-sudoku/) | [https://www.linkedin.com/games/mini-sudoku/](https://www.linkedin.com/games/mini-sudoku/) |
+|  2 | [Silksongdle](https://silksongdle.com)                                | [https://silksongdle.com](https://silksongdle.com)                                         |
 
 dles removed: 
 |    | name                                    | url                                                        |
