@@ -1,5 +1,17 @@
 [
   {
+    "name": "Silksongdle",
+    "url": "https://silksongdle.com",
+    "description": "Daily guessing games related to Hollow Knight: Silksong.",
+    "category": "Video Games"
+  },
+  {
+    "name": "LinkedIn - Mini Sudoku",
+    "url": "https://www.linkedin.com/games/mini-sudoku/",
+    "description": "A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
