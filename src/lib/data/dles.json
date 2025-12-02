@@ -1269,6 +1269,13 @@
     "id": 145
   },
   {
+    "name": "GridSport.Games",
+    "url": "https://gridsport.games/en",
+    "description": "A daily multilingual football/soccer and sports trivia PWA.",
+    "category": "Sports",
+    "id":
+  },
+  {
     "name": "Guess My Word",
     "url": "https://hryanjones.com/guess-my-word",
     "description": "Make guesses and see if they are alphabetically before or after the secret word.",
