@@ -83,7 +83,7 @@
           />
         </svg>
       </div>
-      My Picks
+      My Book Picks
     </div>
   </div>
 
