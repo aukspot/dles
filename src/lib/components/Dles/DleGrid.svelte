@@ -3,7 +3,6 @@
   import { browser } from "$app/environment"
 
   export let cards = []
-  export let favoriteCardIndex = -1
   export let cardsVersion = 0
 
   let gridContainer
@@ -16,7 +15,9 @@
   function getNumColumns() {
     if (!browser) return 2
 
-    const width = window.innerWidth
+    // Use document.documentElement.clientWidth instead of window.innerWidth
+    // to account for zoom/scaling
+    const width = document.documentElement.clientWidth
     if (width <= 336) return 1 // Increased threshold to prevent overflow
     if (width >= 1200) return Math.min(Math.floor(width / 220), 5) // 5 columns when there's space
     if (width >= 768) return Math.min(Math.floor(width / 220), 4) // 4 columns on large screens
@@ -46,20 +47,21 @@
     columns = Array.from({ length: numColumns }, () => [])
     const columnHeights = Array.from({ length: numColumns }, () => 0)
 
-    const favoriteCard =
-      favoriteCardIndex >= 0 ? cards[favoriteCardIndex] : null
+    const favoriteCard = cards.find((card) => card.type === "favorites")
     const dlesOfTheWeekCard = cards.find(
       (card) => card.type === "dlesOfTheWeek",
     )
     const sponsorsCard = cards.find((card) => card.type === "sponsors")
-    const bookRecommendationCard = cards.find((card) => card.type === "bookRecommendation")
+    const bookRecommendationCard = cards.find(
+      (card) => card.type === "bookRecommendation",
+    )
     const categoryCards = cards.filter((card) => card.type === "category")
 
     if (numColumns === 1) {
       const orderedCards = []
 
-      if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
       if (favoriteCard) orderedCards.push(favoriteCard)
+      if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
       if (sponsorsCard) orderedCards.push(sponsorsCard)
       if (bookRecommendationCard) orderedCards.push(bookRecommendationCard)
       orderedCards.push(...categoryCards)
@@ -158,7 +160,7 @@
   function handleResize() {
     if (isResizing) return
 
-    const currentWidth = window.innerWidth
+    const currentWidth = document.documentElement.clientWidth
     if (Math.abs(currentWidth - lastWindowWidth) < 20) {
       return
     }
@@ -173,7 +175,7 @@
 
   onMount(() => {
     if (browser) {
-      lastWindowWidth = window.innerWidth
+      lastWindowWidth = document.documentElement.clientWidth
       organizeCards()
       window.addEventListener("resize", handleResize)
       return () => window.removeEventListener("resize", handleResize)
