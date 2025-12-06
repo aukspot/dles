@@ -28,8 +28,10 @@
   import DleGrid from "./DleGrid.svelte"
   import SearchModal from "./SearchModal.svelte"
   import Sponsors from "../Sponsors.svelte"
+  import BookRecommendation from "../BookRecommendation.svelte"
   import { enhancedSearch, playRandom } from "$lib/js/utilities"
   import { useTracking } from "$lib/composables/useTracking"
+  import { hiddenSections } from "$lib/js/hiddenSections"
 
   let pageX = 0
   let pageY = 0
@@ -175,6 +177,16 @@
       currentIndex++
     }
 
+    // Add Book Recommendation (only when not searching)
+    if (!$searchQuery || $searchQuery.trim() === "") {
+      cards.push({
+        id: "bookRecommendation",
+        type: "bookRecommendation",
+        data: null,
+      })
+      currentIndex++
+    }
+
     // Add Miscellaneous category after sponsors
     const miscellaneousDles = $categorizedDles["Miscellaneous"] || []
     if (miscellaneousDles.length !== 0) {
@@ -311,6 +323,8 @@
       </div>
     {:else if card.type === "sponsors"}
       <Sponsors />
+    {:else if card.type === "bookRecommendation"}
+      <BookRecommendation />
     {:else if card.type === "category"}
       <div class="card">
         <div
@@ -324,7 +338,22 @@
             {card.category}
           </div>
         </div>
-        <DleGroup dleGroup={card.data} bind:pageX bind:pageY bind:clientY />
+        {#if !hiddenSections.isHidden(card.category, $hiddenSections)}
+          <button
+            class="hide-section-top"
+            on:click={() => hiddenSections.hide(card.category)}
+          >
+            Hide section ({card.data.length})
+          </button>
+          <DleGroup dleGroup={card.data} bind:pageX bind:pageY bind:clientY />
+        {:else}
+          <button
+            class="hide-section-top"
+            on:click={() => hiddenSections.show(card.category)}
+          >
+            Show section ({card.data.length})
+          </button>
+        {/if}
       </div>
     {/if}
   </DleGrid>
@@ -433,5 +462,25 @@
 
   .edit-button-text {
     @apply text-xs font-bold;
+  }
+
+  .hide-section {
+    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic transition-all cursor-pointer bg-transparent hover:bg-gray-200/70 border-none p-1 text-center w-full rounded;
+  }
+
+  :global(.dark) .hide-section {
+    @apply hover:bg-gray-700/50;
+  }
+
+  .hide-section-top {
+    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic transition-all cursor-pointer bg-colorCardC hover:bg-gray-200/70 border-none border-t border-colorTextSoftest p-2 text-center w-full;
+  }
+
+  :global(.dark) .hide-section-top {
+    @apply hover:bg-gray-700/50;
+  }
+
+  .show-section-container {
+    @apply p-2 bg-colorCardC;
   }
 </style>

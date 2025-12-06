@@ -29,6 +29,7 @@
     if (card.type === "dlesOfTheWeek") return 300 // Usually has multiple items
     if (card.type === "favorites") return card.data.length * 40 + 100 // Base height + items
     if (card.type === "sponsors") return 200 // Fixed sponsors height
+    if (card.type === "bookRecommendation") return 150 // Book recommendation card (horizontal, compact)
     if (card.type === "category") return card.data.length * 40 + 80 // Base height + items
     return 100 // Default
   }
@@ -51,6 +52,7 @@
       (card) => card.type === "dlesOfTheWeek",
     )
     const sponsorsCard = cards.find((card) => card.type === "sponsors")
+    const bookRecommendationCard = cards.find((card) => card.type === "bookRecommendation")
     const categoryCards = cards.filter((card) => card.type === "category")
 
     if (numColumns === 1) {
@@ -59,6 +61,7 @@
       if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
       if (favoriteCard) orderedCards.push(favoriteCard)
       if (sponsorsCard) orderedCards.push(sponsorsCard)
+      if (bookRecommendationCard) orderedCards.push(bookRecommendationCard)
       orderedCards.push(...categoryCards)
 
       orderedCards.forEach((card) => {
@@ -73,6 +76,10 @@
       if (sponsorsCard) {
         columns[0].push(sponsorsCard)
         columnHeights[0] += estimateCardHeight(sponsorsCard)
+      }
+      if (bookRecommendationCard) {
+        columns[0].push(bookRecommendationCard)
+        columnHeights[0] += estimateCardHeight(bookRecommendationCard)
       }
 
       if (favoriteCard) {
