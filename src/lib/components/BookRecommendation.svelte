@@ -90,19 +90,13 @@
   {#if !isHidden}
     <div class="book-content">
       <div class="book-layout">
-        <a
-          href="https://amzn.to/4rFiiYf"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="book-image-container"
-          on:click={handleBookClick}
-        >
+        <button class="book-image-container" on:click={openModal}>
           <img
             src="/puzzle-mania.jpg"
             alt="Puzzle Mania book cover"
             class="book-image"
           />
-        </a>
+        </button>
 
         <div class="book-text">
           <button class="book-title" on:click={openModal}>Puzzle Mania</button>
@@ -137,7 +131,7 @@
           <IconClose />
         </button>
         <p class="popup-description">
-          Quality puzzle collection featuring creative twists on Wordle,
+          Fun puzzle collection featuring creative twists on Wordle,
           Connections, and more! Perfect for your bedside or coffee table.
         </p>
       </div>
@@ -218,6 +212,7 @@
 
   .book-title {
     @apply text-sm md:text-base font-bold text-colorText leading-tight underline cursor-pointer hover:text-amber-700 transition-colors bg-transparent border-none p-0 text-left decoration-colorTextSoftest;
+    text-decoration-thickness: 2px;
   }
 
   :global(.dark) .book-title {
@@ -267,7 +262,7 @@
   }
 
   .popup-cta-button {
-    @apply px-3 py-2 bg-amber-500 hover:bg-amber-400 active:bg-amber-700 text-amber-950 font-semibold rounded text-sm shadow-sm hover:shadow-md transition-all duration-200 text-center active:scale-95 underline;
+    @apply px-3 py-2 bg-amber-500 hover:bg-amber-400 active:bg-amber-700 text-amber-950 font-semibold rounded text-sm shadow-sm hover:shadow-md transition-all duration-200 text-center active:scale-95;
   }
 
   :global(.dark) .popup-cta-button {
