@@ -131,8 +131,8 @@
           <IconClose />
         </button>
         <p class="popup-description">
-          Fun puzzle collection featuring creative twists on Wordle,
-          Connections, and more! Perfect for your bedside or coffee table.
+          Unique puzzle collection with creative twists on Wordle, Connections,
+          and more! Perfect for your bedside or coffee table.
         </p>
       </div>
 
