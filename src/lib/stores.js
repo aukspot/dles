@@ -57,3 +57,28 @@ export let categoryColors = readable({
   Words: "hsl(336, 90%, 50%, 45%)",
   Miscellaneous: "hsl(0, 0%, 49%, 45%)",
 })
+
+export let sponsors = readable([
+  {
+    id: 202,
+    name: "Lexicle",
+    url: "https://lexicle.com",
+    description: "Guess the secret word based on its meaning.",
+    category: "Words",
+  },
+  {
+    id: 400,
+    name: "travle",
+    url: "https://travle.earth",
+    description:
+      "Connect the starting country to the ending country by naming countries in between them.",
+    category: "Geography",
+  },
+  {
+    id: 417,
+    name: "WhenTaken Movies",
+    url: "https://movies.whentaken.com",
+    description: "Guess where and when the given movie scene was filmed.",
+    category: "Geography",
+  },
+])

@@ -1,5 +1,5 @@
 <script>
-  import { categoryColors, searchQuery } from "$lib/stores"
+  import { categoryColors, searchQuery, sponsors } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
   import DleGroup from "$lib/components/Dles/DleGroup.svelte"
   import { trackEvent } from "$lib/js/trackingUtils"
@@ -8,32 +8,7 @@
   let pageY = 0
   let clientY = 0
 
-  const partners = [
-    {
-      id: 202,
-      name: "Lexicle",
-      url: "https://lexicle.com",
-      description: "Guess the secret word based on its meaning.",
-      category: "Words",
-    },
-    {
-      id: 400,
-      name: "travle",
-      url: "https://travle.earth",
-      description:
-        "Connect the starting country to the ending country by naming countries in between them.",
-      category: "Geography",
-    },
-    {
-      id: 417,
-      name: "WhenTaken Movies",
-      url: "https://movies.whentaken.com",
-      description: "Guess where and when the given movie scene was filmed.",
-      category: "Geography",
-    },
-  ]
-
-  $: filteredPartners = enhancedSearch(partners, $searchQuery)
+  $: filteredPartners = enhancedSearch($sponsors, $searchQuery)
 </script>
 
 {#if $searchQuery.length == 0 || filteredPartners.length > 0}

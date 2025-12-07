@@ -27,7 +27,7 @@
   function handleBookClick(source = "main-page") {
     trackEvent("book-recommendation-click", {
       source,
-      book: "nyt-puzzle-book-collection",
+      book: "puzzle-mania",
     })
   }
 
@@ -69,19 +69,17 @@
       <div class="flex-shrink-0">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
           fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          width="24"
-          height="24"
+          viewBox="0 0 24 24"
+          width="28"
+          ><path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 19V6.2c0-1.12 0-1.68.218-2.108a2 2 0 0 1 .874-.874C5.52 3 6.08 3 7.2 3h9.6c1.12 0 1.68 0 2.108.218a2 2 0 0 1 .874.874C20 4.52 20 5.08 20 6.2V17H6a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h14M9 7h6m-6 4h6m4 6v4"
+          /></svg
         >
-          <path
-            d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"
-          />
-        </svg>
       </div>
       My Book Picks
     </div>
@@ -99,17 +97,21 @@
         </button>
 
         <div class="book-text">
-          <button class="book-title" on:click={openModal}>Puzzle Mania</button>
+          <button class="book-title" on:click={openModal}>Puzzle Mania!</button>
           <p class="book-description">
             Creative twists on Wordle, Connections, and more!
           </p>
         </div>
       </div>
-      <button class="hide-section" on:click={hideCard}> Hide section </button>
+      <button class="hide-section" on:click={hideCard}>
+        Hide section (1)
+      </button>
     </div>
   {:else}
     <div class="book-content">
-      <button class="hide-section" on:click={showCard}> Show section </button>
+      <button class="hide-section" on:click={showCard}>
+        Show section (1)
+      </button>
     </div>
   {/if}
 
@@ -126,13 +128,14 @@
           alt="Puzzle Mania book cover"
           class="popup-book-image"
         />
-        <h2 class="popup-title">Puzzle Mania</h2>
+
+        <h2 class="popup-title">Puzzle Mania!</h2>
         <button on:click={closeModal} class="popup-close-btn">
           <IconClose />
         </button>
         <p class="popup-description">
           Unique puzzle collection with creative twists on Wordle, Connections,
-          and more! Perfect for your bedside or coffee table.
+          and more! I keep a copy next to my bed.
         </p>
       </div>
 
@@ -155,19 +158,19 @@
 
 <style lang="postcss">
   .book-card {
-    @apply mb-2 break-inside-avoid shadow-lg shadow-colorNeutralSoft;
+    @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
   }
 
   .book-header {
-    @apply py-2 px-2 bg-gradient-to-r from-amber-600/80 to-amber-500/80 border-b-2 border-amber-700 flex items-center justify-between;
+    @apply py-2 px-2 bg-gradient-to-r from-amber-600/80 to-amber-500/80 border-b-2 border-colorText flex items-center justify-between;
   }
 
   :global(.dark) .book-header {
-    @apply from-amber-800/70 to-amber-700/70 border-amber-600;
+    @apply from-amber-800/70 to-amber-700/70;
   }
 
   .label {
-    @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-amber-950 font-semibold;
+    @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
   }
 
   :global(.dark) .label {
@@ -175,23 +178,23 @@
   }
 
   .hide-section {
-    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic transition-all cursor-pointer bg-transparent hover:bg-amber-200/60 border-none p-1 text-center w-full rounded;
+    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic cursor-pointer bg-transparent hover:bg-yellow-50 bg-colorCardC border-none p-2 text-center w-full rounded;
   }
 
   :global(.dark) .hide-section {
-    @apply hover:bg-amber-700/40;
+    @apply hover:bg-slate-950;
   }
 
   .book-content {
-    @apply p-2 bg-amber-50/30 flex flex-col gap-2;
+    @apply bg-colorCardB flex flex-col gap-2;
   }
 
   :global(.dark) .book-content {
-    @apply bg-amber-950/20;
+    @apply bg-colorCardB;
   }
 
   .book-layout {
-    @apply flex flex-row items-center gap-2;
+    @apply flex flex-row items-center gap-2 p-2;
   }
 
   .book-image-container {
@@ -211,7 +214,7 @@
   }
 
   .book-title {
-    @apply text-sm md:text-base font-bold text-colorText leading-tight underline cursor-pointer hover:text-amber-700 transition-colors bg-transparent border-none p-0 text-left decoration-colorTextSoftest;
+    @apply text-sm md:text-base text-colorText leading-tight underline cursor-pointer hover:decoration-colorTextSoft transition-transform duration-300 bg-transparent border-none p-0 text-left decoration-colorTextSoftest;
     text-decoration-thickness: 2px;
   }
 

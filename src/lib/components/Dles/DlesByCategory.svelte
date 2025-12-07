@@ -9,6 +9,7 @@
     favorites,
     favoriteIds,
     searchQuery,
+    sponsors,
   } from "$lib/stores"
 
   import IconNew from "../Icons/IconNew.svelte"
@@ -104,26 +105,7 @@
   function hasSponsorMatches() {
     if (!$searchQuery || $searchQuery.trim() === "") return true
 
-    // Same sponsors array as in Sponsors.svelte
-    const partners = [
-      {
-        id: "partner-nibble",
-        name: "nibble.games",
-        url: "https://nibble.games",
-      },
-      {
-        id: "partner-quintalist",
-        name: "Quintalist",
-        url: "https://quintalist.com?dles",
-      },
-      {
-        id: "partner-flashpoptiles",
-        name: "FlashPopTiles",
-        url: "https://flashpoptiles.com?utm_source=aukspot&utm_medium=banner&utm_campaign=sponsorship",
-      },
-    ]
-
-    const filteredPartners = enhancedSearch(partners, $searchQuery)
+    const filteredPartners = enhancedSearch($sponsors, $searchQuery)
     return filteredPartners.length > 0
   }
 
@@ -464,20 +446,12 @@
     @apply text-xs font-bold;
   }
 
-  .hide-section {
-    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic transition-all cursor-pointer bg-transparent hover:bg-gray-200/70 border-none p-1 text-center w-full rounded;
-  }
-
-  :global(.dark) .hide-section {
-    @apply hover:bg-gray-700/50;
-  }
-
   .hide-section-top {
-    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic transition-all cursor-pointer bg-colorCardC hover:bg-gray-200/70 border-none border-t border-colorTextSoftest p-2 text-center w-full;
+    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic cursor-pointer bg-colorCardC hover:bg-yellow-50 border-none border-t border-colorTextSoftest p-2 text-center w-full;
   }
 
   :global(.dark) .hide-section-top {
-    @apply hover:bg-gray-700/50;
+    @apply hover:bg-slate-950;
   }
 
   .show-section-container {
