@@ -10,6 +10,7 @@
     favoriteIds,
     searchQuery,
     sponsors,
+    categoryRanks,
   } from "$lib/stores"
 
   import IconNew from "../Icons/IconNew.svelte"
@@ -113,8 +114,11 @@
     const cards = []
     let currentIndex = 0
 
-    // Add DLES of the Week
-    if ($dlesOfTheWeek.length !== 0) {
+    // Add DLES of the Week (hide when searching)
+    if (
+      $dlesOfTheWeek.length !== 0 &&
+      (!$searchQuery || $searchQuery.trim() === "")
+    ) {
       cards.push({
         id: "dlesOfTheWeek",
         type: "dlesOfTheWeek",
@@ -132,9 +136,15 @@
     })
     currentIndex++
 
-    // Add category cards (except Miscellaneous)
-    for (const category of $categories) {
-      if (category === "Miscellaneous") continue // Skip Miscellaneous for now
+    // Sort categories by rank before building cards
+    const sortedCategories = [...$categories].sort((a, b) => {
+      const rankA = $categoryRanks[a] ?? 999
+      const rankB = $categoryRanks[b] ?? 999
+      return rankA - rankB
+    })
+
+    // Add category cards in ranked order
+    for (const category of sortedCategories) {
       const categoryDles = $categorizedDles[category] || []
       if (categoryDles.length !== 0) {
         cards.push({
@@ -169,18 +179,6 @@
       currentIndex++
     }
 
-    // Add Miscellaneous category after sponsors
-    const miscellaneousDles = $categorizedDles["Miscellaneous"] || []
-    if (miscellaneousDles.length !== 0) {
-      cards.push({
-        id: "Miscellaneous",
-        type: "category",
-        data: miscellaneousDles,
-        category: "Miscellaneous",
-      })
-      currentIndex++
-    }
-
     allCards = cards
   }
 
@@ -189,13 +187,14 @@
     $favorites
     $categorizedDles
     $categories
+    $categoryRanks
     buildCards()
   }
 </script>
 
 <svelte:window on:resize={resetPoppedUpDle} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
-<Banner includeSearch={true} />
+<!-- <Banner includeSearch={true} onOpenPreferences={openPreferencesModal} /> -->
 <div class="w-full mx-auto">
   <DleGrid
     cards={allCards}
@@ -239,9 +238,11 @@
             {#if editMode}
               <span class="edit-mode-text">Drag to reorder!</span>
             {:else}
-              {card.data.length === 0
-                ? "No favorites"
-                : `${card.data.length} favorite${card.data.length !== 1 ? "s" : ""}`}
+              <span class="text-[11px]">
+                {card.data.length === 0
+                  ? "No favorites"
+                  : `${card.data.length} favorite${card.data.length !== 1 ? "s" : ""}`}</span
+              >
             {/if}
           </div>
           <div class="favorites-buttons">
@@ -320,12 +321,16 @@
             {card.category}
           </div>
         </div>
-        {#if !hiddenSections.isHidden(card.category, $hiddenSections)}
+        {#if $searchQuery.trim() || !hiddenSections.isHidden(card.category, $hiddenSections)}
           <button
             class="hide-section-top"
             on:click={() => hiddenSections.hide(card.category)}
+            disabled={$searchQuery.trim()}
+            class:opacity-50={$searchQuery.trim()}
           >
-            Hide section ({card.data.length})
+            {$searchQuery.trim()
+              ? `Search results (${card.data.length})`
+              : `Hide section (${card.data.length})`}
           </button>
           <DleGroup dleGroup={card.data} bind:pageX bind:pageY bind:clientY />
         {:else}
@@ -348,12 +353,16 @@
 <style lang="postcss">
   .card {
     @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
   .labelContainer {
     @apply py-2 px-2 bg-colorCardB border-b-2 border-colorText;
   }
   .label {
-    @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
+    @apply m-auto flex flex-wrap justify-center items-center gap-1 text-sm md:text-base lg:text-lg text-colorText font-semibold;
   }
   .rainbow-gradient {
     background: repeating-linear-gradient(
@@ -452,9 +461,5 @@
 
   :global(.dark) .hide-section-top {
     @apply hover:bg-slate-950;
-  }
-
-  .show-section-container {
-    @apply p-2 bg-colorCardC;
   }
 </style>

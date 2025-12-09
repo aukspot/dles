@@ -1,23 +1,21 @@
 <script>
   import { base } from "$app/paths"
+  import PanelWrapper from "./PanelWrapper.svelte"
 
   export let open = false
 </script>
 
-{#if open}
-  <div class="m-auto max-w-[36rem] p-2">
-    <div id="info">
-    <div class="text-center text-2xl md:text-3xl font-semibold font-mono">
-      info
-    </div>
-
-    <div class="divider mt-2"></div>
+<PanelWrapper {open}>
+  <div id="info">
+    <div class="title mb-4">info</div>
 
     <h2 class="question">What is this?</h2>
     <p class="answer">
       A curated collection of 500+ free games that are updated daily: puzzle
-      games, word games, trivia, logic games, and more! All games are completely
-      free and <em>do not require an account or subscription.</em>
+      games, word games, trivia games, logic games, geography games and more!
+      All games are completely free and <em
+        >do not require an account or subscription.</em
+      >
     </p>
     <h2 class="question">What is a dle?</h2>
     <p class="answer">
@@ -30,14 +28,12 @@
     </p>
     <h2 class="question">Can I help?</h2>
     <p class="answer">
-      Sure! You can <a
-        href="https://tally.so/r/mOKOea"
-        target="_blank">suggest a dle</a
+      Sure! You can <a href="https://tally.so/r/mOKOea" target="_blank"
+        >suggest a dle</a
       >
       or
-      <a href="https://tally.so/r/wQpPpY" target="_blank"
-        >report a bug</a
-      >. If you want to support monetarily, you can
+      <a href="https://tally.so/r/wQpPpY" target="_blank">report a bug</a>. If
+      you want to support monetarily, you can
       <a href="https://ko-fi.com/aukspot" target="_blank">donate on Ko-fi</a>.
       Lastly, you can
       <a href="https://github.com/aukspot/dles" target="_blank"
@@ -47,12 +43,12 @@
     </p>
     <div class="divider mt-2"></div>
     <p class="answer">
-      "They call them the dles, but they are anything but." - <em>Northernlion</em
+      "They call them the dles, but they are anything but." - <em
+        >Northernlion</em
       >
     </p>
-    </div>
   </div>
-{/if}
+</PanelWrapper>
 
 <!-- class="fixed z-30 top-[50%] md:top-[30%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[95%] min-w-80 max-w-[32rem] p-4 bg-colorCardA rounded-lg border-4 border-colorTextSoft shadow-md shadow-colorTextSofter" -->
 

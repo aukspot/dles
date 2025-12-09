@@ -1,6 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte"
   import { browser } from "$app/environment"
+  import { categoryRanks } from "$lib/stores"
 
   export let cards = []
   export let cardsVersion = 0
@@ -18,7 +19,8 @@
     // Use document.documentElement.clientWidth instead of window.innerWidth
     // to account for zoom/scaling
     const width = document.documentElement.clientWidth
-    if (width <= 336) return 1 // Increased threshold to prevent overflow
+    // Use minimum of 375px (2 cards at ~170px each + 8px gap + padding) to prevent overflow
+    if (width < 375) return 1
     if (width >= 1200) return Math.min(Math.floor(width / 220), 5) // 5 columns when there's space
     if (width >= 768) return Math.min(Math.floor(width / 220), 4) // 4 columns on large screens
     if (width >= 570) return 3
@@ -89,68 +91,20 @@
         columnHeights[1] += estimateCardHeight(favoriteCard)
       }
 
-      const regularCategoryCards = categoryCards.filter(
-        (card) => card.category !== "Miscellaneous",
-      )
-
-      const sortedCategoryCards = [...regularCategoryCards].sort((a, b) => {
-        if (a.category === "Words") return 1
-        if (b.category === "Words") return -1
-        return a.category.localeCompare(b.category)
+      // Sort all category cards by rank
+      const sortedCategoryCards = [...categoryCards].sort((a, b) => {
+        const rankA = $categoryRanks[a.category] ?? 999
+        const rankB = $categoryRanks[b.category] ?? 999
+        return rankA - rankB
       })
 
-      const miscellaneousCard = categoryCards.find(
-        (card) => card.category === "Miscellaneous",
-      )
-      if (miscellaneousCard) {
-        columns[0].push(miscellaneousCard)
-        columnHeights[0] += estimateCardHeight(miscellaneousCard)
-      }
-
-      const wordsCard = sortedCategoryCards.find(
-        (card) => card.category === "Words",
-      )
-      const nonWordsCards = sortedCategoryCards.filter(
-        (card) => card.category !== "Words",
-      )
-
-      if (numColumns === 2) {
-        const firstColumnCards = nonWordsCards.filter(
-          (card) => card.category < "Trivia",
-        )
-        const secondColumnCards = nonWordsCards.filter(
-          (card) => card.category >= "Trivia",
-        )
-
-        firstColumnCards.forEach((card) => {
-          columns[0].push(card)
-          columnHeights[0] += estimateCardHeight(card)
-        })
-
-        secondColumnCards.forEach((card) => {
-          columns[1].push(card)
-          columnHeights[1] += estimateCardHeight(card)
-        })
-      } else {
-        const availableColumns = numColumns - (wordsCard ? 1 : 0)
-        const cardsPerColumn = Math.ceil(
-          nonWordsCards.length / availableColumns,
-        )
-
-        nonWordsCards.forEach((card, index) => {
-          const targetColumn = Math.min(
-            Math.floor(index / cardsPerColumn),
-            availableColumns - 1,
-          )
-          columns[targetColumn].push(card)
-          columnHeights[targetColumn] += estimateCardHeight(card)
-        })
-      }
-
-      if (wordsCard) {
-        columns[numColumns - 1].push(wordsCard)
-        columnHeights[numColumns - 1] += estimateCardHeight(wordsCard)
-      }
+      // Distribute categories in right-to-left order (horizontally across columns)
+      // Card 1 → rightmost col, Card 2 → second from right, etc.
+      sortedCategoryCards.forEach((card, index) => {
+        const targetColumn = (numColumns - 1) - (index % numColumns)
+        columns[targetColumn].push(card)
+        columnHeights[targetColumn] += estimateCardHeight(card)
+      })
     }
 
     // Force reactivity
@@ -243,19 +197,26 @@
     @apply pb-3 mt-1 mb-2 gap-2;
     display: grid;
     grid-template-columns: repeat(var(--num-columns), 1fr);
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
   }
 
   .grid-column {
     @apply flex flex-col gap-2;
+    min-width: 0;
+    max-width: 100%;
   }
 
   .card-wrapper {
     @apply break-inside-avoid;
+    min-width: 0;
+    max-width: 100%;
   }
 
-  @media (max-width: 290px) {
+  @media (max-width: 374px) {
     .grid-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
     }
   }
 </style>

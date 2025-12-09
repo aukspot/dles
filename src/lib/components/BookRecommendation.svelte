@@ -14,12 +14,10 @@
 
   function hideCard() {
     hiddenSections.hide("bookRecommendation")
-    trackEvent("book-recommendation-hidden", {})
   }
 
   function showCard() {
     hiddenSections.show("bookRecommendation")
-    trackEvent("book-recommendation-shown", {})
   }
 
   $: isHidden = hiddenSections.isHidden("bookRecommendation", $hiddenSections)
@@ -36,7 +34,6 @@
     pageY = event.pageY
     clientY = event.clientY
     showModal = true
-    trackEvent("book-modal-opened", {})
   }
 
   function closeModal() {

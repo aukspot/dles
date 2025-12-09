@@ -5,6 +5,7 @@
   import { getContext } from "svelte"
 
   export let includeSearch = false
+  export let onOpenPreferences = () => {}
 
   const infoOpenStore = getContext("infoOpen")
 
@@ -12,7 +13,7 @@
 
   function toggleInfo() {
     if (infoOpenStore) {
-      infoOpenStore.update(v => !v)
+      infoOpenStore.update((v) => !v)
     }
   }
 </script>
@@ -44,5 +45,8 @@
   }
   .btn-info {
     @apply my-2 text-sm md:text-base mx-auto p-2 hover:shadow-colorTextSoftest w-36 rounded-md bg-colorCardB shadow-md active:shadow-none;
+  }
+  .btn-preferences {
+    @apply my-2 text-sm md:text-base p-2 hover:shadow-colorTextSoftest rounded-md bg-colorCardB shadow-md active:shadow-none flex items-center gap-1 cursor-pointer;
   }
 </style>

@@ -17,13 +17,17 @@
     filteredDles,
     randomCategories,
     dlesOfTheWeek,
+    activePanelStore,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
-  import { onMount, setContext } from "svelte"
-  import { writable } from "svelte/store"
+  import { onMount } from "svelte"
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
+  import RandomPanel from "$lib/components/RandomPanel.svelte"
+  import SettingsPanel from "$lib/components/SettingsPanel.svelte"
+  import HowToHelp from "$lib/components/HowToHelp.svelte"
+  import SearchPanel from "$lib/components/SearchPanel.svelte"
   import {
     getCurrentDlesOfTheWeek,
     isLocalStorageAvailable,
@@ -114,13 +118,35 @@
   )
 
   let loading = true
-  const infoOpenStore = writable(false)
-  setContext("infoOpen", infoOpenStore)
 
   onMount(() => {
     loading = false
   })
 </script>
+
+<noscript>
+  <style>
+    .js-only {
+      display: none !important;
+    }
+    .js-panels {
+      display: none !important;
+    }
+    .js-buttons {
+      display: none !important;
+    }
+
+    /* Hide all panels by default */
+    .noscript-panel {
+      display: none;
+    }
+
+    /* Show panel when targeted */
+    .noscript-panel:target {
+      display: block !important;
+    }
+  </style>
+</noscript>
 
 <div class="w-full text-colorText bg-colorBackground">
   <div class="flex flex-col max-w-screen-xl xl:max-w-[1170px] mx-auto">
@@ -129,13 +155,167 @@
     >
       <div>
         <Header />
-        <div class:hidden={loading}>
-          <Info open={$infoOpenStore} />
+        <noscript>
+          <div class="noscript-content pt-16">
+            <div
+              id="panel-info"
+              class="noscript-panel border border-zinc-900 dark:border-zinc-200 p-4 my-4"
+            >
+              <div class="m-auto max-w-[36rem] p-2">
+                <div class="header-section-label">INFO</div>
+                <div class="divider mt-2"></div>
+                <h2 class="question">What is this?</h2>
+                <p class="answer">
+                  A curated collection of 500+ free games that are updated
+                  daily: puzzle games, word games, trivia, logic games, and
+                  more! All games are completely free and
+                  <em>do not require an account or subscription.</em>
+                </p>
+                <h2 class="question">What is a dle?</h2>
+                <p class="answer">
+                  A <strong>dle</strong>, or <em>daily game</em>, is generally a
+                  game that changes everyday which has the same version for
+                  everyone that plays, often taking inspiration from
+                  <a href="https://en.wikipedia.org/wiki/Wordle" target="_blank"
+                    >Wor<strong>dle</strong></a
+                  >.
+                </p>
+                <h2 class="question">Can I help?</h2>
+                <p class="answer">
+                  Sure! You can
+                  <a href="https://tally.so/r/mOKOea" target="_blank"
+                    >suggest a dle</a
+                  >
+                  or
+                  <a href="https://tally.so/r/wQpPpY" target="_blank"
+                    >report a bug</a
+                  >. If you want to support monetarily, you can
+                  <a href="https://ko-fi.com/aukspot" target="_blank"
+                    >donate on Ko-fi</a
+                  >. Lastly, you can
+                  <a href="https://github.com/aukspot/dles" target="_blank"
+                    >look at the code on GitHub</a
+                  >
+                  and propose changes, as this project is open source.
+                </p>
+                <div class="divider mt-2"></div>
+                <p class="answer">
+                  "They call them the dles, but they are anything but." -
+                  <em>Northernlion</em>
+                </p>
+                <div class="flex justify-center mt-6">
+                  <a
+                    href="#"
+                    class="btn-header hover:bg-red-200 dark:hover:bg-red-800"
+                  >
+                    X CLOSE
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              id="panel-help"
+              class="noscript-panel border border-zinc-900 dark:border-zinc-200 p-4 my-4 pt-16"
+            >
+              <div class="m-auto max-w-[36rem] p-2">
+                <div class="header-section-label">HOW TO HELP</div>
+                <div class="divider my-2 mb-6"></div>
+                <div class="link-grid">
+                  <a
+                    class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
+                    href="https://tally.so/r/mOKOea"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Suggest a Game
+                  </a>
+                  <a
+                    class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
+                    href="https://tally.so/r/wQpPpY"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Report a Bug
+                  </a>
+                  <a
+                    class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
+                    href="https://ko-fi.com/aukspot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Donate
+                  </a>
+                  <a
+                    class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
+                    href="https://github.com/aukspot/dles"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>
+                </div>
+                <div class="flex justify-center mt-6">
+                  <a
+                    href="#"
+                    class="btn-header hover:bg-red-200 dark:hover:bg-red-800"
+                  >
+                    X CLOSE
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </noscript>
+        <div
+          class="js-panels"
+          class:hidden={loading}
+          class:border={$activePanelStore}
+          class:border-zinc-900={$activePanelStore}
+          class:dark:border-zinc-200={$activePanelStore}
+          class:p-4={$activePanelStore}
+          class:my-4={$activePanelStore}
+        >
+          <Info open={$activePanelStore === "info"} />
+          <RandomPanel open={$activePanelStore === "random"} />
+          <SettingsPanel open={$activePanelStore === "settings"} />
+          <HowToHelp open={$activePanelStore === "help"} />
+          <SearchPanel open={$activePanelStore === "search"} />
         </div>
         <slot />
       </div>
-      <LatestChange />
+      <!-- <LatestChange /> -->
     </main>
     <Footer />
   </div>
 </div>
+
+<style lang="postcss">
+  .question {
+    @apply mt-2 text-sm font-bold md:text-base text-center;
+  }
+  .answer {
+    @apply mt-1 text-xs md:text-sm leading-snug text-center;
+  }
+  .link-grid {
+    @apply grid grid-cols-2 gap-1;
+  }
+  .noscript-details {
+    @apply my-2;
+  }
+  .noscript-details summary {
+    @apply py-2 list-none;
+  }
+  .noscript-details summary::-webkit-details-marker {
+    display: none;
+  }
+  .noscript-details summary::marker {
+    display: none;
+  }
+  .noscript-details summary::after {
+    content: " ▼";
+    @apply text-sm;
+  }
+  .noscript-details[open] summary::after {
+    content: " ▲";
+  }
+</style>

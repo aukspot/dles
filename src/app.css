@@ -10,42 +10,49 @@ a {
   @apply text-colorLink hover:text-colorLinkHover active:text-colorLinkActive;
 }
 
+.header-section-label {
+  @apply uppercase text-center text-xl md:text-2xl font-semibold font-mono;
+}
+
 .changelog-link {
   @apply underline;
 }
 
+.title {
+  @apply p-1 font-mono text-base bg-colorCardC fill-colorTextSofter z-30 flex border border-colorTextSofter text-colorText justify-center;
+}
+
+.subtitle {
+  @apply p-1 font-mono text-[10px] bg-colorCardC fill-colorTextSofter z-30 uppercase shadow-colorTextSoftest shadow-sm;
+}
+
 .btn {
-  @apply shadow-colorNeutralSofter text-colorText border-colorNeutral rounded-md
-    border p-1 text-base shadow-md hover:shadow-none active:shadow-none md:text-lg;
+  @apply shadow-colorNeutralSofter text-colorText border-colorNeutral rounded-md border p-1 text-base shadow-md hover:shadow-none active:shadow-none md:text-lg;
 }
 
 .btn:disabled {
   cursor: unset;
-  @apply text-colorNeutral bg-colorBackground border-colorNeutralSofter
-    shadow-none;
+  @apply text-colorNeutral bg-colorBackground border-colorNeutralSofter shadow-none;
+}
+
+.btn-header {
+  @apply p-[.4rem] font-mono text-[10px] sm:text-[12px] bg-colorCardC fill-colorTextSofter z-30 flex items-center uppercase border border-colorTextSofter;
 }
 
 .btn-icon {
-  @apply fill-colorTextSoft flex h-9 w-9 items-center justify-center rounded
-    hover:border hover:border-colorNeutralSoft active:shadow-none;
+  @apply fill-colorTextSoft flex h-9 w-9 items-center justify-center rounded hover:border hover:border-colorNeutralSoft active:shadow-none;
 }
 
 .btn-dropdown-menu {
-  @apply text-colorText bg-colorCardB fill-colorTextSofter z-30 flex items-center
-    justify-between gap-1 rounded-md border-2 border-transparent p-1 shadow-md
-    hover:border-2 hover:border-colorTextSofter active:shadow-none;
+  @apply text-colorText bg-colorCardB fill-colorTextSofter z-30 flex items-center justify-between gap-1 rounded-md border-2 border-transparent p-1 shadow-md hover:border-2 hover:border-colorTextSofter active:shadow-none;
 }
 
 .btn-menu-item {
-  @apply text-colorText bg-colorCardB fill-colorTextSoft flex items-center
-    justify-center gap-1 border-2 border-transparent p-1 hover:border-2
-    hover:border-colorTextSofter hover:!bg-colorBackground;
+  @apply text-colorText bg-colorCardB fill-colorTextSoft flex items-center justify-center gap-1 border-2 border-transparent p-1 hover:border-2 hover:border-colorTextSofter hover:bg-colorBackground;
 }
 
 .btn-settings {
-  @apply text-colorText bg-colorCardB fill-colorTextSoft flex items-center
-    justify-center gap-1 rounded-md border-2 border-transparent p-1 hover:border-2
-    hover:border-colorText;
+  @apply text-colorText bg-colorCardB fill-colorTextSoft flex items-center justify-center gap-1 rounded-md border-2 border-transparent p-1 hover:border-2 hover:border-colorText;
 }
 
 .btn-toolbar {
@@ -56,6 +63,38 @@ a {
   @apply md:w-8;
 }
 
+.btn-action {
+  @apply inline-flex items-center justify-center gap-1.5 px-3 py-1.5 text-xs font-medium uppercase text-colorText bg-colorCardC border border-colorTextSofter transition-all text-center fill-colorText;
+}
+
+.btn-action:hover {
+  @apply bg-zinc-200;
+}
+
+:is(.dark .btn-action):hover {
+  @apply bg-zinc-800;
+}
+
+.btn-action :global(svg) {
+  @apply w-4 h-4 flex-shrink-0;
+}
+
+.btn-action :global(svg path) {
+  fill: currentColor;
+}
+
+.btn-toggle {
+  @apply cursor-pointer flex items-center justify-center select-none text-xs px-1.5 bg-zinc-200 dark:bg-zinc-800 border border-zinc-400 dark:border-zinc-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all font-medium;
+}
+
+.btn-toggle.active {
+  @apply bg-colorCardC border-colorTextSofter hover:bg-colorCardB;
+}
+
+.btn-toggle input[type="checkbox"] {
+  @apply w-4 h-4 cursor-pointer;
+}
+
 .showBtn {
   opacity: 1 !important;
   display: block;
@@ -63,8 +102,7 @@ a {
 }
 
 .menu-link {
-  @apply text-colorText [&:nth-child(odd)]:bg-colorCardA
-    [&:nth-child(even)]:bg-colorCardB flex justify-center gap-2 p-2;
+  @apply text-colorText [&:nth-child(odd)]:bg-colorCardA [&:nth-child(even)]:bg-colorCardB flex justify-center gap-2 p-2;
 }
 
 .only-md {
@@ -94,8 +132,7 @@ input {
 input[type="number"],
 input[type="text"],
 textarea {
-  @apply font-mono bg-colorBackground border-colorNeutral rounded border p-2
-    text-xs placeholder:text-colorTextSofter sm:text-sm;
+  @apply font-mono bg-colorBackground border-colorNeutral rounded border p-2 text-xs placeholder:text-colorTextSofter sm:text-sm;
 }
 
 textarea {
@@ -130,7 +167,7 @@ td {
     padding: var(--spacing-6);
     box-shadow: var(--shadow-xl);
   }
-  
+
   .unselectable {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -139,7 +176,7 @@ td {
     -ms-user-select: none;
     user-select: none;
   }
-  
+
   .grid-cols-var {
     grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
   }

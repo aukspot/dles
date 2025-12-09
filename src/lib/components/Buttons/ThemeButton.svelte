@@ -1,53 +1,14 @@
 <script>
   import { onMount } from "svelte"
   import IconLightbulb from "$lib/components/Icons/IconLightbulb.svelte"
-  import { isLocalStorageAvailable } from "$lib/js/utilities"
+  import { useTheme } from "$lib/composables/useTheme"
 
-  const STORAGE_KEY = "theme"
-  const DARK_PREFERENCE = "(prefers-color-scheme: dark)"
+  const theme = useTheme()
+  const { toggleTheme } = theme
 
-  const THEMES = {
-    DARK: "dark",
-    LIGHT: "light",
-  }
-
-  const prefersDarkThemes = () => window.matchMedia(DARK_PREFERENCE).matches
-
-  const toggleTheme = () => {
-    if (!isLocalStorageAvailable()) {
-      applyTheme()
-      return
-    }
-    const stored = localStorage.getItem(STORAGE_KEY)
-
-    if (stored) {
-      localStorage.removeItem(STORAGE_KEY)
-    } else {
-      localStorage.setItem(
-        STORAGE_KEY,
-        prefersDarkThemes() ? THEMES.LIGHT : THEMES.DARK,
-      )
-    }
-    applyTheme()
-  }
-
-  const applyTheme = () => {
-    if (!isLocalStorageAvailable()) {
-      document.documentElement.classList.toggle(THEMES.DARK)
-      return
-    }
-
-    const preferredTheme = prefersDarkThemes() ? THEMES.DARK : THEMES.LIGHT
-    let currentTheme = localStorage.getItem(STORAGE_KEY) ?? preferredTheme
-
-    if (currentTheme && currentTheme == THEMES.DARK) {
-      document.documentElement.classList.add(THEMES.DARK)
-    } else {
-      document.documentElement.classList.remove(THEMES.DARK)
-    }
-  }
-
-  onMount(applyTheme)
+  onMount(() => {
+    theme.applyTheme()
+  })
 </script>
 
 <button

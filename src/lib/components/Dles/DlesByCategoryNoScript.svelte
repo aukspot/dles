@@ -1,39 +1,74 @@
 <script>
-  import { categories, categorizedDles, categoryColors } from "$lib/stores"
+  import { categories, categorizedDles } from "$lib/stores"
+
   import Banner from "../Banner.svelte"
 
-  import IconGeography from "../Icons/IconGeography.svelte"
-  import IconMath from "../Icons/IconMath.svelte"
-  import IconMiscellaneous from "../Icons/IconMiscellaneous.svelte"
-  import IconMovies from "../Icons/IconMovies.svelte"
-  import IconMusic from "../Icons/IconMusic.svelte"
-  import IconPrices from "../Icons/IconPrices.svelte"
-  import IconSports from "../Icons/IconSports.svelte"
-  import IconTrivia from "../Icons/IconTrivia.svelte"
-  import IconVideoGames from "../Icons/IconVideoGames.svelte"
-  import IconWords from "../Icons/IconWords.svelte"
+  import IconCardBoardGames from "$lib/components/Icons/IconCardBoardGames.svelte"
+  import IconColors from "$lib/components/Icons/IconColors.svelte"
+  import IconEstimation from "$lib/components/Icons/IconEstimation.svelte"
+  import IconFood from "$lib/components/Icons/IconFood.svelte"
+  import IconGeography from "$lib/components/Icons/IconGeography.svelte"
+  import IconHistory from "$lib/components/Icons/IconHistory.svelte"
+  import IconMath from "$lib/components/Icons/IconMath.svelte"
+  import IconMovies from "$lib/components/Icons/IconMovies.svelte"
+  import IconMusic from "$lib/components/Icons/IconMusic.svelte"
+  import IconScienceNature from "$lib/components/Icons/IconScienceNature.svelte"
+  import IconShapesPatterns from "$lib/components/Icons/IconShapesPatterns.svelte"
+  import IconSports from "$lib/components/Icons/IconSports.svelte"
+  import IconTrivia from "$lib/components/Icons/IconTrivia.svelte"
+  import IconVehicles from "$lib/components/Icons/IconVehicles.svelte"
+  import IconVideoGames from "$lib/components/Icons/IconVideoGames.svelte"
+  import IconWords from "$lib/components/Icons/IconWords.svelte"
+  import IconMiscellaneous from "$lib/components/Icons/IconMiscellaneous.svelte"
+
+  let categoryColors = {
+    "Card/Board Games": "hsl(0, 90%, 50%, 45%)",
+    Colors: "hsl(24, 90%, 50%, 45%)",
+    Estimation: "hsl(48, 90%, 50%, 45%)",
+    Food: "hsl(72, 90%, 50%, 45%)",
+    Geography: "hsl(96, 90%, 50%, 45%)",
+    History: "hsl(108, 90%, 50%, 45%)",
+    "Math/Logic": "hsl(120, 90%, 50%, 45%)",
+    "Movies/TV": "hsl(144, 90%, 50%, 45%)",
+    Music: "hsl(168, 90%, 50%, 45%)",
+    "Science/Nature": "hsl(192, 90%, 50%, 45%)",
+    "Shapes/Patterns": "hsl(216, 90%, 50%, 45%)",
+    Sponsors: "hsl(226, 90%, 50%, 45%)",
+    Sports: "hsl(240, 90%, 50%, 45%)",
+    Trivia: "hsl(264, 90%, 50%, 45%)",
+    Vehicles: "hsl(288, 90%, 50%, 45%)",
+    "Video Games": "hsl(312, 90%, 50%, 45%)",
+    Words: "hsl(336, 90%, 50%, 45%)",
+    Miscellaneous: "hsl(0, 0%, 49%, 45%)",
+  }
 
   const categoryIcons = {
-    "Geography/History": IconGeography,
+    "Card/Board Games": IconCardBoardGames,
+    Colors: IconColors,
+    Estimation: IconEstimation,
+    Food: IconFood,
+    Geography: IconGeography,
+    History: IconHistory,
     "Math/Logic": IconMath,
     "Movies/TV": IconMovies,
     Music: IconMusic,
-    Prices: IconPrices,
+    "Science/Nature": IconScienceNature,
+    "Shapes/Patterns": IconShapesPatterns,
     Sports: IconSports,
     Trivia: IconTrivia,
+    Vehicles: IconVehicles,
     "Video Games": IconVideoGames,
     Words: IconWords,
     Miscellaneous: IconMiscellaneous,
   }
 </script>
 
-<Banner />
-<div class="dlesContainer">
+<div class="gridContainer">
   {#each $categories as category, i (i)}
     <div class="card">
       <div
         class="labelContainer"
-        style="background-color: {$categoryColors[category]}"
+        style="background-color: {categoryColors[category]}"
       >
         <div class="label">
           <div class="flex-shrink-0">
@@ -60,9 +95,39 @@
 </div>
 
 <style lang="postcss">
-  .dlesContainer {
-    @apply pb-3 px-1 mt-1 mb-2 gap-2 columns-2 md:columns-[12rem] max-[290px]:columns-1;
+  .gridContainer {
+    @apply pb-3 mt-1 mb-2;
+    columns: 2;
+    column-gap: 0.5rem;
+    width: 100%;
+    max-width: 100%;
   }
+
+  /* Responsive column count */
+  @media (min-width: 570px) {
+    .gridContainer {
+      columns: 3;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .gridContainer {
+      columns: 4;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .gridContainer {
+      column-count: 5;
+    }
+  }
+
+  @media (max-width: 374px) {
+    .gridContainer {
+      columns: 1;
+    }
+  }
+
   .card {
     @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
   }
@@ -82,5 +147,8 @@
     @apply inline-block text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorLink;
     text-decoration-thickness: 2px;
     width: auto;
+  }
+  .dleList {
+    @apply list-none p-0 m-0;
   }
 </style>

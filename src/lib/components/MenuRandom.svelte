@@ -36,46 +36,68 @@
   onMount(() => {
     updateOptions()
   })
+
+  $: selectedCount = $randomCategories.length
 </script>
 
-<DropdownMenu>
-  <h2
-    class="pb-1 mb-1 flex justify-center gap-2 fill-colorText text-lg font-semibold border-b border-colorTextSoftest"
-  >
-    <IconRandom /> Play random game
-  </h2>
-  <div class="flex justify-center">
-    <button
-      class="menu-link btn-menu-item rounded-md shadow-sm shadow-colorTextSofter active:shadow-none"
-      on:click={() => playRandom(options)}
-    >
-      Go! (opens in new tab)</button
-    >
+<div>
+  <div class="title mb-4">RANDOM</div>
+  <div class="text-xs text-center text-colorTextSoft">
+    ({selectedCount} categories selected)
   </div>
-  <h3 class="text-center underline">Allowed categories</h3>
-  <div class="columns-2 mx-auto">
+  <div class="category-grid mt-4 mb-2">
     {#each $categories as category}
-      <label>
+      <label class="category-btn" class:checked={categoryChecked[category]}>
         <input
           name={category}
           type="checkbox"
           bind:checked={categoryChecked[category]}
           on:click={toggleCategory(category)}
         />
-        <span aria-label={category} class="text-sm">{category}</span>
+        <span
+          aria-label={category}
+          style="text-decoration: {categoryChecked[category]
+            ? 'none'
+            : 'line-through'}">{category}</span
+        >
       </label>
     {/each}
   </div>
-  <p class="text-center">
-    Choosing from <strong>{options.length}</strong> dles
+  <div class="flex justify-center mb-2">
+    <button class="btn-play" on:click={() => playRandom(options)}>
+      Play random dle!
+    </button>
+  </div>
+
+  <p class="text-center text-xs text-colorTextSoft">
+    choosing from of <span class="font-bold">{options.length}</span> dles
   </p>
-</DropdownMenu>
+</div>
 
 <style lang="postcss">
-  label {
-    @apply cursor-pointer flex items-center flex-shrink-0 select-none;
+  .category-grid {
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-1;
   }
+
+  .category-btn {
+    @apply cursor-pointer flex items-center justify-center gap-1 select-none text-[10px] sm:text-xs px-2 py-1 border
+            bg-zinc-200 dark:bg-zinc-800 border-zinc-300 dark:border-zinc-600 uppercase font-mono hover:bg-orange-100 hover:border-zinc-800 dark:hover:bg-orange-900;
+  }
+
+  .category-btn.checked {
+    @apply bg-zinc-100 border border-colorTextSofter
+           hover:bg-orange-300 dark:hover:bg-orange-700 dark:bg-zinc-900;
+  }
+
+  .checkmark {
+    @apply w-3 h-3 flex-shrink-0;
+  }
+
   input[type="checkbox"] {
-    @apply w-5 h-5 fill-colorCardB cursor-pointer flex-shrink-0;
+    @apply hidden;
+  }
+
+  .btn-play {
+    @apply px-4 py-2 mt-4 text-xs font-bold uppercase bg-orange-200 hover:bg-orange-300 dark:bg-orange-800 border border-colorTextSoft dark:hover:bg-orange-700 text-colorText;
   }
 </style>

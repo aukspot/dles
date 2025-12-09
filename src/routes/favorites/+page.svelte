@@ -8,5 +8,4 @@
   <meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
-<Banner />
 <DleFavorites />

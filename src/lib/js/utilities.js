@@ -69,7 +69,7 @@ export function getCurrentDlesOfTheWeek(dlesOfWeek) {
   return dlesOfWeek[dlesOfWeek.length - 1];
 }
 
-export function enhancedSearch(dles, query, searchByDescription = false) {
+export function enhancedSearch(dles, query, searchByDescription = false, searchByUrl = false) {
   if (!query.trim()) return dles;
 
   const searchTerms = query.toLowerCase().trim().split(/\s+/);
@@ -77,7 +77,8 @@ export function enhancedSearch(dles, query, searchByDescription = false) {
   return dles.filter((dle) => {
     const searchableText = [
       dle.name,
-      ...(searchByDescription ? [dle.description] : [])
+      ...(searchByDescription ? [dle.description] : []),
+      ...(searchByUrl ? [dle.url] : [])
     ].join(' ').toLowerCase();
 
     return searchTerms.every(term => searchableText.includes(term));

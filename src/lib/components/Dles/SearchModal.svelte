@@ -20,6 +20,10 @@
   let filteredDles = []
   let newlyToggledInSession = new Set()
   let isTouchDevice = false
+  let dlesCache = new Map()
+  let favoriteIdsSet = new Set()
+  let prevFavoriteIds = []
+  let searchRaf = null
 
   let width = 320
   let baseHeight = 120
@@ -27,16 +31,16 @@
 
   $: currentHeight = filteredDles.length > 0 ? maxHeight : baseHeight
 
-  $: isMobile = typeof window !== 'undefined' && window.innerWidth <= 768
+  $: isMobile = typeof window !== "undefined" && window.innerWidth <= 768
 
   let adjustedPageX, adjustedPageY, transformX, transformY
 
   $: {
     if (isMobile) {
-      adjustedPageX = '50%'
-      adjustedPageY = '2%'
-      transformX = '-50%'
-      transformY = '0%'
+      adjustedPageX = "50%"
+      adjustedPageY = "2%"
+      transformX = "-50%"
+      transformY = "0%"
     } else {
       if (pageX < width / 2) {
         pageX = width / 2 + 5
@@ -51,36 +55,77 @@
       transformY = "0%"
 
       adjustedPageX = pageX
-      transformX = '-50%'
+      transformX = "-50%"
     }
   }
 
-  $: {
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase()
-
-      filteredDles = $dles
-        .filter((dle) =>
-          dle.name.toLowerCase().includes(query)
-        )
-        .filter((dle) => !$favoriteIds.includes(dle.id) || newlyToggledInSession.has(dle.id))
-        .sort((a, b) => {
-          const aName = a.name.toLowerCase()
-          const bName = b.name.toLowerCase()
-
-          // Priority 1: Name starts with query
-          const aNameStarts = aName.startsWith(query)
-          const bNameStarts = bName.startsWith(query)
-          if (aNameStarts && !bNameStarts) return -1
-          if (!aNameStarts && bNameStarts) return 1
-
-          // Priority 2: Alphabetical by name
-          return aName.localeCompare(bName)
+  // Build cache once on mount with pre-sorted groups by first letter
+  function buildCache() {
+    const newCache = new Map()
+    for (const dle of $dles) {
+      if (dle?.id && dle?.name) {
+        newCache.set(dle.id, {
+          dle,
+          nameLower: dle.name.toLowerCase(),
+          nameFirstChar: dle.name.toLowerCase().charAt(0),
         })
-        .slice(0, )
-    } else {
-      filteredDles = []
+      }
     }
+    dlesCache = newCache
+  }
+
+  // Update favoriteIdsSet only when $favoriteIds actually changes
+  $: {
+    if ($favoriteIds !== prevFavoriteIds) {
+      favoriteIdsSet = new Set($favoriteIds)
+      prevFavoriteIds = $favoriteIds
+    }
+  }
+
+  // Optimized search function with result limit
+  function performSearch(query) {
+    if (!query.trim()) {
+      filteredDles = []
+      return
+    }
+
+    const queryLower = query.toLowerCase()
+    const results = []
+    const maxResults = 50 // Limit results for better performance
+
+    // Single pass: collect and immediately sort by insertion
+    for (const [id, { dle, nameLower }] of dlesCache) {
+      if (favoriteIdsSet.has(id) && !newlyToggledInSession.has(id)) continue
+
+      if (nameLower.includes(queryLower)) {
+        // Calculate a simple sort score: 0 for starts with, 1 for contains
+        const sortScore = nameLower.startsWith(queryLower) ? 0 : 1
+        results.push({ dle, sortScore, name: dle.name })
+
+        // Early exit if we have enough results and they're all "starts with"
+        if (results.length >= maxResults && sortScore === 0) break
+      }
+    }
+
+    // Sort: first by sortScore, then alphabetically
+    results.sort((a, b) => {
+      if (a.sortScore !== b.sortScore) return a.sortScore - b.sortScore
+      return a.name.localeCompare(b.name)
+    })
+
+    // Take only the top results and extract dles
+    filteredDles = results.slice(0, maxResults).map((r) => r.dle)
+  }
+
+  // Use RAF to batch search updates and prevent UI freezing
+  $: {
+    if (searchRaf) {
+      cancelAnimationFrame(searchRaf)
+    }
+    searchRaf = requestAnimationFrame(() => {
+      performSearch(searchQuery)
+      searchRaf = null
+    })
   }
 
   function toggleFavorite(dle) {
@@ -92,16 +137,16 @@
       tracking.trackFavoriteAction(
         dle,
         result.action,
-        'search-modal',
-        'favorites-search',
+        "search-modal",
+        "favorites-search",
         null,
-        result.totalFavorites
+        result.totalFavorites,
       )
     }
   }
 
   function handleKeydown(event) {
-    if (event.key === 'Escape') {
+    if (event.key === "Escape") {
       onClose()
     }
   }
@@ -111,7 +156,8 @@
   }
 
   onMount(() => {
-    isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+    isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0
+    buildCache()
   })
 
   function focusInput(element) {
@@ -123,12 +169,17 @@
 
 <div
   class="searchPopup"
-  style="left: {adjustedPageX}{typeof adjustedPageX === 'number' ? 'px' : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number' ? 'px' : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY});"
+  style="left: {adjustedPageX}{typeof adjustedPageX === 'number'
+    ? 'px'
+    : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number'
+    ? 'px'
+    : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY});"
   use:clickOutside
   on:click_outside={handleClickOutside}
 >
   <div class="flex justify-around items-center mb-2">
-    <div class="w-6"></div> <!-- Placeholder for balance -->
+    <div class="w-6"></div>
+    <!-- Placeholder for balance -->
     <h3 class="text-lg font-semibold text-colorText">Add a new favorite!</h3>
     <button on:click={onClose}>
       <IconClose />
@@ -147,20 +198,21 @@
 
   <div class="results-container">
     {#if searchQuery.trim() && filteredDles.length === 0}
-      <div class="no-results">
-        No dles found.
-      </div>
+      <div class="no-results">No dles found.</div>
     {:else if filteredDles.length > 0}
       <div class="results">
         {#each filteredDles as dle, index (dle.id)}
-          {@const isFavorited = favorites.isFavorited(dle)}
-          {@const bgColor = index % 2 === 0 ? 'rgb(var(--colors-colorCardB))' : 'rgb(var(--colors-colorCardA))'}
+          {@const isFavorited =
+            favoriteIdsSet.has(dle.id) || newlyToggledInSession.has(dle.id)}
           <button
             class="result-item"
             class:favorited={isFavorited}
-            style="background-color: {isFavorited ? '' : bgColor};"
+            class:even-row={index % 2 === 0}
+            class:odd-row={index % 2 !== 0}
             on:click={() => toggleFavorite(dle)}
-            title={isFavorited ? `Remove ${dle.name} from favorites` : `Add ${dle.name} to favorites`}
+            title={isFavorited
+              ? `Remove ${dle.name} from favorites`
+              : `Add ${dle.name} to favorites`}
           >
             <div class="dle-info">
               <div
@@ -195,12 +247,16 @@
   .searchPopup {
     @apply fixed p-3 flex flex-col bg-colorCardC rounded-lg border border-colorNeutralSoft;
     z-index: 100;
-    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow:
+      0 10px 25px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   :global(.dark) .searchPopup {
     @apply border-colorTextSoftest;
-    box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+    box-shadow:
+      0 10px 25px -3px rgba(0, 0, 0, 0.3),
+      0 4px 6px -2px rgba(0, 0, 0, 0.1);
   }
 
   .search-header {
@@ -227,7 +283,17 @@
 
   .result-item {
     @apply flex items-center justify-between p-2 pr-4 rounded cursor-pointer border-none w-full text-left;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+
+  .result-item.even-row {
+    @apply bg-colorCardB;
+  }
+
+  .result-item.odd-row {
+    @apply bg-colorCardA;
   }
 
   .result-item:hover {
@@ -278,6 +344,4 @@
   .result-item:hover .plus-icon {
     @apply opacity-100;
   }
-
-
 </style>

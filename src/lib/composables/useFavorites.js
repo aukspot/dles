@@ -2,26 +2,56 @@ import { favoriteIds } from "$lib/stores"
 import { isLocalStorageAvailable } from "$lib/js/utilities"
 import { get } from "svelte/store"
 
+// Debounce timer for batching favorite updates
+let updateTimer = null
+let pendingFavorites = null
+
+function flushFavoriteUpdates() {
+  if (pendingFavorites !== null) {
+    favoriteIds.set(pendingFavorites)
+
+    if (isLocalStorageAvailable()) {
+      localStorage.favorites = JSON.stringify(pendingFavorites)
+    }
+
+    pendingFavorites = null
+  }
+}
+
+function debouncedUpdateFavorites(newFavorites) {
+  pendingFavorites = newFavorites
+
+  if (updateTimer) {
+    clearTimeout(updateTimer)
+  }
+
+  updateTimer = setTimeout(() => {
+    flushFavoriteUpdates()
+    updateTimer = null
+  }, 15) // 15ms debounce - fast enough to feel instant but batches rapid toggles
+}
+
 export function useFavorites() {
 
   function isFavorited(dle) {
+    // Check pending updates first for immediate UI feedback
+    if (pendingFavorites !== null) {
+      return pendingFavorites.includes(dle.id)
+    }
     const currentFavorites = get(favoriteIds)
     return currentFavorites.includes(dle.id)
   }
 
   function addToFavorites(dle) {
     try {
-      const currentFavorites = get(favoriteIds)
+      const currentFavorites = pendingFavorites !== null ? pendingFavorites : get(favoriteIds)
 
       if (currentFavorites.includes(dle.id)) {
         return true
       }
 
-      favoriteIds.update(favorites => [...favorites, dle.id])
-
-      if (isLocalStorageAvailable()) {
-        localStorage.favorites = JSON.stringify(get(favoriteIds))
-      }
+      const newFavorites = [...currentFavorites, dle.id]
+      debouncedUpdateFavorites(newFavorites)
 
       return true
     } catch (error) {
@@ -32,11 +62,10 @@ export function useFavorites() {
 
   function removeFromFavorites(dle) {
     try {
-      favoriteIds.update(favorites => favorites.filter(id => id !== dle.id))
+      const currentFavorites = pendingFavorites !== null ? pendingFavorites : get(favoriteIds)
+      const newFavorites = currentFavorites.filter(id => id !== dle.id)
 
-      if (isLocalStorageAvailable()) {
-        localStorage.favorites = JSON.stringify(get(favoriteIds))
-      }
+      debouncedUpdateFavorites(newFavorites)
 
       return true
     } catch (error) {
@@ -55,16 +84,19 @@ export function useFavorites() {
       success = addToFavorites(dle)
     }
 
+    // Use pending favorites count if available for immediate feedback
+    const currentCount = pendingFavorites !== null ? pendingFavorites.length : get(favoriteIds).length
+
     return {
       success,
       action: wasInFavorites ? 'unfavorite' : 'favorite',
       wasInFavorites,
-      totalFavorites: get(favoriteIds).length
+      totalFavorites: currentCount
     }
   }
 
   function getFavoritesCount() {
-    return get(favoriteIds).length
+    return pendingFavorites !== null ? pendingFavorites.length : get(favoriteIds).length
   }
 
   return {

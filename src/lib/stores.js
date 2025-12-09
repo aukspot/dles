@@ -82,3 +82,7 @@ export let sponsors = readable([
     category: "Geography",
   },
 ])
+
+export { categoryRanks } from "$lib/js/categoryRanks"
+
+export let activePanelStore = writable(null)

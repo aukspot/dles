@@ -3,14 +3,19 @@
   import BackToTopButton from "../Buttons/BackToTopButton.svelte"
   import DlesByCategory from "./DlesByCategory.svelte"
   import DlesByCategoryNoScript from "./DlesByCategoryNoScript.svelte"
-  import DlesDetailed from "./DlesDetailed.svelte"
+  import { onMount } from "svelte"
+  import { isLocalStorageAvailable } from "$lib/js/utilities"
+
+  // Migrate DetailedView to Category View (deprecation)
+  onMount(() => {
+    if (isLocalStorageAvailable() && localStorage.view === "Detailed View") {
+      $settings.view = "Category View"
+      localStorage.view = "Category View"
+    }
+  })
 </script>
 
-{#if $settings.view == "Detailed View"}
-  <DlesDetailed />
-{:else if $settings.view == "Category View"}
-  <DlesByCategory />
-{/if}
+<DlesByCategory />
 
 <noscript>
   <DlesByCategoryNoScript />
