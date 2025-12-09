@@ -104,7 +104,7 @@
 </script>
 
 <PanelWrapper {open}>
-  <div class="title mb-4">SETTINGS</div>
+  <div class="title mb-4 !bg-yellow-300 dark:!bg-yellow-700">SETTINGS</div>
 
   <div class="panel-content">
     <section class="preference-section">

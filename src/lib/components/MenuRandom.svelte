@@ -41,7 +41,7 @@
 </script>
 
 <div>
-  <div class="title mb-4">RANDOM</div>
+  <div class="title mb-4 !bg-orange-300 dark:!bg-orange-700">RANDOM</div>
   <div class="text-xs text-center text-colorTextSoft">
     ({selectedCount} categories selected)
   </div>

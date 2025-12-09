@@ -8,12 +8,12 @@
   export let jsOnly = false // Hide when JavaScript is disabled
 
   const colorClasses = {
-    red: "hover:bg-red-300 dark:hover:bg-red-800",
-    orange: "hover:bg-orange-300 dark:hover:bg-orange-700",
-    yellow: "hover:bg-yellow-300 dark:hover:bg-yellow-700",
-    green: "hover:bg-green-300 dark:hover:bg-green-700",
-    blue: "hover:bg-blue-300 dark:hover:bg-blue-700",
-    violet: "hover:bg-violet-300 dark:hover:bg-violet-800",
+    red: "!bg-red-300 dark:!bg-red-800 hover:!bg-colorCardC",
+    orange: "!bg-orange-300 dark:!bg-orange-700 hover:!bg-colorCardC",
+    yellow: "!bg-yellow-300 dark:!bg-yellow-700 hover:!bg-colorCardC",
+    green: "!bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC",
+    blue: "!bg-blue-300 dark:!bg-blue-700 hover:!bg-colorCardC",
+    violet: "!bg-violet-300 dark:!bg-violet-800 hover:!bg-colorCardC",
   }
 
   $: isActive = $activePanelStore === panelId

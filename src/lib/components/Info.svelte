@@ -7,7 +7,7 @@
 
 <PanelWrapper {open}>
   <div id="info">
-    <div class="title mb-4">info</div>
+    <div class="title mb-4 !bg-red-300 dark:!bg-red-800">info</div>
 
     <h2 class="question">What is this?</h2>
     <p class="answer">

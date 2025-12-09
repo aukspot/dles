@@ -57,7 +57,7 @@
 </script>
 
 <PanelWrapper {open}>
-  <div class="title mb-4">SEARCH DLES</div>
+  <div class="title mb-4 !bg-violet-300 dark:!bg-violet-800">SEARCH DLES</div>
 
   <div class="search-content">
     <SearchBar bind:this={searchBarComponent} bind:searchInput />

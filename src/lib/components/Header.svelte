@@ -67,12 +67,12 @@
       <div class="flex items-baseline gap-2 flex-wrap overflow-x">
         <a
           href="#panel-info"
-          class="btn-header text-colorText hover:bg-red-300 dark:hover:bg-red-800"
+          class="btn-header text-colorText !bg-red-300 dark:!bg-red-800 hover:!bg-colorCardC"
           >INFO</a
         >
         <a
           href="#panel-help"
-          class="btn-header text-colorText hover:bg-green-300 dark:hover:bg-green-700"
+          class="btn-header text-colorText !bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC"
           >HOW TO HELP</a
         >
         <!-- <a

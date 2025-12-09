@@ -9,7 +9,7 @@
 </script>
 
 <PanelWrapper {open}>
-  <div class="title mb-4">HOW TO HELP</div>
+  <div class="title mb-4 !bg-green-300 dark:!bg-green-700">HOW TO HELP</div>
 
   <div class="link-grid">
     <a
