@@ -38,7 +38,6 @@
     needsFavoritesMigration,
   } from "$lib/js/favoritesMigration"
   import LatestChange from "$lib/components/LatestChange.svelte"
-  import ExamplePopUp from "$lib/components/ExamplePopUp.svelte"
 
   onMount(() => {
     if (isLocalStorageAvailable()) {

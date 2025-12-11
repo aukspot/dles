@@ -187,10 +187,6 @@
     @apply max-w-[90rem] mx-auto py-4;
   }
 
-  .page-title {
-    @apply text-2xl md:text-3xl font-bold text-center uppercase mb-2 text-colorText;
-  }
-
   #changelog {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4;
     grid-auto-rows: max-content;
