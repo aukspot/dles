@@ -2,7 +2,7 @@
 
 ## 2025-12-11
 
-Add 18 dles. Remove 2 dles. Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>
+Add 18 dles.<br/>Remove 2 dles.<br/>Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>
 
 dles added: 
 |    | name                                                                  | url                                                                                                                    |
@@ -27,10 +27,10 @@ dles added:
 | 18 | [Yearly Daily](https://coffeefirst.games/yearly-daily)                | [https://coffeefirst.games/yearly-daily](https://coffeefirst.games/yearly-daily)                                       |
 
 dles removed: 
-|    | name                                        | url                                                                      |
-|---:|:--------------------------------------------|:-------------------------------------------------------------------------|
-|  1 | [Hexle](https://frankljin.github.io/hexle/) | [https://frankljin.github.io/hexle/](https://frankljin.github.io/hexle/) |
-|  2 | [sqnces](https://sqnces.com)                | [https://sqnces.com](https://sqnces.com)                                 |
+|    | name                                        | url                                                                      | reason                  |
+|---:|:--------------------------------------------|:-------------------------------------------------------------------------|:------------------------|
+|  1 | [Hexle](https://frankljin.github.io/hexle/) | [https://frankljin.github.io/hexle/](https://frankljin.github.io/hexle/) | The game does not work. |
+|  2 | [sqnces](https://sqnces.com)                | [https://sqnces.com](https://sqnces.com)                                 | The game does not work. |
 ## 2025-12-02
 
 Add 2 dles. Remove 2 dles. 
