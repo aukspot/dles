@@ -190,7 +190,12 @@
               </div>
             {/if}
 
-            {#if !answered && !showingResults}
+            {#if loadingPollId === currentPoll.id}
+              <!-- Loading state -->
+              <div class="loading-container">
+                <p class="loading-text">Loading...</p>
+              </div>
+            {:else if !answered && !showingResults}
               <!-- Voting UI -->
               <div class="poll-options-container">
                 {#each currentPoll.options as option}
@@ -230,6 +235,11 @@
                 <p class="results-total">
                   <strong>{results.total}</strong> total votes
                 </p>
+              </div>
+            {:else}
+              <!-- Answered but results not loaded yet -->
+              <div class="loading-container">
+                <p class="loading-text">Loading...</p>
               </div>
             {/if}
           </div>
@@ -310,6 +320,14 @@
 
   .poll-option-btn:disabled {
     @apply opacity-50 cursor-not-allowed;
+  }
+
+  .loading-container {
+    @apply flex items-center justify-center py-8;
+  }
+
+  .loading-text {
+    @apply text-colorTextSoft text-lg uppercase tracking-wide;
   }
 
   .error-message {
