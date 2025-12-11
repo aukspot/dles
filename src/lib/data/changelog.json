@@ -1,7 +1,7 @@
 [
   {
     "date": "2025-12-11",
-    "description": "Add 18 dles. Remove 2 dles. Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>",
+    "description": "Add 18 dles.<br/>Remove 2 dles.<br/>Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>",
     "dles added": [
       {
         "name": "AITA Guesser",
@@ -79,11 +79,13 @@
     "dles removed": [
       {
         "name": "Hexle",
-        "url": "https://frankljin.github.io/hexle/"
+        "url": "https://frankljin.github.io/hexle/",
+        "reason": "The game does not work."
       },
       {
         "name": "sqnces",
-        "url": "https://sqnces.com"
+        "url": "https://sqnces.com",
+        "reason": "The game does not work."
       }
     ]
   },
