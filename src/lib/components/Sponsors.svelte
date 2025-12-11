@@ -1,14 +1,11 @@
 <script>
-  import { categoryColors, searchQuery, sponsors } from "$lib/stores"
+  import { categoryColors, searchQuery, sponsors, favoriteIds } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
   import DleGroup from "$lib/components/Dles/DleGroup.svelte"
   import { trackEvent } from "$lib/js/trackingUtils"
 
-  let pageX = 0
-  let pageY = 0
-  let clientY = 0
-
-  $: filteredPartners = enhancedSearch($sponsors, $searchQuery)
+  // Add favoriteIds dependency to force re-render when favorites change
+  $: filteredPartners = ($favoriteIds, enhancedSearch($sponsors, $searchQuery))
 </script>
 
 {#if $searchQuery.length == 0 || filteredPartners.length > 0}
@@ -41,9 +38,6 @@
       </div>
     {/if} -->
     <DleGroup
-      bind:pageX
-      bind:pageY
-      bind:clientY
       dleGroup={filteredPartners}
       section="sponsors"
     />
@@ -78,6 +72,6 @@
   }
 
   .partner-inquiry-link {
-    @apply text-xs text-colorTextSofter hover:hover:text-colorLinkHover underline decoration-1 underline-offset-2 transition-colors;
+    @apply text-[10px] md:text-xs text-colorTextSofter hover:hover:text-colorLinkHover underline decoration-1 underline-offset-2 transition-colors;
   }
 </style>

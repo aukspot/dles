@@ -10,8 +10,8 @@
   import IconPlus from "../Icons/IconPlus.svelte"
 
   export let onClose
-  export let pageX
-  export let pageY
+  export let pageX = null
+  export let pageY = null
 
   const favorites = useFavorites()
   const tracking = useTracking()
@@ -36,17 +36,18 @@
   let adjustedPageX, adjustedPageY, transformX, transformY
 
   $: {
-    if (isMobile) {
+    if (isMobile || pageX === null || pageY === null) {
       adjustedPageX = "50%"
       adjustedPageY = "2%"
       transformX = "-50%"
       transformY = "0%"
     } else {
-      if (pageX < width / 2) {
-        pageX = width / 2 + 5
+      let adjustedX = pageX
+      if (adjustedX < width / 2) {
+        adjustedX = width / 2 + 5
       }
-      if (pageX + width / 2 > document.documentElement.clientWidth) {
-        pageX = document.documentElement.clientWidth - width / 2 - 5
+      if (adjustedX + width / 2 > document.documentElement.clientWidth) {
+        adjustedX = document.documentElement.clientWidth - width / 2 - 5
       }
 
       const viewportY = pageY - window.scrollY
@@ -54,7 +55,7 @@
       adjustedPageY = viewportY - 68
       transformY = "0%"
 
-      adjustedPageX = pageX
+      adjustedPageX = adjustedX
       transformX = "-50%"
     }
   }
@@ -245,11 +246,11 @@
 
 <style lang="postcss">
   .searchPopup {
-    @apply fixed p-3 flex flex-col bg-colorCardC rounded-lg border border-colorNeutralSoft;
+    @apply fixed p-3 flex flex-col bg-colorCardC rounded-sm border border-colorNeutralSoft;
     z-index: 100;
     box-shadow:
-      0 10px 25px -3px rgba(0, 0, 0, 0.1),
-      0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      0 10px 25px -3px rgba(0, 0, 0, 0.9),
+      0 4px 6px -2px rgba(0, 0, 0, 0.9);
   }
 
   :global(.dark) .searchPopup {

@@ -4,55 +4,62 @@
   import IconClose from "../Icons/IconClose.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
   import { clickOutside } from "$lib/js/clickOutside"
+  import { onMount } from "svelte"
+  import {
+    computePosition,
+    offset,
+    flip,
+    shift,
+    autoUpdate,
+  } from "svelte-floating-ui/dom"
 
-  export let dle, pageX, pageY, clientY, handleClickOutside
-  export let section = 'regular'
+  export let dle, handleClickOutside, referenceEl
+  export let section = "regular"
   export let position = null
 
   const tracking = useTracking()
+  let popupEl
+  let cleanup
 
   function trackGameClick(dle, clickType) {
-    if (section === 'sponsors') {
-      tracking.trackSponsorClick(dle, clickType, position);
+    if (section === "sponsors") {
+      tracking.trackSponsorClick(dle, clickType, position)
     } else {
-      tracking.trackGameClick(dle, clickType, 'popup', section, position)
+      tracking.trackGameClick(dle, clickType, "popup", section, position)
     }
   }
 
-  let width = 310
-  let height =
-    30 +
-    2 * 8 +
-    2 * 12 +
-    Math.floor(Math.ceil(28 * dle.name.length) / 10) +
-    Math.floor(Math.ceil(24 * dle.description.length) / 26) +
-    Math.floor(Math.ceil(24 * dle.url.length) / 26)
+  onMount(() => {
+    if (referenceEl && popupEl) {
+      cleanup = autoUpdate(referenceEl, popupEl, () => {
+        computePosition(referenceEl, popupEl, {
+          placement: "top",
+          middleware: [offset(-10), flip(), shift({ padding: 10 })],
+        }).then(({ x, y }) => {
+          Object.assign(popupEl.style, {
+            left: `${x}px`,
+            top: `${y}px`,
+          })
+        })
+      })
+    }
 
-  $: adjustedPageX = (() => {
-    let x = pageX
-    if (x < width / 2) {
-      x = width / 2 + 5
+    return () => {
+      if (cleanup) cleanup()
     }
-    if (x + width / 2 > document.documentElement.clientWidth) {
-      x = document.documentElement.clientWidth - width / 2 - 5
-    }
-    return x
-  })()
-
-  $: adjustedPageY = (() => {
-    let y = pageY
-    if (clientY < height) {
-      y += height - clientY
-    }
-    return y
-  })()
+  })
 
   function closePopup() {
     $poppedUpDle = ""
   }
 </script>
 
-<div class="dlePopUp bevel" style="left: {adjustedPageX}px; top: {adjustedPageY}px; width: {width}px" use:clickOutside on:click_outside={handleClickOutside}>
+<div
+  class="dlePopUp bevel"
+  bind:this={popupEl}
+  use:clickOutside
+  on:click_outside={handleClickOutside}
+>
   <div class="flex justify-around items-start gap-2">
     <DleFavorite {dle} {section} {position} />
 
@@ -68,15 +75,22 @@
     {dle.description}
   </div>
 
-  <a href={dle.url} target="_blank" on:click={() => trackGameClick(dle, 'popup-link')} on:auxclick={() => trackGameClick(dle, 'popup-middle-click')}>
+  <a
+    href={dle.url}
+    target="_blank"
+    on:click={() => trackGameClick(dle, "popup-link")}
+    on:auxclick={() => trackGameClick(dle, "popup-middle-click")}
+  >
     {dle.url}
   </a>
 </div>
 
 <style lang="postcss">
   .dlePopUp {
-    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-lg shadow-sm shadow-colorTextSoftest z-50;
-    transform: translate(-50%, -99%);
+    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-sm shadow-md shadow-colorTextSoftest z-50;
+    width: 310px;
+    top: 0;
+    left: 0;
   }
 
   a {

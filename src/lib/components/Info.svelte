@@ -1,5 +1,6 @@
 <script>
   import { base } from "$app/paths"
+  import PanelTitle from "./PanelTitle.svelte"
   import PanelWrapper from "./PanelWrapper.svelte"
 
   export let open = false
@@ -7,8 +8,7 @@
 
 <PanelWrapper {open}>
   <div id="info">
-    <div class="title mb-4 !bg-red-300 dark:!bg-red-800">info</div>
-
+    <PanelTitle color="red" title="INFO" />
     <h2 class="question">What is this?</h2>
     <p class="answer">
       A curated collection of 500+ free games that are updated daily: puzzle
@@ -30,10 +30,11 @@
     <p class="answer">
       Sure! You can <a href="https://tally.so/r/mOKOea" target="_blank"
         >suggest a dle</a
-      >
-      or
-      <a href="https://tally.so/r/wQpPpY" target="_blank">report a bug</a>. If
-      you want to support monetarily, you can
+      >,
+      <a href="https://tally.so/r/wQpPpY" target="_blank">report a bug</a>, or
+      <a href="https://tally.so/r/wQpPpY" target="_blank"
+        >give general feedback</a
+      >. If you want to support monetarily, you can
       <a href="https://ko-fi.com/aukspot" target="_blank">donate on Ko-fi</a>.
       Lastly, you can
       <a href="https://github.com/aukspot/dles" target="_blank"

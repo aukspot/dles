@@ -11,6 +11,7 @@
     searchQuery,
     sponsors,
     categoryRanks,
+    completelyHiddenSections,
   } from "$lib/stores"
 
   import IconNew from "../Icons/IconNew.svelte"
@@ -26,21 +27,22 @@
   import IconSort from "../Icons/IconSort.svelte"
   import IconEdit from "../Icons/IconEdit.svelte"
   import IconRandom from "../Icons/IconRandom.svelte"
+  import IconDownload from "../Icons/IconDownload.svelte"
+  import IconUpload from "../Icons/IconUpload.svelte"
   import DleGroup from "./DleGroup.svelte"
   import DleGrid from "./DleGrid.svelte"
   import SearchModal from "./SearchModal.svelte"
+  import FavoritesImportExportModal from "./FavoritesImportExportModal.svelte"
   import Sponsors from "../Sponsors.svelte"
   import BookRecommendation from "../BookRecommendation.svelte"
   import { enhancedSearch, playRandom } from "$lib/js/utilities"
   import { useTracking } from "$lib/composables/useTracking"
-  import { hiddenSections } from "$lib/js/hiddenSections"
 
-  let pageX = 0
-  let pageY = 0
-  let clientY = 0
   let allCards = []
   let favoriteCardIndex = -1
   let showSearchModal = false
+  let showImportExportModal = false
+  let importExportMode = "export" // "export" or "import"
   let editMode = false
 
   const tracking = useTracking()
@@ -85,13 +87,13 @@
       if (showSearchModal) {
         showSearchModal = false
       }
+      if (showImportExportModal) {
+        showImportExportModal = false
+      }
     }
   }
 
   function openSearchModal(event) {
-    pageX = event.pageX
-    pageY = event.pageY
-    clientY = event.clientY
     showSearchModal = true
   }
 
@@ -101,6 +103,20 @@
 
   function toggleEditMode() {
     editMode = !editMode
+  }
+
+  function openExportModal() {
+    importExportMode = "export"
+    showImportExportModal = true
+  }
+
+  function openImportModal() {
+    importExportMode = "import"
+    showImportExportModal = true
+  }
+
+  function closeImportExportModal() {
+    showImportExportModal = false
   }
 
   function hasSponsorMatches() {
@@ -114,10 +130,14 @@
     const cards = []
     let currentIndex = 0
 
-    // Add DLES of the Week (hide when searching)
+    // Add DLES of the Week (hide when searching or completely hidden)
     if (
       $dlesOfTheWeek.length !== 0 &&
-      (!$searchQuery || $searchQuery.trim() === "")
+      (!$searchQuery || $searchQuery.trim() === "") &&
+      !completelyHiddenSections.isCompletelyHidden(
+        "dlesOfTheWeek",
+        $completelyHiddenSections,
+      )
     ) {
       cards.push({
         id: "dlesOfTheWeek",
@@ -127,14 +147,21 @@
       currentIndex++
     }
 
-    // Add Favorites (always present, even if empty)
-    favoriteCardIndex = currentIndex
-    cards.push({
-      id: "favorites",
-      type: "favorites",
-      data: $favorites,
-    })
-    currentIndex++
+    // Add Favorites (unless completely hidden)
+    if (
+      !completelyHiddenSections.isCompletelyHidden(
+        "favorites",
+        $completelyHiddenSections,
+      )
+    ) {
+      favoriteCardIndex = currentIndex
+      cards.push({
+        id: "favorites",
+        type: "favorites",
+        data: $favorites,
+      })
+      currentIndex++
+    }
 
     // Sort categories by rank before building cards
     const sortedCategories = [...$categories].sort((a, b) => {
@@ -143,10 +170,16 @@
       return rankA - rankB
     })
 
-    // Add category cards in ranked order
+    // Add category cards in ranked order (unless completely hidden)
     for (const category of sortedCategories) {
       const categoryDles = $categorizedDles[category] || []
-      if (categoryDles.length !== 0) {
+      if (
+        categoryDles.length !== 0 &&
+        !completelyHiddenSections.isCompletelyHidden(
+          category,
+          $completelyHiddenSections,
+        )
+      ) {
         cards.push({
           id: category,
           type: "category",
@@ -169,8 +202,14 @@
       currentIndex++
     }
 
-    // Add Book Recommendation (only when not searching)
-    if (!$searchQuery || $searchQuery.trim() === "") {
+    // Add Book Recommendation (only when not searching and not completely hidden)
+    if (
+      (!$searchQuery || $searchQuery.trim() === "") &&
+      !completelyHiddenSections.isCompletelyHidden(
+        "bookRecommendation",
+        $completelyHiddenSections,
+      )
+    ) {
       cards.push({
         id: "bookRecommendation",
         type: "bookRecommendation",
@@ -188,6 +227,7 @@
     $categorizedDles
     $categories
     $categoryRanks
+    $completelyHiddenSections
     buildCards()
   }
 </script>
@@ -212,13 +252,7 @@
             DLES of the Week
           </div>
         </div>
-        <DleGroup
-          dleGroup={card.data}
-          section="dles-of-the-week"
-          bind:pageX
-          bind:pageY
-          bind:clientY
-        />
+        <DleGroup dleGroup={card.data} section="dles-of-the-week" />
       </div>
     {:else if card.type === "favorites"}
       <div class="card">
@@ -298,10 +332,37 @@
             reorderable={true}
             {editMode}
             section="favorites"
-            bind:pageX
-            bind:pageY
-            bind:clientY
           />
+        {/if}
+        <div class="favorites-import-export">
+          <button
+            class="import-export-button"
+            on:click={openImportModal}
+            title="Import favorites from file"
+          >
+            <IconUpload />
+            <span>import</span>
+          </button>
+          <button
+            class="import-export-button"
+            on:click={openExportModal}
+            title="Export favorites to file"
+            disabled={card.data.length === 0}
+          >
+            <IconDownload />
+            <span>export</span>
+          </button>
+        </div>
+        {#if card.data.length > 0}
+          <div class="favorites-page">
+            <a
+              href="{base}/favorites"
+              class="favorites-page-button"
+              data-sveltekit-reload
+            >
+              Go to favorites page
+            </a>
+          </div>
         {/if}
       </div>
     {:else if card.type === "sponsors"}
@@ -321,33 +382,21 @@
             {card.category}
           </div>
         </div>
-        {#if $searchQuery.trim() || !hiddenSections.isHidden(card.category, $hiddenSections)}
-          <button
-            class="hide-section-top"
-            on:click={() => hiddenSections.hide(card.category)}
-            disabled={$searchQuery.trim()}
-            class:opacity-50={$searchQuery.trim()}
-          >
-            {$searchQuery.trim()
-              ? `Search results (${card.data.length})`
-              : `Hide section (${card.data.length})`}
-          </button>
-          <DleGroup dleGroup={card.data} bind:pageX bind:pageY bind:clientY />
-        {:else}
-          <button
-            class="hide-section-top"
-            on:click={() => hiddenSections.show(card.category)}
-          >
-            Show section ({card.data.length})
-          </button>
-        {/if}
+        <DleGroup dleGroup={card.data} />
       </div>
     {/if}
   </DleGrid>
 </div>
 
 {#if showSearchModal}
-  <SearchModal onClose={closeSearchModal} {pageX} {pageY} {clientY} />
+  <SearchModal onClose={closeSearchModal} />
+{/if}
+
+{#if showImportExportModal}
+  <FavoritesImportExportModal
+    mode={importExportMode}
+    onClose={closeImportExportModal}
+  />
 {/if}
 
 <style lang="postcss">
@@ -455,11 +504,43 @@
     @apply text-xs font-bold;
   }
 
-  .hide-section-top {
-    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic cursor-pointer bg-colorCardC hover:bg-yellow-50 border-none border-t border-colorTextSoftest p-2 text-center w-full;
+  .favorites-import-export {
+    @apply flex gap-1.5 md:gap-2 p-1.5 md:p-2 bg-colorCardC border-t border-colorTextSoftest justify-center;
   }
 
-  :global(.dark) .hide-section-top {
-    @apply hover:bg-slate-950;
+  .import-export-button {
+    @apply flex items-center gap-0.5 md:gap-1 px-2 md:px-3 py-1 md:py-1.5 text-[10px] md:text-xs font-medium text-colorTextSoft bg-colorBackground hover:bg-gray-50 border border-colorNeutralSoft rounded-sm shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 stroke-colorTextSoft;
+  }
+
+  .import-export-button :global(svg) {
+    @apply w-4 h-4 md:w-5 md:h-5;
+  }
+
+  .import-export-button:disabled {
+    @apply opacity-40 cursor-not-allowed hover:bg-colorBackground hover:shadow-sm;
+  }
+
+  :global(.dark) .import-export-button {
+    @apply hover:bg-zinc-800;
+  }
+
+  :global(.dark) .import-export-button:disabled {
+    @apply hover:bg-colorBackground;
+  }
+
+  .import-export-button span {
+    @apply lowercase;
+  }
+
+  .favorites-page {
+    @apply flex justify-center p-1 bg-colorCardB border-t border-colorTextSoftest;
+  }
+
+  .favorites-page-button {
+    @apply px-2 py-1 md:px-3 md:py-1.5 text-xs font-medium text-colorText bg-colorBackground hover:bg-gray-50 border border-colorNeutralSoft rounded-sm shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 uppercase;
+  }
+
+  :global(.dark) .favorites-page-button {
+    @apply hover:bg-zinc-800;
   }
 </style>

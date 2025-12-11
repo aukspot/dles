@@ -3,7 +3,11 @@
   import HeaderButton from "./Buttons/HeaderButton.svelte"
   import BackToTopButton from "./Buttons/BackToTopButton.svelte"
   import Banner from "./Banner.svelte"
-  import { changelog, dles } from "$lib/stores"
+  import { changelog, dles, getActivePolls, pollResponses } from "$lib/stores"
+
+  // Check if there are unanswered polls
+  $: activePolls = getActivePolls()
+  $: hasUnansweredPolls = activePolls.some((poll) => !$pollResponses[poll.id])
 </script>
 
 <header class="flex items-center gap-2 px-2 py-2 md:px-0">
@@ -36,7 +40,9 @@
         </div>
       </div>
     </div>
-    <div class="flex items-baseline gap-2 flex-wrap overflow-x js-buttons">
+    <div
+      class="flex items-baseline gap-2 flex-wrap overflow-x justify-center js-buttons"
+    >
       <HeaderButton panelId="info" label="Info" hoverColor="red" />
       <HeaderButton
         panelId="settings"
@@ -46,10 +52,17 @@
       />
       <HeaderButton panelId="help" label="How to Help" hoverColor="green" />
       <HeaderButton
+        panelId="poll"
+        label="Polls"
+        hoverColor="blue"
+        jsOnly={true}
+        showBadge={hasUnansweredPolls}
+      />
+      <!-- <HeaderButton
         href="https://discord.gg/BQpGUg3r9C"
         label="Discord"
         hoverColor="blue"
-      />
+      /> -->
       <HeaderButton
         panelId="random"
         label="Random"
@@ -91,13 +104,5 @@
 <style lang="postcss">
   .last-updated {
     @apply text-[11px] md:text-xs text-colorTextSofter;
-  }
-
-  .panel-radio {
-    @apply hidden;
-  }
-
-  label.btn-header {
-    @apply cursor-pointer;
   }
 </style>

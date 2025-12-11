@@ -19,7 +19,7 @@ a {
 }
 
 .title {
-  @apply p-1 font-mono text-base bg-colorCardC fill-colorTextSofter z-30 flex border border-colorTextSofter text-colorText justify-center;
+  @apply p-1 font-mono text-base bg-colorCardC fill-colorTextSofter z-30 flex border border-colorTextSofter text-colorText;
 }
 
 .subtitle {
@@ -36,7 +36,7 @@ a {
 }
 
 .btn-header {
-  @apply p-[.4rem] font-mono text-[10px] sm:text-[12px] bg-colorCardC fill-colorTextSofter z-30 flex items-center uppercase border border-colorTextSofter;
+  @apply p-[.4rem] font-mono text-[10px] md:text-[11px] fill-colorTextSofter z-30 flex items-center uppercase border border-colorTextSofter;
 }
 
 .btn-icon {
@@ -64,7 +64,11 @@ a {
 }
 
 .btn-action {
-  @apply inline-flex items-center justify-center gap-1.5 px-3 py-1.5 text-xs font-medium uppercase text-colorText bg-colorCardC border border-colorTextSofter transition-all text-center fill-colorText;
+  @apply inline-flex items-center justify-center gap-1.5 px-1.5 py-1 text-xs font-medium uppercase text-colorText bg-colorCardC border border-colorTextSofter transition-all text-center fill-colorText;
+}
+
+.btn-action-big {
+  @apply inline-flex items-center justify-center gap-1.5 px-3 py-2 text-xs font-medium uppercase text-colorText bg-colorCardC border border-colorTextSofter transition-all text-center fill-colorText;
 }
 
 .btn-action:hover {
@@ -180,4 +184,30 @@ td {
   .grid-cols-var {
     grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
   }
+}
+
+/* Remove yellow highlight from svelte-dnd-action drop zones */
+[aria-dropeffect="move"],
+[aria-dropeffect="move"]:focus,
+[aria-dropeffect="move"]:focus-visible,
+.dnd-action-draggable-wrapper {
+  outline: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Override any default focus styles on drag containers */
+*:focus-visible[aria-dropeffect] {
+  outline: none !important;
+}
+
+/* Remove any border/outline during dragging */
+[data-is-dnd-shadow-item-active] {
+  outline: none !important;
+}
+
+/* Target the container directly */
+div[aria-dropeffect] {
+  outline: none !important;
+  box-shadow: none !important;
 }

@@ -6,6 +6,7 @@
   import { goto } from "$app/navigation"
   import { page } from "$app/stores"
   import { base } from "$app/paths"
+  import PanelTitle from "./PanelTitle.svelte"
 
   export let open = false
 
@@ -57,8 +58,7 @@
 </script>
 
 <PanelWrapper {open}>
-  <div class="title mb-4 !bg-violet-300 dark:!bg-violet-800">SEARCH DLES</div>
-
+  <PanelTitle color="violet" title="SEARCH DLES" />
   <div class="search-content">
     <SearchBar bind:this={searchBarComponent} bind:searchInput />
   </div>

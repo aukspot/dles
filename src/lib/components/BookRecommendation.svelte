@@ -82,35 +82,24 @@
     </div>
   </div>
 
-  {#if !isHidden}
-    <div class="book-content">
-      <div class="book-layout">
-        <button class="book-image-container" on:click={openModal}>
-          <img
-            src="/puzzle-mania.jpg"
-            alt="Puzzle Mania book cover"
-            class="book-image"
-          />
-        </button>
+  <div class="book-content">
+    <div class="book-layout">
+      <button class="book-image-container" on:click={openModal}>
+        <img
+          src="/puzzle-mania.jpg"
+          alt="Puzzle Mania book cover"
+          class="book-image"
+        />
+      </button>
 
-        <div class="book-text">
-          <button class="book-title" on:click={openModal}>Puzzle Mania!</button>
-          <p class="book-description">
-            Creative twists on Wordle, Connections, and more!
-          </p>
-        </div>
+      <div class="book-text">
+        <button class="book-title" on:click={openModal}>Puzzle Mania!</button>
+        <p class="book-description">
+          Creative twists on Wordle, Connections, and more!
+        </p>
       </div>
-      <button class="hide-section" on:click={hideCard}>
-        Hide section (1)
-      </button>
     </div>
-  {:else}
-    <div class="book-content">
-      <button class="hide-section" on:click={showCard}>
-        Show section (1)
-      </button>
-    </div>
-  {/if}
+  </div>
 
   {#if showModal}
     <div
@@ -132,7 +121,7 @@
         </button>
         <p class="popup-description">
           Unique puzzle collection with creative twists on Wordle, Connections,
-          and more! I keep a copy next to my bed.
+          and more! I keep it next to my bed. 🙂
         </p>
       </div>
 
@@ -172,14 +161,6 @@
 
   :global(.dark) .label {
     @apply text-amber-50;
-  }
-
-  .hide-section {
-    @apply text-[12px] text-colorTextSofter hover:text-colorText underline italic cursor-pointer bg-transparent hover:bg-yellow-50 bg-colorCardC border-none p-2 text-center w-full rounded;
-  }
-
-  :global(.dark) .hide-section {
-    @apply hover:bg-slate-950;
   }
 
   .book-content {

@@ -98,12 +98,15 @@
         return rankA - rankB
       })
 
-      // Distribute categories in right-to-left order (horizontally across columns)
-      // Card 1 → rightmost col, Card 2 → second from right, etc.
-      sortedCategoryCards.forEach((card, index) => {
-        const targetColumn = (numColumns - 1) - (index % numColumns)
-        columns[targetColumn].push(card)
-        columnHeights[targetColumn] += estimateCardHeight(card)
+      // Distribute categories based on height - always add to the shortest column
+      // This creates a balanced masonry layout
+      sortedCategoryCards.forEach((card) => {
+        // Find the column with minimum height
+        const shortestColumnIndex = columnHeights.indexOf(Math.min(...columnHeights))
+
+        // Add card to shortest column
+        columns[shortestColumnIndex].push(card)
+        columnHeights[shortestColumnIndex] += estimateCardHeight(card)
       })
     }
 

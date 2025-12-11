@@ -5,7 +5,7 @@
 </script>
 
 {#if open}
-  <div class="m-auto max-w-[36rem] p-2">
+  <div class="m-auto max-w-[40rem] p-2">
     <slot />
 
     <div class="flex justify-center mt-6">

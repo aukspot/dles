@@ -4,6 +4,7 @@
   import { onMount } from "svelte"
   import DropdownMenu from "./DropdownMenu.svelte"
   import IconRandom from "./Icons/IconRandom.svelte"
+  import PanelTitle from "./PanelTitle.svelte"
 
   let options = []
 
@@ -41,9 +42,10 @@
 </script>
 
 <div>
-  <div class="title mb-4 !bg-orange-300 dark:!bg-orange-700">RANDOM</div>
+  <PanelTitle color="orange" title="RANDOM" />
+
   <div class="text-xs text-center text-colorTextSoft">
-    ({selectedCount} categories selected)
+    (<strong>{selectedCount}</strong> categories selected, toggle them below)
   </div>
   <div class="category-grid mt-4 mb-2">
     {#each $categories as category}
@@ -54,17 +56,20 @@
           bind:checked={categoryChecked[category]}
           on:click={toggleCategory(category)}
         />
-        <span
-          aria-label={category}
-          style="text-decoration: {categoryChecked[category]
-            ? 'none'
-            : 'line-through'}">{category}</span
-        >
+        <span aria-label={category}>{category}</span>
       </label>
     {/each}
   </div>
   <div class="flex justify-center mb-2">
-    <button class="btn-play" on:click={() => playRandom(options)}>
+    <button
+      class="btn-play"
+      on:click={() =>
+        playRandom(options, {
+          click_type: "random-button-menu",
+          section: "random-menu",
+          available_options: options.length,
+        })}
+    >
       Play random dle!
     </button>
   </div>
@@ -80,17 +85,15 @@
   }
 
   .category-btn {
-    @apply cursor-pointer flex items-center justify-center gap-1 select-none text-[10px] sm:text-xs px-2 py-1 border
-            bg-zinc-200 dark:bg-zinc-800 border-zinc-300 dark:border-zinc-600 uppercase font-mono hover:bg-orange-100 hover:border-zinc-800 dark:hover:bg-orange-900;
+    @apply cursor-pointer flex items-center justify-center gap-1 select-none text-[10px] sm:text-xs px-2 py-1 border text-center border-colorTextSofter uppercase font-mono transition-colors bg-colorCardC hover:bg-gray-100 dark:hover:bg-gray-700;
+  }
+
+  .category-btn:not(.checked) {
+    @apply opacity-40 bg-gray-200 border-dashed dark:bg-gray-800;
   }
 
   .category-btn.checked {
-    @apply bg-zinc-100 border border-colorTextSofter
-           hover:bg-orange-300 dark:hover:bg-orange-700 dark:bg-zinc-900;
-  }
-
-  .checkmark {
-    @apply w-3 h-3 flex-shrink-0;
+    @apply hover:bg-orange-300 dark:hover:bg-orange-700;
   }
 
   input[type="checkbox"] {

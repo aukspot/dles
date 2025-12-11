@@ -28,6 +28,7 @@
   },
   "type": "module",
   "dependencies": {
-    "svelte-dnd-action": "^0.9.68"
+    "svelte-dnd-action": "^0.9.68",
+    "svelte-floating-ui": "^1.6.2"
   }
 }

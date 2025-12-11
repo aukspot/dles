@@ -2,6 +2,7 @@
   import { changelog } from "$lib/stores"
   import { onMount } from "svelte"
   import { browser } from "$app/environment"
+  import GoBackHome from "$lib/components/GoBackHome.svelte"
 
   let changelogContainer
   let changelogLength = $changelog.length
@@ -114,14 +115,9 @@
 <div class="page-container">
   <h2 class="font-mono title justify-center mb-4">Changelog</h2>
   <div class="text-center font-mono text-sm text-colorTextSoft mb-4">
-    View all <strong>{$changelog.length}</strong> updates below.
+    View all <strong>{$changelog.length}</strong> updates to The DLES.
   </div>
-  <div class="divider mb-4"></div>
-  <a
-    href="/"
-    class="text-colorTextSoft text-sm underline text-center block mb-4"
-    >← Back to home</a
-  >
+  <GoBackHome />
   <div id="changelog" bind:this={changelogContainer}>
     {#each $changelog as log, index}
       <article class="changelog-entry" id={log.date}>
@@ -252,7 +248,7 @@
   }
 
   .entry-description {
-    @apply text-[12px] md:text-xs text-colorTextSoft leading-tight;
+    @apply text-xs md:text-sm text-colorTextSoft leading-tight;
   }
 
   .entry-description :global(.bullet-line) {
@@ -271,7 +267,7 @@
   }
 
   .section-title {
-    @apply text-[12px] md:text-sm font-bold uppercase text-colorTextSoft mb-2 tracking-wide;
+    @apply text-xs md:text-sm font-bold uppercase text-colorTextSoft mb-2 tracking-wide;
   }
 
   .dle-list {
@@ -279,19 +275,19 @@
   }
 
   .dle-item {
-    @apply text-[12px] md:text-xs py-1.5 px-0 flex items-baseline gap-2 border-b border-colorTextSoftest last:border-b-0;
+    @apply text-xs md:text-sm py-1.5 px-0.5 flex items-baseline gap-2 border-b border-colorTextSoftest last:border-b-0;
   }
 
   .dle-name {
-    @apply font-medium text-colorText w-24 xl:w-32 flex-shrink-0;
+    @apply font-medium text-colorText w-28 xl:w-32 flex-shrink-0;
   }
 
   .dle-url {
-    @apply text-colorLink break-all text-[11px] md:text-[12px] hover:text-colorHighlight;
+    @apply text-colorLink break-all text-xs md:text-sm hover:text-colorHighlight;
   }
 
   .dle-item-removed {
-    @apply text-[10px] md:text-xs py-1.5 px-0 border-b border-colorTextSoftest last:border-b-0;
+    @apply text-xs md:text-sm py-1.5 px-0 border-b border-colorTextSoftest last:border-b-0;
   }
 
   .dle-removed-info {
@@ -299,15 +295,15 @@
   }
 
   .dle-removed-info strong {
-    @apply text-colorText text-[10px] md:text-xs;
+    @apply text-colorText text-xs md:text-sm;
   }
 
   .dle-removed-info a {
-    @apply text-colorLink break-all text-[11px] md:text-[12px];
+    @apply text-colorLink break-all text-xs md:text-sm;
   }
 
   .removal-reason {
-    @apply text-colorTextSofter italic text-[10px] md:text-[11px];
+    @apply text-colorTextSofter italic text-[11px] md:text-xs;
   }
 
   a {

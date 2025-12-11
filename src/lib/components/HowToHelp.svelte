@@ -4,13 +4,14 @@
   import IconBug from "./Icons/IconBug.svelte"
   import IconSuggest from "./Icons/IconSuggest.svelte"
   import PanelWrapper from "./PanelWrapper.svelte"
+  import PanelTitle from "./PanelTitle.svelte"
+  import IconFeedback from "./Icons/IconFeedback.svelte"
 
   export let open = false
 </script>
 
 <PanelWrapper {open}>
-  <div class="title mb-4 !bg-green-300 dark:!bg-green-700">HOW TO HELP</div>
-
+  <PanelTitle color="green" title="HOW TO HELP" />
   <div class="link-grid">
     <a
       class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
@@ -29,6 +30,15 @@
     >
       <IconBug />
       <span>Report a Bug</span>
+    </a>
+    <a
+      class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
+      href="https://tally.so/r/Gx6kXZ"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <IconFeedback />
+      <span>General Feedback</span>
     </a>
     <a
       class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
@@ -53,6 +63,6 @@
 
 <style lang="postcss">
   .link-grid {
-    @apply grid grid-cols-2 gap-1;
+    @apply grid grid-cols-2 gap-2;
   }
 </style>

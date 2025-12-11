@@ -84,5 +84,7 @@ export let sponsors = readable([
 ])
 
 export { categoryRanks } from "$lib/js/categoryRanks"
+export { completelyHiddenSections } from "$lib/js/completelyHiddenSections"
+export { pollResponses, getActivePolls, allPolls } from "$lib/js/polls"
 
 export let activePanelStore = writable(null)

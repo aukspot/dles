@@ -11,6 +11,6 @@
 
 <style lang="postcss">
   svg {
-    @apply stroke-colorTextSofter shadow-sm shadow-colorTextSofter active:shadow-none border border-colorTextSoftest rounded-2xl p-1 hover:scale-105;
+    @apply stroke-colorTextSofter shadow-sm shadow-colorTextSofter active:shadow-none border border-colorTextSoftest p-1 hover:scale-105;
   }
 </style>

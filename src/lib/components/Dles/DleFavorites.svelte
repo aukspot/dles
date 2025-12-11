@@ -3,6 +3,7 @@
   import { playRandom } from "$lib/js/utilities"
   import { categoryIcons } from "$lib/js/categoryIcons"
   import IconRandom from "$lib/components/Icons/IconRandom.svelte"
+  import IconLink from "$lib/components/Icons/IconLink.svelte"
   import FavoriteButton from "$lib/components/Buttons/FavoriteButton.svelte"
   import SearchModal from "$lib/components/Dles/SearchModal.svelte"
   import { onMount } from "svelte"
@@ -10,6 +11,7 @@
   import { useTracking } from "$lib/composables/useTracking"
   import { dndzone } from "svelte-dnd-action"
   import { flip } from "svelte/animate"
+  import GoBackHome from "../GoBackHome.svelte"
 
   let loading = true
   let showSearchModal = false
@@ -73,15 +75,8 @@
   }
 
   function openSearchModal(event) {
-    const rect = event.target.closest("button").getBoundingClientRect()
-    modalX = rect.left + rect.width / 2
-    modalY = rect.bottom - 10
-
     showSearchModal = true
   }
-
-  let modalX = 400
-  let modalY = 200
 
   function closeSearchModal() {
     showSearchModal = false
@@ -91,10 +86,10 @@
 {#if !loading}
   <div class="m-auto px-2 py-4">
     <h2 class="title justify-center mb-4">Favorites</h2>
-
+    <GoBackHome />
     <div class="flex justify-center mb-3 gap-2 flex-wrap">
       <button
-        class="btn-action hover:bg-green-200 dark:hover:bg-green-800"
+        class="btn-action-big hover:bg-green-200 dark:hover:bg-green-800"
         on:click={openSearchModal}
       >
         <svg
@@ -116,7 +111,7 @@
 
       {#if $favorites.length > 0}
         <button
-          class="btn-action {dragEnabled
+          class="btn-action-big {dragEnabled
             ? 'reorder-active'
             : 'hover:bg-violet-200 dark:hover:bg-violet-800'}"
           on:click={toggleDragMode}
@@ -138,7 +133,7 @@
           {dragEnabled ? "Done Reordering" : "Reorder"}
         </button>
         <button
-          class="btn-action hover:bg-blue-200 dark:hover:bg-blue-800"
+          class="btn-action-big hover:bg-blue-200 dark:hover:bg-blue-800"
           on:click={sortByCategory}
         >
           Sort by Category
@@ -161,9 +156,9 @@
 
     {#if $favorites.length > 0}
       <p
-        class="text-center text-[10px] sm:text-xs text-colorTextSoft mb-3 uppercase font-mono"
+        class="text-center text-xs sm:text-sm text-colorTextSoft my-6 uppercase font-mono"
       >
-        {$favorites.length} total
+        <strong>{$favorites.length}</strong> favorites total
       </p>
     {/if}
 
@@ -189,7 +184,7 @@
         on:consider={handleDndConsider}
         on:finalize={handleDndFinalize}
       >
-        {#each items as favorite (favorite.id)}
+        {#each items as favorite, index (favorite.id)}
           <div
             animate:flip={{ duration: 200 }}
             class="card flex border border-colorTextSofter hover:border-colorText"
@@ -202,22 +197,29 @@
               <svelte:component this={categoryIcons[favorite.category]} />
             </div>
             <div class="p-2 w-full flex flex-col gap-1">
-              <div class="flex justify-between items-start gap-2">
-                <div
-                  class="font-mono text-xs sm:text-sm font-semibold leading-tight flex-1 min-w-0"
+              <div class="flex justify-between items-end gap-2">
+                <span class="favorite-number">{index + 1}.</span>
+                <a
+                  class="font-mono text-xs sm:text-sm text-colorText font-semibold leading-tight flex-1 min-w-0"
+                  href={favorite.url}
+                  target="_blank"
+                  on:click={() => handleGameUrlClick(favorite)}
                 >
                   {favorite.name}
-                </div>
-                <div class="flex-shrink-0">
+                </a>
+                <div class="flex-shrink-0 self-start">
                   <FavoriteButton dle={favorite} />
                 </div>
               </div>
               <a
-                class="text-[10px] sm:text-xs text-colorTextSoft hover:text-colorLink block break-all"
+                class="url-link text-sm md:text-sm text-colorLink hover:text-colorLinkHover flex items-center gap-1 break-all"
                 target="_blank"
                 href={favorite.url}
-                on:click={() => handleGameUrlClick(favorite)}>{favorite.url}</a
+                on:click={() => handleGameUrlClick(favorite)}
               >
+                <span class="link-icon flex-shrink-0"><IconLink /></span>
+                <span class="break-all">{favorite.url}</span>
+              </a>
             </div>
           </div>
         {/each}
@@ -225,11 +227,15 @@
     </div>
   {/if}
 {:else}
-  <div class="m-auto text-center">loading...</div>
+  <div class="m-auto text-center py-12 px-4">
+    <p class="text-colorTextSoft text-lg uppercase tracking-wide">Loading...</p>
+  </div>
 {/if}
-
+{#if !loading}
+  <GoBackHome />
+{/if}
 {#if showSearchModal}
-  <SearchModal onClose={closeSearchModal} pageX={modalX} pageY={modalY} />
+  <SearchModal onClose={closeSearchModal} />
 {/if}
 
 <style lang="postcss">
@@ -249,11 +255,20 @@
     cursor: grabbing !important;
   }
 
+  .favorite-number {
+    @apply text-xs sm:text-sm font-mono font-bold text-colorTextSofter flex-shrink-0;
+    line-height: 1.25rem; /* Match the leading-tight of the link */
+  }
+
+  .link-icon {
+    @apply text-colorText;
+  }
+
   .reorder-active {
-    @apply bg-yellow-200 hover:bg-yellow-300 border-yellow-400;
+    @apply bg-blue-200 hover:bg-blue-300 border-blue-400;
   }
 
   :global(.dark) .reorder-active {
-    @apply bg-yellow-700 hover:bg-yellow-600 border-yellow-500;
+    @apply bg-blue-700 hover:bg-blue-600 border-blue-500;
   }
 </style>

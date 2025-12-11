@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte"
+  import { favoriteIds } from "$lib/stores"
   import { useFavorites } from "$lib/composables/useFavorites.js"
   import { useTracking } from "$lib/composables/useTracking.js"
   import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
@@ -19,12 +20,11 @@
   let isHovered = false
   let isTouchDevice = false
 
-  $: isFavorited = favorites.isFavorited(dle)
+  // Use reactive store subscription instead of composable getter
+  $: isFavorited = $favoriteIds.includes(dle.id)
   $: setFill(isFavorited)
 
   onMount(() => {
-    setFill(favorites.isFavorited(dle))
-
     isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
   })
 

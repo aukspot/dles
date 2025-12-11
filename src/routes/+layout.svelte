@@ -28,6 +28,7 @@
   import SettingsPanel from "$lib/components/SettingsPanel.svelte"
   import HowToHelp from "$lib/components/HowToHelp.svelte"
   import SearchPanel from "$lib/components/SearchPanel.svelte"
+  import PollPanel from "$lib/components/PollPanel.svelte"
   import {
     getCurrentDlesOfTheWeek,
     isLocalStorageAvailable,
@@ -37,6 +38,7 @@
     needsFavoritesMigration,
   } from "$lib/js/favoritesMigration"
   import LatestChange from "$lib/components/LatestChange.svelte"
+  import ExamplePopUp from "$lib/components/ExamplePopUp.svelte"
 
   onMount(() => {
     if (isLocalStorageAvailable()) {
@@ -205,7 +207,7 @@
                 </p>
                 <div class="flex justify-center mt-6">
                   <a
-                    href="#"
+                    href="#top"
                     class="btn-header hover:bg-red-200 dark:hover:bg-red-800"
                   >
                     X CLOSE
@@ -256,7 +258,7 @@
                 </div>
                 <div class="flex justify-center mt-6">
                   <a
-                    href="#"
+                    href="#top"
                     class="btn-header hover:bg-red-200 dark:hover:bg-red-800"
                   >
                     X CLOSE
@@ -269,9 +271,6 @@
         <div
           class="js-panels"
           class:hidden={loading}
-          class:border={$activePanelStore}
-          class:border-zinc-900={$activePanelStore}
-          class:dark:border-zinc-200={$activePanelStore}
           class:p-4={$activePanelStore}
           class:my-4={$activePanelStore}
         >
@@ -280,6 +279,7 @@
           <SettingsPanel open={$activePanelStore === "settings"} />
           <HowToHelp open={$activePanelStore === "help"} />
           <SearchPanel open={$activePanelStore === "search"} />
+          <PollPanel open={$activePanelStore === "poll"} />
         </div>
         <slot />
       </div>
@@ -287,6 +287,7 @@
     </main>
     <Footer />
   </div>
+  <!-- <ExamplePopUp /> -->
 </div>
 
 <style lang="postcss">
@@ -298,24 +299,5 @@
   }
   .link-grid {
     @apply grid grid-cols-2 gap-1;
-  }
-  .noscript-details {
-    @apply my-2;
-  }
-  .noscript-details summary {
-    @apply py-2 list-none;
-  }
-  .noscript-details summary::-webkit-details-marker {
-    display: none;
-  }
-  .noscript-details summary::marker {
-    display: none;
-  }
-  .noscript-details summary::after {
-    content: " ▼";
-    @apply text-sm;
-  }
-  .noscript-details[open] summary::after {
-    content: " ▲";
   }
 </style>

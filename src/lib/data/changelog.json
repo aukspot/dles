@@ -1,14 +1,20 @@
 [
   {
+    "date": "2025-12-11",
+    "description": "Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>"
+  },
+  {
     "date": "2025-12-02",
     "dles removed": [
       {
         "name": "Unzoomed",
-        "url": "https://www.unzoomed.com/en"
+        "url": "https://www.unzoomed.com/en",
+        "reason": "Now requires sign-in."
       },
       {
         "name": "Geocircles",
-        "url": "https://geocircles.io"
+        "url": "https://geocircles.io",
+        "reason": "No longer available due to API costs."
       }
     ],
     "description": "Remove 2 dles. "
@@ -18,7 +24,8 @@
     "dles removed": [
       {
         "name": "Syllacrostic",
-        "url": "https://www.syllacrostic.com/daily"
+        "url": "https://www.syllacrostic.com/daily",
+        "reason": "Site no longer loads."
       }
     ],
     "description": "Remove 1 dle. "
@@ -28,7 +35,8 @@
     "dles removed": [
       {
         "name": "steamdle.pro",
-        "url": "https://steamdle.pro"
+        "url": "https://steamdle.pro",
+        "reason": "Site no longer loads."
       }
     ],
     "description": "Remove 1 dle. "
@@ -144,11 +152,13 @@
     "dles removed": [
       {
         "name": "Etyle",
-        "url": "https://www.etyle.app"
+        "url": "https://www.etyle.app",
+        "reason": "Puzzle does not load."
       },
       {
         "name": "Letterset",
-        "url": "https://www.letterset.net/daily"
+        "url": "https://www.letterset.net/daily",
+        "reason": "Site no longer loads."
       },
       {
         "name": "Rolldle",
@@ -156,7 +166,8 @@
       },
       {
         "name": "Unshuffle",
-        "url": "https://www.unshuffle.me"
+        "url": "https://www.unshuffle.me",
+        "reason": "Site no longer loads."
       }
     ],
     "description": "Remove 4 dles. "
@@ -219,11 +230,13 @@
       },
       {
         "name": "Musicdoku",
-        "url": "https://musicdoku.com"
+        "url": "https://musicdoku.com",
+        "reason": "Site no longer loads."
       },
       {
         "name": "Twofer Goofer",
-        "url": "https://twofergoofer.com"
+        "url": "https://twofergoofer.com",
+        "reason": "Contains AI-generated images."
       }
     ]
   },
@@ -300,7 +313,8 @@
     "dles removed": [
       {
         "name": "NHLdle",
-        "url": "https://nhldle.com/classic"
+        "url": "https://nhldle.com/classic",
+        "reason": "Page no longer loads."
       }
     ],
     "description": "Remove 1 dle.<br>Update Circuits, which is now part of Puzzmo."
@@ -314,7 +328,8 @@
     "dles removed": [
       {
         "name": "Leetle",
-        "url": "https://leetle.app/"
+        "url": "https://leetle.app/",
+        "reason": "Contains AI-generated puzzles."
       }
     ],
     "description": "Remove 1 dle. "
@@ -1595,7 +1610,7 @@
   },
   {
     "date": "2024-09-18",
-    "description": "Add 19 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.",
+    "description": "Add 19 dle and new header buttonss.<br/>Add ability to import and export favorites.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.",
     "dles added": [
       {
         "name": "23 Words",

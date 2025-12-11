@@ -9,9 +9,6 @@
   import { dndzone } from "svelte-dnd-action"
   import { flip } from "svelte/animate"
 
-  export let pageX
-  export let pageY
-  export let clientY
   export let dleGroup
   export let section = "regular"
   export let reorderable = false
@@ -20,6 +17,7 @@
   const tracking = useTracking()
 
   let items = []
+  let referenceElements = {}
 
   $: items = dleGroup.map((dle, idx) => ({ ...dle, id: dle.id || dle.name }))
 
@@ -53,7 +51,7 @@
     items = e.detail.items
 
     // Update favoriteIds based on new order
-    const newFavoriteIds = items.map(item => item.id)
+    const newFavoriteIds = items.map((item) => item.id)
     $favoriteIds = newFavoriteIds
 
     if (isLocalStorageAvailable()) {
@@ -84,10 +82,8 @@
     class="dleList"
     use:dndzone={{
       items,
-      flipDurationMs: 200,
-      dragDisabled: !reorderable || !editMode,
+      dragDisabled: !(reorderable && editMode),
       dropTargetStyle: {},
-      type: 'dle-group'
     }}
     on:consider={handleDndConsider}
     on:finalize={handleDndFinalize}
@@ -103,6 +99,7 @@
                 class:with-drag-handle={reorderable && editMode}
                 role="button"
                 tabindex="0"
+                bind:this={referenceElements[`${section}-${dle.name}`]}
                 on:click={(e) => {
                   if (reorderable && editMode) return
 
@@ -115,9 +112,6 @@
                   $poppedUpDle === popupKey
                     ? ($poppedUpDle = "")
                     : ($poppedUpDle = popupKey)
-                  pageX = e.pageX
-                  pageY = e.pageY
-                  clientY = e.clientY
                 }}
                 on:auxclick={(e) => handleAuxClick(dle, j)}
               >
@@ -141,12 +135,10 @@
         {#if $poppedUpDle === `${section}-${dle.name}` && !(reorderable && editMode)}
           <DlePopUp
             {dle}
-            {pageX}
-            {pageY}
-            {clientY}
             {handleClickOutside}
             {section}
             position={j}
+            referenceEl={referenceElements[`${section}-${dle.name}`]}
           />
         {/if}
       </li>

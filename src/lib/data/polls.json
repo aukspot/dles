@@ -1,0 +1,40 @@
+[
+  {
+    "id": "poll-1",
+    "question": "Do you like the new design for The DLES?",
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes"
+      },
+      {
+        "id": "no",
+        "label": "No"
+      }
+    ],
+    "timeRange": {
+      "start": "2025-12-10",
+      "end": "2025-12-21"
+    },
+    "showResultsImmediately": true
+  },
+  {
+    "id": "poll-2",
+    "question": "Would you like a Discord server for The DLES?",
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes"
+      },
+      {
+        "id": "no",
+        "label": "No"
+      }
+    ],
+    "timeRange": {
+      "start": "2025-12-10",
+      "end": "2025-12-21"
+    },
+    "showResultsImmediately": true
+  }
+]
