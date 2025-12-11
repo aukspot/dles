@@ -67,19 +67,11 @@ export let sponsors = readable([
     category: "Words",
   },
   {
-    id: 400,
-    name: "travle",
-    url: "https://travle.earth",
-    description:
-      "Connect the starting country to the ending country by naming countries in between them.",
-    category: "Geography",
-  },
-  {
-    id: 417,
-    name: "WhenTaken Movies",
-    url: "https://movies.whentaken.com",
-    description: "Guess where and when the given movie scene was filmed.",
-    category: "Geography",
+    "name": "Cinema Circuit",
+    "url": "https://www.wfhgames.com/cinema-circuit",
+    "description": "Connect the two movie actors in the fewest links possible.",
+    "category": "Movies/TV",
+    "id": 542
   },
 ])
 
