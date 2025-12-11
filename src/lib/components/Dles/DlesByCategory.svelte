@@ -537,7 +537,7 @@
   }
 
   .favorites-page-button {
-    @apply px-2 py-1 md:px-3 md:py-1.5 text-xs font-medium text-colorText bg-colorBackground hover:bg-gray-50 border border-colorNeutralSoft rounded-sm shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 uppercase;
+    @apply px-2 py-1 md:px-3 md:py-1.5 text-sm font-medium text-colorLink hover:text-colorLinkHover active:bg-colorLinkActive underline;
   }
 
   :global(.dark) .favorites-page-button {
