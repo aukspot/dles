@@ -16,12 +16,12 @@
   })
 
   const colorClasses = {
-    red: "!bg-red-300 dark:!bg-red-800 hover:!bg-colorCardC",
-    orange: "!bg-orange-300 dark:!bg-orange-700 hover:!bg-colorCardC",
-    yellow: "!bg-yellow-300 dark:!bg-yellow-700 hover:!bg-colorCardC",
-    green: "!bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC",
-    blue: "!bg-blue-300 dark:!bg-blue-700 hover:!bg-colorCardC",
-    violet: "!bg-violet-300 dark:!bg-violet-800 hover:!bg-colorCardC",
+    red: "!bg-red-300 dark:!bg-red-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
+    orange: "!bg-orange-300 dark:!bg-orange-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
+    yellow: "!bg-yellow-300 dark:!bg-yellow-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
+    green: "!bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
+    blue: "!bg-blue-300 dark:!bg-blue-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
+    violet: "!bg-violet-300 dark:!bg-violet-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
   }
 
   $: isActive = $activePanelStore === panelId
