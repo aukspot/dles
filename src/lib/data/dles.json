@@ -1,113 +1,5 @@
 [
   {
-    "name": "Tiled Words",
-    "url": "https://tiledwords.com",
-    "description": "Move and rotate tiles to find clues, connect words, and rebuild a broken crossword. ",
-    "category": "Words"
-  },
-  {
-    "name": "Dimension Flux",
-    "url": "https://dimensionflux.com",
-    "description": "Solve the interdimensional mystery given the helpful clues.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Yearly Daily",
-    "url": "https://coffeefirst.games/yearly-daily",
-    "description": "Guess the year of each of these events that all happened today's month and day.",
-    "category": "History"
-  },
-  {
-    "name": "Weather Darts",
-    "url": "http://www.weatherdarts.com",
-    "description": "Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Warbl",
-    "url": "https://www.warbl.org",
-    "description": "Guess the name of the song that is playing backwards!",
-    "category": "Music"
-  },
-  {
-    "name": "Swiftle",
-    "url": "https://www.techyonic.co/swiftle",
-    "description": "Listen to the clip and guess the Taylor Swift song.",
-    "category": "Music"
-  },
-  {
-    "name": "Letterbrew",
-    "url": "https://www.ted.com/games/letter-brew",
-    "description": "Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.",
-    "category": "Words"
-  },
-  {
-    "name": "Shuffalo",
-    "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo",
-    "description": "Make a word using all the letters on the wheel, adding a new letter after each correct guess.",
-    "category": "Words"
-  },
-  {
-    "name": "Five Fold",
-    "url": "https://fivefold.ca",
-    "description": "Fill in the 5x5 grid based on rules that change each day.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Kickoff League",
-    "url": "https://kickoffleague.com",
-    "description": "Recreate fictional soccer matches with chess pieces that can move and kick the ball!",
-    "category": "Card/Board Games"
-  },
-  {
-    "name": "TimeSwipe",
-    "url": "https://play.timeswipe.fun",
-    "description": "Guess if the event occurred before or after the given year. There are 10 events each day.",
-    "category": "History"
-  },
-  {
-    "name": "AITA Guesser",
-    "url": "https://muhashi.com/aita-guesser/",
-    "description": "Guess the verdict of Reddit AITA posts.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Revealed",
-    "url": "https://www.britannica.com/games/revealed",
-    "description": "Guess the daily topic based on its description with redacted words.",
-    "category": "Trivia"
-  },
-  {
-    "name": "SongSwipe",
-    "url": "https://play.songswipe.fun",
-    "description": "Guess if the song was released before or after the given year. There are 10 songs each day.",
-    "category": "Music"
-  },
-  {
-    "name": "Craft Connections",
-    "url": "https://craftconnections.net",
-    "description": "Create groups of 4 Minecraft items that have something in common.",
-    "category": "Video Games"
-  },
-  {
-    "name": "Pell Puzzles",
-    "url": "https://pell.achromath.com",
-    "description": "Fill the entire 6x6 grid by properly drawing paths between the O's and X's.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "cemantle",
-    "url": "https://cemantle.certitudes.org",
-    "description": "Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.",
-    "category": "Words"
-  },
-  {
-    "name": "Royaledle",
-    "url": "https://royaledle.com",
-    "description": "A collection of daily games related to Clash Royale.",
-    "category": "Video Games"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -179,6 +71,13 @@
     "description": "Guess the airport given its satellite image.",
     "category": "Vehicles",
     "id": 8
+  },
+  {
+    "name": "AITA Guesser",
+    "url": "https://muhashi.com/aita-guesser/",
+    "description": "Guess the verdict of Reddit AITA posts.",
+    "category": "Miscellaneous",
+    "id": 567
   },
   {
     "name": "Alphalock",
@@ -453,6 +352,13 @@
     "id": 41
   },
   {
+    "name": "cemantle",
+    "url": "https://cemantle.certitudes.org",
+    "description": "Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.",
+    "category": "Words",
+    "id": 568
+  },
+  {
     "name": "Chainagram",
     "url": "https://puzzletrail.games/puzzles/chainagram",
     "description": "Make a chain linking two words together by changing one letter and making an anagram at each step.",
@@ -705,6 +611,13 @@
     "id": 71
   },
   {
+    "name": "Craft Connections",
+    "url": "https://craftconnections.net",
+    "description": "Create groups of 4 Minecraft items that have something in common.",
+    "category": "Video Games",
+    "id": 569
+  },
+  {
     "name": "CraftWord",
     "url": "https://craftword.game",
     "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
@@ -883,6 +796,13 @@
     "description": "A daily cryptography game. Decode a new quote every day!",
     "category": "Words",
     "id": 91
+  },
+  {
+    "name": "Dimension Flux",
+    "url": "https://dimensionflux.com",
+    "description": "Solve the interdimensional mystery given the helpful clues.",
+    "category": "Math/Logic",
+    "id": 570
   },
   {
     "name": "Disney Heardle",
@@ -1131,6 +1051,13 @@
     "description": "Guess the fish based on its silhouette and number of letters.",
     "category": "Science/Nature",
     "id": 120
+  },
+  {
+    "name": "Five Fold",
+    "url": "https://fivefold.ca",
+    "description": "Fill in the 5x5 grid based on rules that change each day.",
+    "category": "Math/Logic",
+    "id": 571
   },
   {
     "name": "Flagdle",
@@ -1734,6 +1661,13 @@
     "id": 188
   },
   {
+    "name": "Kickoff League",
+    "url": "https://kickoffleague.com",
+    "description": "Recreate fictional soccer matches with chess pieces that can move and kick the ball!",
+    "category": "Card/Board Games",
+    "id": 572
+  },
+  {
     "name": "Kinda Hard Golf",
     "url": "https://kindahardgolf.com",
     "description": "A challenging daily golf game.",
@@ -1807,6 +1741,13 @@
     "description": "Guess the secret word that can be up to 10 letters long.",
     "category": "Words",
     "id": 192
+  },
+  {
+    "name": "Letterbrew",
+    "url": "https://www.ted.com/games/letter-brew",
+    "description": "Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.",
+    "category": "Words",
+    "id": 573
   },
   {
     "name": "Letteripher",
@@ -2480,6 +2421,13 @@
     "id": 276
   },
   {
+    "name": "Pell Puzzles",
+    "url": "https://pell.achromath.com",
+    "description": "Fill the entire 6x6 grid by properly drawing paths between the O's and X's.",
+    "category": "Math/Logic",
+    "id": 574
+  },
+  {
     "name": "Perfect Pitch Puzzle",
     "url": "https://www.perfectpitchpuzzle.com",
     "description": "After listening to a short tune, identify the first 6 notes that were played.",
@@ -2907,6 +2855,13 @@
     "id": 324
   },
   {
+    "name": "Revealed",
+    "url": "https://www.britannica.com/games/revealed",
+    "description": "Guess the daily topic based on its description with redacted words.",
+    "category": "Trivia",
+    "id": 575
+  },
+  {
     "name": "Reversle",
     "url": "https://reversle.net",
     "description": "Basically the reverse of Wordle. You start with the solution and walk backwards.",
@@ -2948,6 +2903,13 @@
     "description": "Rotate all the tiles into their correct orientation to reveal today's picture.",
     "category": "Shapes/Patterns",
     "id": 329
+  },
+  {
+    "name": "Royaledle",
+    "url": "https://royaledle.com",
+    "description": "A collection of daily games related to Clash Royale.",
+    "category": "Video Games",
+    "id": 576
   },
   {
     "name": "Runedle",
@@ -3028,6 +2990,13 @@
     "id": 340
   },
   {
+    "name": "Shuffalo",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo",
+    "description": "Make a word using all the letters on the wheel, adding a new letter after each correct guess.",
+    "category": "Words",
+    "id": 577
+  },
+  {
     "name": "Silksongdle",
     "url": "https://silksongdle.com",
     "description": "Daily guessing games related to Hollow Knight: Silksong.",
@@ -3077,6 +3046,13 @@
     "description": "Guess the song from listening to small parts of it.",
     "category": "Music",
     "id": 346
+  },
+  {
+    "name": "SongSwipe",
+    "url": "https://play.songswipe.fun",
+    "description": "Guess if the song was released before or after the given year. There are 10 songs each day.",
+    "category": "Music",
+    "id": 578
   },
   {
     "name": "Sortdle",
@@ -3329,6 +3305,13 @@
     "id": 375
   },
   {
+    "name": "Swiftle",
+    "url": "https://www.techyonic.co/swiftle",
+    "description": "Listen to the clip and guess the Taylor Swift song.",
+    "category": "Music",
+    "id": 579
+  },
+  {
     "name": "Symble",
     "url": "https://www.symble.app",
     "description": "A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.",
@@ -3466,6 +3449,13 @@
     "id": 392
   },
   {
+    "name": "Tiled Words",
+    "url": "https://tiledwords.com",
+    "description": "Move and rotate tiles to find clues, connect words, and rebuild a broken crossword. ",
+    "category": "Words",
+    "id": 580
+  },
+  {
     "name": "Tiler",
     "url": "https://gamebunny.app/tiler",
     "description": "Assemble tiles with unique designs to recompose intertwined words. Play in English, or learn French words as well!",
@@ -3492,6 +3482,13 @@
     "description": "Arrange the historical events in the order they happened.",
     "category": "History",
     "id": 395
+  },
+  {
+    "name": "TimeSwipe",
+    "url": "https://play.timeswipe.fun",
+    "description": "Guess if the event occurred before or after the given year. There are 10 events each day.",
+    "category": "History",
+    "id": 581
   },
   {
     "name": "Timingle",
@@ -3643,6 +3640,13 @@
     "id": 528
   },
   {
+    "name": "Warbl",
+    "url": "https://www.warbl.org",
+    "description": "Guess the name of the song that is playing backwards!",
+    "category": "Music",
+    "id": 582
+  },
+  {
     "name": "Wardle",
     "url": "https://wardlegame.com/",
     "description": "A collection of daily games related to War Thunder",
@@ -3665,6 +3669,13 @@
     "category": "Video Games",
     "theme": "Pokemon",
     "id": 511
+  },
+  {
+    "name": "Weather Darts",
+    "url": "http://www.weatherdarts.com",
+    "description": "Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!",
+    "category": "Miscellaneous",
+    "id": 583
   },
   {
     "name": "Weaver",
@@ -3961,6 +3972,13 @@
     "description": "Guess the year based on the given historical events of that year.",
     "category": "History",
     "id": 450
+  },
+  {
+    "name": "Yearly Daily",
+    "url": "https://coffeefirst.games/yearly-daily",
+    "description": "Guess the year of each of these events that all happened today's month and day.",
+    "category": "History",
+    "id": 584
   },
   {
     "name": "Zaku Chess",

@@ -1,11 +1,19 @@
 [
   {
+    "name": "AITA Guesser",
+    "url": "https://muhashi.com/aita-guesser/"
+  },
+  {
     "name": "Batter Up",
     "url": "https://www.batter-up.app"
   },
   {
     "name": "Bonedle",
     "url": "https://bonedle.rito.lol"
+  },
+  {
+    "name": "cemantle",
+    "url": "https://cemantle.certitudes.org"
   },
   {
     "name": "Chartle",
@@ -20,8 +28,16 @@
     "url": "https://wilf.live/cobble/"
   },
   {
+    "name": "Craft Connections",
+    "url": "https://craftconnections.net"
+  },
+  {
     "name": "Daily Walkoff",
     "url": "https://www.dailywalkoff.com"
+  },
+  {
+    "name": "Dimension Flux",
+    "url": "https://dimensionflux.com"
   },
   {
     "name": "Doggle",
@@ -32,12 +48,24 @@
     "url": "https://www.equations-game.com"
   },
   {
+    "name": "Five Fold",
+    "url": "https://fivefold.ca"
+  },
+  {
     "name": "Fortnitedle",
     "url": "https://www.fortnitedle.net"
   },
   {
     "name": "Guess The Phrase",
     "url": "https://guessthephrase.xyz"
+  },
+  {
+    "name": "Kickoff League",
+    "url": "https://kickoffleague.com"
+  },
+  {
+    "name": "Letterbrew",
+    "url": "https://www.ted.com/games/letter-brew"
   },
   {
     "name": "LinkedIn - Mini Sudoku",
@@ -60,6 +88,10 @@
     "url": "https://onepiecedle.net"
   },
   {
+    "name": "Pell Puzzles",
+    "url": "https://pell.achromath.com"
+  },
+  {
     "name": "Phrasicle",
     "url": "https://phrasicle.com"
   },
@@ -68,8 +100,24 @@
     "url": "https://www.quolture.com/#/"
   },
   {
+    "name": "Revealed",
+    "url": "https://www.britannica.com/games/revealed"
+  },
+  {
+    "name": "Royaledle",
+    "url": "https://royaledle.com"
+  },
+  {
+    "name": "Shuffalo",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo"
+  },
+  {
     "name": "Silksongdle",
     "url": "https://silksongdle.com"
+  },
+  {
+    "name": "SongSwipe",
+    "url": "https://play.songswipe.fun"
   },
   {
     "name": "Spiredle",
@@ -84,12 +132,24 @@
     "url": "https://puzzlist.com/stackdown/"
   },
   {
+    "name": "Swiftle",
+    "url": "https://www.techyonic.co/swiftle"
+  },
+  {
     "name": "Terraformation",
     "url": "https://puzzmallow.com/terraformation"
   },
   {
     "name": "The New Daily - Trivia",
     "url": "https://www.thenewdaily.com.au/puzzles/quiz-trivia"
+  },
+  {
+    "name": "Tiled Words",
+    "url": "https://tiledwords.com"
+  },
+  {
+    "name": "TimeSwipe",
+    "url": "https://play.timeswipe.fun"
   },
   {
     "name": "Trivial Pursuit Daily",
@@ -100,11 +160,23 @@
     "url": "https://www.wfhgames.com/tv-circuit"
   },
   {
+    "name": "Warbl",
+    "url": "https://www.warbl.org"
+  },
+  {
+    "name": "Weather Darts",
+    "url": "http://www.weatherdarts.com"
+  },
+  {
     "name": "Word Zip",
     "url": "https://www.wfhgames.com/word-zip"
   },
   {
     "name": "Wordamid",
     "url": "https://www.wordamid.com"
+  },
+  {
+    "name": "Yearly Daily",
+    "url": "https://coffeefirst.games/yearly-daily"
   }
 ]

@@ -1,5 +1,36 @@
 # Changelog - The Dles
 
+## 2025-12-11
+
+Add 18 dles. Remove 2 dles. Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>
+
+dles added: 
+|    | name                                                                  | url                                                                                                                    |
+|---:|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------|
+|  1 | [AITA Guesser](https://muhashi.com/aita-guesser/)                     | [https://muhashi.com/aita-guesser/](https://muhashi.com/aita-guesser/)                                                 |
+|  2 | [cemantle](https://cemantle.certitudes.org)                           | [https://cemantle.certitudes.org](https://cemantle.certitudes.org)                                                     |
+|  3 | [Craft Connections](https://craftconnections.net)                     | [https://craftconnections.net](https://craftconnections.net)                                                           |
+|  4 | [Dimension Flux](https://dimensionflux.com)                           | [https://dimensionflux.com](https://dimensionflux.com)                                                                 |
+|  5 | [Five Fold](https://fivefold.ca)                                      | [https://fivefold.ca](https://fivefold.ca)                                                                             |
+|  6 | [Kickoff League](https://kickoffleague.com)                           | [https://kickoffleague.com](https://kickoffleague.com)                                                                 |
+|  7 | [Letterbrew](https://www.ted.com/games/letter-brew)                   | [https://www.ted.com/games/letter-brew](https://www.ted.com/games/letter-brew)                                         |
+|  8 | [Pell Puzzles](https://pell.achromath.com)                            | [https://pell.achromath.com](https://pell.achromath.com)                                                               |
+|  9 | [Revealed](https://www.britannica.com/games/revealed)                 | [https://www.britannica.com/games/revealed](https://www.britannica.com/games/revealed)                                 |
+| 10 | [Royaledle](https://royaledle.com)                                    | [https://royaledle.com](https://royaledle.com)                                                                         |
+| 11 | [Shuffalo](https://www.newyorker.com/puzzles-and-games-dept/shuffalo) | [https://www.newyorker.com/puzzles-and-games-dept/shuffalo](https://www.newyorker.com/puzzles-and-games-dept/shuffalo) |
+| 12 | [SongSwipe](https://play.songswipe.fun)                               | [https://play.songswipe.fun](https://play.songswipe.fun)                                                               |
+| 13 | [Swiftle](https://www.techyonic.co/swiftle)                           | [https://www.techyonic.co/swiftle](https://www.techyonic.co/swiftle)                                                   |
+| 14 | [Tiled Words](https://tiledwords.com)                                 | [https://tiledwords.com](https://tiledwords.com)                                                                       |
+| 15 | [TimeSwipe](https://play.timeswipe.fun)                               | [https://play.timeswipe.fun](https://play.timeswipe.fun)                                                               |
+| 16 | [Warbl](https://www.warbl.org)                                        | [https://www.warbl.org](https://www.warbl.org)                                                                         |
+| 17 | [Weather Darts](http://www.weatherdarts.com)                          | [http://www.weatherdarts.com](http://www.weatherdarts.com)                                                             |
+| 18 | [Yearly Daily](https://coffeefirst.games/yearly-daily)                | [https://coffeefirst.games/yearly-daily](https://coffeefirst.games/yearly-daily)                                       |
+
+dles removed: 
+|    | name                                        | url                                                                      |
+|---:|:--------------------------------------------|:-------------------------------------------------------------------------|
+|  1 | [Hexle](https://frankljin.github.io/hexle/) | [https://frankljin.github.io/hexle/](https://frankljin.github.io/hexle/) |
+|  2 | [sqnces](https://sqnces.com)                | [https://sqnces.com](https://sqnces.com)                                 |
 ## 2025-12-02
 
 Add 2 dles. Remove 2 dles. 
@@ -11,28 +42,28 @@ dles added:
 |  2 | [Silksongdle](https://silksongdle.com)                                | [https://silksongdle.com](https://silksongdle.com)                                         |
 
 dles removed: 
-|    | name                                    | url                                                        |
-|---:|:----------------------------------------|:-----------------------------------------------------------|
-|  1 | [Unzoomed](https://www.unzoomed.com/en) | [https://www.unzoomed.com/en](https://www.unzoomed.com/en) |
-|  2 | [Geocircles](https://geocircles.io)     | [https://geocircles.io](https://geocircles.io)             |
+|    | name                                    | url                                                        | reason                                |
+|---:|:----------------------------------------|:-----------------------------------------------------------|:--------------------------------------|
+|  1 | [Unzoomed](https://www.unzoomed.com/en) | [https://www.unzoomed.com/en](https://www.unzoomed.com/en) | Now requires sign-in.                 |
+|  2 | [Geocircles](https://geocircles.io)     | [https://geocircles.io](https://geocircles.io)             | No longer available due to API costs. |
 ## 2025-11-25
 
 Remove 1 dle. 
 
 
 dles removed: 
-|    | name                                               | url                                                                      |
-|---:|:---------------------------------------------------|:-------------------------------------------------------------------------|
-|  1 | [Syllacrostic](https://www.syllacrostic.com/daily) | [https://www.syllacrostic.com/daily](https://www.syllacrostic.com/daily) |
+|    | name                                               | url                                                                      | reason                |
+|---:|:---------------------------------------------------|:-------------------------------------------------------------------------|:----------------------|
+|  1 | [Syllacrostic](https://www.syllacrostic.com/daily) | [https://www.syllacrostic.com/daily](https://www.syllacrostic.com/daily) | Site no longer loads. |
 ## 2025-11-24
 
 Remove 1 dle. 
 
 
 dles removed: 
-|    | name                                 | url                                          |
-|---:|:-------------------------------------|:---------------------------------------------|
-|  1 | [steamdle.pro](https://steamdle.pro) | [https://steamdle.pro](https://steamdle.pro) |
+|    | name                                 | url                                          | reason                |
+|---:|:-------------------------------------|:---------------------------------------------|:----------------------|
+|  1 | [steamdle.pro](https://steamdle.pro) | [https://steamdle.pro](https://steamdle.pro) | Site no longer loads. |
 ## 2025-11-23
 
 Add 25 dles. 
@@ -72,12 +103,12 @@ Remove 4 dles.
 
 
 dles removed: 
-|    | name                                         | url                                                                |
-|---:|:---------------------------------------------|:-------------------------------------------------------------------|
-|  1 | [Etyle](https://www.etyle.app)               | [https://www.etyle.app](https://www.etyle.app)                     |
-|  2 | [Letterset](https://www.letterset.net/daily) | [https://www.letterset.net/daily](https://www.letterset.net/daily) |
-|  3 | [Rolldle](https://www.light.gg/rolldle/)     | [https://www.light.gg/rolldle/](https://www.light.gg/rolldle/)     |
-|  4 | [Unshuffle](https://www.unshuffle.me)        | [https://www.unshuffle.me](https://www.unshuffle.me)               |
+|    | name                                         | url                                                                | reason                |
+|---:|:---------------------------------------------|:-------------------------------------------------------------------|:----------------------|
+|  1 | [Etyle](https://www.etyle.app)               | [https://www.etyle.app](https://www.etyle.app)                     | Puzzle does not load. |
+|  2 | [Letterset](https://www.letterset.net/daily) | [https://www.letterset.net/daily](https://www.letterset.net/daily) | Site no longer loads. |
+|  3 | [Rolldle](https://www.light.gg/rolldle/)     | [https://www.light.gg/rolldle/](https://www.light.gg/rolldle/)     | nan                   |
+|  4 | [Unshuffle](https://www.unshuffle.me)        | [https://www.unshuffle.me](https://www.unshuffle.me)               | Site no longer loads. |
 ## 2025-10-27
 
 Remove 1 dle. 
@@ -105,11 +136,11 @@ dles added:
 |  9 | [Timingle](https://timingle.com)                                      | [https://timingle.com](https://timingle.com)                                                                   |
 
 dles removed: 
-|    | name                                       | url                                                              |
-|---:|:-------------------------------------------|:-----------------------------------------------------------------|
-|  1 | [Capitale](https://capitale.countryle.com) | [https://capitale.countryle.com](https://capitale.countryle.com) |
-|  2 | [Musicdoku](https://musicdoku.com)         | [https://musicdoku.com](https://musicdoku.com)                   |
-|  3 | [Twofer Goofer](https://twofergoofer.com)  | [https://twofergoofer.com](https://twofergoofer.com)             |
+|    | name                                       | url                                                              | reason                        |
+|---:|:-------------------------------------------|:-----------------------------------------------------------------|:------------------------------|
+|  1 | [Capitale](https://capitale.countryle.com) | [https://capitale.countryle.com](https://capitale.countryle.com) | nan                           |
+|  2 | [Musicdoku](https://musicdoku.com)         | [https://musicdoku.com](https://musicdoku.com)                   | Site no longer loads.         |
+|  3 | [Twofer Goofer](https://twofergoofer.com)  | [https://twofergoofer.com](https://twofergoofer.com)             | Contains AI-generated images. |
 ## 2025-10-17
 
 Add 7 dles. 
@@ -146,9 +177,9 @@ Remove 1 dle.<br>Update Circuits, which is now part of Puzzmo.
 
 
 dles removed: 
-|    | name                                 | url                                                      |
-|---:|:-------------------------------------|:---------------------------------------------------------|
-|  1 | [NHLdle](https://nhldle.com/classic) | [https://nhldle.com/classic](https://nhldle.com/classic) |
+|    | name                                 | url                                                      | reason                |
+|---:|:-------------------------------------|:---------------------------------------------------------|:----------------------|
+|  1 | [NHLdle](https://nhldle.com/classic) | [https://nhldle.com/classic](https://nhldle.com/classic) | Page no longer loads. |
 ## 2025-09-19
 
 Add favorites to the main page.<br>You can now quickly add/remove favorites by pressing the heart icons next to each dle.<br>Add one extra column to larger screens.<br>Move the Miscellaneous category to the left column to give more space to Words for the far right column.
@@ -160,9 +191,9 @@ Remove 1 dle.
 
 
 dles removed: 
-|    | name                          | url                                        |
-|---:|:------------------------------|:-------------------------------------------|
-|  1 | [Leetle](https://leetle.app/) | [https://leetle.app/](https://leetle.app/) |
+|    | name                          | url                                        | reason                         |
+|---:|:------------------------------|:-------------------------------------------|:-------------------------------|
+|  1 | [Leetle](https://leetle.app/) | [https://leetle.app/](https://leetle.app/) | Contains AI-generated puzzles. |
 ## 2025-09-03
 
 Add sponsors section.
@@ -633,7 +664,7 @@ Fix link to Colorfle.
 
 ## 2024-09-18
 
-Add 19 dles.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.
+Add 19 dle and new header buttonss.<br/>Add ability to import and export favorites.<br/>Update links for Factle, Factle Sports, and the Wiki Game Daily.
 
 dles added: 
 |    | name                                                             | url                                                                                                              |
