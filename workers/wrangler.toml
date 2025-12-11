@@ -2,11 +2,10 @@ name = "dles-poll-api"
 main = "poll-api.js"
 compatibility_date = "2024-01-01"
 
-# KV Namespace binding
 [[kv_namespaces]]
 binding = "POLL_KV"
 id = "e335f8ec6f6e4ffc8ec707bbcf933503"
 
-routes = [
-  { pattern = "dles.aukspot.com/api/poll-*", zone_name = "aukspot.com" }
-]
+[[routes]]
+pattern = "dles.aukspot.com/api/*"
+zone_name = "aukspot.com"
