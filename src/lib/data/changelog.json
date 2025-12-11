@@ -17,7 +17,17 @@
         "reason": "No longer available due to API costs."
       }
     ],
-    "description": "Remove 2 dles. "
+    "description": "Add 2 dles. Remove 2 dles. ",
+    "dles added": [
+      {
+        "name": "LinkedIn - Mini Sudoku",
+        "url": "https://www.linkedin.com/games/mini-sudoku/"
+      },
+      {
+        "name": "Silksongdle",
+        "url": "https://silksongdle.com"
+      }
+    ]
   },
   {
     "date": "2025-11-25",
