@@ -187,10 +187,13 @@
 
   .dle-name-container {
     min-width: 0;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
+    display: inline;
+  }
+
+  .dle-name-container :global(svg) {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.25rem;
   }
 
   .drag-handle {
@@ -198,15 +201,12 @@
   }
 
   .dleName {
-    @apply inline text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-colors hover:duration-300;
+    @apply text-left text-base text-colorText underline decoration-colorTextSoftest cursor-pointer hover:text-colorTextSoft hover:decoration-colorTextSoft hover:transition-colors hover:duration-300;
     text-decoration-thickness: 2px;
     padding: 0;
     border: none;
     background: none;
     display: inline;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    max-width: 100%;
   }
 
   .dleName.with-drag-handle {
