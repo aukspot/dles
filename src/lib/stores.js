@@ -73,6 +73,13 @@ export let sponsors = readable([
     "category": "Movies/TV",
     "id": 542
   },
+  {
+    "name": "Wordamid",
+    "url": "https://www.wordamid.com",
+    "description": "Solve the daily word pyramid by guessing words of increasing length.",
+    "category": "Words",
+    "id": 564
+  },
 ])
 
 export { categoryRanks } from "$lib/js/categoryRanks"
