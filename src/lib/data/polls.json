@@ -55,5 +55,24 @@
       "end": "2025-12-21"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-4",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "math-logic",
+        "label": "Math/Logic"
+      },
+      {
+        "id": "words",
+        "label": "Words"
+      }
+    ],
+    "timeRange": {
+      "start": "2025-12-15",
+      "end": "2025-12-22"
+    },
+    "showResultsImmediately": true
   }
 ]
