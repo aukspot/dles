@@ -4,7 +4,7 @@
   export let open = false
 </script>
 
-{#if open}
+<div style="display: {open ? 'unset' : 'none'}">
   <div class="m-auto max-w-[40rem] p-2">
     <slot />
 
@@ -17,4 +17,4 @@
       </button>
     </div>
   </div>
-{/if}
+</div>
