@@ -1,21 +1,75 @@
 [
     {
-        "name": "Silksongdle",
-        "url": "https://silksongdle.com",
-        "description": "Daily guessing games related to Hollow Knight: Silksong.",
-        "category": "Video Games"
+        "name": "WhichWay",
+        "url": "https://whichway.is",
+        "description": "",
+        "category": "Geography"
     },
     {
-        "name": "LinkedIn - Mini Sudoku",
-        "url": "https://www.linkedin.com/games/mini-sudoku/",
-        "description": "A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.",
+        "name": "Circle Moon Puzzles",
+        "url": "https://circle9puzzle.com",
+        "description": "A collection of fun daily logic games.",
         "category": "Math/Logic"
     },
     {
-        "name": "",
+        "name": "Pair Down",
         "url": "",
         "description": "",
         "category": ""
+    },
+    {
+        "name": "Geografind",
+        "url": "",
+        "description": "",
+        "category": "Geography"
+    },
+    {
+        "name": "Royal Family",
+        "url": "",
+        "description": "",
+        "category": ""
+    },
+    {
+        "name": "Freestyle",
+        "url": "https://playfreestyle.co",
+        "description": "",
+        "category": ""
+    },
+    {
+        "name": "Stardle",
+        "url": "https://stardlegame.github.io/stardle",
+        "description": "",
+        "category": "Science/Nature"
+    },
+    {
+        "name": "trms",
+        "url": "",
+        "description": "",
+        "category": "Words"
+    },
+    {
+        "name": "Curdle",
+        "url": "https://gumbo.systems/curdle/",
+        "description": "Guess the cheese from the zoomed-in photo.",
+        "category": "Food"
+    },
+    {
+        "name": "WordSmyth",
+        "url": "https://playwordsmyth.com",
+        "description": "",
+        "category": "Words"
+    },
+    {
+        "name": "Sudoker",
+        "url": "https://sudoker.io",
+        "description": "",
+        "category": "Card/Board Games"
+    },
+    {
+        "name": "Daily Rinds",
+        "url": "https://dailyrinds.com",
+        "description": "",
+        "category": "Food"
     },
     {
         "name": "",
@@ -41,4 +95,10 @@
         "description": "",
         "category": ""
     },
+    {
+        "name": "",
+        "url": "",
+        "description": "",
+        "category": ""
+    }
 ]
