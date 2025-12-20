@@ -1,44 +1,92 @@
 [
     {
-        "name": "Silksongdle",
-        "url": "https://silksongdle.com",
-        "description": "Daily guessing games related to Hollow Knight: Silksong.",
-        "category": "Video Games"
+        "name": "WhichWay",
+        "url": "https://whichway.is",
+        "description": "Determine which direction the target country is from the starting country, 10 rounds daily.",
+        "category": "Geography"
     },
     {
-        "name": "LinkedIn - Mini Sudoku",
-        "url": "https://www.linkedin.com/games/mini-sudoku/",
-        "description": "A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.",
+        "name": "Circle Moon Puzzles",
+        "url": "https://circle9puzzle.com",
+        "description": "A collection of fun daily logic games.",
         "category": "Math/Logic"
     },
     {
-        "name": "",
-        "url": "",
-        "description": "",
-        "category": ""
+        "name": "Pair Down",
+        "url": "https://pairdown.com",
+        "description": "Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.",
+        "category": "Words"
     },
     {
-        "name": "",
-        "url": "",
-        "description": "",
-        "category": ""
+        "name": "Geografind",
+        "url": "https://coffeefirst.games/geografind",
+        "description": "Guess the mystery country in as few guesses as possible, watch the map for hints after each guess.",
+        "category": "Geography"
     },
     {
-        "name": "",
-        "url": "",
-        "description": "",
-        "category": ""
+        "name": "Royal Family",
+        "url": "https://coffeefirst.games/royal-family",
+        "description": "Place the chess pieces on the board so that each zone has a piece and no piece can attack another.",
+        "category": "Card/Board Games"
     },
     {
-        "name": "",
-        "url": "",
-        "description": "",
-        "category": ""
+        "name": "Freestyle",
+        "url": "https://playfreestyle.co",
+        "description": "Find 13 words that rhyme with today's word. The more syllables, the better!",
+        "category": "Words"
     },
     {
-        "name": "",
-        "url": "",
-        "description": "",
-        "category": ""
+        "name": "Stardle",
+        "url": "https://stardlegame.github.io/stardle",
+        "description": "Wordle except the secret word is related to Astronomy in some way.",
+        "category": "Science/Nature"
     },
+    {
+        "name": "trms",
+        "url": "https://impliedampersand.itch.io/trms",
+        "description": "Restore the vowels in each clue to find answers that reduce to the same consonants. Try the \"How to Play\"!",
+        "category": "Words"
+    },
+    {
+        "name": "Curdle",
+        "url": "https://gumbo.systems/curdle/",
+        "description": "Guess the cheese from the zoomed-in photo.",
+        "category": "Food"
+    },
+    {
+        "name": "WordSmyth",
+        "url": "https://playwordsmyth.com",
+        "description": "Transform the word using one of the clues listed until you reach the secret word.",
+        "category": "Words"
+    },
+    {
+        "name": "Sudoker",
+        "url": "https://sudoker.io",
+        "description": "Rearrange the cards to create better Poker hands and maximize scores across rows and columns.",
+        "category": "Card/Board Games"
+    },
+    {
+        "name": "Daily Rinds",
+        "url": "https://dailyrinds.com",
+        "description": "Guess the daily mystery cheese.",
+        "category": "Food"
+    },
+    {
+        "name": "Wormle",
+        "url": "https://wormle.com",
+        "description": "Worm your way through the grid to spell today's themed words.",
+        "category": "Words"
+    },
+    {
+        "name": "Daily Gogen",
+        "url": "https://www.dailygogen.com",
+        "description": "Place the missing letters onto the grid so that the whole list of words can be made.",
+        "category": "Words"
+    },
+    {
+        "name": "Stewardle",
+        "url": "https://stewardle.com",
+        "description": "Guess the daily F1 driver.",
+        "category": "Sports"
+    }
 ]
