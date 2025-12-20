@@ -1,5 +1,77 @@
 [
   {
+    "date": "2025-12-20",
+    "dles added": [
+      {
+        "name": "Circle Moon Puzzles",
+        "url": "https://circle9puzzle.com"
+      },
+      {
+        "name": "Curdle",
+        "url": "https://gumbo.systems/curdle/"
+      },
+      {
+        "name": "Daily Gogen",
+        "url": "https://www.dailygogen.com"
+      },
+      {
+        "name": "Daily Rinds",
+        "url": "https://dailyrinds.com"
+      },
+      {
+        "name": "Freestyle",
+        "url": "https://playfreestyle.co"
+      },
+      {
+        "name": "Geografind",
+        "url": "https://coffeefirst.games/geografind"
+      },
+      {
+        "name": "Pair Down",
+        "url": "https://pairdown.com"
+      },
+      {
+        "name": "Royal Family",
+        "url": "https://coffeefirst.games/royal-family"
+      },
+      {
+        "name": "Stardle",
+        "url": "https://stardlegame.github.io/stardle"
+      },
+      {
+        "name": "Stewardle",
+        "url": "https://stewardle.com"
+      },
+      {
+        "name": "Sudoker",
+        "url": "https://sudoker.io"
+      },
+      {
+        "name": "trms",
+        "url": "https://impliedampersand.itch.io/trms"
+      },
+      {
+        "name": "WhichWay",
+        "url": "https://whichway.is"
+      },
+      {
+        "name": "WordSmyth",
+        "url": "https://playwordsmyth.com"
+      },
+      {
+        "name": "Wormle",
+        "url": "https://wormle.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "MinecraftDle",
+        "url": "https://www.minecraftdle.net"
+      }
+    ],
+    "description": "Add 15 dles. Remove 1 dle. "
+  },
+  {
     "date": "2025-12-11",
     "description": "Add 18 dles.<br/>Remove 2 dles.<br/>Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>",
     "dles added": [

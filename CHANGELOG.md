@@ -1,5 +1,32 @@
 # Changelog - The Dles
 
+## 2025-12-20
+
+Add 15 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                   | url                                                                              |
+|---:|:-------------------------------------------------------|:---------------------------------------------------------------------------------|
+|  1 | [Circle Moon Puzzles](https://circle9puzzle.com)       | [https://circle9puzzle.com](https://circle9puzzle.com)                           |
+|  2 | [Curdle](https://gumbo.systems/curdle/)                | [https://gumbo.systems/curdle/](https://gumbo.systems/curdle/)                   |
+|  3 | [Daily Gogen](https://www.dailygogen.com)              | [https://www.dailygogen.com](https://www.dailygogen.com)                         |
+|  4 | [Daily Rinds](https://dailyrinds.com)                  | [https://dailyrinds.com](https://dailyrinds.com)                                 |
+|  5 | [Freestyle](https://playfreestyle.co)                  | [https://playfreestyle.co](https://playfreestyle.co)                             |
+|  6 | [Geografind](https://coffeefirst.games/geografind)     | [https://coffeefirst.games/geografind](https://coffeefirst.games/geografind)     |
+|  7 | [Pair Down](https://pairdown.com)                      | [https://pairdown.com](https://pairdown.com)                                     |
+|  8 | [Royal Family](https://coffeefirst.games/royal-family) | [https://coffeefirst.games/royal-family](https://coffeefirst.games/royal-family) |
+|  9 | [Stardle](https://stardlegame.github.io/stardle)       | [https://stardlegame.github.io/stardle](https://stardlegame.github.io/stardle)   |
+| 10 | [Stewardle](https://stewardle.com)                     | [https://stewardle.com](https://stewardle.com)                                   |
+| 11 | [Sudoker](https://sudoker.io)                          | [https://sudoker.io](https://sudoker.io)                                         |
+| 12 | [trms](https://impliedampersand.itch.io/trms)          | [https://impliedampersand.itch.io/trms](https://impliedampersand.itch.io/trms)   |
+| 13 | [WhichWay](https://whichway.is)                        | [https://whichway.is](https://whichway.is)                                       |
+| 14 | [WordSmyth](https://playwordsmyth.com)                 | [https://playwordsmyth.com](https://playwordsmyth.com)                           |
+| 15 | [Wormle](https://wormle.com)                           | [https://wormle.com](https://wormle.com)                                         |
+
+dles removed: 
+|    | name                                         | url                                                          |
+|---:|:---------------------------------------------|:-------------------------------------------------------------|
+|  1 | [MinecraftDle](https://www.minecraftdle.net) | [https://www.minecraftdle.net](https://www.minecraftdle.net) |
 ## 2025-12-11
 
 Add 18 dles.<br/>Remove 2 dles.<br/>Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>

@@ -24,12 +24,28 @@
     "url": "https://www.wfhgames.com/cinema-circuit"
   },
   {
+    "name": "Circle Moon Puzzles",
+    "url": "https://circle9puzzle.com"
+  },
+  {
     "name": "Cobble",
     "url": "https://wilf.live/cobble/"
   },
   {
     "name": "Craft Connections",
     "url": "https://craftconnections.net"
+  },
+  {
+    "name": "Curdle",
+    "url": "https://gumbo.systems/curdle/"
+  },
+  {
+    "name": "Daily Gogen",
+    "url": "https://www.dailygogen.com"
+  },
+  {
+    "name": "Daily Rinds",
+    "url": "https://dailyrinds.com"
   },
   {
     "name": "Daily Walkoff",
@@ -54,6 +70,14 @@
   {
     "name": "Fortnitedle",
     "url": "https://www.fortnitedle.net"
+  },
+  {
+    "name": "Freestyle",
+    "url": "https://playfreestyle.co"
+  },
+  {
+    "name": "Geografind",
+    "url": "https://coffeefirst.games/geografind"
   },
   {
     "name": "Guess The Phrase",
@@ -88,6 +112,10 @@
     "url": "https://onepiecedle.net"
   },
   {
+    "name": "Pair Down",
+    "url": "https://pairdown.com"
+  },
+  {
     "name": "Pell Puzzles",
     "url": "https://pell.achromath.com"
   },
@@ -102,6 +130,10 @@
   {
     "name": "Revealed",
     "url": "https://www.britannica.com/games/revealed"
+  },
+  {
+    "name": "Royal Family",
+    "url": "https://coffeefirst.games/royal-family"
   },
   {
     "name": "Royaledle",
@@ -132,6 +164,18 @@
     "url": "https://puzzlist.com/stackdown/"
   },
   {
+    "name": "Stardle",
+    "url": "https://stardlegame.github.io/stardle"
+  },
+  {
+    "name": "Stewardle",
+    "url": "https://stewardle.com"
+  },
+  {
+    "name": "Sudoker",
+    "url": "https://sudoker.io"
+  },
+  {
     "name": "Swiftle",
     "url": "https://www.techyonic.co/swiftle"
   },
@@ -156,6 +200,10 @@
     "url": "https://www.trivialpursuit.com/daily"
   },
   {
+    "name": "trms",
+    "url": "https://impliedampersand.itch.io/trms"
+  },
+  {
     "name": "TV Circuit",
     "url": "https://www.wfhgames.com/tv-circuit"
   },
@@ -168,12 +216,24 @@
     "url": "http://www.weatherdarts.com"
   },
   {
+    "name": "WhichWay",
+    "url": "https://whichway.is"
+  },
+  {
     "name": "Word Zip",
     "url": "https://www.wfhgames.com/word-zip"
   },
   {
     "name": "Wordamid",
     "url": "https://www.wordamid.com"
+  },
+  {
+    "name": "WordSmyth",
+    "url": "https://playwordsmyth.com"
+  },
+  {
+    "name": "Wormle",
+    "url": "https://wormle.com"
   },
   {
     "name": "Yearly Daily",
