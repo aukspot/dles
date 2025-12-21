@@ -35,6 +35,13 @@
   }
 
   onMount(() => {
+    if (isLocalStorageAvailable) {
+      if (localStorage.randomCategories) {
+        $randomCategories = JSON.parse(localStorage.randomCategories)
+      } else {
+        $randomCategories = $categories
+      }
+    }
     updateOptions()
   })
 

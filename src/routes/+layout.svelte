@@ -41,11 +41,6 @@
 
   onMount(() => {
     if (isLocalStorageAvailable()) {
-      if (localStorage.randomCategories) {
-        $randomCategories = JSON.parse(localStorage.randomCategories)
-      } else {
-        $randomCategories = $categories
-      }
       const rawFavorites = JSON.parse(localStorage.favorites || "[]")
 
       // Check if migration is needed
