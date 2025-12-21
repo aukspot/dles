@@ -24,9 +24,9 @@ dles added:
 | 15 | [Wormle](https://wormle.com)                           | [https://wormle.com](https://wormle.com)                                         |
 
 dles removed: 
-|    | name                                         | url                                                          |
-|---:|:---------------------------------------------|:-------------------------------------------------------------|
-|  1 | [MinecraftDle](https://www.minecraftdle.net) | [https://www.minecraftdle.net](https://www.minecraftdle.net) |
+|    | name                                         | url                                                          | reason                     |
+|---:|:---------------------------------------------|:-------------------------------------------------------------|:---------------------------|
+|  1 | [MinecraftDle](https://www.minecraftdle.net) | [https://www.minecraftdle.net](https://www.minecraftdle.net) | Now redirects to Mcdle.net |
 ## 2025-12-11
 
 Add 18 dles.<br/>Remove 2 dles.<br/>Major design update with a more blocky feel.<br/>Add new header buttons with their own panels.<br/>Add settings panel that allows you to hide sections and categories, as well as change category ordering.<br/>Add polls. (Experimental)<br/>Add My Book Picks section.<br/>Add ability to import and export favorites.<br/>
