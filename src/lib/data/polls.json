@@ -71,7 +71,49 @@
     ],
     "timeRange": {
       "start": "2025-12-15",
-      "end": "2025-12-22"
+      "end": "2025-12-29"
+    },
+    "showResultsImmediately": true
+  },
+  {
+    "id": "poll-5",
+    "question": "Have you tried rearranging categories in the Settings?",
+    "options": [
+      {
+        "id": "yes-it-is-a-good-feature",
+        "label": "Yes, it is a good feature"
+      },
+      {
+        "id": "yes-but-i-dont-see-the-point",
+        "label": "Yes, but I don't see the point"
+      },
+      {
+        "id": "no",
+        "label": "No"
+      }
+    ],
+    "timeRange": {
+      "start": "2025-12-21",
+      "end": "2025-12-30"
+    },
+    "showResultsImmediately": true
+  },
+  {
+    "id": "poll-6",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "music",
+        "label": "Music"
+      },
+      {
+        "id": "movies-tv",
+        "label": "Movies/TV"
+      }
+    ],
+    "timeRange": {
+      "start": "2025-12-22",
+      "end": "2026-01-04"
     },
     "showResultsImmediately": true
   }
