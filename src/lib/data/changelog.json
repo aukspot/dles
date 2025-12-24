@@ -1,5 +1,15 @@
 [
   {
+    "date": "2025-12-24",
+    "dles removed": [
+      {
+        "name": "Eater of Wordles",
+        "url": "https://hexdecima.github.io/eowordles/"
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2025-12-20",
     "dles added": [
       {

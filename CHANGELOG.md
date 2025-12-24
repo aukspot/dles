@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2025-12-24
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                                       | url                                                                              |
+|---:|:-----------------------------------------------------------|:---------------------------------------------------------------------------------|
+|  1 | [Eater of Wordles](https://hexdecima.github.io/eowordles/) | [https://hexdecima.github.io/eowordles/](https://hexdecima.github.io/eowordles/) |
 ## 2025-12-20
 
 Add 15 dles. Remove 1 dle. 
