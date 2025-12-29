@@ -116,5 +116,24 @@
       "end": "2026-01-04"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-7",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "sports",
+        "label": "Sports"
+      },
+      {
+        "id": "video-games",
+        "label": "Video Games"
+      }
+    ],
+    "timeRange": {
+      "start": "2025-12-29",
+      "end": "2026-01-11"
+    },
+    "showResultsImmediately": true
   }
 ]
