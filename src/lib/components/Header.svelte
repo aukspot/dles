@@ -3,7 +3,13 @@
   import HeaderButton from "./Buttons/HeaderButton.svelte"
   import BackToTopButton from "./Buttons/BackToTopButton.svelte"
   import Banner from "./Banner.svelte"
-  import { changelog, dles, getActivePolls, pollResponses, activePanelStore } from "$lib/stores"
+  import {
+    changelog,
+    dles,
+    getActivePolls,
+    pollResponses,
+    activePanelStore,
+  } from "$lib/stores"
   import IconDiscord from "./Icons/IconDiscord.svelte"
   import { onMount } from "svelte"
   import { getLocalStorage, setLocalStorage } from "$lib/js/localStorage"
@@ -105,12 +111,6 @@
           class="btn-header text-colorText !bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC"
           >HOW TO HELP</a
         >
-        <a
-          href="#panel-discord"
-          class="btn-header text-colorText !bg-teal-300 dark:!bg-teal-700 hover:!bg-colorCardC"
-        >
-          DISCORD
-        </a>
       </div>
     </noscript>
   </div>
