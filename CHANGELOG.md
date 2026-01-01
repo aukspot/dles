@@ -1,5 +1,22 @@
 # Changelog - The Dles
 
+## 2026-01-01
+
+Add 4 dles. Remove 2 dles. Add Discord server.
+
+dles added: 
+|    | name                                                               | url                                                                                                                |
+|---:|:-------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  1 | [Blossom](https://www.merriam-webster.com/games/blossom-word-game) | [https://www.merriam-webster.com/games/blossom-word-game](https://www.merriam-webster.com/games/blossom-word-game) |
+|  2 | [Brainer](https://gamebunny.app/brainer)                           | [https://gamebunny.app/brainer](https://gamebunny.app/brainer)                                                     |
+|  3 | [Cutle](https://pfiffel.com/cutle/)                                | [https://pfiffel.com/cutle/](https://pfiffel.com/cutle/)                                                           |
+|  4 | [Enclose Horse](https://enclose.horse)                             | [https://enclose.horse](https://enclose.horse)                                                                     |
+
+dles removed: 
+|    | name                                             | url                                                                    |
+|---:|:-------------------------------------------------|:-----------------------------------------------------------------------|
+|  1 | [List Them All!](https://listthemall.com)        | [https://listthemall.com](https://listthemall.com)                     |
+|  2 | [PopCultured](https://histordle.com/popcultured) | [https://histordle.com/popcultured](https://histordle.com/popcultured) |
 ## 2025-12-24
 
 Remove 1 dle. 

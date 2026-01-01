@@ -1,29 +1,5 @@
 [
   {
-    "name": "Enclose Horse",
-    "url": "https://enclose.horse",
-    "description": "Enclose the horse in the biggest possible pen.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Brainer",
-    "url": "https://gamebunny.app/brainer",
-    "description": "A daily quiz show with creative questions from several categories.",
-    "category": "Trivia"
-  },
-  {
-    "name": "Cutle",
-    "url": "https://pfiffel.com/cutle/",
-    "description": "Cut today's shape as evenly as you can.",
-    "category": "Estimation"
-  },
-  {
-    "name": "Blossom",
-    "url": "https://www.merriam-webster.com/games/blossom-word-game",
-    "description": "Create 12 words using the letters on the petals, always including the center letter. You get more points for longer words.",
-    "category": "Words"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -242,6 +218,13 @@
     "id": 460
   },
   {
+    "name": "Blossom",
+    "url": "https://www.merriam-webster.com/games/blossom-word-game",
+    "description": "Create 12 words using the letters on the petals, always including the center letter. You get more points for longer words.",
+    "category": "Words",
+    "id": 600
+  },
+  {
     "name": "Blunderwall",
     "url": "https://bythomas.co.uk/blunderwall",
     "description": "Find the secret word on the Blunderwall in 4 tries.",
@@ -296,6 +279,13 @@
     "description": "A daily brainteaser from BrainBashers.",
     "category": "Math/Logic",
     "id": 29
+  },
+  {
+    "name": "Brainer",
+    "url": "https://gamebunny.app/brainer",
+    "description": "A daily quiz show with creative questions from several categories.",
+    "category": "Trivia",
+    "id": 601
   },
   {
     "name": "Breadle",
@@ -721,6 +711,13 @@
     "id": 586
   },
   {
+    "name": "Cutle",
+    "url": "https://pfiffel.com/cutle/",
+    "description": "Cut today's shape as evenly as you can.",
+    "category": "Estimation",
+    "id": 602
+  },
+  {
     "name": "Cyphr",
     "url": "https://cyphrgame.com",
     "description": "Guess letters to form a word on each row of the pyramid, starting from the top row.",
@@ -1001,6 +998,13 @@
     "category": "Card/Board Games",
     "theme": "Magic the Gathering",
     "id": 109
+  },
+  {
+    "name": "Enclose Horse",
+    "url": "https://enclose.horse",
+    "description": "Enclose the horse in the biggest possible pen.",
+    "category": "Miscellaneous",
+    "id": 603
   },
   {
     "name": "Equations",

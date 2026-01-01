@@ -1,7 +1,35 @@
 [
   {
     "date": "2026-01-01",
-    "description": "Add Discord server."
+    "description": "Add 4 dles. Remove 2 dles. Add Discord server.",
+    "dles added": [
+      {
+        "name": "Blossom",
+        "url": "https://www.merriam-webster.com/games/blossom-word-game"
+      },
+      {
+        "name": "Brainer",
+        "url": "https://gamebunny.app/brainer"
+      },
+      {
+        "name": "Cutle",
+        "url": "https://pfiffel.com/cutle/"
+      },
+      {
+        "name": "Enclose Horse",
+        "url": "https://enclose.horse"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "List Them All!",
+        "url": "https://listthemall.com"
+      },
+      {
+        "name": "PopCultured",
+        "url": "https://histordle.com/popcultured"
+      }
+    ]
   },
   {
     "date": "2025-12-24",
