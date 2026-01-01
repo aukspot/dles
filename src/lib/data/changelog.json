@@ -23,11 +23,13 @@
     "dles removed": [
       {
         "name": "List Them All!",
-        "url": "https://listthemall.com"
+        "url": "https://listthemall.com",
+        "reason": "Puzzles repeat too often."
       },
       {
         "name": "PopCultured",
-        "url": "https://histordle.com/popcultured"
+        "url": "https://histordle.com/popcultured",
+        "reason": "Daily puzzle is empty."
       }
     ]
   },
@@ -36,7 +38,8 @@
     "dles removed": [
       {
         "name": "Eater of Wordles",
-        "url": "https://hexdecima.github.io/eowordles/"
+        "url": "https://hexdecima.github.io/eowordles/",
+        "reason": "The game has ended."
       }
     ],
     "description": "Remove 1 dle. "
