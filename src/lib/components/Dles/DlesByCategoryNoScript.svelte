@@ -2,6 +2,7 @@
   import { categories, categorizedDles } from "$lib/stores"
 
   import Banner from "../Banner.svelte"
+  import SectionHeader from "../SectionHeader.svelte"
 
   import IconCardBoardGames from "$lib/components/Icons/IconCardBoardGames.svelte"
   import IconColors from "$lib/components/Icons/IconColors.svelte"
@@ -66,17 +67,11 @@
 <div class="gridContainer">
   {#each $categories as category, i (i)}
     <div class="card">
-      <div
-        class="labelContainer"
-        style="background-color: {categoryColors[category]}"
-      >
-        <div class="label">
-          <div class="flex-shrink-0">
-            <svelte:component this={categoryIcons[category]} />
-          </div>
-          {category}
-        </div>
-      </div>
+      <SectionHeader
+        title={category}
+        icon={categoryIcons[category]}
+        color={categoryColors[category]}
+      />
       <div>
         <ol class="dleList">
           {#each $categorizedDles[category] as dle, j (j)}
@@ -131,12 +126,7 @@
   .card {
     @apply mb-2 break-inside-avoid shadow-sm shadow-colorNeutralSoft;
   }
-  .labelContainer {
-    @apply py-2 px-2 bg-colorCardB border-b-2 border-colorText;
-  }
-  .label {
-    @apply m-auto flex flex-wrap justify-center items-center gap-1 text-base md:text-lg text-colorText font-semibold;
-  }
+
   .dleContainer {
     @apply [&:nth-child(odd)]:bg-colorCardB [&:nth-child(even)]:bg-colorCardA;
   }

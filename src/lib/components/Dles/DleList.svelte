@@ -2,6 +2,7 @@
   import { settings } from "$lib/stores"
   import BackToTopButton from "../Buttons/BackToTopButton.svelte"
   import DlesByCategory from "./DlesByCategory.svelte"
+  import DlesTable from "./DlesTable.svelte"
   import DlesByCategoryNoScript from "./DlesByCategoryNoScript.svelte"
   import { onMount } from "svelte"
   import { isLocalStorageAvailable } from "$lib/js/utilities"

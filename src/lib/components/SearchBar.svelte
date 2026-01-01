@@ -6,6 +6,7 @@
     getLocalStorageJSON,
     setLocalStorageJSON,
   } from "$lib/js/localStorage"
+  import Button from "./Button.svelte"
 
   export let searchInput
 
@@ -113,22 +114,22 @@
 
   {#if $searchQuery.trim()}
     <div class="search-options">
-      <label class="btn-toggle" class:active={searchByDescription}>
+      <Button variant="toggle" active={searchByDescription}>
         <input
           type="checkbox"
           bind:checked={searchByDescription}
           on:change={updatePreferences}
         />
         Include Description
-      </label>
-      <label class="btn-toggle" class:active={searchByUrl}>
+      </Button>
+      <Button variant="toggle" active={searchByUrl}>
         <input
           type="checkbox"
           bind:checked={searchByUrl}
           on:change={updatePreferences}
         />
         Include URL
-      </label>
+      </Button>
     </div>
     <div class="mt-2 results-count">
       Found

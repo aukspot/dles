@@ -6,6 +6,7 @@
   import IconLink from "$lib/components/Icons/IconLink.svelte"
   import FavoriteButton from "$lib/components/Buttons/FavoriteButton.svelte"
   import SearchModal from "$lib/components/Dles/SearchModal.svelte"
+  import Button from "$lib/components/Button.svelte"
   import { onMount } from "svelte"
   import { base } from "$app/paths"
   import { useTracking } from "$lib/composables/useTracking"
@@ -88,8 +89,9 @@
     <h2 class="title justify-center mb-4">Favorites</h2>
     <GoBackHome />
     <div class="flex justify-center mb-3 gap-2 flex-wrap">
-      <button
-        class="btn-action-big hover:bg-green-200 dark:hover:bg-green-800"
+      <Button
+        variant="action-big"
+        color="green"
         on:click={openSearchModal}
       >
         <svg
@@ -107,13 +109,13 @@
           />
         </svg>
         Add Favorite
-      </button>
+      </Button>
 
       {#if $favorites.length > 0}
-        <button
-          class="btn-action-big {dragEnabled
-            ? 'reorder-active'
-            : 'hover:bg-violet-200 dark:hover:bg-violet-800'}"
+        <Button
+          variant="action-big"
+          color={dragEnabled ? "neutral" : "violet"}
+          class={dragEnabled ? "reorder-active" : ""}
           on:click={toggleDragMode}
         >
           <svg
@@ -131,26 +133,27 @@
             />
           </svg>
           {dragEnabled ? "Done Reordering" : "Reorder"}
-        </button>
-        <button
-          class="btn-action-big hover:bg-blue-200 dark:hover:bg-blue-800"
+        </Button>
+        <Button
+          variant="action-big"
+          color="blue"
           on:click={sortByCategory}
         >
           Sort by Category
-        </button>
-        <button
-          class="btn-action hover:bg-blue-200 dark:hover:bg-blue-800"
+        </Button>
+        <Button
+          color="blue"
           on:click={sortAlphabetically}
         >
           Sort Alphabetically
-        </button>
-        <button
-          class="btn-action hover:bg-orange-200 dark:hover:bg-orange-800"
+        </Button>
+        <Button
+          color="orange"
+          icon={IconRandom}
           on:click={handlePlayRandomFavorite}
         >
-          <IconRandom />
           Play Random
-        </button>
+        </Button>
       {/if}
     </div>
 

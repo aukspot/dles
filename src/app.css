@@ -6,6 +6,23 @@
 
 @tailwind utilities;
 
+:root {
+  --font-size-offset: 0px;
+  font-size: calc(14px + var(--font-size-offset));
+}
+
+@media (min-width: 360px) {
+  :root {
+    font-size: calc(15px + var(--font-size-offset));
+  }
+}
+
+@media (min-width: 640px) {
+  :root {
+    font-size: calc(16px + var(--font-size-offset));
+  }
+}
+
 a {
   @apply text-colorLink hover:text-colorLinkHover active:text-colorLinkActive;
 }
@@ -23,7 +40,33 @@ a {
 }
 
 .subtitle {
-  @apply p-1 font-mono text-[10px] bg-colorCardC fill-colorTextSofter z-30 uppercase shadow-colorTextSoftest shadow-sm;
+  @apply p-1 font-mono text-tiny bg-colorCardC fill-colorTextSofter z-30 uppercase shadow-colorTextSoftest shadow-sm;
+}
+
+.section-icon {
+  @apply flex-shrink-0 w-6 h-6 flex items-center justify-center;
+}
+
+.section-icon :global(svg) {
+  @apply w-full h-full;
+}
+
+.rainbow-gradient {
+  background: repeating-linear-gradient(60deg,
+      hsl(0, 90%, 70%, 0.8) 0% 20%,
+      hsl(72, 90%, 70%, 0.8) 20% 40%,
+      hsl(144, 90%, 70%, 0.8) 40% 60%,
+      hsl(216, 90%, 70%, 0.8) 60% 80%,
+      hsl(288, 90%, 70%, 0.8) 80% 100%);
+}
+
+.dark .rainbow-gradient {
+  background: repeating-linear-gradient(60deg,
+      hsl(0, 90%, 30%, 0.9) 0% 20%,
+      hsl(72, 90%, 30%, 0.9) 20% 40%,
+      hsl(144, 90%, 30%, 0.9) 40% 60%,
+      hsl(216, 90%, 30%, 0.9) 60% 80%,
+      hsl(288, 90%, 30%, 0.9) 80% 100%);
 }
 
 .btn {
@@ -36,7 +79,7 @@ a {
 }
 
 .btn-header {
-  @apply p-[.4rem] font-mono text-[10px] md:text-[11px] fill-colorTextSofter z-30 flex items-center uppercase border border-colorTextSofter;
+  @apply p-[.4rem] font-mono text-tiny fill-colorTextSofter z-30 flex items-center uppercase border border-colorTextSofter;
 }
 
 .btn-icon {

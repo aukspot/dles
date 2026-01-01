@@ -15,6 +15,9 @@
   } from "$lib/stores"
 
   import IconNew from "../Icons/IconNew.svelte"
+  import SectionHeader from "../SectionHeader.svelte"
+  import IconStar from "../Icons/IconStar.svelte"
+  import IconBook from "../Icons/IconBook.svelte"
 
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { base } from "$app/paths"
@@ -34,7 +37,6 @@
   import SearchModal from "./SearchModal.svelte"
   import FavoritesImportExportModal from "./FavoritesImportExportModal.svelte"
   import Sponsors from "../Sponsors.svelte"
-  import BookRecommendation from "../BookRecommendation.svelte"
   import { enhancedSearch, playRandom } from "$lib/js/utilities"
   import { useTracking } from "$lib/composables/useTracking"
 
@@ -44,6 +46,8 @@
   let showImportExportModal = false
   let importExportMode = "export" // "export" or "import"
   let editMode = false
+  let lastWindowWidth = 0
+  let lastWindowHeight = 0
 
   const tracking = useTracking()
 
@@ -77,13 +81,24 @@
     }
   }
 
-  function resetPoppedUpDle() {
-    $poppedUpDle = ""
+  function handleResize() {
+    // Only close popup if width changed (actual window resize)
+    // Don't close if only height changed (likely keyboard opening/closing on mobile)
+    const currentWidth = window.innerWidth
+    const currentHeight = window.innerHeight
+
+    if (lastWindowWidth !== 0 && currentWidth !== lastWindowWidth) {
+      // Width changed - this is a real resize, close the popup
+      $poppedUpDle = ""
+    }
+
+    lastWindowWidth = currentWidth
+    lastWindowHeight = currentHeight
   }
 
   function handleKeyUp(event) {
     if (event.key == "Escape") {
-      resetPoppedUpDle()
+      $poppedUpDle = ""
       if (showSearchModal) {
         showSearchModal = false
       }
@@ -201,23 +216,6 @@
       })
       currentIndex++
     }
-
-    // Add Book Recommendation (only when not searching and not completely hidden)
-    if (
-      (!$searchQuery || $searchQuery.trim() === "") &&
-      !completelyHiddenSections.isCompletelyHidden(
-        "bookRecommendation",
-        $completelyHiddenSections,
-      )
-    ) {
-      cards.push({
-        id: "bookRecommendation",
-        type: "bookRecommendation",
-        data: null,
-      })
-      currentIndex++
-    }
-
     allCards = cards
   }
 
@@ -232,7 +230,7 @@
   }
 </script>
 
-<svelte:window on:resize={resetPoppedUpDle} />
+<svelte:window on:resize={handleResize} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
 <!-- <Banner includeSearch={true} onOpenPreferences={openPreferencesModal} /> -->
 <div class="w-full mx-auto">
@@ -244,35 +242,26 @@
   >
     {#if card.type === "dlesOfTheWeek"}
       <div class="card">
-        <div class="labelContainer rainbow-gradient">
-          <div class="label">
-            <div class="flex-shrink-0">
-              <IconCalendarHeart />
-            </div>
-            DLES of the Week
-          </div>
-        </div>
+        <SectionHeader
+          title="DLES of the Week"
+          icon={IconCalendarHeart}
+          rainbow={true}
+        />
         <DleGroup dleGroup={card.data} section="dles-of-the-week" />
       </div>
     {:else if card.type === "favorites"}
       <div class="card">
-        <div
-          class="labelContainer"
-          style="background-color: hsl(320, 90%, 50%, 45%);"
-        >
-          <div class="label">
-            <div class="flex-shrink-0">
-              <IconFavoriteFilled />
-            </div>
-            Favorites
-          </div>
-        </div>
+        <SectionHeader
+          title="Favorites"
+          icon={IconFavoriteFilled}
+          color="hsl(320, 90%, 50%, 45%)"
+        />
         <div class="favorites-add-row" class:edit-mode={editMode}>
           <div class="favorites-add-text">
             {#if editMode}
               <span class="edit-mode-text">Drag to reorder!</span>
             {:else}
-              <span class="text-[11px]">
+              <span class="text-xs">
                 {card.data.length === 0
                   ? "No favorites"
                   : `${card.data.length} favorite${card.data.length !== 1 ? "s" : ""}`}</span
@@ -367,21 +356,13 @@
       </div>
     {:else if card.type === "sponsors"}
       <Sponsors />
-    {:else if card.type === "bookRecommendation"}
-      <BookRecommendation />
     {:else if card.type === "category"}
       <div class="card">
-        <div
-          class="labelContainer"
-          style="background-color: {$categoryColors[card.category]}"
-        >
-          <div class="label">
-            <div class="flex-shrink-0">
-              <svelte:component this={categoryIcons[card.category]} />
-            </div>
-            {card.category}
-          </div>
-        </div>
+        <SectionHeader
+          title={card.category}
+          icon={categoryIcons[card.category]}
+          color={$categoryColors[card.category]}
+        />
         <DleGroup dleGroup={card.data} />
       </div>
     {/if}
@@ -406,32 +387,6 @@
     max-width: 100%;
     overflow-wrap: break-word;
     word-break: break-word;
-  }
-  .labelContainer {
-    @apply py-2 px-2 bg-colorCardB border-b-2 border-colorText;
-  }
-  .label {
-    @apply m-auto flex flex-wrap justify-center items-center gap-1 text-sm md:text-base lg:text-lg text-colorText font-semibold;
-  }
-  .rainbow-gradient {
-    background: repeating-linear-gradient(
-      60deg,
-      hsl(0, 90%, 70%, 0.8) 0% 20%,
-      /* Red */ hsl(72, 90%, 70%, 0.8) 20% 40%,
-      /* Yellow */ hsl(144, 90%, 70%, 0.8) 40% 60%,
-      /* Green */ hsl(216, 90%, 70%, 0.8) 60% 80%,
-      /* Blue */ hsl(288, 90%, 70%, 0.8) 80% 100% /* Purple */
-    );
-  }
-  :global(.dark) .rainbow-gradient {
-    background: repeating-linear-gradient(
-      60deg,
-      hsl(0, 90%, 30%, 0.9) 0% 20%,
-      /* Dark Red */ hsl(72, 90%, 30%, 0.9) 20% 40%,
-      /* Dark Yellow */ hsl(144, 90%, 30%, 0.9) 40% 60%,
-      /* Dark Green */ hsl(216, 90%, 30%, 0.9) 60% 80%,
-      /* Dark Blue */ hsl(288, 90%, 30%, 0.9) 80% 100% /* Dark Purple */
-    );
   }
 
   .favorites-add-row {
@@ -480,8 +435,8 @@
   }
 
   .favorites-random-button :global(svg) {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     @apply fill-colorTextSofter;
   }
 
@@ -509,7 +464,7 @@
   }
 
   .import-export-button {
-    @apply flex items-center gap-0.5 md:gap-1 px-2 md:px-3 py-1 md:py-1.5 text-[10px] md:text-xs font-medium text-colorTextSoft bg-colorBackground hover:bg-gray-50 border border-colorNeutralSoft rounded-sm shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 stroke-colorTextSoft;
+    @apply flex items-center gap-0.5 md:gap-1 px-2 md:px-3 py-1 md:py-1.5 text-tiny md:text-xs font-medium text-colorTextSoft bg-colorBackground hover:bg-gray-50 border border-colorNeutralSoft rounded-sm shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 stroke-colorTextSoft;
   }
 
   .import-export-button :global(svg) {
@@ -537,7 +492,7 @@
   }
 
   .favorites-page-button {
-    @apply px-2 py-1 md:px-3 md:py-1.5 text-sm font-medium text-colorLink hover:text-colorLinkHover active:bg-colorLinkActive underline;
+    @apply px-2 py-1 md:px-3 md:py-1.5 text-sm font-medium text-colorLink hover:text-colorLinkHover underline;
   }
 
   :global(.dark) .favorites-page-button {

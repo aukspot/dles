@@ -239,7 +239,7 @@
     @apply opacity-100;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 48em) {
     .hover-favorite {
       @apply opacity-100;
     }

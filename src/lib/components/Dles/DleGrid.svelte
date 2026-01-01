@@ -19,8 +19,8 @@
     // Use document.documentElement.clientWidth instead of window.innerWidth
     // to account for zoom/scaling
     const width = document.documentElement.clientWidth
-    // Use minimum of 375px (2 cards at ~170px each + 8px gap + padding) to prevent overflow
-    if (width < 375) return 1
+    // Use minimum of 300px
+    if (width < 300) return 1
     if (width >= 1200) return Math.min(Math.floor(width / 220), 5) // 5 columns when there's space
     if (width >= 768) return Math.min(Math.floor(width / 220), 4) // 4 columns on large screens
     if (width >= 570) return 3
@@ -32,7 +32,6 @@
     if (card.type === "dlesOfTheWeek") return 300 // Usually has multiple items
     if (card.type === "favorites") return card.data.length * 40 + 100 // Base height + items
     if (card.type === "sponsors") return 200 // Fixed sponsors height
-    if (card.type === "bookRecommendation") return 150 // Book recommendation card (horizontal, compact)
     if (card.type === "category") return card.data.length * 40 + 80 // Base height + items
     return 100 // Default
   }
@@ -54,9 +53,6 @@
       (card) => card.type === "dlesOfTheWeek",
     )
     const sponsorsCard = cards.find((card) => card.type === "sponsors")
-    const bookRecommendationCard = cards.find(
-      (card) => card.type === "bookRecommendation",
-    )
     const categoryCards = cards.filter((card) => card.type === "category")
 
     if (numColumns === 1) {
@@ -65,7 +61,6 @@
       if (favoriteCard) orderedCards.push(favoriteCard)
       if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
       if (sponsorsCard) orderedCards.push(sponsorsCard)
-      if (bookRecommendationCard) orderedCards.push(bookRecommendationCard)
       orderedCards.push(...categoryCards)
 
       orderedCards.forEach((card) => {
@@ -81,11 +76,6 @@
         columns[0].push(sponsorsCard)
         columnHeights[0] += estimateCardHeight(sponsorsCard)
       }
-      if (bookRecommendationCard) {
-        columns[0].push(bookRecommendationCard)
-        columnHeights[0] += estimateCardHeight(bookRecommendationCard)
-      }
-
       if (favoriteCard) {
         columns[1].push(favoriteCard)
         columnHeights[1] += estimateCardHeight(favoriteCard)
@@ -102,7 +92,9 @@
       // This creates a balanced masonry layout
       sortedCategoryCards.forEach((card) => {
         // Find the column with minimum height
-        const shortestColumnIndex = columnHeights.indexOf(Math.min(...columnHeights))
+        const shortestColumnIndex = columnHeights.indexOf(
+          Math.min(...columnHeights),
+        )
 
         // Add card to shortest column
         columns[shortestColumnIndex].push(card)
@@ -143,7 +135,14 @@
 
   function getCardsKey(cards) {
     return cards
-      .map((c) => `${c.id}:${c.type}:${c.data?.length || 0}`)
+      .map((c) => {
+        // Exclude favorites length to prevent reorganization when favoriting
+        // Only track structural changes (card additions/removals/reordering)
+        if (c.type === "favorites") {
+          return `${c.id}:${c.type}`
+        }
+        return `${c.id}:${c.type}:${c.data?.length || 0}`
+      })
       .join("|")
   }
 
@@ -217,7 +216,7 @@
     max-width: 100%;
   }
 
-  @media (max-width: 374px) {
+  @media (max-width: 18em) {
     .grid-container {
       grid-template-columns: 1fr !important;
     }

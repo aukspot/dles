@@ -8,6 +8,6 @@
 
 <style lang="postcss">
   svg {
-    @apply inline-flex items-center text-colorTextSoft;
+    @apply inline-flex items-center text-colorTextSoft h-4;
   }
 </style>

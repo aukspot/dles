@@ -1,5 +1,29 @@
 [
   {
+    "name": "Enclose Horse",
+    "url": "https://enclose.horse",
+    "description": "Enclose the horse in the biggest possible pen.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Brainer",
+    "url": "https://gamebunny.app/brainer",
+    "description": "A daily quiz show with creative questions from several categories.",
+    "category": "Trivia"
+  },
+  {
+    "name": "Cutle",
+    "url": "https://pfiffel.com/cutle/",
+    "description": "Cut today's shape as evenly as you can.",
+    "category": "Estimation"
+  },
+  {
+    "name": "Blossom",
+    "url": "https://www.merriam-webster.com/games/blossom-word-game",
+    "description": "Create 12 words using the letters on the petals, always including the center letter. You get more points for longer words.",
+    "category": "Words"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -1925,14 +1949,6 @@
     "id": 212
   },
   {
-    "name": "List Them All!",
-    "url": "https://listthemall.com",
-    "description": "List all of the items that fit today's category.",
-    "category": "Trivia",
-    "theme": "Guess the List",
-    "id": 213
-  },
-  {
     "name": "Locatle",
     "url": "https://locatle.strct.net",
     "description": "Guess the country that the picture was taken in.",
@@ -2622,13 +2638,6 @@
     "description": "Get to 'POOP' in as few steps as possible!",
     "category": "Words",
     "id": 520
-  },
-  {
-    "name": "PopCultured",
-    "url": "https://histordle.com/popcultured",
-    "description": "Guess the year given three pop culture items released that year.",
-    "category": "Trivia",
-    "id": 293
   },
   {
     "name": "Posterdle",

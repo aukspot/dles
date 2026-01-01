@@ -2,11 +2,12 @@
   import { dles, favoriteIds } from "$lib/stores"
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { categoryColors } from "$lib/stores"
-  import { clickOutside } from "$lib/js/clickOutside"
   import { useFavorites } from "$lib/composables/useFavorites.js"
   import { useTracking } from "$lib/composables/useTracking.js"
   import { onMount } from "svelte"
-  import IconClose from "../Icons/IconClose.svelte"
+  import { autoFocus } from "$lib/js/autoFocus"
+  import Modal from "../Modal.svelte"
+  import ModalHeader from "../ModalHeader.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
 
   export let onClose
@@ -146,56 +147,32 @@
     }
   }
 
-  function handleKeydown(event) {
-    if (event.key === "Escape") {
-      onClose()
-    }
-  }
-
-  function handleClickOutside() {
-    onClose()
-  }
-
   onMount(() => {
     isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0
     buildCache()
   })
-
-  function focusInput(element) {
-    element.focus()
-  }
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
+<Modal {onClose} overlay={false} zIndex={100}>
+  <div
+    class="searchPopup"
+    style="left: {adjustedPageX}{typeof adjustedPageX === 'number'
+      ? 'px'
+      : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number'
+      ? 'px'
+      : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY});"
+  >
+    <ModalHeader title="Add a new favorite!" {onClose} variant="inline" />
 
-<div
-  class="searchPopup"
-  style="left: {adjustedPageX}{typeof adjustedPageX === 'number'
-    ? 'px'
-    : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number'
-    ? 'px'
-    : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY});"
-  use:clickOutside
-  on:click_outside={handleClickOutside}
->
-  <div class="flex justify-around items-center mb-2">
-    <div class="w-6"></div>
-    <!-- Placeholder for balance -->
-    <h3 class="text-lg font-semibold text-colorText">Add a new favorite!</h3>
-    <button on:click={onClose}>
-      <IconClose />
-    </button>
-  </div>
-
-  <div class="search-header">
-    <input
-      type="text"
-      placeholder="Search dles..."
-      bind:value={searchQuery}
-      class="search-input"
-      use:focusInput
-    />
-  </div>
+    <div class="search-header">
+      <input
+        type="text"
+        placeholder="Search dles..."
+        bind:value={searchQuery}
+        class="search-input"
+        use:autoFocus
+      />
+    </div>
 
   <div class="results-container">
     {#if searchQuery.trim() && filteredDles.length === 0}
@@ -242,7 +219,8 @@
       </div>
     {/if}
   </div>
-</div>
+  </div>
+</Modal>
 
 <style lang="postcss">
   .searchPopup {
@@ -267,7 +245,7 @@
   .search-input {
     @apply p-2 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
     width: 80%;
-    max-width: 300px;
+    max-width: 18.75rem;
   }
 
   .results-container {

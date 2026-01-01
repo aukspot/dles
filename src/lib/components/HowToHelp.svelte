@@ -6,6 +6,7 @@
   import PanelWrapper from "./PanelWrapper.svelte"
   import PanelTitle from "./PanelTitle.svelte"
   import IconFeedback from "./Icons/IconFeedback.svelte"
+  import Button from "./Button.svelte"
 
   export let open = false
 </script>
@@ -13,51 +14,21 @@
 <PanelWrapper {open}>
   <PanelTitle color="green" title="HOW TO HELP" />
   <div class="link-grid">
-    <a
-      class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
-      href="https://tally.so/r/mOKOea"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <IconSuggest />
-      <span>Suggest a Game</span>
-    </a>
-    <a
-      class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
-      href="https://tally.so/r/wQpPpY"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <IconBug />
-      <span>Report a Bug</span>
-    </a>
-    <a
-      class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
-      href="https://tally.so/r/Gx6kXZ"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <IconFeedback />
-      <span>General Feedback</span>
-    </a>
-    <a
-      class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
-      href="https://ko-fi.com/aukspot"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <IconKofi />
-      <span>Donate</span>
-    </a>
-    <a
-      class="btn-action hover:bg-green-100 dark:hover:bg-green-900"
-      href="https://github.com/aukspot/dles"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <IconGitHub />
-      <span>GitHub</span>
-    </a>
+    <Button color="green" icon={IconSuggest} href="https://tally.so/r/mOKOea">
+      Suggest a Game
+    </Button>
+    <Button color="green" icon={IconBug} href="https://tally.so/r/wQpPpY">
+      Report a Bug
+    </Button>
+    <Button color="green" icon={IconFeedback} href="https://tally.so/r/Gx6kXZ">
+      General Feedback
+    </Button>
+    <Button color="green" icon={IconKofi} href="https://ko-fi.com/aukspot">
+      Donate
+    </Button>
+    <Button color="green" icon={IconGitHub} href="https://github.com/aukspot/dles">
+      GitHub
+    </Button>
   </div>
 </PanelWrapper>
 

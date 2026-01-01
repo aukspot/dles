@@ -45,6 +45,10 @@
     @apply !bg-violet-300 dark:!bg-violet-700;
   }
 
+  .title.teal {
+    @apply !bg-teal-300 dark:!bg-teal-700;
+  }
+
   .title-close-btn {
     @apply px-3 py-1 hover:bg-black/10 dark:hover:bg-white/10 rounded transition-colors cursor-pointer font-bold;
   }

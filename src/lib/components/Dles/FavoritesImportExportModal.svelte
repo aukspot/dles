@@ -1,8 +1,8 @@
 <script>
   import { favorites, favoriteIds, filteredDles } from "$lib/stores"
-  import { clickOutside } from "$lib/js/clickOutside"
   import { trackEvent } from "$lib/js/trackingUtils"
-  import IconClose from "../Icons/IconClose.svelte"
+  import Modal from "../Modal.svelte"
+  import ModalHeader from "../ModalHeader.svelte"
   import IconDownload from "../Icons/IconDownload.svelte"
   import IconUpload from "../Icons/IconUpload.svelte"
   import IconCopy from "../Icons/IconCopy.svelte"
@@ -25,16 +25,6 @@
         .map((id) => $filteredDles.find((dle) => dle.id === id))
         .filter((dle) => dle !== undefined)
     : []
-
-  function handleKeydown(event) {
-    if (event.key === "Escape") {
-      onClose()
-    }
-  }
-
-  function handleClickOutside() {
-    onClose()
-  }
 
   function handleExport() {
     const exportData = $favoriteIds
@@ -108,7 +98,9 @@
   function handleImport() {
     if (!importData) return
 
-    const importedIds = importData.filter((id) => id !== undefined && id !== null)
+    const importedIds = importData.filter(
+      (id) => id !== undefined && id !== null,
+    )
 
     const previousCount = $favoriteIds.length
 
@@ -192,18 +184,13 @@
   }
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
-
-<div class="modal-overlay">
-  <div class="modal" use:clickOutside on:click_outside={handleClickOutside}>
-    <div class="modal-header">
-      <h3 class="modal-title">
-        {mode === "export" ? "Export Favorites" : "Import Favorites"}
-      </h3>
-      <button on:click={onClose} class="close-button">
-        <IconClose />
-      </button>
-    </div>
+<Modal {onClose} overlay={true} zIndex={1000}>
+  <div class="modal">
+    <ModalHeader
+      title={mode === "export" ? "Export Favorites" : "Import Favorites"}
+      {onClose}
+      variant="section"
+    />
 
     <div class="modal-content">
       {#if mode === "export"}
@@ -367,35 +354,18 @@
       {/if}
     </div>
   </div>
-</div>
+</Modal>
 
 <style lang="postcss">
-  .modal-overlay {
-    @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center;
-    z-index: 1000;
-  }
-
   .modal {
     @apply bg-colorCardC border border-colorTextSofter shadow-2xl flex flex-col;
-    width: 90%;
+    width: 100%;
     max-width: 500px;
     max-height: 90vh;
   }
 
   :global(.dark) .modal {
     @apply border-colorTextSoftest;
-  }
-
-  .modal-header {
-    @apply flex justify-between items-center p-3 bg-colorCardB border-b-2 border-colorTextSofter;
-  }
-
-  .modal-title {
-    @apply text-base font-semibold text-colorText uppercase tracking-wide;
-  }
-
-  .close-button {
-    @apply p-1 hover:bg-colorCardC transition-colors border-none bg-transparent cursor-pointer;
   }
 
   .modal-content {

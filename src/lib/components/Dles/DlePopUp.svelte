@@ -52,6 +52,7 @@
   function closePopup() {
     $poppedUpDle = ""
   }
+
 </script>
 
 <div
@@ -87,8 +88,8 @@
 
 <style lang="postcss">
   .dlePopUp {
-    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-sm shadow-md shadow-colorTextSoftest z-50;
-    width: 310px;
+    @apply absolute p-3 flex flex-col gap-2 bg-colorCardC rounded-sm shadow-md shadow-colorTextSoftest z-50 dark:shadow-sm;
+    width: 19.375rem;
     top: 0;
     left: 0;
   }

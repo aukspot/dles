@@ -354,11 +354,11 @@
   }
 
   .result-label {
-    @apply text-[11px] font-medium text-colorText font-mono;
+    @apply text-xs font-medium text-colorText font-mono;
   }
 
   .result-stats {
-    @apply text-[11px] text-colorTextSofter font-mono;
+    @apply text-xs text-colorTextSofter font-mono;
   }
 
   .result-bar-container {

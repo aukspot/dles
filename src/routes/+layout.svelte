@@ -29,6 +29,7 @@
   import HowToHelp from "$lib/components/HowToHelp.svelte"
   import SearchPanel from "$lib/components/SearchPanel.svelte"
   import PollPanel from "$lib/components/PollPanel.svelte"
+  import DiscordPanel from "$lib/components/DiscordPanel.svelte"
   import {
     getCurrentDlesOfTheWeek,
     isLocalStorageAvailable,
@@ -120,6 +121,18 @@
   })
 </script>
 
+<svelte:head>
+  <script>
+    // Restore font size immediately to prevent flash
+    if (typeof localStorage !== "undefined" && localStorage.fontSizeOffset) {
+      document.documentElement.style.setProperty(
+        "--font-size-offset",
+        localStorage.fontSizeOffset,
+      )
+    }
+  </script>
+</svelte:head>
+
 <noscript>
   <style>
     .js-only {
@@ -145,7 +158,7 @@
 </noscript>
 
 <div class="w-full text-colorText bg-colorBackground">
-  <div class="flex flex-col max-w-screen-xl xl:max-w-[1170px] mx-auto">
+  <div class="flex flex-col max-w-screen-xl xl:max-w-[73.125rem] mx-auto">
     <main
       class="flex flex-col flex-1 justify-between py-1 md:p-1 min-h-screen w-full mx-auto box-border bg-colorBackground"
     >
@@ -265,8 +278,8 @@
         <div
           class="js-panels"
           class:hidden={loading}
-          class:p-4={$activePanelStore}
-          class:my-4={$activePanelStore}
+          class:p-2={$activePanelStore}
+          class:my-2={$activePanelStore}
         >
           <Info open={$activePanelStore === "info"} />
           <RandomPanel open={$activePanelStore === "random"} />
@@ -274,6 +287,7 @@
           <HowToHelp open={$activePanelStore === "help"} />
           <SearchPanel open={$activePanelStore === "search"} />
           <PollPanel open={$activePanelStore === "poll"} />
+          <DiscordPanel open={$activePanelStore === "discord"} />
         </div>
         <slot />
       </div>

@@ -12,6 +12,7 @@
   import IconFavoriteOutline from "./Icons/IconFavoriteOutline.svelte"
   import IconCalendarHeart from "./Icons/IconCalendarHeart.svelte"
   import IconClose from "./Icons/IconClose.svelte"
+  import Button from "./Button.svelte"
   import { activePanelStore } from "$lib/stores"
   import { trackEvent } from "$lib/js/trackingUtils"
   import { dndzone } from "svelte-dnd-action"
@@ -67,6 +68,18 @@
   })
 
   $: themeButtonText = $isDark ? "Turn on light mode" : "Turn on dark mode"
+
+  // View toggle management
+  // function toggleView() {
+  //   const newView = $settings.view === "Category View" ? "Table View" : "Category View"
+  //   $settings.view = newView
+  //   if (isLocalStorageAvailable()) {
+  //     localStorage.view = newView
+  //   }
+  //   trackEvent("settings_view_toggle", { view: newView })
+  // }
+
+  // $: viewButtonText = $settings.view === "Table View" ? "Switch to Category View" : "Switch to Table View"
 
   // Initialize category items from current ranks
   // Separate visible and completely hidden categories
@@ -125,6 +138,34 @@
   function toggleReorderMode() {
     reorderMode = !reorderMode
   }
+
+  const fontSizes = [
+    { label: "Small", value: "-2px" },
+    { label: "Default", value: "0px" },
+    { label: "Large", value: "2px" },
+    { label: "Extra Large", value: "4px" },
+  ]
+
+  let currentFontSize = "0px"
+
+  onMount(() => {
+    // Just sync the UI state - the CSS variable is already set in +layout.svelte
+    if (isLocalStorageAvailable()) {
+      const stored = localStorage.fontSizeOffset
+      if (stored) {
+        currentFontSize = stored
+      }
+    }
+  })
+
+  function changeFontSize(offset) {
+    currentFontSize = offset
+    document.documentElement.style.setProperty("--font-size-offset", offset)
+    if (isLocalStorageAvailable()) {
+      localStorage.fontSizeOffset = offset
+    }
+    trackEvent("settings_font_size_change", { offset })
+  }
 </script>
 
 <PanelWrapper {open}>
@@ -133,13 +174,46 @@
   <div class="panel-content">
     <section class="preference-section">
       <div class="button-row-center">
-        <button on:click={toggleTheme} class="btn-action">
-          <IconLightbulb />
+        <Button icon={IconLightbulb} on:click={toggleTheme}>
           {themeButtonText}
-        </button>
+        </Button>
+        <!-- <Button on:click={toggleView}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="w-5 h-5"
+            stroke="currentColor"
+            ><path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 4h18M3 12h18M3 20h18"
+            /></svg
+          >
+          {viewButtonText}
+        </Button> -->
         <!-- <a data-sveltekit-reload class="btn-action" href="{base}/favorites">
             Favorites
           </a> -->
+      </div>
+    </section>
+
+    <section class="preference-section md:hidden">
+      <h3 class="section-subtitle">Font Size</h3>
+      <p class="text-center text-xs text-colorTextSofter lowercase mb-3">
+        (Adjust text size)
+      </p>
+      <div class="font-size-grid">
+        {#each fontSizes as size}
+          <button
+            class="font-size-button"
+            class:active={currentFontSize === size.value}
+            on:click={() => changeFontSize(size.value)}
+          >
+            {size.label}
+          </button>
+        {/each}
       </div>
     </section>
 
@@ -184,40 +258,6 @@
           <span class="special-section-name">Favorites</span>
           <div class="special-section-toggle">
             {#if $completelyHiddenSections["favorites"]}
-              <IconEyeSlash />
-            {:else}
-              <IconEye />
-            {/if}
-          </div>
-        </button>
-
-        <button
-          class="special-section-card"
-          class:section-hidden={$completelyHiddenSections["bookRecommendation"]}
-          on:click={() => toggleCompletelyHidden("bookRecommendation")}
-          title={$completelyHiddenSections["bookRecommendation"]
-            ? "Show My Book Picks"
-            : "Hide My Book Picks"}
-        >
-          <div class="special-section-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              width="20"
-              height="20"
-              stroke="currentColor"
-              ><path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 19V6.2c0-1.12 0-1.68.218-2.108a2 2 0 0 1 .874-.874C5.52 3 6.08 3 7.2 3h9.6c1.12 0 1.68 0 2.108.218a2 2 0 0 1 .874.874C20 4.52 20 5.08 20 6.2V17H6a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h14M9 7h6m-6 4h6m4 6v4"
-              /></svg
-            >
-          </div>
-          <span class="special-section-name">My Book Picks</span>
-          <div class="special-section-toggle">
-            {#if $completelyHiddenSections["bookRecommendation"]}
               <IconEyeSlash />
             {:else}
               <IconEye />
@@ -314,7 +354,7 @@
     @apply flex flex-col items-center gap-2 mb-3;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .categories-header {
       @apply mb-0;
     }
@@ -407,7 +447,7 @@
 
   .category-rank-badge {
     grid-area: badge;
-    @apply bg-colorTextSoft text-colorText text-[11px] font-bold flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-sm border border-colorText;
+    @apply bg-colorTextSoft text-colorText text-xs font-bold flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-sm border border-colorText;
   }
 
   .category-info {
@@ -416,7 +456,7 @@
   }
 
   .category-name {
-    @apply text-colorText font-medium text-[10px] md:text-[11px] uppercase leading-tight break-all md:break-normal;
+    @apply text-colorText font-medium text-tiny md:text-xs uppercase leading-tight break-all md:break-normal;
   }
 
   .eye-toggle-btn {
@@ -462,7 +502,7 @@
   }
 
   .special-section-name {
-    @apply flex-1 text-left text-[10px] sm:text-xs font-medium text-colorText uppercase leading-tight;
+    @apply flex-1 text-left text-tiny sm:text-xs font-medium text-colorText uppercase leading-tight;
   }
 
   .special-section-toggle {
@@ -480,5 +520,20 @@
 
   :global(.dark) .category-box.grayed-out {
     @apply bg-gray-800;
+  }
+
+  /* Font size controls */
+  .font-size-grid {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-1 mb-2 justify-center;
+  }
+
+  .font-size-button {
+    @apply px-3 py-2 text-sm font-medium text-colorText bg-colorCardC border border-colorTextSofter
+           hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors cursor-pointer;
+  }
+
+  .font-size-button.active {
+    @apply bg-blue-100 border-blue-400 text-blue-700 font-semibold
+           dark:bg-blue-900/40 dark:border-blue-400 dark:text-blue-300;
   }
 </style>

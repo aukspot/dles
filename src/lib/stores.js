@@ -84,6 +84,45 @@ export let sponsors = readable([
 
 export { categoryRanks } from "$lib/js/categoryRanks"
 export { completelyHiddenSections } from "$lib/js/completelyHiddenSections"
+export let hideDiscord = writable(false)
 export { pollResponses, getActivePolls, allPolls } from "$lib/js/polls"
 
-export let activePanelStore = writable(null)
+function createActivePanelStore() {
+  const isBrowser = typeof window !== 'undefined'
+  const isLocalStorageAvailable = isBrowser && typeof localStorage !== 'undefined'
+
+  const initialValue = isLocalStorageAvailable && localStorage.activePanel
+    ? localStorage.activePanel
+    : null
+
+  const { subscribe, set, update } = writable(initialValue)
+
+  return {
+    subscribe,
+    set: (value) => {
+      if (isLocalStorageAvailable) {
+        if (value === null) {
+          localStorage.removeItem('activePanel')
+        } else {
+          localStorage.activePanel = value
+        }
+      }
+      set(value)
+    },
+    update: (fn) => {
+      update((currentValue) => {
+        const newValue = fn(currentValue)
+        if (isLocalStorageAvailable) {
+          if (newValue === null) {
+            localStorage.removeItem('activePanel')
+          } else {
+            localStorage.activePanel = newValue
+          }
+        }
+        return newValue
+      })
+    }
+  }
+}
+
+export let activePanelStore = createActivePanelStore()

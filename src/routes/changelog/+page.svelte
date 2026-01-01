@@ -195,7 +195,7 @@
   }
 
   /* Enable flexbox for JS masonry layout */
-  @media (min-width: 480px) {
+  @media (min-width: 30em) {
     #changelog {
       display: flex;
       flex-wrap: wrap;
@@ -208,27 +208,27 @@
   }
 
   /* Flexbox layout for JS masonry - 2 columns */
-  @media (min-width: 480px) and (max-width: 767px) {
+  @media (min-width: 30em) and (max-width: 47.9375em) {
     .changelog-entry {
       width: calc(50% - 0.5rem);
     }
   }
 
   /* Flexbox layout for JS masonry - 3 columns */
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .changelog-entry {
       width: calc(33.333% - 0.667rem);
     }
   }
 
   .entry-number {
-    @apply text-[14px] md:text-[16px] text-colorTextSofter font-mono;
+    @apply text-sm md:text-base text-colorTextSofter font-mono;
     position: absolute;
     top: 0.75rem;
     right: 0.75rem;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {
     .entry-number {
       top: 1rem;
       right: 1rem;
@@ -299,7 +299,7 @@
   }
 
   .removal-reason {
-    @apply text-colorTextSofter italic text-[11px] md:text-xs;
+    @apply text-colorTextSofter italic text-xs;
   }
 
   a {

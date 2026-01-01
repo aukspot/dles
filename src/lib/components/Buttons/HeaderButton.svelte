@@ -22,6 +22,7 @@
     green: "!bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
     blue: "!bg-blue-300 dark:!bg-blue-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
     violet: "!bg-violet-300 dark:!bg-violet-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
+    teal: "!bg-teal-300 dark:!bg-teal-700 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
   }
 
   $: isActive = $activePanelStore === panelId
@@ -66,6 +67,6 @@
 
 <style lang="postcss">
   .new-badge {
-    @apply absolute -top-2.5 -right-1 bg-red-500 text-white text-[9px] font-bold px-1 py-0.5 rounded uppercase;
+    @apply absolute -top-2.5 -right-1 bg-red-500 text-white text-[0.5625rem] font-bold px-1 py-0.5 rounded uppercase;
   }
 </style>

@@ -3,11 +3,26 @@
   import HeaderButton from "./Buttons/HeaderButton.svelte"
   import BackToTopButton from "./Buttons/BackToTopButton.svelte"
   import Banner from "./Banner.svelte"
-  import { changelog, dles, getActivePolls, pollResponses } from "$lib/stores"
+  import { changelog, dles, getActivePolls, pollResponses, activePanelStore } from "$lib/stores"
+  import IconDiscord from "./Icons/IconDiscord.svelte"
+  import { onMount } from "svelte"
+  import { getLocalStorage, setLocalStorage } from "$lib/js/localStorage"
 
   // Check if there are unanswered polls
   $: activePolls = getActivePolls()
   $: hasUnansweredPolls = activePolls.some((poll) => !$pollResponses[poll.id])
+
+  // Check if discord panel was opened
+  let hasOpenedDiscordPanel = false
+  onMount(() => {
+    hasOpenedDiscordPanel = getLocalStorage("hasOpenedDiscordPanel") === "true"
+  })
+
+  // Mark discord panel as opened when it's opened
+  $: if ($activePanelStore === "discord" && !hasOpenedDiscordPanel) {
+    hasOpenedDiscordPanel = true
+    setLocalStorage("hasOpenedDiscordPanel", "true")
+  }
 </script>
 
 <header class="flex items-center gap-2 px-2 py-2 md:px-0">
@@ -52,17 +67,19 @@
       />
       <HeaderButton panelId="help" label="How to Help" hoverColor="green" />
       <HeaderButton
+        panelId="discord"
+        label="Discord"
+        hoverColor="teal"
+        jsOnly={true}
+        showBadge={!hasOpenedDiscordPanel}
+      />
+      <HeaderButton
         panelId="poll"
         label="Polls"
         hoverColor="blue"
         jsOnly={true}
         showBadge={hasUnansweredPolls}
       />
-      <!-- <HeaderButton
-        href="https://discord.gg/BQpGUg3r9C"
-        label="Discord"
-        hoverColor="blue"
-      /> -->
       <HeaderButton
         panelId="random"
         label="Random"
@@ -88,14 +105,12 @@
           class="btn-header text-colorText !bg-green-300 dark:!bg-green-700 hover:!bg-colorCardC"
           >HOW TO HELP</a
         >
-        <!-- <a
-          href="https://discord.gg"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-header text-colorText hover:bg-blue-300 dark:hover:bg-blue-700"
+        <a
+          href="#panel-discord"
+          class="btn-header text-colorText !bg-teal-300 dark:!bg-teal-700 hover:!bg-colorCardC"
         >
           DISCORD
-        </a> -->
+        </a>
       </div>
     </noscript>
   </div>
@@ -103,6 +118,6 @@
 
 <style lang="postcss">
   .last-updated {
-    @apply text-[11px] md:text-xs text-colorTextSofter;
+    @apply text-xs text-colorTextSofter;
   }
 </style>
