@@ -1000,7 +1000,7 @@
     "id": 109
   },
   {
-    "name": "Enclose Horse",
+    "name": "enclose.horse",
     "url": "https://enclose.horse",
     "description": "Enclose the horse in the biggest possible pen.",
     "category": "Miscellaneous",

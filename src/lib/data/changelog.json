@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-01-01",
-    "description": "Add 4 dles. Remove 2 dles. Add Discord server.",
+    "description": "Add 4 dles. Remove 3 dles. Add Discord server.",
     "dles added": [
       {
         "name": "Blossom",
@@ -16,7 +16,7 @@
         "url": "https://pfiffel.com/cutle/"
       },
       {
-        "name": "Enclose Horse",
+        "name": "enclose.horse",
         "url": "https://enclose.horse"
       }
     ],
@@ -30,6 +30,10 @@
         "name": "PopCultured",
         "url": "https://histordle.com/popcultured",
         "reason": "Daily puzzle is empty."
+      },
+      {
+        "name": "Enclose Horse",
+        "url": "https://enclose.horse"
       }
     ]
   },
