@@ -1,5 +1,17 @@
 [
   {
+    "name": "3Doku",
+    "url": "https://www.andrewt.net/puzzles/3doku/",
+    "description": "3D Sudoku on a cube using the numbers 1 to 16.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Centroid",
+    "url": "https://centroidgame.com",
+    "description": "Guess the center of mass of all the shapes in the grid.",
+    "category": "Estimation"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
