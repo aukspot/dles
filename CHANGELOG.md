@@ -1,5 +1,15 @@
 # Changelog - The Dles
 
+## 2026-01-02
+
+Add 2 dles. 
+
+dles added: 
+|    | name                                            | url                                                                              |
+|---:|:------------------------------------------------|:---------------------------------------------------------------------------------|
+|  1 | [3Doku](https://www.andrewt.net/puzzles/3doku/) | [https://www.andrewt.net/puzzles/3doku/](https://www.andrewt.net/puzzles/3doku/) |
+|  2 | [Centroid](https://centroidgame.com)            | [https://centroidgame.com](https://centroidgame.com)                             |
+
 ## 2026-01-01
 
 Add 4 dles. Remove 3 dles. Add Discord server.

@@ -7,6 +7,13 @@
     "id": 1
   },
   {
+    "name": "3Doku",
+    "url": "https://www.andrewt.net/puzzles/3doku/",
+    "description": "3D Sudoku on a cube using the numbers 1 to 16.",
+    "category": "Math/Logic",
+    "id": 604
+  },
+  {
     "name": "7 Little Words",
     "url": "https://7littlewords.com/7lw",
     "description": "Combine tiles to create words matching the clues, 5 rounds everyday",
@@ -371,6 +378,13 @@
     "description": "Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.",
     "category": "Words",
     "id": 568
+  },
+  {
+    "name": "Centroid",
+    "url": "https://centroidgame.com",
+    "description": "Guess the center of mass of all the shapes in the grid.",
+    "category": "Estimation",
+    "id": 605
   },
   {
     "name": "Chainagram",

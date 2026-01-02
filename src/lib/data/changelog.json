@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-01-02",
+    "dles added": [
+      {
+        "name": "3Doku",
+        "url": "https://www.andrewt.net/puzzles/3doku/"
+      },
+      {
+        "name": "Centroid",
+        "url": "https://centroidgame.com"
+      }
+    ],
+    "description": "Add 2 dles. "
+  },
+  {
     "date": "2026-01-01",
     "description": "Add 4 dles. Remove 3 dles. Add Discord server.",
     "dles added": [

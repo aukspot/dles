@@ -1,5 +1,9 @@
 [
   {
+    "name": "3Doku",
+    "url": "https://www.andrewt.net/puzzles/3doku/"
+  },
+  {
     "name": "AITA Guesser",
     "url": "https://muhashi.com/aita-guesser/"
   },
@@ -14,6 +18,10 @@
   {
     "name": "cemantle",
     "url": "https://cemantle.certitudes.org"
+  },
+  {
+    "name": "Centroid",
+    "url": "https://centroidgame.com"
   },
   {
     "name": "Circle Moon Puzzles",
@@ -68,10 +76,6 @@
     "url": "https://www.ted.com/games/letter-brew"
   },
   {
-    "name": "LinkedIn - Mini Sudoku",
-    "url": "https://www.linkedin.com/games/mini-sudoku/"
-  },
-  {
     "name": "Pair Down",
     "url": "https://pairdown.com"
   },
@@ -94,10 +98,6 @@
   {
     "name": "Shuffalo",
     "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo"
-  },
-  {
-    "name": "Silksongdle",
-    "url": "https://silksongdle.com"
   },
   {
     "name": "SongSwipe",

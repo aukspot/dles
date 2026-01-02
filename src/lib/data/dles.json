@@ -1,22 +1,17 @@
 [
   {
-    "name": "3Doku",
-    "url": "https://www.andrewt.net/puzzles/3doku/",
-    "description": "3D Sudoku on a cube using the numbers 1 to 16.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Centroid",
-    "url": "https://centroidgame.com",
-    "description": "Guess the center of mass of all the shapes in the grid.",
-    "category": "Estimation"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
     "category": "Words",
     "id": 1
+  },
+  {
+    "name": "3Doku",
+    "url": "https://www.andrewt.net/puzzles/3doku/",
+    "description": "3D Sudoku on a cube using the numbers 1 to 16.",
+    "category": "Math/Logic",
+    "id": 604
   },
   {
     "name": "7 Little Words",
@@ -383,6 +378,13 @@
     "description": "Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.",
     "category": "Words",
     "id": 568
+  },
+  {
+    "name": "Centroid",
+    "url": "https://centroidgame.com",
+    "description": "Guess the center of mass of all the shapes in the grid.",
+    "category": "Estimation",
+    "id": 605
   },
   {
     "name": "Chainagram",
