@@ -4113,6 +4113,22 @@
     "theme": "Zelda",
     "id": 515
   },
+   {
+    "name": "PipsPuzzle",
+    "url": "https://pipspuzzle.com",
+    "description": "A collection of word games.",
+    "category": "Logic Games",
+    "theme": "Domino",
+    "id": 516
+  },
+  {
+    "name": "Shuffalo",
+    "url": "https://shuffalo.fun",
+    "description": "A collection of word guessing games in multiple languages.",
+    "category": "Word Games",
+    "theme": "Word game",
+    "id": 517
+  },
   {
     "name": "ZoomOut",
     "url": "https://zoomout.videoludid.com",
