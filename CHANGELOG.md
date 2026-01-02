@@ -17,7 +17,6 @@ dles removed:
 |---:|:-------------------------------------------------|:-----------------------------------------------------------------------|:--------------------------|
 |  1 | [List Them All!](https://listthemall.com)        | [https://listthemall.com](https://listthemall.com)                     | Puzzles repeat too often. |
 |  2 | [PopCultured](https://histordle.com/popcultured) | [https://histordle.com/popcultured](https://histordle.com/popcultured) | Daily puzzle is empty.    |
-|  3 | [Enclose Horse](https://enclose.horse)           | [https://enclose.horse](https://enclose.horse)                         | nan                       |
 ## 2025-12-24
 
 Remove 1 dle. 
