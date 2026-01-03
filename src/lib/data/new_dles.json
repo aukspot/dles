@@ -32,6 +32,10 @@
     "url": "https://craftconnections.net"
   },
   {
+    "name": "Crosshare",
+    "url": "https://crosshare.org"
+  },
+  {
     "name": "Curdle",
     "url": "https://gumbo.systems/curdle/"
   },
@@ -76,12 +80,20 @@
     "url": "https://www.ted.com/games/letter-brew"
   },
   {
+    "name": "Mazetangle",
+    "url": "https://mazetangle.com"
+  },
+  {
     "name": "Pair Down",
     "url": "https://pairdown.com"
   },
   {
     "name": "Pell Puzzles",
     "url": "https://pell.achromath.com"
+  },
+  {
+    "name": "Power Scadle",
+    "url": "https://powerscadle.com"
   },
   {
     "name": "Revealed",
@@ -134,6 +146,10 @@
   {
     "name": "Warbl",
     "url": "https://www.warbl.org"
+  },
+  {
+    "name": "Washington Post Crossword",
+    "url": "https://www.washingtonpost.com/games/crossword/"
   },
   {
     "name": "Weather Darts",

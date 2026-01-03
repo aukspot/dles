@@ -2,13 +2,20 @@
 
 ## 2026-01-03
 
-Remove 1 dle. 
+Add 4 dles. Remove 1 dle. 
 
+dles added: 
+|    | name                                                                         | url                                                                                                |
+|---:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------|
+|  1 | [Crosshare](https://crosshare.org)                                           | [https://crosshare.org](https://crosshare.org)                                                     |
+|  2 | [Mazetangle](https://mazetangle.com)                                         | [https://mazetangle.com](https://mazetangle.com)                                                   |
+|  3 | [Power Scadle](https://powerscadle.com)                                      | [https://powerscadle.com](https://powerscadle.com)                                                 |
+|  4 | [Washington Post Crossword](https://www.washingtonpost.com/games/crossword/) | [https://www.washingtonpost.com/games/crossword/](https://www.washingtonpost.com/games/crossword/) |
 
 dles removed: 
-|    | name                       | url                                    |
-|---:|:---------------------------|:---------------------------------------|
-|  1 | [DBDle](https://dbdle.net) | [https://dbdle.net](https://dbdle.net) |
+|    | name                       | url                                    | reason                                  |
+|---:|:---------------------------|:---------------------------------------|:----------------------------------------|
+|  1 | [DBDle](https://dbdle.net) | [https://dbdle.net](https://dbdle.net) | Now redirects to an irrelevant website. |
 ## 2026-01-02
 
 Add 2 dles. 

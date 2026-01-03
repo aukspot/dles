@@ -8,7 +8,25 @@
         "reason": "Now redirects to an irrelevant website."
       }
     ],
-    "description": "Remove 1 dle. "
+    "description": "Add 4 dles. Remove 1 dle. ",
+    "dles added": [
+      {
+        "name": "Crosshare",
+        "url": "https://crosshare.org"
+      },
+      {
+        "name": "Mazetangle",
+        "url": "https://mazetangle.com"
+      },
+      {
+        "name": "Power Scadle",
+        "url": "https://powerscadle.com"
+      },
+      {
+        "name": "Washington Post Crossword",
+        "url": "https://www.washingtonpost.com/games/crossword/"
+      }
+    ]
   },
   {
     "date": "2026-01-02",

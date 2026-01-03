@@ -667,6 +667,13 @@
     "id": 525
   },
   {
+    "name": "Crosshare",
+    "url": "https://crosshare.org",
+    "description": "Daily mini crossword from an open-source community of crossword makers.",
+    "category": "Words",
+    "id": 606
+  },
+  {
     "name": "Crossherd",
     "url": "https://crossherd.clevergoat.com",
     "description": "A daily mini crossword from Clever Goat.",
@@ -2046,6 +2053,13 @@
     "id": 224
   },
   {
+    "name": "Mazetangle",
+    "url": "https://mazetangle.com",
+    "description": "Go from the red tile to the blue tile in as many moves as possible.",
+    "category": "Shapes/Patterns",
+    "id": 607
+  },
+  {
     "name": "Mcbirdle",
     "url": "https://kendisc.com/mcbirdle",
     "description": "Professional disc golfer guessing game.",
@@ -2655,6 +2669,13 @@
     "description": "Guess the movie poster in 20 seconds or less.",
     "category": "Movies/TV",
     "id": 495
+  },
+  {
+    "name": "Power Scadle",
+    "url": "https://powerscadle.com",
+    "description": "Compare two fictional characters and guess which one is stronger.",
+    "category": "Miscellaneous",
+    "id": 608
   },
   {
     "name": "Primel",
@@ -3740,6 +3761,13 @@
     "category": "Video Games",
     "theme": "War Thunder",
     "id": 509
+  },
+  {
+    "name": "Washington Post Crossword",
+    "url": "https://www.washingtonpost.com/games/crossword/",
+    "description": "A daily crossword from the Washington Post",
+    "category": "Words",
+    "id": 609
   },
   {
     "name": "Weakdle",
