@@ -1,5 +1,29 @@
 [
   {
+    "name": "Mazetangle",
+    "url": "https://mazetangle.com",
+    "description": "Go from the red tile to the blue tile in as many moves as possible.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Crosshare",
+    "url": "https://crosshare.org",
+    "description": "Daily mini crossword from an open-source community of crossword makers.",
+    "category": "Words"
+  },
+  {
+    "name": "Washington Post Crossword",
+    "url": "https://www.washingtonpost.com/games/crossword/",
+    "description": "A daily crossword from the Washington Post",
+    "category": "Words"
+  },
+  {
+    "name": "Power Scadle",
+    "url": "https://powerscadle.com",
+    "description": "Compare two fictional characters and guess which one is stronger.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",

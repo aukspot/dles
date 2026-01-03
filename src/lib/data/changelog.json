@@ -4,7 +4,8 @@
     "dles removed": [
       {
         "name": "DBDle",
-        "url": "https://dbdle.net"
+        "url": "https://dbdle.net",
+        "reason": "Now redirects to an irrelevant website."
       }
     ],
     "description": "Remove 1 dle. "
