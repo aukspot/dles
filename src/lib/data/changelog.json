@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-01-03",
+    "dles removed": [
+      {
+        "name": "DBDle",
+        "url": "https://dbdle.net"
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-01-02",
     "dles added": [
       {

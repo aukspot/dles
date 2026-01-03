@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-01-03
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                       | url                                    |
+|---:|:---------------------------|:---------------------------------------|
+|  1 | [DBDle](https://dbdle.net) | [https://dbdle.net](https://dbdle.net) |
 ## 2026-01-02
 
 Add 2 dles. 

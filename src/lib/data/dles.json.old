@@ -839,14 +839,6 @@
     "id": 88
   },
   {
-    "name": "DBDle",
-    "url": "https://dbdle.net",
-    "description": "Test your Dead by Daylight knowledge in these daily games.",
-    "category": "Video Games",
-    "theme": "Dead by Daylight",
-    "id": 89
-  },
-  {
     "name": "Decipher",
     "url": "https://decipher.wtf",
     "description": "Solve the daily cryptogram to reveal the quote.",
