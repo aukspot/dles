@@ -13,9 +13,9 @@ dles added:
 |  4 | [Washington Post Crossword](https://www.washingtonpost.com/games/crossword/) | [https://www.washingtonpost.com/games/crossword/](https://www.washingtonpost.com/games/crossword/) |
 
 dles removed: 
-|    | name                       | url                                    | reason                                  |
-|---:|:---------------------------|:---------------------------------------|:----------------------------------------|
-|  1 | [DBDle](https://dbdle.net) | [https://dbdle.net](https://dbdle.net) | Now redirects to an irrelevant website. |
+|    | name                       | url                                    | reason                        |
+|---:|:---------------------------|:---------------------------------------|:------------------------------|
+|  1 | [DBDle](https://dbdle.net) | [https://dbdle.net](https://dbdle.net) | Is now an irrelevant website. |
 ## 2026-01-02
 
 Add 2 dles. 
