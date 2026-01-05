@@ -135,5 +135,24 @@
       "end": "2026-01-11"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-8",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "history",
+        "label": "History"
+      },
+      {
+        "id": "science-nature",
+        "label": "Science/Nature"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-01-05",
+      "end": "2026-01-19"
+    },
+    "showResultsImmediately": true
   }
 ]
