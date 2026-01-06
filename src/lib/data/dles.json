@@ -1,5 +1,35 @@
 [
   {
+    "name": "Jigsy",
+    "url": "https://jigsy.app",
+    "description": "Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Seadle",
+    "url": "https://seadle.muhashi.com",
+    "description": "Guess the sea of the day in as few attempts as possible.",
+    "category": "Geography"
+  },
+  {
+    "name": "Ripple",
+    "url": "https://ripplegame.app",
+    "description": "Guess the ripple effect of historical events.",
+    "category": "History"
+  },
+  {
+    "name": "Plausible",
+    "url": "https://plausiblegame.com/en",
+    "description": "Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.",
+    "category": "Words"
+  },
+  {
+    "name": "Crossword Club Daily",
+    "url": "https://crosswordclub.com/puzzles/",
+    "description": "Daily crossword by the Crossword Club.",
+    "category": "Words"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -543,14 +573,6 @@
     "description": "Get as many coin flips correct in a row as you can. Only one attempt per day.",
     "category": "Miscellaneous",
     "id": 524
-  },
-  {
-    "name": "Collections",
-    "url": "https://puzzmallow.com/collections",
-    "description": "Guess the category of the three hidden words by revealing one letter at a time.",
-    "category": "Words",
-    "theme": "Find connections",
-    "id": 58
   },
   {
     "name": "Colorfle",
@@ -2073,14 +2095,6 @@
     "category": "Video Games",
     "theme": "Minecraft",
     "id": 485
-  },
-  {
-    "name": "Meleedle",
-    "url": "https://meleedle.netlify.app/",
-    "description": "Name the character and move of the hitbox shown from Super Smash Bros Melee.",
-    "category": "Video Games",
-    "theme": "Super Smash Bros",
-    "id": 486
   },
   {
     "name": "Metaflora",
