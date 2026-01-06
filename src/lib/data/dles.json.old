@@ -545,14 +545,6 @@
     "id": 524
   },
   {
-    "name": "Collections",
-    "url": "https://puzzmallow.com/collections",
-    "description": "Guess the category of the three hidden words by revealing one letter at a time.",
-    "category": "Words",
-    "theme": "Find connections",
-    "id": 58
-  },
-  {
     "name": "Colorfle",
     "url": "https://colorfle.com",
     "description": "Figure out the color composition of the given color.",
@@ -694,6 +686,13 @@
     "description": "A music crossword puzzle where the clues include song audio.",
     "category": "Music",
     "id": 74
+  },
+  {
+    "name": "Crossword Club Daily",
+    "url": "https://crosswordclub.com/puzzles/",
+    "description": "Daily crossword by the Crossword Club.",
+    "category": "Words",
+    "id": 610
   },
   {
     "name": "Crosswordle",
@@ -1687,6 +1686,13 @@
     "id": 184
   },
   {
+    "name": "Jigsy",
+    "url": "https://jigsy.app",
+    "description": "Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.",
+    "category": "Shapes/Patterns",
+    "id": 611
+  },
+  {
     "name": "Jingle.rs",
     "url": "https://jingle.rs",
     "description": "Place the OldSchool RuneScape song on the in-game map to where you would hear it, 5 rounds daily.",
@@ -2073,14 +2079,6 @@
     "category": "Video Games",
     "theme": "Minecraft",
     "id": 485
-  },
-  {
-    "name": "Meleedle",
-    "url": "https://meleedle.netlify.app/",
-    "description": "Name the character and move of the hitbox shown from Super Smash Bros Melee.",
-    "category": "Video Games",
-    "theme": "Super Smash Bros",
-    "id": 486
   },
   {
     "name": "Metaflora",
@@ -2574,6 +2572,13 @@
     "id": 283
   },
   {
+    "name": "Plausible",
+    "url": "https://plausiblegame.com/en",
+    "description": "Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.",
+    "category": "Words",
+    "id": 612
+  },
+  {
     "name": "Plotwords",
     "url": "https://plotwords.com/daily",
     "description": "Guess the name of the movie using as few plot keywords as possible!",
@@ -2956,6 +2961,13 @@
     "id": 536
   },
   {
+    "name": "Ripple",
+    "url": "https://ripplegame.app",
+    "description": "Guess the ripple effect of historical events.",
+    "category": "History",
+    "id": 613
+  },
+  {
     "name": "Rivadle",
     "url": "https://rivadle.net",
     "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
@@ -3021,6 +3033,13 @@
     "id": 333
   },
   {
+    "name": "Seadle",
+    "url": "https://seadle.muhashi.com",
+    "description": "Guess the sea of the day in as few attempts as possible.",
+    "category": "Geography",
+    "id": 614
+  },
+  {
     "name": "Searchle",
     "url": "https://searchle.net",
     "description": "Guess the secret word of the day by completing the Google search prompt.",
@@ -3043,7 +3062,7 @@
   },
   {
     "name": "Sequences",
-    "url": "https://www.dailyfastgames.com/sequences",
+    "url": "https://www.dailyfastgames.com/#/sequences",
     "description": "Guess the next number in today's sequence.",
     "category": "Math/Logic",
     "id": 337

@@ -1,5 +1,23 @@
 # Changelog - The Dles
 
+## 2026-01-06
+
+Add 5 dles. Remove 2 dles. 
+
+dles added: 
+|    | name                                                       | url                                                                      |
+|---:|:-----------------------------------------------------------|:-------------------------------------------------------------------------|
+|  1 | [Crossword Club Daily](https://crosswordclub.com/puzzles/) | [https://crosswordclub.com/puzzles/](https://crosswordclub.com/puzzles/) |
+|  2 | [Jigsy](https://jigsy.app)                                 | [https://jigsy.app](https://jigsy.app)                                   |
+|  3 | [Plausible](https://plausiblegame.com/en)                  | [https://plausiblegame.com/en](https://plausiblegame.com/en)             |
+|  4 | [Ripple](https://ripplegame.app)                           | [https://ripplegame.app](https://ripplegame.app)                         |
+|  5 | [Seadle](https://seadle.muhashi.com)                       | [https://seadle.muhashi.com](https://seadle.muhashi.com)                 |
+
+dles removed: 
+|    | name                                              | url                                                                      |
+|---:|:--------------------------------------------------|:-------------------------------------------------------------------------|
+|  1 | [Collections](https://puzzmallow.com/collections) | [https://puzzmallow.com/collections](https://puzzmallow.com/collections) |
+|  2 | [Meleedle](https://meleedle.netlify.app/)         | [https://meleedle.netlify.app/](https://meleedle.netlify.app/)           |
 ## 2026-01-03
 
 Add 4 dles. Remove 1 dle. 

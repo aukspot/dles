@@ -36,6 +36,10 @@
     "url": "https://crosshare.org"
   },
   {
+    "name": "Crossword Club Daily",
+    "url": "https://crosswordclub.com/puzzles/"
+  },
+  {
     "name": "Curdle",
     "url": "https://gumbo.systems/curdle/"
   },
@@ -72,6 +76,10 @@
     "url": "https://coffeefirst.games/geografind"
   },
   {
+    "name": "Jigsy",
+    "url": "https://jigsy.app"
+  },
+  {
     "name": "Kickoff League",
     "url": "https://kickoffleague.com"
   },
@@ -92,6 +100,10 @@
     "url": "https://pell.achromath.com"
   },
   {
+    "name": "Plausible",
+    "url": "https://plausiblegame.com/en"
+  },
+  {
     "name": "Power Scadle",
     "url": "https://powerscadle.com"
   },
@@ -100,12 +112,20 @@
     "url": "https://www.britannica.com/games/revealed"
   },
   {
+    "name": "Ripple",
+    "url": "https://ripplegame.app"
+  },
+  {
     "name": "Royal Family",
     "url": "https://coffeefirst.games/royal-family"
   },
   {
     "name": "Royaledle",
     "url": "https://royaledle.com"
+  },
+  {
+    "name": "Seadle",
+    "url": "https://seadle.muhashi.com"
   },
   {
     "name": "Shuffalo",

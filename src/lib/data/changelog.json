@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-01-06",
+    "dles added": [
+      {
+        "name": "Crossword Club Daily",
+        "url": "https://crosswordclub.com/puzzles/"
+      },
+      {
+        "name": "Jigsy",
+        "url": "https://jigsy.app"
+      },
+      {
+        "name": "Plausible",
+        "url": "https://plausiblegame.com/en"
+      },
+      {
+        "name": "Ripple",
+        "url": "https://ripplegame.app"
+      },
+      {
+        "name": "Seadle",
+        "url": "https://seadle.muhashi.com"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Collections",
+        "url": "https://puzzmallow.com/collections"
+      },
+      {
+        "name": "Meleedle",
+        "url": "https://meleedle.netlify.app/"
+      }
+    ],
+    "description": "Add 5 dles. Remove 2 dles. "
+  },
+  {
     "date": "2026-01-03",
     "dles removed": [
       {
