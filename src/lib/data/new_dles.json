@@ -4,8 +4,12 @@
     "url": "https://www.andrewt.net/puzzles/3doku/"
   },
   {
-    "name": "AITA Guesser",
-    "url": "https://muhashi.com/aita-guesser/"
+    "name": "Antiwordle",
+    "url": "https://www.antiwordle.com"
+  },
+  {
+    "name": "Bibdle",
+    "url": "https://bibdle.com"
   },
   {
     "name": "Blossom",
@@ -16,8 +20,8 @@
     "url": "https://gamebunny.app/brainer"
   },
   {
-    "name": "cemantle",
-    "url": "https://cemantle.certitudes.org"
+    "name": "Celtix",
+    "url": "https://www.andrewt.net/puzzles/celtix/"
   },
   {
     "name": "Centroid",
@@ -28,8 +32,16 @@
     "url": "https://circle9puzzle.com"
   },
   {
-    "name": "Craft Connections",
-    "url": "https://craftconnections.net"
+    "name": "Cliffhanger",
+    "url": "https://jumoh.com/games/cliffhanger/"
+  },
+  {
+    "name": "Colordle",
+    "url": "https://colordle.ryantanen.com"
+  },
+  {
+    "name": "Cosmeredle",
+    "url": "https://cosmeredle.net"
   },
   {
     "name": "Crosshare",
@@ -56,20 +68,20 @@
     "url": "https://dailyrinds.com"
   },
   {
-    "name": "Dimension Flux",
-    "url": "https://dimensionflux.com"
-  },
-  {
     "name": "enclose.horse",
     "url": "https://enclose.horse"
   },
   {
-    "name": "Five Fold",
-    "url": "https://fivefold.ca"
+    "name": "Exodle",
+    "url": "https://exodle.astrelion.com"
   },
   {
     "name": "Freestyle",
     "url": "https://playfreestyle.co"
+  },
+  {
+    "name": "Genshindle",
+    "url": "https://us.genshindle.com/"
   },
   {
     "name": "Geografind",
@@ -80,24 +92,44 @@
     "url": "https://jigsy.app"
   },
   {
-    "name": "Kickoff League",
-    "url": "https://kickoffleague.com"
+    "name": "Loopy",
+    "url": "https://loopy.wtf"
   },
   {
-    "name": "Letterbrew",
-    "url": "https://www.ted.com/games/letter-brew"
+    "name": "Marveldle",
+    "url": "https://marveldle.com/character/audiovisual/guess"
   },
   {
     "name": "Mazetangle",
     "url": "https://mazetangle.com"
   },
   {
-    "name": "Pair Down",
-    "url": "https://pairdown.com"
+    "name": "Netflix - Bonza",
+    "url": "https://www.netflix.com/tudum/puzzled/bonza/daily"
   },
   {
-    "name": "Pell Puzzles",
-    "url": "https://pell.achromath.com"
+    "name": "Netflix - Crossover",
+    "url": "https://www.netflix.com/tudum/puzzled/crossover/daily"
+  },
+  {
+    "name": "Netflix - Jigsaw",
+    "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily"
+  },
+  {
+    "name": "Netflix - Shapes",
+    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily"
+  },
+  {
+    "name": "Netflix - Waywords",
+    "url": "https://www.netflix.com/tudum/puzzled/waywords/daily"
+  },
+  {
+    "name": "Ophex",
+    "url": "https://www.andrewt.net/puzzles/ophex/"
+  },
+  {
+    "name": "Pair Down",
+    "url": "https://pairdown.com"
   },
   {
     "name": "Plausible",
@@ -108,32 +140,28 @@
     "url": "https://powerscadle.com"
   },
   {
-    "name": "Revealed",
-    "url": "https://www.britannica.com/games/revealed"
-  },
-  {
     "name": "Ripple",
     "url": "https://ripplegame.app"
+  },
+  {
+    "name": "Ronin",
+    "url": "https://www.andrewt.net/puzzles/ronin/"
   },
   {
     "name": "Royal Family",
     "url": "https://coffeefirst.games/royal-family"
   },
   {
-    "name": "Royaledle",
-    "url": "https://royaledle.com"
-  },
-  {
     "name": "Seadle",
     "url": "https://seadle.muhashi.com"
   },
   {
-    "name": "Shuffalo",
-    "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo"
+    "name": "Spellify",
+    "url": "https://edhrec.com/games/spellify"
   },
   {
-    "name": "SongSwipe",
-    "url": "https://play.songswipe.fun"
+    "name": "Spongedle",
+    "url": "https://spongedle.onrender.com"
   },
   {
     "name": "Stardle",
@@ -148,36 +176,28 @@
     "url": "https://sudoker.io"
   },
   {
-    "name": "Swiftle",
-    "url": "https://www.techyonic.co/swiftle"
-  },
-  {
-    "name": "Tiled Words",
-    "url": "https://tiledwords.com"
-  },
-  {
-    "name": "TimeSwipe",
-    "url": "https://play.timeswipe.fun"
+    "name": "The Daily Spell",
+    "url": "https://www.the-daily-spell.com"
   },
   {
     "name": "trms",
     "url": "https://impliedampersand.itch.io/trms"
   },
   {
-    "name": "Warbl",
-    "url": "https://www.warbl.org"
+    "name": "Umadle",
+    "url": "https://umadle.net"
   },
   {
     "name": "Washington Post Crossword",
     "url": "https://www.washingtonpost.com/games/crossword/"
   },
   {
-    "name": "Weather Darts",
-    "url": "http://www.weatherdarts.com"
-  },
-  {
     "name": "WhichWay",
     "url": "https://whichway.is"
+  },
+  {
+    "name": "Word Salad",
+    "url": "https://wordsalad.online"
   },
   {
     "name": "WordSmyth",
@@ -188,7 +208,7 @@
     "url": "https://wormle.com"
   },
   {
-    "name": "Yearly Daily",
-    "url": "https://coffeefirst.games/yearly-daily"
+    "name": "WRDLINK",
+    "url": "https://www.wrdlink.io"
   }
 ]

@@ -116,6 +116,13 @@
     "id": 11
   },
   {
+    "name": "Antiwordle",
+    "url": "https://www.antiwordle.com",
+    "description": "Wordle except you're trying to avoid the secret word.",
+    "category": "Words",
+    "id": 615
+  },
+  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com",
     "description": "Guess the name of the architecture, given a series of pictures.",
@@ -188,6 +195,13 @@
     "category": "Words",
     "theme": "Guess the word",
     "id": 19
+  },
+  {
+    "name": "Bibdle",
+    "url": "https://bibdle.com",
+    "description": "Guess the daily verse from the bible.",
+    "category": "Miscellaneous",
+    "id": 616
   },
   {
     "name": "BingeWatcher",
@@ -373,6 +387,13 @@
     "id": 41
   },
   {
+    "name": "Celtix",
+    "url": "https://www.andrewt.net/puzzles/celtix/",
+    "description": "Divide the Celtic knot into separate loops, one for each color.",
+    "category": "Shapes/Patterns",
+    "id": 617
+  },
+  {
     "name": "cemantle",
     "url": "https://cemantle.certitudes.org",
     "description": "Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.",
@@ -510,6 +531,13 @@
     "id": 54
   },
   {
+    "name": "Cliffhanger",
+    "url": "https://jumoh.com/games/cliffhanger/",
+    "description": "Hangman but it's always a movie title.",
+    "category": "Movies/TV",
+    "id": 618
+  },
+  {
     "name": "Clues By Sam",
     "url": "https://cluesbysam.com",
     "description": "Use the clues to figure out which characters are innocent and which are criminals.",
@@ -543,6 +571,13 @@
     "description": "Get as many coin flips correct in a row as you can. Only one attempt per day.",
     "category": "Miscellaneous",
     "id": 524
+  },
+  {
+    "name": "Colordle",
+    "url": "https://colordle.ryantanen.com",
+    "description": "Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.",
+    "category": "Colors",
+    "id": 619
   },
   {
     "name": "Colorfle",
@@ -601,6 +636,13 @@
     "category": "Words",
     "theme": "Guess the word",
     "id": 66
+  },
+  {
+    "name": "Cosmeredle",
+    "url": "https://cosmeredle.net",
+    "description": "Guess the character from Brandon Sanderson's Cosmere universe by narrowing down their book, world, and abilities.",
+    "category": "Miscellaneous",
+    "id": 620
   },
   {
     "name": "Costcodle",
@@ -1048,6 +1090,13 @@
     "id": 112
   },
   {
+    "name": "Exodle",
+    "url": "https://exodle.astrelion.com",
+    "description": "Guess the daily exotic weapon or armor piece from the game Destiny.",
+    "category": "Video Games",
+    "id": 621
+  },
+  {
     "name": "Face Guessr",
     "url": "https://www.faceguesser.com",
     "description": "Guess the pixelated face of today's notable figure.",
@@ -1299,6 +1348,13 @@
     "description": "Guess the movie based on the blanks and given information.",
     "category": "Movies/TV",
     "id": 136
+  },
+  {
+    "name": "Genshindle",
+    "url": "https://us.genshindle.com/",
+    "description": "Guess the character from Genshin Impact.",
+    "category": "Video Games",
+    "id": 622
   },
   {
     "name": "GeoConnections",
@@ -1994,6 +2050,13 @@
     "id": 216
   },
   {
+    "name": "Loopy",
+    "url": "https://loopy.wtf",
+    "description": "Make a loop based on the numbers in the grid.",
+    "category": "Shapes/Patterns",
+    "id": 623
+  },
+  {
     "name": "Lyricle",
     "url": "https://www.lyricle.app",
     "description": "Guess the song from the given lyrics.",
@@ -2028,6 +2091,13 @@
     "description": "Click as close as you can to the given world cities, 5 rounds per day.",
     "category": "Geography",
     "id": 220
+  },
+  {
+    "name": "Marveldle",
+    "url": "https://marveldle.com/character/audiovisual/guess",
+    "description": "Guess the daily character from the Marvel Cinematic Universe.",
+    "category": "Movies/TV",
+    "id": 624
   },
   {
     "name": "Mathdle",
@@ -2216,13 +2286,6 @@
     "id": 242
   },
   {
-    "name": "Moviedle (from Histordle)",
-    "url": "https://histordle.com/moviedle",
-    "description": "Guess the year that the given movies were released.",
-    "category": "Movies/TV",
-    "id": 243
-  },
-  {
     "name": "Moviedle - Fill The Grid",
     "url": "https://moviedle.xyz/fill-the-grid",
     "description": "Fill the grid with movies that contain actors from each cell's corresponding row and column.",
@@ -2284,6 +2347,41 @@
     "description": "Guess the secret arithmetic equation.",
     "category": "Math/Logic",
     "id": 251
+  },
+  {
+    "name": "Netflix - Bonza",
+    "url": "https://www.netflix.com/tudum/puzzled/bonza/daily",
+    "description": "Join fragments of letters together to form words that share a theme. Does not require a Netflix account.",
+    "category": "Words",
+    "id": 625
+  },
+  {
+    "name": "Netflix - Crossover",
+    "url": "https://www.netflix.com/tudum/puzzled/crossover/daily",
+    "description": "Swap letters and emojis to form words that match the clues. Does not require a Netflix account.",
+    "category": "Words",
+    "id": 626
+  },
+  {
+    "name": "Netflix - Jigsaw",
+    "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily",
+    "description": "Complete the image by finding the right spot for each piece. Does not require a Netflix account.",
+    "category": "Shapes/Patterns",
+    "id": 627
+  },
+  {
+    "name": "Netflix - Shapes",
+    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily",
+    "description": "Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.",
+    "category": "Shapes/Patterns",
+    "id": 628
+  },
+  {
+    "name": "Netflix - Waywords",
+    "url": "https://www.netflix.com/tudum/puzzled/waywords/daily",
+    "description": "A themed word search with emojis where the words make make a path. Does not require a Netflix account.",
+    "category": "Words",
+    "id": 629
   },
   {
     "name": "Nodes",
@@ -2441,6 +2539,13 @@
     "id": 553
   },
   {
+    "name": "Ophex",
+    "url": "https://www.andrewt.net/puzzles/ophex/",
+    "description": "Combine the 7 numbers into the target number using the operations between them.",
+    "category": "Math/Logic",
+    "id": 630
+  },
+  {
     "name": "Orbits",
     "url": "https://www.playorbits.com",
     "description": "Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.",
@@ -2504,14 +2609,6 @@
     "description": "After listening to a short tune, identify the first 6 notes that were played.",
     "category": "Music",
     "id": 277
-  },
-  {
-    "name": "Petdle",
-    "url": "https://petdle.link",
-    "description": "Guess the pet taken from the game Super Auto Pets.",
-    "category": "Video Games",
-    "theme": "Super Auto Pets",
-    "id": 278
   },
   {
     "name": "Phrasicle",
@@ -2983,6 +3080,13 @@
     "id": 327
   },
   {
+    "name": "Ronin",
+    "url": "https://www.andrewt.net/puzzles/ronin/",
+    "description": "Fill each region with Chess pieces such that no piece can attack a piece of the same type.",
+    "category": "Card/Board Games",
+    "id": 631
+  },
+  {
     "name": "Rotaboxes",
     "url": "https://rotaboxes.com",
     "description": "Rotate all the tiles into their correct orientation to reveal today's picture.",
@@ -3133,13 +3237,6 @@
     "id": 344
   },
   {
-    "name": "Songle",
-    "url": "https://histordle.com/songle",
-    "description": "Guess the year given three songs that were released that year.",
-    "category": "Music",
-    "id": 345
-  },
-  {
     "name": "Songless",
     "url": "https://lessgames.com/songless",
     "description": "Guess the song from listening to small parts of it.",
@@ -3204,6 +3301,13 @@
     "id": 352
   },
   {
+    "name": "Spellify",
+    "url": "https://edhrec.com/games/spellify",
+    "description": "Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. ",
+    "category": "Card/Board Games",
+    "id": 632
+  },
+  {
     "name": "Spelling Bee",
     "url": "https://spellsbee.com",
     "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
@@ -3223,6 +3327,13 @@
     "description": "Guess the daily Slay the Spire card.",
     "category": "Video Games",
     "id": 556
+  },
+  {
+    "name": "Spongedle",
+    "url": "https://spongedle.onrender.com",
+    "description": "Guess the episode from Spongebob Squarepants based on the screenshots.",
+    "category": "Movies/TV",
+    "id": 633
   },
   {
     "name": "Sporcle Daily Acrostic",
@@ -3520,6 +3631,13 @@
     "id": 386
   },
   {
+    "name": "The Daily Spell",
+    "url": "https://www.the-daily-spell.com",
+    "description": "Unscramble the fictional headline by dropping letters into place.",
+    "category": "Words",
+    "id": 634
+  },
+  {
     "name": "The New Daily - Trivia",
     "url": "https://www.thenewdaily.com.au/puzzles/quiz-trivia",
     "description": "Daily trivia quizzes from multiple categories.",
@@ -3701,6 +3819,13 @@
     "description": "Connect the two TV actors in the fewest links possible.",
     "category": "Movies/TV",
     "id": 562
+  },
+  {
+    "name": "Umadle",
+    "url": "https://umadle.net",
+    "description": "A collection of daily guessing games related to Umamusume.",
+    "category": "Video Games",
+    "id": 635
   },
   {
     "name": "Unolingo",
@@ -3931,6 +4056,13 @@
     "id": 430
   },
   {
+    "name": "Word Salad",
+    "url": "https://wordsalad.online",
+    "description": "Find all the words in the 4 by 4 grid that are part of today's theme. Refresh after doing the tutorial to get to the daily.",
+    "category": "Words",
+    "id": 636
+  },
+  {
     "name": "Word to your Mother",
     "url": "https://w2ym.org",
     "description": "Guess all possible Wordle words based on the two starting words and their results.",
@@ -4093,6 +4225,13 @@
     "id": 513
   },
   {
+    "name": "WRDLINK",
+    "url": "https://www.wrdlink.io",
+    "description": "Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.",
+    "category": "Words",
+    "id": 637
+  },
+  {
     "name": "WrestlePlay",
     "url": "https://wrestleplay.com",
     "description": "A collection of daily games related to wrestling.",
@@ -4120,13 +4259,6 @@
     "description": "Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.",
     "category": "Math/Logic",
     "id": 449
-  },
-  {
-    "name": "Yeardle",
-    "url": "https://histordle.com/yeardle",
-    "description": "Guess the year based on the given historical events of that year.",
-    "category": "History",
-    "id": 450
   },
   {
     "name": "Yearly Daily",

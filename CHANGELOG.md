@@ -1,5 +1,43 @@
 # Changelog - The Dles
 
+## 2026-01-11
+
+Add 23 dles. Remove 4 dles. 
+
+dles added: 
+|    | name                                                                         | url                                                                                                            |
+|---:|:-----------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+|  1 | [Antiwordle](https://www.antiwordle.com)                                     | [https://www.antiwordle.com](https://www.antiwordle.com)                                                       |
+|  2 | [Bibdle](https://bibdle.com)                                                 | [https://bibdle.com](https://bibdle.com)                                                                       |
+|  3 | [Celtix](https://www.andrewt.net/puzzles/celtix/)                            | [https://www.andrewt.net/puzzles/celtix/](https://www.andrewt.net/puzzles/celtix/)                             |
+|  4 | [Cliffhanger](https://jumoh.com/games/cliffhanger/)                          | [https://jumoh.com/games/cliffhanger/](https://jumoh.com/games/cliffhanger/)                                   |
+|  5 | [Colordle](https://colordle.ryantanen.com)                                   | [https://colordle.ryantanen.com](https://colordle.ryantanen.com)                                               |
+|  6 | [Cosmeredle](https://cosmeredle.net)                                         | [https://cosmeredle.net](https://cosmeredle.net)                                                               |
+|  7 | [Exodle](https://exodle.astrelion.com)                                       | [https://exodle.astrelion.com](https://exodle.astrelion.com)                                                   |
+|  8 | [Genshindle](https://us.genshindle.com/)                                     | [https://us.genshindle.com/](https://us.genshindle.com/)                                                       |
+|  9 | [Loopy](https://loopy.wtf)                                                   | [https://loopy.wtf](https://loopy.wtf)                                                                         |
+| 10 | [Marveldle](https://marveldle.com/character/audiovisual/guess)               | [https://marveldle.com/character/audiovisual/guess](https://marveldle.com/character/audiovisual/guess)         |
+| 11 | [Netflix - Bonza](https://www.netflix.com/tudum/puzzled/bonza/daily)         | [https://www.netflix.com/tudum/puzzled/bonza/daily](https://www.netflix.com/tudum/puzzled/bonza/daily)         |
+| 12 | [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) | [https://www.netflix.com/tudum/puzzled/crossover/daily](https://www.netflix.com/tudum/puzzled/crossover/daily) |
+| 13 | [Netflix - Jigsaw](https://www.netflix.com/tudum/puzzled/jigsaw/daily)       | [https://www.netflix.com/tudum/puzzled/jigsaw/daily](https://www.netflix.com/tudum/puzzled/jigsaw/daily)       |
+| 14 | [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily)       | [https://www.netflix.com/tudum/puzzled/shapes/daily](https://www.netflix.com/tudum/puzzled/shapes/daily)       |
+| 15 | [Netflix - Waywords](https://www.netflix.com/tudum/puzzled/waywords/daily)   | [https://www.netflix.com/tudum/puzzled/waywords/daily](https://www.netflix.com/tudum/puzzled/waywords/daily)   |
+| 16 | [Ophex](https://www.andrewt.net/puzzles/ophex/)                              | [https://www.andrewt.net/puzzles/ophex/](https://www.andrewt.net/puzzles/ophex/)                               |
+| 17 | [Ronin](https://www.andrewt.net/puzzles/ronin/)                              | [https://www.andrewt.net/puzzles/ronin/](https://www.andrewt.net/puzzles/ronin/)                               |
+| 18 | [Spellify](https://edhrec.com/games/spellify)                                | [https://edhrec.com/games/spellify](https://edhrec.com/games/spellify)                                         |
+| 19 | [Spongedle](https://spongedle.onrender.com)                                  | [https://spongedle.onrender.com](https://spongedle.onrender.com)                                               |
+| 20 | [The Daily Spell](https://www.the-daily-spell.com)                           | [https://www.the-daily-spell.com](https://www.the-daily-spell.com)                                             |
+| 21 | [Umadle](https://umadle.net)                                                 | [https://umadle.net](https://umadle.net)                                                                       |
+| 22 | [Word Salad](https://wordsalad.online)                                       | [https://wordsalad.online](https://wordsalad.online)                                                           |
+| 23 | [WRDLINK](https://www.wrdlink.io)                                            | [https://www.wrdlink.io](https://www.wrdlink.io)                                                               |
+
+dles removed: 
+|    | name                                                        | url                                                              |
+|---:|:------------------------------------------------------------|:-----------------------------------------------------------------|
+|  1 | [Moviedle (from Histordle)](https://histordle.com/moviedle) | [https://histordle.com/moviedle](https://histordle.com/moviedle) |
+|  2 | [Petdle](https://petdle.link)                               | [https://petdle.link](https://petdle.link)                       |
+|  3 | [Songle](https://histordle.com/songle)                      | [https://histordle.com/songle](https://histordle.com/songle)     |
+|  4 | [Yeardle](https://histordle.com/yeardle)                    | [https://histordle.com/yeardle](https://histordle.com/yeardle)   |
 ## 2026-01-06
 
 Add 5 dles. Remove 2 dles. 

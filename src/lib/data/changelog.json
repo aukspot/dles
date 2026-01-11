@@ -1,5 +1,121 @@
 [
   {
+    "date": "2026-01-11",
+    "dles added": [
+      {
+        "name": "Antiwordle",
+        "url": "https://www.antiwordle.com"
+      },
+      {
+        "name": "Bibdle",
+        "url": "https://bibdle.com"
+      },
+      {
+        "name": "Celtix",
+        "url": "https://www.andrewt.net/puzzles/celtix/"
+      },
+      {
+        "name": "Cliffhanger",
+        "url": "https://jumoh.com/games/cliffhanger/"
+      },
+      {
+        "name": "Colordle",
+        "url": "https://colordle.ryantanen.com"
+      },
+      {
+        "name": "Cosmeredle",
+        "url": "https://cosmeredle.net"
+      },
+      {
+        "name": "Exodle",
+        "url": "https://exodle.astrelion.com"
+      },
+      {
+        "name": "Genshindle",
+        "url": "https://us.genshindle.com/"
+      },
+      {
+        "name": "Loopy",
+        "url": "https://loopy.wtf"
+      },
+      {
+        "name": "Marveldle",
+        "url": "https://marveldle.com/character/audiovisual/guess"
+      },
+      {
+        "name": "Netflix - Bonza",
+        "url": "https://www.netflix.com/tudum/puzzled/bonza/daily"
+      },
+      {
+        "name": "Netflix - Crossover",
+        "url": "https://www.netflix.com/tudum/puzzled/crossover/daily"
+      },
+      {
+        "name": "Netflix - Jigsaw",
+        "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily"
+      },
+      {
+        "name": "Netflix - Shapes",
+        "url": "https://www.netflix.com/tudum/puzzled/shapes/daily"
+      },
+      {
+        "name": "Netflix - Waywords",
+        "url": "https://www.netflix.com/tudum/puzzled/waywords/daily"
+      },
+      {
+        "name": "Ophex",
+        "url": "https://www.andrewt.net/puzzles/ophex/"
+      },
+      {
+        "name": "Ronin",
+        "url": "https://www.andrewt.net/puzzles/ronin/"
+      },
+      {
+        "name": "Spellify",
+        "url": "https://edhrec.com/games/spellify"
+      },
+      {
+        "name": "Spongedle",
+        "url": "https://spongedle.onrender.com"
+      },
+      {
+        "name": "The Daily Spell",
+        "url": "https://www.the-daily-spell.com"
+      },
+      {
+        "name": "Umadle",
+        "url": "https://umadle.net"
+      },
+      {
+        "name": "Word Salad",
+        "url": "https://wordsalad.online"
+      },
+      {
+        "name": "WRDLINK",
+        "url": "https://www.wrdlink.io"
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Moviedle (from Histordle)",
+        "url": "https://histordle.com/moviedle"
+      },
+      {
+        "name": "Petdle",
+        "url": "https://petdle.link"
+      },
+      {
+        "name": "Songle",
+        "url": "https://histordle.com/songle"
+      },
+      {
+        "name": "Yeardle",
+        "url": "https://histordle.com/yeardle"
+      }
+    ],
+    "description": "Add 23 dles. Remove 4 dles. "
+  },
+  {
     "date": "2026-01-06",
     "dles added": [
       {
