@@ -11,7 +11,7 @@
     <PanelTitle color="red" title="INFO" />
     <h2 class="question">What is this?</h2>
     <p class="answer">
-      A curated collection of 500+ free games that are updated daily: puzzle
+      A curated collection of 600+ free games that are updated daily: puzzle
       games, word games, trivia games, logic games, geography games and more!
       All games are completely free and <em
         >do not require an account or subscription.</em

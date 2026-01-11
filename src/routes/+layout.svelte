@@ -175,7 +175,7 @@
                 <div class="divider mt-2"></div>
                 <h2 class="question">What is this?</h2>
                 <p class="answer">
-                  A curated collection of 500+ free games that are updated
+                  A curated collection of 600+ free games that are updated
                   daily: puzzle games, word games, trivia, logic games, and
                   more! All games are completely free and
                   <em>do not require an account or subscription.</em>

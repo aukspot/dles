@@ -1,5 +1,143 @@
 [
   {
+    "name": "Antiwordle",
+    "url": "https://www.antiwordle.com",
+    "description": "Wordle except you're trying to avoid the secret word.",
+    "category": "Words"
+  },
+  {
+    "name": "Umadle",
+    "url": "https://umadle.net",
+    "description": "A collection of daily guessing games related to Umamusume.",
+    "category": "Video Games"
+  },
+  {
+    "name": "Ronin",
+    "url": "https://www.andrewt.net/puzzles/ronin/",
+    "description": "Fill each region with Chess pieces such that no piece can attack a piece of the same type.",
+    "category": "Card/Board Games"
+  },
+  {
+    "name": "Ophex",
+    "url": "https://www.andrewt.net/puzzles/ophex/",
+    "description": "Combine the 7 numbers into the target number using the operations between them.",
+    "category": "Math/Logic"
+  },
+  {
+    "name": "Celtix",
+    "url": "https://www.andrewt.net/puzzles/celtix/",
+    "description": "Divide the Celtic knot into separate loops, one for each color.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Colordle",
+    "url": "https://colordle.ryantanen.com",
+    "description": "Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.",
+    "category": "Colors"
+  },
+  {
+    "name": "Cliffhanger",
+    "url": "https://jumoh.com/games/cliffhanger/",
+    "description": "Hangman but it's always a movie title.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Cosmeredle",
+    "url": "https://cosmeredle.net",
+    "description": "Guess the character from Brandon Sanderson's Cosmere universe by narrowing down their book, world, and abilities.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Word Salad",
+    "url": "https://wordsalad.online",
+    "description": "Find all the words in the 4 by 4 grid that are part of today's theme. Refresh after doing the tutorial to get to the daily.",
+    "category": "Words"
+  },
+  {
+    "name": "Exodle",
+    "url": "https://exodle.astrelion.com",
+    "description": "Guess the daily exotic weapon or armor piece from the game Destiny.",
+    "category": "Video Games"
+  },
+  {
+    "name": "WRDLINK",
+    "url": "https://www.wrdlink.io",
+    "description": "Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.",
+    "category": "Words"
+  },
+  {
+    "name": "The Daily Spell",
+    "url": "https://www.the-daily-spell.com",
+    "description": "Unscramble the fictional headline by dropping letters into place.",
+    "category": "Words"
+  },
+  {
+    "name": "Netflix - Jigsaw",
+    "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily",
+    "description": "Complete the image by finding the right spot for each piece. Does not require a Netflix account.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Loopy",
+    "url": "https://loopy.wtf",
+    "description": "Make a loop based on the numbers in the grid.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Netflix - Bonza",
+    "url": "https://www.netflix.com/tudum/puzzled/bonza/daily",
+    "description": "Join fragments of letters together to form words that share a theme. Does not require a Netflix account.",
+    "category": "Words"
+  },
+  {
+    "name": "Netflix - Crossover",
+    "url": "https://www.netflix.com/tudum/puzzled/crossover/daily",
+    "description": "Swap letters and emojis to form words that match the clues. Does not require a Netflix account.",
+    "category": "Words"
+  },
+  {
+    "name": "Netflix - Waywords",
+    "url": "https://www.netflix.com/tudum/puzzled/waywords/daily",
+    "description": "A themed word search with emojis where the words make make a path. Does not require a Netflix account.",
+    "category": "Words"
+  },
+  {
+    "name": "Netflix - Shapes",
+    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily",
+    "description": "Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Spellify",
+    "url": "https://edhrec.com/games/spellify",
+    "description": "Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. ",
+    "category": "Card/Board Games"
+  },
+  {
+    "name": "Marveldle",
+    "url": "https://marveldle.com/character/audiovisual/guess",
+    "description": "Guess the daily character from the Marvel Cinematic Universe.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Spongedle",
+    "url": "https://spongedle.onrender.com",
+    "description": "Guess the episode from Spongebob Squarepants based on the screenshots.",
+    "category": "Movies/TV"
+  },
+  {
+    "name": "Bibdle",
+    "url": "https://bibdle.com",
+    "description": "Guess the daily verse from the bible.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Genshindle",
+    "url": "https://us.genshindle.com/",
+    "description": "Guess the character from Genshin Impact.",
+    "category": "Video Games"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -2216,13 +2354,6 @@
     "id": 242
   },
   {
-    "name": "Moviedle (from Histordle)",
-    "url": "https://histordle.com/moviedle",
-    "description": "Guess the year that the given movies were released.",
-    "category": "Movies/TV",
-    "id": 243
-  },
-  {
     "name": "Moviedle - Fill The Grid",
     "url": "https://moviedle.xyz/fill-the-grid",
     "description": "Fill the grid with movies that contain actors from each cell's corresponding row and column.",
@@ -2504,14 +2635,6 @@
     "description": "After listening to a short tune, identify the first 6 notes that were played.",
     "category": "Music",
     "id": 277
-  },
-  {
-    "name": "Petdle",
-    "url": "https://petdle.link",
-    "description": "Guess the pet taken from the game Super Auto Pets.",
-    "category": "Video Games",
-    "theme": "Super Auto Pets",
-    "id": 278
   },
   {
     "name": "Phrasicle",
@@ -3131,13 +3254,6 @@
     "category": "Video Games",
     "theme": "Marvel Snap",
     "id": 344
-  },
-  {
-    "name": "Songle",
-    "url": "https://histordle.com/songle",
-    "description": "Guess the year given three songs that were released that year.",
-    "category": "Music",
-    "id": 345
   },
   {
     "name": "Songless",
@@ -4120,13 +4236,6 @@
     "description": "Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.",
     "category": "Math/Logic",
     "id": 449
-  },
-  {
-    "name": "Yeardle",
-    "url": "https://histordle.com/yeardle",
-    "description": "Guess the year based on the given historical events of that year.",
-    "category": "History",
-    "id": 450
   },
   {
     "name": "Yearly Daily",
