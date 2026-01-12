@@ -1,5 +1,23 @@
 [
   {
+    "name": "Outlier",
+    "url": "https://outlier.land",
+    "description": "Repeatedly pick the outlier as quickly as you can.",
+    "category": "Words"
+  },
+  {
+    "name": "SetFury",
+    "url": "https://www.setfury.com",
+    "description": "Find valid sets of 3 to 5 tiles by moving through the grid.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Animdle",
+    "url": "https://animdle.com",
+    "description": "Guess the anime opening or ending with a video clue that gets less blurry with each guess.",
+    "category": "Movies/TV"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
