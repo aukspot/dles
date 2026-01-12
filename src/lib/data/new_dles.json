@@ -4,6 +4,10 @@
     "url": "https://www.andrewt.net/puzzles/3doku/"
   },
   {
+    "name": "Animdle",
+    "url": "https://animdle.com"
+  },
+  {
     "name": "Antiwordle",
     "url": "https://www.antiwordle.com"
   },
@@ -128,6 +132,10 @@
     "url": "https://www.andrewt.net/puzzles/ophex/"
   },
   {
+    "name": "Outlier",
+    "url": "https://outlier.land"
+  },
+  {
     "name": "Pair Down",
     "url": "https://pairdown.com"
   },
@@ -154,6 +162,10 @@
   {
     "name": "Seadle",
     "url": "https://seadle.muhashi.com"
+  },
+  {
+    "name": "SetFury",
+    "url": "https://www.setfury.com"
   },
   {
     "name": "Spellify",

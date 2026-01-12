@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-01-12
+
+Add 3 dles. 
+
+dles added: 
+|    | name                               | url                                                |
+|---:|:-----------------------------------|:---------------------------------------------------|
+|  1 | [Animdle](https://animdle.com)     | [https://animdle.com](https://animdle.com)         |
+|  2 | [Outlier](https://outlier.land)    | [https://outlier.land](https://outlier.land)       |
+|  3 | [SetFury](https://www.setfury.com) | [https://www.setfury.com](https://www.setfury.com) |
+
 ## 2026-01-11
 
 Add 23 dles. Remove 4 dles. 
