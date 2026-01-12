@@ -22,7 +22,7 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 ### Current
 
-- A list of over 500 curated dles.
+- A list of over 600 curated dles.
 - 17 categories to help with organization.
 - Users can select their favorite dles for quick access.
 - Randomly choose and open a dle from selected categories.
