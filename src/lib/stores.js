@@ -73,6 +73,13 @@ export let sponsors = readable([
     "category": "Words",
     "id": 564
   },
+  {
+    "name": "Word Zip",
+    "url": "https://www.wfhgames.com/word-zip",
+    "description": "Build as many words as you can by alternating between two pools of letters.",
+    "category": "Words",
+    "id": 563
+  },
 ])
 
 export { categoryRanks } from "$lib/js/categoryRanks"
