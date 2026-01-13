@@ -67,13 +67,6 @@ export let sponsors = readable([
     category: "Words",
   },
   {
-    "name": "Cinema Circuit",
-    "url": "https://www.wfhgames.com/cinema-circuit",
-    "description": "Connect the two movie actors in the fewest links possible.",
-    "category": "Movies/TV",
-    "id": 542
-  },
-  {
     "name": "Wordamid",
     "url": "https://www.wordamid.com",
     "description": "Solve the daily word pyramid by guessing words of increasing length.",
