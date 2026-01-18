@@ -151,7 +151,7 @@
     ],
     "timeRange": {
       "start": "2026-01-05",
-      "end": "2026-01-19"
+      "end": "2026-02-05"
     },
     "showResultsImmediately": true
   },
@@ -170,7 +170,26 @@
     ],
     "timeRange": {
       "start": "2026-01-12",
-      "end": "2026-01-26"
+      "end": "2026-02-12"
+    },
+    "showResultsImmediately": true
+  },
+  {
+    "id": "poll-10",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "geography",
+        "label": "Geography"
+      },
+      {
+        "id": "trivia",
+        "label": "Trivia"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-01-19",
+      "end": "2026-02-19"
     },
     "showResultsImmediately": true
   }
