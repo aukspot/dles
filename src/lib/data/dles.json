@@ -4072,7 +4072,7 @@
   {
     "name": "Word Peaks",
     "url": "https://vegeta897.github.io/word-peaks",
-    "description": "Guess the word in 6 tries. After each guess, it will show whether each letter occurs earlier or later in the alphabet compared to the corresponding letter in the secret word.",
+    "description": "Guess the word in 6 tries. Each guess shows if letters come earlier or later in the alphabet than the answer.",
     "category": "Words",
     "id": 430
   },
