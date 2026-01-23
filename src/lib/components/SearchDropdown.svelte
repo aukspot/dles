@@ -145,6 +145,13 @@
     $poppedUpDle = ""
   }
 
+  function handleResultsScroll() {
+    // Close popup when user scrolls the results to avoid position issues
+    if ($poppedUpDle) {
+      $poppedUpDle = ""
+    }
+  }
+
   onMount(() => {
     buildCache()
   })
@@ -183,7 +190,7 @@
       </div>
     {/if}
 
-    <div class="results-container" bind:this={resultsContainer}>
+    <div class="results-container" bind:this={resultsContainer} on:scroll={handleResultsScroll}>
       {#if searchQuery.trim() && filteredDles.length === 0}
         <div class="no-results">No dles found.</div>
       {:else if filteredDles.length > 0}
