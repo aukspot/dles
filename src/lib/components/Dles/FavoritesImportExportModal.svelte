@@ -3,6 +3,10 @@
   import { trackEvent } from "$lib/js/trackingUtils"
   import Modal from "../Modal.svelte"
   import ModalHeader from "../ModalHeader.svelte"
+  import Button from "../Button.svelte"
+  import Card from "../Card.svelte"
+  import Input from "../Input.svelte"
+  import StatusMessage from "../StatusMessage.svelte"
   import IconDownload from "../Icons/IconDownload.svelte"
   import IconUpload from "../Icons/IconUpload.svelte"
   import IconCopy from "../Icons/IconCopy.svelte"
@@ -156,10 +160,6 @@
     }
   }
 
-  function handlePasteTextChange(event) {
-    pasteText = event.target.value
-  }
-
   function handlePasteSubmit() {
     try {
       const data = JSON.parse(pasteText)
@@ -185,7 +185,7 @@
 </script>
 
 <Modal {onClose} overlay={true} zIndex={1000}>
-  <div class="modal">
+  <div class="modal-container">
     <ModalHeader
       title={mode === "export" ? "Export Favorites" : "Import Favorites"}
       {onClose}
@@ -195,21 +195,21 @@
     <div class="modal-content">
       {#if mode === "export"}
         <div class="export-content">
-          <div class="info-block">
+          <Card variant="info">
             <p class="block-text">
               This will download a JSON file containing all your favorite dles
               <strong>({$favorites.length} total)</strong>.
             </p>
-          </div>
+          </Card>
 
-          <div class="info-block">
+          <Card variant="info">
             <p class="block-text">
               You can use this file to import your favorites on another device
               or to back up your favorites.
             </p>
-          </div>
+          </Card>
 
-          <div class="favorites-preview-block">
+          <Card variant="info">
             <div class="block-header">Your favorites:</div>
             <div class="favorites-list">
               {#each $favorites.slice(0, 5) as dle}
@@ -221,12 +221,12 @@
                 </div>
               {/if}
             </div>
-          </div>
+          </Card>
         </div>
       {:else}
         <div class="import-content">
           {#if $favoriteIds.length > 0}
-            <div class="warning-block">
+            <Card variant="warning">
               <div class="warning-title">⚠️ Warning</div>
               <ul class="warning-list">
                 <li class="warning-item">
@@ -239,11 +239,11 @@
                   to keep them!
                 </li>
               </ul>
-            </div>
+            </Card>
           {:else}
-            <div class="info-block">
+            <Card variant="info">
               <p class="block-text">Choose a favorites file to import.</p>
-            </div>
+            </Card>
           {/if}
 
           {#if !importData}
@@ -256,13 +256,14 @@
                   bind:this={fileInputRef}
                   class="file-input"
                 />
-                <button
-                  class="file-input-button"
+                <Button
+                  variant="secondary"
+                  icon={IconUpload}
+                  fullWidth
                   on:click={() => fileInputRef?.click()}
                 >
-                  <IconUpload />
-                  <span>Choose File</span>
-                </button>
+                  Choose File
+                </Button>
               </div>
 
               <div class="or-divider">
@@ -270,30 +271,33 @@
               </div>
 
               <div class="paste-container">
-                <button
-                  class="file-input-button"
+                <Button
+                  variant="secondary"
+                  icon={IconPaste}
+                  fullWidth
                   on:click={handlePasteFromClipboard}
                 >
-                  <IconPaste />
-                  <span>Paste from Clipboard</span>
-                </button>
+                  Paste from Clipboard
+                </Button>
 
                 {#if showPasteInput}
                   <div class="paste-input-area">
-                    <textarea
-                      class="paste-textarea"
-                      placeholder="Paste your favorites JSON here..."
+                    <Input
+                      type="textarea"
                       bind:value={pasteText}
-                      on:input={handlePasteTextChange}
-                      rows="6"
-                    ></textarea>
-                    <button
-                      class="paste-submit-button"
+                      placeholder="Paste your favorites JSON here..."
+                      rows={6}
+                      fullWidth
+                    />
+                    <Button
+                      variant="primary"
+                      uppercase
+                      fullWidth
                       on:click={handlePasteSubmit}
                       disabled={!pasteText.trim()}
                     >
                       Submit
-                    </button>
+                    </Button>
                   </div>
                 {/if}
               </div>
@@ -301,11 +305,11 @@
           {/if}
 
           {#if importError}
-            <div class="error-block">{importError}</div>
+            <StatusMessage type="error" message={importError} />
           {/if}
 
           {#if importData}
-            <div class="import-preview-block">
+            <Card variant="info">
               <div class="block-header">
                 Ready to import {importData.length} favorites
               </div>
@@ -319,7 +323,7 @@
                   </div>
                 {/if}
               </div>
-            </div>
+            </Card>
           {/if}
         </div>
       {/if}
@@ -327,66 +331,52 @@
 
     <div class="modal-footer">
       {#if mode === "export"}
-        <div class="export-actions">
-          <button class="file-input-button" on:click={handleExport}>
-            <IconDownload />
-            <span>Download File</span>
-          </button>
+        <div class="footer-actions">
+          <Button
+            variant="secondary"
+            icon={IconDownload}
+            fullWidth
+            on:click={handleExport}
+          >
+            Download File
+          </Button>
 
           <div class="or-divider">
             <span class="or-text">or</span>
           </div>
 
-          <button
-            class="file-input-button"
+          <Button
+            variant="secondary"
+            icon={IconCopy}
+            fullWidth
             on:click={handleCopy}
             disabled={copySuccess}
           >
-            <IconCopy />
-            <span>{copySuccess ? "Copied!" : "Copy to Clipboard"}</span>
-          </button>
+            {copySuccess ? "Copied!" : "Copy to Clipboard"}
+          </Button>
         </div>
       {:else if importData}
-        <button class="action-button" on:click={handleImport}>
-          <IconUpload />
-          <span>Confirm Import</span>
-        </button>
+        <Button
+          variant="primary"
+          icon={IconUpload}
+          fullWidth
+          on:click={handleImport}
+        >
+          Confirm Import
+        </Button>
       {/if}
     </div>
   </div>
 </Modal>
 
 <style lang="postcss">
-  .modal {
-    @apply bg-colorCardC border border-colorTextSofter shadow-2xl flex flex-col;
-    width: 100%;
-    max-width: 500px;
-    max-height: 90vh;
-  }
-
-  :global(.dark) .modal {
-    @apply border-colorTextSoftest;
-  }
-
-  .modal-content {
-    @apply p-3 overflow-y-auto flex-1;
-  }
-
   .export-content,
   .import-content {
     @apply flex flex-col gap-2;
   }
 
-  .info-block {
-    @apply bg-colorCardB border border-colorTextSoftest p-3;
-  }
-
   .block-text {
     @apply text-sm text-colorText leading-relaxed;
-  }
-
-  .warning-block {
-    @apply bg-orange-50 dark:bg-orange-900/20 border-2 border-orange-300 dark:border-orange-700 p-3;
   }
 
   .warning-title {
@@ -418,45 +408,12 @@
     @apply hidden;
   }
 
-  .file-input-button {
-    @apply flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium text-colorText bg-colorCardB hover:bg-gray-100 dark:hover:bg-gray-700 border-2 border-colorTextSofter shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 stroke-colorTextSoft cursor-pointer w-full;
-  }
-
-  .or-divider {
-    @apply flex items-center justify-center my-1;
-  }
-
-  .or-text {
-    @apply text-xs text-colorTextSofter uppercase tracking-wider px-2;
-  }
-
   .paste-container {
     @apply flex flex-col gap-2;
   }
 
   .paste-input-area {
     @apply flex flex-col gap-2 mt-2;
-  }
-
-  .paste-textarea {
-    @apply w-full px-3 py-2 text-sm font-mono text-colorText bg-colorCardB border-2 border-colorTextSofter focus:border-blue-500 focus:outline-none resize-y;
-  }
-
-  .paste-submit-button {
-    @apply px-3 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 border-2 border-blue-700 hover:border-blue-800 shadow-md hover:shadow-lg active:scale-95 transition-all duration-75 uppercase tracking-wide cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-600;
-  }
-
-  .error-block {
-    @apply bg-red-50 dark:bg-red-900/20 border-2 border-red-300 dark:border-red-700 p-3 text-sm text-red-800 dark:text-red-300;
-  }
-
-  .favorites-preview-block,
-  .import-preview-block {
-    @apply bg-colorCardB border border-colorTextSoftest p-3;
-  }
-
-  .block-header {
-    @apply text-sm font-semibold text-colorText mb-2 uppercase tracking-wide;
   }
 
   .favorites-list {
@@ -469,17 +426,5 @@
 
   .favorite-item.more {
     @apply italic text-colorTextSofter;
-  }
-
-  .modal-footer {
-    @apply p-3 bg-colorCardB border-t-2 border-colorTextSofter flex justify-center;
-  }
-
-  .export-actions {
-    @apply flex flex-col gap-2 w-full;
-  }
-
-  .action-button {
-    @apply flex items-center gap-2 px-3 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 border-2 border-blue-700 hover:border-blue-800 shadow-md hover:shadow-lg active:scale-95 transition-all duration-75 stroke-white uppercase tracking-wide cursor-pointer flex-1;
   }
 </style>

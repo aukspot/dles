@@ -130,6 +130,46 @@ a {
   fill: currentColor;
 }
 
+.btn-primary {
+  @apply flex items-center justify-center gap-2 px-4 py-2 text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 border-2 border-blue-700 hover:border-blue-800 shadow-md hover:shadow-lg active:scale-95 transition-all duration-75 cursor-pointer;
+}
+
+.btn-secondary {
+  @apply flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium text-colorText bg-colorCardB hover:bg-gray-100 dark:hover:bg-gray-700 border-2 border-colorTextSofter shadow-sm hover:shadow-md active:scale-95 transition-all duration-75 stroke-colorTextSoft cursor-pointer;
+}
+
+.btn-poll-option {
+  @apply p-2 bg-colorCardC border border-colorTextSofter hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors font-medium text-colorText text-sm md:text-base uppercase leading-tight min-w-16;
+  min-height: 2.5rem;
+}
+
+.btn-poll-option:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+/* Button sizes */
+.btn-size-sm {
+  @apply px-2 py-1 text-xs;
+}
+
+.btn-size-md {
+  @apply px-3 py-2 text-sm;
+}
+
+.btn-size-lg {
+  @apply px-4 py-3 text-base;
+}
+
+/* Button width */
+.btn-full-width {
+  @apply w-full;
+}
+
+/* Button uppercase */
+.btn-uppercase {
+  @apply uppercase tracking-wide;
+}
+
 .btn-toggle {
   @apply cursor-pointer flex items-center justify-center select-none text-xs px-1.5 bg-zinc-200 dark:bg-zinc-800 border border-zinc-400 dark:border-zinc-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all font-medium;
 }
@@ -226,6 +266,48 @@ td {
 
   .grid-cols-var {
     grid-template-columns: repeat(var(--num-columns), minmax(0, 1fr));
+  }
+
+  /* Modal utilities */
+  .modal-container {
+    @apply bg-colorCardC border border-colorTextSofter shadow-2xl flex flex-col;
+    width: 100%;
+    max-width: 500px;
+    max-height: 90vh;
+  }
+
+  :global(.dark) .modal-container {
+    @apply border-colorTextSoftest;
+  }
+
+  .modal-content {
+    @apply p-3 overflow-y-auto flex-1;
+  }
+
+  .modal-footer {
+    @apply p-3 bg-colorCardB border-t-2 border-colorTextSofter flex justify-center;
+  }
+
+  .footer-actions {
+    @apply flex flex-col gap-2 w-full;
+  }
+
+  /* Layout utilities */
+  .block-header {
+    @apply text-sm font-semibold text-colorText mb-2 uppercase tracking-wide;
+  }
+
+  .section-subtitle {
+    @apply text-sm md:text-base font-semibold text-colorTextSoft uppercase tracking-wide mb-1 text-center;
+  }
+
+  /* Divider utilities */
+  .or-divider {
+    @apply flex items-center justify-center my-1;
+  }
+
+  .or-text {
+    @apply text-xs text-colorTextSofter uppercase tracking-wider px-2;
   }
 }
 

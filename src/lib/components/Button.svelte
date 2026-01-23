@@ -10,20 +10,45 @@
   export let active = false
   export let ariaLabel = null
   export let title = null
+  export let size = "md" // "sm" | "md" | "lg"
+  export let fullWidth = false
+  export let uppercase = false
 
   let className = ""
   export { className as class }
 
   $: element = href ? "a" : variant === "toggle" ? "label" : "button"
 
+  // Map old variants to new system for backward compatibility
+  $: mappedVariant = variant === "action" ? "secondary" : variant
+
   $: variantClass =
     {
-      action: "btn-action",
-      "action-big": "btn-action-big",
+      primary: "btn-primary",
+      secondary: "btn-secondary",
+      action: "btn-action", // Keep for backward compatibility
+      "action-big": "btn-action-big", // Keep for backward compatibility
       settings: "btn-settings",
       "menu-item": "btn-menu-item",
       toggle: "btn-toggle",
-    }[variant] || "btn-action"
+      "poll-option": "btn-poll-option",
+    }[variant] ||
+    (mappedVariant === "primary"
+      ? "btn-primary"
+      : mappedVariant === "secondary"
+        ? "btn-secondary"
+        : "btn-action")
+
+  $: sizeClass =
+    {
+      sm: "btn-size-sm",
+      md: "btn-size-md",
+      lg: "btn-size-lg",
+    }[size] || "btn-size-md"
+
+  $: widthClass = fullWidth ? "btn-full-width" : ""
+
+  $: uppercaseClass = uppercase ? "btn-uppercase" : ""
 
   $: colorClass =
     {
@@ -35,7 +60,8 @@
       neutral: "",
     }[color] || ""
 
-  $: computedClass = `${variantClass} ${colorClass} ${className}`.trim()
+  $: computedClass =
+    `${variantClass} ${sizeClass} ${widthClass} ${uppercaseClass} ${colorClass} ${className}`.trim()
 
   // Only apply disabled to button elements
   $: disabledProp = element === "button" ? disabled : undefined
