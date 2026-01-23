@@ -1,5 +1,20 @@
 # Changelog - The Dles
 
+## 2026-01-23
+
+Add 7 dles. 
+
+dles added: 
+|    | name                                                                                  | url                                                                                                        |
+|---:|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------|
+|  1 | [Humppadle](https://www.humppadle.de)                                                 | [https://www.humppadle.de](https://www.humppadle.de)                                                       |
+|  2 | [Lettered](https://lettered.io)                                                       | [https://lettered.io](https://lettered.io)                                                                 |
+|  3 | [Luckle](https://luckle.org)                                                          | [https://luckle.org](https://luckle.org)                                                                   |
+|  4 | [Rewordio](https://rewordio.com)                                                      | [https://rewordio.com](https://rewordio.com)                                                               |
+|  5 | [The Guardian - Quick Crossword](https://www.theguardian.com/crosswords/series/quick) | [https://www.theguardian.com/crosswords/series/quick](https://www.theguardian.com/crosswords/series/quick) |
+|  6 | [Wallstreetle](https://wallstreetle.com)                                              | [https://wallstreetle.com](https://wallstreetle.com)                                                       |
+|  7 | [WordLock](https://wordlockgame.com)                                                  | [https://wordlockgame.com](https://wordlockgame.com)                                                       |
+
 ## 2026-01-12
 
 Add 3 dles. 

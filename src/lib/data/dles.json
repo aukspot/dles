@@ -1,47 +1,5 @@
 [
   {
-    "name": "Rewordio",
-    "url": "https://rewordio.com",
-    "description": "Move stacks of letters between columns to solve the clues.",
-    "category": "Words"
-  },
-  {
-    "name": "WordLock",
-    "url": "https://wordlockgame.com",
-    "description": "Create 5 words by choosing one letter from each column.",
-    "category": "Words"
-  },
-  {
-    "name": "Lettered",
-    "url": "https://lettered.io",
-    "description": "Move letter tiles on the board to spell out the hidden phrase.",
-    "category": "Words"
-  },
-  {
-    "name": "Humppadle",
-    "url": "https://www.humppadle.de",
-    "description": "Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.",
-    "category": "Music"
-  },
-  {
-    "name": "Luckle",
-    "url": "https://luckle.org",
-    "description": "Roll the dice until it lands on the target number. 3 rounds per day.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Wallstreetle",
-    "url": "https://wallstreetle.com",
-    "description": "Guess the company based on information about its stock.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "The Guardian - Quick Crossword",
-    "url": "https://www.theguardian.com/crosswords/series/quick",
-    "description": "A small crossword puzzle from The Guardian. New puzzle 6 days a week.",
-    "category": "Words"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -1705,6 +1663,13 @@
     "id": 173
   },
   {
+    "name": "Humppadle",
+    "url": "https://www.humppadle.de",
+    "description": "Guess the original song based on a cover by the Finnish Humppa band El\u00e4kel\u00e4iset.",
+    "category": "Music",
+    "id": 641
+  },
+  {
     "name": "I Called Game",
     "url": "https://icalledgame.hoopgrids.com",
     "description": "Identify key details from an image of a historical NBA game to answer 6 questions.",
@@ -1936,6 +1901,13 @@
     "id": 573
   },
   {
+    "name": "Lettered",
+    "url": "https://lettered.io",
+    "description": "Move letter tiles on the board to spell out the hidden phrase.",
+    "category": "Words",
+    "id": 642
+  },
+  {
     "name": "Letteripher",
     "url": "https://letteripher.com",
     "description": "Guess letters to reveal all words of some daily category without losing all your lives.",
@@ -2104,6 +2076,13 @@
     "description": "Make a loop based on the numbers in the grid.",
     "category": "Shapes/Patterns",
     "id": 623
+  },
+  {
+    "name": "Luckle",
+    "url": "https://luckle.org",
+    "description": "Roll the dice until it lands on the target number. 3 rounds per day.",
+    "category": "Miscellaneous",
+    "id": 643
   },
   {
     "name": "Lyricle",
@@ -3100,6 +3079,13 @@
     "id": 498
   },
   {
+    "name": "Rewordio",
+    "url": "https://rewordio.com",
+    "description": "Move stacks of letters between columns to solve the clues.",
+    "category": "Words",
+    "id": 644
+  },
+  {
     "name": "Rhyme Time",
     "url": "https://www.rhymetime.co",
     "description": "Guess the three words that all rhyme.",
@@ -3701,6 +3687,13 @@
     "id": 634
   },
   {
+    "name": "The Guardian - Quick Crossword",
+    "url": "https://www.theguardian.com/crosswords/series/quick",
+    "description": "A small crossword puzzle from The Guardian. New puzzle 6 days a week.",
+    "category": "Words",
+    "id": 645
+  },
+  {
     "name": "The New Daily - Trivia",
     "url": "https://www.thenewdaily.com.au/puzzles/quiz-trivia",
     "description": "Daily trivia quizzes from multiple categories.",
@@ -3946,6 +3939,13 @@
     "description": "Swap letters to create words both horizontally and vertically. Seems to have been made before Word Waffle.",
     "category": "Words",
     "id": 413
+  },
+  {
+    "name": "Wallstreetle",
+    "url": "https://wallstreetle.com",
+    "description": "Guess the company based on information about its stock.",
+    "category": "Miscellaneous",
+    "id": 646
   },
   {
     "name": "Wantedle",
@@ -4229,6 +4229,13 @@
     "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
     "category": "Words",
     "id": 442
+  },
+  {
+    "name": "WordLock",
+    "url": "https://wordlockgame.com",
+    "description": "Create 5 words by choosing one letter from each column.",
+    "category": "Words",
+    "id": 647
   },
   {
     "name": "Wordloop",

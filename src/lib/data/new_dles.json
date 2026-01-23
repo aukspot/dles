@@ -68,12 +68,24 @@
     "url": "https://us.genshindle.com/"
   },
   {
+    "name": "Humppadle",
+    "url": "https://www.humppadle.de"
+  },
+  {
     "name": "Jigsy",
     "url": "https://jigsy.app"
   },
   {
+    "name": "Lettered",
+    "url": "https://lettered.io"
+  },
+  {
     "name": "Loopy",
     "url": "https://loopy.wtf"
+  },
+  {
+    "name": "Luckle",
+    "url": "https://luckle.org"
   },
   {
     "name": "Marveldle",
@@ -120,6 +132,10 @@
     "url": "https://powerscadle.com"
   },
   {
+    "name": "Rewordio",
+    "url": "https://rewordio.com"
+  },
+  {
     "name": "Ripple",
     "url": "https://ripplegame.app"
   },
@@ -148,8 +164,16 @@
     "url": "https://www.the-daily-spell.com"
   },
   {
+    "name": "The Guardian - Quick Crossword",
+    "url": "https://www.theguardian.com/crosswords/series/quick"
+  },
+  {
     "name": "Umadle",
     "url": "https://umadle.net"
+  },
+  {
+    "name": "Wallstreetle",
+    "url": "https://wallstreetle.com"
   },
   {
     "name": "Washington Post Crossword",
@@ -158,6 +182,10 @@
   {
     "name": "Word Salad",
     "url": "https://wordsalad.online"
+  },
+  {
+    "name": "WordLock",
+    "url": "https://wordlockgame.com"
   },
   {
     "name": "WRDLINK",

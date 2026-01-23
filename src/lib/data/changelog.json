@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-01-23",
+    "dles added": [
+      {
+        "name": "Humppadle",
+        "url": "https://www.humppadle.de"
+      },
+      {
+        "name": "Lettered",
+        "url": "https://lettered.io"
+      },
+      {
+        "name": "Luckle",
+        "url": "https://luckle.org"
+      },
+      {
+        "name": "Rewordio",
+        "url": "https://rewordio.com"
+      },
+      {
+        "name": "The Guardian - Quick Crossword",
+        "url": "https://www.theguardian.com/crosswords/series/quick"
+      },
+      {
+        "name": "Wallstreetle",
+        "url": "https://wallstreetle.com"
+      },
+      {
+        "name": "WordLock",
+        "url": "https://wordlockgame.com"
+      }
+    ],
+    "description": "Add 7 dles. "
+  },
+  {
     "date": "2026-01-12",
     "dles added": [
       {
