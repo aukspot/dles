@@ -1,5 +1,47 @@
 [
   {
+    "name": "Rewordio",
+    "url": "https://rewordio.com",
+    "description": "Move stacks of letters between columns to solve the clues.",
+    "category": "Words"
+  },
+  {
+    "name": "WordLock",
+    "url": "https://wordlockgame.com",
+    "description": "Create 5 words by choosing one letter from each column.",
+    "category": "Words"
+  },
+  {
+    "name": "Lettered",
+    "url": "https://lettered.io",
+    "description": "Move letter tiles on the board to spell out the hidden phrase.",
+    "category": "Words"
+  },
+  {
+    "name": "Humppadle",
+    "url": "https://www.humppadle.de",
+    "description": "Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.",
+    "category": "Music"
+  },
+  {
+    "name": "Luckle",
+    "url": "https://luckle.org",
+    "description": "Roll the dice until it lands on the target number. 3 rounds per day.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Wallstreetle",
+    "url": "https://wallstreetle.com",
+    "description": "Guess the company based on information about its stock.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "The Guardian - Quick Crossword",
+    "url": "https://www.theguardian.com/crosswords/series/quick",
+    "description": "A small crossword puzzle from The Guardian. New puzzle 6 days a week.",
+    "category": "Words"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
