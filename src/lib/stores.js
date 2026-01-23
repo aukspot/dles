@@ -80,6 +80,13 @@ export let sponsors = readable([
     "category": "Math/Logic",
     "id": 559
   },
+  {
+    "name": "Lettered",
+    "url": "https://lettered.io",
+    "description": "Move letter tiles on the board to spell out the hidden phrase.",
+    "category": "Words",
+    "id": 642
+  },
 ])
 
 export { categoryRanks } from "$lib/js/categoryRanks"
