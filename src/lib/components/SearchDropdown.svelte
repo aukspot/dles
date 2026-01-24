@@ -158,7 +158,7 @@
 </script>
 
 <PanelWrapper {open}>
-  <PanelTitle color="violet" title="SEARCH DLES" />
+  <PanelTitle color="violet" title="SEARCH DLES" id="search-panel-title" />
   <div class="search-content">
     <div class="search-header">
       <input
@@ -190,7 +190,11 @@
       </div>
     {/if}
 
-    <div class="results-container" bind:this={resultsContainer} on:scroll={handleResultsScroll}>
+    <div
+      class="results-container"
+      bind:this={resultsContainer}
+      on:scroll={handleResultsScroll}
+    >
       {#if searchQuery.trim() && filteredDles.length === 0}
         <div class="no-results">No dles found.</div>
       {:else if filteredDles.length > 0}
@@ -249,7 +253,7 @@
 <style lang="postcss">
   .search-content {
     @apply flex flex-col items-center w-full;
-    max-width: 280px;
+    max-width: 300px;
     margin: 0 auto;
   }
 
@@ -258,12 +262,12 @@
   }
 
   .search-input {
-    @apply p-2 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
-    width: 180px;
+    @apply p-3 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
+    width: 220px;
   }
 
   .btn-clear {
-    @apply px-2 py-1 text-xs rounded bg-colorCardB text-colorText border border-colorTextSoftest hover:bg-red-100 dark:hover:bg-red-900 transition-colors;
+    @apply px-3.5 py-2.5 text-xs rounded bg-colorCardB text-colorText border border-colorTextSoftest hover:bg-red-100 dark:hover:bg-red-900 transition-colors;
   }
 
   .results-container {

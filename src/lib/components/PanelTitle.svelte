@@ -3,9 +3,10 @@
 
   export let color = "yellow" // yellow, red, green, blue, etc.
   export let title = ""
+  export let id = null
 </script>
 
-<div class="title mb-4 flex items-center justify-center {color} relative">
+<div {id} class="title mb-4 flex items-center justify-center {color} relative">
   <span>{title}</span>
   <button
     class="title-close-btn absolute right-1"
