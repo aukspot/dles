@@ -192,5 +192,24 @@
       "end": "2026-02-19"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-11",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "food",
+        "label": "Food"
+      },
+      {
+        "id": "colors",
+        "label": "Colors"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-01-26",
+      "end": "2026-02-26"
+    },
+    "showResultsImmediately": true
   }
 ]
