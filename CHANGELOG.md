@@ -1,5 +1,27 @@
 # Changelog - The Dles
 
+## 2026-01-28
+
+Add 10 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                    | url                                                                                          |
+|---:|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------|
+|  1 | [Crossflip](https://puzzmallow.com/crossflip)           | [https://puzzmallow.com/crossflip](https://puzzmallow.com/crossflip)                         |
+|  2 | [GeoQuest](https://geoquest.gg)                         | [https://geoquest.gg](https://geoquest.gg)                                                   |
+|  3 | [Globeiku](https://www.globeiku.com)                    | [https://www.globeiku.com](https://www.globeiku.com)                                         |
+|  4 | [Heardle 2020's](https://20s.heardledecades.com)        | [https://20s.heardledecades.com](https://20s.heardledecades.com)                             |
+|  5 | [Heardle K-pop](https://kpop.heardledecades.com)        | [https://kpop.heardledecades.com](https://kpop.heardledecades.com)                           |
+|  6 | [Historydle](https://historydle.com)                    | [https://historydle.com](https://historydle.com)                                             |
+|  7 | [Lockle](https://www.lockle.app)                        | [https://www.lockle.app](https://www.lockle.app)                                             |
+|  8 | [SatPin](https://satpixel.com/en/satellite-pin-guess/)  | [https://satpixel.com/en/satellite-pin-guess/](https://satpixel.com/en/satellite-pin-guess/) |
+|  9 | [SatZoom](https://satpixel.com/en/satellite-zoom-game/) | [https://satpixel.com/en/satellite-zoom-game/](https://satpixel.com/en/satellite-zoom-game/) |
+| 10 | [Sudoku Shift](https://coffeefirst.games/sudoku-shift/) | [https://coffeefirst.games/sudoku-shift/](https://coffeefirst.games/sudoku-shift/)           |
+
+dles removed: 
+|    | name                                                          | url                                                                          |
+|---:|:--------------------------------------------------------------|:-----------------------------------------------------------------------------|
+|  1 | [Trivial Pursuit Daily](https://www.trivialpursuit.com/daily) | [https://www.trivialpursuit.com/daily](https://www.trivialpursuit.com/daily) |
 ## 2026-01-23
 
 Add 7 dles. 

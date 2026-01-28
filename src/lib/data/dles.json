@@ -1,65 +1,5 @@
 [
   {
-    "name": "Crossflip",
-    "url": "https://puzzmallow.com/crossflip",
-    "description": "Flip letter tiles to create words that fit today's theme.",
-    "category": "Words"
-  },
-  {
-    "name": "Historydle",
-    "url": "https://historydle.com",
-    "description": "Daily games where you guess the historical person or place.",
-    "category": "History"
-  },
-  {
-    "name": "Sudoku Shift",
-    "url": "https://coffeefirst.games/sudoku-shift/",
-    "description": "Solve three sudokus in sequence, each one bigger than the previous.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "SatPin",
-    "url": "https://satpixel.com/en/satellite-pin-guess/",
-    "description": "Pin the world locations on the map based on satellite images.",
-    "category": "Geography"
-  },
-  {
-    "name": "SatZoom",
-    "url": "https://satpixel.com/en/satellite-zoom-game/",
-    "description": "Guess the city based on the satellite image.",
-    "category": "Geography"
-  },
-  {
-    "name": "Lockle",
-    "url": "https://www.lockle.app",
-    "description": "Guess the Deadlock character based on their items or quote.",
-    "category": "Video Games"
-  },
-  {
-    "name": "Globeiku",
-    "url": "https://www.globeiku.com",
-    "description": "Guess the country based on the given clues.",
-    "category": "Geography"
-  },
-  {
-    "name": "Heardle 2020's",
-    "url": "https://20s.heardledecades.com",
-    "description": "Guess the 2020's song from listening to small parts of it.",
-    "category": "Music"
-  },
-  {
-    "name": "Heardle K-pop",
-    "url": "https://kpop.heardledecades.com",
-    "description": "Guess the K-pop song from listening to small parts of it.",
-    "category": "Music"
-  },
-  {
-    "name": "GeoQuest",
-    "url": "https://geoquest.gg",
-    "description": "Locate today's countries on the world map.",
-    "category": "Geography"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -768,6 +708,13 @@
     "id": 525
   },
   {
+    "name": "Crossflip",
+    "url": "https://puzzmallow.com/crossflip",
+    "description": "Flip letter tiles to create words that fit today's theme.",
+    "category": "Words",
+    "id": 648
+  },
+  {
     "name": "Crosshare",
     "url": "https://crosshare.org",
     "description": "Daily mini crossword from an open-source community of crossword makers.",
@@ -1459,11 +1406,25 @@
     "id": 531
   },
   {
+    "name": "GeoQuest",
+    "url": "https://geoquest.gg",
+    "description": "Locate today's countries on the world map.",
+    "category": "Geography",
+    "id": 649
+  },
+  {
     "name": "Gisnep",
     "url": "https://gisnep.com",
     "description": "Solve the daily quote with the letters above each column.",
     "category": "Words",
     "id": 527
+  },
+  {
+    "name": "Globeiku",
+    "url": "https://www.globeiku.com",
+    "description": "Guess the country based on the given clues.",
+    "category": "Geography",
+    "id": 650
   },
   {
     "name": "Globle",
@@ -1636,11 +1597,25 @@
     "id": 163
   },
   {
+    "name": "Heardle 2020's",
+    "url": "https://20s.heardledecades.com",
+    "description": "Guess the 2020's song from listening to small parts of it.",
+    "category": "Music",
+    "id": 651
+  },
+  {
     "name": "Heardle Daily",
     "url": "https://www.heardle.info/daily/",
     "description": "Guess the song by listening to small parts of it.",
     "category": "Music",
     "id": 164
+  },
+  {
+    "name": "Heardle K-pop",
+    "url": "https://kpop.heardledecades.com",
+    "description": "Guess the K-pop song from listening to small parts of it.",
+    "category": "Music",
+    "id": 652
   },
   {
     "name": "Heardle TV Themes",
@@ -1677,6 +1652,13 @@
     "description": "A unique daily symmetry game where you try to match the given pattern.",
     "category": "Shapes/Patterns",
     "id": 169
+  },
+  {
+    "name": "Historydle",
+    "url": "https://historydle.com",
+    "description": "Daily games where you guess the historical person or place.",
+    "category": "History",
+    "id": 653
   },
   {
     "name": "Hitori Conquest",
@@ -2114,6 +2096,13 @@
     "description": "Guess the country that the picture was taken in.",
     "category": "Geography",
     "id": 214
+  },
+  {
+    "name": "Lockle",
+    "url": "https://www.lockle.app",
+    "description": "Guess the Deadlock character based on their items or quote.",
+    "category": "Video Games",
+    "id": 654
   },
   {
     "name": "Logiquiz",
@@ -3225,6 +3214,20 @@
     "id": 331
   },
   {
+    "name": "SatPin",
+    "url": "https://satpixel.com/en/satellite-pin-guess/",
+    "description": "Pin the world locations on the map based on satellite images.",
+    "category": "Geography",
+    "id": 655
+  },
+  {
+    "name": "SatZoom",
+    "url": "https://satpixel.com/en/satellite-zoom-game/",
+    "description": "Guess the city based on the satellite image.",
+    "category": "Geography",
+    "id": 656
+  },
+  {
     "name": "Scramble",
     "url": "https://playscramble.vercel.app/?daily=1",
     "description": "Guess as many valid words as possible for each row of a scrambled grid of letters.",
@@ -3600,6 +3603,13 @@
     "description": "Rearrange the cards to create better Poker hands and maximize scores across rows and columns.",
     "category": "Card/Board Games",
     "id": 595
+  },
+  {
+    "name": "Sudoku Shift",
+    "url": "https://coffeefirst.games/sudoku-shift/",
+    "description": "Solve three sudokus in sequence, each one bigger than the previous.",
+    "category": "Math/Logic",
+    "id": 657
   },
   {
     "name": "Summit Game",

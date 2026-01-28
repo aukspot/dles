@@ -44,6 +44,10 @@
     "url": "https://cosmeredle.net"
   },
   {
+    "name": "Crossflip",
+    "url": "https://puzzmallow.com/crossflip"
+  },
+  {
     "name": "Crosshare",
     "url": "https://crosshare.org"
   },
@@ -68,6 +72,26 @@
     "url": "https://us.genshindle.com/"
   },
   {
+    "name": "GeoQuest",
+    "url": "https://geoquest.gg"
+  },
+  {
+    "name": "Globeiku",
+    "url": "https://www.globeiku.com"
+  },
+  {
+    "name": "Heardle 2020's",
+    "url": "https://20s.heardledecades.com"
+  },
+  {
+    "name": "Heardle K-pop",
+    "url": "https://kpop.heardledecades.com"
+  },
+  {
+    "name": "Historydle",
+    "url": "https://historydle.com"
+  },
+  {
     "name": "Humppadle",
     "url": "https://www.humppadle.de"
   },
@@ -78,6 +102,10 @@
   {
     "name": "Lettered",
     "url": "https://lettered.io"
+  },
+  {
+    "name": "Lockle",
+    "url": "https://www.lockle.app"
   },
   {
     "name": "Loopy",
@@ -144,6 +172,14 @@
     "url": "https://www.andrewt.net/puzzles/ronin/"
   },
   {
+    "name": "SatPin",
+    "url": "https://satpixel.com/en/satellite-pin-guess/"
+  },
+  {
+    "name": "SatZoom",
+    "url": "https://satpixel.com/en/satellite-zoom-game/"
+  },
+  {
     "name": "Seadle",
     "url": "https://seadle.muhashi.com"
   },
@@ -158,6 +194,10 @@
   {
     "name": "Spongedle",
     "url": "https://spongedle.onrender.com"
+  },
+  {
+    "name": "Sudoku Shift",
+    "url": "https://coffeefirst.games/sudoku-shift/"
   },
   {
     "name": "The Daily Spell",
