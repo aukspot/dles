@@ -211,5 +211,24 @@
       "end": "2026-02-26"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-12",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "estimation",
+        "label": "Estimation"
+      },
+      {
+        "id": "miscellaneous",
+        "label": "Miscellaneous"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-02-02",
+      "end": "2026-03-02"
+    },
+    "showResultsImmediately": true
   }
 ]
