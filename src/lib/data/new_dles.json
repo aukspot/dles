@@ -1,9 +1,5 @@
 [
   {
-    "name": "3Doku",
-    "url": "https://www.andrewt.net/puzzles/3doku/"
-  },
-  {
     "name": "Animdle",
     "url": "https://animdle.com"
   },
@@ -16,20 +12,8 @@
     "url": "https://bibdle.com"
   },
   {
-    "name": "Blossom",
-    "url": "https://www.merriam-webster.com/games/blossom-word-game"
-  },
-  {
-    "name": "Brainer",
-    "url": "https://gamebunny.app/brainer"
-  },
-  {
     "name": "Celtix",
     "url": "https://www.andrewt.net/puzzles/celtix/"
-  },
-  {
-    "name": "Centroid",
-    "url": "https://centroidgame.com"
   },
   {
     "name": "Cliffhanger",
@@ -54,14 +38,6 @@
   {
     "name": "Crossword Club Daily",
     "url": "https://crosswordclub.com/puzzles/"
-  },
-  {
-    "name": "Cutle",
-    "url": "https://pfiffel.com/cutle/"
-  },
-  {
-    "name": "enclose.horse",
-    "url": "https://enclose.horse"
   },
   {
     "name": "Exodle",
