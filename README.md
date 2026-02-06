@@ -37,19 +37,19 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 If you run into a bug, please [submit a bug report](https://github.com/aukspot/dles/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=).
 
-### Development
+## Development
 
 The app is written in Svelte with SvelteKit. You will need to have `npm` installed.
 
 To get started, clone the repository and go into the project's folder.
 
-#### Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-#### Start development server
+### Start development server
 
 ```bash
 npm run dev
@@ -58,7 +58,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-#### Building
+### Building
 
 When you're ready to create a production version of the project, run the following:
 
@@ -67,6 +67,14 @@ npm run build
 ```
 
 This will update the `./docs` directory with a new build of the site.
+
+## Privacy
+
+This site uses analytics to understand traffic patterns:
+- **Umami**: Privacy-focused analytics (primary tool)
+- **Google Analytics**: Used for ad network verification and monetization
+
+No personally identifiable information is collected. Outbound clicks to games are tracked anonymously.
 
 ## Current list of dles
 
