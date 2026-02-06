@@ -18,14 +18,14 @@ If you'd like to make changes directly, you can edit [dles.json](https://github.
 
 ## Features
 
-You can suggest a feature by [submitting a feature request](https://github.com/aukspot/dles/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
+You can suggest a feature by [filling out this form](https://tally.so/r/Gx6kXZ) or [submitting a feature request](https://github.com/aukspot/dles/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
 
 ### Current
 
 - A list of over 600 curated dles.
 - 17 categories to help with organization.
 - Users can select their favorite dles for quick access.
-- Randomly choose and open a dle from selected categories.
+- Randomly pick a dle to play.
 
 ### Planned
 
@@ -35,7 +35,7 @@ You can suggest a feature by [submitting a feature request](https://github.com/a
 
 ## Bugs
 
-If you run into a bug, please [submit a bug report](https://github.com/aukspot/dles/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=).
+If you run into a bug, please [submit a bug report](https://tally.so/r/wQpPpY).
 
 ## Development
 
