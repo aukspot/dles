@@ -15,6 +15,18 @@ export let favorites = derived(
   [favoriteIds, filteredDles],
   ([$favoriteIds, $filteredDles]) => getFavoritesFromIds($favoriteIds, $filteredDles)
 )
+export let hiddenDleIds = writable([])
+export let hiddenDleIdsSet = derived(
+  hiddenDleIds,
+  ($hiddenDleIds) => new Set($hiddenDleIds)
+)
+export let playedDleIds = writable([])
+export let playedDleIdsSet = derived(
+  playedDleIds,
+  ($playedDleIds) => new Set($playedDleIds)
+)
+export let autoMarkPlayed = writable(false)
+export let autoResetPlayed = writable(true)
 export let poppedUpDle = writable("")
 export let searchQuery = writable("")
 export let categorizedDles = writable({})
@@ -47,6 +59,7 @@ export let categoryColors = readable({
   "Math/Logic": "hsl(120, 90%, 50%, 45%)",
   "Movies/TV": "hsl(144, 90%, 50%, 45%)",
   Music: "hsl(168, 90%, 50%, 45%)",
+  New: "hsl(180, 90%, 40%, 45%)",
   "Science/Nature": "hsl(192, 90%, 50%, 45%)",
   "Shapes/Patterns": "hsl(216, 90%, 50%, 45%)",
   Sponsors: "hsl(226, 90%, 50%, 45%)",
@@ -58,36 +71,8 @@ export let categoryColors = readable({
   Miscellaneous: "hsl(0, 0%, 49%, 45%)",
 })
 
-export let sponsors = readable([
-  {
-    id: 202,
-    name: "Lexicle",
-    url: "https://lexicle.com",
-    description: "Guess the secret word based on its meaning.",
-    category: "Words",
-  },
-  {
-    "name": "Word Zip",
-    "url": "https://www.wfhgames.com/word-zip",
-    "description": "Build as many words as you can by alternating between two pools of letters.",
-    "category": "Words",
-    "id": 563
-  },
-  {
-    "name": "Terraformation",
-    "url": "https://puzzmallow.com/terraformation",
-    "description": "Fill in the hex grid planet with the correct terrains.",
-    "category": "Math/Logic",
-    "id": 559
-  },
-  {
-    "name": "Lettered",
-    "url": "https://lettered.io",
-    "description": "Move letter tiles on the board to spell out the hidden phrase.",
-    "category": "Words",
-    "id": 642
-  },
-])
+import sponsorsData from "$lib/data/sponsors.json"
+export let sponsors = readable(sponsorsData)
 
 export { categoryRanks } from "$lib/js/categoryRanks"
 export { completelyHiddenSections } from "$lib/js/completelyHiddenSections"
@@ -133,3 +118,8 @@ function createActivePanelStore() {
 }
 
 export let activePanelStore = createActivePanelStore()
+
+// Modal visibility stores
+export let showHiddenDlesModal = writable(false)
+export let showMarkedDlesModal = writable(false)
+export let showFavoritesSettingsModal = writable(false)

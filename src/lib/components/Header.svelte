@@ -65,12 +65,6 @@
       class="flex items-baseline gap-2 flex-wrap overflow-x justify-center js-buttons"
     >
       <HeaderButton panelId="info" label="Info" hoverColor="red" />
-      <HeaderButton
-        panelId="settings"
-        label="Settings"
-        hoverColor="yellow"
-        jsOnly={true}
-      />
       <HeaderButton panelId="help" label="How to Help" hoverColor="green" />
       <HeaderButton
         panelId="discord"
@@ -96,6 +90,12 @@
         panelId="search"
         label="Search"
         hoverColor="violet"
+        jsOnly={true}
+      />
+      <HeaderButton
+        panelId="settings"
+        label="Settings"
+        hoverColor="zinc"
         jsOnly={true}
       />
     </div>

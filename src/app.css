@@ -8,6 +8,7 @@
 
 :root {
   --font-size-offset: 0px;
+  --dle-played-opacity: 0.35;
   font-size: calc(14px + var(--font-size-offset));
 }
 
@@ -107,7 +108,7 @@ a {
 }
 
 .btn-action {
-  @apply inline-flex items-center justify-center gap-1.5 px-1.5 py-1 text-xs font-medium uppercase text-colorText bg-colorCardC border border-colorTextSofter transition-all text-center fill-colorText;
+  @apply inline-flex items-center justify-center px-1.5 py-1 text-xs font-medium uppercase text-colorText bg-colorCardC border border-colorTextSofter transition-all text-center fill-colorText;
 }
 
 .btn-action-big {
@@ -299,6 +300,15 @@ td {
 
   .section-subtitle {
     @apply text-sm md:text-base font-semibold text-colorTextSoft uppercase tracking-wide mb-1 text-center;
+  }
+
+  .header-count {
+    @apply text-sm font-mono font-bold text-colorTextSoft bg-colorCardB px-2 py-0.5 rounded-sm border border-colorTextSoftest;
+  }
+
+  /* Played dle state - reduces opacity to indicate completion */
+  .dle-played {
+    opacity: var(--dle-played-opacity);
   }
 
   /* Divider utilities */

@@ -14,10 +14,16 @@
     dles,
     newDles,
     favoriteIds,
+    hiddenDleIds,
+    playedDleIds,
+    autoMarkPlayed,
+    autoResetPlayed,
     filteredDles,
     randomCategories,
     dlesOfTheWeek,
     activePanelStore,
+    showHiddenDlesModal,
+    showMarkedDlesModal,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
@@ -39,6 +45,9 @@
     needsFavoritesMigration,
   } from "$lib/js/favoritesMigration"
   import LatestChange from "$lib/components/LatestChange.svelte"
+  import Toast from "$lib/components/Toast.svelte"
+  import HiddenDlesModal from "$lib/components/Dles/HiddenDlesModal.svelte"
+  import MarkedDlesModal from "$lib/components/Dles/MarkedDlesModal.svelte"
 
   onMount(() => {
     if (isLocalStorageAvailable()) {
@@ -70,6 +79,30 @@
         }
       } else {
         $favoriteIds = rawFavorites
+      }
+
+      // Load hidden dles from localStorage
+      $hiddenDleIds = JSON.parse(localStorage.hiddenDles || "[]")
+
+      // Load played dles from localStorage
+      $playedDleIds = JSON.parse(localStorage.playedDles || "[]")
+
+      // Load auto-mark played setting
+      $autoMarkPlayed = localStorage.autoMarkPlayed === "true"
+
+      // Load auto-reset played setting and check for midnight reset
+      $autoResetPlayed = localStorage.autoResetPlayed === "true"
+
+      if ($autoResetPlayed) {
+        const today = new Date().toDateString()
+        const lastResetDate = localStorage.playedDlesLastReset
+
+        if (lastResetDate !== today) {
+          // Reset played dles at midnight
+          $playedDleIds = []
+          localStorage.playedDles = JSON.stringify([])
+          localStorage.playedDlesLastReset = today
+        }
       }
     }
   })
@@ -297,6 +330,16 @@
   </div>
   <!-- <ExamplePopUp /> -->
 </div>
+
+<Toast />
+
+{#if $showHiddenDlesModal}
+  <HiddenDlesModal onClose={() => ($showHiddenDlesModal = false)} />
+{/if}
+
+{#if $showMarkedDlesModal}
+  <MarkedDlesModal onClose={() => ($showMarkedDlesModal = false)} />
+{/if}
 
 <style lang="postcss">
   .question {

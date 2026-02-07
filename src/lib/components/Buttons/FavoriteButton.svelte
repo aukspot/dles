@@ -1,14 +1,19 @@
 <script>
   import { onMount } from "svelte"
-  import { favoriteIds } from "$lib/stores"
+  import {
+    favoriteIds,
+    poppedUpDle,
+    showFavoritesSettingsModal,
+  } from "$lib/stores"
   import { useFavorites } from "$lib/composables/useFavorites.js"
   import { useTracking } from "$lib/composables/useTracking.js"
+  import { toasts, toastName } from "$lib/stores/toastStore.js"
   import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
   import IconFavoriteRemove from "../Icons/IconFavoriteRemove.svelte"
 
   export let dle
   export let size = "normal" // "normal" or "small"
-  export let section = 'regular'
+  export let section = "regular"
   export let position = null
 
   const favorites = useFavorites()
@@ -25,7 +30,7 @@
   $: setFill(isFavorited)
 
   onMount(() => {
-    isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0
+    isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0
   })
 
   function setFill(isFavorited) {
@@ -41,10 +46,47 @@
       tracking.trackFavoriteAction(
         dle,
         result.action,
-        'button',
+        "button",
         section,
         position,
       )
+
+      const manageAction = {
+        label: "Manage",
+        onClick: () => {
+          $showFavoritesSettingsModal = true
+        },
+      }
+
+      if (result.action === "favorite") {
+        toasts.show(`${toastName(dle.name)} added to favorites`, {
+          type: "info",
+          duration: 5000,
+          actions: [
+            {
+              label: "Undo",
+              onClick: () => favorites.removeFromFavorites(dle),
+            },
+            manageAction,
+          ],
+        })
+      } else {
+        // Close popup when unfavoriting to prevent stale reference issues
+        $poppedUpDle = ""
+
+        const previousIndex = result.previousIndex
+        toasts.show(`${toastName(dle.name)} removed from favorites`, {
+          type: "info",
+          duration: 5000,
+          actions: [
+            {
+              label: "Undo",
+              onClick: () => favorites.insertFavoriteAt(dle, previousIndex),
+            },
+            manageAction,
+          ],
+        })
+      }
     }
   }
 </script>
@@ -53,7 +95,7 @@
   style="fill: {favoriteFill ?? 'transparent'};"
   on:click={toggleFavorite}
   on:mouseenter={() => !isTouchDevice && (isHovered = true)}
-  on:mouseleave={() => isHovered = false}
+  on:mouseleave={() => (isHovered = false)}
   class="hover:scale-105 flex items-center justify-center favorite-button"
   class:small={size === "small"}
   class:is-favorited={isFavorited}
@@ -64,10 +106,14 @@
   {:else}
     <IconFavoriteOutline />
   {/if}
-</button
->
+</button>
 
 <style lang="postcss">
+  .favorite-button :global(svg) {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
   .small {
     @apply h-6 w-8 min-h-0;
   }

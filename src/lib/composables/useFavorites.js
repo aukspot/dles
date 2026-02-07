@@ -60,26 +60,50 @@ export function useFavorites() {
     }
   }
 
-  function removeFromFavorites(dle) {
+  function insertFavoriteAt(dle, index) {
     try {
       const currentFavorites = pendingFavorites !== null ? pendingFavorites : get(favoriteIds)
-      const newFavorites = currentFavorites.filter(id => id !== dle.id)
 
+      if (currentFavorites.includes(dle.id)) {
+        return true
+      }
+
+      const newFavorites = [...currentFavorites]
+      const safeIndex = Math.min(index, newFavorites.length)
+      newFavorites.splice(safeIndex, 0, dle.id)
       debouncedUpdateFavorites(newFavorites)
 
       return true
     } catch (error) {
-      console.error('Failed to remove favorite:', error)
+      console.error('Failed to insert favorite:', error)
       return false
+    }
+  }
+
+  function removeFromFavorites(dle) {
+    try {
+      const currentFavorites = pendingFavorites !== null ? pendingFavorites : get(favoriteIds)
+      const index = currentFavorites.indexOf(dle.id)
+      const newFavorites = currentFavorites.filter(id => id !== dle.id)
+
+      debouncedUpdateFavorites(newFavorites)
+
+      return { success: true, index }
+    } catch (error) {
+      console.error('Failed to remove favorite:', error)
+      return { success: false, index: -1 }
     }
   }
 
   function toggleFavorite(dle) {
     const wasInFavorites = isFavorited(dle)
     let success = false
+    let previousIndex = -1
 
     if (wasInFavorites) {
-      success = removeFromFavorites(dle)
+      const result = removeFromFavorites(dle)
+      success = result.success
+      previousIndex = result.index
     } else {
       success = addToFavorites(dle)
     }
@@ -91,6 +115,7 @@ export function useFavorites() {
       success,
       action: wasInFavorites ? 'unfavorite' : 'favorite',
       wasInFavorites,
+      previousIndex,
       totalFavorites: currentCount
     }
   }
@@ -102,6 +127,7 @@ export function useFavorites() {
   return {
     isFavorited,
     addToFavorites,
+    insertFavoriteAt,
     removeFromFavorites,
     toggleFavorite,
     getFavoritesCount

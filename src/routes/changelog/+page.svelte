@@ -1,109 +1,85 @@
 <script>
-  import { changelog } from "$lib/stores"
-  import { onMount } from "svelte"
-  import { browser } from "$app/environment"
+  import { changelog, dles, poppedUpDle } from "$lib/stores"
   import GoBackHome from "$lib/components/GoBackHome.svelte"
+  import IconPlus from "$lib/components/Icons/IconPlus.svelte"
+  import IconMinus from "$lib/components/Icons/IconMinus.svelte"
+  import IconInfo from "$lib/components/Icons/IconInfo.svelte"
+  import DlePopUp from "$lib/components/Dles/DlePopUp.svelte"
+  import BackToTopButton from "$lib/components/Buttons/BackToTopButton.svelte"
 
-  let changelogContainer
-  let changelogLength = $changelog.length
+  // Create a map of dle id -> full dle data for quick lookup
+  $: dlesById = new Map($dles.map((d) => [d.id, d]))
 
-  // Format description with bullet points
-  function formatDescription(description) {
-    const parts = description.split(/<br\s*\/?>/i).filter((part) => part.trim())
-    if (parts.length === 1) {
-      return `<span class="bullet-line">• ${description}</span>`
-    }
-    return parts
-      .map((part) => `<span class="bullet-line">• ${part}</span>`)
-      .join("<br>")
+  // Check if a dle still exists in the current list
+  function getDleData(changelogDle) {
+    return dlesById.get(changelogDle.id)
   }
 
-  function layoutMasonry() {
-    if (!browser || !changelogContainer) return
+  let referenceElements = {}
 
-    const entries = Array.from(changelogContainer.children)
-    // Match custom Tailwind breakpoints: lg (768px) for 3 cols, md (480px) for 2 cols
-    const columns =
-      window.innerWidth >= 768 ? 3 : window.innerWidth >= 480 ? 2 : 1
+  function handleDleClick(e, dle, popupKey) {
+    e.preventDefault()
+    const fullDle = getDleData(dle)
+    if (fullDle) {
+      $poppedUpDle === popupKey
+        ? ($poppedUpDle = "")
+        : ($poppedUpDle = popupKey)
+    }
+  }
 
-    if (columns === 1) {
-      // Reset to natural flow on mobile
-      changelogContainer.style.height = ""
-      changelogContainer.style.display = ""
-      entries.forEach((entry) => {
-        entry.style.position = ""
-        entry.style.left = ""
-        entry.style.top = ""
-        entry.style.width = ""
-      })
+  function handleClickOutside(event) {
+    const originalEvent = event.detail?.originalEvent
+    const target = originalEvent?.target
+    if (target && target.closest(".dlePopUp")) {
       return
     }
-
-    // Ensure container uses flexbox for masonry
-    changelogContainer.style.display = "flex"
-
-    // Use the correct gap based on breakpoint (gap-3 for mobile = 12px, gap-4 for md+ = 16px)
-    const gap = window.innerWidth >= 480 ? 16 : 12
-    const containerWidth = changelogContainer.offsetWidth
-    const columnWidth = (containerWidth - gap * (columns - 1)) / columns
-    const columnHeights = new Array(columns).fill(0)
-
-    // First, set widths without positioning to allow proper height calculation
-    entries.forEach((entry) => {
-      entry.style.width = `${columnWidth}px`
-      entry.style.position = "relative"
-    })
-
-    // Force a reflow to ensure heights are calculated with new widths
-    changelogContainer.offsetHeight
-
-    // Now position each entry in the shortest column with correct heights
-    entries.forEach((entry) => {
-      const shortestColumn = columnHeights.indexOf(Math.min(...columnHeights))
-      const height = entry.offsetHeight
-
-      // Position absolutely
-      entry.style.position = "absolute"
-      entry.style.left = `${shortestColumn * (columnWidth + gap)}px`
-      entry.style.top = `${columnHeights[shortestColumn]}px`
-
-      // Update column height (add entry height + gap)
-      columnHeights[shortestColumn] += height + gap
-    })
-
-    // Set container height to tallest column
-    changelogContainer.style.height = `${Math.max(...columnHeights) - gap}px`
+    $poppedUpDle = ""
   }
 
-  onMount(() => {
-    // Wait for DOM to be fully rendered before initial layout
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        layoutMasonry()
-      })
+  function formatDate(dateStr) {
+    const date = new Date(dateStr + "T00:00:00")
+    const today = new Date()
+    today.setHours(0, 0, 0, 0)
+
+    const diffTime = today - date
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
+
+    if (diffDays === 0) return "Today"
+    if (diffDays === 1) return "Yesterday"
+    if (diffDays < 7) return `${diffDays} days ago`
+
+    return date.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
     })
+  }
 
-    // Debounce resize events
-    let resizeTimeout
-    const handleResize = () => {
-      clearTimeout(resizeTimeout)
-      resizeTimeout = setTimeout(layoutMasonry, 100)
-    }
-    window.addEventListener("resize", handleResize)
+  // Count totals
+  $: totalAdded = $changelog.reduce(
+    (sum, log) => sum + (log["dles added"]?.length || 0),
+    0,
+  )
+  $: totalRemoved = $changelog.reduce(
+    (sum, log) => sum + (log["dles removed"]?.length || 0),
+    0,
+  )
 
-    return () => {
-      window.removeEventListener("resize", handleResize)
-      clearTimeout(resizeTimeout)
-    }
-  })
-
-  // Re-layout when changelog changes
-  $: if ($changelog && changelogContainer) {
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        layoutMasonry()
+  // Parse description into bullet points, excluding add/remove mentions
+  function parseDescription(description) {
+    if (!description) return []
+    return description
+      .split(/<br\s*\/?>/i)
+      .map((part) => part.trim())
+      .filter((part) => part.length > 0)
+      .map((part) => {
+        // Strip "Add X dles." and "Remove X dles." from the beginning
+        return part
+          .replace(/^(add|remove)\s+\d+\s+dles?\.\s*/gi, "")
+          .replace(/^(add|remove)\s+\d+\s+dles?\.\s*/gi, "") // Run twice for "Add X. Remove Y."
+          .trim()
       })
-    })
+      .filter((part) => part.length > 0)
   }
 </script>
 
@@ -112,197 +88,387 @@
   <meta name="description" content="Changelog for The Dles." />
 </svelte:head>
 
-<div class="page-container">
-  <h2 class="font-mono title justify-center mb-4">Changelog</h2>
-  <div class="text-center font-mono text-sm text-colorTextSoft mb-4">
-    View all <strong>{$changelog.length}</strong> updates to The DLES.
+<div class="changelog-container">
+  <div class="changelog-header">
+    <a href="/" class="back-arrow" aria-label="Go back home">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M19 12H5M12 19l-7-7 7-7" />
+      </svg>
+    </a>
+    <div class="header-center">
+      <h2 class="changelog-title">Changelog</h2>
+      <span class="header-count">{$changelog.length} updates</span>
+    </div>
+    <div class="header-spacer"></div>
   </div>
-  <GoBackHome />
-  <div id="changelog" bind:this={changelogContainer}>
+
+  <div class="stats-bar">
+    <span class="stat added">+{totalAdded} dles</span> /
+    <span class="stat removed">-{totalRemoved} dles</span>
+  </div>
+
+  <div class="changelog-list">
     {#each $changelog as log, index}
-      <article class="changelog-entry" id={log.date}>
-        <div class="entry-number">#{changelogLength - index}</div>
-        <header class="entry-header">
-          <h3 class="entry-date inline">{log.date}</h3>
-          {#if index === 0}
-            <span class="text-colorTextSofter text-xs">(Latest update)</span>
+      <div class="date-group">
+        <div class="date-header">
+          <span class="date-text">{formatDate(log.date)} </span>
+          {#if log["dles added"]?.length > 0 || log["dles removed"]?.length > 0}
+            <div>
+              <span class="stat added">+{log["dles added"]?.length ?? 0}</span>
+              /
+              <span class="stat removed"
+                >-{log["dles removed"]?.length ?? 0}</span
+              >
+            </div>
           {/if}
-          <div class="entry-description">
-            {@html formatDescription(log.description)}
-          </div>
-        </header>
+        </div>
 
-        {#if "dles added" in log}
-          <section class="entry-section">
-            <h4 class="section-title">
-              + Dles Added ({log["dles added"].length})
-            </h4>
-            <ul class="dle-list">
-              {#each log["dles added"] as dleAdded}
-                <li class="dle-item">
-                  <span class="dle-name">{dleAdded.name}</span>
-                  <a
-                    href={dleAdded.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="dle-url">{dleAdded.url}</a
-                  >
-                </li>
-              {/each}
-            </ul>
-          </section>
-        {/if}
-
-        {#if "dles removed" in log}
-          <section class="entry-section removed-section">
-            <h4 class="section-title">
-              - Dles Removed ({log["dles removed"].length})
-            </h4>
-            <ul class="dle-list">
-              {#each log["dles removed"] as dleRemoved}
-                <li class="dle-item-removed">
-                  <div class="dle-removed-info">
-                    <strong>{dleRemoved.name}</strong>
-                    <a
-                      href={dleRemoved.url}
-                      target="_blank"
-                      rel="noopener noreferrer">{dleRemoved.url}</a
+        {#if log["dles added"]?.length > 0 || log["dles removed"]?.length > 0}
+          <div class="dles-columns">
+            <div
+              class="dles-section added-section"
+              class:empty-section={!log["dles added"]?.length}
+            >
+              <div class="section-label added">
+                <IconPlus />
+                <span>Added ({log["dles added"]?.length || 0})</span>
+              </div>
+              {#if log["dles added"]?.length > 0}
+                {#each log["dles added"] as dle, i}
+                  {@const fullDle = getDleData(dle)}
+                  {@const popupKey = `changelog-${log.date}-${dle.id}`}
+                  {#if fullDle}
+                    <div
+                      class="dle-item"
+                      class:even-row={i % 2 === 0}
+                      class:odd-row={i % 2 !== 0}
                     >
-                    {#if dleRemoved.reason}
-                      <span class="removal-reason">({dleRemoved.reason})</span>
+                      <span class="dle-indicator added">+</span>
+                      <div class="dle-details">
+                        <div class="dle-name">{dle.name}</div>
+                        <div class="dle-url">{fullDle.url}</div>
+                      </div>
+                      <button
+                        class="info-btn"
+                        bind:this={referenceElements[popupKey]}
+                        on:click={(e) => handleDleClick(e, dle, popupKey)}
+                        aria-label="Show info for {dle.name}"
+                      >
+                        <IconInfo />
+                      </button>
+                    </div>
+                    {#if $poppedUpDle === popupKey}
+                      <DlePopUp
+                        dle={fullDle}
+                        {handleClickOutside}
+                        section="changelog"
+                        position={i}
+                        referenceEl={referenceElements[popupKey]}
+                      />
                     {/if}
+                  {:else}
+                    <div
+                      class="dle-item discontinued"
+                      class:even-row={i % 2 === 0}
+                      class:odd-row={i % 2 !== 0}
+                    >
+                      <span class="dle-indicator added">+</span>
+                      <div class="dle-details">
+                        <div class="dle-name">{dle.name}</div>
+                        <div class="dle-meta">No longer available</div>
+                      </div>
+                    </div>
+                  {/if}
+                {/each}
+              {:else}
+                <div class="dle-item empty-message">
+                  <span class="empty-text">No dles added</span>
+                </div>
+              {/if}
+            </div>
+
+            <div
+              class="dles-section removed-section"
+              class:empty-section={!log["dles removed"]?.length}
+            >
+              <div class="section-label removed">
+                <IconMinus />
+                <span>Removed ({log["dles removed"]?.length || 0})</span>
+              </div>
+              {#if log["dles removed"]?.length > 0}
+                {#each log["dles removed"] as dle, i}
+                  <div
+                    class="dle-item removed"
+                    class:even-row={i % 2 === 0}
+                    class:odd-row={i % 2 !== 0}
+                  >
+                    <span class="dle-indicator removed">−</span>
+                    <div class="dle-details">
+                      <div class="dle-name">{dle.name}</div>
+                      <div class="dle-url">{dle.url}</div>
+                      {#if dle.reason}
+                        <div class="dle-reason">{dle.reason}</div>
+                      {/if}
+                    </div>
                   </div>
-                </li>
+                {/each}
+              {:else}
+                <div class="dle-item empty-message">
+                  <span class="empty-text">No dles removed</span>
+                </div>
+              {/if}
+            </div>
+          </div>
+        {/if}
+
+        {#if parseDescription(log.description).length > 0}
+          <div class="updates-section">
+            <div class="section-label updates">
+              <span>Updates</span>
+            </div>
+            <ul class="updates-list">
+              {#each parseDescription(log.description) as update}
+                <li class="update-item">{@html update}</li>
               {/each}
             </ul>
-          </section>
+          </div>
         {/if}
-      </article>
+      </div>
     {/each}
   </div>
+
+  <GoBackHome />
+  <BackToTopButton />
 </div>
 
 <style lang="postcss">
-  .page-container {
-    @apply max-w-[90rem] mx-auto py-4;
+  .changelog-container {
+    @apply max-w-lg md:max-w-3xl mx-auto px-3 py-4;
   }
 
-  #changelog {
-    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4;
-    grid-auto-rows: max-content;
-    align-items: start;
-    position: relative;
+  .changelog-header {
+    @apply flex items-center justify-between gap-2 mb-4;
   }
 
-  /* Enable flexbox for JS masonry layout */
-  @media (min-width: 30em) {
-    #changelog {
-      display: flex;
-      flex-wrap: wrap;
+  .header-center {
+    @apply flex items-center justify-center gap-2;
+  }
+
+  .header-spacer {
+    @apply w-6;
+  }
+
+  .back-arrow {
+    @apply w-6 h-6 text-colorTextSoft hover:text-colorText transition-colors;
+  }
+
+  .back-arrow svg {
+    @apply w-full h-full;
+  }
+
+  .changelog-title {
+    @apply text-xl font-bold text-colorText m-0;
+  }
+
+  .stats-bar {
+    @apply flex justify-center gap-4 mb-4 text-sm font-mono;
+  }
+
+  .stat.added {
+    @apply text-green-600 dark:text-green-400;
+  }
+
+  .stat.removed {
+    @apply text-red-600 dark:text-red-400;
+  }
+
+  .changelog-list {
+    @apply flex flex-col border-b-2 border-colorTextSofter;
+  }
+
+  .date-group {
+    @apply border border-colorTextSofter border-t-2 border-b-0;
+  }
+
+  .date-header {
+    @apply px-2 py-2 text-sm font-medium text-colorText bg-colorCardC flex items-center justify-between;
+  }
+
+  .date-text {
+    @apply font-bold;
+  }
+
+  .dles-columns {
+    @apply border-t border-colorNeutralSoft;
+  }
+
+  @media (min-width: 768px) {
+    .dles-columns {
+      @apply flex;
+    }
+
+    .dles-columns .dles-section {
+      @apply border-t-0;
+      flex: 1 1 50%;
+      width: 50%;
+    }
+
+    .dles-columns .removed-section {
+      @apply border-l border-colorNeutralSoft;
     }
   }
 
-  .changelog-entry {
-    @apply bg-colorCardC border border-colorTextSofter p-3 md:p-4;
-    position: relative;
+  .dles-section {
+    @apply border-t border-colorNeutralSoft;
   }
 
-  /* Flexbox layout for JS masonry - 2 columns */
-  @media (min-width: 30em) and (max-width: 47.9375em) {
-    .changelog-entry {
-      width: calc(50% - 0.5rem);
+  .dles-columns .dles-section {
+    @apply border-t-0;
+  }
+
+  .dles-columns .dles-section:not(:first-child) {
+    @apply border-t border-colorNeutralSoft;
+  }
+
+  @media (min-width: 768px) {
+    .dles-columns .dles-section:not(:first-child) {
+      @apply border-t-0;
     }
   }
 
-  /* Flexbox layout for JS masonry - 3 columns */
-  @media (min-width: 48em) {
-    .changelog-entry {
-      width: calc(33.333% - 0.667rem);
-    }
+  .section-label {
+    @apply px-2 py-1 text-xs font-bold uppercase tracking-wide flex items-center gap-1;
   }
 
-  .entry-number {
-    @apply text-sm md:text-base text-colorTextSofter font-mono;
-    position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
+  .section-label.added {
+    @apply text-green-700 dark:text-green-400 bg-green-50 dark:bg-green-900/20;
   }
 
-  @media (min-width: 48em) {
-    .entry-number {
-      top: 1rem;
-      right: 1rem;
-    }
+  .section-label.removed {
+    @apply text-red-700 dark:text-red-400 bg-red-50 dark:bg-red-900/20;
   }
 
-  .entry-header {
-    @apply mb-4;
-  }
-
-  .entry-date {
-    @apply text-sm md:text-lg font-bold text-colorText font-mono mb-1.5;
-  }
-
-  .entry-description {
-    @apply text-xs md:text-sm text-colorTextSoft leading-tight;
-  }
-
-  .entry-description :global(.bullet-line) {
-    display: block;
-    padding-left: 1em;
-    text-indent: -0.7em;
-    margin: 0.25rem 0;
-  }
-
-  .entry-description :global(br) {
-    display: none;
-  }
-
-  .entry-section {
-    @apply mt-3;
-  }
-
-  .section-title {
-    @apply text-xs md:text-sm font-bold uppercase text-colorTextSoft mb-2 tracking-wide;
-  }
-
-  .dle-list {
-    @apply list-none space-y-0;
+  .section-label :global(svg) {
+    @apply w-3 h-3;
   }
 
   .dle-item {
-    @apply text-xs md:text-sm py-1.5 px-0.5 flex items-baseline gap-2 border-b border-colorTextSoftest last:border-b-0;
+    @apply flex items-center p-2 pr-2 no-underline w-full;
+    transition: background-color 0.15s ease;
+  }
+
+  .dle-item.even-row {
+    @apply bg-colorCardB;
+  }
+
+  .dle-item.odd-row {
+    @apply bg-colorCardA;
+  }
+
+  .dle-item:hover {
+    @apply bg-colorCardC;
+  }
+
+  .dle-item.removed {
+    @apply opacity-70;
+  }
+
+  .dle-item.discontinued {
+    @apply opacity-50 cursor-default;
+  }
+
+  .dle-item.discontinued:hover {
+    @apply bg-colorCardB;
+  }
+
+  .dle-item.discontinued.odd-row:hover {
+    @apply bg-colorCardA;
+  }
+
+  .dle-indicator {
+    @apply flex-shrink-0 w-5 text-center font-bold text-lg leading-none mr-2;
+  }
+
+  .dle-indicator.added {
+    @apply text-green-600 dark:text-green-400;
+  }
+
+  .dle-indicator.removed {
+    @apply text-red-600 dark:text-red-400;
+  }
+
+  .dle-details {
+    @apply flex-1 min-w-0;
+  }
+
+  .info-btn {
+    @apply flex-shrink-0 ml-2 p-1 border-none bg-transparent cursor-pointer text-colorTextSofter hover:text-colorTextSoft transition-colors;
+  }
+
+  .info-btn :global(svg) {
+    @apply w-5 h-5;
   }
 
   .dle-name {
-    @apply font-medium text-colorText w-28 xl:w-32 flex-shrink-0;
+    @apply font-medium text-colorText text-sm md:text-base leading-tight truncate;
   }
 
   .dle-url {
-    @apply text-colorLink break-all text-xs md:text-sm hover:text-colorHighlight;
+    @apply text-xs text-colorTextSoft truncate;
   }
 
-  .dle-item-removed {
-    @apply text-xs md:text-sm py-1.5 px-0 border-b border-colorTextSoftest last:border-b-0;
+  .dle-meta {
+    @apply text-xs text-colorTextSofter italic;
   }
 
-  .dle-removed-info {
-    @apply flex flex-col gap-0.5;
+  .dle-reason {
+    @apply text-xs text-colorTextSofter italic mt-0.5;
   }
 
-  .dle-removed-info strong {
-    @apply text-colorText text-xs md:text-sm;
+  .dle-item.empty-message {
+    @apply justify-center bg-colorCardA;
   }
 
-  .dle-removed-info a {
-    @apply text-colorLink break-all text-xs md:text-sm;
+  .empty-text {
+    @apply text-sm text-colorTextSofter italic;
   }
 
-  .removal-reason {
-    @apply text-colorTextSofter italic text-xs;
+  .dles-section.empty-section {
+    @apply hidden;
   }
 
-  a {
-    @apply break-words;
+  @media (min-width: 768px) {
+    .dles-section.empty-section {
+      @apply block;
+    }
+  }
+
+  .updates-section {
+    @apply border-t border-colorNeutralSoft;
+  }
+
+  .section-label.updates {
+    @apply text-colorTextSoft bg-colorCardB;
+  }
+
+  .updates-list {
+    @apply list-none m-0 p-0;
+  }
+
+  .update-item {
+    @apply px-3 py-1.5 text-sm text-colorTextSoft bg-colorCardC border-b border-colorNeutralSoft last:border-b-0;
+  }
+
+  .update-item::before {
+    content: "•";
+    @apply mr-2 text-colorTextSofter;
   }
 </style>

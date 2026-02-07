@@ -1,4 +1,4 @@
-<svg width="28" viewBox="0 0 24 24"
+<svg viewBox="0 0 24 24"
   ><g
     ><path
       stroke-linecap="round"
@@ -11,6 +11,9 @@
 
 <style lang="postcss">
   svg {
-    @apply stroke-colorTextSofter shadow-sm shadow-colorTextSofter active:shadow-none border border-colorTextSoftest p-1 hover:scale-105;
+    @apply stroke-colorTextSofter shadow-sm shadow-colorTextSofter active:shadow-none border border-colorTextSoftest hover:scale-105;
+    width: 1.75rem;
+    height: 1.75rem;
+    padding: 0.2rem;
   }
 </style>

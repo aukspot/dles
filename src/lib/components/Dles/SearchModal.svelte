@@ -13,6 +13,7 @@
   export let onClose
   export let pageX = null
   export let pageY = null
+  export let zIndex = 100
 
   const favorites = useFavorites()
   const tracking = useTracking()
@@ -153,14 +154,14 @@
   })
 </script>
 
-<Modal {onClose} overlay={false} zIndex={100}>
+<Modal {onClose} overlay={true} {zIndex}>
   <div
     class="searchPopup"
     style="left: {adjustedPageX}{typeof adjustedPageX === 'number'
       ? 'px'
       : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number'
       ? 'px'
-      : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY});"
+      : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY}); z-index: {zIndex};"
   >
     <ModalHeader title="Add a new favorite!" {onClose} variant="inline" />
 
@@ -174,58 +175,57 @@
       />
     </div>
 
-  <div class="results-container">
-    {#if searchQuery.trim() && filteredDles.length === 0}
-      <div class="no-results">No dles found.</div>
-    {:else if filteredDles.length > 0}
-      <div class="results">
-        {#each filteredDles as dle, index (dle.id)}
-          {@const isFavorited =
-            favoriteIdsSet.has(dle.id) || newlyToggledInSession.has(dle.id)}
-          <button
-            class="result-item"
-            class:favorited={isFavorited}
-            class:even-row={index % 2 === 0}
-            class:odd-row={index % 2 !== 0}
-            on:click={() => toggleFavorite(dle)}
-            title={isFavorited
-              ? `Remove ${dle.name} from favorites`
-              : `Add ${dle.name} to favorites`}
-          >
-            <div class="dle-info">
-              <div
-                class="category-icon"
-                style="background-color: {$categoryColors[dle.category]};"
-              >
-                <svelte:component this={categoryIcons[dle.category]} />
+    <div class="results-container">
+      {#if searchQuery.trim() && filteredDles.length === 0}
+        <div class="no-results">No dles found.</div>
+      {:else if filteredDles.length > 0}
+        <div class="results">
+          {#each filteredDles as dle, index (dle.id)}
+            {@const isFavorited =
+              favoriteIdsSet.has(dle.id) || newlyToggledInSession.has(dle.id)}
+            <button
+              class="result-item"
+              class:favorited={isFavorited}
+              class:even-row={index % 2 === 0}
+              class:odd-row={index % 2 !== 0}
+              on:click={() => toggleFavorite(dle)}
+              title={isFavorited
+                ? `Remove ${dle.name} from favorites`
+                : `Add ${dle.name} to favorites`}
+            >
+              <div class="dle-info">
+                <div
+                  class="category-icon"
+                  style="background-color: {$categoryColors[dle.category]};"
+                >
+                  <svelte:component this={categoryIcons[dle.category]} />
+                </div>
+                <div class="dle-details">
+                  <div class="dle-name">{dle.name}</div>
+                  <div class="dle-category">{dle.category}</div>
+                </div>
               </div>
-              <div class="dle-details">
-                <div class="dle-name">{dle.name}</div>
-                <div class="dle-category">{dle.category}</div>
-              </div>
-            </div>
-            {#if isFavorited && newlyToggledInSession.has(dle.id)}
-              <div class="favorite-message">
-                <div class="favorite-text">Added!</div>
-                <div class="favorite-subtext">Click to remove</div>
-              </div>
-            {:else if !isFavorited && !isTouchDevice}
-              <div class="plus-icon">
-                <IconPlus />
-              </div>
-            {/if}
-          </button>
-        {/each}
-      </div>
-    {/if}
-  </div>
+              {#if isFavorited && newlyToggledInSession.has(dle.id)}
+                <div class="favorite-message">
+                  <div class="favorite-text">Added!</div>
+                  <div class="favorite-subtext">Click to remove</div>
+                </div>
+              {:else if !isFavorited && !isTouchDevice}
+                <div class="plus-icon">
+                  <IconPlus />
+                </div>
+              {/if}
+            </button>
+          {/each}
+        </div>
+      {/if}
+    </div>
   </div>
 </Modal>
 
 <style lang="postcss">
   .searchPopup {
     @apply fixed p-3 flex flex-col bg-colorCardC rounded-sm border border-colorNeutralSoft;
-    z-index: 100;
     box-shadow:
       0 10px 25px -3px rgba(0, 0, 0, 0.9),
       0 4px 6px -2px rgba(0, 0, 0, 0.9);

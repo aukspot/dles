@@ -14,19 +14,44 @@
 <PanelWrapper {open}>
   <PanelTitle color="green" title="HOW TO HELP" />
   <div class="link-grid">
-    <Button color="green" icon={IconSuggest} href="https://tally.so/r/mOKOea">
+    <Button
+      size="sm"
+      color="green"
+      icon={IconSuggest}
+      href="https://tally.so/r/mOKOea"
+    >
       Suggest a Game
     </Button>
-    <Button color="green" icon={IconBug} href="https://tally.so/r/wQpPpY">
+    <Button
+      size="sm"
+      color="green"
+      icon={IconBug}
+      href="https://tally.so/r/wQpPpY"
+    >
       Report a Bug
     </Button>
-    <Button color="green" icon={IconFeedback} href="https://tally.so/r/Gx6kXZ">
+    <Button
+      size="sm"
+      color="green"
+      icon={IconFeedback}
+      href="https://tally.so/r/Gx6kXZ"
+    >
       General Feedback
     </Button>
-    <Button color="green" icon={IconKofi} href="https://ko-fi.com/aukspot">
+    <Button
+      size="sm"
+      color="green"
+      icon={IconKofi}
+      href="https://ko-fi.com/aukspot"
+    >
       Donate
     </Button>
-    <Button color="green" icon={IconGitHub} href="https://github.com/aukspot/dles">
+    <Button
+      size="sm"
+      color="green"
+      icon={IconGitHub}
+      href="https://github.com/aukspot/dles"
+    >
       GitHub
     </Button>
   </div>

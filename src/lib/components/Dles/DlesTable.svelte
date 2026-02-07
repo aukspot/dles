@@ -375,8 +375,4 @@
     @apply text-sm leading-relaxed;
   }
 
-  .sr-only {
-    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
-    clip: rect(0, 0, 0, 0);
-  }
 </style>

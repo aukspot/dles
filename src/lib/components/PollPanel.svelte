@@ -1,7 +1,7 @@
 <script>
   import PanelWrapper from "./PanelWrapper.svelte"
   import PanelTitle from "./PanelTitle.svelte"
-  import { pollResponses, getActivePolls } from "$lib/stores"
+  import { pollResponses, getActivePolls, activePanelStore } from "$lib/stores"
   import { trackEvent } from "$lib/js/trackingUtils"
 
   export let open = false
@@ -163,7 +163,7 @@
 </script>
 
 <PanelWrapper {open}>
-  <PanelTitle color="blue" title="POLLS" />
+  <PanelTitle color="blue" title="CURRENT POLLS" />
 
   <div class="polls-wrapper">
     {#if activePolls.length === 0}
@@ -269,6 +269,12 @@
         </div>
       {/if}
     {/if}
+
+    <div class="past-polls-link">
+      <a href="/polls" on:click={() => ($activePanelStore = "")}
+        >View past polls</a
+      >
+    </div>
   </div></PanelWrapper
 >
 
@@ -367,5 +373,13 @@
 
   .result-bar {
     @apply h-full bg-blue-400 dark:bg-blue-600 transition-all duration-300;
+  }
+
+  .past-polls-link {
+    @apply text-center pt-3 mt-2;
+  }
+
+  .past-polls-link a {
+    @apply text-sm text-colorTextSoft hover:text-colorText transition-colors underline;
   }
 </style>

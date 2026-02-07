@@ -3,42 +3,37 @@
     categories,
     categoryColors,
     categorizedDles,
-    newDles,
     poppedUpDle,
     dlesOfTheWeek,
     favorites,
-    favoriteIds,
     searchQuery,
     sponsors,
     categoryRanks,
     completelyHiddenSections,
+    hiddenDleIds,
+    showFavoritesSettingsModal,
   } from "$lib/stores"
 
-  import IconNew from "../Icons/IconNew.svelte"
   import SectionHeader from "../SectionHeader.svelte"
-  import IconStar from "../Icons/IconStar.svelte"
-  import IconBook from "../Icons/IconBook.svelte"
-
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { base } from "$app/paths"
-  import Banner from "../Banner.svelte"
-  import { openInNewTab } from "$lib/js/utilities"
   import IconCalendarHeart from "../Icons/IconCalendarHeart.svelte"
-  import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
   import IconFavoriteFilled from "../Icons/IconFavoriteFilled.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
-  import IconSort from "../Icons/IconSort.svelte"
+  import IconGear from "../Icons/IconGear.svelte"
   import IconEdit from "../Icons/IconEdit.svelte"
-  import IconRandom from "../Icons/IconRandom.svelte"
   import IconDownload from "../Icons/IconDownload.svelte"
   import IconUpload from "../Icons/IconUpload.svelte"
   import DleGroup from "./DleGroup.svelte"
   import DleGrid from "./DleGrid.svelte"
   import SearchModal from "./SearchModal.svelte"
   import FavoritesImportExportModal from "./FavoritesImportExportModal.svelte"
+  import FavoritesSettingsModal from "./FavoritesSettingsModal.svelte"
   import Sponsors from "../Sponsors.svelte"
-  import { enhancedSearch, playRandom } from "$lib/js/utilities"
+  import NewDles from "../NewDles.svelte"
   import { useTracking } from "$lib/composables/useTracking"
+
+  const tracking = useTracking()
 
   let allCards = []
   let favoriteCardIndex = -1
@@ -48,38 +43,6 @@
   let editMode = false
   let lastWindowWidth = 0
   let lastWindowHeight = 0
-
-  const tracking = useTracking()
-
-  function handlePlayRandomFavorite() {
-    const customTrackingData = {
-      click_type: "random-button-favorites",
-      source: "main-page",
-      section: "favorites",
-      available_options: $favorites.length,
-    }
-    playRandom($favorites, customTrackingData)
-  }
-
-  function toggleFavoritesSort() {
-    const currentNames = $favorites.map((fav) => fav.name.toLowerCase())
-    const sortedAscending = [...currentNames].sort()
-    const isCurrentlyAscending = currentNames.every(
-      (name, index) => name === sortedAscending[index],
-    )
-
-    const sortedFavorites = $favorites.sort((a, b) => {
-      const comparison = a.name
-        .toLowerCase()
-        .localeCompare(b.name.toLowerCase())
-      return isCurrentlyAscending ? -comparison : comparison
-    })
-
-    $favoriteIds = sortedFavorites.map((fav) => fav.id)
-    if (typeof localStorage !== "undefined") {
-      localStorage.favorites = JSON.stringify($favoriteIds)
-    }
-  }
 
   function handleResize() {
     // Only close popup if width changed (actual window resize)
@@ -105,6 +68,9 @@
       if (showImportExportModal) {
         showImportExportModal = false
       }
+      if ($showFavoritesSettingsModal) {
+        $showFavoritesSettingsModal = false
+      }
     }
   }
 
@@ -114,6 +80,14 @@
 
   function closeSearchModal() {
     showSearchModal = false
+  }
+
+  function openFavoritesSettingsModal() {
+    $showFavoritesSettingsModal = true
+  }
+
+  function closeFavoritesSettingsModal() {
+    $showFavoritesSettingsModal = false
   }
 
   function toggleEditMode() {
@@ -134,21 +108,12 @@
     showImportExportModal = false
   }
 
-  function hasSponsorMatches() {
-    if (!$searchQuery || $searchQuery.trim() === "") return true
-
-    const filteredPartners = enhancedSearch($sponsors, $searchQuery)
-    return filteredPartners.length > 0
-  }
-
   function buildCards() {
     const cards = []
     let currentIndex = 0
 
-    // Add DLES of the Week (hide when searching or completely hidden)
     if (
       $dlesOfTheWeek.length !== 0 &&
-      (!$searchQuery || $searchQuery.trim() === "") &&
       !completelyHiddenSections.isCompletelyHidden(
         "dlesOfTheWeek",
         $completelyHiddenSections,
@@ -205,17 +170,28 @@
       }
     }
 
-    // Add Sponsors (when not searching or when sponsors match search)
-    const shouldShowSponsors =
-      !$searchQuery || $searchQuery.trim() === "" || hasSponsorMatches()
-    if (shouldShowSponsors) {
+    cards.push({
+      id: "sponsors",
+      type: "sponsors",
+      data: null,
+    })
+    currentIndex++
+
+    // Add NEW section (unless completely hidden)
+    if (
+      !completelyHiddenSections.isCompletelyHidden(
+        "new",
+        $completelyHiddenSections,
+      )
+    ) {
       cards.push({
-        id: "sponsors",
-        type: "sponsors",
+        id: "new",
+        type: "new",
         data: null,
       })
       currentIndex++
     }
+
     allCards = cards
   }
 
@@ -241,14 +217,19 @@
     let:card
   >
     {#if card.type === "dlesOfTheWeek"}
-      <div class="card">
-        <SectionHeader
-          title="DLES of the Week"
-          icon={IconCalendarHeart}
-          rainbow={true}
-        />
-        <DleGroup dleGroup={card.data} section="dles-of-the-week" />
-      </div>
+      {@const visibleDlesOfWeek = card.data.filter(
+        (d) => !$hiddenDleIds.includes(d.id),
+      )}
+      {#if visibleDlesOfWeek.length > 0}
+        <div class="card">
+          <SectionHeader
+            title="DLES of the Week"
+            icon={IconCalendarHeart}
+            rainbow={true}
+          />
+          <DleGroup dleGroup={visibleDlesOfWeek} section="dles-of-the-week" />
+        </div>
+      {/if}
     {:else if card.type === "favorites"}
       <div class="card">
         <SectionHeader
@@ -269,26 +250,7 @@
             {/if}
           </div>
           <div class="favorites-buttons">
-            {#if editMode}
-              <button
-                class="favorites-sort-button"
-                on:click={toggleFavoritesSort}
-                title="Sort favorites alphabetically"
-              >
-                <IconSort />
-              </button>
-            {:else}
-              {#if card.data.length > 0}
-                <button
-                  class="favorites-random-button"
-                  on:click={handlePlayRandomFavorite}
-                  title="Play random favorite"
-                >
-                  <div class="icon-container">
-                    <IconRandom />
-                  </div>
-                </button>
-              {/if}
+            {#if !editMode}
               <button
                 class="favorites-add-button"
                 on:click={openSearchModal}
@@ -313,14 +275,23 @@
                 {/if}
               </button>
             {/if}
+            {#if !editMode && card.data.length > 0}
+              <button
+                class="favorites-settings-button"
+                on:click={openFavoritesSettingsModal}
+                title="Manage favorites"
+              >
+                <IconGear />
+              </button>
+            {/if}
           </div>
         </div>
         {#if card.data.length > 0}
           <DleGroup
             dleGroup={card.data}
+            section="favorites"
             reorderable={true}
             {editMode}
-            section="favorites"
           />
         {/if}
         <div class="favorites-import-export">
@@ -356,15 +327,22 @@
       </div>
     {:else if card.type === "sponsors"}
       <Sponsors />
+    {:else if card.type === "new"}
+      <NewDles />
     {:else if card.type === "category"}
-      <div class="card">
-        <SectionHeader
-          title={card.category}
-          icon={categoryIcons[card.category]}
-          color={$categoryColors[card.category]}
-        />
-        <DleGroup dleGroup={card.data} />
-      </div>
+      {@const visibleDles = card.data.filter(
+        (d) => !$hiddenDleIds.includes(d.id),
+      )}
+      {#if visibleDles.length > 0}
+        <div class="card">
+          <SectionHeader
+            title={card.category}
+            icon={categoryIcons[card.category]}
+            color={$categoryColors[card.category]}
+          />
+          <DleGroup dleGroup={visibleDles} />
+        </div>
+      {/if}
     {/if}
   </DleGrid>
 </div>
@@ -378,6 +356,10 @@
     mode={importExportMode}
     onClose={closeImportExportModal}
   />
+{/if}
+
+{#if $showFavoritesSettingsModal}
+  <FavoritesSettingsModal onClose={closeFavoritesSettingsModal} />
 {/if}
 
 <style lang="postcss">
@@ -419,31 +401,22 @@
 
   .favorites-add-button,
   .favorites-edit-button,
-  .favorites-sort-button,
-  .favorites-random-button {
-    @apply p-1 bg-colorBackground hover:bg-gray-50 hover:border-colorTextSoft hover:shadow-md  active:scale-95 rounded-sm  transition-colors duration-75 border border-colorNeutralSoft shadow-md opacity-80;
+  .favorites-settings-button {
+    @apply p-1 bg-colorBackground hover:bg-gray-50 hover:border-colorTextSoft hover:shadow-md active:scale-95 rounded-sm transition-colors duration-75 border border-colorNeutralSoft shadow-md opacity-80;
   }
 
   .favorites-add-button,
-  .favorites-edit-button,
-  .favorites-sort-button {
+  .favorites-edit-button {
     @apply stroke-colorTextSoft;
   }
 
-  stroke-colorTextSoft .favorites-random-button .icon-container {
-    @apply w-6 h-6 flex items-center justify-center;
-  }
-
-  .favorites-random-button :global(svg) {
-    width: 1.5rem;
-    height: 1.5rem;
-    @apply fill-colorTextSofter;
+  .favorites-settings-button :global(svg) {
+    @apply w-6 h-6 fill-colorTextSofter;
   }
 
   :global(.dark) .favorites-add-button,
   :global(.dark) .favorites-edit-button,
-  :global(.dark) .favorites-sort-button,
-  :global(.dark) .favorites-random-button {
+  :global(.dark) .favorites-settings-button {
     @apply hover:bg-zinc-800;
   }
 

@@ -90,12 +90,14 @@
   on:blur
 >
   {#if icon && iconPosition === "left"}
-    <svelte:component this={icon} />
+    <span class="mr-2">
+      <svelte:component this={icon} />
+    </span>
   {/if}
 
   <slot />
 
   {#if icon && iconPosition === "right"}
-    <svelte:component this={icon} />
+    <span class="ml-2"><svelte:component this={icon} /></span>
   {/if}
 </svelte:element>

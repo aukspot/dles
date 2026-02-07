@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from "svelte"
   import { browser } from "$app/environment"
-  import { categoryRanks } from "$lib/stores"
+  import { categoryRanks, newDles } from "$lib/stores"
 
   export let cards = []
   export let cardsVersion = 0
@@ -32,6 +32,12 @@
     if (card.type === "dlesOfTheWeek") return 300 // Usually has multiple items
     if (card.type === "favorites") return card.data.length * 40 + 100 // Base height + items
     if (card.type === "sponsors") return 200 // Fixed sponsors height
+    if (card.type === "new") {
+      // Calculate based on newDles data - need to count unique dates + dles
+      const newDlesData = $newDles || []
+      const uniqueDates = new Set(newDlesData.map(d => d.date_added)).size
+      return newDlesData.length * 40 + uniqueDates * 30 + 80 // dles + date headers + section header
+    }
     if (card.type === "category") return card.data.length * 40 + 80 // Base height + items
     return 100 // Default
   }
@@ -53,6 +59,7 @@
       (card) => card.type === "dlesOfTheWeek",
     )
     const sponsorsCard = cards.find((card) => card.type === "sponsors")
+    const newCard = cards.find((card) => card.type === "new")
     const categoryCards = cards.filter((card) => card.type === "category")
 
     if (numColumns === 1) {
@@ -61,6 +68,7 @@
       if (favoriteCard) orderedCards.push(favoriteCard)
       if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
       if (sponsorsCard) orderedCards.push(sponsorsCard)
+      if (newCard) orderedCards.push(newCard)
       orderedCards.push(...categoryCards)
 
       orderedCards.forEach((card) => {
@@ -75,6 +83,10 @@
       if (sponsorsCard) {
         columns[0].push(sponsorsCard)
         columnHeights[0] += estimateCardHeight(sponsorsCard)
+      }
+      if (newCard) {
+        columns[0].push(newCard)
+        columnHeights[0] += estimateCardHeight(newCard)
       }
       if (favoriteCard) {
         columns[1].push(favoriteCard)
@@ -214,6 +226,10 @@
     @apply break-inside-avoid;
     min-width: 0;
     max-width: 100%;
+  }
+
+  .card-wrapper:empty {
+    display: none;
   }
 
   @media (max-width: 18em) {

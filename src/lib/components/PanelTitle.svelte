@@ -23,7 +23,7 @@
   }
 
   .title.yellow {
-    @apply !bg-yellow-300 dark:!bg-yellow-700;
+    @apply !bg-yellow-300 dark:!bg-yellow-800;
   }
 
   .title.red {
@@ -31,23 +31,27 @@
   }
 
   .title.green {
-    @apply !bg-green-300 dark:!bg-green-700;
+    @apply !bg-green-300 dark:!bg-green-800;
   }
 
   .title.blue {
-    @apply !bg-blue-300 dark:!bg-blue-700;
+    @apply !bg-blue-300 dark:!bg-blue-800;
   }
 
   .title.orange {
-    @apply !bg-orange-300 dark:!bg-orange-700;
+    @apply !bg-orange-300 dark:!bg-orange-800;
   }
 
   .title.violet {
-    @apply !bg-violet-300 dark:!bg-violet-700;
+    @apply !bg-violet-300 dark:!bg-violet-800;
   }
 
   .title.teal {
-    @apply !bg-teal-300 dark:!bg-teal-700;
+    @apply !bg-teal-300 dark:!bg-teal-800;
+  }
+
+  .title.zinc {
+    @apply !bg-zinc-300 dark:!bg-zinc-800;
   }
 
   .title-close-btn {

@@ -1,5 +1,4 @@
 <svg
-   width="28"
    viewBox="0 0 24 24"
    fill="currentColor">
   <defs>

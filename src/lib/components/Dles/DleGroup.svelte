@@ -1,10 +1,19 @@
 <script>
-  import { poppedUpDle, newDles, favorites, favoriteIds } from "$lib/stores"
+  import {
+    poppedUpDle,
+    newDles,
+    favorites,
+    favoriteIds,
+    hiddenDleIdsSet,
+    playedDleIdsSet,
+  } from "$lib/stores"
   import { openInNewTab, isLocalStorageAvailable } from "$lib/js/utilities"
   import { useTracking } from "$lib/composables/useTracking.js"
+  import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
+  import { categoryIcons } from "$lib/js/categoryIcons"
   import IconDragHandle from "../Icons/IconDragHandle.svelte"
   import { dndzone } from "svelte-dnd-action"
   import { flip } from "svelte/animate"
@@ -13,13 +22,17 @@
   export let section = "regular"
   export let reorderable = false
   export let editMode = false
+  export let showCategoryIcon = false
 
   const tracking = useTracking()
+  const playedDles = usePlayedDles()
 
   let items = []
   let referenceElements = {}
 
-  $: items = dleGroup.map((dle, idx) => ({ ...dle, id: dle.id || dle.name }))
+  $: items = dleGroup
+    .filter((dle) => !$hiddenDleIdsSet.has(dle.id))
+    .map((dle, idx) => ({ ...dle, id: dle.id || dle.name }))
 
   function isNewDle(dle) {
     return $newDles.filter((d) => d.url === dle.url).length === 1
@@ -27,6 +40,10 @@
 
   function isFavorited(dle) {
     return $favoriteIds.includes(dle.id)
+  }
+
+  function isPlayed(dle) {
+    return $playedDleIdsSet.has(dle.id)
   }
 
   function handleClickOutside(event) {
@@ -73,6 +90,8 @@
     } else {
       tracking.trackGameClick(dle, clickType, "list", section, position)
     }
+    // Auto-mark as played when clicking the link
+    playedDles.markAsPlayed(dle)
     openInNewTab(dle.url)
   }
 </script>
@@ -89,7 +108,7 @@
     on:finalize={handleDndFinalize}
   >
     {#each items as dle, j (dle.id || dle.name)}
-      <li class="dleContainer">
+      <li class="dleContainer" class:played={$playedDleIdsSet.has(dle.id)}>
         <div class="dleTop" class:draggable-row={reorderable && editMode}>
           <div class="dleLeft">
             <div class="dle-name-container">
@@ -117,7 +136,12 @@
               >
                 {dle.name}
               </span>
-              {#if isNewDle(dle)}
+              {#if showCategoryIcon && dle.category && categoryIcons[dle.category]}
+                <span class="category-icon">
+                  <svelte:component this={categoryIcons[dle.category]} />
+                </span>
+              {/if}
+              {#if section !== "new" && isNewDle(dle)}
                 <IconNew />
               {/if}
             </div>
@@ -154,6 +178,10 @@
       opacity 200ms ease,
       transform 200ms ease,
       border-color 200ms ease;
+  }
+
+  .dleContainer.played .dleTop {
+    opacity: var(--dle-played-opacity);
   }
 
   .dleTop {
@@ -194,6 +222,18 @@
     display: inline-block;
     vertical-align: middle;
     margin-left: 0.25rem;
+  }
+
+  .category-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0.25rem;
+    opacity: 0.25;
+  }
+
+  .category-icon :global(svg) {
+    width: 1.2rem;
+    height: 1.2rem;
   }
 
   .drag-handle {

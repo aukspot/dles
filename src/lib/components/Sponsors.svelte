@@ -4,6 +4,7 @@
     searchQuery,
     sponsors,
     favoriteIds,
+    hiddenDleIdsSet,
   } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
   import DleGroup from "$lib/components/Dles/DleGroup.svelte"
@@ -11,23 +12,19 @@
   import SectionHeader from "./SectionHeader.svelte"
   import IconStar from "./Icons/IconStar.svelte"
 
-  // Add favoriteIds dependency to force re-render when favorites change
-  $: filteredPartners = ($favoriteIds, enhancedSearch($sponsors, $searchQuery))
+  $: visibleSponsors = $sponsors.filter((s) => !$hiddenDleIdsSet.has(s.id))
+  $: hasVisibleSponsors = visibleSponsors.length > 0
 </script>
 
-{#if $searchQuery.length == 0 || filteredPartners.length > 0}
+{#if hasVisibleSponsors}
   <div class="card">
     <SectionHeader
       title="Sponsors"
       icon={IconStar}
-      color={$categoryColors['Sponsors']}
+      color={$categoryColors["Sponsors"]}
     />
-    <!-- {#if $searchQuery.length == 0}
-      <div class="partner-cta-header">
-        <p class="partner-cta-text">Play one of our sponsors!</p>
-      </div>
-    {/if} -->
-    <DleGroup dleGroup={filteredPartners} section="sponsors" />
+
+    <DleGroup dleGroup={visibleSponsors} section="sponsors" />
 
     {#if $searchQuery.length == 0}
       <div class="partner-footer">
