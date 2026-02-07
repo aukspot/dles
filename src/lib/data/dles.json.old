@@ -152,6 +152,13 @@
     "id": 459
   },
   {
+    "name": "Baddle",
+    "url": "https://tumblecricket.net/Baddle/",
+    "description": "A roguelike where you guess the arrangement of two armies on a battlefield, in a Wordle-like fashion. Best played on desktop.",
+    "category": "Miscellaneous",
+    "id": 658
+  },
+  {
     "name": "Balatrodle",
     "url": "https://www.balatrodle.com",
     "description": "Guess the Joker from the game Balatro.",
@@ -230,13 +237,6 @@
     "description": "Identify today's bird in 6 guesses or less.",
     "category": "Science/Nature",
     "id": 22
-  },
-  {
-    "name": "Birdle (like Wordle)",
-    "url": "https://birdle.escism.net",
-    "description": "Guess the 5-letter bird name in 6 guesses or less.",
-    "category": "Science/Nature",
-    "id": 23
   },
   {
     "name": "Blockle",
@@ -543,6 +543,13 @@
     "description": "Hangman but it's always a movie title.",
     "category": "Movies/TV",
     "id": 618
+  },
+  {
+    "name": "Clue Raider",
+    "url": "https://clueraider.com",
+    "description": "Find the hidden relic by placing each person based on their clues.",
+    "category": "Math/Logic",
+    "id": 659
   },
   {
     "name": "Clues By Sam",
@@ -1441,6 +1448,13 @@
     "id": 142
   },
   {
+    "name": "Glyph",
+    "url": "https://glyph.today",
+    "description": "Guess the word based on its glyph, or all of its letters stacked together.",
+    "category": "Words",
+    "id": 660
+  },
+  {
     "name": "Gram Jam",
     "url": "https://gramjam.app",
     "description": "Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.",
@@ -1777,13 +1791,6 @@
     "id": 182
   },
   {
-    "name": "IYKYK",
-    "url": "https://daily.iykyk.com",
-    "description": "Guess what today's acronym stands for. By the makers of the card game CultureTags.",
-    "category": "Words",
-    "id": 183
-  },
-  {
     "name": "Jeopardy 6",
     "url": "https://www.jeopardy.com/play/j6",
     "description": "Weekday jeopardy game where you answer 12 multiple choice questions.",
@@ -1810,6 +1817,13 @@
     "description": "Place the OldSchool RuneScape song on the in-game map to where you would hear it, 5 rounds daily.",
     "category": "Video Games",
     "id": 532
+  },
+  {
+    "name": "Jojodle",
+    "url": "https://jojodle.nwcubeok.net/jojodle",
+    "description": "Guess the secret Stand User of the day from Jojo's Bizarre Adventure.",
+    "category": "Movies/TV",
+    "id": 661
   },
   {
     "name": "Jumble Daily",
@@ -1920,6 +1934,13 @@
     "category": "Words",
     "theme": "Find words",
     "id": 482
+  },
+  {
+    "name": "Landmarkd",
+    "url": "https://www.landmarkdgame.com",
+    "description": "Guess the daily landmark based on a zoomed-in picture.",
+    "category": "Geography",
+    "id": 662
   },
   {
     "name": "Langle",
@@ -2156,6 +2177,13 @@
     "id": 219
   },
   {
+    "name": "MapleWordle",
+    "url": "https://www.maplewordle.com",
+    "description": "A collection of daily guessing games related to the game MapleStory.",
+    "category": "Video Games",
+    "id": 663
+  },
+  {
     "name": "Mapster",
     "url": "https://mapster.teuteuf.fr",
     "description": "Draw the outline of a country as close as you can to the country's actual borders.",
@@ -2363,6 +2391,13 @@
     "id": 242
   },
   {
+    "name": "Moviedle (from Histordle)",
+    "url": "https://histordle.com/moviedle",
+    "description": "Guess the year that the given movies were released.",
+    "category": "Movies/TV",
+    "id": 243
+  },
+  {
     "name": "Moviedle - Fill The Grid",
     "url": "https://moviedle.xyz/fill-the-grid",
     "description": "Fill the grid with movies that contain actors from each cell's corresponding row and column.",
@@ -2405,13 +2440,6 @@
     "id": 551
   },
   {
-    "name": "NBAGrid",
-    "url": "https://www.nbagr.id",
-    "description": "Guess a grid of NBA players that fit into specific categories.",
-    "category": "Sports",
-    "id": 455
-  },
-  {
     "name": "Neighborle",
     "url": "https://neighborle.com",
     "description": "Guess the countries that border the highlighted country on the map.",
@@ -2447,11 +2475,32 @@
     "id": 627
   },
   {
+    "name": "Netflix - Keysmash",
+    "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
+    "description": "Guess the themed words with their vowels removed. Does not require a Netflix account",
+    "category": "Words",
+    "id": 664
+  },
+  {
     "name": "Netflix - Shapes",
     "url": "https://www.netflix.com/tudum/puzzled/shapes/daily",
     "description": "Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.",
     "category": "Shapes/Patterns",
     "id": 628
+  },
+  {
+    "name": "Netflix - Starstruck",
+    "url": "https://www.netflix.com/tudum/puzzled/starstruck/daily",
+    "description": "Place a star in each row, column, and color area. Does not require a Netflix account",
+    "category": "Math/Logic",
+    "id": 665
+  },
+  {
+    "name": "Netflix - Sudoku",
+    "url": "https://www.netflix.com/tudum/puzzled/sudoku/daily",
+    "description": "A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account",
+    "category": "Math/Logic",
+    "id": 666
   },
   {
     "name": "Netflix - Waywords",
@@ -2850,6 +2899,13 @@
     "id": 520
   },
   {
+    "name": "PopCultured",
+    "url": "https://histordle.com/popcultured",
+    "description": "Guess the year given three pop culture items released that year.",
+    "category": "Trivia",
+    "id": 293
+  },
+  {
     "name": "Posterdle",
     "url": "https://likewise.com/games/posterdle",
     "description": "Guess the movie poster in 20 seconds or less.",
@@ -2958,6 +3014,13 @@
     "id": 305
   },
   {
+    "name": "QueenSweep",
+    "url": "https://playqueensweep.com",
+    "description": "Find all 8 hidden queens using the number clues.",
+    "category": "Math/Logic",
+    "id": 667
+  },
+  {
     "name": "Quickflip",
     "url": "https://puzzmallow.com/quickflip",
     "description": "Flip the tiles to make an 8 letter word. Two words are possible, but only one is the correct answer.",
@@ -3063,6 +3126,13 @@
     "description": "Find the word that fits the first blank, then split it to fill in the remaining blank(s).",
     "category": "Words",
     "id": 317
+  },
+  {
+    "name": "Refiner",
+    "url": "https://nibble.games/refiner/",
+    "description": "Refine the numbers in the grid by grouping them based on each of the requirements.",
+    "category": "Math/Logic",
+    "id": 668
   },
   {
     "name": "regexle.com",
@@ -3305,6 +3375,13 @@
     "id": 340
   },
   {
+    "name": "Showdle",
+    "url": "https://showdle.com",
+    "description": "Guess today's TV show by narrowing down its attributes.",
+    "category": "Movies/TV",
+    "id": 669
+  },
+  {
     "name": "Shuffalo",
     "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo",
     "description": "Make a word using all the letters on the wheel, adding a new letter after each correct guess.",
@@ -3347,6 +3424,13 @@
     "category": "Video Games",
     "theme": "Marvel Snap",
     "id": 344
+  },
+  {
+    "name": "Songle",
+    "url": "https://histordle.com/songle",
+    "description": "Guess the year given three songs that were released that year.",
+    "category": "Music",
+    "id": 345
   },
   {
     "name": "Songless",
@@ -3425,6 +3509,13 @@
     "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
     "category": "Words",
     "id": 353
+  },
+  {
+    "name": "Spelling Bee (Lessgames)",
+    "url": "https://lessgames.com/spellingbee",
+    "description": "Spell the words based on their pronunciation. Optionally get a definition or use it in a sentence.",
+    "category": "Words",
+    "id": 670
   },
   {
     "name": "Spindle",
@@ -3562,6 +3653,13 @@
     "id": 501
   },
   {
+    "name": "Stat Mini Crossword",
+    "url": "https://www.statnews.com/stat-mini-crossword/",
+    "description": "A weekday mini crossword that's often health and medicine focused.",
+    "category": "Words",
+    "id": 671
+  },
+  {
     "name": "Statele",
     "url": "https://statele.teuteuf.fr",
     "description": "Guess the US State by its outline on the map.",
@@ -3631,14 +3729,6 @@
     "description": "Delete numbers so that each row and column adds up to their target number.",
     "category": "Math/Logic",
     "id": 373
-  },
-  {
-    "name": "Supervivedle",
-    "url": "https://supervivedle.com",
-    "description": "A collection of daily games related to Supervive.",
-    "category": "Video Games",
-    "theme": "Supervive",
-    "id": 503
   },
   {
     "name": "Survivle",
@@ -3841,6 +3931,13 @@
     "id": 394
   },
   {
+    "name": "Timeline",
+    "url": "https://timeline.fromthethink.com",
+    "description": "Guess the year for each of the 6 historical events.",
+    "category": "History",
+    "id": 672
+  },
+  {
     "name": "TimeLine Game",
     "url": "https://www.playtimelines.com",
     "description": "Arrange the historical events in the order they happened.",
@@ -3981,6 +4078,13 @@
     "description": "Swap tiles to unscramble the puzzle of a looping short video.",
     "category": "Shapes/Patterns",
     "id": 410
+  },
+  {
+    "name": "Viewdle",
+    "url": "https://viewdle.org",
+    "description": "Guess the country based on the view.",
+    "category": "Geography",
+    "id": 673
   },
   {
     "name": "Vowel Play",
@@ -4210,6 +4314,13 @@
     "id": 563
   },
   {
+    "name": "word.golf",
+    "url": "https://word.golf",
+    "description": "Link the starting word to the target word by choosing related words from the grid. 5 rounds per day.",
+    "category": "Words",
+    "id": 674
+  },
+  {
     "name": "Word500",
     "url": "https://word500.com/game?mode=daily",
     "description": "Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.",
@@ -4243,6 +4354,13 @@
     "description": "A mini crossword puzzle, but don't make too many wrong guesses.",
     "category": "Words",
     "id": 436
+  },
+  {
+    "name": "Wordfall",
+    "url": "https://play-wordfall.com",
+    "description": "Clear the board of letters by finding words. Clear letters on the board by finding words, ending with as few letters as possible.",
+    "category": "Words",
+    "id": 675
   },
   {
     "name": "Wordga",
@@ -4392,6 +4510,13 @@
     "description": "Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.",
     "category": "Math/Logic",
     "id": 449
+  },
+  {
+    "name": "Yeardle",
+    "url": "https://histordle.com/yeardle",
+    "description": "Guess the year based on the given historical events of that year.",
+    "category": "History",
+    "id": 450
   },
   {
     "name": "Yearly Daily",

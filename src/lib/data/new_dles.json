@@ -1,174 +1,362 @@
 [
   {
     "name": "Animdle",
-    "url": "https://animdle.com"
+    "url": "https://animdle.com",
+    "id": 638,
+    "date_added": "2026-01-12"
   },
   {
     "name": "Antiwordle",
-    "url": "https://www.antiwordle.com"
+    "url": "https://www.antiwordle.com",
+    "id": 615,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "Baddle",
+    "url": "https://tumblecricket.net/Baddle/",
+    "id": 658,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Bibdle",
-    "url": "https://bibdle.com"
+    "url": "https://bibdle.com",
+    "id": 616,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Celtix",
-    "url": "https://www.andrewt.net/puzzles/celtix/"
+    "url": "https://www.andrewt.net/puzzles/celtix/",
+    "id": 617,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Cliffhanger",
-    "url": "https://jumoh.com/games/cliffhanger/"
+    "url": "https://jumoh.com/games/cliffhanger/",
+    "id": 618,
+    "date_added": "2026-01-11"
   },
   {
-    "name": "Colordle",
-    "url": "https://colordle.ryantanen.com"
+    "name": "Clue Raider",
+    "url": "https://clueraider.com",
+    "id": 659,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Cosmeredle",
-    "url": "https://cosmeredle.net"
+    "url": "https://cosmeredle.net",
+    "id": 620,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Crossflip",
-    "url": "https://puzzmallow.com/crossflip"
+    "url": "https://puzzmallow.com/crossflip",
+    "id": 648,
+    "date_added": "2026-01-28"
   },
   {
     "name": "Exodle",
-    "url": "https://exodle.astrelion.com"
+    "url": "https://exodle.astrelion.com",
+    "id": 621,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Genshindle",
-    "url": "https://us.genshindle.com/"
+    "url": "https://us.genshindle.com/",
+    "id": 622,
+    "date_added": "2026-01-11"
   },
   {
     "name": "GeoQuest",
-    "url": "https://geoquest.gg"
+    "url": "https://geoquest.gg",
+    "id": 649,
+    "date_added": "2026-01-28"
   },
   {
     "name": "Globeiku",
-    "url": "https://www.globeiku.com"
+    "url": "https://www.globeiku.com",
+    "id": 650,
+    "date_added": "2026-01-28"
+  },
+  {
+    "name": "Glyph",
+    "url": "https://glyph.today",
+    "id": 660,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Heardle 2020's",
-    "url": "https://20s.heardledecades.com"
+    "url": "https://20s.heardledecades.com",
+    "id": 651,
+    "date_added": "2026-01-28"
   },
   {
     "name": "Heardle K-pop",
-    "url": "https://kpop.heardledecades.com"
+    "url": "https://kpop.heardledecades.com",
+    "id": 652,
+    "date_added": "2026-01-28"
   },
   {
     "name": "Historydle",
-    "url": "https://historydle.com"
+    "url": "https://historydle.com",
+    "id": 653,
+    "date_added": "2026-01-28"
   },
   {
     "name": "Humppadle",
-    "url": "https://www.humppadle.de"
+    "url": "https://www.humppadle.de",
+    "id": 641,
+    "date_added": "2026-01-23"
+  },
+  {
+    "name": "Jojodle",
+    "url": "https://jojodle.nwcubeok.net/jojodle",
+    "id": 661,
+    "date_added": "2026-02-07"
+  },
+  {
+    "name": "Landmarkd",
+    "url": "https://www.landmarkdgame.com",
+    "id": 662,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Lettered",
-    "url": "https://lettered.io"
+    "url": "https://lettered.io",
+    "id": 642,
+    "date_added": "2026-01-23"
   },
   {
     "name": "Lockle",
-    "url": "https://www.lockle.app"
+    "url": "https://www.lockle.app",
+    "id": 654,
+    "date_added": "2026-01-28"
   },
   {
     "name": "Loopy",
-    "url": "https://loopy.wtf"
+    "url": "https://loopy.wtf",
+    "id": 623,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Luckle",
-    "url": "https://luckle.org"
+    "url": "https://luckle.org",
+    "id": 643,
+    "date_added": "2026-01-23"
+  },
+  {
+    "name": "MapleWordle",
+    "url": "https://www.maplewordle.com",
+    "id": 663,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Marveldle",
-    "url": "https://marveldle.com/character/audiovisual/guess"
+    "url": "https://marveldle.com/character/audiovisual/guess",
+    "id": 624,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Netflix - Bonza",
-    "url": "https://www.netflix.com/tudum/puzzled/bonza/daily"
+    "url": "https://www.netflix.com/tudum/puzzled/bonza/daily",
+    "id": 625,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Netflix - Crossover",
-    "url": "https://www.netflix.com/tudum/puzzled/crossover/daily"
+    "url": "https://www.netflix.com/tudum/puzzled/crossover/daily",
+    "id": 626,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Netflix - Jigsaw",
-    "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily"
+    "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily",
+    "id": 627,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "Netflix - Keysmash",
+    "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
+    "id": 664,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Netflix - Shapes",
-    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily"
+    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily",
+    "id": 628,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "Netflix - Starstruck",
+    "url": "https://www.netflix.com/tudum/puzzled/starstruck/daily",
+    "id": 665,
+    "date_added": "2026-02-07"
+  },
+  {
+    "name": "Netflix - Sudoku",
+    "url": "https://www.netflix.com/tudum/puzzled/sudoku/daily",
+    "id": 666,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Netflix - Waywords",
-    "url": "https://www.netflix.com/tudum/puzzled/waywords/daily"
+    "url": "https://www.netflix.com/tudum/puzzled/waywords/daily",
+    "id": 629,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Ophex",
-    "url": "https://www.andrewt.net/puzzles/ophex/"
+    "url": "https://www.andrewt.net/puzzles/ophex/",
+    "id": 630,
+    "date_added": "2026-01-11"
   },
   {
     "name": "Outlier",
-    "url": "https://outlier.land"
+    "url": "https://outlier.land",
+    "id": 639,
+    "date_added": "2026-01-12"
+  },
+  {
+    "name": "QueenSweep",
+    "url": "https://playqueensweep.com",
+    "id": 667,
+    "date_added": "2026-02-07"
+  },
+  {
+    "name": "Refiner",
+    "url": "https://nibble.games/refiner/",
+    "id": 668,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Rewordio",
-    "url": "https://rewordio.com"
+    "url": "https://rewordio.com",
+    "id": 644,
+    "date_added": "2026-01-23"
   },
   {
     "name": "Ronin",
-    "url": "https://www.andrewt.net/puzzles/ronin/"
+    "url": "https://www.andrewt.net/puzzles/ronin/",
+    "id": 631,
+    "date_added": "2026-01-11"
   },
   {
     "name": "SatPin",
-    "url": "https://satpixel.com/en/satellite-pin-guess/"
+    "url": "https://satpixel.com/en/satellite-pin-guess/",
+    "id": 655,
+    "date_added": "2026-01-28"
   },
   {
     "name": "SatZoom",
-    "url": "https://satpixel.com/en/satellite-zoom-game/"
+    "url": "https://satpixel.com/en/satellite-zoom-game/",
+    "id": 656,
+    "date_added": "2026-01-28"
   },
   {
     "name": "SetFury",
-    "url": "https://www.setfury.com"
+    "url": "https://www.setfury.com",
+    "id": 640,
+    "date_added": "2026-01-12"
+  },
+  {
+    "name": "Showdle",
+    "url": "https://showdle.com",
+    "id": 669,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Spellify",
-    "url": "https://edhrec.com/games/spellify"
+    "url": "https://edhrec.com/games/spellify",
+    "id": 632,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "Spelling Bee (Lessgames)",
+    "url": "https://lessgames.com/spellingbee",
+    "id": 670,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Spongedle",
-    "url": "https://spongedle.onrender.com"
+    "url": "https://spongedle.onrender.com",
+    "id": 633,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "Stat Mini Crossword",
+    "url": "https://www.statnews.com/stat-mini-crossword/",
+    "id": 671,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Sudoku Shift",
-    "url": "https://coffeefirst.games/sudoku-shift/"
+    "url": "https://coffeefirst.games/sudoku-shift/",
+    "id": 657,
+    "date_added": "2026-01-28"
   },
   {
     "name": "The Daily Spell",
-    "url": "https://www.the-daily-spell.com"
+    "url": "https://www.the-daily-spell.com",
+    "id": 634,
+    "date_added": "2026-01-11"
   },
   {
     "name": "The Guardian - Quick Crossword",
-    "url": "https://www.theguardian.com/crosswords/series/quick"
+    "url": "https://www.theguardian.com/crosswords/series/quick",
+    "id": 645,
+    "date_added": "2026-01-23"
+  },
+  {
+    "name": "Timeline",
+    "url": "https://timeline.fromthethink.com",
+    "id": 672,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Umadle",
-    "url": "https://umadle.net"
+    "url": "https://umadle.net",
+    "id": 635,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "Viewdle",
+    "url": "https://viewdle.org",
+    "id": 673,
+    "date_added": "2026-02-07"
   },
   {
     "name": "Wallstreetle",
-    "url": "https://wallstreetle.com"
+    "url": "https://wallstreetle.com",
+    "id": 646,
+    "date_added": "2026-01-23"
   },
   {
     "name": "Word Salad",
-    "url": "https://wordsalad.online"
+    "url": "https://wordsalad.online",
+    "id": 636,
+    "date_added": "2026-01-11"
+  },
+  {
+    "name": "word.golf",
+    "url": "https://word.golf",
+    "id": 674,
+    "date_added": "2026-02-07"
+  },
+  {
+    "name": "Wordfall",
+    "url": "https://play-wordfall.com",
+    "id": 675,
+    "date_added": "2026-02-07"
   },
   {
     "name": "WordLock",
-    "url": "https://wordlockgame.com"
+    "url": "https://wordlockgame.com",
+    "id": 647,
+    "date_added": "2026-01-23"
   },
   {
     "name": "WRDLINK",
-    "url": "https://www.wrdlink.io"
+    "url": "https://www.wrdlink.io",
+    "id": 637,
+    "date_added": "2026-01-11"
   }
 ]
