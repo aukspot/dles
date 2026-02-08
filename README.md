@@ -26,10 +26,10 @@ You can suggest a feature by [filling out this form](https://tally.so/r/Gx6kXZ) 
 - 17 categories to help with organization.
 - Users can select their favorite dles for quick access.
 - Randomly pick a dle to play.
+- Option to hide/show given dles.
 
 ### Planned
 
-- Option to hide/show given dles.
 - URL parameters:
   - to load a "playlist", an exact list of dles. (each dle must be in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json))
 
