@@ -54,7 +54,7 @@
 
   function performHide() {
     const result = hiddenDles.toggleHidden(dle)
-    P
+
     if (result.success && result.action === "hide") {
       // Mark that user has hidden a dle before
       if (isLocalStorageAvailable()) {
