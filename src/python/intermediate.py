@@ -334,7 +334,7 @@ def dles_to_categorized_markdown():
     if sponsor_dles:
         result += "### Sponsors\n\n"
         for dle in sponsor_dles:
-            result += f"- [{dle['name']}]({dle['url']})\n"
+            result += f"- [{dle['name']}]({dle['url']}) - {dle.get('description', '')}\n"
         result += "\n"
 
     # Categories in defined order
@@ -344,7 +344,7 @@ def dles_to_categorized_markdown():
         cat_dles = sorted(categories[cat], key=lambda d: d["name"].lower())
         result += f"### {cat} ({len(cat_dles)})\n\n"
         for dle in cat_dles:
-            result += f"- [{dle['name']}]({dle['url']})\n"
+            result += f"- [{dle['name']}]({dle['url']}) - {dle.get('description', '')}\n"
         result += "\n"
 
     # Any remaining categories not in the defined order
@@ -353,7 +353,7 @@ def dles_to_categorized_markdown():
             cat_dles = sorted(categories[cat], key=lambda d: d["name"].lower())
             result += f"### {cat} ({len(cat_dles)})\n\n"
             for dle in cat_dles:
-                result += f"- [{dle['name']}]({dle['url']})\n"
+                result += f"- [{dle['name']}]({dle['url']}) - {dle.get('description', '')}\n"
             result += "\n"
 
     return result.rstrip() + "\n"
