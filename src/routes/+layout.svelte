@@ -91,7 +91,7 @@
       $autoMarkPlayed = localStorage.autoMarkPlayed === "true"
 
       // Load auto-reset played setting and check for midnight reset
-      $autoResetPlayed = localStorage.autoResetPlayed === "true"
+      $autoResetPlayed = localStorage.autoResetPlayed !== "false"
 
       if ($autoResetPlayed) {
         const today = new Date().toDateString()
