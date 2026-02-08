@@ -182,6 +182,7 @@
 
   a {
     @apply text-center text-base underline break-words flex-1;
+    word-break: break-word;
   }
 
   .played-btn {
