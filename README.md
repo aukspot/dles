@@ -70,7 +70,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Privacy
 
-This site uses analytics to understand traffic patterns:
+The site uses analytics to understand traffic patterns:
 - **Umami**: Privacy-focused analytics (primary tool)
 - **Google Analytics**: Used for ad network verification and monetization
 
