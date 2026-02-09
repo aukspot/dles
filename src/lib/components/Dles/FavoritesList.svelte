@@ -379,67 +379,75 @@
         </div>
       {:else}
         <!-- Grid view -->
-        <div
-          class="favorites-grid"
-          use:dndzone={{
-            items,
-            dragDisabled: !dragEnabled,
-            dropTargetStyle: {},
-            type: section,
-          }}
-          on:consider={handleDndConsider}
-          on:finalize={handleDndFinalize}
-        >
-          {#each items as favorite, index (favorite.id)}
-            {@const popupKey = `${section}-${favorite.id}`}
-            <div
-              class="grid-card"
-              class:drag-enabled={dragEnabled}
-              class:played={$playedDleIdsSet.has(favorite.id)}
-            >
-              <div class="grid-card-inner">
-                <div
-                  class="position-number"
-                  style="--category-color: {$categoryColors[
-                    favorite.category
-                  ]};"
-                >
-                  {index + 1}
-                </div>
-                <div class="grid-card-details">
-                  {#if dragEnabled}
-                    <span
-                      class="dle-name-btn grid-name drag-mode"
-                      bind:this={referenceElements[popupKey]}
-                    >
-                      {favorite.name}
-                    </span>
-                  {:else}
-                    <!-- svelte-ignore a11y-click-events-have-key-events -->
-                    <span
-                      class="dle-name-btn grid-name"
-                      role="button"
-                      tabindex="0"
-                      bind:this={referenceElements[popupKey]}
-                      on:click={(e) => handleNameClick(e, favorite, index)}
-                      on:auxclick={() => handleAuxClick(favorite, index)}
-                    >
-                      {favorite.name}
-                    </span>
-                  {/if}
-                  {#if showCategory}
-                    <div class="dle-category">{favorite.category}</div>
-                  {/if}
-                </div>
-              </div>
-              <button
-                class="play-btn"
-                on:click={() => handlePlayClick(favorite, index)}
+        <div class="reorder-wrapper" class:reorder-mode={dragEnabled}>
+          <div
+            class="favorites-grid"
+            use:dndzone={{
+              items,
+              dragDisabled: !dragEnabled,
+              dropTargetStyle: {},
+              type: section,
+            }}
+            on:consider={handleDndConsider}
+            on:finalize={handleDndFinalize}
+          >
+            {#each items as favorite, index (favorite.id)}
+              {@const popupKey = `${section}-${favorite.id}`}
+              <div
+                class="grid-card"
+                class:drag-enabled={dragEnabled}
+                class:played={$playedDleIdsSet.has(favorite.id)}
               >
-                Play
-              </button>
-            </div>
-          {/each}
+                <div class="grid-card-inner">
+                  <div
+                    class="position-number"
+                    style="--category-color: {$categoryColors[
+                      favorite.category
+                    ]};"
+                  >
+                    {index + 1}
+                  </div>
+                  <div class="grid-card-details">
+                    {#if dragEnabled}
+                      <span
+                        class="dle-name-btn grid-name drag-mode"
+                        bind:this={referenceElements[popupKey]}
+                      >
+                        {favorite.name}
+                      </span>
+                    {:else}
+                      <!-- svelte-ignore a11y-click-events-have-key-events -->
+                      <span
+                        class="dle-name-btn grid-name"
+                        role="button"
+                        tabindex="0"
+                        bind:this={referenceElements[popupKey]}
+                        on:click={(e) => handleNameClick(e, favorite, index)}
+                        on:auxclick={() => handleAuxClick(favorite, index)}
+                      >
+                        {favorite.name}
+                      </span>
+                    {/if}
+                    {#if showCategory}
+                      <div class="dle-category">{favorite.category}</div>
+                    {/if}
+                  </div>
+                </div>
+                {#if dragEnabled}
+                  <div class="drag-handle">
+                    <IconDragHandle />
+                  </div>
+                {:else}
+                  <button
+                    class="play-btn"
+                    on:click={() => handlePlayClick(favorite, index)}
+                  >
+                    Play
+                  </button>
+                {/if}
+              </div>
+            {/each}
+          </div>
         </div>
       {/if}
       {#each items as favorite (favorite.id)}
@@ -617,7 +625,7 @@
   }
 
   .dle-category {
-    @apply text-xs md:text-sm text-colorTextSoft truncate;
+    @apply text-xs md:text-sm text-colorTextSoft;
   }
 
   .favorite-actions {
@@ -674,7 +682,7 @@
   }
 
   .grid-card {
-    @apply flex items-center justify-between p-1.5 rounded-sm border border-colorNeutralSoft bg-colorCardB;
+    @apply flex items-center justify-between p-2 gap-1.5 rounded-sm border border-colorNeutralSoft bg-colorCardB;
     transition: background-color 0.15s ease;
   }
 
@@ -699,7 +707,7 @@
   }
 
   .grid-card-inner {
-    @apply flex items-center gap-1.5 min-w-0 flex-1;
+    @apply flex items-center gap-2 min-w-0 flex-1;
   }
 
   .grid-card-details {
@@ -708,5 +716,13 @@
 
   .dle-name-btn.grid-name {
     @apply text-sm leading-tight;
+  }
+
+  .grid-card .dle-category {
+    @apply text-xs;
+  }
+
+  .grid-card .play-btn {
+    @apply text-xs px-1 py-0.5;
   }
 </style>
