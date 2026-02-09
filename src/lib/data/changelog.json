@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-02-08",
+    "dles added": [
+      {
+        "name": "Spectra",
+        "url": "https://spectra.quest/puzzles/latest",
+        "id": 676
+      }
+    ],
+    "description": "Add 1 dle.<br>Add option for favorites grid view.<br>You should be able to middle-click favorites again."
+  },
+  {
     "date": "2026-02-07",
     "description": "Add 22 dles. Remove 4 dles.<br>You can now hide specific dles.<br>You can now mark dles as completed for the day.<br>Add the section NEW.<br>Redesign changelog and favorites to be much cleaner.",
     "dles added": [

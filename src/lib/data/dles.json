@@ -3476,6 +3476,13 @@
     "id": 349
   },
   {
+    "name": "Spectra",
+    "url": "https://spectra.quest/puzzles/latest",
+    "description": "Sort items by discovering the hidden metric.",
+    "category": "Trivia",
+    "id": 676
+  },
+  {
     "name": "Spell Bee",
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",

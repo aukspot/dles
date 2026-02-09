@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-07`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-02-08`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -415,7 +415,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (27)
+### Trivia (28)
 
 - [Brainer](https://gamebunny.app/brainer) - A daily quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -439,6 +439,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Redactle](https://redactle.net) - Guess the Wikipedia article by its content with keywords redacted.
 - [Revealed](https://www.britannica.com/games/revealed) - Guess the daily topic based on its description with redacted words.
 - [riddl.ing](https://riddl.ing) - Guess the answer to the handmade daily riddle in five clues.
+- [Spectra](https://spectra.quest/puzzles/latest) - Sort items by discovering the hidden metric.
 - [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) - Daily trivia quizzes from multiple categories.
 - [The Wiki Game Daily](https://www.thewikigamedaily.com) - Race from one Wikipedia page to the target page using as few links as possible
 - [Thrice](https://thrice.geekswhodrink.com) - Answer today's 5 trivia questions, each from a different category.

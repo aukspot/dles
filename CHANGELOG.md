@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-02-08
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                            | url                                                                          |   id |
+|---:|:------------------------------------------------|:-----------------------------------------------------------------------------|-----:|
+|  1 | [Spectra](https://spectra.quest/puzzles/latest) | [https://spectra.quest/puzzles/latest](https://spectra.quest/puzzles/latest) |  676 |
+
 ## 2026-02-07
 
 Add 22 dles. Remove 4 dles.<br>You can now hide specific dles.<br>You can now mark dles as completed for the day.<br>Add the section NEW.<br>Redesign changelog and favorites to be much cleaner.

@@ -154,7 +154,7 @@
   {
     "name": "Baddle",
     "url": "https://tumblecricket.net/Baddle/",
-    "description": "A roguelike where you guess the arrangement of two armies on a battlefield, in a Wordle-like fashion. Best played on desktop.",
+    "description": "A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.",
     "category": "Miscellaneous",
     "id": 658
   },
@@ -346,7 +346,7 @@
   {
     "name": "Cancelwise",
     "url": "https://cancelwise.com",
-    "description": "Cancel numbers in a way that the remaining tiles add up to the target numbers.",
+    "description": "Cancel numbers such that the remaining tiles add up to the target numbers.",
     "category": "Math/Logic",
     "id": 34
   },
@@ -3476,6 +3476,13 @@
     "id": 349
   },
   {
+    "name": "Spectra",
+    "url": "https://spectra.quest/puzzles/latest",
+    "description": "Sort items by discovering the hidden metric.",
+    "category": "Trivia",
+    "id": 676
+  },
+  {
     "name": "Spell Bee",
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",
@@ -4358,7 +4365,7 @@
   {
     "name": "Wordfall",
     "url": "https://play-wordfall.com",
-    "description": "Clear the board of letters by finding words. Clear letters on the board by finding words, ending with as few letters as possible.",
+    "description": "Clear letters on the board by finding words, ending with as few letters as possible.",
     "category": "Words",
     "id": 675
   },
