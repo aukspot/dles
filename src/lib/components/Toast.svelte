@@ -7,8 +7,11 @@
   {#each $toasts as toast (toast.id)}
     <div
       class="toast toast-{toast.type}"
+      role="alert"
       in:fly={{ y: 50, duration: 300 }}
       out:fly={{ y: 50, duration: 200 }}
+      on:mouseenter={() => toasts.pause(toast.id)}
+      on:mouseleave={() => toasts.resume(toast.id)}
     >
       <span class="toast-message">{@html toast.message}</span>
       {#if toast.actions}
