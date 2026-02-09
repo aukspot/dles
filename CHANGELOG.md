@@ -2,7 +2,7 @@
 
 ## 2026-02-08
 
-Add 1 dle. 
+Add 1 dle.<br>Add option for favorites grid view.<br>You should be able to middle-click favorites again.
 
 dles added: 
 |    | name                                            | url                                                                          |   id |
