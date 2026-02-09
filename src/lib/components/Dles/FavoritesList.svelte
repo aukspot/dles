@@ -16,11 +16,11 @@
   import { useTracking } from "$lib/composables/useTracking"
   import { usePlayedDles } from "$lib/composables/usePlayedDles"
   import { dndzone } from "svelte-dnd-action"
-  import { flip } from "svelte/animate"
 
   export let section = "favorites"
   export let showCategory = false
   export let searchModalZIndex = 1100
+  export let viewMode = "row"
 
   export let dragEnabled = false
   let items = []
@@ -133,10 +133,21 @@
     openInNewTab(favorite.url)
   }
 
-  function handleInfoClick(e, favorite) {
-    e.preventDefault()
+  function handleNameClick(e, favorite, index) {
+    if (e.ctrlKey || e.metaKey) {
+      trackGameClick(favorite, "ctrl-click", "favorites", section, index)
+      playedDles.markAsPlayed(favorite)
+      openInNewTab(favorite.url)
+      return
+    }
     const popupKey = `${section}-${favorite.id}`
     $poppedUpDle === popupKey ? ($poppedUpDle = "") : ($poppedUpDle = popupKey)
+  }
+
+  function handleAuxClick(favorite, index) {
+    trackGameClick(favorite, "middle-click", "favorites", section, index)
+    playedDles.markAsPlayed(favorite)
+    openInNewTab(favorite.url)
   }
 
   function handleClickOutside(event) {
@@ -249,20 +260,132 @@
         </Button>
       </div>
     {:else}
-      <div class="reorder-wrapper" class:reorder-mode={dragEnabled}>
+      {#if viewMode === "row"}
+        <div class="reorder-wrapper" class:reorder-mode={dragEnabled}>
+          <div
+            class="favorites-list"
+            use:dndzone={{
+              items,
+              dragDisabled: !dragEnabled,
+              dropTargetStyle: {},
+              type: section,
+              transformDraggedElement: (el) => {
+                el.style.willChange = "transform"
+                el.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)"
+                el.style.opacity = "0.95"
+              },
+            }}
+            on:consider={handleDndConsider}
+            on:finalize={handleDndFinalize}
+          >
+            {#each items as favorite, index (favorite.id)}
+              {@const popupKey = `${section}-${favorite.id}`}
+              <div
+                class="favorite-item"
+                class:even-row={index % 2 === 0}
+                class:odd-row={index % 2 !== 0}
+                class:drag-enabled={dragEnabled}
+                class:played={$playedDleIdsSet.has(favorite.id)}
+              >
+                <div class="dle-info">
+                  <div
+                    class="position-number"
+                    style="--category-color: {$categoryColors[
+                      favorite.category
+                    ]};"
+                  >
+                    {index + 1}
+                  </div>
+                  <div class="dle-details">
+                    {#if dragEnabled}
+                      <span
+                        class="dle-name-btn drag-mode"
+                        bind:this={referenceElements[popupKey]}
+                      >
+                        {favorite.name}
+                      </span>
+                    {:else}
+                      <!-- svelte-ignore a11y-click-events-have-key-events -->
+                      <span
+                        class="dle-name-btn"
+                        role="button"
+                        tabindex="0"
+                        bind:this={referenceElements[popupKey]}
+                        on:click={(e) => handleNameClick(e, favorite, index)}
+                        on:auxclick={() => handleAuxClick(favorite, index)}
+                      >
+                        {favorite.name}
+                      </span>
+                    {/if}
+                    {#if showCategory}
+                      <div class="dle-category">{favorite.category}</div>
+                    {/if}
+                  </div>
+                </div>
+                <div class="favorite-actions">
+                  {#if dragEnabled}
+                    <button
+                      class="move-btn"
+                      on:click={() => moveToTop(index)}
+                      disabled={index === 0}
+                      title="Move to top"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        class="rotate-180"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.53 15.28a.75.75 0 0 1-1.06 0l-4.25-4.25a.75.75 0 1 1 1.06-1.06L10 13.69l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25ZM14.78 5.47a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 6.53a.75.75 0 0 1 1.06-1.06L10 9.19l3.72-3.72a.75.75 0 0 1 1.06 0Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      class="move-btn"
+                      on:click={() => moveToBottom(index)}
+                      disabled={index === items.length - 1}
+                      title="Move to bottom"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M10.53 15.28a.75.75 0 0 1-1.06 0l-4.25-4.25a.75.75 0 1 1 1.06-1.06L10 13.69l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25ZM14.78 5.47a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 6.53a.75.75 0 0 1 1.06-1.06L10 9.19l3.72-3.72a.75.75 0 0 1 1.06 0Z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                    <div class="drag-handle">
+                      <IconDragHandle />
+                    </div>
+                  {:else}
+                    <button
+                      class="play-btn"
+                      on:click={() => handlePlayClick(favorite, index)}
+                    >
+                      Play
+                    </button>
+                  {/if}
+                </div>
+              </div>
+            {/each}
+          </div>
+        </div>
+      {:else}
+        <!-- Grid view -->
         <div
-          class="favorites-list"
+          class="favorites-grid"
           use:dndzone={{
             items,
-            flipDurationMs: 150,
             dragDisabled: !dragEnabled,
             dropTargetStyle: {},
             type: section,
-            transformDraggedElement: (el) => {
-              el.style.willChange = "transform"
-              el.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)"
-              el.style.opacity = "0.95"
-            },
           }}
           on:consider={handleDndConsider}
           on:finalize={handleDndFinalize}
@@ -270,96 +393,55 @@
           {#each items as favorite, index (favorite.id)}
             {@const popupKey = `${section}-${favorite.id}`}
             <div
-              class="favorite-item"
-              class:even-row={index % 2 === 0}
-              class:odd-row={index % 2 !== 0}
+              class="grid-card"
               class:drag-enabled={dragEnabled}
               class:played={$playedDleIdsSet.has(favorite.id)}
             >
-              <div class="dle-info">
+              <div class="grid-card-inner">
                 <div
                   class="position-number"
-                  style="--category-color: {$categoryColors[favorite.category]};"
+                  style="--category-color: {$categoryColors[
+                    favorite.category
+                  ]};"
                 >
                   {index + 1}
                 </div>
-                <div class="dle-details">
+                <div class="grid-card-details">
                   {#if dragEnabled}
                     <span
-                      class="dle-name-btn drag-mode"
+                      class="dle-name-btn grid-name drag-mode"
                       bind:this={referenceElements[popupKey]}
                     >
                       {favorite.name}
                     </span>
                   {:else}
-                    <button
-                      class="dle-name-btn"
+                    <!-- svelte-ignore a11y-click-events-have-key-events -->
+                    <span
+                      class="dle-name-btn grid-name"
+                      role="button"
+                      tabindex="0"
                       bind:this={referenceElements[popupKey]}
-                      on:click={(e) => handleInfoClick(e, favorite)}
+                      on:click={(e) => handleNameClick(e, favorite, index)}
+                      on:auxclick={() => handleAuxClick(favorite, index)}
                     >
                       {favorite.name}
-                    </button>
+                    </span>
                   {/if}
                   {#if showCategory}
                     <div class="dle-category">{favorite.category}</div>
                   {/if}
                 </div>
               </div>
-              <div class="favorite-actions">
-                {#if dragEnabled}
-                  <button
-                    class="move-btn"
-                    on:click={() => moveToTop(index)}
-                    disabled={index === 0}
-                    title="Move to top"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      class="rotate-180"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M10.53 15.28a.75.75 0 0 1-1.06 0l-4.25-4.25a.75.75 0 1 1 1.06-1.06L10 13.69l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25ZM14.78 5.47a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 6.53a.75.75 0 0 1 1.06-1.06L10 9.19l3.72-3.72a.75.75 0 0 1 1.06 0Z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                  </button>
-                  <button
-                    class="move-btn"
-                    on:click={() => moveToBottom(index)}
-                    disabled={index === items.length - 1}
-                    title="Move to bottom"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M10.53 15.28a.75.75 0 0 1-1.06 0l-4.25-4.25a.75.75 0 1 1 1.06-1.06L10 13.69l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25ZM14.78 5.47a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 6.53a.75.75 0 0 1 1.06-1.06L10 9.19l3.72-3.72a.75.75 0 0 1 1.06 0Z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                  </button>
-                  <div class="drag-handle">
-                    <IconDragHandle />
-                  </div>
-                {:else}
-                  <button
-                    class="play-btn"
-                    on:click={() => handlePlayClick(favorite, index)}
-                  >
-                    Play
-                  </button>
-                {/if}
-              </div>
+              <button
+                class="play-btn"
+                on:click={() => handlePlayClick(favorite, index)}
+              >
+                Play
+              </button>
             </div>
           {/each}
         </div>
-      </div>
+      {/if}
       {#each items as favorite (favorite.id)}
         {@const popupKey = `${section}-${favorite.id}`}
         {#if $poppedUpDle === popupKey}
@@ -584,5 +666,47 @@
 
   :global(.dark .reorder-active:hover) {
     background-color: rgb(37 99 235) !important; /* blue-600 */
+  }
+
+  /* Grid view styles */
+  .favorites-grid {
+    @apply grid grid-cols-2 md:grid-cols-3 gap-1.5;
+  }
+
+  .grid-card {
+    @apply flex items-center justify-between p-1.5 rounded-sm border border-colorNeutralSoft bg-colorCardB;
+    transition: background-color 0.15s ease;
+  }
+
+  .grid-card:nth-child(even) {
+    @apply bg-colorCardA;
+  }
+
+  .grid-card.played {
+    opacity: var(--dle-played-opacity);
+  }
+
+  .grid-card.drag-enabled,
+  .grid-card.drag-enabled *:not(.play-btn),
+  .grid-card.drag-enabled:hover,
+  .grid-card.drag-enabled *:not(.play-btn):hover {
+    cursor: grab !important;
+  }
+
+  .grid-card.drag-enabled:active,
+  .grid-card.drag-enabled *:not(.play-btn):active {
+    cursor: grabbing !important;
+  }
+
+  .grid-card-inner {
+    @apply flex items-center gap-1.5 min-w-0 flex-1;
+  }
+
+  .grid-card-details {
+    @apply flex-1 min-w-0;
+  }
+
+  .dle-name-btn.grid-name {
+    @apply text-sm leading-tight;
   }
 </style>

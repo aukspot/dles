@@ -49,6 +49,25 @@
   import HiddenDlesModal from "$lib/components/Dles/HiddenDlesModal.svelte"
   import MarkedDlesModal from "$lib/components/Dles/MarkedDlesModal.svelte"
 
+  function initializeDles() {
+    $dles = dles_json
+    for (let dle of $dles) {
+      dle.hidden = false
+    }
+  }
+
+  function initializeNewDles() {
+    $newDles = new_dles_json
+  }
+
+  function initializeChangelog() {
+    $changelog = changelog_json
+  }
+
+  initializeDles()
+  initializeNewDles()
+  initializeChangelog()
+
   onMount(() => {
     if (isLocalStorageAvailable()) {
       const rawFavorites = JSON.parse(localStorage.favorites || "[]")
@@ -106,25 +125,6 @@
       }
     }
   })
-
-  function initializeDles() {
-    $dles = dles_json
-    for (let dle of $dles) {
-      dle.hidden = false
-    }
-  }
-
-  function initializeNewDles() {
-    $newDles = new_dles_json
-  }
-
-  function initializeChangelog() {
-    $changelog = changelog_json
-  }
-
-  initializeDles()
-  initializeNewDles()
-  initializeChangelog()
 
   for (let category of $categories) {
     let dlesInCategory = $dles.filter((dle) => dle.category == category)

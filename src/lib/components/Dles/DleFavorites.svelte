@@ -1,51 +1,65 @@
 <script>
-  import { favorites } from "$lib/stores"
-  import { onMount } from "svelte"
+  import { favorites, favoritesView } from "$lib/stores"
   import FavoritesList from "./FavoritesList.svelte"
+  import ViewModeToggle from "./ViewModeToggle.svelte"
+  import { onMount } from "svelte"
 
-  let loading = true
+  const { viewMode } = favoritesView
+  let mounted = false
 
   onMount(() => {
-    loading = false
+    mounted = true
   })
 </script>
 
-{#if !loading}
-  <div class="favorites-container">
-    <div class="favorites-header">
-      <a href="/" class="back-arrow" aria-label="Go back home">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <path d="M19 12H5M12 19l-7-7 7-7" />
-        </svg>
-      </a>
-      <div class="header-center">
-        <h2 class="favorites-title">Favorites</h2>
-        {#if $favorites.length > 0}
-          <span class="header-count">{$favorites.length} total</span>
-        {/if}
-      </div>
-      <div class="header-spacer"></div>
+<div class="favorites-container" class:wide={$viewMode === "grid"}>
+  <div class="favorites-header">
+    <a href="/" class="back-arrow" aria-label="Go back home">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M19 12H5M12 19l-7-7 7-7" />
+      </svg>
+    </a>
+    <div class="header-center">
+      <h2 class="favorites-title">Favorites</h2>
+      {#if $favorites.length > 0}
+        <span class="header-count">{$favorites.length} total</span>
+      {/if}
     </div>
+    {#if mounted}
+      <ViewModeToggle showBadge={true} />
+    {:else}
+      <div class="toggle-placeholder"></div>
+    {/if}
+  </div>
 
-    <FavoritesList section="favorites-page" showCategory={true} />
-  </div>
-{:else}
-  <div class="loading-container">
-    <p class="loading-text">Loading...</p>
-  </div>
-{/if}
+  {#if !mounted}
+    <div class="loading-container">
+      <span class="loading-text">LOADING</span>
+    </div>
+  {:else}
+    <FavoritesList
+      section="favorites-page"
+      showCategory={true}
+      viewMode={$viewMode}
+    />
+  {/if}
+</div>
 
 <style lang="postcss">
   .favorites-container {
-    @apply max-w-lg mx-auto px-3 py-4;
+    @apply max-w-lg mx-auto px-3 py-4 transition-all duration-200;
+  }
+
+  .favorites-container.wide {
+    @apply max-w-4xl;
   }
 
   .favorites-header {
@@ -56,8 +70,8 @@
     @apply flex items-center justify-center gap-2;
   }
 
-  .header-spacer {
-    @apply w-6;
+  .toggle-placeholder {
+    @apply w-5 h-5;
   }
 
   .back-arrow {
@@ -77,10 +91,10 @@
   }
 
   .loading-container {
-    @apply text-center py-12 px-4;
+    @apply flex justify-center py-12;
   }
 
   .loading-text {
-    @apply text-colorTextSoft text-lg uppercase tracking-wide;
+    @apply text-sm font-mono text-colorTextSoft tracking-widest;
   }
 </style>

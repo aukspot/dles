@@ -119,6 +119,42 @@ function createActivePanelStore() {
 
 export let activePanelStore = createActivePanelStore()
 
+// Favorites view mode store (synced with localStorage)
+function createFavoritesViewStore() {
+  const isBrowser = typeof window !== 'undefined'
+  const isLocalStorageAvailable = isBrowser && typeof localStorage !== 'undefined'
+
+  const initialViewMode = isLocalStorageAvailable
+    ? (localStorage.getItem('favoritesViewMode') || 'row')
+    : 'row'
+  const initialToggleSeen = isLocalStorageAvailable
+    ? !!localStorage.getItem('favoritesViewToggleSeen')
+    : false
+
+  const viewMode = writable(initialViewMode)
+  const showNewBadge = writable(!initialToggleSeen)
+
+  function toggle() {
+    viewMode.update((current) => {
+      const next = current === 'row' ? 'grid' : 'row'
+      if (isLocalStorageAvailable) {
+        localStorage.setItem('favoritesViewMode', next)
+      }
+      return next
+    })
+    showNewBadge.update((current) => {
+      if (current && isLocalStorageAvailable) {
+        localStorage.setItem('favoritesViewToggleSeen', 'true')
+      }
+      return false
+    })
+  }
+
+  return { viewMode, showNewBadge, toggle }
+}
+
+export const favoritesView = createFavoritesViewStore()
+
 // Modal visibility stores
 export let showHiddenDlesModal = writable(false)
 export let showMarkedDlesModal = writable(false)
