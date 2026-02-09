@@ -602,7 +602,7 @@
   }
 
   .dle-name-btn {
-    @apply font-medium text-colorText text-base md:text-lg leading-tight block text-left;
+    @apply font-medium text-colorText text-base md:text-lg leading-tight inline text-left;
     @apply underline decoration-colorTextSoftest hover:text-colorTextSoft hover:decoration-colorTextSoft transition-colors cursor-pointer;
     @apply bg-transparent border-none p-0 m-0;
     text-decoration-thickness: 1px;
