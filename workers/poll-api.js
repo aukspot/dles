@@ -8,6 +8,8 @@
  * - GET /api/poll-results?pollId=X - Get poll results
  */
 
+import pollsData from "../src/lib/data/polls.json"
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url)
@@ -36,6 +38,30 @@ export default {
             JSON.stringify({ error: "Missing pollId or optionId" }),
             {
               status: 400,
+              headers: { ...corsHeaders, "Content-Type": "application/json" },
+            },
+          )
+        }
+
+        // Check if the poll exists and is still active
+        const poll = pollsData.find((p) => p.id === pollId)
+        if (!poll) {
+          return new Response(
+            JSON.stringify({ error: "Poll not found" }),
+            {
+              status: 404,
+              headers: { ...corsHeaders, "Content-Type": "application/json" },
+            },
+          )
+        }
+
+        const now = new Date()
+        const end = new Date(poll.timeRange.end + "T23:59:59Z")
+        if (now > end) {
+          return new Response(
+            JSON.stringify({ error: "This poll has ended" }),
+            {
+              status: 403,
               headers: { ...corsHeaders, "Content-Type": "application/json" },
             },
           )
