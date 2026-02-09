@@ -230,5 +230,24 @@
       "end": "2026-03-02"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-13",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "movies-tv",
+        "label": "Movies/TV"
+      },
+      {
+        "id": "video-games",
+        "label": "Video Games"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-02-09",
+      "end": "2026-03-09"
+    },
+    "showResultsImmediately": true
   }
 ]
