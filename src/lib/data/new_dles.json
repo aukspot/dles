@@ -1,39 +1,9 @@
 [
   {
-    "name": "Animdle",
-    "url": "https://animdle.com",
-    "id": 638,
-    "date_added": "2026-01-12"
-  },
-  {
-    "name": "Antiwordle",
-    "url": "https://www.antiwordle.com",
-    "id": 615,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "Baddle",
     "url": "https://tumblecricket.net/Baddle/",
     "id": 658,
     "date_added": "2026-02-07"
-  },
-  {
-    "name": "Bibdle",
-    "url": "https://bibdle.com",
-    "id": 616,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Celtix",
-    "url": "https://www.andrewt.net/puzzles/celtix/",
-    "id": 617,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Cliffhanger",
-    "url": "https://jumoh.com/games/cliffhanger/",
-    "id": 618,
-    "date_added": "2026-01-11"
   },
   {
     "name": "Clue Raider",
@@ -42,28 +12,10 @@
     "date_added": "2026-02-07"
   },
   {
-    "name": "Cosmeredle",
-    "url": "https://cosmeredle.net",
-    "id": 620,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "Crossflip",
     "url": "https://puzzmallow.com/crossflip",
     "id": 648,
     "date_added": "2026-01-28"
-  },
-  {
-    "name": "Exodle",
-    "url": "https://exodle.astrelion.com",
-    "id": 621,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Genshindle",
-    "url": "https://us.genshindle.com/",
-    "id": 622,
-    "date_added": "2026-01-11"
   },
   {
     "name": "GeoQuest",
@@ -132,12 +84,6 @@
     "date_added": "2026-01-28"
   },
   {
-    "name": "Loopy",
-    "url": "https://loopy.wtf",
-    "id": 623,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "Luckle",
     "url": "https://luckle.org",
     "id": 643,
@@ -150,40 +96,10 @@
     "date_added": "2026-02-07"
   },
   {
-    "name": "Marveldle",
-    "url": "https://marveldle.com/character/audiovisual/guess",
-    "id": 624,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Netflix - Bonza",
-    "url": "https://www.netflix.com/tudum/puzzled/bonza/daily",
-    "id": 625,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Netflix - Crossover",
-    "url": "https://www.netflix.com/tudum/puzzled/crossover/daily",
-    "id": 626,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Netflix - Jigsaw",
-    "url": "https://www.netflix.com/tudum/puzzled/jigsaw/daily",
-    "id": 627,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "Netflix - Keysmash",
     "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
     "id": 664,
     "date_added": "2026-02-07"
-  },
-  {
-    "name": "Netflix - Shapes",
-    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily",
-    "id": 628,
-    "date_added": "2026-01-11"
   },
   {
     "name": "Netflix - Starstruck",
@@ -196,24 +112,6 @@
     "url": "https://www.netflix.com/tudum/puzzled/sudoku/daily",
     "id": 666,
     "date_added": "2026-02-07"
-  },
-  {
-    "name": "Netflix - Waywords",
-    "url": "https://www.netflix.com/tudum/puzzled/waywords/daily",
-    "id": 629,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Ophex",
-    "url": "https://www.andrewt.net/puzzles/ophex/",
-    "id": 630,
-    "date_added": "2026-01-11"
-  },
-  {
-    "name": "Outlier",
-    "url": "https://outlier.land",
-    "id": 639,
-    "date_added": "2026-01-12"
   },
   {
     "name": "QueenSweep",
@@ -234,12 +132,6 @@
     "date_added": "2026-01-23"
   },
   {
-    "name": "Ronin",
-    "url": "https://www.andrewt.net/puzzles/ronin/",
-    "id": 631,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "SatPin",
     "url": "https://satpixel.com/en/satellite-pin-guess/",
     "id": 655,
@@ -250,12 +142,6 @@
     "url": "https://satpixel.com/en/satellite-zoom-game/",
     "id": 656,
     "date_added": "2026-01-28"
-  },
-  {
-    "name": "SetFury",
-    "url": "https://www.setfury.com",
-    "id": 640,
-    "date_added": "2026-01-12"
   },
   {
     "name": "Showdle",
@@ -270,22 +156,10 @@
     "date_added": "2026-02-08"
   },
   {
-    "name": "Spellify",
-    "url": "https://edhrec.com/games/spellify",
-    "id": 632,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "Spelling Bee (Lessgames)",
     "url": "https://lessgames.com/spellingbee",
     "id": 670,
     "date_added": "2026-02-07"
-  },
-  {
-    "name": "Spongedle",
-    "url": "https://spongedle.onrender.com",
-    "id": 633,
-    "date_added": "2026-01-11"
   },
   {
     "name": "Stat Mini Crossword",
@@ -300,12 +174,6 @@
     "date_added": "2026-01-28"
   },
   {
-    "name": "The Daily Spell",
-    "url": "https://www.the-daily-spell.com",
-    "id": 634,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "The Guardian - Quick Crossword",
     "url": "https://www.theguardian.com/crosswords/series/quick",
     "id": 645,
@@ -318,12 +186,6 @@
     "date_added": "2026-02-07"
   },
   {
-    "name": "Umadle",
-    "url": "https://umadle.net",
-    "id": 635,
-    "date_added": "2026-01-11"
-  },
-  {
     "name": "Viewdle",
     "url": "https://viewdle.org",
     "id": 673,
@@ -334,12 +196,6 @@
     "url": "https://wallstreetle.com",
     "id": 646,
     "date_added": "2026-01-23"
-  },
-  {
-    "name": "Word Salad",
-    "url": "https://wordsalad.online",
-    "id": 636,
-    "date_added": "2026-01-11"
   },
   {
     "name": "word.golf",
@@ -358,11 +214,5 @@
     "url": "https://wordlockgame.com",
     "id": 647,
     "date_added": "2026-01-23"
-  },
-  {
-    "name": "WRDLINK",
-    "url": "https://www.wrdlink.io",
-    "id": 637,
-    "date_added": "2026-01-11"
   }
 ]
