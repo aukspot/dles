@@ -2,7 +2,6 @@
   import {
     poppedUpDle,
     newDles,
-    favorites,
     favoriteIds,
     hiddenDleIdsSet,
     playedDleIdsSet,
@@ -36,10 +35,6 @@
 
   function isNewDle(dle) {
     return $newDles.filter((d) => d.url === dle.url).length === 1
-  }
-
-  function isFavorited(dle) {
-    return $favoriteIds.includes(dle.id)
   }
 
   function isPlayed(dle) {
@@ -151,7 +146,7 @@
               <IconDragHandle />
             </div>
           {:else}
-            <div class="hover-favorite" class:favorited={isFavorited(dle)}>
+            <div class="hover-favorite" class:favorited={$favoriteIds.includes(dle.id)}>
               <FavoriteButton {dle} {section} position={j} size="small" />
             </div>
           {/if}
