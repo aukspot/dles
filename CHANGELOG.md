@@ -12,9 +12,9 @@ dles added:
 |  3 | [Slate - Pears](https://slate.com/games/pears) | [https://slate.com/games/pears](https://slate.com/games/pears) |  679 |
 
 dles removed: 
-|    | name                                                    | url                                                                                        |   id |
-|---:|:--------------------------------------------------------|:-------------------------------------------------------------------------------------------|-----:|
-|  1 | [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily) | [https://sacsgames.com/wordlinx/#/todaydaily](https://sacsgames.com/wordlinx/#/todaydaily) |  442 |
+|    | name                                                    | url                                                                                        | reason                            |   id |
+|---:|:--------------------------------------------------------|:-------------------------------------------------------------------------------------------|:----------------------------------|-----:|
+|  1 | [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily) | [https://sacsgames.com/wordlinx/#/todaydaily](https://sacsgames.com/wordlinx/#/todaydaily) | Background image is AI-generated. |  442 |
 ## 2026-02-08
 
 Add 1 dle.<br>Add option for favorites grid view.<br>You should be able to middle-click favorites again.
