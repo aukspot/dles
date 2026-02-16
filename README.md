@@ -84,7 +84,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
-- [Terraformation](https://puzzmallow.com/terraformation) - Fill in the hex grid planet with the correct terrains.
 
 ### Card/Board Games (17)
 
