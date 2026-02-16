@@ -249,5 +249,24 @@
       "end": "2026-03-09"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-14",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "card-board-games",
+        "label": "Card/Board Games"
+      },
+      {
+        "id": "science-nature",
+        "label": "Science/Nature"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-02-16",
+      "end": "2026-03-16"
+    },
+    "showResultsImmediately": true
   }
 ]
