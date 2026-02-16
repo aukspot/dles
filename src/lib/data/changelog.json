@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-02-15",
+    "dles added": [
+      {
+        "name": "Chronoodle",
+        "url": "https://chronoodle.com",
+        "id": 677
+      },
+      {
+        "name": "Flags Game",
+        "url": "https://flagsgame.net",
+        "id": 678
+      },
+      {
+        "name": "Slate - Pears",
+        "url": "https://slate.com/games/pears",
+        "id": 679
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "WordLinx",
+        "url": "https://sacsgames.com/wordlinx/#/todaydaily",
+        "reason": "Background image is AI-generated.",
+        "id": 442
+      }
+    ],
+    "description": "Add 3 dles. Remove 1 dle. "
+  },
+  {
     "date": "2026-02-08",
     "dles added": [
       {

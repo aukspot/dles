@@ -702,6 +702,18 @@
     ]
   },
   {
+    "name": "WordLinx",
+    "url": "https://sacsgames.com/wordlinx/#/todaydaily",
+    "id": 442,
+    "removals": [
+      {
+        "date_removed": "2026-02-15"
+      }
+    ],
+    "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
+    "category": "Words"
+  },
+  {
     "name": "Yeardle",
     "url": "https://histordle.com/yeardle",
     "id": 450,

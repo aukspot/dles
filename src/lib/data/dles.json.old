@@ -311,7 +311,7 @@
   {
     "name": "Brainer",
     "url": "https://gamebunny.app/brainer",
-    "description": "A daily quiz show with creative questions from several categories.",
+    "description": "A weekday quiz show with creative questions from several categories.",
     "category": "Trivia",
     "id": 601
   },
@@ -479,6 +479,13 @@
     "description": "Put the events in chronological order in 3 tries or less.",
     "category": "History",
     "id": 49
+  },
+  {
+    "name": "Chronoodle",
+    "url": "https://chronoodle.com",
+    "description": "Place each event in the correct spot on the timeline.",
+    "category": "History",
+    "id": 677
   },
   {
     "name": "Chronophoto",
@@ -1223,6 +1230,13 @@
     "description": "Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.",
     "category": "Geography",
     "id": 124
+  },
+  {
+    "name": "Flags Game",
+    "url": "https://flagsgame.net",
+    "description": "Guess the country flag by its color composition.",
+    "category": "Geography",
+    "id": 678
   },
   {
     "name": "FlashPopTiles",
@@ -3403,6 +3417,13 @@
     "id": 341
   },
   {
+    "name": "Slate - Pears",
+    "url": "https://slate.com/games/pears",
+    "description": "Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.",
+    "category": "Words",
+    "id": 679
+  },
+  {
     "name": "Smashdle",
     "url": "https://smashdle.net",
     "description": "A bunch of daily games where you guess the character from Super Smash Bros.",
@@ -4410,13 +4431,6 @@
     "description": "Rearrange the words to form a chain of two-word phrases.",
     "category": "Words",
     "id": 441
-  },
-  {
-    "name": "WordLinx",
-    "url": "https://sacsgames.com/wordlinx/#/todaydaily",
-    "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
-    "category": "Words",
-    "id": 442
   },
   {
     "name": "WordLock",

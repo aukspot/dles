@@ -6,6 +6,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Chronoodle",
+    "url": "https://chronoodle.com",
+    "id": 677,
+    "date_added": "2026-02-15"
+  },
+  {
     "name": "Clue Raider",
     "url": "https://clueraider.com",
     "id": 659,
@@ -16,6 +22,12 @@
     "url": "https://puzzmallow.com/crossflip",
     "id": 648,
     "date_added": "2026-01-28"
+  },
+  {
+    "name": "Flags Game",
+    "url": "https://flagsgame.net",
+    "id": 678,
+    "date_added": "2026-02-15"
   },
   {
     "name": "GeoQuest",
@@ -148,6 +160,12 @@
     "url": "https://showdle.com",
     "id": 669,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Slate - Pears",
+    "url": "https://slate.com/games/pears",
+    "id": 679,
+    "date_added": "2026-02-15"
   },
   {
     "name": "Spectra",

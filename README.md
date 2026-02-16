@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-08`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-02-15`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -139,7 +139,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (41)
+### Geography (42)
 
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
@@ -148,6 +148,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Flagged](https://gamebunny.app/flagged) - Guess the country from pieces of its flag, and collect every flag on your 3D globe. Daily handmade challenges.
 - [Flagle](https://www.flagle.io) - Guess the flag in 5 guesses or less.
 - [Flagle Game](https://flagle-game.com) - Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.
+- [Flags Game](https://flagsgame.net) - Guess the country flag by its color composition.
 - [GeoConnections](https://geoconnections.net) - Group geography-related squares that share a common theme.
 - [Geodle](https://geodle.me) - Guess today's mystery country within 7 guesses.
 - [Geografind](https://coffeefirst.games/geografind) - Guess the mystery country in as few guesses as possible, watch the map for hints after each guess.
@@ -183,10 +184,11 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [WhichWay](https://whichway.is) - Determine which direction the target country is from the starting country, 10 rounds daily.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (14)
+### History (15)
 
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
 - [Chrono](https://chrono.quest) - Put the events in chronological order in 3 tries or less.
+- [Chronoodle](https://chronoodle.com) - Place each event in the correct spot on the timeline.
 - [Chronophoto](https://www.chronophoto.app) - Guess the year in which each historical picture was taken.
 - [Daydle](https://daydle.com) - Guess the year of a historical event that happened on this day in history.
 - [Historydle](https://historydle.com) - Daily games where you guess the historical person or place.
@@ -416,7 +418,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ### Trivia (28)
 
-- [Brainer](https://gamebunny.app/brainer) - A daily quiz show with creative questions from several categories.
+- [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
 - [Concludle](https://tryhardguides.com/concludle) - Guess the secret answer from a series of clues.
 - [Daily Dozen Trivia](https://dailydozentrivia.com) - Answer 9 trivia questions from various categories.
@@ -695,6 +697,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Sexaginta-quattuordle](https://64ordle.au/?mode=daily) - Solve 64 Wordle puzzles at the same time.
 - [Shuffalo](https://www.newyorker.com/puzzles-and-games-dept/shuffalo) - Make a word using all the letters on the wheel, adding a new letter after each correct guess.
 - [Silly Little Codes](https://playsillylittlegames.com/codes) - Guess the word or phrase represented by today's code.
+- [Slate - Pears](https://slate.com/games/pears) - Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.
 - [Smixed](https://smixed.com) - Make increasingly longer words using the given 6 letters, each word starting with a different letter.
 - [Sortdle](https://sortdle.com) - Sort letters into tubes to form the hidden words without running out of moves.
 - [SpaceWord](https://spaceword.org) - Create crosswords using all letters, using as little space as possible.
@@ -766,7 +769,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wordistance](https://wordistance.com) - Keep guessing words until you find the mystery word, each guess revealing the distance between the guessed word and mystery word.
 - [Wordless](https://lessgames.com/wordless) - Solve Wordle puzzles of various sizes.
 - [WordLink](https://playwordlink.com) - Rearrange the words to form a chain of two-word phrases.
-- [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily) - Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.
 - [WordLock](https://wordlockgame.com) - Create 5 words by choosing one letter from each column.
 - [Wordloop](https://word-loop.com) - Place segments on the circle such that each pair of segments forms a valid word.
 - [words for days](https://wordsfordays.com) - A word alchemy game with a daily objective, like infinite craft.

@@ -1,5 +1,20 @@
 # Changelog - The Dles
 
+## 2026-02-15
+
+Add 3 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                           | url                                                            |   id |
+|---:|:-----------------------------------------------|:---------------------------------------------------------------|-----:|
+|  1 | [Chronoodle](https://chronoodle.com)           | [https://chronoodle.com](https://chronoodle.com)               |  677 |
+|  2 | [Flags Game](https://flagsgame.net)            | [https://flagsgame.net](https://flagsgame.net)                 |  678 |
+|  3 | [Slate - Pears](https://slate.com/games/pears) | [https://slate.com/games/pears](https://slate.com/games/pears) |  679 |
+
+dles removed: 
+|    | name                                                    | url                                                                                        |   id |
+|---:|:--------------------------------------------------------|:-------------------------------------------------------------------------------------------|-----:|
+|  1 | [WordLinx](https://sacsgames.com/wordlinx/#/todaydaily) | [https://sacsgames.com/wordlinx/#/todaydaily](https://sacsgames.com/wordlinx/#/todaydaily) |  442 |
 ## 2026-02-08
 
 Add 1 dle.<br>Add option for favorites grid view.<br>You should be able to middle-click favorites again.
