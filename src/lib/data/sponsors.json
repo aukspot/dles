@@ -12,5 +12,12 @@
     "url": "https://lettered.io",
     "description": "Move letter tiles on the board to spell out the hidden phrase.",
     "category": "Words"
+  },
+  {
+    "name": "Cinema Circuit",
+    "url": "https://www.wfhgames.com/cinema-circuit",
+    "description": "Connect the two movie actors in the fewest links possible.",
+    "category": "Movies/TV",
+    "id": 542
   }
 ]
