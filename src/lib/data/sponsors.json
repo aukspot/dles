@@ -19,5 +19,12 @@
     "description": "Connect the two movie actors in the fewest links possible.",
     "category": "Movies/TV",
     "id": 542
+  },
+  {
+    "name": "Clue Raider",
+    "url": "https://clueraider.com",
+    "description": "Find the hidden relic by placing each person based on their clues.",
+    "category": "Math/Logic",
+    "id": 659
   }
 ]
