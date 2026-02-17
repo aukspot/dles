@@ -83,6 +83,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 ### Sponsors
 
 - [Cinema Circuit](https://www.wfhgames.com/cinema-circuit) - Connect the two movie actors in the fewest links possible.
+- [Clue Raider](https://clueraider.com) - Find the hidden relic by placing each person based on their clues.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
