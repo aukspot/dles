@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-02-18",
+    "dles added": [
+      {
+        "name": "Cadgy",
+        "url": "https://onelook.com/cadgy/",
+        "id": 680
+      },
+      {
+        "name": "Gridogram",
+        "url": "https://www.gridogram.com",
+        "id": 681
+      },
+      {
+        "name": "Rotatly",
+        "url": "https://www.rotatly.com",
+        "id": 682
+      },
+      {
+        "name": "Tile Knight",
+        "url": "https://tileknight.com",
+        "id": 683
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Warbl",
+        "url": "https://www.warbl.org",
+        "id": 582,
+        "reason": "Song audio does not play."
+      }
+    ],
+    "description": "Add 4 dles. Remove 1 dle. "
+  },
+  {
     "date": "2026-02-15",
     "dles added": [
       {

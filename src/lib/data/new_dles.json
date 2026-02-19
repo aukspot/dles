@@ -6,6 +6,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Cadgy",
+    "url": "https://onelook.com/cadgy/",
+    "id": 680,
+    "date_added": "2026-02-18"
+  },
+  {
     "name": "Chronoodle",
     "url": "https://chronoodle.com",
     "id": 677,
@@ -46,6 +52,12 @@
     "url": "https://glyph.today",
     "id": 660,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Gridogram",
+    "url": "https://www.gridogram.com",
+    "id": 681,
+    "date_added": "2026-02-18"
   },
   {
     "name": "Heardle 2020's",
@@ -144,6 +156,12 @@
     "date_added": "2026-01-23"
   },
   {
+    "name": "Rotatly",
+    "url": "https://www.rotatly.com",
+    "id": 682,
+    "date_added": "2026-02-18"
+  },
+  {
     "name": "SatPin",
     "url": "https://satpixel.com/en/satellite-pin-guess/",
     "id": 655,
@@ -196,6 +214,12 @@
     "url": "https://www.theguardian.com/crosswords/series/quick",
     "id": 645,
     "date_added": "2026-01-23"
+  },
+  {
+    "name": "Tile Knight",
+    "url": "https://tileknight.com",
+    "id": 683,
+    "date_added": "2026-02-18"
   },
   {
     "name": "Timeline",

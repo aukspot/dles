@@ -1,5 +1,21 @@
 # Changelog - The Dles
 
+## 2026-02-18
+
+Add 4 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                   | url                                                      |   id |
+|---:|:---------------------------------------|:---------------------------------------------------------|-----:|
+|  1 | [Cadgy](https://onelook.com/cadgy/)    | [https://onelook.com/cadgy/](https://onelook.com/cadgy/) |  680 |
+|  2 | [Gridogram](https://www.gridogram.com) | [https://www.gridogram.com](https://www.gridogram.com)   |  681 |
+|  3 | [Rotatly](https://www.rotatly.com)     | [https://www.rotatly.com](https://www.rotatly.com)       |  682 |
+|  4 | [Tile Knight](https://tileknight.com)  | [https://tileknight.com](https://tileknight.com)         |  683 |
+
+dles removed: 
+|    | name                           | url                                            |   id | reason                    |
+|---:|:-------------------------------|:-----------------------------------------------|-----:|:--------------------------|
+|  1 | [Warbl](https://www.warbl.org) | [https://www.warbl.org](https://www.warbl.org) |  582 | Song audio does not play. |
 ## 2026-02-15
 
 Add 3 dles. Remove 1 dle. 

@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-15`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-02-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -203,7 +203,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (62)
+### Math/Logic (63)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -265,6 +265,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Sumplete](https://sumplete.com/daily) - Delete numbers so that each row and column adds up to their target number.
 - [Tally Game](https://tally-game.com) - Partition the board of numbers such that each group sums to 10.
 - [Terraformation](https://puzzmallow.com/terraformation) - Fill in the hex grid planet with the correct terrains.
+- [Tile Knight](https://tileknight.com) - Clear every tile on the board without landing on an empty tile.
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
@@ -316,7 +317,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [The Daily Burgle](https://www.thedailyburgle.app) - Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 
-### Music (33)
+### Music (32)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [BopMatch](https://bopmatch.com) - Match the target artist with one of the same popularity - the closer the match, the higher your score! 5 new rounds every day.
@@ -350,7 +351,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Spotle](https://spotle.io) - Guess the music artist in 10 tries, gaining new information based on each guess.
 - [Swiftle](https://www.techyonic.co/swiftle) - Listen to the clip and guess the Taylor Swift song.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
-- [Warbl](https://www.warbl.org) - Guess the name of the song that is playing backwards!
 
 ### Science/Nature (11)
 
@@ -366,7 +366,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (22)
+### Shapes/Patterns (23)
 
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
@@ -385,6 +385,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Nodes](https://www.nodes-game.com) - A puzzle game where you connect dots to reveal beautiful images.
 - [Puzzmo - Flipart](https://www.puzzmo.com/play/flip-art) - Rotate the pieces to fit them within the frame.
 - [Rotaboxes](https://rotaboxes.com) - Rotate all the tiles into their correct orientation to reveal today's picture.
+- [Rotatly](https://www.rotatly.com) - Rotate cells until the outline is correct.
 - [SetFury](https://www.setfury.com) - Find valid sets of 3 to 5 tiles by moving through the grid.
 - [Shaple](https://swag.github.io/shaple) - Choose the shape that matches the top shape.
 - [Synthmaze](https://synthmaze.heliante.io/#/daily) - Swap tiles in the maze so that the rocket reaches the exit.
@@ -558,7 +559,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (219)
+### Words (220)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -572,6 +573,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Blunderwall](https://bythomas.co.uk/blunderwall) - Find the secret word on the Blunderwall in 4 tries.
 - [Boggdle](https://simenmh.com/boggdle) - Search for the best 3 words you can find in the Boggle grid.
 - [Bracket City](https://www.theatlantic.com/games/bracket-city/) - Solve the clues within brackets, eventually completing the puzzle. (From The Atlantic)
+- [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
 - [Categories](https://categories.clevergoat.com) - Group the words in the grid into the 4 secret categories, like Connections or Conexo.
 - [Cell Tower](https://www.andrewt.net/puzzles/cell-tower) - Divide the grid into regions such that each region represents a word.
 - [cemantle](https://cemantle.certitudes.org) - Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.
@@ -779,3 +781,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [WRDLINK](https://www.wrdlink.io) - Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.
 - [Wridges](https://www.washingtonpost.com/games/wridges/) - Race the clock by spelling words in the hex grid starting from the bottom row.
 - [Wrodeo](https://wrodeo.com) - Reveal the quote or book passage by guessing one word at a time, starting with some letters already shown.
+
+### Reveal the quote by finding words in the grid of letters. (1)
+
+- [Gridogram](https://www.gridogram.com) - Words

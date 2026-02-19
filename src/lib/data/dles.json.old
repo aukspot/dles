@@ -337,6 +337,13 @@
     "id": 32
   },
   {
+    "name": "Cadgy",
+    "url": "https://onelook.com/cadgy/",
+    "description": "Make valid 5-letter words by selecting one letter from each column.",
+    "category": "Words",
+    "id": 680
+  },
+  {
     "name": "Calcle",
     "url": "https://calclegame.com",
     "description": "Guess the numbers in the equation in 5 attempts or less.",
@@ -1488,6 +1495,13 @@
     "description": "Form words by placing letters on the board to get the highest score you can in this Scrabble-like daily game.",
     "category": "Words",
     "id": 145
+  },
+  {
+    "name": "Gridogram",
+    "url": "https://www.gridogram.com",
+    "description": "Words",
+    "category": "Reveal the quote by finding words in the grid of letters.",
+    "id": 681
   },
   {
     "name": "Guess My Word",
@@ -3269,6 +3283,13 @@
     "id": 329
   },
   {
+    "name": "Rotatly",
+    "url": "https://www.rotatly.com",
+    "description": "Rotate cells until the outline is correct.",
+    "category": "Shapes/Patterns",
+    "id": 682
+  },
+  {
     "name": "Royal Family",
     "url": "https://coffeefirst.games/royal-family",
     "description": "Place the chess pieces on the board so that each zone has a piece and no piece can attack another.",
@@ -3931,6 +3952,13 @@
     "id": 392
   },
   {
+    "name": "Tile Knight",
+    "url": "https://tileknight.com",
+    "description": "Clear every tile on the board without landing on an empty tile.",
+    "category": "Math/Logic",
+    "id": 683
+  },
+  {
     "name": "Tiled Words",
     "url": "https://tiledwords.com",
     "description": "Move and rotate tiles to find clues, connect words, and rebuild a broken crossword. ",
@@ -4148,13 +4176,6 @@
     "description": "Find the 'WANTED' character among all of the moving characters on the screen.",
     "category": "Miscellaneous",
     "id": 528
-  },
-  {
-    "name": "Warbl",
-    "url": "https://www.warbl.org",
-    "description": "Guess the name of the song that is playing backwards!",
-    "category": "Music",
-    "id": 582
   },
   {
     "name": "Wardle",
