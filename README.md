@@ -559,7 +559,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (220)
+### Words (221)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -622,6 +622,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Glyph](https://glyph.today) - Guess the word based on its glyph, or all of its letters stacked together.
 - [Gram Jam](https://gramjam.app) - Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.
 - [Griddle](https://griddlegame.io) - Form words by placing letters on the board to get the highest score you can in this Scrabble-like daily game.
+- [Gridogram](https://www.gridogram.com) - Reveal the quote by finding words in the grid of letters.
 - [Guess My Word](https://hryanjones.com/guess-my-word) - Make guesses and see if they are alphabetically before or after the secret word.
 - [Guess The Phrase](https://guessthephrase.xyz) - Solve each of the inner clues until you reveal the phrase, like Bracket City.
 - [hello wordl](https://hellowordl.net/?today) - Play Wordle puzzles from 4 to 11 letters long.
@@ -781,7 +782,3 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [WRDLINK](https://www.wrdlink.io) - Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.
 - [Wridges](https://www.washingtonpost.com/games/wridges/) - Race the clock by spelling words in the hex grid starting from the bottom row.
 - [Wrodeo](https://wrodeo.com) - Reveal the quote or book passage by guessing one word at a time, starting with some letters already shown.
-
-### Reveal the quote by finding words in the grid of letters. (1)
-
-- [Gridogram](https://www.gridogram.com) - Words
