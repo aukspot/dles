@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-02-19
+
+Add 3 dles. 
+
+dles added: 
+|    | name                                            | url                                                                            |   id |
+|---:|:------------------------------------------------|:-------------------------------------------------------------------------------|-----:|
+|  1 | [Dialed - Color Game](https://dialed.gg/?daily) | [https://dialed.gg/?daily](https://dialed.gg/?daily)                           |  684 |
+|  2 | [TuneGuesser](https://www.tuneguessr.net/)      | [https://www.tuneguessr.net/](https://www.tuneguessr.net/)                     |  685 |
+|  3 | [werdel](https://bennw.github.io/werdel/#daily) | [https://bennw.github.io/werdel/#daily](https://bennw.github.io/werdel/#daily) |  686 |
+
 ## 2026-02-18
 
 Add 4 dles. Remove 1 dle. 

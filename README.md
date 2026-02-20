@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-02-19`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -107,11 +107,12 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Sudoker](https://sudoker.io) - Rearrange the cards to create better Poker hands and maximize scores across rows and columns.
 - [Zaku Chess](https://zakuchess.com) - A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
 
-### Colors (5)
+### Colors (6)
 
 - [Colordle](https://colordle.ryantanen.com) - Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
 - [Colorfle](https://colorfle.com) - Figure out the color composition of the given color.
 - [ColorGuesser](https://colorguesser.com) - Guess the actual color that each of the color names represent.
+- [Dialed - Color Game](https://dialed.gg/?daily) - They show you a color for 5 seconds, then you try to recreate it. 5 rounds every day.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
@@ -140,7 +141,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (42)
+### Geography (43)
 
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
@@ -177,6 +178,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TimeGuessr](https://timeguessr.com) - Guess the right time and location of each historical photo.
 - [travle](https://travle.earth) - Connect the starting country to the ending country by naming countries in between them.
 - [Treasure Guessr](https://play.treasureguessr.com) - Narrow down a location on the world map.
+- [TuneGuesser](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Viewdle](https://viewdle.org) - Guess the country based on the view.
 - [WhenTaken](https://whentaken.com) - Guess the year and location of the given photo.
 - [WhenTaken Movies](https://movies.whentaken.com) - Guess where and when the given movie scene was filmed.
@@ -559,7 +561,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (221)
+### Words (222)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -748,6 +750,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Waffle](https://wafflegame.net/daily) - Swap letters to create words both horizontally and vertically. Seems to have been made before Word Waffle.
 - [Washington Post Crossword](https://www.washingtonpost.com/games/crossword/) - A daily crossword from the Washington Post
 - [Weaver](https://weavergame.org) - Weave your way from the start word to the end word, changing only one letter at a time.
+- [werdel](https://bennw.github.io/werdel/#daily) - Wordle except you're guessing based on the word's pronunciation as represented by the International Phonetic Alphabet (IPA).
 - [Worchle](https://www.worchle.com) - Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.
 - [Word Box](https://wordbox.game) - Swap letters until each row and column forms a valid word.
 - [Word Chain](https://wordnerd.co/wordchain) - Connect the two unrelated words by adding a chain of related words between them.

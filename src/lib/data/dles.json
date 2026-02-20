@@ -936,6 +936,13 @@
     "id": 91
   },
   {
+    "name": "Dialed - Color Game",
+    "url": "https://dialed.gg/?daily",
+    "description": "They show you a color for 5 seconds, then you try to recreate it. 5 rounds every day.",
+    "category": "Colors",
+    "id": 684
+  },
+  {
     "name": "Dimension Flux",
     "url": "https://dimensionflux.com",
     "description": "Solve the interdimensional mystery given the helpful clues.",
@@ -4086,6 +4093,13 @@
     "id": 402
   },
   {
+    "name": "TuneGuesser",
+    "url": "https://www.tuneguessr.net/",
+    "description": "Guess the country that the song is from by listening to small parts of it.",
+    "category": "Geography",
+    "id": 685
+  },
+  {
     "name": "TV Circuit",
     "url": "https://www.wfhgames.com/tv-circuit",
     "description": "Connect the two TV actors in the fewest links possible.",
@@ -4228,6 +4242,13 @@
     "description": "Guess the NFL player within 8 guesses.",
     "category": "Sports",
     "id": 415
+  },
+  {
+    "name": "werdel",
+    "url": "https://bennw.github.io/werdel/#daily",
+    "description": "Wordle except you're guessing based on the word's pronunciation as represented by the International Phonetic Alphabet (IPA).",
+    "category": "Words",
+    "id": 686
   },
   {
     "name": "WhenTaken",

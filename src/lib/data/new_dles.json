@@ -30,6 +30,12 @@
     "date_added": "2026-01-28"
   },
   {
+    "name": "Dialed - Color Game",
+    "url": "https://dialed.gg/?daily",
+    "id": 684,
+    "date_added": "2026-02-19"
+  },
+  {
     "name": "Flags Game",
     "url": "https://flagsgame.net",
     "id": 678,
@@ -228,6 +234,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "TuneGuesser",
+    "url": "https://www.tuneguessr.net/",
+    "id": 685,
+    "date_added": "2026-02-19"
+  },
+  {
     "name": "Viewdle",
     "url": "https://viewdle.org",
     "id": 673,
@@ -238,6 +250,12 @@
     "url": "https://wallstreetle.com",
     "id": 646,
     "date_added": "2026-01-23"
+  },
+  {
+    "name": "werdel",
+    "url": "https://bennw.github.io/werdel/#daily",
+    "id": 686,
+    "date_added": "2026-02-19"
   },
   {
     "name": "word.golf",
