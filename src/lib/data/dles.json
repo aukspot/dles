@@ -1260,6 +1260,13 @@
     "id": 468
   },
   {
+    "name": "Flickle.co",
+    "url": "https://flickle.co",
+    "description": "Daily movie and tv shows guessing game based on frames.",
+    "category": "Movies/TV",
+    "theme": "Dark"
+  },
+  {
     "name": "Flickle",
     "url": "https://flickle.app",
     "description": "Guess the movie based on the given video clips.",
