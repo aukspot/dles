@@ -658,6 +658,12 @@
     "id": 65
   },
   {
+    "name": "Congkak",
+    "url": "https://congkak.chyuang.com/daily",
+    "description": "A daily puzzle based on the traditional Southeast Asian mancala board game.",
+    "category": "Card/Board Games"
+  },
+  {
     "name": "Contexto",
     "url": "https://contexto.me",
     "description": "Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.",
