@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-02-22",
+    "dles added": [
+      {
+        "name": "Boston Globe - Align",
+        "url": "https://www.bostonglobe.com/games/align/",
+        "id": 687
+      },
+      {
+        "name": "Clue Tube",
+        "url": "https://thecluetube.com",
+        "id": 688
+      },
+      {
+        "name": "Harrypotterdle",
+        "url": "https://www.harrypotterdle.com",
+        "id": 689
+      },
+      {
+        "name": "Nonodle",
+        "url": "https://lab174.com/nonodle",
+        "id": 690
+      },
+      {
+        "name": "Past Puzzle",
+        "url": "https://www.pastpuzzle.de",
+        "id": 691
+      },
+      {
+        "name": "PIVOT",
+        "url": "https://pivotthegame.com",
+        "id": 692
+      },
+      {
+        "name": "Zonday",
+        "url": "https://zonday.shop",
+        "id": 693
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Stewardle",
+        "url": "https://stewardle.com",
+        "id": 594,
+        "reason": "The website does not load."
+      }
+    ],
+    "description": "Add 7 dles. Remove 1 dle."
+  },
+  {
     "date": "2026-02-19",
     "dles added": [
       {

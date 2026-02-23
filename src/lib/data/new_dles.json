@@ -6,6 +6,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Boston Globe - Align",
+    "url": "https://www.bostonglobe.com/games/align/",
+    "id": 687,
+    "date_added": "2026-02-22"
+  },
+  {
     "name": "Cadgy",
     "url": "https://onelook.com/cadgy/",
     "id": 680,
@@ -22,6 +28,12 @@
     "url": "https://clueraider.com",
     "id": 659,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Clue Tube",
+    "url": "https://thecluetube.com",
+    "id": 688,
+    "date_added": "2026-02-22"
   },
   {
     "name": "Crossflip",
@@ -66,6 +78,12 @@
     "date_added": "2026-02-18"
   },
   {
+    "name": "Harrypotterdle",
+    "url": "https://www.harrypotterdle.com",
+    "id": 689,
+    "date_added": "2026-02-22"
+  },
+  {
     "name": "Heardle 2020's",
     "url": "https://20s.heardledecades.com",
     "id": 651,
@@ -84,6 +102,12 @@
     "date_added": "2026-01-28"
   },
   {
+    "name": "Humppadle",
+    "url": "https://www.humppadle.de",
+    "id": 641,
+    "date_added": "2026-01-23"
+  },
+  {
     "name": "Jojodle",
     "url": "https://jojodle.nwcubeok.net/jojodle",
     "id": 661,
@@ -96,10 +120,22 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Lettered",
+    "url": "https://lettered.io",
+    "id": 642,
+    "date_added": "2026-01-23"
+  },
+  {
     "name": "Lockle",
     "url": "https://www.lockle.app",
     "id": 654,
     "date_added": "2026-01-28"
+  },
+  {
+    "name": "Luckle",
+    "url": "https://luckle.org",
+    "id": 643,
+    "date_added": "2026-01-23"
   },
   {
     "name": "MapleWordle",
@@ -126,6 +162,24 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Nonodle",
+    "url": "https://lab174.com/nonodle",
+    "id": 690,
+    "date_added": "2026-02-22"
+  },
+  {
+    "name": "Past Puzzle",
+    "url": "https://www.pastpuzzle.de",
+    "id": 691,
+    "date_added": "2026-02-22"
+  },
+  {
+    "name": "PIVOT",
+    "url": "https://pivotthegame.com",
+    "id": 692,
+    "date_added": "2026-02-22"
+  },
+  {
     "name": "QueenSweep",
     "url": "https://playqueensweep.com",
     "id": 667,
@@ -136,6 +190,12 @@
     "url": "https://nibble.games/refiner/",
     "id": 668,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Rewordio",
+    "url": "https://rewordio.com",
+    "id": 644,
+    "date_added": "2026-01-23"
   },
   {
     "name": "Rotatly",
@@ -192,6 +252,12 @@
     "date_added": "2026-01-28"
   },
   {
+    "name": "The Guardian - Quick Crossword",
+    "url": "https://www.theguardian.com/crosswords/series/quick",
+    "id": 645,
+    "date_added": "2026-01-23"
+  },
+  {
     "name": "Tile Knight",
     "url": "https://tileknight.com",
     "id": 683,
@@ -216,6 +282,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Wallstreetle",
+    "url": "https://wallstreetle.com",
+    "id": 646,
+    "date_added": "2026-01-23"
+  },
+  {
     "name": "werdel",
     "url": "https://bennw.github.io/werdel/#daily",
     "id": 686,
@@ -232,5 +304,17 @@
     "url": "https://play-wordfall.com",
     "id": 675,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "WordLock",
+    "url": "https://wordlockgame.com",
+    "id": 647,
+    "date_added": "2026-01-23"
+  },
+  {
+    "name": "Zonday",
+    "url": "https://zonday.shop",
+    "id": 693,
+    "date_added": "2026-02-22"
   }
 ]

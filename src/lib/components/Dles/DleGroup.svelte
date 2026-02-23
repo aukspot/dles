@@ -146,7 +146,10 @@
               <IconDragHandle />
             </div>
           {:else}
-            <div class="hover-favorite" class:favorited={$favoriteIds.includes(dle.id)}>
+            <div
+              class="hover-favorite"
+              class:favorited={$favoriteIds.includes(dle.id)}
+            >
               <FavoriteButton {dle} {section} position={j} size="small" />
             </div>
           {/if}
@@ -216,7 +219,7 @@
   .dle-name-container :global(svg) {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 0.25rem;
+    margin-left: 0.1rem;
   }
 
   .category-icon {

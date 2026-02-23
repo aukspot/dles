@@ -584,6 +584,18 @@
     ]
   },
   {
+    "name": "Stewardle",
+    "url": "https://stewardle.com",
+    "id": 594,
+    "removals": [
+      {
+        "date_removed": "2026-02-22"
+      }
+    ],
+    "description": "Guess the daily F1 driver.",
+    "category": "Sports"
+  },
+  {
     "name": "Supervivedle",
     "url": "https://supervivedle.com",
     "id": 503,

@@ -281,6 +281,13 @@
     "id": 516
   },
   {
+    "name": "Boston Globe - Align",
+    "url": "https://www.bostonglobe.com/games/align/",
+    "description": "Swap tiles in the grid so that each row and column forms a word.",
+    "category": "Words",
+    "id": 687
+  },
+  {
     "name": "Box Office Game",
     "url": "https://boxofficega.me",
     "description": "Guess the top five movies in the US domestic box office for the given weekend.",
@@ -564,6 +571,13 @@
     "description": "Find the hidden relic by placing each person based on their clues.",
     "category": "Math/Logic",
     "id": 659
+  },
+  {
+    "name": "Clue Tube",
+    "url": "https://thecluetube.com",
+    "description": "Guess the popular YouTube video based on its comments.",
+    "category": "Miscellaneous",
+    "id": 688
   },
   {
     "name": "Clues By Sam",
@@ -1597,6 +1611,13 @@
     "id": 156
   },
   {
+    "name": "Harrypotterdle",
+    "url": "https://www.harrypotterdle.com",
+    "description": "A collection of daily games related to Harry Potter.",
+    "category": "Movies/TV",
+    "id": 689
+  },
+  {
     "name": "Heardle 1950's",
     "url": "https://50s.heardledecades.com",
     "description": "Guess the 1950's song from listening to small parts of it.",
@@ -2559,6 +2580,13 @@
     "id": 487
   },
   {
+    "name": "Nonodle",
+    "url": "https://lab174.com/nonodle",
+    "description": "A daily nonogram puzzle.",
+    "category": "Math/Logic",
+    "id": 690
+  },
+  {
     "name": "Nookle",
     "url": "https://nookle.net",
     "description": "Guess the villager from Animal Crossing.",
@@ -2758,6 +2786,13 @@
     "id": 490
   },
   {
+    "name": "Past Puzzle",
+    "url": "https://www.pastpuzzle.de",
+    "description": "Guess the correct year of the given events, you have 4 tries.",
+    "category": "History",
+    "id": 691
+  },
+  {
     "name": "pedantle",
     "url": "https://pedantle.certitudes.org",
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
@@ -2814,6 +2849,13 @@
     "category": "Words",
     "theme": "Guess the word",
     "id": 492
+  },
+  {
+    "name": "PIVOT",
+    "url": "https://pivotthegame.com",
+    "description": "Create today's word by rotating its letters into the gold row.",
+    "category": "Words",
+    "id": 692
   },
   {
     "name": "Pivots",
@@ -3737,13 +3779,6 @@
     "id": 369
   },
   {
-    "name": "Stewardle",
-    "url": "https://stewardle.com",
-    "description": "Guess the daily F1 driver.",
-    "category": "Sports",
-    "id": 594
-  },
-  {
     "name": "Streetfighterdle",
     "url": "https://streetfighterdle.net",
     "description": "Guess the daily Street Fighter character in as few tries as possible.",
@@ -4618,6 +4653,13 @@
     "category": "Video Games",
     "theme": "Zelda",
     "id": 515
+  },
+  {
+    "name": "Zonday",
+    "url": "https://zonday.shop",
+    "description": "Guess the price of the item from Amazon.com.",
+    "category": "Estimation",
+    "id": 693
   },
   {
     "name": "ZoomOut",

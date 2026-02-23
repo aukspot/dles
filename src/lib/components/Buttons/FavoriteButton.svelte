@@ -115,7 +115,7 @@
   }
 
   .small {
-    @apply h-6 w-8 min-h-0;
+    @apply h-6 w-6 min-h-0;
   }
 
   .small :global(svg) {

@@ -1,5 +1,24 @@
 # Changelog - The Dles
 
+## 2026-02-22
+
+Add 7 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                             | url                                                                                  |   id |
+|---:|:-----------------------------------------------------------------|:-------------------------------------------------------------------------------------|-----:|
+|  1 | [Boston Globe - Align](https://www.bostonglobe.com/games/align/) | [https://www.bostonglobe.com/games/align/](https://www.bostonglobe.com/games/align/) |  687 |
+|  2 | [Clue Tube](https://thecluetube.com)                             | [https://thecluetube.com](https://thecluetube.com)                                   |  688 |
+|  3 | [Harrypotterdle](https://www.harrypotterdle.com)                 | [https://www.harrypotterdle.com](https://www.harrypotterdle.com)                     |  689 |
+|  4 | [Nonodle](https://lab174.com/nonodle)                            | [https://lab174.com/nonodle](https://lab174.com/nonodle)                             |  690 |
+|  5 | [Past Puzzle](https://www.pastpuzzle.de)                         | [https://www.pastpuzzle.de](https://www.pastpuzzle.de)                               |  691 |
+|  6 | [PIVOT](https://pivotthegame.com)                                | [https://pivotthegame.com](https://pivotthegame.com)                                 |  692 |
+|  7 | [Zonday](https://zonday.shop)                                    | [https://zonday.shop](https://zonday.shop)                                           |  693 |
+
+dles removed: 
+|    | name                               | url                                            |   id |
+|---:|:-----------------------------------|:-----------------------------------------------|-----:|
+|  1 | [Stewardle](https://stewardle.com) | [https://stewardle.com](https://stewardle.com) |  594 |
 ## 2026-02-19
 
 Add 3 dles. 

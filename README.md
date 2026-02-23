@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-19`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-02-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -116,7 +116,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (14)
+### Estimation (15)
 
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
 - [Brickdle](https://www.brickdle.com) - Guess the number of pieces in the pictured LEGO set.
@@ -132,6 +132,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
 - [Temple](https://tck.mn/temple) - Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
 - [Timingle](https://timingle.com) - Try to time when the countdown reaches 0. Each day the beat is different.
+- [Zonday](https://zonday.shop) - Guess the price of the item from Amazon.com.
 
 ### Food (5)
 
@@ -187,7 +188,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [WhichWay](https://whichway.is) - Determine which direction the target country is from the starting country, 10 rounds daily.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (15)
+### History (16)
 
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
 - [Chrono](https://chrono.quest) - Put the events in chronological order in 3 tries or less.
@@ -195,6 +196,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Chronophoto](https://www.chronophoto.app) - Guess the year in which each historical picture was taken.
 - [Daydle](https://daydle.com) - Guess the year of a historical event that happened on this day in history.
 - [Historydle](https://historydle.com) - Daily games where you guess the historical person or place.
+- [Past Puzzle](https://www.pastpuzzle.de) - Guess the correct year of the given events, you have 4 tries.
 - [Ripple](https://ripplegame.app) - Guess the ripple effect of historical events.
 - [Sortwise](https://sortwise.fun) - Drag to sort the events in chronological order.
 - [Timdle](https://www.timdle.com) - Place 8 historical events in chronological order.
@@ -205,7 +207,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (63)
+### Math/Logic (64)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -242,6 +244,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Netflix - Starstruck](https://www.netflix.com/tudum/puzzled/starstruck/daily) - Place a star in each row, column, and color area. Does not require a Netflix account
 - [Netflix - Sudoku](https://www.netflix.com/tudum/puzzled/sudoku/daily) - A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account
 - [Noggle](https://nibble.games/noggle/noggle.html) - A daily logic puzzle with a touch of learning and trivia.
+- [Nonodle](https://lab174.com/nonodle) - A daily nonogram puzzle.
 - [Number Island](https://numberisland.com) - Divide the number board into islands that match the target sums.
 - [Numble](https://numble.wtf) - Reach the target number only using operations and each given number exactly once.
 - [Numbobulate](https://www.numbobulate.com) - Use the numbers and operations in the square to reach the target number.
@@ -271,7 +274,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (45)
+### Movies/TV (46)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -297,6 +300,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Gaps](https://gaps.wtf) - Guess the movie based on the blanks and given information.
 - [Guess The Movie](https://guessthemovie.name) - Guess the movie based on its screenshots and details.
 - [GuessTheMovie.me](https://guessthemovie.me) - Guess the movie based on its reviews on Letterboxd.
+- [Harrypotterdle](https://www.harrypotterdle.com) - A collection of daily games related to Harry Potter.
 - [Jojodle](https://jojodle.nwcubeok.net/jojodle) - Guess the secret Stand User of the day from Jojo's Bizarre Adventure.
 - [Marveldle](https://marveldle.com/character/audiovisual/guess) - Guess the daily character from the Marvel Cinematic Universe.
 - [Movie Grid](https://moviegrid.io) - Fill out the grid with movies matching the criteria of each cell's row and column.
@@ -394,7 +398,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
 
-### Sports (23)
+### Sports (22)
 
 - [Basketball 5](https://basketball-5.com) - A collection of daily games related to basketball.
 - [Batter Up](https://www.batter-up.app) - Based on a silhouette video of their batting stance, guess the MLB player.
@@ -415,7 +419,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [NYT Connections: Sports Edition](https://www.nytimes.com/athletic/connections-sports-edition) - Group sports terms that share a common thread.
 - [Poeltl](https://poeltl.nbpa.com) - Guess the NBA player in 8 guesses.
 - [Puckdoku](https://www.puckdoku.com) - Fill out the grid with hockey players matching the criteria of each cell's row and column.
-- [Stewardle](https://stewardle.com) - Guess the daily F1 driver.
 - [Weddle](https://www.weddlegame.com) - Guess the NFL player within 8 guesses.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
@@ -529,13 +532,14 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (29)
+### Miscellaneous (30)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
 - [Artle](https://www.nga.gov/artle.html) - Guess the artist of the shown work of art.
 - [Baddle](https://tumblecricket.net/Baddle/) - A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.
 - [Bibdle](https://bibdle.com) - Guess the daily verse from the bible.
+- [Clue Tube](https://thecluetube.com) - Guess the popular YouTube video based on its comments.
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
 - [Cosmeredle](https://cosmeredle.net) - Guess the character from Brandon Sanderson's Cosmere universe by narrowing down their book, world, and abilities.
 - [Cropple](https://cropple.app) - Guess the thing based on a cropped image, you can zoom out or ask for letters.
@@ -561,7 +565,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (222)
+### Words (224)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -574,6 +578,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Blossom](https://www.merriam-webster.com/games/blossom-word-game) - Create 12 words using the letters on the petals, always including the center letter. You get more points for longer words.
 - [Blunderwall](https://bythomas.co.uk/blunderwall) - Find the secret word on the Blunderwall in 4 tries.
 - [Boggdle](https://simenmh.com/boggdle) - Search for the best 3 words you can find in the Boggle grid.
+- [Boston Globe - Align](https://www.bostonglobe.com/games/align/) - Swap tiles in the grid so that each row and column forms a word.
 - [Bracket City](https://www.theatlantic.com/games/bracket-city/) - Solve the clues within brackets, eventually completing the puzzle. (From The Atlantic)
 - [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
 - [Categories](https://categories.clevergoat.com) - Group the words in the grid into the 4 secret categories, like Connections or Conexo.
@@ -674,6 +679,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Phrasicle](https://phrasicle.com) - Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.
 - [Phrasle](https://phrasle.com) - Reveal the phrase by guessing one letter at a time.
 - [Pimantle](https://semantle.pimanrul.es) - Guess words to see how close they are to the secret word on a graph, and see where others are guessing as well!
+- [PIVOT](https://pivotthegame.com) - Create today's word by rotating its letters into the gold row.
 - [Pixletters](https://pixletters.com) - Guess the word, except each letter is represented in a pixel grid.
 - [Plausible](https://plausiblegame.com/en) - Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.
 - [PlusWord](https://puzzles-prod.telegraph.co.uk/plusword) - Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.
