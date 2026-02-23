@@ -2,7 +2,7 @@
 
 ## 2026-02-22
 
-Add 7 dles. Remove 1 dle. 
+Add 7 dles. Remove 1 dle.
 
 dles added: 
 |    | name                                                             | url                                                                                  |   id |
@@ -16,9 +16,9 @@ dles added:
 |  7 | [Zonday](https://zonday.shop)                                    | [https://zonday.shop](https://zonday.shop)                                           |  693 |
 
 dles removed: 
-|    | name                               | url                                            |   id |
-|---:|:-----------------------------------|:-----------------------------------------------|-----:|
-|  1 | [Stewardle](https://stewardle.com) | [https://stewardle.com](https://stewardle.com) |  594 |
+|    | name                               | url                                            |   id | reason                     |
+|---:|:-----------------------------------|:-----------------------------------------------|-----:|:---------------------------|
+|  1 | [Stewardle](https://stewardle.com) | [https://stewardle.com](https://stewardle.com) |  594 | The website does not load. |
 ## 2026-02-19
 
 Add 3 dles. 
