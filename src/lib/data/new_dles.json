@@ -42,12 +42,6 @@
     "date_added": "2026-01-28"
   },
   {
-    "name": "Dialed - Color Game",
-    "url": "https://dialed.gg/?daily",
-    "id": 684,
-    "date_added": "2026-02-19"
-  },
-  {
     "name": "Flags Game",
     "url": "https://flagsgame.net",
     "id": 678,
@@ -226,6 +220,12 @@
     "url": "https://coffeefirst.games/sudoku-shift/",
     "id": 657,
     "date_added": "2026-01-28"
+  },
+  {
+    "name": "Takes",
+    "url": "https://takes.clevergoat.com",
+    "id": 694,
+    "date_added": "2026-02-24"
   },
   {
     "name": "Tile Knight",

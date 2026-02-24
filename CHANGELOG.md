@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2026-02-24
+
+Add 1 dle. Remove 1 dle. 
+
+dles added: 
+|    | name                                  | url                                                          |   id |
+|---:|:--------------------------------------|:-------------------------------------------------------------|-----:|
+|  1 | [Takes](https://takes.clevergoat.com) | [https://takes.clevergoat.com](https://takes.clevergoat.com) |  694 |
+
+dles removed: 
+|    | name                                            | url                                                  |   id |
+|---:|:------------------------------------------------|:-----------------------------------------------------|-----:|
+|  1 | [Dialed - Color Game](https://dialed.gg/?daily) | [https://dialed.gg/?daily](https://dialed.gg/?daily) |  684 |
 ## 2026-02-22
 
 Add 7 dles. Remove 1 dle.

@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-02-24`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -87,7 +87,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
-### Card/Board Games (17)
+### Card/Board Games (18)
 
 - [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) - Solve the daily chess puzzle from chess.com.
 - [Chessguessr](https://www.chessguessr.com) - Given a snapshot from a chess game, guess the next 5 moves played.
@@ -105,14 +105,14 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Royal Family](https://coffeefirst.games/royal-family) - Place the chess pieces on the board so that each zone has a piece and no piece can attack another.
 - [Spellify](https://edhrec.com/games/spellify) - Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. 
 - [Sudoker](https://sudoker.io) - Rearrange the cards to create better Poker hands and maximize scores across rows and columns.
+- [Takes](https://takes.clevergoat.com) - Capture Chess pieces until only one remains.
 - [Zaku Chess](https://zakuchess.com) - A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
 
-### Colors (6)
+### Colors (5)
 
 - [Colordle](https://colordle.ryantanen.com) - Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
 - [Colorfle](https://colorfle.com) - Figure out the color composition of the given color.
 - [ColorGuesser](https://colorguesser.com) - Guess the actual color that each of the color names represent.
-- [Dialed - Color Game](https://dialed.gg/?daily) - They show you a color for 5 seconds, then you try to recreate it. 5 rounds every day.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 

@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-02-24",
+    "dles added": [
+      {
+        "name": "Takes",
+        "url": "https://takes.clevergoat.com",
+        "id": 694
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Dialed - Color Game",
+        "url": "https://dialed.gg/?daily",
+        "id": 684,
+        "reason": "They removed the daily version."
+      }
+    ],
+    "description": "Add 1 dle. Remove 1 dle. "
+  },
+  {
     "date": "2026-02-22",
     "dles added": [
       {

@@ -950,13 +950,6 @@
     "id": 91
   },
   {
-    "name": "Dialed - Color Game",
-    "url": "https://dialed.gg/?daily",
-    "description": "They show you a color for 5 seconds, then you try to recreate it. 5 rounds every day.",
-    "category": "Colors",
-    "id": 684
-  },
-  {
     "name": "Dimension Flux",
     "url": "https://dimensionflux.com",
     "description": "Solve the interdimensional mystery given the helpful clues.",
@@ -3855,6 +3848,13 @@
     "description": "Swap tiles in the maze so that the rocket reaches the exit.",
     "category": "Shapes/Patterns",
     "id": 378
+  },
+  {
+    "name": "Takes",
+    "url": "https://takes.clevergoat.com",
+    "description": "Capture Chess pieces until only one remains.",
+    "category": "Card/Board Games",
+    "id": 694
   },
   {
     "name": "Talldle",

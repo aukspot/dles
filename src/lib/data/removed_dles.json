@@ -121,6 +121,18 @@
     ]
   },
   {
+    "name": "Dialed - Color Game",
+    "url": "https://dialed.gg/?daily",
+    "id": 684,
+    "removals": [
+      {
+        "date_removed": "2026-02-24"
+      }
+    ],
+    "description": "They show you a color for 5 seconds, then you try to recreate it. 5 rounds every day.",
+    "category": "Colors"
+  },
+  {
     "name": "Dicele",
     "url": "https://dicele.com",
     "id": "M12",
