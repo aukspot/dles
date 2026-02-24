@@ -2,7 +2,7 @@
 
 ## 2026-02-24
 
-Add 1 dle. Remove 2 dles. 
+Add 1 dle. Remove 2 dles. Update url for Daily Crypticle.
 
 dles added: 
 |    | name                                  | url                                                          |   id |
@@ -10,10 +10,10 @@ dles added:
 |  1 | [Takes](https://takes.clevergoat.com) | [https://takes.clevergoat.com](https://takes.clevergoat.com) |  694 |
 
 dles removed: 
-|    | name                                            | url                                                  |   id | reason                          |
-|---:|:------------------------------------------------|:-----------------------------------------------------|-----:|:--------------------------------|
-|  1 | [Dialed - Color Game](https://dialed.gg/?daily) | [https://dialed.gg/?daily](https://dialed.gg/?daily) |  684 | They removed the daily version. |
-|  2 | [Parlorbox](https://parlorbox.com/)             | [https://parlorbox.com/](https://parlorbox.com/)     |  490 | nan                             |
+|    | name                                            | url                                                  |   id | reason                                    |
+|---:|:------------------------------------------------|:-----------------------------------------------------|-----:|:------------------------------------------|
+|  1 | [Dialed - Color Game](https://dialed.gg/?daily) | [https://dialed.gg/?daily](https://dialed.gg/?daily) |  684 | They removed the daily version.           |
+|  2 | [Parlorbox](https://parlorbox.com/)             | [https://parlorbox.com/](https://parlorbox.com/)     |  490 | Instructions button opens suspicious url. |
 ## 2026-02-22
 
 Add 7 dles. Remove 1 dle.
