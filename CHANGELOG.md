@@ -10,9 +10,9 @@ dles added:
 |  1 | [Takes](https://takes.clevergoat.com) | [https://takes.clevergoat.com](https://takes.clevergoat.com) |  694 |
 
 dles removed: 
-|    | name                                            | url                                                  |   id |
-|---:|:------------------------------------------------|:-----------------------------------------------------|-----:|
-|  1 | [Dialed - Color Game](https://dialed.gg/?daily) | [https://dialed.gg/?daily](https://dialed.gg/?daily) |  684 |
+|    | name                                            | url                                                  |   id | reason                          |
+|---:|:------------------------------------------------|:-----------------------------------------------------|-----:|:--------------------------------|
+|  1 | [Dialed - Color Game](https://dialed.gg/?daily) | [https://dialed.gg/?daily](https://dialed.gg/?daily) |  684 | They removed the daily version. |
 ## 2026-02-22
 
 Add 7 dles. Remove 1 dle.
