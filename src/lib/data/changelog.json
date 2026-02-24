@@ -14,9 +14,15 @@
         "url": "https://dialed.gg/?daily",
         "id": 684,
         "reason": "They removed the daily version."
+      },
+      {
+        "name": "Parlorbox",
+        "url": "https://parlorbox.com/",
+        "id": 490,
+        "reason": "Instructions button opens suspicious url."
       }
     ],
-    "description": "Add 1 dle. Remove 1 dle. "
+    "description": "Add 1 dle. Remove 2 dles. Update url for Daily Crypticle."
   },
   {
     "date": "2026-02-22",

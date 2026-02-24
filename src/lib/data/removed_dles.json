@@ -480,6 +480,18 @@
     ]
   },
   {
+    "name": "Parlorbox",
+    "url": "https://parlorbox.com/",
+    "id": 490,
+    "removals": [
+      {
+        "date_removed": "2026-02-24"
+      }
+    ],
+    "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Petdle",
     "url": "https://petdle.link",
     "id": 278,

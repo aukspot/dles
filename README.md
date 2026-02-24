@@ -207,7 +207,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (64)
+### Math/Logic (63)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -253,7 +253,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [One Up Puzzle](https://www.oneuppuzzle.com) - Sudoku-style game where you need to fill segmented rows and columns with numbers.
 - [Ophex](https://www.andrewt.net/puzzles/ophex/) - Combine the 7 numbers into the target number using the operations between them.
 - [Padlock](https://www.padlockgame.net) - Number puzzle game inspired by Wordle and Mastermind.
-- [Parlorbox](https://parlorbox.com/) - Logic puzzle game based on the Parlor room puzzle from Blue Prince
 - [Pell Puzzles](https://pell.achromath.com) - Fill the entire 6x6 grid by properly drawing paths between the O's and X's.
 - [Pivots](https://playpivots.com) - Sort the board by pivoting parts of it at a time.
 - [Primel](https://converged.yt/primel) - Guess the 5-digit prime number in six guesses or less.
@@ -609,7 +608,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [cryptle](https://cryptle.xyz) - Slide each row of letters in to the right position to guess the secret word. You have 5 guesses.
 - [Cyphr](https://cyphrgame.com) - Guess letters to form a word on each row of the pyramid, starting from the top row.
 - [Daily Analogy](https://dailyanalogy.com) - Guess 5 analogies each day from different categories.
-- [Daily Crypticle](https://dailycrypticle.com/dailyclue.html) - Daily cryptic puzzle in the style of Wordle. You have 3 guesses.
+- [Daily Crypticle](https://dailycrypticle.com) - Daily cryptic puzzle in the style of Wordle. You have 3 guesses.
 - [Daily Fill-Ins](https://azgames.io/game/daily-fill-ins) - Properly fill in the clue-less crossword with all of the words from the given word list.
 - [Daily Gogen](https://www.dailygogen.com) - Place the missing letters onto the grid so that the whole list of words can be made.
 - [Decipher](https://decipher.wtf) - Solve the daily cryptogram to reveal the quote.

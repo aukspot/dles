@@ -851,7 +851,7 @@
   },
   {
     "name": "Daily Crypticle",
-    "url": "https://dailycrypticle.com/dailyclue.html",
+    "url": "https://dailycrypticle.com",
     "description": "Daily cryptic puzzle in the style of Wordle. You have 3 guesses.",
     "category": "Words",
     "id": 463
@@ -2770,13 +2770,6 @@
     "category": "Video Games",
     "theme": "Palworld",
     "id": 274
-  },
-  {
-    "name": "Parlorbox",
-    "url": "https://parlorbox.com/",
-    "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
-    "category": "Math/Logic",
-    "id": 490
   },
   {
     "name": "Past Puzzle",
