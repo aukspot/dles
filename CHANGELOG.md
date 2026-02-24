@@ -2,7 +2,7 @@
 
 ## 2026-02-24
 
-Add 1 dle. Remove 2 dles. Update url for Daily Crypticle.
+Add 1 dle. Remove 2 dles. Update urls for Daily Crypticle and Pufferdle.
 
 dles added: 
 |    | name                                  | url                                                          |   id |

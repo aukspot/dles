@@ -501,7 +501,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Pokedoku](https://pokedoku.com) - Fill out the grid with Pokémon matching the criteria of each cell's row and column.
 - [Pokegrid](https://www.pokegrid.net) - Guess the combination of attributes of pokemon in a grid.
 - [Pokerating](https://pokerating.com/puzzle) - Guess an unknown Pokemon based on its in game information and how popular it is, using the ratings of other people.
-- [Pufferdle](https://pufferdle.com/#/daily) - Catch a fish from the game Stardew Valley and then guess what fish it was.
+- [Pufferdle](https://pufferdle.com) - Catch a fish from the game Stardew Valley and then guess what fish it was.
 - [R6dle](https://r6dle.net) - A collection of daily guessing games related to Tom Clancy's Rainbow Six Siege.
 - [Raindle](https://raindle.net/items) - Guess the Risk of Rain 2 item.
 - [Retro Game Trivia](https://retrotrivia.games) - Daily games where you guess the retro game that was released on this date in history.
