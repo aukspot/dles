@@ -116,7 +116,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (15)
+### Estimation (16)
 
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
 - [Brickdle](https://www.brickdle.com) - Guess the number of pieces in the pictured LEGO set.
@@ -130,9 +130,10 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
 - [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
 - [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
+- [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
 - [Temple](https://tck.mn/temple) - Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
 - [Timingle](https://timingle.com) - Try to time when the countdown reaches 0. Each day the beat is different.
-- [Zonday](https://zonday.shop) - Guess the price of the item from Amazon.com.
+- [Zonday](https://zonday.app) - Guess the price of the item from Amazon.com.
 
 ### Food (5)
 
@@ -142,10 +143,11 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (43)
+### Geography (44)
 
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
+- [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
 - [Flagdle](https://www.flagdle.org) - Guess the country by its flag.
 - [Flagdoku](https://flagdoku.com) - Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.
 - [Flagged](https://gamebunny.app/flagged) - Guess the country from pieces of its flag, and collect every flag on your 3D globe. Daily handmade challenges.
@@ -322,9 +324,10 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [The Daily Burgle](https://www.thedailyburgle.app) - Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 
-### Music (32)
+### Music (33)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
+- [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
 - [BopMatch](https://bopmatch.com) - Match the target artist with one of the same popularity - the closer the match, the higher your score! 5 new rounds every day.
 - [Crosstune](https://crosstune.io) - A music crossword puzzle where the clues include song audio.
 - [Daily Jingle](https://dailyjingle.me) - Guess the melody within 5 tries.
@@ -501,7 +504,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Pokedoku](https://pokedoku.com) - Fill out the grid with Pokémon matching the criteria of each cell's row and column.
 - [Pokegrid](https://www.pokegrid.net) - Guess the combination of attributes of pokemon in a grid.
 - [Pokerating](https://pokerating.com/puzzle) - Guess an unknown Pokemon based on its in game information and how popular it is, using the ratings of other people.
-- [Pufferdle](https://pufferdle.com/#/daily) - Catch a fish from the game Stardew Valley and then guess what fish it was.
+- [Pufferdle](https://pufferdle.com) - Catch a fish from the game Stardew Valley and then guess what fish it was.
 - [R6dle](https://r6dle.net) - A collection of daily guessing games related to Tom Clancy's Rainbow Six Siege.
 - [Raindle](https://raindle.net/items) - Guess the Risk of Rain 2 item.
 - [Retro Game Trivia](https://retrotrivia.games) - Daily games where you guess the retro game that was released on this date in history.
@@ -564,7 +567,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (224)
+### Words (225)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -736,6 +739,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Symble](https://www.symble.app) - A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.
 - [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) - A daily crossword from The Atlantic.
 - [The Daily Spell](https://www.the-daily-spell.com) - Unscramble the fictional headline by dropping letters into place.
+- [The Guardian - Cryptic Crossword](https://www.theguardian.com/crosswords/series/cryptic) - A weekday cryptic crossword from The Guardian.
 - [The Guardian - Quick Crossword](https://www.theguardian.com/crosswords/series/quick) - A small crossword puzzle from The Guardian. New puzzle 6 days a week.
 - [Thirdle](https://thirdle.org) - Solve 3 Wordle puzzles crossed together.
 - [Three Magic Words](https://www.threemagicwords.app/play) - Place letters in the empty spaces to form 3 words. Five rounds per day.

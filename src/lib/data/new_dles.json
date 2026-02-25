@@ -6,6 +6,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Beatdle",
+    "url": "https://beatdle.fun",
+    "id": 695,
+    "date_added": "2026-02-24"
+  },
+  {
     "name": "Boston Globe - Align",
     "url": "https://www.bostonglobe.com/games/align/",
     "id": 687,
@@ -40,6 +46,12 @@
     "url": "https://puzzmallow.com/crossflip",
     "id": 648,
     "date_added": "2026-01-28"
+  },
+  {
+    "name": "Electle",
+    "url": "https://electle.fun",
+    "id": 696,
+    "date_added": "2026-02-24"
   },
   {
     "name": "Flags Game",
@@ -144,6 +156,12 @@
     "date_added": "2026-02-22"
   },
   {
+    "name": "Packle",
+    "url": "https://packle.top",
+    "id": 697,
+    "date_added": "2026-02-24"
+  },
+  {
     "name": "Past Puzzle",
     "url": "https://www.pastpuzzle.de",
     "id": 691,
@@ -225,6 +243,12 @@
     "name": "Takes",
     "url": "https://takes.clevergoat.com",
     "id": 694,
+    "date_added": "2026-02-24"
+  },
+  {
+    "name": "The Guardian - Cryptic Crossword",
+    "url": "https://www.theguardian.com/crosswords/series/cryptic",
+    "id": 698,
     "date_added": "2026-02-24"
   },
   {

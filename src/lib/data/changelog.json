@@ -6,6 +6,26 @@
         "name": "Takes",
         "url": "https://takes.clevergoat.com",
         "id": 694
+      },
+      {
+        "name": "Beatdle",
+        "url": "https://beatdle.fun",
+        "id": 695
+      },
+      {
+        "name": "Electle",
+        "url": "https://electle.fun",
+        "id": 696
+      },
+      {
+        "name": "Packle",
+        "url": "https://packle.top",
+        "id": 697
+      },
+      {
+        "name": "The Guardian - Cryptic Crossword",
+        "url": "https://www.theguardian.com/crosswords/series/cryptic",
+        "id": 698
       }
     ],
     "dles removed": [
@@ -22,7 +42,7 @@
         "reason": "Instructions button opens suspicious url."
       }
     ],
-    "description": "Add 1 dle. Remove 2 dles. Update urls for Daily Crypticle and Pufferdle."
+    "description": "Add 5 dles. Remove 2 dles. Update urls for Daily Crypticle and Pufferdle."
   },
   {
     "date": "2026-02-22",

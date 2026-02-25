@@ -2,12 +2,16 @@
 
 ## 2026-02-24
 
-Add 1 dle. Remove 2 dles. Update url for Daily Crypticle.
+Add 5 dles. Remove 2 dles. Update urls for Daily Crypticle and Pufferdle.
 
 dles added: 
-|    | name                                  | url                                                          |   id |
-|---:|:--------------------------------------|:-------------------------------------------------------------|-----:|
-|  1 | [Takes](https://takes.clevergoat.com) | [https://takes.clevergoat.com](https://takes.clevergoat.com) |  694 |
+|    | name                                                                                      | url                                                                                                            |   id |
+|---:|:------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|-----:|
+|  1 | [Takes](https://takes.clevergoat.com)                                                     | [https://takes.clevergoat.com](https://takes.clevergoat.com)                                                   |  694 |
+|  2 | [Beatdle](https://beatdle.fun)                                                            | [https://beatdle.fun](https://beatdle.fun)                                                                     |  695 |
+|  3 | [Electle](https://electle.fun)                                                            | [https://electle.fun](https://electle.fun)                                                                     |  696 |
+|  4 | [Packle](https://packle.top)                                                              | [https://packle.top](https://packle.top)                                                                       |  697 |
+|  5 | [The Guardian - Cryptic Crossword](https://www.theguardian.com/crosswords/series/cryptic) | [https://www.theguardian.com/crosswords/series/cryptic](https://www.theguardian.com/crosswords/series/cryptic) |  698 |
 
 dles removed: 
 |    | name                                            | url                                                  |   id | reason                                    |

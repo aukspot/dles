@@ -196,6 +196,13 @@
     "id": 17
   },
   {
+    "name": "Beatdle",
+    "url": "https://beatdle.fun",
+    "description": "Recreate the drum beat on the sequencer after listening to it.",
+    "category": "Music",
+    "id": 695
+  },
+  {
     "name": "Bells & Whistles",
     "url": "https://puzzmallow.com/bells",
     "description": "Fill the grid with bells and whistles, matching the group numbers on the rows and columns.",
@@ -1057,6 +1064,13 @@
     "description": "Unscramble each word, adding a new letter each time. You have 5 minutes.",
     "category": "Words",
     "id": 104
+  },
+  {
+    "name": "Electle",
+    "url": "https://electle.fun",
+    "description": "Guess the country and election year of the given parliament seating diagram.",
+    "category": "Geography",
+    "id": 696
   },
   {
     "name": "Elemingle",
@@ -2750,6 +2764,13 @@
     "id": 272
   },
   {
+    "name": "Packle",
+    "url": "https://packle.top",
+    "description": "Guess how many circles can fit into today's shape.",
+    "category": "Estimation",
+    "id": 697
+  },
+  {
     "name": "Padlock",
     "url": "https://www.padlockgame.net",
     "description": "Number puzzle game inspired by Wordle and Mastermind.",
@@ -2998,7 +3019,7 @@
   },
   {
     "name": "Pufferdle",
-    "url": "https://pufferdle.com/#/daily",
+    "url": "https://pufferdle.com",
     "description": "Catch a fish from the game Stardew Valley and then guess what fish it was.",
     "category": "Video Games",
     "theme": "Stardew Valley",
@@ -3931,6 +3952,13 @@
     "id": 634
   },
   {
+    "name": "The Guardian - Cryptic Crossword",
+    "url": "https://www.theguardian.com/crosswords/series/cryptic",
+    "description": "A weekday cryptic crossword from The Guardian.",
+    "category": "Words",
+    "id": 698
+  },
+  {
     "name": "The Guardian - Quick Crossword",
     "url": "https://www.theguardian.com/crosswords/series/quick",
     "description": "A small crossword puzzle from The Guardian. New puzzle 6 days a week.",
@@ -4649,7 +4677,7 @@
   },
   {
     "name": "Zonday",
-    "url": "https://zonday.shop",
+    "url": "https://zonday.app",
     "description": "Guess the price of the item from Amazon.com.",
     "category": "Estimation",
     "id": 693
