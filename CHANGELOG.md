@@ -2,7 +2,7 @@
 
 ## 2026-03-01
 
-Add 9 dles. 
+Add 9 dles. Move LinkedIn - Pinpoint to the Words category.
 
 dles added: 
 |    | name                                              | url                                                            |   id |
