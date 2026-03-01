@@ -488,6 +488,20 @@
     "id": 47
   },
   {
+    "name": "CHN LNK",
+    "url": "https://thechnlnk.com",
+    "description": "Complete the chain of connected words by guessing all of the consonants, then all of the vowels.",
+    "category": "Words",
+    "id": 699
+  },
+  {
+    "name": "Chroma",
+    "url": "https://robson.plus/chroma",
+    "description": "Match the color name with their color, 5 rounds every day.",
+    "category": "Colors",
+    "id": 700
+  },
+  {
     "name": "Chronle",
     "url": "https://chronle.com",
     "description": "Put the events in the order of when they happened.",
@@ -1469,6 +1483,20 @@
     "id": 649
   },
   {
+    "name": "Giffle - Friends",
+    "url": "https://giffle.com/friends/",
+    "description": "Guess the Friends episode based on short gifs taken from it.",
+    "category": "Movies/TV",
+    "id": 701
+  },
+  {
+    "name": "Giffle - Simpsons",
+    "url": "https://giffle.com/simpsons/",
+    "description": "Guess the Simpsons episode based on short gifs taken from it.",
+    "category": "Movies/TV",
+    "id": 702
+  },
+  {
     "name": "Gisnep",
     "url": "https://gisnep.com",
     "description": "Solve the daily quote with the letters above each column.",
@@ -1516,6 +1544,13 @@
     "description": "Select the dataset that fits the displayed graph.",
     "category": "Miscellaneous",
     "id": 144
+  },
+  {
+    "name": "Griddable",
+    "url": "https://griddable.co.uk",
+    "description": "Create a grid of words with a blind sequence of letters, mixing in your own letters as you go.",
+    "category": "Words",
+    "id": 703
   },
   {
     "name": "Griddle",
@@ -2129,7 +2164,7 @@
     "name": "LinkedIn - Pinpoint",
     "url": "https://www.linkedin.com/games/pinpoint",
     "description": "Guess today's category given as few clues as possible. Does not require a LinkedIn account.",
-    "category": "Trivia",
+    "category": "Words",
     "id": 206
   },
   {
@@ -2540,7 +2575,7 @@
   {
     "name": "Netflix - Keysmash",
     "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
-    "description": "Guess the themed words with their vowels removed. Does not require a Netflix account",
+    "description": "Guess the themed words with their vowels removed. Does not require a Netflix account.",
     "category": "Words",
     "id": 664
   },
@@ -2554,14 +2589,14 @@
   {
     "name": "Netflix - Starstruck",
     "url": "https://www.netflix.com/tudum/puzzled/starstruck/daily",
-    "description": "Place a star in each row, column, and color area. Does not require a Netflix account",
+    "description": "Place a star in each row, column, and color area. Does not require a Netflix account.",
     "category": "Math/Logic",
     "id": 665
   },
   {
     "name": "Netflix - Sudoku",
     "url": "https://www.netflix.com/tudum/puzzled/sudoku/daily",
-    "description": "A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account",
+    "description": "A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account.",
     "category": "Math/Logic",
     "id": 666
   },
@@ -2976,6 +3011,13 @@
     "id": 292
   },
   {
+    "name": "Ponder Club",
+    "url": "https://ponderclub.co",
+    "description": "A collection of various daily games.",
+    "category": "Miscellaneous",
+    "id": 704
+  },
+  {
     "name": "Poople",
     "url": "https://poople.io",
     "description": "Get to 'POOP' in as few steps as possible!",
@@ -3175,6 +3217,13 @@
     "description": "Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.",
     "category": "Words",
     "id": 314
+  },
+  {
+    "name": "Radiordle",
+    "url": "https://www.radiordle.org",
+    "description": "Make the correct diagnosis based on the medical image and hints provided.",
+    "category": "Science/Nature",
+    "id": 705
   },
   {
     "name": "Raindle",
@@ -4349,6 +4398,13 @@
     "id": 597
   },
   {
+    "name": "Whodle",
+    "url": "https://whodle.dixonary.co.uk",
+    "description": "Guess the Doctor Who episode based on the frames, audio, or transcripts.",
+    "category": "Movies/TV",
+    "id": 706
+  },
+  {
     "name": "Wildlife Sudoku",
     "url": "https://flagdoku.com/wildlife.html",
     "description": "Guess 9 animals that properly fill in the grid.",
@@ -4564,6 +4620,13 @@
     "description": "Guess the 5-letter word based on where adjacent letters relatively appear in the alphabet.",
     "category": "Words",
     "id": 512
+  },
+  {
+    "name": "WordWavr",
+    "url": "https://wordwavr.app",
+    "description": "Guess the 5 letter word that's been transformed into a wave.",
+    "category": "Words",
+    "id": 707
   },
   {
     "name": "Worldle",

@@ -287,5 +287,24 @@
       "end": "2026-03-23"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-16",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "math-logic",
+        "label": "Math/Logic"
+      },
+      {
+        "id": "music",
+        "label": "Music"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-03-02",
+      "end": "2026-04-02"
+    },
+    "showResultsImmediately": true
   }
 ]

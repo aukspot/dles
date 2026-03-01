@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-03-01",
+    "dles added": [
+      {
+        "name": "CHN LNK",
+        "url": "https://thechnlnk.com",
+        "id": 699
+      },
+      {
+        "name": "Chroma",
+        "url": "https://robson.plus/chroma",
+        "id": 700
+      },
+      {
+        "name": "Giffle - Friends",
+        "url": "https://giffle.com/friends/",
+        "id": 701
+      },
+      {
+        "name": "Giffle - Simpsons",
+        "url": "https://giffle.com/simpsons/",
+        "id": 702
+      },
+      {
+        "name": "Griddable",
+        "url": "https://griddable.co.uk",
+        "id": 703
+      },
+      {
+        "name": "Ponder Club",
+        "url": "https://ponderclub.co",
+        "id": 704
+      },
+      {
+        "name": "Radiordle",
+        "url": "https://www.radiordle.org",
+        "id": 705
+      },
+      {
+        "name": "Whodle",
+        "url": "https://whodle.dixonary.co.uk",
+        "id": 706
+      },
+      {
+        "name": "WordWavr",
+        "url": "https://wordwavr.app",
+        "id": 707
+      }
+    ],
+    "description": "Add 9 dles. Move LinkedIn - Pinpoint to the Words category."
+  },
+  {
     "date": "2026-02-24",
     "dles added": [
       {

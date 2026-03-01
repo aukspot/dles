@@ -1,5 +1,22 @@
 # Changelog - The Dles
 
+## 2026-03-01
+
+Add 9 dles. 
+
+dles added: 
+|    | name                                              | url                                                            |   id |
+|---:|:--------------------------------------------------|:---------------------------------------------------------------|-----:|
+|  1 | [CHN LNK](https://thechnlnk.com)                  | [https://thechnlnk.com](https://thechnlnk.com)                 |  699 |
+|  2 | [Chroma](https://robson.plus/chroma)              | [https://robson.plus/chroma](https://robson.plus/chroma)       |  700 |
+|  3 | [Giffle - Friends](https://giffle.com/friends/)   | [https://giffle.com/friends/](https://giffle.com/friends/)     |  701 |
+|  4 | [Giffle - Simpsons](https://giffle.com/simpsons/) | [https://giffle.com/simpsons/](https://giffle.com/simpsons/)   |  702 |
+|  5 | [Griddable](https://griddable.co.uk)              | [https://griddable.co.uk](https://griddable.co.uk)             |  703 |
+|  6 | [Ponder Club](https://ponderclub.co)              | [https://ponderclub.co](https://ponderclub.co)                 |  704 |
+|  7 | [Radiordle](https://www.radiordle.org)            | [https://www.radiordle.org](https://www.radiordle.org)         |  705 |
+|  8 | [Whodle](https://whodle.dixonary.co.uk)           | [https://whodle.dixonary.co.uk](https://whodle.dixonary.co.uk) |  706 |
+|  9 | [WordWavr](https://wordwavr.app)                  | [https://wordwavr.app](https://wordwavr.app)                   |  707 |
+
 ## 2026-02-24
 
 Add 5 dles. Remove 2 dles. Update urls for Daily Crypticle and Pufferdle.

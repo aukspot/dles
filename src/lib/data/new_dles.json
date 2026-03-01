@@ -24,6 +24,18 @@
     "date_added": "2026-02-18"
   },
   {
+    "name": "CHN LNK",
+    "url": "https://thechnlnk.com",
+    "id": 699,
+    "date_added": "2026-03-01"
+  },
+  {
+    "name": "Chroma",
+    "url": "https://robson.plus/chroma",
+    "id": 700,
+    "date_added": "2026-03-01"
+  },
+  {
     "name": "Chronoodle",
     "url": "https://chronoodle.com",
     "id": 677,
@@ -42,12 +54,6 @@
     "date_added": "2026-02-22"
   },
   {
-    "name": "Crossflip",
-    "url": "https://puzzmallow.com/crossflip",
-    "id": 648,
-    "date_added": "2026-01-28"
-  },
-  {
     "name": "Electle",
     "url": "https://electle.fun",
     "id": 696,
@@ -60,22 +66,28 @@
     "date_added": "2026-02-15"
   },
   {
-    "name": "GeoQuest",
-    "url": "https://geoquest.gg",
-    "id": 649,
-    "date_added": "2026-01-28"
+    "name": "Giffle - Friends",
+    "url": "https://giffle.com/friends/",
+    "id": 701,
+    "date_added": "2026-03-01"
   },
   {
-    "name": "Globeiku",
-    "url": "https://www.globeiku.com",
-    "id": 650,
-    "date_added": "2026-01-28"
+    "name": "Giffle - Simpsons",
+    "url": "https://giffle.com/simpsons/",
+    "id": 702,
+    "date_added": "2026-03-01"
   },
   {
     "name": "Glyph",
     "url": "https://glyph.today",
     "id": 660,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Griddable",
+    "url": "https://griddable.co.uk",
+    "id": 703,
+    "date_added": "2026-03-01"
   },
   {
     "name": "Gridogram",
@@ -90,24 +102,6 @@
     "date_added": "2026-02-22"
   },
   {
-    "name": "Heardle 2020's",
-    "url": "https://20s.heardledecades.com",
-    "id": 651,
-    "date_added": "2026-01-28"
-  },
-  {
-    "name": "Heardle K-pop",
-    "url": "https://kpop.heardledecades.com",
-    "id": 652,
-    "date_added": "2026-01-28"
-  },
-  {
-    "name": "Historydle",
-    "url": "https://historydle.com",
-    "id": 653,
-    "date_added": "2026-01-28"
-  },
-  {
     "name": "Jojodle",
     "url": "https://jojodle.nwcubeok.net/jojodle",
     "id": 661,
@@ -118,12 +112,6 @@
     "url": "https://www.landmarkdgame.com",
     "id": 662,
     "date_added": "2026-02-07"
-  },
-  {
-    "name": "Lockle",
-    "url": "https://www.lockle.app",
-    "id": 654,
-    "date_added": "2026-01-28"
   },
   {
     "name": "MapleWordle",
@@ -174,10 +162,22 @@
     "date_added": "2026-02-22"
   },
   {
+    "name": "Ponder Club",
+    "url": "https://ponderclub.co",
+    "id": 704,
+    "date_added": "2026-03-01"
+  },
+  {
     "name": "QueenSweep",
     "url": "https://playqueensweep.com",
     "id": 667,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Radiordle",
+    "url": "https://www.radiordle.org",
+    "id": 705,
+    "date_added": "2026-03-01"
   },
   {
     "name": "Refiner",
@@ -190,18 +190,6 @@
     "url": "https://www.rotatly.com",
     "id": 682,
     "date_added": "2026-02-18"
-  },
-  {
-    "name": "SatPin",
-    "url": "https://satpixel.com/en/satellite-pin-guess/",
-    "id": 655,
-    "date_added": "2026-01-28"
-  },
-  {
-    "name": "SatZoom",
-    "url": "https://satpixel.com/en/satellite-zoom-game/",
-    "id": 656,
-    "date_added": "2026-01-28"
   },
   {
     "name": "Showdle",
@@ -232,12 +220,6 @@
     "url": "https://www.statnews.com/stat-mini-crossword/",
     "id": 671,
     "date_added": "2026-02-07"
-  },
-  {
-    "name": "Sudoku Shift",
-    "url": "https://coffeefirst.games/sudoku-shift/",
-    "id": 657,
-    "date_added": "2026-01-28"
   },
   {
     "name": "Takes",
@@ -282,6 +264,12 @@
     "date_added": "2026-02-19"
   },
   {
+    "name": "Whodle",
+    "url": "https://whodle.dixonary.co.uk",
+    "id": 706,
+    "date_added": "2026-03-01"
+  },
+  {
     "name": "word.golf",
     "url": "https://word.golf",
     "id": 674,
@@ -292,6 +280,12 @@
     "url": "https://play-wordfall.com",
     "id": 675,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "WordWavr",
+    "url": "https://wordwavr.app",
+    "id": 707,
+    "date_added": "2026-03-01"
   },
   {
     "name": "Zonday",

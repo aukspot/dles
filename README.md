@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-02-24`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-01`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -108,8 +108,9 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Takes](https://takes.clevergoat.com) - Capture Chess pieces until only one remains.
 - [Zaku Chess](https://zakuchess.com) - A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
 
-### Colors (5)
+### Colors (6)
 
+- [Chroma](https://robson.plus/chroma) - Match the color name with their color, 5 rounds every day.
 - [Colordle](https://colordle.ryantanen.com) - Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
 - [Colorfle](https://colorfle.com) - Figure out the color composition of the given color.
 - [ColorGuesser](https://colorguesser.com) - Guess the actual color that each of the color names represent.
@@ -243,8 +244,8 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Mineswifter](https://mineswifter.com) - Solvable Minesweeper puzzles with daily challenges.
 - [Murdle](https://murdle.com) - Solve today's murder-mystery logic puzzle.
 - [Nerdle](https://nerdlegame.com) - Guess the secret arithmetic equation.
-- [Netflix - Starstruck](https://www.netflix.com/tudum/puzzled/starstruck/daily) - Place a star in each row, column, and color area. Does not require a Netflix account
-- [Netflix - Sudoku](https://www.netflix.com/tudum/puzzled/sudoku/daily) - A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account
+- [Netflix - Starstruck](https://www.netflix.com/tudum/puzzled/starstruck/daily) - Place a star in each row, column, and color area. Does not require a Netflix account.
+- [Netflix - Sudoku](https://www.netflix.com/tudum/puzzled/sudoku/daily) - A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account.
 - [Noggle](https://nibble.games/noggle/noggle.html) - A daily logic puzzle with a touch of learning and trivia.
 - [Nonodle](https://lab174.com/nonodle) - A daily nonogram puzzle.
 - [Number Island](https://numberisland.com) - Divide the number board into islands that match the target sums.
@@ -275,7 +276,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (46)
+### Movies/TV (49)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -299,6 +300,8 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Flickle](https://flickle.app) - Guess the movie based on the given video clips.
 - [Framed](https://framed.wtf) - Guess the movie from 6 frames.
 - [Gaps](https://gaps.wtf) - Guess the movie based on the blanks and given information.
+- [Giffle - Friends](https://giffle.com/friends/) - Guess the Friends episode based on short gifs taken from it.
+- [Giffle - Simpsons](https://giffle.com/simpsons/) - Guess the Simpsons episode based on short gifs taken from it.
 - [Guess The Movie](https://guessthemovie.name) - Guess the movie based on its screenshots and details.
 - [GuessTheMovie.me](https://guessthemovie.me) - Guess the movie based on its reviews on Letterboxd.
 - [Harrypotterdle](https://www.harrypotterdle.com) - A collection of daily games related to Harry Potter.
@@ -323,6 +326,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Spongedle](https://spongedle.onrender.com) - Guess the episode from Spongebob Squarepants based on the screenshots.
 - [The Daily Burgle](https://www.thedailyburgle.app) - Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
+- [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
 ### Music (33)
 
@@ -360,7 +364,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Swiftle](https://www.techyonic.co/swiftle) - Listen to the clip and guess the Taylor Swift song.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 
-### Science/Nature (11)
+### Science/Nature (12)
 
 - [Birdie Game](https://birdiegame.net) - Guess the bird from cropped images and audio.
 - [Birdle](https://www.play-birdle.com) - Identify today's bird in 6 guesses or less.
@@ -371,6 +375,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Fishdle](https://tacklevillage.com/fishdle-game/) - Guess the fish based on its silhouette and number of letters.
 - [Metaflora](https://flora.metazooa.com) - Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.
 - [Metazooa](https://metazooa.com) - Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.
+- [Radiordle](https://www.radiordle.org) - Make the correct diagnosis based on the medical image and hints provided.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
@@ -425,7 +430,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (28)
+### Trivia (27)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -438,7 +443,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Factle](https://frontofficesports.com/trivia/factle) - Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
 - [GuessTen](https://guessten.com) - Guess the top ten entries of today's category.
 - [Jeopardy 6](https://www.jeopardy.com/play/j6) - Weekday jeopardy game where you answer 12 multiple choice questions.
-- [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint) - Guess today's category given as few clues as possible. Does not require a LinkedIn account.
 - [On the Record](https://www.washingtonpost.com/news-quiz) - Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
 - [pedantle](https://pedantle.certitudes.org) - Find the secret Wikipedia page by revealing the words in its introduction.
 - [PopCultured](https://histordle.com/popcultured) - Guess the year given three pop culture items released that year.
@@ -534,7 +538,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (30)
+### Miscellaneous (31)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
@@ -559,6 +563,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [morsle](https://morsle.fun) - Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.
 - [Morsle (decipher.wiki)](https://decipher.wiki/morsle) - Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.
 - [Picsey](https://picsey.io) - Identify today's picture by flipping over as few tiles as possible.
+- [Ponder Club](https://ponderclub.co) - A collection of various daily games.
 - [Power Scadle](https://powerscadle.com) - Compare two fictional characters and guess which one is stronger.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
@@ -567,7 +572,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (225)
+### Words (229)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -588,6 +593,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [cemantle](https://cemantle.certitudes.org) - Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.
 - [Chainagram](https://puzzletrail.games/puzzles/chainagram) - Make a chain linking two words together by changing one letter and making an anagram at each step.
 - [Chiddle](https://www.chiddle.net) - Try to find five high scoring words in the puzzle grid, like Boggle.
+- [CHN LNK](https://thechnlnk.com) - Complete the chain of connected words by guessing all of the consonants, then all of the vowels.
 - [ClickWord](https://clickword.org) - Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.
 - [Cluewords](https://wordnerd.co/cluewords) - Solve the clues to find the hidden words.
 - [Cobble](https://wilf.live/cobble/) - Find two words that together use up all the given letters.
@@ -630,6 +636,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Gisnep](https://gisnep.com) - Solve the daily quote with the letters above each column.
 - [Glyph](https://glyph.today) - Guess the word based on its glyph, or all of its letters stacked together.
 - [Gram Jam](https://gramjam.app) - Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.
+- [Griddable](https://griddable.co.uk) - Create a grid of words with a blind sequence of letters, mixing in your own letters as you go.
 - [Griddle](https://griddlegame.io) - Form words by placing letters on the board to get the highest score you can in this Scrabble-like daily game.
 - [Gridogram](https://www.gridogram.com) - Reveal the quote by finding words in the grid of letters.
 - [Guess My Word](https://hryanjones.com/guess-my-word) - Make guesses and see if they are alphabetically before or after the secret word.
@@ -660,6 +667,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 - [Lingule](https://lingule.xyz) - Guess the language of the today's word in 6 guesses or less.
 - [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb) - Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.
+- [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint) - Guess today's category given as few clues as possible. Does not require a LinkedIn account.
 - [Linxicon](https://linxicon.com) - Connect two random words by creating a chain of new words that bridge the gap in their meanings.
 - [Lirdle](https://lirdle.com) - Wordle except each line contains a lie. (Like Fibble)
 - [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) - A daily mini crossword from The Observer.
@@ -667,7 +675,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Mislettered](https://tryhardguides.com/mislettered) - Solve the word or phrase by guessing one letter at a time.
 - [Netflix - Bonza](https://www.netflix.com/tudum/puzzled/bonza/daily) - Join fragments of letters together to form words that share a theme. Does not require a Netflix account.
 - [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) - Swap letters and emojis to form words that match the clues. Does not require a Netflix account.
-- [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) - Guess the themed words with their vowels removed. Does not require a Netflix account
+- [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) - Guess the themed words with their vowels removed. Does not require a Netflix account.
 - [Netflix - Waywords](https://www.netflix.com/tudum/puzzled/waywords/daily) - A themed word search with emojis where the words make make a path. Does not require a Netflix account.
 - [NYT Connections](https://www.nytimes.com/games/connections) - Group words that share a common thread.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.
@@ -790,6 +798,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [words for days](https://wordsfordays.com) - A word alchemy game with a daily objective, like infinite craft.
 - [WordSmyth](https://playwordsmyth.com) - Transform the word using one of the clues listed until you reach the secret word.
 - [Wordspan](https://puzzmallow.com/wordspan) - Guess the 5-letter word based on where adjacent letters relatively appear in the alphabet.
+- [WordWavr](https://wordwavr.app) - Guess the 5 letter word that's been transformed into a wave.
 - [Wormle](https://wormle.com) - Worm your way through the grid to spell today's themed words.
 - [WRDLINK](https://www.wrdlink.io) - Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.
 - [Wridges](https://www.washingtonpost.com/games/wridges/) - Race the clock by spelling words in the hex grid starting from the bottom row.
