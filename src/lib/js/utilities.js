@@ -35,7 +35,7 @@ export function openInNewTab(href, trackingData = null) {
   }).click()
 }
 
-export function playRandom(options, customTrackingData = null) {
+export function playRandom(options, customTrackingData = null, onChosen = null) {
   if (options.length != 0) {
     const choice = options[Math.floor(Math.random() * options.length)]
 
@@ -52,6 +52,7 @@ export function playRandom(options, customTrackingData = null) {
     }
 
     openInNewTab(choice.url, trackingData)
+    if (onChosen) onChosen(choice)
   }
 }
 

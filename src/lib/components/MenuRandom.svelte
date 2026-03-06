@@ -7,7 +7,10 @@
     hiddenDleIds,
     completelyHiddenSections,
   } from "$lib/stores"
+  import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
   import { onMount } from "svelte"
+
+  const { markAsPlayed } = usePlayedDles()
   import Modal from "./Modal.svelte"
   import PanelTitle from "./PanelTitle.svelte"
 
@@ -114,7 +117,7 @@
           click_type: "random-button-menu",
           section: "random-menu",
           available_options: options.length,
-        })}
+        }, markAsPlayed)}
     >
       Play random dle!
     </button>

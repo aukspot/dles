@@ -166,7 +166,7 @@
       section,
       available_options: $favorites.length,
     }
-    playRandom($favorites, customTrackingData)
+    playRandom($favorites, customTrackingData, playedDles.markAsPlayed)
   }
 
   function openSearchModal() {
