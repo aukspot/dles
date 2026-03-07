@@ -2,7 +2,7 @@
 
 ## 2026-03-06
 
-Add 10 dles. Remove 1 dle. Dles played with random button will be marked as played if auto-mark setting is active. Random button avoids picking dles marked as played.
+Add 10 dles. Remove 1 dle. Dles played with random button will be marked as played if auto-mark setting is active.<br>Random button avoids picking dles marked as played.
 
 dles added: 
 |    | name                                                                | url                                                                              |   id |
