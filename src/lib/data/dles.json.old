@@ -167,6 +167,13 @@
     "id": 14
   },
   {
+    "name": "Ballpark",
+    "url": "https://www.ball-park.dev",
+    "description": "Guess how many objects fall into the container before time runs out, 5 rounds every day.",
+    "category": "Estimation",
+    "id": 708
+  },
+  {
     "name": "Bandle",
     "url": "https://bandle.app",
     "description": "Guess the song, one instrument at a time (sort of).",
@@ -514,6 +521,27 @@
     "description": "Put the events in chronological order in 3 tries or less.",
     "category": "History",
     "id": 49
+  },
+  {
+    "name": "Chrono NBA",
+    "url": "https://chrono.quest/basketball.html",
+    "description": "Put the NBA events in chronological order in 3 tries or less.",
+    "category": "Sports",
+    "id": 709
+  },
+  {
+    "name": "Chrono NFL",
+    "url": "https://chrono.quest/nfl.html",
+    "description": "Put the NFL events in chronological order in 3 tries or less.",
+    "category": "Sports",
+    "id": 710
+  },
+  {
+    "name": "Chrono USA",
+    "url": "https://chrono.quest/us_history.html",
+    "description": "Put the USA events in chronological order in 3 tries or less.",
+    "category": "History",
+    "id": 711
   },
   {
     "name": "Chronoodle",
@@ -2210,6 +2238,13 @@
     "id": 212
   },
   {
+    "name": "list animals until failure",
+    "url": "https://rose.systems/animalist/#today",
+    "description": "List as many animals of a given type as you can until time runs out.",
+    "category": "Science/Nature",
+    "id": 712
+  },
+  {
     "name": "Locatle",
     "url": "https://locatle.strct.net",
     "description": "Guess the country that the picture was taken in.",
@@ -2545,6 +2580,13 @@
     "id": 250
   },
   {
+    "name": "Nerdcube - Dabble",
+    "url": "https://www.nerdcube.games/dabble",
+    "description": "Score as many points as you can by building words on a small custom Scrabble board.",
+    "category": "Words",
+    "id": 713
+  },
+  {
     "name": "Nerdle",
     "url": "https://nerdlegame.com",
     "description": "Guess the secret arithmetic equation.",
@@ -2635,6 +2677,13 @@
     "category": "Video Games",
     "theme": "Animal Crossing",
     "id": 254
+  },
+  {
+    "name": "Number Crunch",
+    "url": "https://numbercrunch.fun",
+    "description": "Clear the board by efficiently matching digits. Clicking a number increments it, except for 9 which wraps around to 1.",
+    "category": "Shapes/Patterns",
+    "id": 714
   },
   {
     "name": "Number Island",
@@ -3452,6 +3501,13 @@
     "id": 333
   },
   {
+    "name": "Scrokkdle",
+    "url": "https://scrokkle.io/daily",
+    "description": "Build connected Poker hands on the board using the tiles given to you. Like Poker mixed with Scrabble.",
+    "category": "Card/Board Games",
+    "id": 715
+  },
+  {
     "name": "Seadle",
     "url": "https://seadle.muhashi.com",
     "description": "Guess the sea of the day in as few attempts as possible.",
@@ -3835,6 +3891,13 @@
     "id": 369
   },
   {
+    "name": "Stepwords",
+    "url": "https://stepwords.xyz",
+    "description": "A word ladder game where each word is an anagram of the previous word plus an extra letter.",
+    "category": "Words",
+    "id": 716
+  },
+  {
     "name": "Streetfighterdle",
     "url": "https://streetfighterdle.net",
     "description": "Guess the daily Street Fighter character in as few tries as possible.",
@@ -4027,6 +4090,13 @@
     "description": "Race from one Wikipedia page to the target page using as few links as possible",
     "category": "Trivia",
     "id": 387
+  },
+  {
+    "name": "Thinky Dailies",
+    "url": "https://thinkygames.com/dailies/today/",
+    "description": "Handcrafted daily puzzles of all different kinds with a fun connected story.",
+    "category": "Miscellaneous",
+    "id": 717
   },
   {
     "name": "Thirdle",

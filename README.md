@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-01`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -87,7 +87,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
-### Card/Board Games (18)
+### Card/Board Games (19)
 
 - [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) - Solve the daily chess puzzle from chess.com.
 - [Chessguessr](https://www.chessguessr.com) - Given a snapshot from a chess game, guess the next 5 moves played.
@@ -103,6 +103,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Puzzmo - Really Bad Chess](https://www.puzzmo.com/play/really-bad-chess) - Checkmate the opponent's king in this randomized Chess variant.
 - [Ronin](https://www.andrewt.net/puzzles/ronin/) - Fill each region with Chess pieces such that no piece can attack a piece of the same type.
 - [Royal Family](https://coffeefirst.games/royal-family) - Place the chess pieces on the board so that each zone has a piece and no piece can attack another.
+- [Scrokkdle](https://scrokkle.io/daily) - Build connected Poker hands on the board using the tiles given to you. Like Poker mixed with Scrabble.
 - [Spellify](https://edhrec.com/games/spellify) - Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. 
 - [Sudoker](https://sudoker.io) - Rearrange the cards to create better Poker hands and maximize scores across rows and columns.
 - [Takes](https://takes.clevergoat.com) - Capture Chess pieces until only one remains.
@@ -117,9 +118,10 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (16)
+### Estimation (17)
 
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
+- [Ballpark](https://www.ball-park.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day.
 - [Brickdle](https://www.brickdle.com) - Guess the number of pieces in the pictured LEGO set.
 - [Centroid](https://centroidgame.com) - Guess the center of mass of all the shapes in the grid.
 - [Costcodle](https://costcodle.com) - Guess the price of the given Costco item.
@@ -191,10 +193,11 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [WhichWay](https://whichway.is) - Determine which direction the target country is from the starting country, 10 rounds daily.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (16)
+### History (17)
 
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
 - [Chrono](https://chrono.quest) - Put the events in chronological order in 3 tries or less.
+- [Chrono USA](https://chrono.quest/us_history.html) - Put the USA events in chronological order in 3 tries or less.
 - [Chronoodle](https://chronoodle.com) - Place each event in the correct spot on the timeline.
 - [Chronophoto](https://www.chronophoto.app) - Guess the year in which each historical picture was taken.
 - [Daydle](https://daydle.com) - Guess the year of a historical event that happened on this day in history.
@@ -364,7 +367,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Swiftle](https://www.techyonic.co/swiftle) - Listen to the clip and guess the Taylor Swift song.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 
-### Science/Nature (12)
+### Science/Nature (13)
 
 - [Birdie Game](https://birdiegame.net) - Guess the bird from cropped images and audio.
 - [Birdle](https://www.play-birdle.com) - Identify today's bird in 6 guesses or less.
@@ -373,13 +376,14 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Doggle](https://doggle.app) - Guess breed of the dog in the picture.
 - [Elemingle](https://elemingle.com) - Guess today's element by swiping cards left, right or up.
 - [Fishdle](https://tacklevillage.com/fishdle-game/) - Guess the fish based on its silhouette and number of letters.
+- [list animals until failure](https://rose.systems/animalist/#today) - List as many animals of a given type as you can until time runs out.
 - [Metaflora](https://flora.metazooa.com) - Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.
 - [Metazooa](https://metazooa.com) - Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.
 - [Radiordle](https://www.radiordle.org) - Make the correct diagnosis based on the medical image and hints provided.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (23)
+### Shapes/Patterns (24)
 
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
@@ -396,6 +400,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Netflix - Jigsaw](https://www.netflix.com/tudum/puzzled/jigsaw/daily) - Complete the image by finding the right spot for each piece. Does not require a Netflix account.
 - [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily) - Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.
 - [Nodes](https://www.nodes-game.com) - A puzzle game where you connect dots to reveal beautiful images.
+- [Number Crunch](https://numbercrunch.fun) - Clear the board by efficiently matching digits. Clicking a number increments it, except for 9 which wraps around to 1.
 - [Puzzmo - Flipart](https://www.puzzmo.com/play/flip-art) - Rotate the pieces to fit them within the frame.
 - [Rotaboxes](https://rotaboxes.com) - Rotate all the tiles into their correct orientation to reveal today's picture.
 - [Rotatly](https://www.rotatly.com) - Rotate cells until the outline is correct.
@@ -405,10 +410,12 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
 
-### Sports (22)
+### Sports (24)
 
 - [Basketball 5](https://basketball-5.com) - A collection of daily games related to basketball.
 - [Batter Up](https://www.batter-up.app) - Based on a silhouette video of their batting stance, guess the MLB player.
+- [Chrono NBA](https://chrono.quest/basketball.html) - Put the NBA events in chronological order in 3 tries or less.
+- [Chrono NFL](https://chrono.quest/nfl.html) - Put the NFL events in chronological order in 3 tries or less.
 - [Daily Walkoff](https://www.dailywalkoff.com) - Put each baseball player in the correct trivia column to walk-off the game!
 - [Factle Sports](https://frontofficesports.com/trivia/factle-sports) - Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.
 - [Futbol 11](https://futbol-11.com/) - A collection of daily games related to Soccer (Fútbol).
@@ -538,7 +545,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (31)
+### Miscellaneous (32)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
@@ -568,11 +575,12 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
+- [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (229)
+### Words (231)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -673,6 +681,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) - A daily mini crossword from The Observer.
 - [Minute Cryptic](https://www.minutecryptic.com) - Solve today's cryptic clue.
 - [Mislettered](https://tryhardguides.com/mislettered) - Solve the word or phrase by guessing one letter at a time.
+- [Nerdcube - Dabble](https://www.nerdcube.games/dabble) - Score as many points as you can by building words on a small custom Scrabble board.
 - [Netflix - Bonza](https://www.netflix.com/tudum/puzzled/bonza/daily) - Join fragments of letters together to form words that share a theme. Does not require a Netflix account.
 - [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) - Swap letters and emojis to form words that match the clues. Does not require a Netflix account.
 - [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) - Guess the themed words with their vowels removed. Does not require a Netflix account.
@@ -741,6 +750,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Stacks](https://www.theatlantic.com/games/stacks/) - Stack words from the word bank to create new words going horizontally. (From The Atlantic)
 - [Stat Mini Crossword](https://www.statnews.com/stat-mini-crossword/) - A weekday mini crossword that's often health and medicine focused.
 - [Stepdle](https://www.stepdle.com) - Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.
+- [Stepwords](https://stepwords.xyz) - A word ladder game where each word is an anagram of the previous word plus an extra letter.
 - [Summit Game](https://summit-puzzle.me) - With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.
 - [Survivle](https://lazyguyy.github.io/survivle) - Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.
 - [Swapple](https://nibble.games/swapple/swapple-easy.html) - Swap letters such that every row and column is a word.

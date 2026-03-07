@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-03-06",
+    "dles added": [
+      {
+        "name": "Ballpark",
+        "url": "https://www.ball-park.dev",
+        "id": 708
+      },
+      {
+        "name": "Chrono NBA",
+        "url": "https://chrono.quest/basketball.html",
+        "id": 709
+      },
+      {
+        "name": "Chrono NFL",
+        "url": "https://chrono.quest/nfl.html",
+        "id": 710
+      },
+      {
+        "name": "Chrono USA",
+        "url": "https://chrono.quest/us_history.html",
+        "id": 711
+      },
+      {
+        "name": "list animals until failure",
+        "url": "https://rose.systems/animalist/#today",
+        "id": 712
+      },
+      {
+        "name": "Nerdcube - Dabble",
+        "url": "https://www.nerdcube.games/dabble",
+        "id": 713
+      },
+      {
+        "name": "Number Crunch",
+        "url": "https://numbercrunch.fun",
+        "id": 714
+      },
+      {
+        "name": "Scrokkdle",
+        "url": "https://scrokkle.io/daily",
+        "id": 715
+      },
+      {
+        "name": "Stepwords",
+        "url": "https://stepwords.xyz",
+        "id": 716
+      },
+      {
+        "name": "Thinky Dailies",
+        "url": "https://thinkygames.com/dailies/today/",
+        "id": 717
+      }
+    ],
+    "description": "Add 10 dles. Dles played with random button will be marked as played if auto-mark setting is active. Random button avoids picking dles marked as played."
+  },
+  {
     "date": "2026-03-01",
     "dles added": [
       {

@@ -6,6 +6,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Ballpark",
+    "url": "https://www.ball-park.dev",
+    "id": 708,
+    "date_added": "2026-03-06"
+  },
+  {
     "name": "Beatdle",
     "url": "https://beatdle.fun",
     "id": 695,
@@ -34,6 +40,24 @@
     "url": "https://robson.plus/chroma",
     "id": 700,
     "date_added": "2026-03-01"
+  },
+  {
+    "name": "Chrono NBA",
+    "url": "https://chrono.quest/basketball.html",
+    "id": 709,
+    "date_added": "2026-03-06"
+  },
+  {
+    "name": "Chrono NFL",
+    "url": "https://chrono.quest/nfl.html",
+    "id": 710,
+    "date_added": "2026-03-06"
+  },
+  {
+    "name": "Chrono USA",
+    "url": "https://chrono.quest/us_history.html",
+    "id": 711,
+    "date_added": "2026-03-06"
   },
   {
     "name": "Chronoodle",
@@ -114,10 +138,22 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "list animals until failure",
+    "url": "https://rose.systems/animalist/#today",
+    "id": 712,
+    "date_added": "2026-03-06"
+  },
+  {
     "name": "MapleWordle",
     "url": "https://www.maplewordle.com",
     "id": 663,
     "date_added": "2026-02-07"
+  },
+  {
+    "name": "Nerdcube - Dabble",
+    "url": "https://www.nerdcube.games/dabble",
+    "id": 713,
+    "date_added": "2026-03-06"
   },
   {
     "name": "Netflix - Keysmash",
@@ -142,6 +178,12 @@
     "url": "https://lab174.com/nonodle",
     "id": 690,
     "date_added": "2026-02-22"
+  },
+  {
+    "name": "Number Crunch",
+    "url": "https://numbercrunch.fun",
+    "id": 714,
+    "date_added": "2026-03-06"
   },
   {
     "name": "Packle",
@@ -192,6 +234,12 @@
     "date_added": "2026-02-18"
   },
   {
+    "name": "Scrokkdle",
+    "url": "https://scrokkle.io/daily",
+    "id": 715,
+    "date_added": "2026-03-06"
+  },
+  {
     "name": "Showdle",
     "url": "https://showdle.com",
     "id": 669,
@@ -222,6 +270,12 @@
     "date_added": "2026-02-07"
   },
   {
+    "name": "Stepwords",
+    "url": "https://stepwords.xyz",
+    "id": 716,
+    "date_added": "2026-03-06"
+  },
+  {
     "name": "Takes",
     "url": "https://takes.clevergoat.com",
     "id": 694,
@@ -232,6 +286,12 @@
     "url": "https://www.theguardian.com/crosswords/series/cryptic",
     "id": 698,
     "date_added": "2026-02-24"
+  },
+  {
+    "name": "Thinky Dailies",
+    "url": "https://thinkygames.com/dailies/today/",
+    "id": 717,
+    "date_added": "2026-03-06"
   },
   {
     "name": "Tile Knight",

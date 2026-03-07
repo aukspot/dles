@@ -1,5 +1,23 @@
 # Changelog - The Dles
 
+## 2026-03-06
+
+Add 10 dles. Dles played with random button will be marked as played if auto-mark setting is active. Random button avoids picking dles marked as played.
+
+dles added: 
+|    | name                                                                | url                                                                              |   id |
+|---:|:--------------------------------------------------------------------|:---------------------------------------------------------------------------------|-----:|
+|  1 | [Ballpark](https://www.ball-park.dev)                               | [https://www.ball-park.dev](https://www.ball-park.dev)                           |  708 |
+|  2 | [Chrono NBA](https://chrono.quest/basketball.html)                  | [https://chrono.quest/basketball.html](https://chrono.quest/basketball.html)     |  709 |
+|  3 | [Chrono NFL](https://chrono.quest/nfl.html)                         | [https://chrono.quest/nfl.html](https://chrono.quest/nfl.html)                   |  710 |
+|  4 | [Chrono USA](https://chrono.quest/us_history.html)                  | [https://chrono.quest/us_history.html](https://chrono.quest/us_history.html)     |  711 |
+|  5 | [list animals until failure](https://rose.systems/animalist/#today) | [https://rose.systems/animalist/#today](https://rose.systems/animalist/#today)   |  712 |
+|  6 | [Nerdcube - Dabble](https://www.nerdcube.games/dabble)              | [https://www.nerdcube.games/dabble](https://www.nerdcube.games/dabble)           |  713 |
+|  7 | [Number Crunch](https://numbercrunch.fun)                           | [https://numbercrunch.fun](https://numbercrunch.fun)                             |  714 |
+|  8 | [Scrokkdle](https://scrokkle.io/daily)                              | [https://scrokkle.io/daily](https://scrokkle.io/daily)                           |  715 |
+|  9 | [Stepwords](https://stepwords.xyz)                                  | [https://stepwords.xyz](https://stepwords.xyz)                                   |  716 |
+| 10 | [Thinky Dailies](https://thinkygames.com/dailies/today/)            | [https://thinkygames.com/dailies/today/](https://thinkygames.com/dailies/today/) |  717 |
+
 ## 2026-03-01
 
 Add 9 dles. Move LinkedIn - Pinpoint to the Words category.
