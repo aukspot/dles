@@ -160,13 +160,15 @@
   }
 
   function handlePlayRandomFavorite() {
+    const unplayed = $favorites.filter((f) => !$playedDleIdsSet.has(f.id))
+    const pool = unplayed.length > 0 ? unplayed : $favorites
     const customTrackingData = {
       click_type: "random-button-favorites",
       source: section === "favorites-modal" ? "main-page" : "favorites-page",
       section,
-      available_options: $favorites.length,
+      available_options: pool.length,
     }
-    playRandom($favorites, customTrackingData, playedDles.markAsPlayed)
+    playRandom(pool, customTrackingData, playedDles.markAsPlayed)
   }
 
   function openSearchModal() {

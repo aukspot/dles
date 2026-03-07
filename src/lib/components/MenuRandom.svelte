@@ -6,13 +6,14 @@
     randomCategories,
     hiddenDleIds,
     completelyHiddenSections,
+    playedDleIdsSet,
   } from "$lib/stores"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
   import { onMount } from "svelte"
-
-  const { markAsPlayed } = usePlayedDles()
   import Modal from "./Modal.svelte"
   import PanelTitle from "./PanelTitle.svelte"
+
+  const { markAsPlayed } = usePlayedDles()
 
   let options = []
   let excludeHidden = true
@@ -30,8 +31,9 @@
       const inSelectedCategory = $randomCategories.includes(dle.category)
       const isHidden = $hiddenDleIds.includes(dle.id)
       const isCategoryHidden = $completelyHiddenSections[dle.category] === true
+      const isPlayed = $playedDleIdsSet.has(dle.id)
       return (
-        inSelectedCategory && (!excludeHidden || !isHidden) && !isCategoryHidden
+        inSelectedCategory && (!excludeHidden || !isHidden) && !isCategoryHidden && !isPlayed
       )
     })
   }
@@ -101,8 +103,8 @@
   $: allSelected = selectedCount === visibleCategories.length
   $: noneSelected = selectedCount === 0
 
-  // Update options when hidden dles or sections change
-  $: $hiddenDleIds, $completelyHiddenSections, updateOptions()
+  // Update options when hidden dles, sections, or played dles change
+  $: $hiddenDleIds, $completelyHiddenSections, $playedDleIdsSet, updateOptions()
 </script>
 
 <div>

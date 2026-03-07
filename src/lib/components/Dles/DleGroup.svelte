@@ -37,10 +37,6 @@
     return $newDles.filter((d) => d.url === dle.url).length === 1
   }
 
-  function isPlayed(dle) {
-    return $playedDleIdsSet.has(dle.id)
-  }
-
   function handleClickOutside(event) {
     const originalEvent = event.detail?.originalEvent
     const target = originalEvent?.target

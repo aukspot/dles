@@ -204,6 +204,7 @@
     $completelyHiddenSections
     buildCards()
   }
+
 </script>
 
 <svelte:window on:resize={handleResize} />
