@@ -582,6 +582,18 @@
     ]
   },
   {
+    "name": "Spectra",
+    "url": "https://spectra.quest/puzzles/latest",
+    "id": 676,
+    "removals": [
+      {
+        "date_removed": "2026-03-06"
+      }
+    ],
+    "description": "Sort items by discovering the hidden metric.",
+    "category": "Trivia"
+  },
+  {
     "name": "sqnces",
     "url": "https://sqnces.com",
     "id": 537,

@@ -169,7 +169,7 @@
   {
     "name": "Ballpark",
     "url": "https://www.ball-park.dev",
-    "description": "Guess how many objects fall into the container before time runs out, 5 rounds every day.",
+    "description": "Guess how many objects went into the container before time runs out, 5 rounds every day.",
     "category": "Estimation",
     "id": 708
   },
@@ -3677,13 +3677,6 @@
     "description": "Create crosswords using all letters, using as little space as possible.",
     "category": "Words",
     "id": 349
-  },
-  {
-    "name": "Spectra",
-    "url": "https://spectra.quest/puzzles/latest",
-    "description": "Sort items by discovering the hidden metric.",
-    "category": "Trivia",
-    "id": 676
   },
   {
     "name": "Spell Bee",

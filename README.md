@@ -72,9 +72,9 @@ This will update the `./docs` directory with a new build of the site.
 
 The site uses analytics to understand traffic patterns:
 - **Umami**: Privacy-focused analytics (primary tool)
-- **Google Analytics**: Used for ad network verification and monetization
+- **Google Analytics**: Used for sponsors
 
-No personally identifiable information is collected. Outbound clicks to games are tracked anonymously.
+No personally identifiable information is collected. Outbound clicks to games are counted anonymously.
 
 ## Current list of dles
 
@@ -437,7 +437,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (27)
+### Trivia (26)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -460,7 +460,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Redactle](https://redactle.net) - Guess the Wikipedia article by its content with keywords redacted.
 - [Revealed](https://www.britannica.com/games/revealed) - Guess the daily topic based on its description with redacted words.
 - [riddl.ing](https://riddl.ing) - Guess the answer to the handmade daily riddle in five clues.
-- [Spectra](https://spectra.quest/puzzles/latest) - Sort items by discovering the hidden metric.
 - [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) - Daily trivia quizzes from multiple categories.
 - [The Wiki Game Daily](https://www.thewikigamedaily.com) - Race from one Wikipedia page to the target page using as few links as possible
 - [Thrice](https://thrice.geekswhodrink.com) - Answer today's 5 trivia questions, each from a different category.
