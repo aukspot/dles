@@ -306,5 +306,24 @@
       "end": "2026-04-02"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-17",
+    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "options": [
+      {
+        "id": "geography",
+        "label": "Geography"
+      },
+      {
+        "id": "history",
+        "label": "History"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-03-09",
+      "end": "2026-04-09"
+    },
+    "showResultsImmediately": true
   }
 ]
