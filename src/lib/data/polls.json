@@ -325,5 +325,28 @@
       "end": "2026-04-09"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-18",
+    "question": "Would you like a login system to keep your favorites and settings synced between devices?",
+    "options": [
+      {
+        "id": "yes",
+        "label": "Yes"
+      },
+      {
+        "id": "no",
+        "label": "No"
+      },
+      {
+        "id": "i-dont-care",
+        "label": "I don't care"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-03-10",
+      "end": "2026-05-10"
+    },
+    "showResultsImmediately": true
   }
 ]
