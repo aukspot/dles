@@ -2389,6 +2389,13 @@
     "id": 485
   },
   {
+    "name": "MeloGuessr",
+    "url": "https://meloguessr.com",
+    "description": "Click the geographic origin of the song that's playing, 5 rounds every day.",
+    "category": "Music",
+    "id": 718
+  },
+  {
     "name": "Metaflora",
     "url": "https://flora.metazooa.com",
     "description": "Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.",
@@ -2875,6 +2882,13 @@
     "category": "Video Games",
     "theme": "Palworld",
     "id": 274
+  },
+  {
+    "name": "Parseword",
+    "url": "https://www.parseword.com",
+    "description": "Solve today's cryptic clue through careful deduction. Great for those new to cryptics.",
+    "category": "Words",
+    "id": 719
   },
   {
     "name": "Past Puzzle",
@@ -3870,6 +3884,13 @@
     "id": 367
   },
   {
+    "name": "StatPad Game",
+    "url": "https://www.statpadgame.com",
+    "description": "Select MLB players to maximize your score given today's stat category and row requirements.",
+    "category": "Sports",
+    "id": 720
+  },
+  {
     "name": "steamdle.com",
     "url": "https://steamdle.com",
     "description": "Guess the game based on the Steam review.",
@@ -4261,10 +4282,10 @@
     "id": 402
   },
   {
-    "name": "TuneGuesser",
+    "name": "TuneGuessr",
     "url": "https://www.tuneguessr.net/",
     "description": "Guess the country that the song is from by listening to small parts of it.",
-    "category": "Geography",
+    "category": "Music",
     "id": 685
   },
   {

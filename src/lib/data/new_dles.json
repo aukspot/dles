@@ -1,11 +1,5 @@
 [
   {
-    "name": "Baddle",
-    "url": "https://tumblecricket.net/Baddle/",
-    "id": 658,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "Ballpark",
     "url": "https://www.ball-park.dev",
     "id": 708,
@@ -66,12 +60,6 @@
     "date_added": "2026-02-15"
   },
   {
-    "name": "Clue Raider",
-    "url": "https://clueraider.com",
-    "id": 659,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "Clue Tube",
     "url": "https://thecluetube.com",
     "id": 688,
@@ -102,12 +90,6 @@
     "date_added": "2026-03-01"
   },
   {
-    "name": "Glyph",
-    "url": "https://glyph.today",
-    "id": 660,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "Griddable",
     "url": "https://griddable.co.uk",
     "id": 703,
@@ -126,52 +108,22 @@
     "date_added": "2026-02-22"
   },
   {
-    "name": "Jojodle",
-    "url": "https://jojodle.nwcubeok.net/jojodle",
-    "id": 661,
-    "date_added": "2026-02-07"
-  },
-  {
-    "name": "Landmarkd",
-    "url": "https://www.landmarkdgame.com",
-    "id": 662,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "list animals until failure",
     "url": "https://rose.systems/animalist/#today",
     "id": 712,
     "date_added": "2026-03-06"
   },
   {
-    "name": "MapleWordle",
-    "url": "https://www.maplewordle.com",
-    "id": 663,
-    "date_added": "2026-02-07"
+    "name": "MeloGuessr",
+    "url": "https://meloguessr.com",
+    "id": 718,
+    "date_added": "2026-03-10"
   },
   {
     "name": "Nerdcube - Dabble",
     "url": "https://www.nerdcube.games/dabble",
     "id": 713,
     "date_added": "2026-03-06"
-  },
-  {
-    "name": "Netflix - Keysmash",
-    "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
-    "id": 664,
-    "date_added": "2026-02-07"
-  },
-  {
-    "name": "Netflix - Starstruck",
-    "url": "https://www.netflix.com/tudum/puzzled/starstruck/daily",
-    "id": 665,
-    "date_added": "2026-02-07"
-  },
-  {
-    "name": "Netflix - Sudoku",
-    "url": "https://www.netflix.com/tudum/puzzled/sudoku/daily",
-    "id": 666,
-    "date_added": "2026-02-07"
   },
   {
     "name": "Nonodle",
@@ -192,6 +144,12 @@
     "date_added": "2026-02-24"
   },
   {
+    "name": "Parseword",
+    "url": "https://www.parseword.com",
+    "id": 719,
+    "date_added": "2026-03-10"
+  },
+  {
     "name": "Past Puzzle",
     "url": "https://www.pastpuzzle.de",
     "id": 691,
@@ -210,22 +168,10 @@
     "date_added": "2026-03-01"
   },
   {
-    "name": "QueenSweep",
-    "url": "https://playqueensweep.com",
-    "id": 667,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "Radiordle",
     "url": "https://www.radiordle.org",
     "id": 705,
     "date_added": "2026-03-01"
-  },
-  {
-    "name": "Refiner",
-    "url": "https://nibble.games/refiner/",
-    "id": 668,
-    "date_added": "2026-02-07"
   },
   {
     "name": "Rotatly",
@@ -240,28 +186,16 @@
     "date_added": "2026-03-06"
   },
   {
-    "name": "Showdle",
-    "url": "https://showdle.com",
-    "id": 669,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "Slate - Pears",
     "url": "https://slate.com/games/pears",
     "id": 679,
     "date_added": "2026-02-15"
   },
   {
-    "name": "Spelling Bee (Lessgames)",
-    "url": "https://lessgames.com/spellingbee",
-    "id": 670,
-    "date_added": "2026-02-07"
-  },
-  {
-    "name": "Stat Mini Crossword",
-    "url": "https://www.statnews.com/stat-mini-crossword/",
-    "id": 671,
-    "date_added": "2026-02-07"
+    "name": "StatPad Game",
+    "url": "https://www.statpadgame.com",
+    "id": 720,
+    "date_added": "2026-03-10"
   },
   {
     "name": "Stepwords",
@@ -294,22 +228,10 @@
     "date_added": "2026-02-18"
   },
   {
-    "name": "Timeline",
-    "url": "https://timeline.fromthethink.com",
-    "id": 672,
-    "date_added": "2026-02-07"
-  },
-  {
     "name": "TuneGuesser",
     "url": "https://www.tuneguessr.net/",
     "id": 685,
     "date_added": "2026-02-19"
-  },
-  {
-    "name": "Viewdle",
-    "url": "https://viewdle.org",
-    "id": 673,
-    "date_added": "2026-02-07"
   },
   {
     "name": "werdel",
@@ -322,18 +244,6 @@
     "url": "https://whodle.dixonary.co.uk",
     "id": 706,
     "date_added": "2026-03-01"
-  },
-  {
-    "name": "word.golf",
-    "url": "https://word.golf",
-    "id": 674,
-    "date_added": "2026-02-07"
-  },
-  {
-    "name": "Wordfall",
-    "url": "https://play-wordfall.com",
-    "id": 675,
-    "date_added": "2026-02-07"
   },
   {
     "name": "WordWavr",

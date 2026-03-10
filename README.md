@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-10`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -146,7 +146,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (44)
+### Geography (43)
 
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
@@ -184,7 +184,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TimeGuessr](https://timeguessr.com) - Guess the right time and location of each historical photo.
 - [travle](https://travle.earth) - Connect the starting country to the ending country by naming countries in between them.
 - [Treasure Guessr](https://play.treasureguessr.com) - Narrow down a location on the world map.
-- [TuneGuesser](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Viewdle](https://viewdle.org) - Guess the country based on the view.
 - [WhenTaken](https://whentaken.com) - Guess the year and location of the given photo.
 - [WhenTaken Movies](https://movies.whentaken.com) - Guess where and when the given movie scene was filmed.
@@ -331,7 +330,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (33)
+### Music (35)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -354,6 +353,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Heardle TV Themes](https://tv.heardledecades.xyz) - Guess the TV theme song from listening to small parts of it.
 - [Humppadle](https://www.humppadle.de) - Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.
 - [Lyricle](https://www.lyricle.app) - Guess the song from the given lyrics.
+- [MeloGuessr](https://meloguessr.com) - Click the geographic origin of the song that's playing, 5 rounds every day.
 - [Musicle](https://musicle.app) - Match the song audio to the correct album art. Lots of categories.
 - [MusicVidle](https://www.musicvidle.com) - Guess the song based on selected frames from its music video.
 - [Perfect Pitch Puzzle](https://www.perfectpitchpuzzle.com) - After listening to a short tune, identify the first 6 notes that were played.
@@ -365,6 +365,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [SongSwipe](https://play.songswipe.fun) - Guess if the song was released before or after the given year. There are 10 songs each day.
 - [Spotle](https://spotle.io) - Guess the music artist in 10 tries, gaining new information based on each guess.
 - [Swiftle](https://www.techyonic.co/swiftle) - Listen to the clip and guess the Taylor Swift song.
+- [TuneGuessr](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 
 ### Science/Nature (13)
@@ -410,7 +411,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
 
-### Sports (24)
+### Sports (25)
 
 - [Basketball 5](https://basketball-5.com) - A collection of daily games related to basketball.
 - [Batter Up](https://www.batter-up.app) - Based on a silhouette video of their batting stance, guess the MLB player.
@@ -433,6 +434,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [NYT Connections: Sports Edition](https://www.nytimes.com/athletic/connections-sports-edition) - Group sports terms that share a common thread.
 - [Poeltl](https://poeltl.nbpa.com) - Guess the NBA player in 8 guesses.
 - [Puckdoku](https://www.puckdoku.com) - Fill out the grid with hockey players matching the criteria of each cell's row and column.
+- [StatPad Game](https://www.statpadgame.com) - Select MLB players to maximize your score given today's stat category and row requirements.
 - [Weddle](https://www.weddlegame.com) - Guess the NFL player within 8 guesses.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
@@ -579,7 +581,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (231)
+### Words (232)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -694,6 +696,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Orbits](https://www.playorbits.com) - Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.
 - [Outlier](https://outlier.land) - Repeatedly pick the outlier as quickly as you can.
 - [Pair Down](https://pairdown.com) - Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.
+- [Parseword](https://www.parseword.com) - Solve today's cryptic clue through careful deduction. Great for those new to cryptics.
 - [Phrasicle](https://phrasicle.com) - Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.
 - [Phrasle](https://phrasle.com) - Reveal the phrase by guessing one letter at a time.
 - [Pimantle](https://semantle.pimanrul.es) - Guess words to see how close they are to the secret word on a graph, and see where others are guessing as well!

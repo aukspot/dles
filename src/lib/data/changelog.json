@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-03-10",
+    "dles added": [
+      {
+        "name": "MeloGuessr",
+        "url": "https://meloguessr.com",
+        "id": 718
+      },
+      {
+        "name": "Parseword",
+        "url": "https://www.parseword.com",
+        "id": 719
+      },
+      {
+        "name": "StatPad Game",
+        "url": "https://www.statpadgame.com",
+        "id": 720
+      }
+    ],
+    "description": "Add 3 dles.<br>Fix Tuneguessr's spelling and move it from Geography to Music."
+  },
+  {
     "date": "2026-03-06",
     "dles added": [
       {

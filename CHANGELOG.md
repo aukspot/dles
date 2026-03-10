@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-03-10
+
+Add 3 dles.<br>Fix Tuneguessr's spelling and move it from Geography to Music.
+
+dles added: 
+|    | name                                        | url                                                        |   id |
+|---:|:--------------------------------------------|:-----------------------------------------------------------|-----:|
+|  1 | [MeloGuessr](https://meloguessr.com)        | [https://meloguessr.com](https://meloguessr.com)           |  718 |
+|  2 | [Parseword](https://www.parseword.com)      | [https://www.parseword.com](https://www.parseword.com)     |  719 |
+|  3 | [StatPad Game](https://www.statpadgame.com) | [https://www.statpadgame.com](https://www.statpadgame.com) |  720 |
+
 ## 2026-03-06
 
 Add 10 dles. Remove 1 dle. Dles played with random button will be marked as played if auto-mark setting is active.<br>Random button avoids picking dles marked as played.
