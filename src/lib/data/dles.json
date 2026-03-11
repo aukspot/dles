@@ -95,6 +95,13 @@
     "id": 9
   },
   {
+    "name": "Amountle",
+    "url": "https://amountle.dev",
+    "description": "Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)",
+    "category": "Estimation",
+    "id": 708
+  },
+  {
     "name": "Angle",
     "url": "https://angle.wtf",
     "description": "Guess the angle in 4 guesses or less.",
@@ -165,13 +172,6 @@
     "category": "Video Games",
     "theme": "Balatro",
     "id": 14
-  },
-  {
-    "name": "Ballpark",
-    "url": "https://www.ball-park.dev",
-    "description": "Guess how many objects went into the container before time runs out, 5 rounds every day.",
-    "category": "Estimation",
-    "id": 708
   },
   {
     "name": "Bandle",

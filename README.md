@@ -121,8 +121,8 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ### Estimation (17)
 
+- [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
-- [Ballpark](https://www.ball-park.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day.
 - [Brickdle](https://www.brickdle.com) - Guess the number of pieces in the pictured LEGO set.
 - [Centroid](https://centroidgame.com) - Guess the center of mass of all the shapes in the grid.
 - [Costcodle](https://costcodle.com) - Guess the price of the given Costco item.

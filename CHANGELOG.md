@@ -2,7 +2,7 @@
 
 ## 2026-03-11
 
-Add 1 dle.<br>Dialed brought back their daily mode.
+Add 1 dle.<br>Dialed brought back their daily mode.<br>Change Ballpark's name to Amountle and update its url.
 
 dles added: 
 |    | name                                     | url                                    |   id |
