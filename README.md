@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-10`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-11`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -109,12 +109,13 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Takes](https://takes.clevergoat.com) - Capture Chess pieces until only one remains.
 - [Zaku Chess](https://zakuchess.com) - A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
 
-### Colors (6)
+### Colors (7)
 
 - [Chroma](https://robson.plus/chroma) - Match the color name with their color, 5 rounds every day.
 - [Colordle](https://colordle.ryantanen.com) - Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
 - [Colorfle](https://colorfle.com) - Figure out the color composition of the given color.
 - [ColorGuesser](https://colorguesser.com) - Guess the actual color that each of the color names represent.
+- [Dialed - Color Game](https://dialed.gg) - They show you a color for 5 seconds, then you try to recreate it. Click the calendar for the daily mode.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 

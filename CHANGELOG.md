@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-03-11
+
+Add 1 dle.<br>Dialed brought back their daily mode.
+
+dles added: 
+|    | name                                     | url                                    |   id |
+|---:|:-----------------------------------------|:---------------------------------------|-----:|
+|  1 | [Dialed - Color Game](https://dialed.gg) | [https://dialed.gg](https://dialed.gg) |  684 |
+
 ## 2026-03-10
 
 Add 3 dles.<br>Fix Tuneguessr's spelling and move it from Geography to Music.
