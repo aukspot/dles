@@ -95,6 +95,13 @@
     "id": 9
   },
   {
+    "name": "Amountle",
+    "url": "https://amountle.dev",
+    "description": "Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)",
+    "category": "Estimation",
+    "id": 708
+  },
+  {
     "name": "Angle",
     "url": "https://angle.wtf",
     "description": "Guess the angle in 4 guesses or less.",
@@ -167,11 +174,11 @@
     "id": 14
   },
   {
-    "name": "Ballpark",
-    "url": "https://www.ball-park.dev",
-    "description": "Guess how many objects went into the container before time runs out, 5 rounds every day.",
-    "category": "Estimation",
-    "id": 708
+    "name": "BallotGuessr",
+    "url": "https://ballotguessr.com/daily",
+    "description": "Guess how the U.S. city voted given a Google Streetview location. 5 rounds every day.",
+    "category": "Geography",
+    "id": 721
   },
   {
     "name": "Bandle",
@@ -1265,13 +1272,6 @@
     "description": "Clear all of the tiles before running out of moves.",
     "category": "Math/Logic",
     "id": 119
-  },
-  {
-    "name": "Fishdle",
-    "url": "https://tacklevillage.com/fishdle-game/",
-    "description": "Guess the fish based on its silhouette and number of letters.",
-    "category": "Science/Nature",
-    "id": 120
   },
   {
     "name": "Five Fold",
@@ -4617,7 +4617,7 @@
   {
     "name": "Wordcell",
     "url": "https://gamebunny.app/wordcell",
-    "description": "Handcrafted and thematic puzzles. Launch the ball around the board to collect letters and compose the hidden words.",
+    "description": "Launch the ball around the board to collect letters and compose the hidden words.",
     "category": "Words",
     "id": 435
   },
@@ -4676,13 +4676,6 @@
     "description": "Rearrange the words to form a chain of two-word phrases.",
     "category": "Words",
     "id": 441
-  },
-  {
-    "name": "WordLock",
-    "url": "https://wordlockgame.com",
-    "description": "Create 5 words by choosing one letter from each column.",
-    "category": "Words",
-    "id": 647
   },
   {
     "name": "Wordloop",

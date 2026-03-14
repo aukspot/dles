@@ -1,5 +1,11 @@
 [
   {
+    "name": "BallotGuessr",
+    "url": "https://ballotguessr.com/daily",
+    "id": 721,
+    "date_added": "2026-03-14"
+  },
+  {
     "name": "Ballpark",
     "url": "https://www.ball-park.dev",
     "id": 708,

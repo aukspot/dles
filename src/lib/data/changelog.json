@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-03-14",
+    "dles removed": [
+      {
+        "name": "Fishdle",
+        "url": "https://tacklevillage.com/fishdle-game/",
+        "id": 120,
+        "reason": "Now redirects to sketchy site."
+      },
+      {
+        "name": "WordLock",
+        "url": "https://wordlockgame.com",
+        "id": 647,
+        "reaons": "Site no longer loads."
+      }
+    ],
+    "description": "Add 1 dle. Remove 2 dles.",
+    "dles added": [
+      {
+        "name": "BallotGuessr",
+        "url": "https://ballotguessr.com/daily",
+        "id": 721
+      }
+    ]
+  },
+  {
     "date": "2026-03-11",
     "dles added": [
       {

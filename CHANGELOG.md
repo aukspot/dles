@@ -1,5 +1,19 @@
 # Changelog - The Dles
 
+## 2026-03-14
+
+Add 1 dle. Remove 2 dles. Remove 2 dles.
+
+dles added: 
+|    | name                                           | url                                                              |   id |
+|---:|:-----------------------------------------------|:-----------------------------------------------------------------|-----:|
+|  1 | [BallotGuessr](https://ballotguessr.com/daily) | [https://ballotguessr.com/daily](https://ballotguessr.com/daily) |  721 |
+
+dles removed: 
+|    | name                                               | url                                                                                |   id | reason                         | reaons                |
+|---:|:---------------------------------------------------|:-----------------------------------------------------------------------------------|-----:|:-------------------------------|:----------------------|
+|  1 | [Fishdle](https://tacklevillage.com/fishdle-game/) | [https://tacklevillage.com/fishdle-game/](https://tacklevillage.com/fishdle-game/) |  120 | Now redirects to sketchy site. | nan                   |
+|  2 | [WordLock](https://wordlockgame.com)               | [https://wordlockgame.com](https://wordlockgame.com)                               |  647 | nan                            | Site no longer loads. |
 ## 2026-03-11
 
 Add 1 dle.<br>Dialed brought back their daily mode.<br>Change Ballpark's name to Amountle and update its url.

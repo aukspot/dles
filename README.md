@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-11`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-14`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -147,8 +147,9 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (43)
+### Geography (44)
 
+- [BallotGuessr](https://ballotguessr.com/daily) - Guess how the U.S. city voted given a Google Streetview location. 5 rounds every day.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
@@ -369,7 +370,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TuneGuessr](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 
-### Science/Nature (13)
+### Science/Nature (12)
 
 - [Birdie Game](https://birdiegame.net) - Guess the bird from cropped images and audio.
 - [Birdle](https://www.play-birdle.com) - Identify today's bird in 6 guesses or less.
@@ -377,7 +378,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Disordle](https://disordle.com) - Diagnose the patient with a disorder based on their symptoms.
 - [Doggle](https://doggle.app) - Guess breed of the dog in the picture.
 - [Elemingle](https://elemingle.com) - Guess today's element by swiping cards left, right or up.
-- [Fishdle](https://tacklevillage.com/fishdle-game/) - Guess the fish based on its silhouette and number of letters.
 - [list animals until failure](https://rose.systems/animalist/#today) - List as many animals of a given type as you can until time runs out.
 - [Metaflora](https://flora.metazooa.com) - Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.
 - [Metazooa](https://metazooa.com) - Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.
@@ -582,7 +582,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (232)
+### Words (231)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -797,7 +797,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Word500](https://word500.com/game?mode=daily) - Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.
 - [WordAll](https://wordall.xyz) - Guess all of the Wordle words, given the starting clues.
 - [Wordamid](https://www.wordamid.com) - Solve the daily word pyramid by guessing words of increasing length.
-- [Wordcell](https://gamebunny.app/wordcell) - Handcrafted and thematic puzzles. Launch the ball around the board to collect letters and compose the hidden words.
+- [Wordcell](https://gamebunny.app/wordcell) - Launch the ball around the board to collect letters and compose the hidden words.
 - [Wordcrux](https://wordcrux.com) - A mini crossword puzzle, but don't make too many wrong guesses.
 - [Wordfall](https://play-wordfall.com) - Clear letters on the board by finding words, ending with as few letters as possible.
 - [Wordga](https://wordga.com/daily) - Find as many 4+ letter words using today's letters.
@@ -806,7 +806,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wordistance](https://wordistance.com) - Keep guessing words until you find the mystery word, each guess revealing the distance between the guessed word and mystery word.
 - [Wordless](https://lessgames.com/wordless) - Solve Wordle puzzles of various sizes.
 - [WordLink](https://playwordlink.com) - Rearrange the words to form a chain of two-word phrases.
-- [WordLock](https://wordlockgame.com) - Create 5 words by choosing one letter from each column.
 - [Wordloop](https://word-loop.com) - Place segments on the circle such that each pair of segments forms a valid word.
 - [words for days](https://wordsfordays.com) - A word alchemy game with a daily objective, like infinite craft.
 - [WordSmyth](https://playwordsmyth.com) - Transform the word using one of the clues listed until you reach the secret word.

@@ -187,6 +187,18 @@
     ]
   },
   {
+    "name": "Fishdle",
+    "url": "https://tacklevillage.com/fishdle-game/",
+    "id": 120,
+    "removals": [
+      {
+        "date_removed": "2026-03-14"
+      }
+    ],
+    "description": "Guess the fish based on its silhouette and number of letters.",
+    "category": "Science/Nature"
+  },
+  {
     "name": "Gamedle Classic Unlimited",
     "url": "https://www.gamedle.wtf/unlimited",
     "id": "M27",
@@ -763,6 +775,18 @@
       }
     ],
     "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
+    "category": "Words"
+  },
+  {
+    "name": "WordLock",
+    "url": "https://wordlockgame.com",
+    "id": 647,
+    "removals": [
+      {
+        "date_removed": "2026-03-14"
+      }
+    ],
+    "description": "Create 5 words by choosing one letter from each column.",
     "category": "Words"
   },
   {
