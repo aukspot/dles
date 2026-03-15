@@ -2,7 +2,7 @@
 
 ## 2026-03-14
 
-Add 1 dle. Remove 2 dles. Remove 2 dles.
+Add 1 dle. Remove 2 dles.
 
 dles added: 
 |    | name                                           | url                                                              |   id |
