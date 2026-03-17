@@ -309,7 +309,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Guess The Movie](https://guessthemovie.name) - Guess the movie based on its screenshots and details.
 - [GuessTheMovie.me](https://guessthemovie.me) - Guess the movie based on its reviews on Letterboxd.
 - [Harrypotterdle](https://www.harrypotterdle.com) - A collection of daily games related to Harry Potter.
-- [Jojodle](https://jojodle.nwcubeok.net/jojodle) - Guess the secret Stand User of the day from Jojo's Bizarre Adventure.
+- [Jojodle](https://www.jojodle.app) - Guess the secret Stand User of the day from Jojo's Bizarre Adventure.
 - [Marveldle](https://marveldle.com/character/audiovisual/guess) - Guess the daily character from the Marvel Cinematic Universe.
 - [Movie Grid](https://moviegrid.io) - Fill out the grid with movies matching the criteria of each cell's row and column.
 - [Movie Pyramid](https://moviepyramid.io) - Fill in the cells of the pyramid with movies that match the criteria of their given row.
