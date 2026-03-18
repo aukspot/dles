@@ -149,7 +149,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ### Geography (44)
 
-- [BallotGuessr](https://ballotguessr.com/daily) - Guess how the U.S. city voted given a Google Streetview location. 5 rounds every day.
+- [BallotGuessr](https://ballotguessr.com/daily) - Guess how the region voted given a Google Streetview location. 5 rounds every day.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
