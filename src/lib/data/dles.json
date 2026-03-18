@@ -176,7 +176,7 @@
   {
     "name": "BallotGuessr",
     "url": "https://ballotguessr.com/daily",
-    "description": "Guess how the U.S. city voted given a Google Streetview location. 5 rounds every day.",
+    "description": "Guess how the region voted given a Google Streetview location. 5 rounds every day.",
     "category": "Geography",
     "id": 721
   },
