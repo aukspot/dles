@@ -3687,7 +3687,7 @@
   {
     "name": "Songdle",
     "url": "https://statt-land-song.ch/songdle",
-    "description": "Guess the title, artist, and year of the song that's playing.",
+    "description": "Guess the artist, title, and year of the song that's playing.",
     "category": "Music",
     "id": 729
   },
