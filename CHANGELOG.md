@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-03-22
+
+Add 1 dle. 
+
+dles added: 
+|    | name                                          | url                                                                      |   id |
+|---:|:----------------------------------------------|:-------------------------------------------------------------------------|-----:|
+|  1 | [Songdle](https://statt-land-song.ch/songdle) | [https://statt-land-song.ch/songdle](https://statt-land-song.ch/songdle) |  729 |
+
 ## 2026-03-21
 
 Add 7 dles. Remove 1 dle. 

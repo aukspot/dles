@@ -3685,6 +3685,13 @@
     "id": 344
   },
   {
+    "name": "Songdle",
+    "url": "https://statt-land-song.ch/songdle",
+    "description": "Guess the title, artist, and year of the song that's playing.",
+    "category": "Music",
+    "id": 729
+  },
+  {
     "name": "Songle",
     "url": "https://histordle.com/songle",
     "description": "Guess the year given three songs that were released that year.",

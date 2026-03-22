@@ -78,10 +78,11 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-21`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
+- [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
@@ -332,7 +333,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (35)
+### Music (36)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -362,6 +363,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [ReHeardle](https://reheardle.com) - Guess the song from listening to small parts of it.
 - [ReHeardle Video Games](https://reheardle.com/videogames) - Guess the video game track from listening to small parts of it.
 - [relatle.io](https://relatle.io) - Get from one musical artist to another by linking through related artists.
+- [Songdle](https://statt-land-song.ch/songdle) - Guess the title, artist, and year of the song that's playing.
 - [Songle](https://histordle.com/songle) - Guess the year given three songs that were released that year.
 - [Songless](https://lessgames.com/songless) - Guess the song from listening to small parts of it.
 - [SongSwipe](https://play.songswipe.fun) - Guess if the song was released before or after the given year. There are 10 songs each day.
