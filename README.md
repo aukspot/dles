@@ -363,7 +363,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [ReHeardle](https://reheardle.com) - Guess the song from listening to small parts of it.
 - [ReHeardle Video Games](https://reheardle.com/videogames) - Guess the video game track from listening to small parts of it.
 - [relatle.io](https://relatle.io) - Get from one musical artist to another by linking through related artists.
-- [Songdle](https://statt-land-song.ch/songdle) - Guess the title, artist, and year of the song that's playing.
+- [Songdle](https://statt-land-song.ch/songdle) - Guess the artist, title, and year of the song that's playing.
 - [Songle](https://histordle.com/songle) - Guess the year given three songs that were released that year.
 - [Songless](https://lessgames.com/songless) - Guess the song from listening to small parts of it.
 - [SongSwipe](https://play.songswipe.fun) - Guess if the song was released before or after the given year. There are 10 songs each day.
