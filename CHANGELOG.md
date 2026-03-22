@@ -16,9 +16,9 @@ dles added:
 |  7 | [The Daily Baffle](https://dailybaffle.com)                   | [https://dailybaffle.com](https://dailybaffle.com)                                                     |  728 |
 
 dles removed: 
-|    | name                                              | url                                                                          |   id |
-|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------|-----:|
-|  1 | [Posterdle](https://likewise.com/games/posterdle) | [https://likewise.com/games/posterdle](https://likewise.com/games/posterdle) |  495 |
+|    | name                                              | url                                                                          |   id | reason                               |
+|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------|-----:|:-------------------------------------|
+|  1 | [Posterdle](https://likewise.com/games/posterdle) | [https://likewise.com/games/posterdle](https://likewise.com/games/posterdle) |  495 | Now redirects to an irrelevant site. |
 ## 2026-03-14
 
 Add 1 dle. Remove 2 dles.
@@ -29,10 +29,10 @@ dles added:
 |  1 | [BallotGuessr](https://ballotguessr.com/daily) | [https://ballotguessr.com/daily](https://ballotguessr.com/daily) |  721 |
 
 dles removed: 
-|    | name                                               | url                                                                                |   id | reason                         | reaons                |
-|---:|:---------------------------------------------------|:-----------------------------------------------------------------------------------|-----:|:-------------------------------|:----------------------|
-|  1 | [Fishdle](https://tacklevillage.com/fishdle-game/) | [https://tacklevillage.com/fishdle-game/](https://tacklevillage.com/fishdle-game/) |  120 | Now redirects to sketchy site. | nan                   |
-|  2 | [WordLock](https://wordlockgame.com)               | [https://wordlockgame.com](https://wordlockgame.com)                               |  647 | nan                            | Site no longer loads. |
+|    | name                                               | url                                                                                |   id | reason                         |
+|---:|:---------------------------------------------------|:-----------------------------------------------------------------------------------|-----:|:-------------------------------|
+|  1 | [Fishdle](https://tacklevillage.com/fishdle-game/) | [https://tacklevillage.com/fishdle-game/](https://tacklevillage.com/fishdle-game/) |  120 | Now redirects to sketchy site. |
+|  2 | [WordLock](https://wordlockgame.com)               | [https://wordlockgame.com](https://wordlockgame.com)                               |  647 | Site no longer loads.          |
 ## 2026-03-11
 
 Add 1 dle.<br>Dialed brought back their daily mode.<br>Change Ballpark's name to Amountle and update its url.
