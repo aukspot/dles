@@ -95,6 +95,13 @@
     "id": 9
   },
   {
+    "name": "Am I Dead?",
+    "url": "https://www.amidead.gg",
+    "description": "Guess whether each of the famous faces are alive or dead.",
+    "category": "Miscellaneous",
+    "id": 722
+  },
+  {
     "name": "Amountle",
     "url": "https://amountle.dev",
     "description": "Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)",
@@ -172,6 +179,13 @@
     "category": "Video Games",
     "theme": "Balatro",
     "id": 14
+  },
+  {
+    "name": "Ballot Blocks",
+    "url": "https://ballotblocks.com",
+    "description": "Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview",
+    "category": "Geography",
+    "id": 723
   },
   {
     "name": "BallotGuessr",
@@ -2022,6 +2036,13 @@
     "id": 477
   },
   {
+    "name": "Kuromasu",
+    "url": "https://nibble.games/kuromasu/kuromasu-small.html",
+    "description": "Fill the board with either black or teal squares based on the numbered cells.",
+    "category": "Math/Logic",
+    "id": 724
+  },
+  {
     "name": "LA Times Crossword",
     "url": "https://www.latimes.com/games/daily-crossword",
     "description": "Solve today's crossword from the Los Angeles Times.",
@@ -2336,6 +2357,13 @@
     "description": "Click as close as you can to the given world cities, 5 rounds per day.",
     "category": "Geography",
     "id": 220
+  },
+  {
+    "name": "Marathondle",
+    "url": "https://marathondle.com",
+    "description": "Daily guessing games related to Marathon.",
+    "category": "Video Games",
+    "id": 725
   },
   {
     "name": "Marveldle",
@@ -2676,6 +2704,13 @@
     "description": "A daily logic puzzle with a touch of learning and trivia.",
     "category": "Math/Logic",
     "id": 487
+  },
+  {
+    "name": "NonoDaily",
+    "url": "https://www.nonodaily.com",
+    "description": "Daily handmade nonogram puzzles. Follow the numbered clues to create a pixel art image.",
+    "category": "Math/Logic",
+    "id": 726
   },
   {
     "name": "Nonodle",
@@ -3026,6 +3061,13 @@
     "id": 287
   },
   {
+    "name": "PokeCryptic",
+    "url": "https://www.pokecryptic.com",
+    "description": "A daily cryptic crossword clue, but with Pok\u00e9mon-related answers such as Pok\u00e9mon names, move names, and towns.",
+    "category": "Video Games",
+    "id": 727
+  },
+  {
     "name": "Pokedle.com",
     "url": "https://pokedle.com",
     "description": "Guess the daily Pokemon from all generations.",
@@ -3100,13 +3142,6 @@
     "description": "Guess the year given three pop culture items released that year.",
     "category": "Trivia",
     "id": 293
-  },
-  {
-    "name": "Posterdle",
-    "url": "https://likewise.com/games/posterdle",
-    "description": "Guess the movie poster in 20 seconds or less.",
-    "category": "Movies/TV",
-    "id": 495
   },
   {
     "name": "Power Scadle",
@@ -4069,6 +4104,13 @@
     "description": "A daily crossword from The Atlantic.",
     "category": "Words",
     "id": 385
+  },
+  {
+    "name": "The Daily Baffle",
+    "url": "https://dailybaffle.com",
+    "description": "A collection of daily word and logic games.",
+    "category": "Miscellaneous",
+    "id": 728
   },
   {
     "name": "The Daily Burgle",

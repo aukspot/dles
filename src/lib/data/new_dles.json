@@ -1,5 +1,17 @@
 [
   {
+    "name": "Am I Dead?",
+    "url": "https://www.amidead.gg",
+    "id": 722,
+    "date_added": "2026-03-21"
+  },
+  {
+    "name": "Ballot Blocks",
+    "url": "https://ballotblocks.com",
+    "id": 723,
+    "date_added": "2026-03-21"
+  },
+  {
     "name": "BallotGuessr",
     "url": "https://ballotguessr.com/daily",
     "id": 721,
@@ -90,10 +102,22 @@
     "date_added": "2026-02-22"
   },
   {
+    "name": "Kuromasu",
+    "url": "https://nibble.games/kuromasu/kuromasu-small.html",
+    "id": 724,
+    "date_added": "2026-03-21"
+  },
+  {
     "name": "list animals until failure",
     "url": "https://rose.systems/animalist/#today",
     "id": 712,
     "date_added": "2026-03-06"
+  },
+  {
+    "name": "Marathondle",
+    "url": "https://marathondle.com",
+    "id": 725,
+    "date_added": "2026-03-21"
   },
   {
     "name": "MeloGuessr",
@@ -106,6 +130,12 @@
     "url": "https://www.nerdcube.games/dabble",
     "id": 713,
     "date_added": "2026-03-06"
+  },
+  {
+    "name": "NonoDaily",
+    "url": "https://www.nonodaily.com",
+    "id": 726,
+    "date_added": "2026-03-21"
   },
   {
     "name": "Nonodle",
@@ -144,6 +174,12 @@
     "date_added": "2026-02-22"
   },
   {
+    "name": "PokeCryptic",
+    "url": "https://www.pokecryptic.com",
+    "id": 727,
+    "date_added": "2026-03-21"
+  },
+  {
     "name": "Ponder Club",
     "url": "https://ponderclub.co",
     "id": 704,
@@ -178,6 +214,12 @@
     "url": "https://takes.clevergoat.com",
     "id": 694,
     "date_added": "2026-02-24"
+  },
+  {
+    "name": "The Daily Baffle",
+    "url": "https://dailybaffle.com",
+    "id": 728,
+    "date_added": "2026-03-21"
   },
   {
     "name": "The Guardian - Cryptic Crossword",

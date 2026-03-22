@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-03-21",
+    "dles added": [
+      {
+        "name": "Am I Dead?",
+        "url": "https://www.amidead.gg",
+        "id": 722
+      },
+      {
+        "name": "Ballot Blocks",
+        "url": "https://ballotblocks.com",
+        "id": 723
+      },
+      {
+        "name": "Kuromasu",
+        "url": "https://nibble.games/kuromasu/kuromasu-small.html",
+        "id": 724
+      },
+      {
+        "name": "Marathondle",
+        "url": "https://marathondle.com",
+        "id": 725
+      },
+      {
+        "name": "NonoDaily",
+        "url": "https://www.nonodaily.com",
+        "id": 726
+      },
+      {
+        "name": "PokeCryptic",
+        "url": "https://www.pokecryptic.com",
+        "id": 727
+      },
+      {
+        "name": "The Daily Baffle",
+        "url": "https://dailybaffle.com",
+        "id": 728
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Posterdle",
+        "url": "https://likewise.com/games/posterdle",
+        "id": 495,
+        "reason": "Now redirects to an irrelevant site."
+      }
+    ],
+    "description": "Add 7 dles. Remove 1 dle. "
+  },
+  {
     "date": "2026-03-14",
     "dles removed": [
       {
@@ -12,7 +61,7 @@
         "name": "WordLock",
         "url": "https://wordlockgame.com",
         "id": 647,
-        "reaons": "Site no longer loads."
+        "reason": "Site no longer loads."
       }
     ],
     "description": "Add 1 dle. Remove 2 dles.",

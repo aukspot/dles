@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-14`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-21`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -145,8 +145,9 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (44)
+### Geography (45)
 
+- [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
 - [BallotGuessr](https://ballotguessr.com/daily) - Guess how the region voted given a Google Streetview location. 5 rounds every day.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
@@ -212,7 +213,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (63)
+### Math/Logic (65)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -235,6 +236,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Five Fold](https://fivefold.ca) - Fill in the 5x5 grid based on rules that change each day.
 - [Hitori Conquest](https://hitoriconquest.com) - Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.
 - [Knotilus](https://knotil.us) - Solve this daily puzzle by finding Fibonacci-like sequences from the given numbers.
+- [Kuromasu](https://nibble.games/kuromasu/kuromasu-small.html) - Fill the board with either black or teal squares based on the numbered cells.
 - [LA Times Sudoku](https://www.latimes.com/games/sudoku) - Daily sudoku puzzles across 5 difficulties from the Los Angeles Times.
 - [LinkedIn - Mini Sudoku](https://www.linkedin.com/games/mini-sudoku/) - A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.
 - [LinkedIn - Queens](https://www.linkedin.com/games/queens) - Place queens on the board such that exactly one is in each row, column, and color region. Does not require a LinkedIn account.
@@ -249,6 +251,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Netflix - Starstruck](https://www.netflix.com/tudum/puzzled/starstruck/daily) - Place a star in each row, column, and color area. Does not require a Netflix account.
 - [Netflix - Sudoku](https://www.netflix.com/tudum/puzzled/sudoku/daily) - A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account.
 - [Noggle](https://nibble.games/noggle/noggle.html) - A daily logic puzzle with a touch of learning and trivia.
+- [NonoDaily](https://www.nonodaily.com) - Daily handmade nonogram puzzles. Follow the numbered clues to create a pixel art image.
 - [Nonodle](https://lab174.com/nonodle) - A daily nonogram puzzle.
 - [Number Island](https://numberisland.com) - Divide the number board into islands that match the target sums.
 - [Numble](https://numble.wtf) - Reach the target number only using operations and each given number exactly once.
@@ -278,7 +281,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (49)
+### Movies/TV (48)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -321,7 +324,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Narutodle](https://narutodle.net) - A collection of daily games where you guess characters from Naruto.
 - [Onepiecedle](https://onepiecedle.net) - Guess One Piece characters in these daily games.
 - [Plotwords](https://plotwords.com/daily) - Guess the name of the movie using as few plot keywords as possible!
-- [Posterdle](https://likewise.com/games/posterdle) - Guess the movie poster in 20 seconds or less.
 - [Quolture](https://www.quolture.com/#/) - Guess the movie or TV show the given quote is from. 1st round is a movie, 2nd round is a TV show.
 - [Quotesed](https://www.quotesed.com) - Guess the movie given 6 quotes.
 - [Showdle](https://showdle.com) - Guess today's TV show by narrowing down its attributes.
@@ -474,7 +476,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (68)
+### Video Games (70)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -503,6 +505,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Lockle](https://www.lockle.app) - Guess the Deadlock character based on their items or quote.
 - [LoLdle](https://loldle.net) - A bunch of daily games where you guess the champion from League of Legends.
 - [MapleWordle](https://www.maplewordle.com) - A collection of daily guessing games related to the game MapleStory.
+- [Marathondle](https://marathondle.com) - Daily guessing games related to Marathon.
 - [Mcdle](https://www.mcdle.net) - A collection of daily games related to Minecraft.
 - [Minecraftle](https://minecraftle.zachmanson.com) - Guess the crafting recipe from the game Minecraft.
 - [Monster Hunter-dle](https://monster-hunter-dle.akato.fr/classic) - Guess the monster from the Monster Hunter series.
@@ -510,6 +513,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [OWdle](https://owdle.guessing.day) - Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.
 - [Palwordle](https://palwordle.net) - Daily games related to the video game Palworld.
 - [Pikadoku](https://pikadoku.dentotino.com) - Fill out the grid with Pokémon matching the criteria of each cell's row and column. More complex than Pokedoku.
+- [PokeCryptic](https://www.pokecryptic.com) - A daily cryptic crossword clue, but with Pokémon-related answers such as Pokémon names, move names, and towns.
 - [Pokedle.com](https://pokedle.com) - Guess the daily Pokemon from all generations.
 - [Pokedle.net](https://pokedle.net) - Guess the Pokemon in these daily quizzes.
 - [Pokedoku](https://pokedoku.com) - Fill out the grid with Pokémon matching the criteria of each cell's row and column.
@@ -545,9 +549,10 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (32)
+### Miscellaneous (34)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
+- [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
 - [Artle](https://www.nga.gov/artle.html) - Guess the artist of the shown work of art.
 - [Baddle](https://tumblecricket.net/Baddle/) - A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.
@@ -575,6 +580,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
+- [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.

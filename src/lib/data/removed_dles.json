@@ -532,6 +532,18 @@
     ]
   },
   {
+    "name": "Posterdle",
+    "url": "https://likewise.com/games/posterdle",
+    "id": 495,
+    "removals": [
+      {
+        "date_removed": "2026-03-21"
+      }
+    ],
+    "description": "Guess the movie poster in 20 seconds or less.",
+    "category": "Movies/TV"
+  },
+  {
     "name": "QuickQ",
     "url": "https://www.quickqtrivia.com",
     "id": 307,

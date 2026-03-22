@@ -1,5 +1,24 @@
 # Changelog - The Dles
 
+## 2026-03-21
+
+Add 7 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                          | url                                                                                                    |   id |
+|---:|:--------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------|-----:|
+|  1 | [Am I Dead?](https://www.amidead.gg)                          | [https://www.amidead.gg](https://www.amidead.gg)                                                       |  722 |
+|  2 | [Ballot Blocks](https://ballotblocks.com)                     | [https://ballotblocks.com](https://ballotblocks.com)                                                   |  723 |
+|  3 | [Kuromasu](https://nibble.games/kuromasu/kuromasu-small.html) | [https://nibble.games/kuromasu/kuromasu-small.html](https://nibble.games/kuromasu/kuromasu-small.html) |  724 |
+|  4 | [Marathondle](https://marathondle.com)                        | [https://marathondle.com](https://marathondle.com)                                                     |  725 |
+|  5 | [NonoDaily](https://www.nonodaily.com)                        | [https://www.nonodaily.com](https://www.nonodaily.com)                                                 |  726 |
+|  6 | [PokeCryptic](https://www.pokecryptic.com)                    | [https://www.pokecryptic.com](https://www.pokecryptic.com)                                             |  727 |
+|  7 | [The Daily Baffle](https://dailybaffle.com)                   | [https://dailybaffle.com](https://dailybaffle.com)                                                     |  728 |
+
+dles removed: 
+|    | name                                              | url                                                                          |   id |
+|---:|:--------------------------------------------------|:-----------------------------------------------------------------------------|-----:|
+|  1 | [Posterdle](https://likewise.com/games/posterdle) | [https://likewise.com/games/posterdle](https://likewise.com/games/posterdle) |  495 |
 ## 2026-03-14
 
 Add 1 dle. Remove 2 dles.
