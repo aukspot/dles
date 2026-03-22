@@ -12,5 +12,12 @@
     "url": "https://lettered.io",
     "description": "Move letter tiles on the board to spell out the hidden phrase.",
     "category": "Words"
+  },
+  {
+    "name": "Cadgy",
+    "url": "https://onelook.com/cadgy/",
+    "description": "Make valid 5-letter words by selecting one letter from each column.",
+    "category": "Words",
+    "id": 680
   }
 ]
