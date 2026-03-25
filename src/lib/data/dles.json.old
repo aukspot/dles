@@ -2926,6 +2926,13 @@
     "id": 274
   },
   {
+    "name": "Parlorbox",
+    "url": "https://parlorbox.com/",
+    "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
+    "category": "Math/Logic",
+    "id": 490
+  },
+  {
     "name": "Parseword",
     "url": "https://www.parseword.com",
     "description": "Solve today's cryptic clue through careful deduction. Great for those new to cryptics.",
@@ -3038,13 +3045,6 @@
     "description": "Guess the name of the movie using as few plot keywords as possible!",
     "category": "Movies/TV",
     "id": 284
-  },
-  {
-    "name": "PlusWord",
-    "url": "https://puzzles-prod.telegraph.co.uk/plusword",
-    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
-    "category": "Words",
-    "id": 285
   },
   {
     "name": "Pocket Puzzles",
@@ -3687,7 +3687,7 @@
   {
     "name": "Songdle",
     "url": "https://statt-land-song.ch/songdle",
-    "description": "Guess the title, artist, and year of the song that's playing.",
+    "description": "Guess the artist, title, and year of the song that's playing.",
     "category": "Music",
     "id": 729
   },

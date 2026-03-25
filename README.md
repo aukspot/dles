@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-24`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -214,7 +214,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (65)
+### Math/Logic (66)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -262,6 +262,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [One Up Puzzle](https://www.oneuppuzzle.com) - Sudoku-style game where you need to fill segmented rows and columns with numbers.
 - [Ophex](https://www.andrewt.net/puzzles/ophex/) - Combine the 7 numbers into the target number using the operations between them.
 - [Padlock](https://www.padlockgame.net) - Number puzzle game inspired by Wordle and Mastermind.
+- [Parlorbox](https://parlorbox.com/) - Logic puzzle game based on the Parlor room puzzle from Blue Prince
 - [Pell Puzzles](https://pell.achromath.com) - Fill the entire 6x6 grid by properly drawing paths between the O's and X's.
 - [Pivots](https://playpivots.com) - Sort the board by pivoting parts of it at a time.
 - [Primel](https://converged.yt/primel) - Guess the 5-digit prime number in six guesses or less.
@@ -588,7 +589,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (231)
+### Words (230)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -710,7 +711,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [PIVOT](https://pivotthegame.com) - Create today's word by rotating its letters into the gold row.
 - [Pixletters](https://pixletters.com) - Guess the word, except each letter is represented in a pixel grid.
 - [Plausible](https://plausiblegame.com/en) - Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.
-- [PlusWord](https://puzzles-prod.telegraph.co.uk/plusword) - Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.
 - [Pocket Puzzles](https://playpocketpuzzles.com) - A collection of daily word games.
 - [Polygonle](https://www.polygonle.com) - Guess the word in 6 tries, like Wordle. Each unique shape over a column represents a letter.
 - [Poople](https://poople.io) - Get to 'POOP' in as few steps as possible!

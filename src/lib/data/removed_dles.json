@@ -498,7 +498,8 @@
     "id": 490,
     "removals": [
       {
-        "date_removed": "2026-02-24"
+        "date_removed": "2026-02-24",
+        "date_readded": "2026-03-24"
       }
     ],
     "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
@@ -516,6 +517,18 @@
         "date_removed": "2026-01-11"
       }
     ]
+  },
+  {
+    "name": "PlusWord",
+    "url": "https://puzzles-prod.telegraph.co.uk/plusword",
+    "id": 285,
+    "removals": [
+      {
+        "date_removed": "2026-03-24"
+      }
+    ],
+    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
+    "category": "Words"
   },
   {
     "name": "PopCultured",

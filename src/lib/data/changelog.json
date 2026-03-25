@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-03-24",
+    "dles added": [
+      {
+        "name": "Parlorbox",
+        "url": "https://parlorbox.com/",
+        "id": 490
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "PlusWord",
+        "url": "https://puzzles-prod.telegraph.co.uk/plusword",
+        "id": 285,
+        "reason": "Link no longer works."
+      }
+    ],
+    "description": "Add 1 dle. Remove 1 dle. "
+  },
+  {
     "date": "2026-03-22",
     "dles added": [
       {

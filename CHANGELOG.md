@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2026-03-24
+
+Add 1 dle. Remove 1 dle. 
+
+dles added: 
+|    | name                                | url                                              |   id |
+|---:|:------------------------------------|:-------------------------------------------------|-----:|
+|  1 | [Parlorbox](https://parlorbox.com/) | [https://parlorbox.com/](https://parlorbox.com/) |  490 |
+
+dles removed: 
+|    | name                                                      | url                                                                                            |   id | reason                |
+|---:|:----------------------------------------------------------|:-----------------------------------------------------------------------------------------------|-----:|:----------------------|
+|  1 | [PlusWord](https://puzzles-prod.telegraph.co.uk/plusword) | [https://puzzles-prod.telegraph.co.uk/plusword](https://puzzles-prod.telegraph.co.uk/plusword) |  285 | Link no longer works. |
 ## 2026-03-22
 
 Add 1 dle. 
