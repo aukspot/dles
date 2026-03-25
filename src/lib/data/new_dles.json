@@ -30,12 +30,6 @@
     "date_added": "2026-02-24"
   },
   {
-    "name": "Boston Globe - Align",
-    "url": "https://www.bostonglobe.com/games/align/",
-    "id": 687,
-    "date_added": "2026-02-22"
-  },
-  {
     "name": "CHN LNK",
     "url": "https://thechnlnk.com",
     "id": 699,
@@ -66,12 +60,6 @@
     "date_added": "2026-03-06"
   },
   {
-    "name": "Clue Tube",
-    "url": "https://thecluetube.com",
-    "id": 688,
-    "date_added": "2026-02-22"
-  },
-  {
     "name": "Electle",
     "url": "https://electle.fun",
     "id": 696,
@@ -94,12 +82,6 @@
     "url": "https://griddable.co.uk",
     "id": 703,
     "date_added": "2026-03-01"
-  },
-  {
-    "name": "Harrypotterdle",
-    "url": "https://www.harrypotterdle.com",
-    "id": 689,
-    "date_added": "2026-02-22"
   },
   {
     "name": "Kuromasu",
@@ -138,12 +120,6 @@
     "date_added": "2026-03-21"
   },
   {
-    "name": "Nonodle",
-    "url": "https://lab174.com/nonodle",
-    "id": 690,
-    "date_added": "2026-02-22"
-  },
-  {
     "name": "Number Crunch",
     "url": "https://numbercrunch.fun",
     "id": 714,
@@ -160,18 +136,6 @@
     "url": "https://www.parseword.com",
     "id": 719,
     "date_added": "2026-03-10"
-  },
-  {
-    "name": "Past Puzzle",
-    "url": "https://www.pastpuzzle.de",
-    "id": 691,
-    "date_added": "2026-02-22"
-  },
-  {
-    "name": "PIVOT",
-    "url": "https://pivotthegame.com",
-    "id": 692,
-    "date_added": "2026-02-22"
   },
   {
     "name": "PokeCryptic",
@@ -250,11 +214,5 @@
     "url": "https://wordwavr.app",
     "id": 707,
     "date_added": "2026-03-01"
-  },
-  {
-    "name": "Zonday",
-    "url": "https://zonday.shop",
-    "id": 693,
-    "date_added": "2026-02-22"
   }
 ]
