@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-24`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-03-28`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -589,7 +589,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (230)
+### Words (229)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -702,7 +702,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Omiword](https://www.omiword.com) - Form 4 common words by arranging letter tiles that are locked to different regions of the grid.
 - [One Word Search](https://puzzlist.com/onewordsearch/) - Repeatedly search for the only word in a grid of letters.
 - [Orbits](https://www.playorbits.com) - Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.
-- [Outlier](https://outlier.land) - Repeatedly pick the outlier as quickly as you can.
 - [Pair Down](https://pairdown.com) - Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.
 - [Parseword](https://www.parseword.com) - Solve today's cryptic clue through careful deduction. Great for those new to cryptics.
 - [Phrasicle](https://phrasicle.com) - Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.

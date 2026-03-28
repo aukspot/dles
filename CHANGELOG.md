@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-03-28
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                            | url                                          |   id | reason             |
+|---:|:--------------------------------|:---------------------------------------------|-----:|:-------------------|
+|  1 | [Outlier](https://outlier.land) | [https://outlier.land](https://outlier.land) |  639 | No longer updates. |
 ## 2026-03-24
 
 Add 1 dle. Remove 1 dle. 

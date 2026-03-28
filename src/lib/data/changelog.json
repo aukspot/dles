@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-03-28",
+    "dles removed": [
+      {
+        "name": "Outlier",
+        "url": "https://outlier.land",
+        "id": 639,
+        "reason": "No longer updates."
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-03-24",
     "dles added": [
       {

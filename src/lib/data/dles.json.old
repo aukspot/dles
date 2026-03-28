@@ -2882,13 +2882,6 @@
     "id": 271
   },
   {
-    "name": "Outlier",
-    "url": "https://outlier.land",
-    "description": "Repeatedly pick the outlier as quickly as you can.",
-    "category": "Words",
-    "id": 639
-  },
-  {
     "name": "OWdle",
     "url": "https://owdle.guessing.day",
     "description": "Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.",

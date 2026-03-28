@@ -470,6 +470,18 @@
     ]
   },
   {
+    "name": "Outlier",
+    "url": "https://outlier.land",
+    "id": 639,
+    "removals": [
+      {
+        "date_removed": "2026-03-28"
+      }
+    ],
+    "description": "Repeatedly pick the outlier as quickly as you can.",
+    "category": "Words"
+  },
+  {
     "name": "Outword",
     "url": "https://outword.me",
     "id": "M17",
