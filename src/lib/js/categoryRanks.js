@@ -13,14 +13,15 @@ const defaultRanks = {
   "Math/Logic": 7,
   "Movies/TV": 8,
   Music: 9,
-  "Science/Nature": 10,
-  "Shapes/Patterns": 11,
-  Sports: 12,
-  Trivia: 13,
-  Vehicles: 14,
-  "Video Games": 15,
-  Miscellaneous: 16,
-  Words: 17,
+  Novelty: 10,
+  "Science/Nature": 11,
+  "Shapes/Patterns": 12,
+  Sports: 13,
+  Trivia: 14,
+  Vehicles: 15,
+  "Video Games": 16,
+  Miscellaneous: 17,
+  Words: 18,
 }
 
 function createCategoryRanksStore() {

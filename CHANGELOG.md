@@ -2,8 +2,20 @@
 
 ## 2026-03-28
 
-Remove 1 dle. 
+Add 9 dles. Remove 1 dle.<br>Add category: Novelty.<br>Move Coindle and Luckle to Novelty.
 
+dles added: 
+|    | name                                                       | url                                                                            |   id |
+|---:|:-----------------------------------------------------------|:-------------------------------------------------------------------------------|-----:|
+|  1 | [Crayondle](https://crayondle.com)                         | [https://crayondle.com](https://crayondle.com)                                 |  730 |
+|  2 | [Doctordle](https://doctordle.org)                         | [https://doctordle.org](https://doctordle.org)                                 |  731 |
+|  3 | [Horsle](https://cabletwo.net/horsle/)                     | [https://cabletwo.net/horsle/](https://cabletwo.net/horsle/)                   |  732 |
+|  4 | [Jeffgoldblumle](https://jeffgoldblumle.vercel.app)        | [https://jeffgoldblumle.vercel.app](https://jeffgoldblumle.vercel.app)         |  733 |
+|  5 | [Nerdcube - Carom](https://www.nerdcube.games/carom)       | [https://www.nerdcube.games/carom](https://www.nerdcube.games/carom)           |  734 |
+|  6 | [NextUp](https://nextupgame.com)                           | [https://nextupgame.com](https://nextupgame.com)                               |  735 |
+|  7 | [RNGdle](https://www.rngdle.com)                           | [https://www.rngdle.com](https://www.rngdle.com)                               |  736 |
+|  8 | [TED - Cheat Sheet](https://www.ted.com/games/cheat-sheet) | [https://www.ted.com/games/cheat-sheet](https://www.ted.com/games/cheat-sheet) |  737 |
+|  9 | [YGOdle](https://www.ygodle.net/)                          | [https://www.ygodle.net/](https://www.ygodle.net/)                             |  738 |
 
 dles removed: 
 |    | name                            | url                                          |   id | reason             |

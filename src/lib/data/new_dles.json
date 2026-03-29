@@ -54,6 +54,18 @@
     "date_added": "2026-03-06"
   },
   {
+    "name": "Crayondle",
+    "url": "https://crayondle.com",
+    "id": 730,
+    "date_added": "2026-03-28"
+  },
+  {
+    "name": "Doctordle",
+    "url": "https://doctordle.org",
+    "id": 731,
+    "date_added": "2026-03-28"
+  },
+  {
     "name": "Giffle - Friends",
     "url": "https://giffle.com/friends/",
     "id": 701,
@@ -70,6 +82,18 @@
     "url": "https://griddable.co.uk",
     "id": 703,
     "date_added": "2026-03-01"
+  },
+  {
+    "name": "Horsle",
+    "url": "https://cabletwo.net/horsle/",
+    "id": 732,
+    "date_added": "2026-03-28"
+  },
+  {
+    "name": "Jeffgoldblumle",
+    "url": "https://jeffgoldblumle.vercel.app",
+    "id": 733,
+    "date_added": "2026-03-28"
   },
   {
     "name": "Kuromasu",
@@ -96,10 +120,22 @@
     "date_added": "2026-03-10"
   },
   {
+    "name": "Nerdcube - Carom",
+    "url": "https://www.nerdcube.games/carom",
+    "id": 734,
+    "date_added": "2026-03-28"
+  },
+  {
     "name": "Nerdcube - Dabble",
     "url": "https://www.nerdcube.games/dabble",
     "id": 713,
     "date_added": "2026-03-06"
+  },
+  {
+    "name": "NextUp",
+    "url": "https://nextupgame.com",
+    "id": 735,
+    "date_added": "2026-03-28"
   },
   {
     "name": "NonoDaily",
@@ -138,6 +174,12 @@
     "date_added": "2026-03-01"
   },
   {
+    "name": "RNGdle",
+    "url": "https://www.rngdle.com",
+    "id": 736,
+    "date_added": "2026-03-28"
+  },
+  {
     "name": "Scrokkdle",
     "url": "https://scrokkle.io/daily",
     "id": 715,
@@ -162,6 +204,12 @@
     "date_added": "2026-03-06"
   },
   {
+    "name": "TED - Cheat Sheet",
+    "url": "https://www.ted.com/games/cheat-sheet",
+    "id": 737,
+    "date_added": "2026-03-28"
+  },
+  {
     "name": "The Daily Baffle",
     "url": "https://dailybaffle.com",
     "id": 728,
@@ -184,5 +232,11 @@
     "url": "https://wordwavr.app",
     "id": 707,
     "date_added": "2026-03-01"
+  },
+  {
+    "name": "YGOdle",
+    "url": "https://www.ygodle.net/",
+    "id": 738,
+    "date_added": "2026-03-28"
   }
 ]

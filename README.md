@@ -86,7 +86,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
-### Card/Board Games (19)
+### Card/Board Games (20)
 
 - [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) - Solve the daily chess puzzle from chess.com.
 - [Chessguessr](https://www.chessguessr.com) - Given a snapshot from a chess game, guess the next 5 moves played.
@@ -106,14 +106,16 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Spellify](https://edhrec.com/games/spellify) - Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. 
 - [Sudoker](https://sudoker.io) - Rearrange the cards to create better Poker hands and maximize scores across rows and columns.
 - [Takes](https://takes.clevergoat.com) - Capture Chess pieces until only one remains.
+- [YGOdle](https://www.ygodle.net/) - A collection of daily guessing games based on the card game 'Yu-Gi-Oh!'
 - [Zaku Chess](https://zakuchess.com) - A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
 
-### Colors (7)
+### Colors (8)
 
 - [Chroma](https://robson.plus/chroma) - Match the color name with their color, 5 rounds every day.
 - [Colordle](https://colordle.ryantanen.com) - Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
 - [Colorfle](https://colorfle.com) - Figure out the color composition of the given color.
 - [ColorGuesser](https://colorguesser.com) - Guess the actual color that each of the color names represent.
+- [Crayondle](https://crayondle.com) - Guess the color of today's crayon.
 - [Dialed - Color Game](https://dialed.gg) - They show you a color for 5 seconds, then you try to recreate it. Click the calendar for the daily mode.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
@@ -214,7 +216,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (66)
+### Math/Logic (67)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -251,6 +253,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Nerdle](https://nerdlegame.com) - Guess the secret arithmetic equation.
 - [Netflix - Starstruck](https://www.netflix.com/tudum/puzzled/starstruck/daily) - Place a star in each row, column, and color area. Does not require a Netflix account.
 - [Netflix - Sudoku](https://www.netflix.com/tudum/puzzled/sudoku/daily) - A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account.
+- [NextUp](https://nextupgame.com) - Guess the next number in the sequence, five rounds every day.
 - [Noggle](https://nibble.games/noggle/noggle.html) - A daily logic puzzle with a touch of learning and trivia.
 - [NonoDaily](https://www.nonodaily.com) - Daily handmade nonogram puzzles. Follow the numbered clues to create a pixel art image.
 - [Nonodle](https://lab174.com/nonodle) - A daily nonogram puzzle.
@@ -373,12 +376,21 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TuneGuessr](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 
-### Science/Nature (12)
+### Novelty (5)
+
+- [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
+- [Horsle](https://cabletwo.net/horsle/) - Wordle except the answer is always Horse.
+- [Jeffgoldblumle](https://jeffgoldblumle.vercel.app) - Wordle except 90% of the time the answer is Jeff Goldblum.
+- [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
+- [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
+
+### Science/Nature (13)
 
 - [Birdie Game](https://birdiegame.net) - Guess the bird from cropped images and audio.
 - [Birdle](https://www.play-birdle.com) - Identify today's bird in 6 guesses or less.
 - [Chemdle](https://www.chemdle.com) - Solve the daily organic chemistry problem.
 - [Disordle](https://disordle.com) - Diagnose the patient with a disorder based on their symptoms.
+- [Doctordle](https://doctordle.org) - Diagnose the patient based on their symptoms and history.
 - [Doggle](https://doggle.app) - Guess breed of the dog in the picture.
 - [Elemingle](https://elemingle.com) - Guess today's element by swiping cards left, right or up.
 - [list animals until failure](https://rose.systems/animalist/#today) - List as many animals of a given type as you can until time runs out.
@@ -388,7 +400,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (24)
+### Shapes/Patterns (25)
 
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
@@ -402,6 +414,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
 - [Mazetangle](https://mazetangle.com) - Go from the red tile to the blue tile in as many moves as possible.
+- [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal my sliding the pieces around the grid.
 - [Netflix - Jigsaw](https://www.netflix.com/tudum/puzzled/jigsaw/daily) - Complete the image by finding the right spot for each piece. Does not require a Netflix account.
 - [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily) - Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.
 - [Nodes](https://www.nodes-game.com) - A puzzle game where you connect dots to reveal beautiful images.
@@ -443,7 +456,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (26)
+### Trivia (27)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -466,6 +479,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Redactle](https://redactle.net) - Guess the Wikipedia article by its content with keywords redacted.
 - [Revealed](https://www.britannica.com/games/revealed) - Guess the daily topic based on its description with redacted words.
 - [riddl.ing](https://riddl.ing) - Guess the answer to the handmade daily riddle in five clues.
+- [TED - Cheat Sheet](https://www.ted.com/games/cheat-sheet) - Answer today's redacted question by investigating each of the clues.
 - [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) - Daily trivia quizzes from multiple categories.
 - [The Wiki Game Daily](https://www.thewikigamedaily.com) - Race from one Wikipedia page to the target page using as few links as possible
 - [Thrice](https://thrice.geekswhodrink.com) - Answer today's 5 trivia questions, each from a different category.
@@ -552,7 +566,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (34)
+### Miscellaneous (32)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -561,7 +575,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Baddle](https://tumblecricket.net/Baddle/) - A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.
 - [Bibdle](https://bibdle.com) - Guess the daily verse from the bible.
 - [Clue Tube](https://thecluetube.com) - Guess the popular YouTube video based on its comments.
-- [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
 - [Cosmeredle](https://cosmeredle.net) - Guess the character from Brandon Sanderson's Cosmere universe by narrowing down their book, world, and abilities.
 - [Cropple](https://cropple.app) - Guess the thing based on a cropped image, you can zoom out or ask for letters.
 - [Dungleon](https://www.dungleon.com) - Guess the dungeon's composition in 6 guesses.
@@ -573,7 +586,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Guess The Book](https://guessthebook.app) - Guess the book based on short snippets and details.
 - [Guess The Logo](https://guessthelogo.wtf) - Guess the logo which becomes less blurry with each guess.
 - [Kinda Hard Golf](https://kindahardgolf.com) - A challenging daily golf game.
-- [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [Minigolfle](https://minigolfle.com) - 2D retro minigolf game with 3 randomly generated levels each day.
 - [morsle](https://morsle.fun) - Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.
 - [Morsle (decipher.wiki)](https://decipher.wiki/morsle) - Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.
@@ -671,7 +683,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [LA Times Wordflower](https://www.latimes.com/games/wordflower) - Find words using the letters in the flower, always using the center letter.
 - [Langle](https://langle.uk) - Guess the world language from a few example sentences.
 - [Letroso](https://letroso.com/en/daily) - Guess the secret word that can be up to 10 letters long.
-- [Letterbrew](https://www.ted.com/games/letter-brew) - Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Letteripher](https://letteripher.com) - Guess letters to reveal all words of some daily category without losing all your lives.
 - [LetterLoop](https://theletterloop.com) - Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.
@@ -763,6 +774,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Survivle](https://lazyguyy.github.io/survivle) - Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.
 - [Swapple](https://nibble.games/swapple/swapple-easy.html) - Swap letters such that every row and column is a word.
 - [Symble](https://www.symble.app) - A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.
+- [TED - Letterbrew](https://www.ted.com/games/letter-brew) - Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.
 - [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) - A daily crossword from The Atlantic.
 - [The Daily Spell](https://www.the-daily-spell.com) - Unscramble the fictional headline by dropping letters into place.
 - [The Guardian - Cryptic Crossword](https://www.theguardian.com/crosswords/series/cryptic) - A weekday cryptic crossword from The Guardian.

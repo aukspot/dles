@@ -681,7 +681,7 @@
     "name": "Coindle",
     "url": "https://muhashi.com/coindle/",
     "description": "Get as many coin flips correct in a row as you can. Only one attempt per day.",
-    "category": "Miscellaneous",
+    "category": "Novelty",
     "id": 524
   },
   {
@@ -804,6 +804,13 @@
     "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
     "category": "Words",
     "id": 72
+  },
+  {
+    "name": "Crayondle",
+    "url": "https://crayondle.com",
+    "description": "Guess the color of today's crayon.",
+    "category": "Colors",
+    "id": 730
   },
   {
     "name": "Cropple",
@@ -1053,6 +1060,13 @@
     "description": "Diagnose the patient with a disorder based on their symptoms.",
     "category": "Science/Nature",
     "id": 94
+  },
+  {
+    "name": "Doctordle",
+    "url": "https://doctordle.org",
+    "description": "Diagnose the patient based on their symptoms and history.",
+    "category": "Science/Nature",
+    "id": 731
   },
   {
     "name": "Dodeku",
@@ -1837,6 +1851,13 @@
     "id": 473
   },
   {
+    "name": "Horsle",
+    "url": "https://cabletwo.net/horsle/",
+    "description": "Wordle except the answer is always Horse.",
+    "category": "Novelty",
+    "id": 732
+  },
+  {
     "name": "HOTSdle",
     "url": "https://hotsdle.zgame.studio/",
     "description": "Guess the daily hero from Heroes of the Storm.",
@@ -1936,6 +1957,13 @@
     "category": "Video Games",
     "theme": "The Binding of Isaac",
     "id": 182
+  },
+  {
+    "name": "Jeffgoldblumle",
+    "url": "https://jeffgoldblumle.vercel.app",
+    "description": "Wordle except 90% of the time the answer is Jeff Goldblum.",
+    "category": "Novelty",
+    "id": 733
   },
   {
     "name": "Jeopardy 6",
@@ -2109,13 +2137,6 @@
     "description": "Guess the secret word that can be up to 10 letters long.",
     "category": "Words",
     "id": 192
-  },
-  {
-    "name": "Letterbrew",
-    "url": "https://www.ted.com/games/letter-brew",
-    "description": "Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.",
-    "category": "Words",
-    "id": 573
   },
   {
     "name": "Lettered",
@@ -2312,7 +2333,7 @@
     "name": "Luckle",
     "url": "https://luckle.org",
     "description": "Roll the dice until it lands on the target number. 3 rounds per day.",
-    "category": "Miscellaneous",
+    "category": "Novelty",
     "id": 643
   },
   {
@@ -2622,6 +2643,13 @@
     "id": 250
   },
   {
+    "name": "Nerdcube - Carom",
+    "url": "https://www.nerdcube.games/carom",
+    "description": "Reach the goal my sliding the pieces around the grid.",
+    "category": "Shapes/Patterns",
+    "id": 734
+  },
+  {
     "name": "Nerdcube - Dabble",
     "url": "https://www.nerdcube.games/dabble",
     "description": "Score as many points as you can by building words on a small custom Scrabble board.",
@@ -2690,6 +2718,13 @@
     "description": "A themed word search with emojis where the words make make a path. Does not require a Netflix account.",
     "category": "Words",
     "id": 629
+  },
+  {
+    "name": "NextUp",
+    "url": "https://nextupgame.com",
+    "description": "Guess the next number in the sequence, five rounds every day.",
+    "category": "Math/Logic",
+    "id": 735
   },
   {
     "name": "Nodes",
@@ -3465,6 +3500,13 @@
     "id": 326
   },
   {
+    "name": "RNGdle",
+    "url": "https://www.rngdle.com",
+    "description": "Roll a random number between 0 and 1,000,000, earning points based on its patterns and properties.",
+    "category": "Novelty",
+    "id": 736
+  },
+  {
     "name": "Rogule",
     "url": "https://rogule.com/game.html",
     "description": "A daily emoji dungeon crawler roguelike.",
@@ -4059,6 +4101,20 @@
     "category": "Video Games",
     "theme": "Escape from Tarkov",
     "id": 380
+  },
+  {
+    "name": "TED - Cheat Sheet",
+    "url": "https://www.ted.com/games/cheat-sheet",
+    "description": "Answer today's redacted question by investigating each of the clues.",
+    "category": "Trivia",
+    "id": 737
+  },
+  {
+    "name": "TED - Letterbrew",
+    "url": "https://www.ted.com/games/letter-brew",
+    "description": "Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.",
+    "category": "Words",
+    "id": 573
   },
   {
     "name": "Temple",
@@ -4832,6 +4888,13 @@
     "description": "Guess the year of each of these events that all happened today's month and day.",
     "category": "History",
     "id": 584
+  },
+  {
+    "name": "YGOdle",
+    "url": "https://www.ygodle.net/",
+    "description": "A collection of daily guessing games based on the card game 'Yu-Gi-Oh!'",
+    "category": "Card/Board Games",
+    "id": 738
   },
   {
     "name": "Zaku Chess",

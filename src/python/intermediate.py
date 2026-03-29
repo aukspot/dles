@@ -304,6 +304,7 @@ CATEGORY_ORDER = [
     "Math/Logic",
     "Movies/TV",
     "Music",
+    "Novelty",
     "Science/Nature",
     "Shapes/Patterns",
     "Sports",

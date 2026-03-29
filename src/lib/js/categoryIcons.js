@@ -15,6 +15,7 @@ import IconVehicles from "$lib/components/Icons/IconVehicles.svelte"
 import IconVideoGames from "$lib/components/Icons/IconVideoGames.svelte"
 import IconWords from "$lib/components/Icons/IconWords.svelte"
 import IconMiscellaneous from "$lib/components/Icons/IconMiscellaneous.svelte"
+import IconNovelty from "$lib/components/Icons/IconNovelty.svelte"
 
 export const categoryIcons = {
   "Card/Board Games": IconCardBoardGames,
@@ -26,6 +27,7 @@ export const categoryIcons = {
   "Math/Logic": IconMath,
   "Movies/TV": IconMovies,
   Music: IconMusic,
+  Novelty: IconNovelty,
   "Science/Nature": IconScienceNature,
   "Shapes/Patterns": IconShapesPatterns,
   Sports: IconSports,

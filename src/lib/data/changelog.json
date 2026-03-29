@@ -9,7 +9,54 @@
         "reason": "No longer updates."
       }
     ],
-    "description": "Remove 1 dle. "
+    "description": "Add 9 dles. Remove 1 dle.<br>Add category: Novelty.<br>Move Coindle and Luckle to Novelty.",
+    "dles added": [
+      {
+        "name": "Crayondle",
+        "url": "https://crayondle.com",
+        "id": 730
+      },
+      {
+        "name": "Doctordle",
+        "url": "https://doctordle.org",
+        "id": 731
+      },
+      {
+        "name": "Horsle",
+        "url": "https://cabletwo.net/horsle/",
+        "id": 732
+      },
+      {
+        "name": "Jeffgoldblumle",
+        "url": "https://jeffgoldblumle.vercel.app",
+        "id": 733
+      },
+      {
+        "name": "Nerdcube - Carom",
+        "url": "https://www.nerdcube.games/carom",
+        "id": 734
+      },
+      {
+        "name": "NextUp",
+        "url": "https://nextupgame.com",
+        "id": 735
+      },
+      {
+        "name": "RNGdle",
+        "url": "https://www.rngdle.com",
+        "id": 736
+      },
+      {
+        "name": "TED - Cheat Sheet",
+        "url": "https://www.ted.com/games/cheat-sheet",
+        "id": 737
+      },
+      {
+        "name": "YGOdle",
+        "url": "https://www.ygodle.net/",
+        "id": 738
+      }
+    ]
   },
   {
     "date": "2026-03-24",
