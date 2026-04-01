@@ -4011,6 +4011,12 @@
     "id": 595
   },
   {
+    "name": "Sudoku a Day",
+    "url": "https://sudokuaday.com",
+    "description": "Daily Sudoku in 5 difficulties, 17 languages, printable PDFs. Free, no account.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Sudoku Shift",
     "url": "https://coffeefirst.games/sudoku-shift/",
     "description": "Solve three sudokus in sequence, each one bigger than the previous.",
