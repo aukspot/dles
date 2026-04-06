@@ -18,42 +18,6 @@
     "date_added": "2026-03-14"
   },
   {
-    "name": "Ballpark",
-    "url": "https://www.ball-park.dev",
-    "id": 708,
-    "date_added": "2026-03-06"
-  },
-  {
-    "name": "CHN LNK",
-    "url": "https://thechnlnk.com",
-    "id": 699,
-    "date_added": "2026-03-01"
-  },
-  {
-    "name": "Chroma",
-    "url": "https://robson.plus/chroma",
-    "id": 700,
-    "date_added": "2026-03-01"
-  },
-  {
-    "name": "Chrono NBA",
-    "url": "https://chrono.quest/basketball.html",
-    "id": 709,
-    "date_added": "2026-03-06"
-  },
-  {
-    "name": "Chrono NFL",
-    "url": "https://chrono.quest/nfl.html",
-    "id": 710,
-    "date_added": "2026-03-06"
-  },
-  {
-    "name": "Chrono USA",
-    "url": "https://chrono.quest/us_history.html",
-    "id": 711,
-    "date_added": "2026-03-06"
-  },
-  {
     "name": "Crayondle",
     "url": "https://crayondle.com",
     "id": 730,
@@ -64,24 +28,6 @@
     "url": "https://doctordle.org",
     "id": 731,
     "date_added": "2026-03-28"
-  },
-  {
-    "name": "Giffle - Friends",
-    "url": "https://giffle.com/friends/",
-    "id": 701,
-    "date_added": "2026-03-01"
-  },
-  {
-    "name": "Giffle - Simpsons",
-    "url": "https://giffle.com/simpsons/",
-    "id": 702,
-    "date_added": "2026-03-01"
-  },
-  {
-    "name": "Griddable",
-    "url": "https://griddable.co.uk",
-    "id": 703,
-    "date_added": "2026-03-01"
   },
   {
     "name": "Horsle",
@@ -102,12 +48,6 @@
     "date_added": "2026-03-21"
   },
   {
-    "name": "list animals until failure",
-    "url": "https://rose.systems/animalist/#today",
-    "id": 712,
-    "date_added": "2026-03-06"
-  },
-  {
     "name": "Marathondle",
     "url": "https://marathondle.com",
     "id": 725,
@@ -126,12 +66,6 @@
     "date_added": "2026-03-28"
   },
   {
-    "name": "Nerdcube - Dabble",
-    "url": "https://www.nerdcube.games/dabble",
-    "id": 713,
-    "date_added": "2026-03-06"
-  },
-  {
     "name": "NextUp",
     "url": "https://nextupgame.com",
     "id": 735,
@@ -142,12 +76,6 @@
     "url": "https://www.nonodaily.com",
     "id": 726,
     "date_added": "2026-03-21"
-  },
-  {
-    "name": "Number Crunch",
-    "url": "https://numbercrunch.fun",
-    "id": 714,
-    "date_added": "2026-03-06"
   },
   {
     "name": "Parseword",
@@ -162,28 +90,10 @@
     "date_added": "2026-03-21"
   },
   {
-    "name": "Ponder Club",
-    "url": "https://ponderclub.co",
-    "id": 704,
-    "date_added": "2026-03-01"
-  },
-  {
-    "name": "Radiordle",
-    "url": "https://www.radiordle.org",
-    "id": 705,
-    "date_added": "2026-03-01"
-  },
-  {
     "name": "RNGdle",
     "url": "https://www.rngdle.com",
     "id": 736,
     "date_added": "2026-03-28"
-  },
-  {
-    "name": "Scrokkdle",
-    "url": "https://scrokkle.io/daily",
-    "id": 715,
-    "date_added": "2026-03-06"
   },
   {
     "name": "Songdle",
@@ -198,12 +108,6 @@
     "date_added": "2026-03-10"
   },
   {
-    "name": "Stepwords",
-    "url": "https://stepwords.xyz",
-    "id": 716,
-    "date_added": "2026-03-06"
-  },
-  {
     "name": "TED - Cheat Sheet",
     "url": "https://www.ted.com/games/cheat-sheet",
     "id": 737,
@@ -214,24 +118,6 @@
     "url": "https://dailybaffle.com",
     "id": 728,
     "date_added": "2026-03-21"
-  },
-  {
-    "name": "Thinky Dailies",
-    "url": "https://thinkygames.com/dailies/today/",
-    "id": 717,
-    "date_added": "2026-03-06"
-  },
-  {
-    "name": "Whodle",
-    "url": "https://whodle.dixonary.co.uk",
-    "id": 706,
-    "date_added": "2026-03-01"
-  },
-  {
-    "name": "WordWavr",
-    "url": "https://wordwavr.app",
-    "id": 707,
-    "date_added": "2026-03-01"
   },
   {
     "name": "YGOdle",
