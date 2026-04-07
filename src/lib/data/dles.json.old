@@ -1280,6 +1280,13 @@
     "id": 117
   },
   {
+    "name": "Far Out",
+    "url": "https://www.faroutquiz.com",
+    "description": "Three daily estimation trivia questions. The closer you get, the higher your score.",
+    "category": "Estimation",
+    "id": 739
+  },
+  {
     "name": "Fibble",
     "url": "https://fibble.xyz",
     "description": "Wordle but it lies to you. (Like Lirdle)",
@@ -3502,7 +3509,7 @@
   {
     "name": "RNGdle",
     "url": "https://www.rngdle.com",
-    "description": "Roll a random number between 0 and 1,000,000, earning points based on its patterns and properties.",
+    "description": "Roll a random number between 0 and 1 million, earning points based on its patterns and properties.",
     "category": "Novelty",
     "id": 736
   },
@@ -3667,6 +3674,13 @@
     "description": "Guess today's TV show by narrowing down its attributes.",
     "category": "Movies/TV",
     "id": 669
+  },
+  {
+    "name": "Shrinkle",
+    "url": "https://shrinkle.org",
+    "description": "Remove letters and make new words until you find the hidden phrase.",
+    "category": "Words",
+    "id": 740
   },
   {
     "name": "Shuffalo",
@@ -4115,6 +4129,13 @@
     "description": "Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.",
     "category": "Words",
     "id": 573
+  },
+  {
+    "name": "TED - Spellcheck",
+    "url": "https://www.ted.com/games/spellcheck",
+    "description": "Daily spelling challenges made in collaboration with Spellcheck.xyz",
+    "category": "Words",
+    "id": 741
   },
   {
     "name": "Temple",

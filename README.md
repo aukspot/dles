@@ -78,13 +78,14 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-03-28`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-04-07`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
 - [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
+- [Shrinkle](https://shrinkle.org) - Remove letters and make new words until you find the hidden phrase.
 
 ### Card/Board Games (20)
 
@@ -120,7 +121,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (17)
+### Estimation (18)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -130,6 +131,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Cutle](https://pfiffel.com/cutle/) - Cut today's shape as evenly as you can.
 - [Estimadle](https://estimadle.com) - Estimate the number of circles within 10 seconds.
 - [Estimate Me](https://estimate-me.aukspot.com) - Estimate something new every day!
+- [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
@@ -601,7 +603,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (229)
+### Words (231)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -745,6 +747,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [sedecordle](https://sedecordle.com) - Solve 16 wordles at the same time. You have 21 guesses.
 - [Semantle](https://semantle.com) - Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.
 - [Sexaginta-quattuordle](https://64ordle.au/?mode=daily) - Solve 64 Wordle puzzles at the same time.
+- [Shrinkle](https://shrinkle.org) - Remove letters and make new words until you find the hidden phrase.
 - [Shuffalo](https://www.newyorker.com/puzzles-and-games-dept/shuffalo) - Make a word using all the letters on the wheel, adding a new letter after each correct guess.
 - [Silly Little Codes](https://playsillylittlegames.com/codes) - Guess the word or phrase represented by today's code.
 - [Slate - Pears](https://slate.com/games/pears) - Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.
@@ -775,6 +778,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Swapple](https://nibble.games/swapple/swapple-easy.html) - Swap letters such that every row and column is a word.
 - [Symble](https://www.symble.app) - A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.
 - [TED - Letterbrew](https://www.ted.com/games/letter-brew) - Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.
+- [TED - Spellcheck](https://www.ted.com/games/spellcheck) - Daily spelling challenges made in collaboration with Spellcheck.xyz
 - [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) - A daily crossword from The Atlantic.
 - [The Daily Spell](https://www.the-daily-spell.com) - Unscramble the fictional headline by dropping letters into place.
 - [The Guardian - Cryptic Crossword](https://www.theguardian.com/crosswords/series/cryptic) - A weekday cryptic crossword from The Guardian.

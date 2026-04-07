@@ -30,6 +30,12 @@
     "date_added": "2026-03-28"
   },
   {
+    "name": "Far Out",
+    "url": "https://www.faroutquiz.com",
+    "id": 739,
+    "date_added": "2026-04-07"
+  },
+  {
     "name": "Horsle",
     "url": "https://cabletwo.net/horsle/",
     "id": 732,
@@ -96,6 +102,12 @@
     "date_added": "2026-03-28"
   },
   {
+    "name": "Shrinkle",
+    "url": "https://shrinkle.org",
+    "id": 740,
+    "date_added": "2026-04-07"
+  },
+  {
     "name": "Songdle",
     "url": "https://statt-land-song.ch/songdle",
     "id": 729,
@@ -112,6 +124,12 @@
     "url": "https://www.ted.com/games/cheat-sheet",
     "id": 737,
     "date_added": "2026-03-28"
+  },
+  {
+    "name": "TED - Spellcheck",
+    "url": "https://www.ted.com/games/spellcheck",
+    "id": 741,
+    "date_added": "2026-04-07"
   },
   {
     "name": "The Daily Baffle",

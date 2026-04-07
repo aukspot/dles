@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-04-07
+
+Add 3 dles. 
+
+dles added: 
+|    | name                                                     | url                                                                          |   id |
+|---:|:---------------------------------------------------------|:-----------------------------------------------------------------------------|-----:|
+|  1 | [Far Out](https://www.faroutquiz.com)                    | [https://www.faroutquiz.com](https://www.faroutquiz.com)                     |  739 |
+|  2 | [Shrinkle](https://shrinkle.org)                         | [https://shrinkle.org](https://shrinkle.org)                                 |  740 |
+|  3 | [TED - Spellcheck](https://www.ted.com/games/spellcheck) | [https://www.ted.com/games/spellcheck](https://www.ted.com/games/spellcheck) |  741 |
+
 ## 2026-03-28
 
 Add 9 dles. Remove 1 dle.<br>Add category: Novelty.<br>Move Coindle and Luckle to Novelty.

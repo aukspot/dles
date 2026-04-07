@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-04-07",
+    "dles added": [
+      {
+        "name": "Far Out",
+        "url": "https://www.faroutquiz.com",
+        "id": 739
+      },
+      {
+        "name": "Shrinkle",
+        "url": "https://shrinkle.org",
+        "id": 740
+      },
+      {
+        "name": "TED - Spellcheck",
+        "url": "https://www.ted.com/games/spellcheck",
+        "id": 741
+      }
+    ],
+    "description": "Add 3 dles. "
+  },
+  {
     "date": "2026-03-28",
     "dles removed": [
       {

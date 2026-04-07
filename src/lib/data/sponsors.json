@@ -19,5 +19,12 @@
     "description": "Make valid 5-letter words by selecting one letter from each column.",
     "category": "Words",
     "id": 680
+  },
+  {
+    "name": "Shrinkle",
+    "url": "https://shrinkle.org",
+    "description": "Remove letters and make new words until you find the hidden phrase.",
+    "category": "Words",
+    "id": 740
   }
 ]
