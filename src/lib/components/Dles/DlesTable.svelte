@@ -211,7 +211,7 @@
                   <a
                     href={dle.url}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener"
                     class="dle-name-link"
                     on:click={(e) => handleDleClick(dle, section.id, index, e)}
                     on:auxclick={(e) =>
@@ -374,5 +374,4 @@
   .description-text {
     @apply text-sm leading-relaxed;
   }
-
 </style>

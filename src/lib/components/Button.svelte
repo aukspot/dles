@@ -5,7 +5,7 @@
   export let iconPosition = "left"
   export let href = null
   export let target = "_blank"
-  export let rel = "noopener noreferrer"
+  export let rel = "noopener"
   export let disabled = false
   export let active = false
   export let ariaLabel = null
