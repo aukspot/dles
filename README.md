@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-04-07`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-04-20`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -288,7 +288,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (48)
+### Movies/TV (47)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -315,7 +315,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Giffle - Friends](https://giffle.com/friends/) - Guess the Friends episode based on short gifs taken from it.
 - [Giffle - Simpsons](https://giffle.com/simpsons/) - Guess the Simpsons episode based on short gifs taken from it.
 - [Guess The Movie](https://guessthemovie.name) - Guess the movie based on its screenshots and details.
-- [GuessTheMovie.me](https://guessthemovie.me) - Guess the movie based on its reviews on Letterboxd.
 - [Harrypotterdle](https://www.harrypotterdle.com) - A collection of daily games related to Harry Potter.
 - [Jojodle](https://www.jojodle.app) - Guess the secret Stand User of the day from Jojo's Bizarre Adventure.
 - [Marveldle](https://marveldle.com/character/audiovisual/guess) - Guess the daily character from the Marvel Cinematic Universe.

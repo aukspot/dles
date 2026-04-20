@@ -247,6 +247,18 @@
     ]
   },
   {
+    "name": "GuessTheMovie.me",
+    "url": "https://guessthemovie.me",
+    "id": 519,
+    "removals": [
+      {
+        "date_removed": "2026-04-20"
+      }
+    ],
+    "description": "Guess the movie based on its reviews on Letterboxd.",
+    "category": "Movies/TV"
+  },
+  {
     "name": "Hexle",
     "url": "https://frankljin.github.io/hexle/",
     "id": 472,

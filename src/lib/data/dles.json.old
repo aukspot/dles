@@ -1709,13 +1709,6 @@
     "id": 155
   },
   {
-    "name": "GuessTheMovie.me",
-    "url": "https://guessthemovie.me",
-    "description": "Guess the movie based on its reviews on Letterboxd.",
-    "category": "Movies/TV",
-    "id": 519
-  },
-  {
     "name": "Harmonies: Music Connections",
     "url": "https://harmonies.io",
     "description": "Find the groups of 4 that share some musical theme.",
