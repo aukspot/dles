@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-20",
+    "dles removed": [
+      {
+        "name": "GuessTheMovie.me",
+        "url": "https://guessthemovie.me",
+        "id": 519
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-04-07",
     "dles added": [
       {

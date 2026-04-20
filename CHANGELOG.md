@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-04-20
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                         | url                                                  |   id |
+|---:|:---------------------------------------------|:-----------------------------------------------------|-----:|
+|  1 | [GuessTheMovie.me](https://guessthemovie.me) | [https://guessthemovie.me](https://guessthemovie.me) |  519 |
 ## 2026-04-07
 
 Add 3 dles. 
