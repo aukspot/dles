@@ -272,6 +272,18 @@
     ]
   },
   {
+    "name": "Hitori Conquest",
+    "url": "https://hitoriconquest.com",
+    "id": 170,
+    "removals": [
+      {
+        "date_removed": "2026-04-20"
+      }
+    ],
+    "description": "Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "IYKYK",
     "url": "https://daily.iykyk.com",
     "id": 183,

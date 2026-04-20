@@ -2,13 +2,14 @@
 
 ## 2026-04-20
 
-Remove 1 dle. 
+Remove 2 dles. 
 
 
 dles removed: 
-|    | name                                         | url                                                  |   id |
-|---:|:---------------------------------------------|:-----------------------------------------------------|-----:|
-|  1 | [GuessTheMovie.me](https://guessthemovie.me) | [https://guessthemovie.me](https://guessthemovie.me) |  519 |
+|    | name                                          | url                                                      |   id |
+|---:|:----------------------------------------------|:---------------------------------------------------------|-----:|
+|  1 | [GuessTheMovie.me](https://guessthemovie.me)  | [https://guessthemovie.me](https://guessthemovie.me)     |  519 |
+|  2 | [Hitori Conquest](https://hitoriconquest.com) | [https://hitoriconquest.com](https://hitoriconquest.com) |  170 |
 ## 2026-04-07
 
 Add 3 dles. 

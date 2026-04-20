@@ -218,7 +218,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (67)
+### Math/Logic (66)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -239,7 +239,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Fields](https://inkwellgames.com/games/fields) - Fill the grid with colorful fields that never connect.
 - [Figure](https://figure.game) - Clear all of the tiles before running out of moves.
 - [Five Fold](https://fivefold.ca) - Fill in the 5x5 grid based on rules that change each day.
-- [Hitori Conquest](https://hitoriconquest.com) - Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.
 - [Knotilus](https://knotil.us) - Solve this daily puzzle by finding Fibonacci-like sequences from the given numbers.
 - [Kuromasu](https://nibble.games/kuromasu/kuromasu-small.html) - Fill the board with either black or teal squares based on the numbered cells.
 - [LA Times Sudoku](https://www.latimes.com/games/sudoku) - Daily sudoku puzzles across 5 difficulties from the Los Angeles Times.
