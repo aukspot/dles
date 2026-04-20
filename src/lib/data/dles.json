@@ -1836,13 +1836,6 @@
     "id": 653
   },
   {
-    "name": "Hitori Conquest",
-    "url": "https://hitoriconquest.com",
-    "description": "Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.",
-    "category": "Math/Logic",
-    "id": 170
-  },
-  {
     "name": "Hoopgrids",
     "url": "https://www.hoopgrids.com",
     "description": "A daily NBA grid game.",
