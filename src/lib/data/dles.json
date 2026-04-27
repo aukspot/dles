@@ -3982,13 +3982,6 @@
     "id": 368
   },
   {
-    "name": "Stepdle",
-    "url": "https://www.stepdle.com",
-    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
-    "category": "Words",
-    "id": 369
-  },
-  {
     "name": "Stepwords",
     "url": "https://stepwords.xyz",
     "description": "A word ladder game where each word is an anagram of the previous word plus an extra letter.",
