@@ -694,6 +694,18 @@
     ]
   },
   {
+    "name": "Stepdle",
+    "url": "https://www.stepdle.com",
+    "id": 369,
+    "removals": [
+      {
+        "date_removed": "2026-04-27"
+      }
+    ],
+    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
+    "category": "Words"
+  },
+  {
     "name": "Stewardle",
     "url": "https://stewardle.com",
     "id": 594,

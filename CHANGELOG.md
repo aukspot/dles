@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-04-27
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                               | url                                                |   id |
+|---:|:-----------------------------------|:---------------------------------------------------|-----:|
+|  1 | [Stepdle](https://www.stepdle.com) | [https://www.stepdle.com](https://www.stepdle.com) |  369 |
 ## 2026-04-20
 
 Remove 2 dles. 

@@ -1,17 +1,5 @@
 [
   {
-    "name": "Am I Dead?",
-    "url": "https://www.amidead.gg",
-    "id": 722,
-    "date_added": "2026-03-21"
-  },
-  {
-    "name": "Ballot Blocks",
-    "url": "https://ballotblocks.com",
-    "id": 723,
-    "date_added": "2026-03-21"
-  },
-  {
     "name": "Crayondle",
     "url": "https://crayondle.com",
     "id": 730,
@@ -42,18 +30,6 @@
     "date_added": "2026-03-28"
   },
   {
-    "name": "Kuromasu",
-    "url": "https://nibble.games/kuromasu/kuromasu-small.html",
-    "id": 724,
-    "date_added": "2026-03-21"
-  },
-  {
-    "name": "Marathondle",
-    "url": "https://marathondle.com",
-    "id": 725,
-    "date_added": "2026-03-21"
-  },
-  {
     "name": "Nerdcube - Carom",
     "url": "https://www.nerdcube.games/carom",
     "id": 734,
@@ -64,18 +40,6 @@
     "url": "https://nextupgame.com",
     "id": 735,
     "date_added": "2026-03-28"
-  },
-  {
-    "name": "NonoDaily",
-    "url": "https://www.nonodaily.com",
-    "id": 726,
-    "date_added": "2026-03-21"
-  },
-  {
-    "name": "PokeCryptic",
-    "url": "https://www.pokecryptic.com",
-    "id": 727,
-    "date_added": "2026-03-21"
   },
   {
     "name": "RNGdle",
@@ -90,12 +54,6 @@
     "date_added": "2026-04-07"
   },
   {
-    "name": "Songdle",
-    "url": "https://statt-land-song.ch/songdle",
-    "id": 729,
-    "date_added": "2026-03-22"
-  },
-  {
     "name": "TED - Cheat Sheet",
     "url": "https://www.ted.com/games/cheat-sheet",
     "id": 737,
@@ -106,12 +64,6 @@
     "url": "https://www.ted.com/games/spellcheck",
     "id": 741,
     "date_added": "2026-04-07"
-  },
-  {
-    "name": "The Daily Baffle",
-    "url": "https://dailybaffle.com",
-    "id": 728,
-    "date_added": "2026-03-21"
   },
   {
     "name": "YGOdle",

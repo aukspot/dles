@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-04-20`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-04-27`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -601,7 +601,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (231)
+### Words (230)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -769,7 +769,6 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Stackle](https://www.stackle.fun) - Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.
 - [Stacks](https://www.theatlantic.com/games/stacks/) - Stack words from the word bank to create new words going horizontally. (From The Atlantic)
 - [Stat Mini Crossword](https://www.statnews.com/stat-mini-crossword/) - A weekday mini crossword that's often health and medicine focused.
-- [Stepdle](https://www.stepdle.com) - Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.
 - [Stepwords](https://stepwords.xyz) - A word ladder game where each word is an anagram of the previous word plus an extra letter.
 - [Summit Game](https://summit-puzzle.me) - With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.
 - [Survivle](https://lazyguyy.github.io/survivle) - Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.
