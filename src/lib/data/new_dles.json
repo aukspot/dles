@@ -1,15 +1,21 @@
 [
   {
-    "name": "Crayondle",
-    "url": "https://crayondle.com",
-    "id": 730,
-    "date_added": "2026-03-28"
+    "name": "Babelle",
+    "url": "https://babelle.terrylaire.fr/",
+    "id": 742,
+    "date_added": "2026-05-03"
   },
   {
-    "name": "Doctordle",
-    "url": "https://doctordle.org",
-    "id": 731,
-    "date_added": "2026-03-28"
+    "name": "Coastle",
+    "url": "https://pkyu.github.io/coastle/",
+    "id": 743,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "DOGDLE",
+    "url": "https://dogdle.org",
+    "id": 744,
+    "date_added": "2026-05-03"
   },
   {
     "name": "Far Out",
@@ -18,34 +24,52 @@
     "date_added": "2026-04-07"
   },
   {
-    "name": "Horsle",
-    "url": "https://cabletwo.net/horsle/",
-    "id": 732,
-    "date_added": "2026-03-28"
+    "name": "Faustdle",
+    "url": "https://faustdle.com/",
+    "id": 745,
+    "date_added": "2026-05-03"
   },
   {
-    "name": "Jeffgoldblumle",
-    "url": "https://jeffgoldblumle.vercel.app",
-    "id": 733,
-    "date_added": "2026-03-28"
+    "name": "GlobeHoppr",
+    "url": "https://globehoppr.com",
+    "id": 746,
+    "date_added": "2026-05-03"
   },
   {
-    "name": "Nerdcube - Carom",
-    "url": "https://www.nerdcube.games/carom",
-    "id": 734,
-    "date_added": "2026-03-28"
+    "name": "Google Feud",
+    "url": "https://googlefeud.com",
+    "id": 747,
+    "date_added": "2026-05-03"
   },
   {
-    "name": "NextUp",
-    "url": "https://nextupgame.com",
-    "id": 735,
-    "date_added": "2026-03-28"
+    "name": "Magnitudle",
+    "url": "https://magnitudle.com",
+    "id": 748,
+    "date_added": "2026-05-03"
   },
   {
-    "name": "RNGdle",
-    "url": "https://www.rngdle.com",
-    "id": 736,
-    "date_added": "2026-03-28"
+    "name": "NounSense",
+    "url": "https://daily.gametje.com/nounsense",
+    "id": 749,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "Passportle",
+    "url": "https://passportle.lordos.tech",
+    "id": 750,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "Peekpedia",
+    "url": "https://peekpedia.com",
+    "id": 751,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "Quiple",
+    "url": "https://quiple.xyz",
+    "id": 752,
+    "date_added": "2026-05-03"
   },
   {
     "name": "Shrinkle",
@@ -54,10 +78,10 @@
     "date_added": "2026-04-07"
   },
   {
-    "name": "TED - Cheat Sheet",
-    "url": "https://www.ted.com/games/cheat-sheet",
-    "id": 737,
-    "date_added": "2026-03-28"
+    "name": "spiredle.net",
+    "url": "https://spiredle.net",
+    "id": 753,
+    "date_added": "2026-05-03"
   },
   {
     "name": "TED - Spellcheck",
@@ -66,9 +90,33 @@
     "date_added": "2026-04-07"
   },
   {
-    "name": "YGOdle",
-    "url": "https://www.ygodle.net/",
-    "id": 738,
-    "date_added": "2026-03-28"
+    "name": "Thingdle",
+    "url": "https://thingdle.app/en/thingdle",
+    "id": 754,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "Thruline",
+    "url": "https://cyllibi.com/thruline",
+    "id": 755,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "Timdle Math",
+    "url": "https://timdle.com/math",
+    "id": 756,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "Timdle Music",
+    "url": "https://timdle.com/music",
+    "id": 757,
+    "date_added": "2026-05-03"
+  },
+  {
+    "name": "TravelGuessr",
+    "url": "https://travelguessr.com/",
+    "id": 758,
+    "date_added": "2026-05-03"
   }
 ]

@@ -1,5 +1,96 @@
 [
   {
+    "date": "2026-05-03",
+    "dles added": [
+      {
+        "name": "Babelle",
+        "url": "https://babelle.terrylaire.fr/",
+        "id": 742
+      },
+      {
+        "name": "Coastle",
+        "url": "https://pkyu.github.io/coastle/",
+        "id": 743
+      },
+      {
+        "name": "DOGDLE",
+        "url": "https://dogdle.org",
+        "id": 744
+      },
+      {
+        "name": "Faustdle",
+        "url": "https://faustdle.com/",
+        "id": 745
+      },
+      {
+        "name": "GlobeHoppr",
+        "url": "https://globehoppr.com",
+        "id": 746
+      },
+      {
+        "name": "Google Feud",
+        "url": "https://googlefeud.com",
+        "id": 747
+      },
+      {
+        "name": "Magnitudle",
+        "url": "https://magnitudle.com",
+        "id": 748
+      },
+      {
+        "name": "NounSense",
+        "url": "https://daily.gametje.com/nounsense",
+        "id": 749
+      },
+      {
+        "name": "Passportle",
+        "url": "https://passportle.lordos.tech",
+        "id": 750
+      },
+      {
+        "name": "Peekpedia",
+        "url": "https://peekpedia.com",
+        "id": 751
+      },
+      {
+        "name": "Quiple",
+        "url": "https://quiple.xyz",
+        "id": 752
+      },
+      {
+        "name": "spiredle.net",
+        "url": "https://spiredle.net",
+        "id": 753
+      },
+      {
+        "name": "Thingdle",
+        "url": "https://thingdle.app/en/thingdle",
+        "id": 754
+      },
+      {
+        "name": "Thruline",
+        "url": "https://cyllibi.com/thruline",
+        "id": 755
+      },
+      {
+        "name": "Timdle Math",
+        "url": "https://timdle.com/math",
+        "id": 756
+      },
+      {
+        "name": "Timdle Music",
+        "url": "https://timdle.com/music",
+        "id": 757
+      },
+      {
+        "name": "TravelGuessr",
+        "url": "https://travelguessr.com/",
+        "id": 758
+      }
+    ],
+    "description": "Add 17 dles. "
+  },
+  {
     "date": "2026-04-27",
     "dles removed": [
       {

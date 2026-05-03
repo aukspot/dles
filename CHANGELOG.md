@@ -1,5 +1,30 @@
 # Changelog - The Dles
 
+## 2026-05-03
+
+Add 17 dles. 
+
+dles added: 
+|    | name                                             | url                                                                        |   id |
+|---:|:-------------------------------------------------|:---------------------------------------------------------------------------|-----:|
+|  1 | [Babelle](https://babelle.terrylaire.fr/)        | [https://babelle.terrylaire.fr/](https://babelle.terrylaire.fr/)           |  742 |
+|  2 | [Coastle](https://pkyu.github.io/coastle/)       | [https://pkyu.github.io/coastle/](https://pkyu.github.io/coastle/)         |  743 |
+|  3 | [DOGDLE](https://dogdle.org)                     | [https://dogdle.org](https://dogdle.org)                                   |  744 |
+|  4 | [Faustdle](https://faustdle.com/)                | [https://faustdle.com/](https://faustdle.com/)                             |  745 |
+|  5 | [GlobeHoppr](https://globehoppr.com)             | [https://globehoppr.com](https://globehoppr.com)                           |  746 |
+|  6 | [Google Feud](https://googlefeud.com)            | [https://googlefeud.com](https://googlefeud.com)                           |  747 |
+|  7 | [Magnitudle](https://magnitudle.com)             | [https://magnitudle.com](https://magnitudle.com)                           |  748 |
+|  8 | [NounSense](https://daily.gametje.com/nounsense) | [https://daily.gametje.com/nounsense](https://daily.gametje.com/nounsense) |  749 |
+|  9 | [Passportle](https://passportle.lordos.tech)     | [https://passportle.lordos.tech](https://passportle.lordos.tech)           |  750 |
+| 10 | [Peekpedia](https://peekpedia.com)               | [https://peekpedia.com](https://peekpedia.com)                             |  751 |
+| 11 | [Quiple](https://quiple.xyz)                     | [https://quiple.xyz](https://quiple.xyz)                                   |  752 |
+| 12 | [spiredle.net](https://spiredle.net)             | [https://spiredle.net](https://spiredle.net)                               |  753 |
+| 13 | [Thingdle](https://thingdle.app/en/thingdle)     | [https://thingdle.app/en/thingdle](https://thingdle.app/en/thingdle)       |  754 |
+| 14 | [Thruline](https://cyllibi.com/thruline)         | [https://cyllibi.com/thruline](https://cyllibi.com/thruline)               |  755 |
+| 15 | [Timdle Math](https://timdle.com/math)           | [https://timdle.com/math](https://timdle.com/math)                         |  756 |
+| 16 | [Timdle Music](https://timdle.com/music)         | [https://timdle.com/music](https://timdle.com/music)                       |  757 |
+| 17 | [TravelGuessr](https://travelguessr.com/)        | [https://travelguessr.com/](https://travelguessr.com/)                     |  758 |
+
 ## 2026-04-27
 
 Remove 1 dle. 

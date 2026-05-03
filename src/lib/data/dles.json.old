@@ -166,6 +166,13 @@
     "id": 459
   },
   {
+    "name": "Babelle",
+    "url": "https://babelle.terrylaire.fr/",
+    "description": "Guess which country the given city is in.",
+    "category": "Geography",
+    "id": 742
+  },
+  {
     "name": "Baddle",
     "url": "https://tumblecricket.net/Baddle/",
     "description": "A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.",
@@ -248,7 +255,7 @@
   {
     "name": "Bibdle",
     "url": "https://bibdle.com",
-    "description": "Guess the daily verse from the bible.",
+    "description": "Guess the bible book that the verse is from.",
     "category": "Miscellaneous",
     "id": 616
   },
@@ -664,6 +671,13 @@
     "id": 56
   },
   {
+    "name": "Coastle",
+    "url": "https://pkyu.github.io/coastle/",
+    "description": "Guess the daily rollercoaster.",
+    "category": "Miscellaneous",
+    "id": 743
+  },
+  {
     "name": "Cobble",
     "url": "https://wilf.live/cobble/",
     "description": "Find two words that together use up all the given letters.",
@@ -1076,6 +1090,13 @@
     "id": 95
   },
   {
+    "name": "DOGDLE",
+    "url": "https://dogdle.org",
+    "description": "Guess the breeds of today's shelter dog that is looking for their forever home.",
+    "category": "Science/Nature",
+    "id": 744
+  },
+  {
     "name": "Doggle",
     "url": "https://doggle.app",
     "description": "Guess breed of the dog in the picture.",
@@ -1285,6 +1306,13 @@
     "description": "Three daily estimation trivia questions. The closer you get, the higher your score.",
     "category": "Estimation",
     "id": 739
+  },
+  {
+    "name": "Faustdle",
+    "url": "https://faustdle.com/",
+    "description": "Guess the One Piece character of the day.",
+    "category": "Movies/TV",
+    "id": 745
   },
   {
     "name": "Fibble",
@@ -1574,6 +1602,13 @@
     "id": 527
   },
   {
+    "name": "GlobeHoppr",
+    "url": "https://globehoppr.com",
+    "description": "Travel from one world city to another by hopping across nearby cities.",
+    "category": "Geography",
+    "id": 746
+  },
+  {
     "name": "Globeiku",
     "url": "https://www.globeiku.com",
     "description": "Guess the country based on the given clues.",
@@ -1600,6 +1635,13 @@
     "description": "Guess the word based on its glyph, or all of its letters stacked together.",
     "category": "Words",
     "id": 660
+  },
+  {
+    "name": "Google Feud",
+    "url": "https://googlefeud.com",
+    "description": "Guess how Google auto-completes the search query, click on \"Question of the Day\".",
+    "category": "Trivia",
+    "id": 747
   },
   {
     "name": "Gram Jam",
@@ -2337,6 +2379,13 @@
     "id": 217
   },
   {
+    "name": "Magnitudle",
+    "url": "https://magnitudle.com",
+    "description": "Daily estimation trivia challenge, but you only get one guess. Final score is based on magnitude.",
+    "category": "Estimation",
+    "id": 748
+  },
+  {
     "name": "Mahjong Handle",
     "url": "https://mahjong-handle.update.sh",
     "description": "Guess the Riichi Mahjong hand in 6 tries.",
@@ -2756,6 +2805,13 @@
     "id": 254
   },
   {
+    "name": "NounSense",
+    "url": "https://daily.gametje.com/nounsense",
+    "description": "Guess the most common noun that follows the adjective, 10 words every day.",
+    "category": "Words",
+    "id": 749
+  },
+  {
     "name": "Number Crunch",
     "url": "https://numbercrunch.fun",
     "description": "Clear the board by efficiently matching digits. Clicking a number increments it, except for 9 which wraps around to 1.",
@@ -2961,6 +3017,13 @@
     "id": 719
   },
   {
+    "name": "Passportle",
+    "url": "https://passportle.lordos.tech",
+    "description": "Guess the country based on its passport.",
+    "category": "Geography",
+    "id": 750
+  },
+  {
     "name": "Past Puzzle",
     "url": "https://www.pastpuzzle.de",
     "description": "Guess the correct year of the given events, you have 4 tries.",
@@ -2973,6 +3036,13 @@
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
     "category": "Trivia",
     "id": 276
+  },
+  {
+    "name": "Peekpedia",
+    "url": "https://peekpedia.com",
+    "description": "Guess the Wikipedia article based on the pictures.",
+    "category": "Trivia",
+    "id": 751
   },
   {
     "name": "Pell Puzzles",
@@ -3293,6 +3363,13 @@
     "description": "Solve each of the 5 horizontal words in as few swaps as possible.",
     "category": "Words",
     "id": 309
+  },
+  {
+    "name": "Quiple",
+    "url": "https://quiple.xyz",
+    "description": "Put today's items into groups of three based on the theme.",
+    "category": "Trivia",
+    "id": 752
   },
   {
     "name": "Quizl",
@@ -3833,6 +3910,13 @@
     "id": 556
   },
   {
+    "name": "spiredle.net",
+    "url": "https://spiredle.net",
+    "description": "Collection of daily games related to Slay The Spire 2.",
+    "category": "Video Games",
+    "id": 753
+  },
+  {
     "name": "Spongedle",
     "url": "https://spongedle.onrender.com",
     "description": "Guess the episode from Spongebob Squarepants based on the screenshots.",
@@ -4211,6 +4295,13 @@
     "id": 387
   },
   {
+    "name": "Thingdle",
+    "url": "https://thingdle.app/en/thingdle",
+    "description": "A daily riddle, where you guess an everyday object.",
+    "category": "Miscellaneous",
+    "id": 754
+  },
+  {
     "name": "Thinky Dailies",
     "url": "https://thinkygames.com/dailies/today/",
     "description": "Handcrafted daily puzzles of all different kinds with a fun connected story.",
@@ -4246,6 +4337,13 @@
     "id": 391
   },
   {
+    "name": "Thruline",
+    "url": "https://cyllibi.com/thruline",
+    "description": "Determine the word that connects the four images.",
+    "category": "Trivia",
+    "id": 755
+  },
+  {
     "name": "Tightrope",
     "url": "https://www.britannica.com/quiz/tightrope",
     "description": "Answer 9 timed trivia questions without running out of lives!",
@@ -4279,6 +4377,20 @@
     "description": "Place 8 historical events in chronological order.",
     "category": "History",
     "id": 393
+  },
+  {
+    "name": "Timdle Math",
+    "url": "https://timdle.com/math",
+    "description": "Place each mathematical expression in its proper place on the number line.",
+    "category": "Math/Logic",
+    "id": 756
+  },
+  {
+    "name": "Timdle Music",
+    "url": "https://timdle.com/music",
+    "description": "Place each mystery song on the timeline after listening to an audio snippet.",
+    "category": "Music",
+    "id": 757
   },
   {
     "name": "TimeGuessr",
@@ -4350,6 +4462,13 @@
     "description": "Chain together words to form familiar phrases. Timed based word game.",
     "category": "Words",
     "id": 507
+  },
+  {
+    "name": "TravelGuessr",
+    "url": "https://travelguessr.com/",
+    "description": "Guess where the travel photo was taken, 4 rounds every day.",
+    "category": "Geography",
+    "id": 758
   },
   {
     "name": "travle",

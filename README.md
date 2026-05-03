@@ -2,7 +2,7 @@
 
 "They call them the dles but they are anything but." - Northernlion
 
-The dles is a curated collection of 600+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
+The dles is a curated collection of 700+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
 
 View the app [here](https://dles.aukspot.com) or view the list in a markdown table at the [bottom of this README](https://github.com/aukspot/dles/tree/main?tab=readme-ov-file#current-list-of-dles).
 
@@ -22,7 +22,7 @@ You can suggest a feature by [filling out this form](https://tally.so/r/Gx6kXZ) 
 
 ### Current
 
-- A list of over 600 curated dles.
+- A list of over 700 curated dles.
 - 17 categories to help with organization.
 - Users can select their favorite dles for quick access.
 - Randomly pick a dle to play.
@@ -78,7 +78,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 
 ## Current list of dles
 
-**Last updated `2026-04-27`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-05-03`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -121,7 +121,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (18)
+### Estimation (19)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -135,6 +135,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
+- [Magnitudle](https://magnitudle.com) - Daily estimation trivia challenge, but you only get one guess. Final score is based on magnitude.
 - [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
 - [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
@@ -150,8 +151,9 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (45)
+### Geography (49)
 
+- [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
 - [BallotGuessr](https://ballotguessr.com/daily) - Guess how the region voted given a Google Streetview location. 5 rounds every day.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
@@ -169,6 +171,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [GeoGrid](https://www.geogridgame.com) - Fill in the grid with countries that match each cell's corresponding row and column categories.
 - [Geonections](https://geonections.com) - Connections but you group countries based on StreetView images.
 - [GeoQuest](https://geoquest.gg) - Locate today's countries on the world map.
+- [GlobeHoppr](https://globehoppr.com) - Travel from one world city to another by hopping across nearby cities.
 - [Globeiku](https://www.globeiku.com) - Guess the country based on the given clues.
 - [Globle](https://globle-game.com/game) - Guess the mystery country, given how close it is to each guessed country.
 - [Globle Capitals](https://globle-capitals.com) - Guess the mystery world capital, given how close it is to each guessed world capital.
@@ -182,12 +185,14 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [OEC Connectrade](https://oec.world/en/games/connectrade) - Form groups of four exported products that are associated with one of the given countries.
 - [OEC Pick 5](https://oec.world/en/games/pick-5) - Guess the top 5 countries that export the most of the given product.
 - [OEC Tradle](https://oec.world/en/games/tradle) - Guess the country by its exports.
+- [Passportle](https://passportle.lordos.tech) - Guess the country based on its passport.
 - [Satle](https://satle.ca) - Guess the city given a satellite image, zooming out after each guess.
 - [SatPin](https://satpixel.com/en/satellite-pin-guess/) - Pin the world locations on the map based on satellite images.
 - [SatZoom](https://satpixel.com/en/satellite-zoom-game/) - Guess the city based on the satellite image.
 - [Seadle](https://seadle.muhashi.com) - Guess the sea of the day in as few attempts as possible.
 - [Statele](https://statele.teuteuf.fr) - Guess the US State by its outline on the map.
 - [TimeGuessr](https://timeguessr.com) - Guess the right time and location of each historical photo.
+- [TravelGuessr](https://travelguessr.com/) - Guess where the travel photo was taken, 4 rounds every day.
 - [travle](https://travle.earth) - Connect the starting country to the ending country by naming countries in between them.
 - [Treasure Guessr](https://play.treasureguessr.com) - Narrow down a location on the world map.
 - [Viewdle](https://viewdle.org) - Guess the country based on the view.
@@ -218,7 +223,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (66)
+### Math/Logic (67)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -284,10 +289,11 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Tally Game](https://tally-game.com) - Partition the board of numbers such that each group sums to 10.
 - [Terraformation](https://puzzmallow.com/terraformation) - Fill in the hex grid planet with the correct terrains.
 - [Tile Knight](https://tileknight.com) - Clear every tile on the board without landing on an empty tile.
+- [Timdle Math](https://timdle.com/math) - Place each mathematical expression in its proper place on the number line.
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (47)
+### Movies/TV (48)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -308,6 +314,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Emoji Quiz - Movies](https://www.emojiquiz.net/movies) - Use the emojis to guess the title of the movie.
 - [Emoji Quiz - TV](https://www.emojiquiz.net/tv) - Use the emojis to guess the title of the tv show.
 - [faces](https://faces.wtf) - Guess the names of the movie stars that are blended together into a single image.
+- [Faustdle](https://faustdle.com/) - Guess the One Piece character of the day.
 - [Flickle](https://flickle.app) - Guess the movie based on the given video clips.
 - [Framed](https://framed.wtf) - Guess the movie from 6 frames.
 - [Gaps](https://gaps.wtf) - Guess the movie based on the blanks and given information.
@@ -337,7 +344,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (36)
+### Music (37)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -373,6 +380,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [SongSwipe](https://play.songswipe.fun) - Guess if the song was released before or after the given year. There are 10 songs each day.
 - [Spotle](https://spotle.io) - Guess the music artist in 10 tries, gaining new information based on each guess.
 - [Swiftle](https://www.techyonic.co/swiftle) - Listen to the clip and guess the Taylor Swift song.
+- [Timdle Music](https://timdle.com/music) - Place each mystery song on the timeline after listening to an audio snippet.
 - [TuneGuessr](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 
@@ -384,13 +392,14 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
 
-### Science/Nature (13)
+### Science/Nature (14)
 
 - [Birdie Game](https://birdiegame.net) - Guess the bird from cropped images and audio.
 - [Birdle](https://www.play-birdle.com) - Identify today's bird in 6 guesses or less.
 - [Chemdle](https://www.chemdle.com) - Solve the daily organic chemistry problem.
 - [Disordle](https://disordle.com) - Diagnose the patient with a disorder based on their symptoms.
 - [Doctordle](https://doctordle.org) - Diagnose the patient based on their symptoms and history.
+- [DOGDLE](https://dogdle.org) - Guess the breeds of today's shelter dog that is looking for their forever home.
 - [Doggle](https://doggle.app) - Guess breed of the dog in the picture.
 - [Elemingle](https://elemingle.com) - Guess today's element by swiping cards left, right or up.
 - [list animals until failure](https://rose.systems/animalist/#today) - List as many animals of a given type as you can until time runs out.
@@ -456,7 +465,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (27)
+### Trivia (31)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -467,12 +476,15 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Disorderly](https://playdisorderly.com) - Order the items correctly based on the given criteria.
 - [Eruptle](https://eruptle.app) - Guess the 10 items that fit the prompt, kind of like Family Feud.
 - [Factle](https://frontofficesports.com/trivia/factle) - Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
+- [Google Feud](https://googlefeud.com) - Guess how Google auto-completes the search query, click on "Question of the Day".
 - [GuessTen](https://guessten.com) - Guess the top ten entries of today's category.
 - [Jeopardy 6](https://www.jeopardy.com/play/j6) - Weekday jeopardy game where you answer 12 multiple choice questions.
 - [On the Record](https://www.washingtonpost.com/news-quiz) - Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
 - [pedantle](https://pedantle.certitudes.org) - Find the secret Wikipedia page by revealing the words in its introduction.
+- [Peekpedia](https://peekpedia.com) - Guess the Wikipedia article based on the pictures.
 - [PopCultured](https://histordle.com/popcultured) - Guess the year given three pop culture items released that year.
 - [Quintalist](https://www.quintalist.com) - Correctly choose the top 5 entries in 5 tries or fewer.
+- [Quiple](https://quiple.xyz) - Put today's items into groups of three based on the theme.
 - [Quizl](https://quizl.io) - Answer today's 5 trivia questions.
 - [Rankle](https://www.rankle.app) - Rank 6 things in 4 guesses. Every day is a different category.
 - [Real Bird Fake Bird](https://realbirdfakebird.com) - Guess if each of the 7 prompts are real or fake (made up or don't belong).
@@ -483,6 +495,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [The New Daily - Trivia](https://www.thenewdaily.com.au/puzzles/quiz-trivia) - Daily trivia quizzes from multiple categories.
 - [The Wiki Game Daily](https://www.thewikigamedaily.com) - Race from one Wikipedia page to the target page using as few links as possible
 - [Thrice](https://thrice.geekswhodrink.com) - Answer today's 5 trivia questions, each from a different category.
+- [Thruline](https://cyllibi.com/thruline) - Determine the word that connects the four images.
 - [Tightrope](https://www.britannica.com/quiz/tightrope) - Answer 9 timed trivia questions without running out of lives!
 - [Top 5](https://topfivetrivia.com) - Guess the top 5 items of today's category.
 
@@ -493,7 +506,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (70)
+### Video Games (71)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -548,6 +561,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Snapdle](https://snapdle.github.io/classic) - Guess the card from the game Marvel Snap.
 - [Soulsborndle](https://malthesers.github.io/soulsborndle) - Guess bosses from the Soulsborne games by their health, souls, weaknesses and resistances. For fans of Elden Ring, Dark Souls, Demon Souls, and Bloodborne.
 - [Spiredle](https://spiredle.com) - Guess the daily Slay the Spire card.
+- [spiredle.net](https://spiredle.net) - Collection of daily games related to Slay The Spire 2.
 - [Squirdle Daily](https://squirdle.fireblend.com/daily.html) - Guess today's pokemon within 9 guesses.
 - [Stardewdle](https://stardewdle.com/game) - Guess today's mystery crop from Stardew Valley.
 - [steamdle.com](https://steamdle.com) - Guess the game based on the Steam review.
@@ -566,15 +580,16 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (32)
+### Miscellaneous (34)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
 - [Artle](https://www.nga.gov/artle.html) - Guess the artist of the shown work of art.
 - [Baddle](https://tumblecricket.net/Baddle/) - A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.
-- [Bibdle](https://bibdle.com) - Guess the daily verse from the bible.
+- [Bibdle](https://bibdle.com) - Guess the bible book that the verse is from.
 - [Clue Tube](https://thecluetube.com) - Guess the popular YouTube video based on its comments.
+- [Coastle](https://pkyu.github.io/coastle/) - Guess the daily rollercoaster.
 - [Cosmeredle](https://cosmeredle.net) - Guess the character from Brandon Sanderson's Cosmere universe by narrowing down their book, world, and abilities.
 - [Cropple](https://cropple.app) - Guess the thing based on a cropped image, you can zoom out or ask for letters.
 - [Dungleon](https://www.dungleon.com) - Guess the dungeon's composition in 6 guesses.
@@ -596,12 +611,13 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
+- [Thingdle](https://thingdle.app/en/thingdle) - A daily riddle, where you guess an everyday object.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (230)
+### Words (231)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -706,6 +722,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) - Swap letters and emojis to form words that match the clues. Does not require a Netflix account.
 - [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) - Guess the themed words with their vowels removed. Does not require a Netflix account.
 - [Netflix - Waywords](https://www.netflix.com/tudum/puzzled/waywords/daily) - A themed word search with emojis where the words make make a path. Does not require a Netflix account.
+- [NounSense](https://daily.gametje.com/nounsense) - Guess the most common noun that follows the adjective, 10 words every day.
 - [NYT Connections](https://www.nytimes.com/games/connections) - Group words that share a common thread.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.
 - [NYT Wordle](https://www.nytimes.com/games/wordle/index.html) - Guess the 5-letter word in six or fewer attempts.
