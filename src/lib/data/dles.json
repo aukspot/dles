@@ -2381,7 +2381,7 @@
   {
     "name": "Magnitudle",
     "url": "https://magnitudle.com",
-    "description": "Daily estimation trivia challenge, but you only get one guess. Final score is based on magnitude.",
+    "description": "A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.",
     "category": "Estimation",
     "id": 748
   },
@@ -4297,7 +4297,7 @@
   {
     "name": "Thingdle",
     "url": "https://thingdle.app/en/thingdle",
-    "description": "A daily riddle, where you guess an everyday object.",
+    "description": "A daily riddle where you guess an everyday object.",
     "category": "Miscellaneous",
     "id": 754
   },
