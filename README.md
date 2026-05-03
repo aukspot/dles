@@ -135,7 +135,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
-- [Magnitudle](https://magnitudle.com) - Daily estimation trivia challenge, but you only get one guess. Final score is based on magnitude.
+- [Magnitudle](https://magnitudle.com) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
 - [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
 - [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
@@ -611,7 +611,7 @@ No personally identifiable information is collected. Outbound clicks to games ar
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
-- [Thingdle](https://thingdle.app/en/thingdle) - A daily riddle, where you guess an everyday object.
+- [Thingdle](https://thingdle.app/en/thingdle) - A daily riddle where you guess an everyday object.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
