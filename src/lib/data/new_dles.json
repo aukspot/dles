@@ -18,12 +18,6 @@
     "date_added": "2026-05-03"
   },
   {
-    "name": "Far Out",
-    "url": "https://www.faroutquiz.com",
-    "id": 739,
-    "date_added": "2026-04-07"
-  },
-  {
     "name": "Faustdle",
     "url": "https://faustdle.com/",
     "id": 745,
@@ -72,22 +66,10 @@
     "date_added": "2026-05-03"
   },
   {
-    "name": "Shrinkle",
-    "url": "https://shrinkle.org",
-    "id": 740,
-    "date_added": "2026-04-07"
-  },
-  {
     "name": "spiredle.net",
     "url": "https://spiredle.net",
     "id": 753,
     "date_added": "2026-05-03"
-  },
-  {
-    "name": "TED - Spellcheck",
-    "url": "https://www.ted.com/games/spellcheck",
-    "id": 741,
-    "date_added": "2026-04-07"
   },
   {
     "name": "Thingdle",
