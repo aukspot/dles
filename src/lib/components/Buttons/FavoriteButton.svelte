@@ -6,18 +6,14 @@
     showFavoritesSettingsModal,
   } from "$lib/stores"
   import { useFavorites } from "$lib/composables/useFavorites.js"
-  import { useTracking } from "$lib/composables/useTracking.js"
   import { toasts, toastName } from "$lib/stores/toastStore.js"
   import IconFavoriteOutline from "../Icons/IconFavoriteOutline.svelte"
   import IconFavoriteRemove from "../Icons/IconFavoriteRemove.svelte"
 
   export let dle
   export let size = "normal" // "normal" or "small"
-  export let section = "regular"
-  export let position = null
 
   const favorites = useFavorites()
-  const tracking = useTracking()
 
   let favoriteFill
   let favoriteColor = "rgb(var(--colors-colorTextSofter))"
@@ -42,14 +38,6 @@
 
     if (result.success) {
       setFill(!result.wasInFavorites)
-
-      tracking.trackFavoriteAction(
-        dle,
-        result.action,
-        "button",
-        section,
-        position,
-      )
 
       const manageAction = {
         label: "Manage",

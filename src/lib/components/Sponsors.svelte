@@ -8,7 +8,6 @@
   } from "$lib/stores"
   import { enhancedSearch } from "$lib/js/utilities"
   import DleGroup from "$lib/components/Dles/DleGroup.svelte"
-  import { trackEvent } from "$lib/js/trackingUtils"
   import SectionHeader from "./SectionHeader.svelte"
   import IconStar from "./Icons/IconStar.svelte"
 
@@ -31,9 +30,7 @@
         <a
           href="https://tally.so/r/wgEX5K"
           class="partner-inquiry-link"
-          target="_blank"
-          on:click={() => trackEvent("sponsor-inquiry-click", {})}
-          >Want to sponsor? Message me!</a
+          target="_blank">Want to sponsor? Message me!</a
         >
       </div>
     {/if}

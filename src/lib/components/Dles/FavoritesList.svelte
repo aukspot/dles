@@ -13,7 +13,6 @@
   import IconPlus from "../Icons/IconPlus.svelte"
   import DlePopUp from "./DlePopUp.svelte"
   import SearchModal from "./SearchModal.svelte"
-  import { useTracking } from "$lib/composables/useTracking"
   import { usePlayedDles } from "$lib/composables/usePlayedDles"
   import { dndzone } from "svelte-dnd-action"
 
@@ -124,18 +123,15 @@
     localStorage.favorites = JSON.stringify($favoriteIds)
   }
 
-  const { trackGameClick } = useTracking()
   const playedDles = usePlayedDles()
 
   function handlePlayClick(favorite, index) {
-    trackGameClick(favorite, "play-button", "favorites", section, index)
     playedDles.markAsPlayed(favorite)
     openInNewTab(favorite.url)
   }
 
   function handleNameClick(e, favorite, index) {
     if (e.ctrlKey || e.metaKey) {
-      trackGameClick(favorite, "ctrl-click", "favorites", section, index)
       playedDles.markAsPlayed(favorite)
       openInNewTab(favorite.url)
       return
@@ -145,7 +141,6 @@
   }
 
   function handleAuxClick(favorite, index) {
-    trackGameClick(favorite, "middle-click", "favorites", section, index)
     playedDles.markAsPlayed(favorite)
     openInNewTab(favorite.url)
   }
@@ -162,13 +157,7 @@
   function handlePlayRandomFavorite() {
     const unplayed = $favorites.filter((f) => !$playedDleIdsSet.has(f.id))
     const pool = unplayed.length > 0 ? unplayed : $favorites
-    const customTrackingData = {
-      click_type: "random-button-favorites",
-      source: section === "favorites-modal" ? "main-page" : "favorites-page",
-      section,
-      available_options: pool.length,
-    }
-    playRandom(pool, customTrackingData, playedDles.markAsPlayed)
+    playRandom(pool, playedDles.markAsPlayed)
   }
 
   function openSearchModal() {

@@ -2,7 +2,6 @@
   import PanelWrapper from "./PanelWrapper.svelte"
   import PanelTitle from "./PanelTitle.svelte"
   import { pollResponses, getActivePolls, activePanelStore } from "$lib/stores"
-  import { trackEvent } from "$lib/js/trackingUtils"
 
   export let open = false
 
@@ -92,12 +91,6 @@
 
       // Record answer locally
       pollResponses.recordAnswer(poll.id, optionId)
-
-      // Track with Umami
-      trackEvent("poll-vote", {
-        pollId: poll.id,
-        option: optionId,
-      })
 
       // Show results if configured
       if (poll.showResultsImmediately) {

@@ -3,7 +3,6 @@
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { categoryColors } from "$lib/stores"
   import { useFavorites } from "$lib/composables/useFavorites.js"
-  import { useTracking } from "$lib/composables/useTracking.js"
   import { onMount } from "svelte"
   import { autoFocus } from "$lib/js/autoFocus"
   import Modal from "../Modal.svelte"
@@ -16,7 +15,6 @@
   export let zIndex = 100
 
   const favorites = useFavorites()
-  const tracking = useTracking()
 
   let searchQuery = ""
   let filteredDles = []
@@ -136,15 +134,6 @@
 
     if (result.success) {
       newlyToggledInSession.add(dle.id)
-
-      tracking.trackFavoriteAction(
-        dle,
-        result.action,
-        "search-modal",
-        "favorites-search",
-        null,
-        result.totalFavorites,
-      )
     }
   }
 

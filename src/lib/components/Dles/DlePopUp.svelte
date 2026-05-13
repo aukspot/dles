@@ -5,7 +5,6 @@
     showMarkedDlesModal,
   } from "$lib/stores"
   import { toasts, toastName } from "$lib/stores/toastStore.js"
-  import { useTracking } from "$lib/composables/useTracking.js"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
   import IconClose from "../Icons/IconClose.svelte"
   import IconCheck from "../Icons/IconCheck.svelte"
@@ -25,20 +24,9 @@
   export let section = "regular"
   export let position = null
 
-  const tracking = useTracking()
   const playedDles = usePlayedDles()
   let popupEl
   let cleanup
-
-  function trackGameClick(dle, clickType) {
-    if (section === "sponsors") {
-      tracking.trackSponsorClick(dle, clickType, position)
-    } else {
-      tracking.trackGameClick(dle, clickType, "popup", section, position)
-    }
-    // Auto-mark as played when clicking the link
-    playedDles.markAsPlayed(dle)
-  }
 
   onMount(() => {
     if (referenceEl && popupEl) {
@@ -138,9 +126,9 @@
     <a
       href={dle.url}
       target="_blank"
-      on:click={() => trackGameClick(dle, "popup-link")}
-      on:auxclick={() => trackGameClick(dle, "popup-middle-click")}
-      on:contextmenu={() => trackGameClick(dle, "popup-context-menu")}
+      on:click={() => playedDles.markAsPlayed(dle)}
+      on:auxclick={() => playedDles.markAsPlayed(dle)}
+      on:contextmenu={() => playedDles.markAsPlayed(dle)}
     >
       {dle.url}
     </a>

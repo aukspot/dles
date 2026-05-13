@@ -21,30 +21,11 @@
   import IconStar from "../Icons/IconStar.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
   import DlePopUp from "./DlePopUp.svelte"
-  import { useTracking } from "$lib/composables/useTracking"
 
   let currentDle = null
   let currentSection = ""
   let currentPosition = null
   let infoButtonRef = null
-
-  const tracking = useTracking()
-
-  function handleDleClick(dle, section, index, event) {
-    // Track the click
-    const customTrackingData = {
-      click_type:
-        event.ctrlKey || event.metaKey
-          ? "ctrl-click"
-          : event.button === 1
-            ? "middle-click"
-            : "url-link",
-      source: "table-view",
-      section: section,
-      position: index,
-    }
-    tracking.trackGameClick(dle, customTrackingData)
-  }
 
   function showDescription(dle, section, position, event) {
     event.stopPropagation()
@@ -213,9 +194,6 @@
                     target="_blank"
                     rel="noopener"
                     class="dle-name-link"
-                    on:click={(e) => handleDleClick(dle, section.id, index, e)}
-                    on:auxclick={(e) =>
-                      handleDleClick(dle, section.id, index, e)}
                   >
                     {dle.name}
                   </a>

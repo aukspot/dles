@@ -31,9 +31,6 @@
   import FavoritesSettingsModal from "./FavoritesSettingsModal.svelte"
   import Sponsors from "../Sponsors.svelte"
   import NewDles from "../NewDles.svelte"
-  import { useTracking } from "$lib/composables/useTracking"
-
-  const tracking = useTracking()
 
   let allCards = []
   let favoriteCardIndex = -1
@@ -204,7 +201,6 @@
     $completelyHiddenSections
     buildCards()
   }
-
 </script>
 
 <svelte:window on:resize={handleResize} />

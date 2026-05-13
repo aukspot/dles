@@ -1,6 +1,5 @@
 <script>
   import { favorites, favoriteIds, filteredDles } from "$lib/stores"
-  import { trackEvent } from "$lib/js/trackingUtils"
   import Modal from "../Modal.svelte"
   import ModalHeader from "../ModalHeader.svelte"
   import Button from "../Button.svelte"
@@ -44,10 +43,6 @@
     document.body.removeChild(link)
     URL.revokeObjectURL(url)
 
-    trackEvent("favorites-export", {
-      count: $favorites.length,
-    })
-
     onClose()
   }
 
@@ -59,10 +54,6 @@
     try {
       await navigator.clipboard.writeText(dataStr)
       copySuccess = true
-
-      trackEvent("favorites-copy", {
-        count: $favorites.length,
-      })
 
       setTimeout(() => {
         copySuccess = false
@@ -115,11 +106,6 @@
       localStorage.favorites = JSON.stringify(importedIds)
     }
 
-    trackEvent("favorites-import", {
-      imported: importedIds.length,
-      previous: previousCount,
-    })
-
     onClose()
   }
 
@@ -141,10 +127,6 @@
       importData = data
       importError = null
       showPasteInput = false
-
-      trackEvent("favorites-paste", {
-        count: data.length,
-      })
     } catch (error) {
       if (error.name === "SyntaxError" || error.name === "TypeError") {
         importError = "Invalid JSON format"
@@ -173,10 +155,6 @@
       importData = data
       importError = null
       showPasteInput = false
-
-      trackEvent("favorites-paste-submit", {
-        count: data.length,
-      })
     } catch (error) {
       importError = "Invalid JSON format"
       importData = null

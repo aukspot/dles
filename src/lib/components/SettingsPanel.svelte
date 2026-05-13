@@ -10,7 +10,6 @@
   import IconFolders from "./Icons/IconFolders.svelte"
   import IconChecklist from "./Icons/IconChecklist.svelte"
   import ManageCategoriesModal from "./ManageCategoriesModal.svelte"
-  import { trackEvent } from "$lib/js/trackingUtils"
   import { onMount } from "svelte"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
   import PanelWrapper from "./PanelWrapper.svelte"
@@ -73,7 +72,6 @@
     if (isLocalStorageAvailable()) {
       localStorage.fontSizeOffset = offset
     }
-    trackEvent("settings_font_size_change", { offset })
   }
 </script>
 

@@ -10,7 +10,6 @@
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
   import { isLocalStorageAvailable } from "$lib/js/utilities"
-  import { trackEvent } from "$lib/js/trackingUtils"
   import Modal from "../Modal.svelte"
   import ModalHeader from "../ModalHeader.svelte"
   import IconX from "../Icons/IconX.svelte"
@@ -37,7 +36,6 @@
     if (isLocalStorageAvailable()) {
       localStorage.playedDlesLastReset = new Date().toDateString()
     }
-    trackEvent("settings_reset_played", { count })
 
     if (count > 0) {
       undoData = { ids: previousPlayedDles, count }
@@ -62,7 +60,6 @@
     if (isLocalStorageAvailable()) {
       localStorage.autoMarkPlayed = $autoMarkPlayed.toString()
     }
-    trackEvent("settings_auto_mark_played_toggle", { enabled: $autoMarkPlayed })
   }
 
   function toggleAutoResetPlayed() {
@@ -73,9 +70,6 @@
         localStorage.playedDlesLastReset = new Date().toDateString()
       }
     }
-    trackEvent("settings_auto_reset_played_toggle", {
-      enabled: $autoResetPlayed,
-    })
   }
 </script>
 

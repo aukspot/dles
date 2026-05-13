@@ -7,7 +7,6 @@
     playedDleIdsSet,
   } from "$lib/stores"
   import { openInNewTab, isLocalStorageAvailable } from "$lib/js/utilities"
-  import { useTracking } from "$lib/composables/useTracking.js"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
@@ -23,7 +22,6 @@
   export let editMode = false
   export let showCategoryIcon = false
 
-  const tracking = useTracking()
   const playedDles = usePlayedDles()
 
   let items = []
@@ -76,11 +74,6 @@
   }
 
   function handleGameClick(dle, position, clickType) {
-    if (section === "sponsors") {
-      tracking.trackSponsorClick(dle, clickType, position)
-    } else {
-      tracking.trackGameClick(dle, clickType, "list", section, position)
-    }
     // Auto-mark as played when clicking the link
     playedDles.markAsPlayed(dle)
     openInNewTab(dle.url)

@@ -9,25 +9,7 @@ export function isLocalStorageAvailable() {
   }
 }
 
-import { trackEvent } from './trackingUtils.js';
-
-export function openInNewTab(href, trackingData = null) {
-  if (trackingData) {
-    const result = {
-      dle_name: trackingData.dle_name,
-      dle_id: trackingData.dle_id,
-      click_type: trackingData.click_type,
-      section: trackingData.section || 'random'
-    };
-
-    // Keep position_id only for dles-of-the-week
-    if (trackingData.position_id && trackingData.section && trackingData.section.includes('dles-of-the-week')) {
-      result.position_id = trackingData.position_id;
-    }
-
-    trackEvent('game-click', result);
-  }
-
+export function openInNewTab(href) {
   Object.assign(document.createElement("a"), {
     target: "_blank",
     rel: "noopener",
@@ -35,23 +17,11 @@ export function openInNewTab(href, trackingData = null) {
   }).click()
 }
 
-export function playRandom(options, customTrackingData = null, onChosen = null) {
+export function playRandom(options, onChosen = null) {
   if (options.length != 0) {
     const choice = options[Math.floor(Math.random() * options.length)]
 
-    const trackingData = customTrackingData || {
-      dle_name: choice.name,
-      dle_id: choice.id,
-      click_type: 'random-button',
-      section: 'random'
-    };
-
-    if (customTrackingData) {
-      trackingData.dle_name = choice.name;
-      trackingData.dle_id = choice.id;
-    }
-
-    openInNewTab(choice.url, trackingData)
+    openInNewTab(choice.url)
     if (onChosen) onChosen(choice)
   }
 }
