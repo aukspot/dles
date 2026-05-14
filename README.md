@@ -70,11 +70,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Privacy
 
-The site uses analytics to understand traffic patterns:
-- **Umami**: Privacy-focused analytics (primary tool)
-- **Google Analytics**: Used for sponsors
-
-No personally identifiable information is collected. Outbound clicks to games are counted anonymously.
+**Umami** and **Google Analytics** are utilized on the site for anonymous analytics
 
 ## Current list of dles
 
