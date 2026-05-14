@@ -17,10 +17,11 @@ export function openInNewTab(href) {
   }).click()
 }
 
-export function playRandom(options, onChosen = null) {
+export function playRandom(options, section, onChosen = null) {
   if (options.length != 0) {
     const choice = options[Math.floor(Math.random() * options.length)]
 
+    import("$lib/js/counter.js").then(({ countClick }) => countClick(choice.id, section))
     openInNewTab(choice.url)
     if (onChosen) onChosen(choice)
   }

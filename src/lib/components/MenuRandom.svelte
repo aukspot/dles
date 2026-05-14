@@ -115,11 +115,7 @@
       class="btn-play"
       disabled={options.length === 0}
       on:click={() =>
-        playRandom(options, {
-          click_type: "random-button-menu",
-          section: "random-menu",
-          available_options: options.length,
-        }, markAsPlayed)}
+        playRandom(options, "random-menu", markAsPlayed)}
     >
       Play random dle!
     </button>

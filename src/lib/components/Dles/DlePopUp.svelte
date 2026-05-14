@@ -6,6 +6,7 @@
   } from "$lib/stores"
   import { toasts, toastName } from "$lib/stores/toastStore.js"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
+  import { countClick } from "$lib/js/counter.js"
   import IconClose from "../Icons/IconClose.svelte"
   import IconCheck from "../Icons/IconCheck.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
@@ -27,6 +28,11 @@
   const playedDles = usePlayedDles()
   let popupEl
   let cleanup
+
+  function handleClick() {
+    countClick(dle.id, section === "regular" ? dle.category.toLowerCase().replace(/[\s/]+/g, "-") : section)
+    playedDles.markAsPlayed(dle)
+  }
 
   onMount(() => {
     if (referenceEl && popupEl) {
@@ -126,8 +132,8 @@
     <a
       href={dle.url}
       target="_blank"
-      on:click={() => playedDles.markAsPlayed(dle)}
-      on:auxclick={() => playedDles.markAsPlayed(dle)}
+      on:click={handleClick}
+      on:auxclick={handleClick}
       on:contextmenu={() => playedDles.markAsPlayed(dle)}
     >
       {dle.url}

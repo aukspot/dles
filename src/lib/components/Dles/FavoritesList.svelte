@@ -14,6 +14,7 @@
   import DlePopUp from "./DlePopUp.svelte"
   import SearchModal from "./SearchModal.svelte"
   import { usePlayedDles } from "$lib/composables/usePlayedDles"
+  import { countClick } from "$lib/js/counter.js"
   import { dndzone } from "svelte-dnd-action"
 
   export let section = "favorites"
@@ -125,24 +126,19 @@
 
   const playedDles = usePlayedDles()
 
-  function handlePlayClick(favorite, index) {
+  function handleOpen(favorite) {
+    countClick(favorite.id, section)
     playedDles.markAsPlayed(favorite)
     openInNewTab(favorite.url)
   }
 
-  function handleNameClick(e, favorite, index) {
+  function handleNameClick(e, favorite) {
     if (e.ctrlKey || e.metaKey) {
-      playedDles.markAsPlayed(favorite)
-      openInNewTab(favorite.url)
+      handleOpen(favorite)
       return
     }
     const popupKey = `${section}-${favorite.id}`
     $poppedUpDle === popupKey ? ($poppedUpDle = "") : ($poppedUpDle = popupKey)
-  }
-
-  function handleAuxClick(favorite, index) {
-    playedDles.markAsPlayed(favorite)
-    openInNewTab(favorite.url)
   }
 
   function handleClickOutside(event) {
@@ -157,7 +153,7 @@
   function handlePlayRandomFavorite() {
     const unplayed = $favorites.filter((f) => !$playedDleIdsSet.has(f.id))
     const pool = unplayed.length > 0 ? unplayed : $favorites
-    playRandom(pool, playedDles.markAsPlayed)
+    playRandom(pool, "favorites", playedDles.markAsPlayed)
   }
 
   function openSearchModal() {
@@ -302,8 +298,8 @@
                         role="button"
                         tabindex="0"
                         bind:this={referenceElements[popupKey]}
-                        on:click={(e) => handleNameClick(e, favorite, index)}
-                        on:auxclick={() => handleAuxClick(favorite, index)}
+                        on:click={(e) => handleNameClick(e, favorite)}
+                        on:auxclick={() => handleOpen(favorite)}
                       >
                         {favorite.name}
                       </span>
@@ -358,7 +354,7 @@
                   {:else}
                     <button
                       class="play-btn"
-                      on:click={() => handlePlayClick(favorite, index)}
+                      on:click={() => handleOpen(favorite)}
                     >
                       Play
                     </button>
@@ -413,8 +409,8 @@
                         role="button"
                         tabindex="0"
                         bind:this={referenceElements[popupKey]}
-                        on:click={(e) => handleNameClick(e, favorite, index)}
-                        on:auxclick={() => handleAuxClick(favorite, index)}
+                        on:click={(e) => handleNameClick(e, favorite)}
+                        on:auxclick={() => handleOpen(favorite)}
                       >
                         {favorite.name}
                       </span>
@@ -431,7 +427,7 @@
                 {:else}
                   <button
                     class="play-btn"
-                    on:click={() => handlePlayClick(favorite, index)}
+                    on:click={() => handleOpen(favorite)}
                   >
                     Play
                   </button>

@@ -8,6 +8,7 @@
   } from "$lib/stores"
   import { openInNewTab, isLocalStorageAvailable } from "$lib/js/utilities"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
+  import { countClick } from "$lib/js/counter.js"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
@@ -65,16 +66,8 @@
     }
   }
 
-  function handleAuxClick(dle, position) {
-    handleGameClick(dle, position, "middle-click")
-  }
-
-  function handleCtrlClick(dle, position) {
-    handleGameClick(dle, position, "ctrl-click")
-  }
-
-  function handleGameClick(dle, position, clickType) {
-    // Auto-mark as played when clicking the link
+  function handleOpen(dle) {
+    countClick(dle.id, section === "regular" ? dle.category.toLowerCase().replace(/[\s/]+/g, "-") : section)
     playedDles.markAsPlayed(dle)
     openInNewTab(dle.url)
   }
@@ -107,7 +100,7 @@
                   if (reorderable && editMode) return
 
                   if (e.ctrlKey || e.metaKey) {
-                    handleCtrlClick(dle, j)
+                    handleOpen(dle)
                     return
                   }
 
@@ -116,7 +109,7 @@
                     ? ($poppedUpDle = "")
                     : ($poppedUpDle = popupKey)
                 }}
-                on:auxclick={(e) => handleAuxClick(dle, j)}
+                on:auxclick={() => handleOpen(dle)}
               >
                 {dle.name}
               </span>
