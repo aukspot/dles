@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-05-18",
+    "dles added": [
+      {
+        "name": "Border guesser",
+        "url": "https://borderguesser.com",
+        "id": 759
+      },
+      {
+        "name": "Capitalibrate",
+        "url": "https://guessdash.com/capitalibrate",
+        "id": 760
+      },
+      {
+        "name": "Headline",
+        "url": "https://headline.fromthethink.com",
+        "id": 761
+      },
+      {
+        "name": "Seedle",
+        "url": "https://seedle.io",
+        "id": 762
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Mini Crossword (The Observer)",
+        "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+        "id": 229,
+        "reason": "No new puzzles since April 27, 2026."
+      },
+      {
+        "name": "Thingdle",
+        "url": "https://thingdle.app/en/thingdle",
+        "id": 754,
+        "reason": "Contains AI-generated images."
+      }
+    ],
+    "description": "Add 4 dles. Remove 2 dles. "
+  },
+  {
     "date": "2026-05-03",
     "dles added": [
       {

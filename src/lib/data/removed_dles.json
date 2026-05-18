@@ -385,6 +385,18 @@
     ]
   },
   {
+    "name": "Mini Crossword (The Observer)",
+    "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+    "id": 229,
+    "removals": [
+      {
+        "date_removed": "2026-05-18"
+      }
+    ],
+    "description": "A daily mini crossword from The Observer.",
+    "category": "Words"
+  },
+  {
     "name": "Moviedle (from Histordle)",
     "url": "https://histordle.com/moviedle",
     "id": 243,
@@ -743,6 +755,18 @@
         "reason": "Site no longer loads."
       }
     ]
+  },
+  {
+    "name": "Thingdle",
+    "url": "https://thingdle.app/en/thingdle",
+    "id": 754,
+    "removals": [
+      {
+        "date_removed": "2026-05-18"
+      }
+    ],
+    "description": "A daily riddle, where you guess an everyday object.",
+    "category": "Miscellaneous"
   },
   {
     "name": "Toppled",

@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-05-03`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-05-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -147,11 +147,13 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (49)
+### Geography (52)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
 - [BallotGuessr](https://ballotguessr.com/daily) - Guess how the region voted given a Google Streetview location. 5 rounds every day.
+- [Border guesser](https://borderguesser.com) - Guess the country by its partially-drawn border, up to 50% drawn.
+- [Capitalibrate](https://guessdash.com/capitalibrate) - Guess the direction and distance from the starting capital to the target capital.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
@@ -171,6 +173,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Globeiku](https://www.globeiku.com) - Guess the country based on the given clues.
 - [Globle](https://globle-game.com/game) - Guess the mystery country, given how close it is to each guessed country.
 - [Globle Capitals](https://globle-capitals.com) - Guess the mystery world capital, given how close it is to each guessed world capital.
+- [Headline](https://headline.fromthethink.com) - Guess the place tied to or missing from each headline.
 - [Juxtastat](https://urbanstats.org/quiz.html) - For 5 rounds, guess which of the two regions better fits the given criteria.
 - [Landmarkd](https://www.landmarkdgame.com) - Guess the daily landmark based on a zoomed-in picture.
 - [Locatle](https://locatle.strct.net) - Guess the country that the picture was taken in.
@@ -604,16 +607,16 @@ This will update the `./docs` directory with a new build of the site.
 - [Ponder Club](https://ponderclub.co) - A collection of various daily games.
 - [Power Scadle](https://powerscadle.com) - Compare two fictional characters and guess which one is stronger.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
+- [Seedle](https://seedle.io) - Grow the perfect garden by properly placing tiles that complement each other.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
-- [Thingdle](https://thingdle.app/en/thingdle) - A daily riddle where you guess an everyday object.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (231)
+### Words (230)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -710,7 +713,6 @@ This will update the `./docs` directory with a new build of the site.
 - [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint) - Guess today's category given as few clues as possible. Does not require a LinkedIn account.
 - [Linxicon](https://linxicon.com) - Connect two random words by creating a chain of new words that bridge the gap in their meanings.
 - [Lirdle](https://lirdle.com) - Wordle except each line contains a lie. (Like Fibble)
-- [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) - A daily mini crossword from The Observer.
 - [Minute Cryptic](https://www.minutecryptic.com) - Solve today's cryptic clue.
 - [Mislettered](https://tryhardguides.com/mislettered) - Solve the word or phrase by guessing one letter at a time.
 - [Nerdcube - Dabble](https://www.nerdcube.games/dabble) - Score as many points as you can by building words on a small custom Scrabble board.

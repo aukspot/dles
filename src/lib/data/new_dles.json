@@ -6,6 +6,18 @@
     "date_added": "2026-05-03"
   },
   {
+    "name": "Border guesser",
+    "url": "https://borderguesser.com",
+    "id": 759,
+    "date_added": "2026-05-18"
+  },
+  {
+    "name": "Capitalibrate",
+    "url": "https://guessdash.com/capitalibrate",
+    "id": 760,
+    "date_added": "2026-05-18"
+  },
+  {
     "name": "Coastle",
     "url": "https://pkyu.github.io/coastle/",
     "id": 743,
@@ -34,6 +46,12 @@
     "url": "https://googlefeud.com",
     "id": 747,
     "date_added": "2026-05-03"
+  },
+  {
+    "name": "Headline",
+    "url": "https://headline.fromthethink.com",
+    "id": 761,
+    "date_added": "2026-05-18"
   },
   {
     "name": "Magnitudle",
@@ -66,15 +84,15 @@
     "date_added": "2026-05-03"
   },
   {
+    "name": "Seedle",
+    "url": "https://seedle.io",
+    "id": 762,
+    "date_added": "2026-05-18"
+  },
+  {
     "name": "spiredle.net",
     "url": "https://spiredle.net",
     "id": 753,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "Thingdle",
-    "url": "https://thingdle.app/en/thingdle",
-    "id": 754,
     "date_added": "2026-05-03"
   },
   {

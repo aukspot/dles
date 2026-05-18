@@ -323,6 +323,13 @@
     "id": 516
   },
   {
+    "name": "Border guesser",
+    "url": "https://borderguesser.com",
+    "description": "Guess the country by its partially-drawn border, up to 50% drawn.",
+    "category": "Geography",
+    "id": 759
+  },
+  {
     "name": "Boston Globe - Align",
     "url": "https://www.bostonglobe.com/games/align/",
     "description": "Swap tiles in the grid so that each row and column forms a word.",
@@ -405,6 +412,13 @@
     "description": "Cancel numbers such that the remaining tiles add up to the target numbers.",
     "category": "Math/Logic",
     "id": 34
+  },
+  {
+    "name": "Capitalibrate",
+    "url": "https://guessdash.com/capitalibrate",
+    "description": "Guess the direction and distance from the starting capital to the target capital.",
+    "category": "Geography",
+    "id": 760
   },
   {
     "name": "Cardle",
@@ -1765,6 +1779,13 @@
     "id": 689
   },
   {
+    "name": "Headline",
+    "url": "https://headline.fromthethink.com",
+    "description": "Guess the place tied to or missing from each headline.",
+    "category": "Geography",
+    "id": 761
+  },
+  {
     "name": "Heardle 1950's",
     "url": "https://50s.heardledecades.com",
     "description": "Guess the 1950's song from listening to small parts of it.",
@@ -2381,7 +2402,7 @@
   {
     "name": "Magnitudle",
     "url": "https://magnitudle.com",
-    "description": "Daily estimation trivia challenge, but you only get one guess. Final score is based on magnitude.",
+    "description": "A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.",
     "category": "Estimation",
     "id": 748
   },
@@ -2521,13 +2542,6 @@
     "description": "Solvable Minesweeper puzzles with daily challenges.",
     "category": "Math/Logic",
     "id": 534
-  },
-  {
-    "name": "Mini Crossword (The Observer)",
-    "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
-    "description": "A daily mini crossword from The Observer.",
-    "category": "Words",
-    "id": 229
   },
   {
     "name": "Minigolfle",
@@ -3690,6 +3704,13 @@
     "id": 335
   },
   {
+    "name": "Seedle",
+    "url": "https://seedle.io",
+    "description": "Grow the perfect garden by properly placing tiles that complement each other.",
+    "category": "Miscellaneous",
+    "id": 762
+  },
+  {
     "name": "Semantle",
     "url": "https://semantle.com",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
@@ -4293,13 +4314,6 @@
     "description": "Race from one Wikipedia page to the target page using as few links as possible",
     "category": "Trivia",
     "id": 387
-  },
-  {
-    "name": "Thingdle",
-    "url": "https://thingdle.app/en/thingdle",
-    "description": "A daily riddle, where you guess an everyday object.",
-    "category": "Miscellaneous",
-    "id": 754
   },
   {
     "name": "Thinky Dailies",

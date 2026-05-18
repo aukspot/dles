@@ -1,5 +1,22 @@
 # Changelog - The Dles
 
+## 2026-05-18
+
+Add 4 dles. Remove 2 dles. 
+
+dles added: 
+|    | name                                                 | url                                                                        |   id |
+|---:|:-----------------------------------------------------|:---------------------------------------------------------------------------|-----:|
+|  1 | [Border guesser](https://borderguesser.com)          | [https://borderguesser.com](https://borderguesser.com)                     |  759 |
+|  2 | [Capitalibrate](https://guessdash.com/capitalibrate) | [https://guessdash.com/capitalibrate](https://guessdash.com/capitalibrate) |  760 |
+|  3 | [Headline](https://headline.fromthethink.com)        | [https://headline.fromthethink.com](https://headline.fromthethink.com)     |  761 |
+|  4 | [Seedle](https://seedle.io)                          | [https://seedle.io](https://seedle.io)                                     |  762 |
+
+dles removed: 
+|    | name                                                                                                     | url                                                                                                                                                |   id | reason                               |
+|---:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|-----:|:-------------------------------------|
+|  1 | [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) | [https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) |  229 | No new puzzles since April 27, 2026. |
+|  2 | [Thingdle](https://thingdle.app/en/thingdle)                                                             | [https://thingdle.app/en/thingdle](https://thingdle.app/en/thingdle)                                                                               |  754 | Contains AI-generated images.        |
 ## 2026-05-03
 
 Add 17 dles. 
