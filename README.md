@@ -80,7 +80,6 @@ This will update the `./docs` directory with a new build of the site.
 
 - [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
-- [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 - [Shrinkle](https://shrinkle.org) - Remove letters and make new words until you find the hidden phrase.
 
 ### Card/Board Games (20)
