@@ -2,7 +2,7 @@
 
 ## 2026-05-18
 
-Add 4 dles. Remove 2 dles. 
+Add 5 dles. Remove 2 dles. 
 
 dles added: 
 |    | name                                                 | url                                                                        |   id |
@@ -11,6 +11,7 @@ dles added:
 |  2 | [Capitalibrate](https://guessdash.com/capitalibrate) | [https://guessdash.com/capitalibrate](https://guessdash.com/capitalibrate) |  760 |
 |  3 | [Headline](https://headline.fromthethink.com)        | [https://headline.fromthethink.com](https://headline.fromthethink.com)     |  761 |
 |  4 | [Seedle](https://seedle.io)                          | [https://seedle.io](https://seedle.io)                                     |  762 |
+|  5 | [SteppedUpdle](https://steppedupdle.com)             | [https://steppedupdle.com](https://steppedupdle.com)                       |  763 |
 
 dles removed: 
 |    | name                                                                                                     | url                                                                                                                                                |   id | reason                               |

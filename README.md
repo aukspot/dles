@@ -80,6 +80,7 @@ This will update the `./docs` directory with a new build of the site.
 
 - [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
+- [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 - [Shrinkle](https://shrinkle.org) - Remove letters and make new words until you find the hidden phrase.
 
 ### Card/Board Games (20)
@@ -615,7 +616,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (230)
+### Words (231)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -783,6 +784,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Stackle](https://www.stackle.fun) - Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.
 - [Stacks](https://www.theatlantic.com/games/stacks/) - Stack words from the word bank to create new words going horizontally. (From The Atlantic)
 - [Stat Mini Crossword](https://www.statnews.com/stat-mini-crossword/) - A weekday mini crossword that's often health and medicine focused.
+- [SteppedUpdle](https://steppedupdle.com) - Solve 4 Wordle puzzles in a row, each word one letter longer than the last. You have 20 total guesses.
 - [Stepwords](https://stepwords.xyz) - A word ladder game where each word is an anagram of the previous word plus an extra letter.
 - [Summit Game](https://summit-puzzle.me) - With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.
 - [Survivle](https://lazyguyy.github.io/survivle) - Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.

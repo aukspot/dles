@@ -21,6 +21,11 @@
         "name": "Seedle",
         "url": "https://seedle.io",
         "id": 762
+      },
+      {
+        "name": "SteppedUpdle",
+        "url": "https://steppedupdle.com",
+        "id": 763
       }
     ],
     "dles removed": [
@@ -37,7 +42,7 @@
         "reason": "Contains AI-generated images."
       }
     ],
-    "description": "Add 4 dles. Remove 2 dles. "
+    "description": "Add 5 dles. Remove 2 dles. "
   },
   {
     "date": "2026-05-03",
