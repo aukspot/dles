@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-05-22",
+    "dles added": [
+      {
+        "name": "Centumth",
+        "url": "https://www.centumth.com",
+        "id": 764
+      },
+      {
+        "name": "Gerrymandle",
+        "url": "https://gerrymandle.cc",
+        "id": 765
+      },
+      {
+        "name": "Letterboxdle",
+        "url": "https://letterboxdle.net",
+        "id": 766
+      },
+      {
+        "name": "Moneyline",
+        "url": "https://moneyline.fromthethink.com",
+        "id": 767
+      },
+      {
+        "name": "Story Sleuth",
+        "url": "https://booksleuth.club/storysleuth/",
+        "id": 768
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "BingeWatcher",
+        "url": "https://bingewatcher.org",
+        "id": 20,
+        "reason": "Contains AI-generated images."
+      },
+      {
+        "name": "GuessTen",
+        "url": "https://guessten.com",
+        "id": 155,
+        "reason": "No new puzzles since April 28, 2026"
+      },
+      {
+        "name": "NextUp",
+        "url": "https://nextupgame.com",
+        "id": 735,
+        "reason": "Site no longer loads."
+      }
+    ],
+    "description": "Add 5 dles. Remove 3 dles. "
+  },
+  {
     "date": "2026-05-18",
     "dles added": [
       {

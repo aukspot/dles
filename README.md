@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-05-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-05-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -117,7 +117,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (19)
+### Estimation (20)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -132,6 +132,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
 - [Magnitudle](https://magnitudle.com) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
+- [Moneyline](https://moneyline.fromthethink.com) - Pick over/under the given line for each fact or statistic.
 - [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
 - [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
@@ -222,7 +223,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (67)
+### Math/Logic (66)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -258,7 +259,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Nerdle](https://nerdlegame.com) - Guess the secret arithmetic equation.
 - [Netflix - Starstruck](https://www.netflix.com/tudum/puzzled/starstruck/daily) - Place a star in each row, column, and color area. Does not require a Netflix account.
 - [Netflix - Sudoku](https://www.netflix.com/tudum/puzzled/sudoku/daily) - A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account.
-- [NextUp](https://nextupgame.com) - Guess the next number in the sequence, five rounds every day.
 - [Noggle](https://nibble.games/noggle/noggle.html) - A daily logic puzzle with a touch of learning and trivia.
 - [NonoDaily](https://www.nonodaily.com) - Daily handmade nonogram puzzles. Follow the numbered clues to create a pixel art image.
 - [Nonodle](https://lab174.com/nonodle) - A daily nonogram puzzle.
@@ -302,13 +302,12 @@ This will update the `./docs` directory with a new build of the site.
 - [AniGuessr](https://aniguessr.com) - A collection of daily games related to Anime, or Japanese animation.
 - [Animdle](https://animdle.com) - Guess the anime opening or ending with a video clue that gets less blurry with each guess.
 - [Avatardle](https://avatardle.com) - A daily guessing game based on the show Avatar: The Last Airbender.
-- [BingeWatcher](https://bingewatcher.org) - Guess the daily movie title by revealing its details.
 - [Box Office Game](https://boxofficega.me) - Guess the top five movies in the US domestic box office for the given weekend.
 - [Cartoonguessr](https://cartoonguesser.pythonanywhere.com) - Guess the cartoon character within 15 guesses.
-- [Cine2Nerdle](https://www.cinenerdle2.app) - Rearrange the cells into groups that represent movies/themes. Includes Critical - a game where you guess a movie by revealing as few clues as you can.
 - [CineLine](https://www.playcineline.com) - A daily movie puzzle where you place films in chronological order.
 - [Cinema Circuit](https://www.wfhgames.com/cinema-circuit) - Connect the two movie actors in the fewest links possible.
 - [Cinematrix](https://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html) - Fill out the grid with movies matching the criteria of each cell's row and column. Changes every weekday.
+- [CineNerdle](https://www.cinenerdle.app) - Rearrange the cells into groups that represent movies/themes. Includes Critical - a game where you guess a movie by revealing as few clues as you can.
 - [Cliffhanger](https://jumoh.com/games/cliffhanger/) - Hangman but it's always a movie title.
 - [Emoji Quiz - Movies](https://www.emojiquiz.net/movies) - Use the emojis to guess the title of the movie.
 - [Emoji Quiz - TV](https://www.emojiquiz.net/tv) - Use the emojis to guess the title of the tv show.
@@ -322,6 +321,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Guess The Movie](https://guessthemovie.name) - Guess the movie based on its screenshots and details.
 - [Harrypotterdle](https://www.harrypotterdle.com) - A collection of daily games related to Harry Potter.
 - [Jojodle](https://www.jojodle.app) - Guess the secret Stand User of the day from Jojo's Bizarre Adventure.
+- [Letterboxdle](https://letterboxdle.net) - Guess the movie based on the Letterboxd reviews.
 - [Marveldle](https://marveldle.com/character/audiovisual/guess) - Guess the daily character from the Marvel Cinematic Universe.
 - [Movie Grid](https://moviegrid.io) - Fill out the grid with movies matching the criteria of each cell's row and column.
 - [Movie Pyramid](https://moviepyramid.io) - Fill in the cells of the pyramid with movies that match the criteria of their given row.
@@ -408,12 +408,13 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (25)
+### Shapes/Patterns (26)
 
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
 - [Daydoku](https://www.daydoku.com) - Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
 - [FlashPopTiles](https://flashpoptiles.com) - Traverse the grid while changing either shape or color, never both!
+- [Gerrymandle](https://gerrymandle.cc) - Win the election for the given color by properly gerrymandering the grid into districts.
 - [Hidden Mirrors](https://www.hidden-mirrors.com) - A unique daily symmetry game where you try to match the given pattern.
 - [Jigsaw Explorer](https://www.jigsawexplorer.com) - Solve the jigsaw puzzles, two new puzzles everyday.
 - [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
@@ -468,6 +469,7 @@ This will update the `./docs` directory with a new build of the site.
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
+- [Centumth](https://www.centumth.com) - Guess the items ranked closest to #100 in today's category.
 - [Concludle](https://tryhardguides.com/concludle) - Guess the secret answer from a series of clues.
 - [Daily Dozen Trivia](https://dailydozentrivia.com) - Answer 9 trivia questions from various categories.
 - [Daily Fact or Fiction](https://dailyfactorfiction.com) - Guess whether today's statement is fact or fiction.
@@ -476,7 +478,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Eruptle](https://eruptle.app) - Guess the 10 items that fit the prompt, kind of like Family Feud.
 - [Factle](https://frontofficesports.com/trivia/factle) - Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
 - [Google Feud](https://googlefeud.com) - Guess how Google auto-completes the search query, click on "Question of the Day".
-- [GuessTen](https://guessten.com) - Guess the top ten entries of today's category.
 - [Jeopardy 6](https://www.jeopardy.com/play/j6) - Weekday jeopardy game where you answer 12 multiple choice questions.
 - [On the Record](https://www.washingtonpost.com/news-quiz) - Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
 - [pedantle](https://pedantle.certitudes.org) - Find the secret Wikipedia page by revealing the words in its introduction.
@@ -579,7 +580,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (34)
+### Miscellaneous (35)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -609,6 +610,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Seedle](https://seedle.io) - Grow the perfect garden by properly placing tiles that complement each other.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
+- [Story Sleuth](https://booksleuth.club/storysleuth/) - Guess the name of the book based on a short summary. More info is given after each guess.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
@@ -719,7 +721,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Netflix - Bonza](https://www.netflix.com/tudum/puzzled/bonza/daily) - Join fragments of letters together to form words that share a theme. Does not require a Netflix account.
 - [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) - Swap letters and emojis to form words that match the clues. Does not require a Netflix account.
 - [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) - Guess the themed words with their vowels removed. Does not require a Netflix account.
-- [Netflix - Waywords](https://www.netflix.com/tudum/puzzled/waywords/daily) - A themed word search with emojis where the words make make a path. Does not require a Netflix account.
+- [Netflix - Waywords](https://www.netflix.com/tudum/puzzled/waywords/daily) - A themed word search with emojis where the words make a path. Does not require a Netflix account.
 - [NounSense](https://daily.gametje.com/nounsense) - Guess the most common noun that follows the adjective, 10 words every day.
 - [NYT Connections](https://www.nytimes.com/games/connections) - Group words that share a common thread.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.

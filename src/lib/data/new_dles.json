@@ -18,6 +18,12 @@
     "date_added": "2026-05-18"
   },
   {
+    "name": "Centumth",
+    "url": "https://www.centumth.com",
+    "id": 764,
+    "date_added": "2026-05-22"
+  },
+  {
     "name": "Coastle",
     "url": "https://pkyu.github.io/coastle/",
     "id": 743,
@@ -34,6 +40,12 @@
     "url": "https://faustdle.com/",
     "id": 745,
     "date_added": "2026-05-03"
+  },
+  {
+    "name": "Gerrymandle",
+    "url": "https://gerrymandle.cc",
+    "id": 765,
+    "date_added": "2026-05-22"
   },
   {
     "name": "GlobeHoppr",
@@ -54,10 +66,22 @@
     "date_added": "2026-05-18"
   },
   {
+    "name": "Letterboxdle",
+    "url": "https://letterboxdle.net",
+    "id": 766,
+    "date_added": "2026-05-22"
+  },
+  {
     "name": "Magnitudle",
     "url": "https://magnitudle.com",
     "id": 748,
     "date_added": "2026-05-03"
+  },
+  {
+    "name": "Moneyline",
+    "url": "https://moneyline.fromthethink.com",
+    "id": 767,
+    "date_added": "2026-05-22"
   },
   {
     "name": "NounSense",
@@ -100,6 +124,12 @@
     "url": "https://steppedupdle.com",
     "id": 763,
     "date_added": "2026-05-18"
+  },
+  {
+    "name": "Story Sleuth",
+    "url": "https://booksleuth.club/storysleuth/",
+    "id": 768,
+    "date_added": "2026-05-22"
   },
   {
     "name": "Thruline",

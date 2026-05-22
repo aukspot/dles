@@ -33,6 +33,18 @@
     ]
   },
   {
+    "name": "BingeWatcher",
+    "url": "https://bingewatcher.org",
+    "id": 20,
+    "removals": [
+      {
+        "date_removed": "2026-05-22"
+      }
+    ],
+    "description": "Guess the daily movie title by revealing its details.",
+    "category": "Movies/TV"
+  },
+  {
     "name": "Birdle (like Wordle)",
     "url": "https://birdle.escism.net",
     "id": 23,
@@ -245,6 +257,19 @@
         "reason": "Stuck on loading screen, doesn't always have a new game everyday."
       }
     ]
+  },
+  {
+    "name": "GuessTen",
+    "url": "https://guessten.com",
+    "id": 155,
+    "removals": [
+      {
+        "date_removed": "2026-05-22"
+      }
+    ],
+    "description": "Guess the top ten entries of today's category.",
+    "category": "Trivia",
+    "theme": "Guess the List"
   },
   {
     "name": "GuessTheMovie.me",
@@ -467,6 +492,18 @@
         "reason": "Player pictures are AI-generated."
       }
     ]
+  },
+  {
+    "name": "NextUp",
+    "url": "https://nextupgame.com",
+    "id": 735,
+    "removals": [
+      {
+        "date_removed": "2026-05-22"
+      }
+    ],
+    "description": "Guess the next number in the sequence, five rounds every day.",
+    "category": "Math/Logic"
   },
   {
     "name": "NHLdle",

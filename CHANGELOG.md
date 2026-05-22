@@ -1,5 +1,24 @@
 # Changelog - The Dles
 
+## 2026-05-22
+
+Add 5 dles. Remove 3 dles. 
+
+dles added: 
+|    | name                                                 | url                                                                          |   id |
+|---:|:-----------------------------------------------------|:-----------------------------------------------------------------------------|-----:|
+|  1 | [Centumth](https://www.centumth.com)                 | [https://www.centumth.com](https://www.centumth.com)                         |  764 |
+|  2 | [Gerrymandle](https://gerrymandle.cc)                | [https://gerrymandle.cc](https://gerrymandle.cc)                             |  765 |
+|  3 | [Letterboxdle](https://letterboxdle.net)             | [https://letterboxdle.net](https://letterboxdle.net)                         |  766 |
+|  4 | [Moneyline](https://moneyline.fromthethink.com)      | [https://moneyline.fromthethink.com](https://moneyline.fromthethink.com)     |  767 |
+|  5 | [Story Sleuth](https://booksleuth.club/storysleuth/) | [https://booksleuth.club/storysleuth/](https://booksleuth.club/storysleuth/) |  768 |
+
+dles removed: 
+|    | name                                     | url                                                  |   id | reason                              |
+|---:|:-----------------------------------------|:-----------------------------------------------------|-----:|:------------------------------------|
+|  1 | [BingeWatcher](https://bingewatcher.org) | [https://bingewatcher.org](https://bingewatcher.org) |   20 | Contains AI-generated images.       |
+|  2 | [GuessTen](https://guessten.com)         | [https://guessten.com](https://guessten.com)         |  155 | No new puzzles since April 28, 2026 |
+|  3 | [NextUp](https://nextupgame.com)         | [https://nextupgame.com](https://nextupgame.com)     |  735 | Site no longer loads.               |
 ## 2026-05-18
 
 Add 5 dles. Remove 2 dles. 

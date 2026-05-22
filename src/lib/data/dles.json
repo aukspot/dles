@@ -260,13 +260,6 @@
     "id": 616
   },
   {
-    "name": "BingeWatcher",
-    "url": "https://bingewatcher.org",
-    "description": "Guess the daily movie title by revealing its details.",
-    "category": "Movies/TV",
-    "id": 20
-  },
-  {
     "name": "Birdie Game",
     "url": "https://birdiegame.net",
     "description": "Guess the bird from cropped images and audio.",
@@ -485,6 +478,13 @@
     "id": 605
   },
   {
+    "name": "Centumth",
+    "url": "https://www.centumth.com",
+    "description": "Guess the items ranked closest to #100 in today's category.",
+    "category": "Trivia",
+    "id": 764
+  },
+  {
     "name": "Chainagram",
     "url": "https://puzzletrail.games/puzzles/chainagram",
     "description": "Make a chain linking two words together by changing one letter and making an anagram at each step.",
@@ -600,13 +600,6 @@
     "id": 50
   },
   {
-    "name": "Cine2Nerdle",
-    "url": "https://www.cinenerdle2.app",
-    "description": "Rearrange the cells into groups that represent movies/themes. Includes Critical - a game where you guess a movie by revealing as few clues as you can.",
-    "category": "Movies/TV",
-    "id": 51
-  },
-  {
     "name": "CineLine",
     "url": "https://www.playcineline.com",
     "description": "A daily movie puzzle where you place films in chronological order.",
@@ -626,6 +619,13 @@
     "description": "Fill out the grid with movies matching the criteria of each cell's row and column. Changes every weekday.",
     "category": "Movies/TV",
     "id": 52
+  },
+  {
+    "name": "CineNerdle",
+    "url": "https://www.cinenerdle.app",
+    "description": "Rearrange the cells into groups that represent movies/themes. Includes Critical - a game where you guess a movie by revealing as few clues as you can.",
+    "category": "Movies/TV",
+    "id": 51
   },
   {
     "name": "Circle Moon Puzzles",
@@ -1595,6 +1595,13 @@
     "id": 649
   },
   {
+    "name": "Gerrymandle",
+    "url": "https://gerrymandle.cc",
+    "description": "Win the election for the given color by properly gerrymandering the grid into districts.",
+    "category": "Shapes/Patterns",
+    "id": 765
+  },
+  {
     "name": "Giffle - Friends",
     "url": "https://giffle.com/friends/",
     "description": "Guess the Friends episode based on short gifs taken from it.",
@@ -1755,14 +1762,6 @@
     "description": "Solve each of the inner clues until you reveal the phrase, like Bracket City.",
     "category": "Words",
     "id": 549
-  },
-  {
-    "name": "GuessTen",
-    "url": "https://guessten.com",
-    "description": "Guess the top ten entries of today's category.",
-    "category": "Trivia",
-    "theme": "Guess the List",
-    "id": 155
   },
   {
     "name": "Harmonies: Music Connections",
@@ -2195,6 +2194,13 @@
     "id": 192
   },
   {
+    "name": "Letterboxdle",
+    "url": "https://letterboxdle.net",
+    "description": "Guess the movie based on the Letterboxd reviews.",
+    "category": "Movies/TV",
+    "id": 766
+  },
+  {
     "name": "Lettered",
     "url": "https://lettered.io",
     "description": "Move letter tiles on the board to spell out the hidden phrase.",
@@ -2572,6 +2578,13 @@
     "id": 232
   },
   {
+    "name": "Moneyline",
+    "url": "https://moneyline.fromthethink.com",
+    "description": "Pick over/under the given line for each fact or statistic.",
+    "category": "Estimation",
+    "id": 767
+  },
+  {
     "name": "Monster Hunter-dle",
     "url": "https://monster-hunter-dle.akato.fr/classic",
     "description": "Guess the monster from the Monster Hunter series.",
@@ -2771,16 +2784,9 @@
   {
     "name": "Netflix - Waywords",
     "url": "https://www.netflix.com/tudum/puzzled/waywords/daily",
-    "description": "A themed word search with emojis where the words make make a path. Does not require a Netflix account.",
+    "description": "A themed word search with emojis where the words make a path. Does not require a Netflix account.",
     "category": "Words",
     "id": 629
-  },
-  {
-    "name": "NextUp",
-    "url": "https://nextupgame.com",
-    "description": "Guess the next number in the sequence, five rounds every day.",
-    "category": "Math/Logic",
-    "id": 735
   },
   {
     "name": "Nodes",
@@ -4099,6 +4105,13 @@
     "description": "A word ladder game where each word is an anagram of the previous word plus an extra letter.",
     "category": "Words",
     "id": 716
+  },
+  {
+    "name": "Story Sleuth",
+    "url": "https://booksleuth.club/storysleuth/",
+    "description": "Guess the name of the book based on a short summary. More info is given after each guess.",
+    "category": "Miscellaneous",
+    "id": 768
   },
   {
     "name": "Streetfighterdle",
