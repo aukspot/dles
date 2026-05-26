@@ -387,7 +387,7 @@ This will update the `./docs` directory with a new build of the site.
 
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
 - [Horsle](https://cabletwo.net/horsle/) - Wordle except the answer is always Horse.
-- [Jeffgoldblumle](https://jeffgoldblumle.vercel.app) - Wordle except 90% of the time the answer is Jeff Goldblum.
+- [Jeffgoldblumle](https://jeffgoldblumle.com) - Wordle except 90% of the time the answer is Jeff Goldblum.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
 
