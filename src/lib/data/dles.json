@@ -657,6 +657,12 @@
     "id": 618
   },
   {
+    "name": "Close Hue",
+    "url": "https://closehue.com",
+    "description": "Guess what a color looks like given its name. Pick from 5 color swatches and get scored on how close your guess is. Features daily challenges, unlimited mode, and multiplayer.",
+    "category": "Colors"
+  },
+  {
     "name": "Clue Raider",
     "url": "https://clueraider.com",
     "description": "Find the hidden relic by placing each person based on their clues.",
