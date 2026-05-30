@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-29",
+    "dles removed": [
+      {
+        "name": "Relatle",
+        "url": "https://www.relatle.lol",
+        "id": 322,
+        "reason": "Site now redirects to suspicious website."
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-05-22",
     "dles added": [
       {

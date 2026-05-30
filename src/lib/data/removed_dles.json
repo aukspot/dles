@@ -666,6 +666,18 @@
     ]
   },
   {
+    "name": "Relatle",
+    "url": "https://www.relatle.lol",
+    "id": 322,
+    "removals": [
+      {
+        "date_removed": "2026-05-29"
+      }
+    ],
+    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
+    "category": "Words"
+  },
+  {
     "name": "Rolldle",
     "url": "https://www.light.gg/rolldle/",
     "id": 328,

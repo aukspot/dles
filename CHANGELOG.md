@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-05-29
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                               | url                                                |   id | reason                                    |
+|---:|:-----------------------------------|:---------------------------------------------------|-----:|:------------------------------------------|
+|  1 | [Relatle](https://www.relatle.lol) | [https://www.relatle.lol](https://www.relatle.lol) |  322 | Site now redirects to suspicious website. |
 ## 2026-05-22
 
 Add 5 dles. Remove 3 dles. 

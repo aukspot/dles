@@ -2015,7 +2015,7 @@
   },
   {
     "name": "Jeffgoldblumle",
-    "url": "https://jeffgoldblumle.vercel.app",
+    "url": "https://jeffgoldblumle.com",
     "description": "Wordle except 90% of the time the answer is Jeff Goldblum.",
     "category": "Novelty",
     "id": 733
@@ -3517,13 +3517,6 @@
     "description": "Guess the video game track from listening to small parts of it.",
     "category": "Music",
     "id": 321
-  },
-  {
-    "name": "Relatle",
-    "url": "https://www.relatle.lol",
-    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
-    "category": "Words",
-    "id": 322
   },
   {
     "name": "relatle.io",

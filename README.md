@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-05-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-05-29`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -618,7 +618,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (231)
+### Words (230)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -753,7 +753,6 @@ This will update the `./docs` directory with a new build of the site.
 - [RADDLE](https://raddle.quest) - Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.
 - [Redividers](https://redividers.netlify.app) - Find the word that fits the first blank, then split it to fill in the remaining blank(s).
 - [regexle.ithea.de](https://regexle.ithea.de) - Guess the secret regular expression by testing sequences of characters.
-- [Relatle](https://www.relatle.lol) - Guess the word based on one of its synonyms, given a new synonym after each guess.
 - [Reversle](https://reversle.net) - Basically the reverse of Wordle. You start with the solution and walk backwards.
 - [Rewordio](https://rewordio.com) - Move stacks of letters between columns to solve the clues.
 - [Rhyme Time](https://www.rhymetime.co) - Guess the three words that all rhyme.

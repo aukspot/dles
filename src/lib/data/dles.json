@@ -3519,13 +3519,6 @@
     "id": 321
   },
   {
-    "name": "Relatle",
-    "url": "https://www.relatle.lol",
-    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
-    "category": "Words",
-    "id": 322
-  },
-  {
     "name": "relatle.io",
     "url": "https://relatle.io",
     "description": "Get from one musical artist to another by linking through related artists.",
