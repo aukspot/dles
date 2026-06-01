@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-05-29`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-06-01`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -117,7 +117,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (20)
+### Estimation (19)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -125,7 +125,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Centroid](https://centroidgame.com) - Guess the center of mass of all the shapes in the grid.
 - [Costcodle](https://costcodle.com) - Guess the price of the given Costco item.
 - [Cutle](https://pfiffel.com/cutle/) - Cut today's shape as evenly as you can.
-- [Estimadle](https://estimadle.com) - Estimate the number of circles within 10 seconds.
 - [Estimate Me](https://estimate-me.aukspot.com) - Estimate something new every day!
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.

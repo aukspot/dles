@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-06-01
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                               | url                                            |   id | reason                                    |
+|---:|:-----------------------------------|:-----------------------------------------------|-----:|:------------------------------------------|
+|  1 | [Estimadle](https://estimadle.com) | [https://estimadle.com](https://estimadle.com) |  111 | Site now redirects to suspicious website. |
 ## 2026-05-29
 
 Remove 1 dle. 

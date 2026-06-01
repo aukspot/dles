@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-01",
+    "dles removed": [
+      {
+        "name": "Estimadle",
+        "url": "https://estimadle.com",
+        "id": 111,
+        "reason": "Site now redirects to suspicious website."
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-05-29",
     "dles removed": [
       {

@@ -186,6 +186,18 @@
     ]
   },
   {
+    "name": "Estimadle",
+    "url": "https://estimadle.com",
+    "id": 111,
+    "removals": [
+      {
+        "date_removed": "2026-06-01"
+      }
+    ],
+    "description": "Estimate the number of circles within 10 seconds.",
+    "category": "Estimation"
+  },
+  {
     "name": "Etyle",
     "url": "https://www.etyle.app",
     "id": 466,
