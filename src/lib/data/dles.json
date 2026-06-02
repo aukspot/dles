@@ -4065,6 +4065,12 @@
     "id": 367
   },
   {
+    "name": "StatesQuest",
+    "url": "https://statesquest.com",
+    "description": "Guess the US state based on its statistics in 4 daily modes.",
+    "category": "Geography"
+  },
+  {
     "name": "StatPad Game",
     "url": "https://www.statpadgame.com",
     "description": "Select MLB players to maximize your score given today's stat category and row requirements.",
@@ -4241,6 +4247,12 @@
     "category": "Video Games",
     "theme": "Terraria",
     "id": 382
+  },
+  {
+    "name": "TerraeQuest",
+    "url": "https://terraequest.com",
+    "description": "Guess the country based on its statistics (population, area, GDP…) in 4 daily modes.",
+    "category": "Geography"
   },
   {
     "name": "Terraformation",
