@@ -493,6 +493,18 @@
     ]
   },
   {
+    "name": "Musicle",
+    "url": "https://musicle.app",
+    "id": 248,
+    "removals": [
+      {
+        "date_removed": "2026-06-06"
+      }
+    ],
+    "description": "Match the song audio to the correct album art. Lots of categories.",
+    "category": "Music"
+  },
+  {
     "name": "NBAGrid",
     "url": "https://www.nbagr.id",
     "id": 455,
@@ -667,6 +679,18 @@
     ]
   },
   {
+    "name": "Raindle",
+    "url": "https://raindle.net/items",
+    "id": 497,
+    "removals": [
+      {
+        "date_removed": "2026-06-06"
+      }
+    ],
+    "description": "Guess the Risk of Rain 2 item.",
+    "category": "Video Games"
+  },
+  {
     "name": "Reciple",
     "url": "https://reciple.net",
     "id": "M11",
@@ -688,6 +712,19 @@
     ],
     "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
     "category": "Words"
+  },
+  {
+    "name": "Rivadle",
+    "url": "https://rivadle.net",
+    "id": 326,
+    "removals": [
+      {
+        "date_removed": "2026-06-06"
+      }
+    ],
+    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
+    "category": "Video Games",
+    "theme": "Marvel Rivals"
   },
   {
     "name": "Rolldle",

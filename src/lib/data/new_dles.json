@@ -1,11 +1,5 @@
 [
   {
-    "name": "Babelle",
-    "url": "https://babelle.terrylaire.fr/",
-    "id": 742,
-    "date_added": "2026-05-03"
-  },
-  {
     "name": "Border guesser",
     "url": "https://borderguesser.com",
     "id": 759,
@@ -24,22 +18,28 @@
     "date_added": "2026-05-22"
   },
   {
-    "name": "Coastle",
-    "url": "https://pkyu.github.io/coastle/",
-    "id": 743,
-    "date_added": "2026-05-03"
+    "name": "Dialed - Shape Game",
+    "url": "https://dialed.gg/shape",
+    "id": 769,
+    "date_added": "2026-06-06"
   },
   {
-    "name": "DOGDLE",
-    "url": "https://dogdle.org",
-    "id": 744,
-    "date_added": "2026-05-03"
+    "name": "Dialed - Sound Game",
+    "url": "https://dialed.gg/sound",
+    "id": 770,
+    "date_added": "2026-06-06"
   },
   {
-    "name": "Faustdle",
-    "url": "https://faustdle.com/",
-    "id": 745,
-    "date_added": "2026-05-03"
+    "name": "Dialed - Time Game",
+    "url": "https://dialed.gg/time",
+    "id": 771,
+    "date_added": "2026-06-06"
+  },
+  {
+    "name": "Gauntle",
+    "url": "https://gauntle.com",
+    "id": 772,
+    "date_added": "2026-06-06"
   },
   {
     "name": "Gerrymandle",
@@ -48,22 +48,16 @@
     "date_added": "2026-05-22"
   },
   {
-    "name": "GlobeHoppr",
-    "url": "https://globehoppr.com",
-    "id": 746,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "Google Feud",
-    "url": "https://googlefeud.com",
-    "id": 747,
-    "date_added": "2026-05-03"
-  },
-  {
     "name": "Headline",
     "url": "https://headline.fromthethink.com",
     "id": 761,
     "date_added": "2026-05-18"
+  },
+  {
+    "name": "Lazy River",
+    "url": "https://inkwellgames.com/games/lazy-river",
+    "id": 773,
+    "date_added": "2026-06-06"
   },
   {
     "name": "Letterboxdle",
@@ -72,52 +66,16 @@
     "date_added": "2026-05-22"
   },
   {
-    "name": "Magnitudle",
-    "url": "https://magnitudle.com",
-    "id": 748,
-    "date_added": "2026-05-03"
-  },
-  {
     "name": "Moneyline",
     "url": "https://moneyline.fromthethink.com",
     "id": 767,
     "date_added": "2026-05-22"
   },
   {
-    "name": "NounSense",
-    "url": "https://daily.gametje.com/nounsense",
-    "id": 749,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "Passportle",
-    "url": "https://passportle.lordos.tech",
-    "id": 750,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "Peekpedia",
-    "url": "https://peekpedia.com",
-    "id": 751,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "Quiple",
-    "url": "https://quiple.xyz",
-    "id": 752,
-    "date_added": "2026-05-03"
-  },
-  {
     "name": "Seedle",
     "url": "https://seedle.io",
     "id": 762,
     "date_added": "2026-05-18"
-  },
-  {
-    "name": "spiredle.net",
-    "url": "https://spiredle.net",
-    "id": 753,
-    "date_added": "2026-05-03"
   },
   {
     "name": "SteppedUpdle",
@@ -132,27 +90,15 @@
     "date_added": "2026-05-22"
   },
   {
-    "name": "Thruline",
-    "url": "https://cyllibi.com/thruline",
-    "id": 755,
-    "date_added": "2026-05-03"
+    "name": "The Magical Ferry",
+    "url": "https://magicalferry.com",
+    "id": 774,
+    "date_added": "2026-06-06"
   },
   {
-    "name": "Timdle Math",
-    "url": "https://timdle.com/math",
-    "id": 756,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "Timdle Music",
-    "url": "https://timdle.com/music",
-    "id": 757,
-    "date_added": "2026-05-03"
-  },
-  {
-    "name": "TravelGuessr",
-    "url": "https://travelguessr.com/",
-    "id": 758,
-    "date_added": "2026-05-03"
+    "name": "Wikitrivia",
+    "url": "https://wikitrivia.tomjwatson.com/daily",
+    "id": 775,
+    "date_added": "2026-06-06"
   }
 ]

@@ -1,5 +1,26 @@
 # Changelog - The Dles
 
+## 2026-06-06
+
+Add 7 dles. Remove 3 dles. 
+
+dles added: 
+|    | name                                                    | url                                                                                    |   id |
+|---:|:--------------------------------------------------------|:---------------------------------------------------------------------------------------|-----:|
+|  1 | [Dialed - Shape Game](https://dialed.gg/shape)          | [https://dialed.gg/shape](https://dialed.gg/shape)                                     |  769 |
+|  2 | [Dialed - Sound Game](https://dialed.gg/sound)          | [https://dialed.gg/sound](https://dialed.gg/sound)                                     |  770 |
+|  3 | [Dialed - Time Game](https://dialed.gg/time)            | [https://dialed.gg/time](https://dialed.gg/time)                                       |  771 |
+|  4 | [Gauntle](https://gauntle.com)                          | [https://gauntle.com](https://gauntle.com)                                             |  772 |
+|  5 | [Lazy River](https://inkwellgames.com/games/lazy-river) | [https://inkwellgames.com/games/lazy-river](https://inkwellgames.com/games/lazy-river) |  773 |
+|  6 | [The Magical Ferry](https://magicalferry.com)           | [https://magicalferry.com](https://magicalferry.com)                                   |  774 |
+|  7 | [Wikitrivia](https://wikitrivia.tomjwatson.com/daily)   | [https://wikitrivia.tomjwatson.com/daily](https://wikitrivia.tomjwatson.com/daily)     |  775 |
+
+dles removed: 
+|    | name                                 | url                                                    |   id | reason                                    |
+|---:|:-------------------------------------|:-------------------------------------------------------|-----:|:------------------------------------------|
+|  1 | [Musicle](https://musicle.app)       | [https://musicle.app](https://musicle.app)             |  248 | Site no longer loads.                     |
+|  2 | [Raindle](https://raindle.net/items) | [https://raindle.net/items](https://raindle.net/items) |  497 | Site no longer loads.                     |
+|  3 | [Rivadle](https://rivadle.net)       | [https://rivadle.net](https://rivadle.net)             |  326 | Site now redirects to suspicious website. |
 ## 2026-06-01
 
 Remove 1 dle. 

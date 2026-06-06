@@ -1062,6 +1062,27 @@
     "id": 684
   },
   {
+    "name": "Dialed - Shape Game",
+    "url": "https://dialed.gg/shape",
+    "description": "Recreate the shape from memory after watching how it was moved, rotated, and scaled. Click the calendar for the daily mode.",
+    "category": "Shapes/Patterns",
+    "id": 769
+  },
+  {
+    "name": "Dialed - Sound Game",
+    "url": "https://dialed.gg/sound",
+    "description": "Listen to a tone and then recreate it from memory. Click the calendar for the daily mode.",
+    "category": "Estimation",
+    "id": 770
+  },
+  {
+    "name": "Dialed - Time Game",
+    "url": "https://dialed.gg/time",
+    "description": "Await the duration and then recreate it from memory. Click the calendar for the daily mode.",
+    "category": "Estimation",
+    "id": 771
+  },
+  {
     "name": "Dimension Flux",
     "url": "https://dimensionflux.com",
     "description": "Solve the interdimensional mystery given the helpful clues.",
@@ -1537,6 +1558,13 @@
     "description": "Guess the movie based on the blanks and given information.",
     "category": "Movies/TV",
     "id": 136
+  },
+  {
+    "name": "Gauntle",
+    "url": "https://gauntle.com",
+    "description": "Complete 11 mini daily games in a row as quickly as you can.",
+    "category": "Miscellaneous",
+    "id": 772
   },
   {
     "name": "Genshindle",
@@ -2180,6 +2208,13 @@
     "id": 191
   },
   {
+    "name": "Lazy River",
+    "url": "https://inkwellgames.com/games/lazy-river",
+    "description": "Draw a single continuous loop that flows through every cell.",
+    "category": "Shapes/Patterns",
+    "id": 773
+  },
+  {
     "name": "Letroso",
     "url": "https://letroso.com/en/daily",
     "description": "Guess the secret word that can be up to 10 letters long.",
@@ -2400,7 +2435,7 @@
   },
   {
     "name": "Magnitudle",
-    "url": "https://magnitudle.com",
+    "url": "https://magnitudle.com/daily",
     "description": "A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.",
     "category": "Estimation",
     "id": 748
@@ -2675,13 +2710,6 @@
     "description": "Solve today's murder-mystery logic puzzle.",
     "category": "Math/Logic",
     "id": 246
-  },
-  {
-    "name": "Musicle",
-    "url": "https://musicle.app",
-    "description": "Match the song audio to the correct album art. Lots of categories.",
-    "category": "Music",
-    "id": 248
   },
   {
     "name": "MusicVidle",
@@ -3442,13 +3470,6 @@
     "id": 705
   },
   {
-    "name": "Raindle",
-    "url": "https://raindle.net/items",
-    "description": "Guess the Risk of Rain 2 item.",
-    "category": "Video Games",
-    "id": 497
-  },
-  {
     "name": "Rankle",
     "url": "https://www.rankle.app",
     "description": "Rank 6 things in 4 guesses. Every day is a different category.",
@@ -3566,14 +3587,6 @@
     "description": "Guess the ripple effect of historical events.",
     "category": "History",
     "id": 613
-  },
-  {
-    "name": "Rivadle",
-    "url": "https://rivadle.net",
-    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
-    "category": "Video Games",
-    "theme": "Marvel Rivals",
-    "id": 326
   },
   {
     "name": "RNGdle",
@@ -4308,6 +4321,13 @@
     "id": 645
   },
   {
+    "name": "The Magical Ferry",
+    "url": "https://magicalferry.com",
+    "description": "Move every passenger and their items across the water using the magical ferry. Some passengers and items do not get along.",
+    "category": "Math/Logic",
+    "id": 774
+  },
+  {
     "name": "The New Daily - Trivia",
     "url": "https://www.thenewdaily.com.au/puzzles/quiz-trivia",
     "description": "Daily trivia quizzes from multiple categories.",
@@ -4479,7 +4499,7 @@
   {
     "name": "Traindle",
     "url": "https://www.traindle.io",
-    "description": "Chain together words to form familiar phrases. Timed based word game.",
+    "description": "Chain together words to form familiar phrases. Timed-based word game.",
     "category": "Words",
     "id": 507
   },
@@ -4731,6 +4751,13 @@
     "description": "Guess the Doctor Who episode based on the frames, audio, or transcripts.",
     "category": "Movies/TV",
     "id": 706
+  },
+  {
+    "name": "Wikitrivia",
+    "url": "https://wikitrivia.tomjwatson.com/daily",
+    "description": "Place the events in chronological order on the timeline, one by one.",
+    "category": "History",
+    "id": 775
   },
   {
     "name": "Wildlife Sudoku",

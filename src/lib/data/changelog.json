@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-06-06",
+    "dles added": [
+      {
+        "name": "Dialed - Shape Game",
+        "url": "https://dialed.gg/shape",
+        "id": 769
+      },
+      {
+        "name": "Dialed - Sound Game",
+        "url": "https://dialed.gg/sound",
+        "id": 770
+      },
+      {
+        "name": "Dialed - Time Game",
+        "url": "https://dialed.gg/time",
+        "id": 771
+      },
+      {
+        "name": "Gauntle",
+        "url": "https://gauntle.com",
+        "id": 772
+      },
+      {
+        "name": "Lazy River",
+        "url": "https://inkwellgames.com/games/lazy-river",
+        "id": 773
+      },
+      {
+        "name": "The Magical Ferry",
+        "url": "https://magicalferry.com",
+        "id": 774
+      },
+      {
+        "name": "Wikitrivia",
+        "url": "https://wikitrivia.tomjwatson.com/daily",
+        "id": 775
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Musicle",
+        "url": "https://musicle.app",
+        "id": 248,
+        "reason": "Site no longer loads."
+      },
+      {
+        "name": "Raindle",
+        "url": "https://raindle.net/items",
+        "id": 497,
+        "reason": "Site no longer loads."
+      },
+      {
+        "name": "Rivadle",
+        "url": "https://rivadle.net",
+        "id": 326,
+        "reason": "Site now redirects to suspicious website."
+      }
+    ],
+    "description": "Add 7 dles. Remove 3 dles. "
+  },
+  {
     "date": "2026-06-01",
     "dles removed": [
       {

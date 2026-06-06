@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-06-01`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-06-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -117,7 +117,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (19)
+### Estimation (21)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -125,12 +125,14 @@ This will update the `./docs` directory with a new build of the site.
 - [Centroid](https://centroidgame.com) - Guess the center of mass of all the shapes in the grid.
 - [Costcodle](https://costcodle.com) - Guess the price of the given Costco item.
 - [Cutle](https://pfiffel.com/cutle/) - Cut today's shape as evenly as you can.
+- [Dialed - Sound Game](https://dialed.gg/sound) - Listen to a tone and then recreate it from memory. Click the calendar for the daily mode.
+- [Dialed - Time Game](https://dialed.gg/time) - Await the duration and then recreate it from memory. Click the calendar for the daily mode.
 - [Estimate Me](https://estimate-me.aukspot.com) - Estimate something new every day!
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
-- [Magnitudle](https://magnitudle.com) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
+- [Magnitudle](https://magnitudle.com/daily) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
 - [Moneyline](https://moneyline.fromthethink.com) - Pick over/under the given line for each fact or statistic.
 - [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
 - [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
@@ -202,7 +204,7 @@ This will update the `./docs` directory with a new build of the site.
 - [WhichWay](https://whichway.is) - Determine which direction the target country is from the starting country, 10 rounds daily.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (17)
+### History (18)
 
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
 - [Chrono](https://chrono.quest) - Put the events in chronological order in 3 tries or less.
@@ -219,10 +221,11 @@ This will update the `./docs` directory with a new build of the site.
 - [TimeLine Game](https://www.playtimelines.com) - Arrange the historical events in the order they happened.
 - [TimeSwipe](https://play.timeswipe.fun) - Guess if the event occurred before or after the given year. There are 10 events each day.
 - [Which year](https://whichyr.com) - Guess which year each photo was taken.
+- [Wikitrivia](https://wikitrivia.tomjwatson.com/daily) - Place the events in chronological order on the timeline, one by one.
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (66)
+### Math/Logic (67)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -286,6 +289,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Sumplete](https://sumplete.com/daily) - Delete numbers so that each row and column adds up to their target number.
 - [Tally Game](https://tally-game.com) - Partition the board of numbers such that each group sums to 10.
 - [Terraformation](https://puzzmallow.com/terraformation) - Fill in the hex grid planet with the correct terrains.
+- [The Magical Ferry](https://magicalferry.com) - Move every passenger and their items across the water using the magical ferry. Some passengers and items do not get along.
 - [Tile Knight](https://tileknight.com) - Clear every tile on the board without landing on an empty tile.
 - [Timdle Math](https://timdle.com/math) - Place each mathematical expression in its proper place on the number line.
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
@@ -342,7 +346,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (37)
+### Music (36)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -366,7 +370,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Humppadle](https://www.humppadle.de) - Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.
 - [Lyricle](https://www.lyricle.app) - Guess the song from the given lyrics.
 - [MeloGuessr](https://meloguessr.com) - Click the geographic origin of the song that's playing, 5 rounds every day.
-- [Musicle](https://musicle.app) - Match the song audio to the correct album art. Lots of categories.
 - [MusicVidle](https://www.musicvidle.com) - Guess the song based on selected frames from its music video.
 - [Perfect Pitch Puzzle](https://www.perfectpitchpuzzle.com) - After listening to a short tune, identify the first 6 notes that were played.
 - [ReHeardle](https://reheardle.com) - Guess the song from listening to small parts of it.
@@ -407,17 +410,19 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (26)
+### Shapes/Patterns (28)
 
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
 - [Daydoku](https://www.daydoku.com) - Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
+- [Dialed - Shape Game](https://dialed.gg/shape) - Recreate the shape from memory after watching how it was moved, rotated, and scaled. Click the calendar for the daily mode.
 - [FlashPopTiles](https://flashpoptiles.com) - Traverse the grid while changing either shape or color, never both!
 - [Gerrymandle](https://gerrymandle.cc) - Win the election for the given color by properly gerrymandering the grid into districts.
 - [Hidden Mirrors](https://www.hidden-mirrors.com) - A unique daily symmetry game where you try to match the given pattern.
 - [Jigsaw Explorer](https://www.jigsawexplorer.com) - Solve the jigsaw puzzles, two new puzzles everyday.
 - [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
 - [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle) - A daily jigsaw puzzle from the Los Angeles Times.
+- [Lazy River](https://inkwellgames.com/games/lazy-river) - Draw a single continuous loop that flows through every cell.
 - [LinkedIn - Zip](https://www.linkedin.com/games/zip) - Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
@@ -505,7 +510,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (71)
+### Video Games (69)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -550,9 +555,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Pokerating](https://pokerating.com/puzzle) - Guess an unknown Pokemon based on its in game information and how popular it is, using the ratings of other people.
 - [Pufferdle](https://pufferdle.com) - Catch a fish from the game Stardew Valley and then guess what fish it was.
 - [R6dle](https://r6dle.net) - A collection of daily guessing games related to Tom Clancy's Rainbow Six Siege.
-- [Raindle](https://raindle.net/items) - Guess the Risk of Rain 2 item.
 - [Retro Game Trivia](https://retrotrivia.games) - Daily games where you guess the retro game that was released on this date in history.
-- [Rivadle](https://rivadle.net) - A bunch of daily games where you guess the character from Marvel Rivals.
 - [Royaledle](https://royaledle.com) - A collection of daily games related to Clash Royale.
 - [Runedle](https://runedle.com) - Guess today's Runescape NPC.
 - [Silksongdle](https://silksongdle.com) - Daily guessing games related to Hollow Knight: Silksong.
@@ -579,7 +582,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (35)
+### Miscellaneous (36)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -596,6 +599,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Face Guessr](https://www.faceguesser.com) - Guess the pixelated face of today's notable figure.
 - [Facedle](https://facedle.app) - Guess the famous person in the partially covered picture.
 - [Forgeous](https://forgeous.fun) - Try to copy famous paintings as close as you can in 3 minutes!
+- [Gauntle](https://gauntle.com) - Complete 11 mini daily games in a row as quickly as you can.
 - [graphs.world](https://www.graphs.world) - Select the dataset that fits the displayed graph.
 - [Guess The Book](https://guessthebook.app) - Guess the book based on short snippets and details.
 - [Guess The Logo](https://guessthelogo.wtf) - Guess the logo which becomes less blurry with each guess.
@@ -804,7 +808,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Toddle](https://toddle-puzzle.web.app) - Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.
 - [Totem Words](https://totemwords.com) - Guess the words associated their emoji category, then slide those words to solve the vertical category.
 - [Tracell](https://tracellgame.com) - Uncover the hidden text by placing the letter tiles in the grid.
-- [Traindle](https://www.traindle.io) - Chain together words to form familiar phrases. Timed based word game.
+- [Traindle](https://www.traindle.io) - Chain together words to form familiar phrases. Timed-based word game.
 - [trms](https://impliedampersand.itch.io/trms) - Restore the vowels in each clue to find answers that reduce to the same consonants. Try the "How to Play"!
 - [Truncate](https://truncate.town) - Place a chain of tiles on the board and reach the opponent's base before they reach yours.
 - [Unolingo](https://games.usatoday.com/games/uclick-unolingo) - Solve the clueless crossword by using each letter of the English alphabet exactly once.
