@@ -427,7 +427,7 @@ This will update the `./docs` directory with a new build of the site.
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
 - [Mazetangle](https://mazetangle.com) - Go from the red tile to the blue tile in as many moves as possible.
-- [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal my sliding the pieces around the grid.
+- [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal by sliding the pieces around the grid.
 - [Netflix - Jigsaw](https://www.netflix.com/tudum/puzzled/jigsaw/daily) - Complete the image by finding the right spot for each piece. Does not require a Netflix account.
 - [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily) - Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.
 - [Nodes](https://www.nodes-game.com) - A puzzle game where you connect dots to reveal beautiful images.
