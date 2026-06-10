@@ -78,7 +78,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ### Sponsors
 
-- [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
+- [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 - [Shrinkle](https://shrinkle.org) - Remove letters and make new words until you find the hidden phrase.
@@ -636,7 +636,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Boggdle](https://simenmh.com/boggdle) - Search for the best 3 words you can find in the Boggle grid.
 - [Boston Globe - Align](https://www.bostonglobe.com/games/align/) - Swap tiles in the grid so that each row and column forms a word.
 - [Bracket City](https://www.theatlantic.com/games/bracket-city/) - Solve the clues within brackets, eventually completing the puzzle. (From The Atlantic)
-- [Cadgy](https://onelook.com/cadgy/) - Make valid 5-letter words by selecting one letter from each column.
+- [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
 - [Categories](https://categories.clevergoat.com) - Group the words in the grid into the 4 secret categories, like Connections or Conexo.
 - [Cell Tower](https://www.andrewt.net/puzzles/cell-tower) - Divide the grid into regions such that each region represents a word.
 - [cemantle](https://cemantle.certitudes.org) - Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.
