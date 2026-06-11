@@ -4071,6 +4071,13 @@
     "id": 671
   },
   {
+    "name": "Statedoku",
+    "url": "https://statedoku.com",
+    "description": "Fill a 3×3 grid with US states matching both a row clue and a column clue (e.g. borders Canada × no income tax).",
+    "category": "Geography",
+    "id": 769
+  },
+  {
     "name": "Statele",
     "url": "https://statele.teuteuf.fr",
     "description": "Guess the US State by its outline on the map.",
