@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-06-12
+
+Add 3 dles. 
+
+dles added: 
+|    | name                                         | url                                                                    |   id |
+|---:|:---------------------------------------------|:-----------------------------------------------------------------------|-----:|
+|  1 | [Letterinth](https://letterinth.com)         | [https://letterinth.com](https://letterinth.com)                       |  776 |
+|  2 | [Poopguessr](https://poopguessr.com)         | [https://poopguessr.com](https://poopguessr.com)                       |  777 |
+|  3 | [Riffdle](https://www.synthia.space/riffdle) | [https://www.synthia.space/riffdle](https://www.synthia.space/riffdle) |  778 |
+
 ## 2026-06-06
 
 Add 7 dles. Remove 3 dles. 

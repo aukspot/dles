@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-06-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-06-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -346,7 +346,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (36)
+### Music (37)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -375,6 +375,7 @@ This will update the `./docs` directory with a new build of the site.
 - [ReHeardle](https://reheardle.com) - Guess the song from listening to small parts of it.
 - [ReHeardle Video Games](https://reheardle.com/videogames) - Guess the video game track from listening to small parts of it.
 - [relatle.io](https://relatle.io) - Get from one musical artist to another by linking through related artists.
+- [Riffdle](https://www.synthia.space/riffdle) - Guess the notes of a musical riff after listening to it.
 - [Songdle](https://statt-land-song.ch/songdle) - Guess the artist, title, and year of the song that's playing.
 - [Songle](https://histordle.com/songle) - Guess the year given three songs that were released that year.
 - [Songless](https://lessgames.com/songless) - Guess the song from listening to small parts of it.
@@ -393,7 +394,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
 
-### Science/Nature (14)
+### Science/Nature (15)
 
 - [Birdie Game](https://birdiegame.net) - Guess the bird from cropped images and audio.
 - [Birdle](https://www.play-birdle.com) - Identify today's bird in 6 guesses or less.
@@ -406,6 +407,7 @@ This will update the `./docs` directory with a new build of the site.
 - [list animals until failure](https://rose.systems/animalist/#today) - List as many animals of a given type as you can until time runs out.
 - [Metaflora](https://flora.metazooa.com) - Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.
 - [Metazooa](https://metazooa.com) - Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.
+- [Poopguessr](https://poopguessr.com) - Guess the animal based on their poop.
 - [Radiordle](https://www.radiordle.org) - Make the correct diagnosis based on the medical image and hints provided.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
@@ -621,7 +623,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (230)
+### Words (231)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [7 Little Words](https://7littlewords.com/7lw) - Combine tiles to create words matching the clues, 5 rounds everyday
@@ -704,6 +706,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Langle](https://langle.uk) - Guess the world language from a few example sentences.
 - [Letroso](https://letroso.com/en/daily) - Guess the secret word that can be up to 10 letters long.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
+- [Letterinth](https://letterinth.com) - Trace a quote inside a grid of letters, starting at the center and visiting each letter once.
 - [Letteripher](https://letteripher.com) - Guess letters to reveal all words of some daily category without losing all your lives.
 - [LetterLoop](https://theletterloop.com) - Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.
 - [Lex.Games - By A Vowel](https://lex.games/byavowel/) - Unjumble five words by inserting a unique vowel into each word.

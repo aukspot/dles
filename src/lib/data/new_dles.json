@@ -66,10 +66,28 @@
     "date_added": "2026-05-22"
   },
   {
+    "name": "Letterinth",
+    "url": "https://letterinth.com",
+    "id": 776,
+    "date_added": "2026-06-12"
+  },
+  {
     "name": "Moneyline",
     "url": "https://moneyline.fromthethink.com",
     "id": 767,
     "date_added": "2026-05-22"
+  },
+  {
+    "name": "Poopguessr",
+    "url": "https://poopguessr.com",
+    "id": 777,
+    "date_added": "2026-06-12"
+  },
+  {
+    "name": "Riffdle",
+    "url": "https://www.synthia.space/riffdle",
+    "id": 778,
+    "date_added": "2026-06-12"
   },
   {
     "name": "Seedle",

@@ -387,7 +387,7 @@
   },
   {
     "name": "Cadgy",
-    "url": "https://onelook.com/cadgy/",
+    "url": "https://cadgy.net",
     "description": "Make valid 5-letter words by selecting one letter from each column.",
     "category": "Words",
     "id": 680
@@ -2236,6 +2236,13 @@
     "id": 642
   },
   {
+    "name": "Letterinth",
+    "url": "https://letterinth.com",
+    "description": "Trace a quote inside a grid of letters, starting at the center and visiting each letter once.",
+    "category": "Words",
+    "id": 776
+  },
+  {
     "name": "Letteripher",
     "url": "https://letteripher.com",
     "description": "Guess letters to reveal all words of some daily category without losing all your lives.",
@@ -2735,7 +2742,7 @@
   {
     "name": "Nerdcube - Carom",
     "url": "https://www.nerdcube.games/carom",
-    "description": "Reach the goal my sliding the pieces around the grid.",
+    "description": "Reach the goal by sliding the pieces around the grid.",
     "category": "Shapes/Patterns",
     "id": 734
   },
@@ -3262,6 +3269,13 @@
     "id": 704
   },
   {
+    "name": "Poopguessr",
+    "url": "https://poopguessr.com",
+    "description": "Guess the animal based on their poop.",
+    "category": "Science/Nature",
+    "id": 777
+  },
+  {
     "name": "Poople",
     "url": "https://poople.io",
     "description": "Get to 'POOP' in as few steps as possible!",
@@ -3580,6 +3594,13 @@
     "description": "Guess the answer to the handmade daily riddle in five clues.",
     "category": "Trivia",
     "id": 536
+  },
+  {
+    "name": "Riffdle",
+    "url": "https://www.synthia.space/riffdle",
+    "description": "Guess the notes of a musical riff after listening to it.",
+    "category": "Music",
+    "id": 778
   },
   {
     "name": "Ripple",

@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-06-12",
+    "dles added": [
+      {
+        "name": "Letterinth",
+        "url": "https://letterinth.com",
+        "id": 776
+      },
+      {
+        "name": "Poopguessr",
+        "url": "https://poopguessr.com",
+        "id": 777
+      },
+      {
+        "name": "Riffdle",
+        "url": "https://www.synthia.space/riffdle",
+        "id": 778
+      }
+    ],
+    "description": "Add 3 dles. "
+  },
+  {
     "date": "2026-06-06",
     "dles added": [
       {
