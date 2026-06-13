@@ -1504,7 +1504,7 @@
   {
     "name": "Futbol 11",
     "url": "https://futbol-11.com/",
-    "description": "A collection of daily games related to Soccer (F\u00fatbol).",
+    "description": "A collection of daily games related to Soccer (Fútbol).",
     "category": "Sports",
     "theme": "Soccer",
     "id": 471
@@ -1965,7 +1965,7 @@
   {
     "name": "Humppadle",
     "url": "https://www.humppadle.de",
-    "description": "Guess the original song based on a cover by the Finnish Humppa band El\u00e4kel\u00e4iset.",
+    "description": "Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.",
     "category": "Music",
     "id": 641
   },
@@ -3130,7 +3130,7 @@
   {
     "name": "Pikadoku",
     "url": "https://pikadoku.dentotino.com",
-    "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column. More complex than Pokedoku.",
+    "description": "Fill out the grid with Pokémon matching the criteria of each cell's row and column. More complex than Pokedoku.",
     "category": "Video Games",
     "theme": "Pokemon",
     "id": 491
@@ -3202,7 +3202,7 @@
   {
     "name": "PokeCryptic",
     "url": "https://www.pokecryptic.com",
-    "description": "A daily cryptic crossword clue, but with Pok\u00e9mon-related answers such as Pok\u00e9mon names, move names, and towns.",
+    "description": "A daily cryptic crossword clue, but with Pokémon-related answers such as Pokémon names, move names, and towns.",
     "category": "Video Games",
     "id": 727
   },
@@ -3225,7 +3225,7 @@
   {
     "name": "Pokedoku",
     "url": "https://pokedoku.com",
-    "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
+    "description": "Fill out the grid with Pokémon matching the criteria of each cell's row and column.",
     "category": "Video Games",
     "theme": "Pokemon",
     "id": 290
@@ -4691,7 +4691,7 @@
   {
     "name": "Weakdoku",
     "url": "https://weakdoku.dentotino.com",
-    "description": "Fill out the grid with Pok\u00e9mon based on the weaknesses described in each cell's row and column.",
+    "description": "Fill out the grid with Pokémon based on the weaknesses described in each cell's row and column.",
     "category": "Video Games",
     "theme": "Pokemon",
     "id": 511
@@ -5127,5 +5127,11 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
+  },
+  {
+    "name": "Last Control",
+    "url": "https://game.last-control.com/play",
+    "description": "Daily cognitive audit. Score your decision-making and pattern recognition 0–100. New questions every 24h.",
+    "category": "Math/Logic"
   }
 ]
