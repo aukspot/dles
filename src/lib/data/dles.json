@@ -5127,5 +5127,11 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
+  },
+  {
+    "name": "Gazettle",
+    "url": "https://gazettle.app",
+    "description": "Three daily word puzzles in one vintage newspaper: guess by letters (Classic), by meaning (Semantic), or build the word chain (Bridge). Free, no account.",
+    "category": "Words"
   }
 ]
