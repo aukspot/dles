@@ -5127,5 +5127,33 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
+  },
+  {
+    "name": "Plot-Hole",
+    "url": "https://plot-hole.com",
+    "description": "Guess the daily movie from 5 clues that go from cryptic to obvious. Guess early to score higher.",
+    "category": "Movies/TV",
+    "id": 779
+  },
+  {
+    "name": "TV Addict",
+    "url": "https://tv-addict.com",
+    "description": "Guess the daily TV show from 5 clues, vague to obvious. The earlier you guess, the higher your score.",
+    "category": "Movies/TV",
+    "id": 780
+  },
+  {
+    "name": "Luminary",
+    "url": "https://play-luminary.com",
+    "description": "Daily actor trivia: a sentence clue and four photos, three timed rounds each day.",
+    "category": "Movies/TV",
+    "id": 781
+  },
+  {
+    "name": "NORMIE",
+    "url": "https://play-normie.com",
+    "description": "Three daily questions - guess how the crowd voted and find out if you're normal.",
+    "category": "Trivia",
+    "id": 782
   }
 ]
