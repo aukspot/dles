@@ -158,6 +158,12 @@
     "id": 13
   },
   {
+    "name": "AtomixQuest",
+    "url": "https://atomixquest.com",
+    "description": "Guess the chemical element based on its properties (atomic mass, melting point, electronegativity…) in 5 daily modes.",
+    "category": "Science/Nature"
+  },
+  {
     "name": "Avatardle",
     "url": "https://avatardle.com",
     "description": "A daily guessing game based on the show Avatar: The Last Airbender.",
@@ -1884,6 +1890,12 @@
     "id": 169
   },
   {
+    "name": "HistoriaQuest",
+    "url": "https://historiaquest.com",
+    "description": "Guess where historical figures, inventions and events belong on the timeline — drag and drop to the right date.",
+    "category": "History"
+  },
+  {
     "name": "Historydle",
     "url": "https://historydle.com",
     "description": "Daily games where you guess the historical person or place.",
@@ -2526,6 +2538,12 @@
     "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
     "category": "Science/Nature",
     "id": 226
+  },
+  {
+    "name": "MetrosQuest",
+    "url": "https://metrosquest.com",
+    "description": "Guess the world capital based on its stats (altitude, metro lines, skyscrapers, population…) in 5 daily modes.",
+    "category": "Geography"
   },
   {
     "name": "Minecraftle",
