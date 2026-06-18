@@ -158,6 +158,12 @@
     "id": 13
   },
   {
+    "name": "AtomixQuest",
+    "url": "https://atomixquest.com",
+    "description": "Guess the chemical element based on its properties (atomic mass, melting point, electronegativity…) in 5 daily modes.",
+    "category": "Science/Nature"
+  },
+  {
     "name": "Avatardle",
     "url": "https://avatardle.com",
     "description": "A daily guessing game based on the show Avatar: The Last Airbender.",
@@ -1912,6 +1918,12 @@
     "id": 169
   },
   {
+    "name": "HistoriaQuest",
+    "url": "https://historiaquest.com",
+    "description": "Guess where historical figures, inventions and events belong on the timeline — drag and drop to the right date.",
+    "category": "History"
+  },
+  {
     "name": "Historydle",
     "url": "https://historydle.com",
     "description": "Daily games where you guess the historical person or place.",
@@ -2568,6 +2580,12 @@
     "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
     "category": "Science/Nature",
     "id": 226
+  },
+  {
+    "name": "MetrosQuest",
+    "url": "https://metrosquest.com",
+    "description": "Guess the world capital based on its stats (altitude, metro lines, skyscrapers, population…) in 5 daily modes.",
+    "category": "Geography"
   },
   {
     "name": "Minecraftle",
@@ -4099,6 +4117,12 @@
     "id": 367
   },
   {
+    "name": "StatesQuest",
+    "url": "https://statesquest.com",
+    "description": "Guess the US state based on its statistics in 4 daily modes.",
+    "category": "Geography"
+  },
+  {
     "name": "StatPad Game",
     "url": "https://www.statpadgame.com",
     "description": "Select MLB players to maximize your score given today's stat category and row requirements.",
@@ -4275,6 +4299,12 @@
     "category": "Video Games",
     "theme": "Terraria",
     "id": 382
+  },
+  {
+    "name": "TerraeQuest",
+    "url": "https://terraequest.com",
+    "description": "Guess the country based on its statistics (population, area, GDP…) in 4 daily modes.",
+    "category": "Geography"
   },
   {
     "name": "Terraformation",
