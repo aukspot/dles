@@ -1,23 +1,5 @@
 [
   {
-    "name": "Border guesser",
-    "url": "https://borderguesser.com",
-    "id": 759,
-    "date_added": "2026-05-18"
-  },
-  {
-    "name": "Capitalibrate",
-    "url": "https://guessdash.com/capitalibrate",
-    "id": 760,
-    "date_added": "2026-05-18"
-  },
-  {
-    "name": "Centumth",
-    "url": "https://www.centumth.com",
-    "id": 764,
-    "date_added": "2026-05-22"
-  },
-  {
     "name": "Dialed - Shape Game",
     "url": "https://dialed.gg/shape",
     "id": 769,
@@ -42,40 +24,16 @@
     "date_added": "2026-06-06"
   },
   {
-    "name": "Gerrymandle",
-    "url": "https://gerrymandle.cc",
-    "id": 765,
-    "date_added": "2026-05-22"
-  },
-  {
-    "name": "Headline",
-    "url": "https://headline.fromthethink.com",
-    "id": 761,
-    "date_added": "2026-05-18"
-  },
-  {
     "name": "Lazy River",
     "url": "https://inkwellgames.com/games/lazy-river",
     "id": 773,
     "date_added": "2026-06-06"
   },
   {
-    "name": "Letterboxdle",
-    "url": "https://letterboxdle.net",
-    "id": 766,
-    "date_added": "2026-05-22"
-  },
-  {
     "name": "Letterinth",
     "url": "https://letterinth.com",
     "id": 776,
     "date_added": "2026-06-12"
-  },
-  {
-    "name": "Moneyline",
-    "url": "https://moneyline.fromthethink.com",
-    "id": 767,
-    "date_added": "2026-05-22"
   },
   {
     "name": "Poopguessr",
@@ -88,24 +46,6 @@
     "url": "https://www.synthia.space/riffdle",
     "id": 778,
     "date_added": "2026-06-12"
-  },
-  {
-    "name": "Seedle",
-    "url": "https://seedle.io",
-    "id": 762,
-    "date_added": "2026-05-18"
-  },
-  {
-    "name": "SteppedUpdle",
-    "url": "https://steppedupdle.com",
-    "id": 763,
-    "date_added": "2026-05-18"
-  },
-  {
-    "name": "Story Sleuth",
-    "url": "https://booksleuth.club/storysleuth/",
-    "id": 768,
-    "date_added": "2026-05-22"
   },
   {
     "name": "The Magical Ferry",
