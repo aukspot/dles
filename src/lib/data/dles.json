@@ -5127,5 +5127,54 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
+  },
+  {
+    "name": "SkyQ",
+    "url": "https://flightq.app/skyq",
+    "description": "Identify the day's mystery flight in five guesses using progressive clues about route, duration, aircraft, and airline.",
+    "category": "Vehicles",
+    "id": 779
+  },
+  {
+    "name": "AirportQ",
+    "url": "https://flightq.app/airportq",
+    "description": "Identify the mystery airport in five guesses using clues about its airlines, traffic, and runways.",
+    "category": "Vehicles",
+    "id": 780
+  },
+  {
+    "name": "PlaneQ",
+    "url": "https://flightq.app/planeq",
+    "description": "Name the daily commercial aircraft from the airlines that operate it.",
+    "category": "Vehicles",
+    "id": 781
+  },
+  {
+    "name": "RailQ",
+    "url": "https://flightq.app/railq",
+    "description": "Guess the day's mystery train route from clues about its operator and stations.",
+    "category": "Vehicles",
+    "id": 782
+  },
+  {
+    "name": "PassportQ",
+    "url": "https://flightq.app/passportq",
+    "description": "Guess the mystery city in five tries using clues like temperature, population, elevation, and airlines.",
+    "category": "Geography",
+    "id": 783
+  },
+  {
+    "name": "CityQ",
+    "url": "https://flightq.app/cityq",
+    "description": "Fill a 3x3 grid with world cities matching the category on each row and column.",
+    "category": "Geography",
+    "id": 784
+  },
+  {
+    "name": "Headcount",
+    "url": "https://flightq.app/headcount",
+    "description": "Draw a circle on the world map to capture a target population each day.",
+    "category": "Geography",
+    "id": 785
   }
 ]
