@@ -1336,6 +1336,12 @@
     "id": 739
   },
   {
+    "name": "Fast Five Quiz",
+    "url": "https://fastfivequiz.com",
+    "description": "A daily general knowledge quiz with five hand-written questions across five categories. Optional 15-second timer per question, no signup required.",
+    "category": "Trivia"
+  },
+  {
     "name": "Faustdle",
     "url": "https://faustdle.com/",
     "description": "Guess the One Piece character of the day.",
