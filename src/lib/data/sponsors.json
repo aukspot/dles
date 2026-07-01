@@ -19,5 +19,12 @@
     "description": "Make valid 5-letter words by selecting one letter from each column.",
     "category": "Words",
     "id": 680
+  },
+  {
+    "name": "enclose.horse",
+    "url": "https://enclose.horse",
+    "description": "Enclose the horse in the biggest possible pen.",
+    "category": "Miscellaneous",
+    "id": 603
   }
 ]
