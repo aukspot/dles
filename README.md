@@ -79,6 +79,7 @@ This will update the `./docs` directory with a new build of the site.
 ### Sponsors
 
 - [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
+- [enclose.horse](https://enclose.horse) - Enclose the horse in the biggest possible pen.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
