@@ -419,7 +419,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Daydoku](https://www.daydoku.com) - Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
 - [Dialed - Shape Game](https://dialed.gg/shape) - Recreate the shape from memory after watching how it was moved, rotated, and scaled. Click the calendar for the daily mode.
 - [FlashPopTiles](https://flashpoptiles.com) - Traverse the grid while changing either shape or color, never both!
-- [Gerrymandle](https://gerrymandle.cc) - Win the election for the given color by properly gerrymandering the grid into districts.
+- [Gerrymandle](https://gerrymandle.com) - Win the election for the given color by properly gerrymandering the grid into districts.
 - [Hidden Mirrors](https://www.hidden-mirrors.com) - A unique daily symmetry game where you try to match the given pattern.
 - [Jigsaw Explorer](https://www.jigsawexplorer.com) - Solve the jigsaw puzzles, two new puzzles everyday.
 - [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
