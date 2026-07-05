@@ -4142,6 +4142,12 @@
     "id": 370
   },
   {
+    "name": "Stretchdle",
+    "url": "https://seekdle.com/stretchdle/",
+    "description": "Drag a squished or stretched photo back to its true proportions by eye.",
+    "category": "Estimation"
+  },
+  {
     "name": "Sudoker",
     "url": "https://sudoker.io",
     "description": "Rearrange the cards to create better Poker hands and maximize scores across rows and columns.",
