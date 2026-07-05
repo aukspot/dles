@@ -26,5 +26,12 @@
     "description": "Enclose the horse in the biggest possible pen.",
     "category": "Miscellaneous",
     "id": 603
+  },
+  {
+    "name": "Centumth",
+    "url": "https://www.centumth.com",
+    "description": "Guess the items ranked closest to #100 in today's category.",
+    "category": "Trivia",
+    "id": 764
   }
 ]
