@@ -1,5 +1,24 @@
 # Changelog - The Dles
 
+## 2026-07-09
+
+Add 11 dles. 
+
+dles added: 
+|    | name                                                          | url                                                                                |   id |
+|---:|:--------------------------------------------------------------|:-----------------------------------------------------------------------------------|-----:|
+|  1 | [4 x 3](https://www.hankgreen.com/fourbythree/)               | [https://www.hankgreen.com/fourbythree/](https://www.hankgreen.com/fourbythree/)   |  779 |
+|  2 | [Anthropeum](https://anthropeum.com)                          | [https://anthropeum.com](https://anthropeum.com)                                   |  780 |
+|  3 | [Dialed - Color Toon](https://dialed.gg/color2)               | [https://dialed.gg/color2](https://dialed.gg/color2)                               |  781 |
+|  4 | [FoxiMax](https://foximax.com)                                | [https://foximax.com](https://foximax.com)                                         |  782 |
+|  5 | [LinkedIn - Patches](https://www.linkedin.com/games/patches/) | [https://www.linkedin.com/games/patches/](https://www.linkedin.com/games/patches/) |  783 |
+|  6 | [LinkedIn - Wend](https://www.linkedin.com/games/wend/)       | [https://www.linkedin.com/games/wend/](https://www.linkedin.com/games/wend/)       |  784 |
+|  7 | [Motion Path](https://motionpath.app)                         | [https://motionpath.app](https://motionpath.app)                                   |  785 |
+|  8 | [Pipcross](https://puzzmallow.com/pipcross)                   | [https://puzzmallow.com/pipcross](https://puzzmallow.com/pipcross)                 |  786 |
+|  9 | [Tic-Tac-Word](https://www.tictacword.com)                    | [https://www.tictacword.com](https://www.tictacword.com)                           |  787 |
+| 10 | [TypeCircuit](https://typecircuit.com)                        | [https://typecircuit.com](https://typecircuit.com)                                 |  788 |
+| 11 | [Whereabouts?](https://whereabouts.earth/daily/)              | [https://whereabouts.earth/daily/](https://whereabouts.earth/daily/)               |  789 |
+
 ## 2026-06-12
 
 Add 3 dles. 

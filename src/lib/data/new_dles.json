@@ -1,39 +1,57 @@
 [
   {
-    "name": "Dialed - Shape Game",
-    "url": "https://dialed.gg/shape",
-    "id": 769,
-    "date_added": "2026-06-06"
+    "name": "4 x 3",
+    "url": "https://www.hankgreen.com/fourbythree/",
+    "id": 779,
+    "date_added": "2026-07-09"
   },
   {
-    "name": "Dialed - Sound Game",
-    "url": "https://dialed.gg/sound",
-    "id": 770,
-    "date_added": "2026-06-06"
+    "name": "Anthropeum",
+    "url": "https://anthropeum.com",
+    "id": 780,
+    "date_added": "2026-07-09"
   },
   {
-    "name": "Dialed - Time Game",
-    "url": "https://dialed.gg/time",
-    "id": 771,
-    "date_added": "2026-06-06"
+    "name": "Dialed - Color Toon",
+    "url": "https://dialed.gg/color2",
+    "id": 781,
+    "date_added": "2026-07-09"
   },
   {
-    "name": "Gauntle",
-    "url": "https://gauntle.com",
-    "id": 772,
-    "date_added": "2026-06-06"
-  },
-  {
-    "name": "Lazy River",
-    "url": "https://inkwellgames.com/games/lazy-river",
-    "id": 773,
-    "date_added": "2026-06-06"
+    "name": "FoxiMax",
+    "url": "https://foximax.com",
+    "id": 782,
+    "date_added": "2026-07-09"
   },
   {
     "name": "Letterinth",
     "url": "https://letterinth.com",
     "id": 776,
     "date_added": "2026-06-12"
+  },
+  {
+    "name": "LinkedIn - Patches",
+    "url": "https://www.linkedin.com/games/patches/",
+    "id": 783,
+    "date_added": "2026-07-09"
+  },
+  {
+    "name": "LinkedIn - Wend",
+    "url": "https://www.linkedin.com/games/wend/",
+    "id": 784,
+    "date_added": "2026-07-09"
+  },
+  {
+    "name": "Motion Path",
+    "url": "https://motionpath.app",
+    "id": 785,
+    "date_added": "2026-07-09"
+  },
+  {
+    "name": "Pipcross",
+    "url": "https://puzzmallow.com/pipcross",
+    "id": 786,
+    "date_added": "2026-07-09"
   },
   {
     "name": "Poopguessr",
@@ -48,15 +66,21 @@
     "date_added": "2026-06-12"
   },
   {
-    "name": "The Magical Ferry",
-    "url": "https://magicalferry.com",
-    "id": 774,
-    "date_added": "2026-06-06"
+    "name": "Tic-Tac-Word",
+    "url": "https://www.tictacword.com",
+    "id": 787,
+    "date_added": "2026-07-09"
   },
   {
-    "name": "Wikitrivia",
-    "url": "https://wikitrivia.tomjwatson.com/daily",
-    "id": 775,
-    "date_added": "2026-06-06"
+    "name": "TypeCircuit",
+    "url": "https://typecircuit.com",
+    "id": 788,
+    "date_added": "2026-07-09"
+  },
+  {
+    "name": "Whereabouts?",
+    "url": "https://whereabouts.earth/daily/",
+    "id": 789,
+    "date_added": "2026-07-09"
   }
 ]

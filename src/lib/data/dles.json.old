@@ -14,6 +14,13 @@
     "id": 604
   },
   {
+    "name": "4 x 3",
+    "url": "https://www.hankgreen.com/fourbythree/",
+    "description": "Group the words into 4 categories of 3 words apiece. One word is shared by each group.",
+    "category": "Words",
+    "id": 779
+  },
+  {
     "name": "7 Little Words",
     "url": "https://7littlewords.com/7lw",
     "description": "Combine tiles to create words matching the clues, 5 rounds everyday",
@@ -135,6 +142,13 @@
     "description": "Guess the anime opening or ending with a video clue that gets less blurry with each guess.",
     "category": "Movies/TV",
     "id": 638
+  },
+  {
+    "name": "Anthropeum",
+    "url": "https://anthropeum.com",
+    "description": "Guess the right time and region in which each human artifact is from.",
+    "category": "History",
+    "id": 780
   },
   {
     "name": "Antiwordle",
@@ -1062,6 +1076,13 @@
     "id": 684
   },
   {
+    "name": "Dialed - Color Toon",
+    "url": "https://dialed.gg/color2",
+    "description": "Guess the color of the cartoon, character, or logo from memory. Click the calendar for the daily mode.",
+    "category": "Colors",
+    "id": 781
+  },
+  {
     "name": "Dialed - Shape Game",
     "url": "https://dialed.gg/shape",
     "description": "Recreate the shape from memory after watching how it was moved, rotated, and scaled. Click the calendar for the daily mode.",
@@ -1464,6 +1485,13 @@
     "id": 547
   },
   {
+    "name": "FoxiMax",
+    "url": "https://foximax.com",
+    "description": "Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.",
+    "category": "Words",
+    "id": 782
+  },
+  {
     "name": "Framed",
     "url": "https://framed.wtf",
     "description": "Guess the movie from 6 frames.",
@@ -1617,7 +1645,7 @@
   },
   {
     "name": "Gerrymandle",
-    "url": "https://gerrymandle.cc",
+    "url": "https://gerrymandle.com",
     "description": "Win the election for the given color by properly gerrymandering the grid into districts.",
     "category": "Shapes/Patterns",
     "id": 765
@@ -2335,6 +2363,13 @@
     "id": 565
   },
   {
+    "name": "LinkedIn - Patches",
+    "url": "https://www.linkedin.com/games/patches/",
+    "description": "Partition the grid so that each number lies within a rectangle of that area. Like Shikaku of the Day.",
+    "category": "Shapes/Patterns",
+    "id": 783
+  },
+  {
     "name": "LinkedIn - Pinpoint",
     "url": "https://www.linkedin.com/games/pinpoint",
     "description": "Guess today's category given as few clues as possible. Does not require a LinkedIn account.",
@@ -2354,6 +2389,13 @@
     "description": "Fill in the grid properly with suns and moons. Does not require a LinkedIn account.",
     "category": "Math/Logic",
     "id": 208
+  },
+  {
+    "name": "LinkedIn - Wend",
+    "url": "https://www.linkedin.com/games/wend/",
+    "description": "Find the hidden words that partition the grid of letters.",
+    "category": "Words",
+    "id": 784
   },
   {
     "name": "LinkedIn - Zip",
@@ -2647,6 +2689,13 @@
     "description": "Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.",
     "category": "Miscellaneous",
     "id": 236
+  },
+  {
+    "name": "Motion Path",
+    "url": "https://motionpath.app",
+    "description": "Watch a dot move around, then recreate its path from memory.",
+    "category": "Estimation",
+    "id": 785
   },
   {
     "name": "Movie Grid",
@@ -3142,6 +3191,13 @@
     "category": "Words",
     "theme": "Guess the word",
     "id": 492
+  },
+  {
+    "name": "Pipcross",
+    "url": "https://puzzmallow.com/pipcross",
+    "description": "Place every die onto the grid so that their pips form the pattern described by the numbered clues.",
+    "category": "Math/Logic",
+    "id": 786
   },
   {
     "name": "PIVOT",
@@ -4405,6 +4461,13 @@
     "id": 755
   },
   {
+    "name": "Tic-Tac-Word",
+    "url": "https://www.tictacword.com",
+    "description": "Make three in a row by guessing words that fit today's theme, like Tic-Tac-Toe meets Wordle.",
+    "category": "Words",
+    "id": 787
+  },
+  {
     "name": "Tightrope",
     "url": "https://www.britannica.com/quiz/tightrope",
     "description": "Answer 9 timed trivia questions without running out of lives!",
@@ -4581,6 +4644,13 @@
     "id": 562
   },
   {
+    "name": "TypeCircuit",
+    "url": "https://typecircuit.com",
+    "description": "A daily typing speed challenge featuring quotes from popular video games, movies, and anime.",
+    "category": "Miscellaneous",
+    "id": 788
+  },
+  {
     "name": "Umadle",
     "url": "https://umadle.net",
     "description": "A collection of daily guessing games related to Umamusume.",
@@ -4737,6 +4807,13 @@
     "description": "Guess where and when the given movie scene was filmed.",
     "category": "Geography",
     "id": 417
+  },
+  {
+    "name": "Whereabouts?",
+    "url": "https://whereabouts.earth/daily/",
+    "description": "Five points are scattered across the world map, guess the countries they are located in.",
+    "category": "Geography",
+    "id": 789
   },
   {
     "name": "WhereTaken",

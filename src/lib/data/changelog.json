@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-07-09",
+    "dles added": [
+      {
+        "name": "4 x 3",
+        "url": "https://www.hankgreen.com/fourbythree/",
+        "id": 779
+      },
+      {
+        "name": "Anthropeum",
+        "url": "https://anthropeum.com",
+        "id": 780
+      },
+      {
+        "name": "Dialed - Color Toon",
+        "url": "https://dialed.gg/color2",
+        "id": 781
+      },
+      {
+        "name": "FoxiMax",
+        "url": "https://foximax.com",
+        "id": 782
+      },
+      {
+        "name": "LinkedIn - Patches",
+        "url": "https://www.linkedin.com/games/patches/",
+        "id": 783
+      },
+      {
+        "name": "LinkedIn - Wend",
+        "url": "https://www.linkedin.com/games/wend/",
+        "id": 784
+      },
+      {
+        "name": "Motion Path",
+        "url": "https://motionpath.app",
+        "id": 785
+      },
+      {
+        "name": "Pipcross",
+        "url": "https://puzzmallow.com/pipcross",
+        "id": 786
+      },
+      {
+        "name": "Tic-Tac-Word",
+        "url": "https://www.tictacword.com",
+        "id": 787
+      },
+      {
+        "name": "TypeCircuit",
+        "url": "https://typecircuit.com",
+        "id": 788
+      },
+      {
+        "name": "Whereabouts?",
+        "url": "https://whereabouts.earth/daily/",
+        "id": 789
+      }
+    ],
+    "description": "Add 11 dles. "
+  },
+  {
     "date": "2026-06-12",
     "dles added": [
       {
