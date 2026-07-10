@@ -748,7 +748,7 @@ This will update the `./docs` directory with a new build of the site.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.
 - [NYT Wordle](https://www.nytimes.com/games/wordle/index.html) - Guess the 5-letter word in six or fewer attempts.
 - [Octordle](https://www.britannica.com/games/octordle) - Solve 8 Wordle puzzles at the same time. You have 13 guesses.
-- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided. Press the 'Info' button in the bottom right.
+- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [Omiword](https://www.omiword.com) - Form 4 common words by arranging letter tiles that are locked to different regions of the grid.
 - [One Word Search](https://puzzlist.com/onewordsearch/) - Repeatedly search for the only word in a grid of letters.
 - [Orbits](https://www.playorbits.com) - Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.
