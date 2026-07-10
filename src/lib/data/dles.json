@@ -3002,7 +3002,7 @@
   {
     "name": "Odle",
     "url": "https://www.odle.app",
-    "description": "Write an ode to today's subject using only the letters provided. Press the 'Info' button in the bottom right.",
+    "description": "Write an ode to today's subject using only the letters provided.",
     "category": "Words",
     "id": 791
   },
