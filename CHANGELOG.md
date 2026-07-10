@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2026-07-10
+
+Add 5 dles. 
+
+dles added: 
+|    | name                                              | url                                                          |   id |
+|---:|:--------------------------------------------------|:-------------------------------------------------------------|-----:|
+|  1 | [Landmarkr](https://www.landmarkr.app)            | [https://www.landmarkr.app](https://www.landmarkr.app)       |  790 |
+|  2 | [Odle](https://www.odle.app)                      | [https://www.odle.app](https://www.odle.app)                 |  791 |
+|  3 | [Prince Chazz](https://princechazz.com)           | [https://princechazz.com](https://princechazz.com)           |  792 |
+|  4 | [Squishy Billiards](https://squishybilliards.com) | [https://squishybilliards.com](https://squishybilliards.com) |  793 |
+|  5 | [The Split](https://www.timecube.in)              | [https://www.timecube.in](https://www.timecube.in)           |  794 |
+
 ## 2026-07-09
 
 Add 11 dles. 

@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-07-09`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-07-10`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -84,7 +84,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 
-### Card/Board Games (20)
+### Card/Board Games (21)
 
 - [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) - Solve the daily chess puzzle from chess.com.
 - [Chessguessr](https://www.chessguessr.com) - Given a snapshot from a chess game, guess the next 5 moves played.
@@ -96,6 +96,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Mahjong Handle](https://mahjong-handle.update.sh) - Guess the Riichi Mahjong hand in 6 tries.
 - [Matle](https://www.matle.io) - Guess the missing chess pieces on the board to match the checkmate from a real chess match.
 - [Pokle](https://poklegame.com) - Guess the 5 board cards in this daily Texas Holdem challenge.
+- [Prince Chazz](https://princechazz.com) - Capture as many Chess pieces as you can without getting captured. You're playing as Prince Chazz, a piece that moves like a Queen.
 - [Puzzmo - Pile-Up Poker](https://www.puzzmo.com/play/pile-up-poker) - Make poker hands by placing cards onto the grid.
 - [Puzzmo - Really Bad Chess](https://www.puzzmo.com/play/really-bad-chess) - Checkmate the opponent's king in this randomized Chess variant.
 - [Ronin](https://www.andrewt.net/puzzles/ronin/) - Fill each region with Chess pieces such that no piece can attack a piece of the same type.
@@ -152,7 +153,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (53)
+### Geography (54)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -181,6 +182,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Headline](https://headline.fromthethink.com) - Guess the place tied to or missing from each headline.
 - [Juxtastat](https://urbanstats.org/quiz.html) - For 5 rounds, guess which of the two regions better fits the given criteria.
 - [Landmarkd](https://www.landmarkdgame.com) - Guess the daily landmark based on a zoomed-in picture.
+- [Landmarkr](https://www.landmarkr.app) - Name the place in the world based on the given pictures.
 - [Locatle](https://locatle.strct.net) - Guess the country that the picture was taken in.
 - [MapGame](https://mapgame.net) - Use the map to guess a country, getting new hints after each guess.
 - [Mapster](https://mapster.teuteuf.fr) - Draw the outline of a country as close as you can to the country's actual borders.
@@ -230,7 +232,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (68)
+### Math/Logic (67)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -288,7 +290,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Refiner](https://nibble.games/refiner/) - Refine the numbers in the grid by grouping them based on each of the requirements.
 - [regexle.com](https://regexle.com) - Fill in the hexagon with sequences of characters that match the regular expressions listed around the edges.
 - [Sequences](https://www.dailyfastgames.com/#/sequences) - Guess the next number in today's sequence.
-- [Shikaku of the day](https://shikakuofthe.day) - 5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.
 - [Stars](https://inkwellgames.com/games/stars) - Distribute stars strategically across the grid without letting them touch.
 - [Sudoku Shift](https://coffeefirst.games/sudoku-shift/) - Solve three sudokus in sequence, each one bigger than the previous.
 - [Summle](https://summle.net) - Reach the target number using the given numbers and operations. Includes a junior mode and hard mode.
@@ -418,7 +419,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (29)
+### Shapes/Patterns (30)
 
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
@@ -431,7 +432,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
 - [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle) - A daily jigsaw puzzle from the Los Angeles Times.
 - [Lazy River](https://inkwellgames.com/games/lazy-river) - Draw a single continuous loop that flows through every cell.
-- [LinkedIn - Patches](https://www.linkedin.com/games/patches/) - Partition the grid so that each number lies within a rectangle of that area. Like Shikaku of the Day.
+- [LinkedIn - Patches](https://www.linkedin.com/games/patches/) - Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.
 - [LinkedIn - Zip](https://www.linkedin.com/games/zip) - Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
@@ -446,6 +447,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Rotatly](https://www.rotatly.com) - Rotate cells until the outline is correct.
 - [SetFury](https://www.setfury.com) - Find valid sets of 3 to 5 tiles by moving through the grid.
 - [Shaple](https://swag.github.io/shaple) - Choose the shape that matches the top shape.
+- [Shikaku of the day](https://shikakuofthe.day) - 5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.
 - [Synthmaze](https://synthmaze.heliante.io/#/daily) - Swap tiles in the maze so that the rocket reaches the exit.
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
@@ -591,7 +593,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (37)
+### Miscellaneous (39)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -622,16 +624,18 @@ This will update the `./docs` directory with a new build of the site.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Seedle](https://seedle.io) - Grow the perfect garden by properly placing tiles that complement each other.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
+- [Squishy Billiards](https://squishybilliards.com) - A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.
 - [Story Sleuth](https://booksleuth.club/storysleuth/) - Guess the name of the book based on a short summary. More info is given after each guess.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
+- [The Split](https://www.timecube.in) - Answer today's question, then predict how everyone else answered. See how you did after the day ends.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [TypeCircuit](https://typecircuit.com) - A daily typing speed challenge featuring quotes from popular video games, movies, and anime.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (235)
+### Words (236)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -729,7 +733,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Lingule](https://lingule.xyz) - Guess the language of the today's word in 6 guesses or less.
 - [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb) - Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.
 - [LinkedIn - Pinpoint](https://www.linkedin.com/games/pinpoint) - Guess today's category given as few clues as possible. Does not require a LinkedIn account.
-- [LinkedIn - Wend](https://www.linkedin.com/games/wend/) - Find the hidden words that partition the grid of letters.
+- [LinkedIn - Wend](https://www.linkedin.com/games/wend/) - Find the hidden words that partition the grid of letters. Does not require a LinkedIn account.
 - [Linxicon](https://linxicon.com) - Connect two random words by creating a chain of new words that bridge the gap in their meanings.
 - [Lirdle](https://lirdle.com) - Wordle except each line contains a lie. (Like Fibble)
 - [Minute Cryptic](https://www.minutecryptic.com) - Solve today's cryptic clue.
@@ -744,6 +748,7 @@ This will update the `./docs` directory with a new build of the site.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.
 - [NYT Wordle](https://www.nytimes.com/games/wordle/index.html) - Guess the 5-letter word in six or fewer attempts.
 - [Octordle](https://www.britannica.com/games/octordle) - Solve 8 Wordle puzzles at the same time. You have 13 guesses.
+- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided. Press the 'Info' button in the bottom right.
 - [Omiword](https://www.omiword.com) - Form 4 common words by arranging letter tiles that are locked to different regions of the grid.
 - [One Word Search](https://puzzlist.com/onewordsearch/) - Repeatedly search for the only word in a grid of letters.
 - [Orbits](https://www.playorbits.com) - Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.

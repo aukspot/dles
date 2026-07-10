@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-07-10",
+    "dles added": [
+      {
+        "name": "Landmarkr",
+        "url": "https://www.landmarkr.app",
+        "id": 790
+      },
+      {
+        "name": "Odle",
+        "url": "https://www.odle.app",
+        "id": 791
+      },
+      {
+        "name": "Prince Chazz",
+        "url": "https://princechazz.com",
+        "id": 792
+      },
+      {
+        "name": "Squishy Billiards",
+        "url": "https://squishybilliards.com",
+        "id": 793
+      },
+      {
+        "name": "The Split",
+        "url": "https://www.timecube.in",
+        "id": 794
+      }
+    ],
+    "description": "Add 5 dles. "
+  },
+  {
     "date": "2026-07-09",
     "dles added": [
       {

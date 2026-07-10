@@ -2229,6 +2229,13 @@
     "id": 662
   },
   {
+    "name": "Landmarkr",
+    "url": "https://www.landmarkr.app",
+    "description": "Name the place in the world based on the given pictures.",
+    "category": "Geography",
+    "id": 790
+  },
+  {
     "name": "Langle",
     "url": "https://langle.uk",
     "description": "Guess the world language from a few example sentences.",
@@ -2365,7 +2372,7 @@
   {
     "name": "LinkedIn - Patches",
     "url": "https://www.linkedin.com/games/patches/",
-    "description": "Partition the grid so that each number lies within a rectangle of that area. Like Shikaku of the Day.",
+    "description": "Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.",
     "category": "Shapes/Patterns",
     "id": 783
   },
@@ -2393,7 +2400,7 @@
   {
     "name": "LinkedIn - Wend",
     "url": "https://www.linkedin.com/games/wend/",
-    "description": "Find the hidden words that partition the grid of letters.",
+    "description": "Find the hidden words that partition the grid of letters. Does not require a LinkedIn account.",
     "category": "Words",
     "id": 784
   },
@@ -2993,6 +3000,13 @@
     "id": 264
   },
   {
+    "name": "Odle",
+    "url": "https://www.odle.app",
+    "description": "Write an ode to today's subject using only the letters provided. Press the 'Info' button in the bottom right.",
+    "category": "Words",
+    "id": 791
+  },
+  {
     "name": "OEC Connectrade",
     "url": "https://oec.world/en/games/connectrade",
     "description": "Form groups of four exported products that are associated with one of the given countries.",
@@ -3358,6 +3372,13 @@
     "description": "Guess the 5-digit prime number in six guesses or less.",
     "category": "Math/Logic",
     "id": 294
+  },
+  {
+    "name": "Prince Chazz",
+    "url": "https://princechazz.com",
+    "description": "Capture as many Chess pieces as you can without getting captured. You're playing as Prince Chazz, a piece that moves like a Queen.",
+    "category": "Card/Board Games",
+    "id": 792
   },
   {
     "name": "Puckdoku",
@@ -3831,7 +3852,7 @@
     "name": "Shikaku of the day",
     "url": "https://shikakuofthe.day",
     "description": "5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.",
-    "category": "Math/Logic",
+    "category": "Shapes/Patterns",
     "id": 340
   },
   {
@@ -4089,6 +4110,13 @@
     "category": "Video Games",
     "theme": "Pokemon",
     "id": 362
+  },
+  {
+    "name": "Squishy Billiards",
+    "url": "https://squishybilliards.com",
+    "description": "A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.",
+    "category": "Miscellaneous",
+    "id": 793
   },
   {
     "name": "Stackdown",
@@ -4410,6 +4438,13 @@
     "description": "Daily trivia quizzes from multiple categories.",
     "category": "Trivia",
     "id": 560
+  },
+  {
+    "name": "The Split",
+    "url": "https://www.timecube.in",
+    "description": "Answer today's question, then predict how everyone else answered. See how you did after the day ends.",
+    "category": "Miscellaneous",
+    "id": 794
   },
   {
     "name": "The Wiki Game Daily",

@@ -24,6 +24,12 @@
     "date_added": "2026-07-09"
   },
   {
+    "name": "Landmarkr",
+    "url": "https://www.landmarkr.app",
+    "id": 790,
+    "date_added": "2026-07-10"
+  },
+  {
     "name": "Letterinth",
     "url": "https://letterinth.com",
     "id": 776,
@@ -48,6 +54,12 @@
     "date_added": "2026-07-09"
   },
   {
+    "name": "Odle",
+    "url": "https://www.odle.app",
+    "id": 791,
+    "date_added": "2026-07-10"
+  },
+  {
     "name": "Pipcross",
     "url": "https://puzzmallow.com/pipcross",
     "id": 786,
@@ -60,10 +72,28 @@
     "date_added": "2026-06-12"
   },
   {
+    "name": "Prince Chazz",
+    "url": "https://princechazz.com",
+    "id": 792,
+    "date_added": "2026-07-10"
+  },
+  {
     "name": "Riffdle",
     "url": "https://www.synthia.space/riffdle",
     "id": 778,
     "date_added": "2026-06-12"
+  },
+  {
+    "name": "Squishy Billiards",
+    "url": "https://squishybilliards.com",
+    "id": 793,
+    "date_added": "2026-07-10"
+  },
+  {
+    "name": "The Split",
+    "url": "https://www.timecube.in",
+    "id": 794,
+    "date_added": "2026-07-10"
   },
   {
     "name": "Tic-Tac-Word",
