@@ -5239,5 +5239,12 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
+  },
+  {
+    "name": "Rung",
+    "url": "https://dailyrung.com",
+    "description": "A daily game of nerve: one everyday answer, five clues from cryptic to obvious, worth 5 down to 1 points. Guess early to score big — a wrong guess burns two rungs.",
+    "category": "Words",
+    "theme": "Guess the word"
   }
 ]
