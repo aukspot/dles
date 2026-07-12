@@ -855,6 +855,19 @@
     ]
   },
   {
+    "name": "Tarkovdle",
+    "url": "https://tarkovdle.com",
+    "id": 380,
+    "removals": [
+      {
+        "date_removed": "2026-07-12"
+      }
+    ],
+    "description": "Guess the weapon from Escape from Tarkov by its properties or sound.",
+    "category": "Video Games",
+    "theme": "Escape from Tarkov"
+  },
+  {
     "name": "Thingdle",
     "url": "https://thingdle.app/en/thingdle",
     "id": 754,

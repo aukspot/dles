@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-07-12",
+    "dles removed": [
+      {
+        "name": "Tarkovdle",
+        "url": "https://tarkovdle.com",
+        "id": 380,
+        "reason": "Site no longer loads."
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-07-10",
     "dles added": [
       {

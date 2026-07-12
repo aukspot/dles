@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-07-12
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                               | url                                            |   id | reason                |
+|---:|:-----------------------------------|:-----------------------------------------------|-----:|:----------------------|
+|  1 | [Tarkovdle](https://tarkovdle.com) | [https://tarkovdle.com](https://tarkovdle.com) |  380 | Site no longer loads. |
 ## 2026-07-10
 
 Add 5 dles. 

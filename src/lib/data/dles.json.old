@@ -3002,7 +3002,7 @@
   {
     "name": "Odle",
     "url": "https://www.odle.app",
-    "description": "Write an ode to today's subject using only the letters provided. Press the 'Info' button in the bottom right.",
+    "description": "Write an ode to today's subject using only the letters provided.",
     "category": "Words",
     "id": 791
   },
@@ -4315,14 +4315,6 @@
     "description": "Partition the board of numbers such that each group sums to 10.",
     "category": "Math/Logic",
     "id": 504
-  },
-  {
-    "name": "Tarkovdle",
-    "url": "https://tarkovdle.com",
-    "description": "Guess the weapon from Escape from Tarkov by its properties or sound.",
-    "category": "Video Games",
-    "theme": "Escape from Tarkov",
-    "id": 380
   },
   {
     "name": "TED - Cheat Sheet",

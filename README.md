@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-07-10`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-07-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -521,7 +521,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (69)
+### Video Games (68)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -579,7 +579,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardewdle](https://stardewdle.com/game) - Guess today's mystery crop from Stardew Valley.
 - [steamdle.com](https://steamdle.com) - Guess the game based on the Steam review.
 - [Streetfighterdle](https://streetfighterdle.net) - Guess the daily Street Fighter character in as few tries as possible.
-- [Tarkovdle](https://tarkovdle.com) - Guess the weapon from Escape from Tarkov by its properties or sound.
 - [Terradle](https://www.terradle.com) - Guess today's weapon from the game Terraria.
 - [TF2dle](https://www.tf2dle.com) - Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.
 - [TFTdle](https://tftdle.gg/classic) - Daily games related to Teamfight Tactics.
@@ -748,7 +747,7 @@ This will update the `./docs` directory with a new build of the site.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.
 - [NYT Wordle](https://www.nytimes.com/games/wordle/index.html) - Guess the 5-letter word in six or fewer attempts.
 - [Octordle](https://www.britannica.com/games/octordle) - Solve 8 Wordle puzzles at the same time. You have 13 guesses.
-- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided. Press the 'Info' button in the bottom right.
+- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [Omiword](https://www.omiword.com) - Form 4 common words by arranging letter tiles that are locked to different regions of the grid.
 - [One Word Search](https://puzzlist.com/onewordsearch/) - Repeatedly search for the only word in a grid of letters.
 - [Orbits](https://www.playorbits.com) - Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.
