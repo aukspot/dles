@@ -172,6 +172,12 @@
     "id": 13
   },
   {
+    "name": "AtomixQuest",
+    "url": "https://atomixquest.com",
+    "description": "Guess the chemical element based on its properties (atomic mass, melting point, electronegativity…) in 5 daily modes.",
+    "category": "Science/Nature"
+  },
+  {
     "name": "Avatardle",
     "url": "https://avatardle.com",
     "description": "A daily guessing game based on the show Avatar: The Last Airbender.",
@@ -1911,6 +1917,12 @@
     "id": 165
   },
   {
+    "name": "HeatMapQuest",
+    "url": "https://heatmapquest.com",
+    "description": "Guess which statistic is represented on a color-coded 3D globe of the world in 4 daily rounds.",
+    "category": "Geography"
+  },
+  {
     "name": "hello wordl",
     "url": "https://hellowordl.net/?today",
     "description": "Play Wordle puzzles from 4 to 11 letters long.",
@@ -1938,6 +1950,12 @@
     "description": "A unique daily symmetry game where you try to match the given pattern.",
     "category": "Shapes/Patterns",
     "id": 169
+  },
+  {
+    "name": "HistoriaQuest",
+    "url": "https://historiaquest.com",
+    "description": "Guess where historical figures, inventions and events belong on the timeline — drag and drop to the right date.",
+    "category": "History"
   },
   {
     "name": "Historydle",
@@ -2617,6 +2635,12 @@
     "description": "Guess animals to see where they share common ancestors with the mystery animal, eventually guessing the mystery animal.",
     "category": "Science/Nature",
     "id": 226
+  },
+  {
+    "name": "MetrosQuest",
+    "url": "https://metrosquest.com",
+    "description": "Guess the world capital based on its stats (altitude, metro lines, skyscrapers, population…) in 5 daily modes.",
+    "category": "Geography"
   },
   {
     "name": "Minecraftle",
@@ -4183,6 +4207,12 @@
     "id": 367
   },
   {
+    "name": "StatesQuest",
+    "url": "https://statesquest.com",
+    "description": "Guess the US state based on its statistics in 4 daily modes.",
+    "category": "Geography"
+  },
+  {
     "name": "StatPad Game",
     "url": "https://www.statpadgame.com",
     "description": "Select MLB players to maximize your score given today's stat category and row requirements.",
@@ -4359,6 +4389,12 @@
     "category": "Video Games",
     "theme": "Terraria",
     "id": 382
+  },
+  {
+    "name": "TerraeQuest",
+    "url": "https://terraequest.com",
+    "description": "Guess the country based on its statistics (population, area, GDP…) in 4 daily modes.",
+    "category": "Geography"
   },
   {
     "name": "Terraformation",
