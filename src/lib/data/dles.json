@@ -1861,6 +1861,12 @@
     "id": 165
   },
   {
+    "name": "HeatMapQuest",
+    "url": "https://heatmapquest.com",
+    "description": "Guess which statistic is represented on a color-coded 3D globe of the world in 4 daily rounds.",
+    "category": "Geography"
+  },
+  {
     "name": "hello wordl",
     "url": "https://hellowordl.net/?today",
     "description": "Play Wordle puzzles from 4 to 11 letters long.",
