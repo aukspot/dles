@@ -3765,6 +3765,48 @@
     "id": 656
   },
   {
+    "name": "Scorewit",
+    "url": "https://www.scorewit.com",
+    "description": "Daily World Cup soccer trivia — six sourced questions a day, same round for everyone.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit Baseball",
+    "url": "https://baseball.scorewit.com",
+    "description": "Daily World Series trivia — six sourced questions a day from every Fall Classic since 1903.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit Cricket",
+    "url": "https://cricket.scorewit.com",
+    "description": "Daily Cricket World Cup trivia covering the ODI and T20 World Cups, every answer sourced.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit F1",
+    "url": "https://f1.scorewit.com",
+    "description": "Daily Formula 1 history trivia — every season since 1950, both championships, every answer sourced.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit Gridiron",
+    "url": "https://gridiron.scorewit.com",
+    "description": "Daily NFL history trivia — six sourced questions a day, every season since 1999.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit Super Over",
+    "url": "https://superover.scorewit.com",
+    "description": "Daily IPL history trivia — six sourced questions a day, every season of the tournament.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit Top Flight",
+    "url": "https://topflight.scorewit.com",
+    "description": "Daily English top-flight football trivia — six sourced questions a day from the Premier League era.",
+    "category": "Sports"
+  },
+  {
     "name": "Scramble",
     "url": "https://playscramble.vercel.app/?daily=1",
     "description": "Guess as many valid words as possible for each row of a scrambled grid of letters.",
