@@ -3774,6 +3774,18 @@
     "category": "Sports"
   },
   {
+    "name": "Scorewit Super Over",
+    "url": "https://superover.scorewit.com",
+    "description": "Daily IPL history trivia — six sourced questions a day, every season of the tournament.",
+    "category": "Sports"
+  },
+  {
+    "name": "Scorewit Top Flight",
+    "url": "https://topflight.scorewit.com",
+    "description": "Daily English top-flight football trivia — six sourced questions a day from the Premier League era.",
+    "category": "Sports"
+  },
+  {
     "name": "Scramble",
     "url": "https://playscramble.vercel.app/?daily=1",
     "description": "Guess as many valid words as possible for each row of a scrambled grid of letters.",
