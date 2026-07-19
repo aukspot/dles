@@ -1,5 +1,21 @@
 # Changelog - The Dles
 
+## 2026-07-19
+
+Add 4 dles. Remove 1 dle. 
+
+dles added: 
+|    | name                                                                      | url                                                                                                                        |   id |
+|---:|:--------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|-----:|
+|  1 | [Bean Sort](https://coffeefirst.games/bean-sort)                          | [https://coffeefirst.games/bean-sort](https://coffeefirst.games/bean-sort)                                                 |  795 |
+|  2 | [Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) | [https://www.newyorker.com/puzzles-and-games-dept/catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) |  796 |
+|  3 | [Flag Connections](https://flagdoku.com/connections.html)                 | [https://flagdoku.com/connections.html](https://flagdoku.com/connections.html)                                             |  797 |
+|  4 | [Lexagon](https://lexagon.com)                                            | [https://lexagon.com](https://lexagon.com)                                                                                 |  798 |
+
+dles removed: 
+|    | name                                                | url                                                                                    |   id | reason               |
+|---:|:----------------------------------------------------|:---------------------------------------------------------------------------------------|-----:|:---------------------|
+|  1 | [Fluxis](https://www.theatlantic.com/games/fluxis/) | [https://www.theatlantic.com/games/fluxis/](https://www.theatlantic.com/games/fluxis/) |  127 | No longer available. |
 ## 2026-07-12
 
 Remove 1 dle. 

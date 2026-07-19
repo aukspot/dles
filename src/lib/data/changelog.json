@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-07-19",
+    "dles added": [
+      {
+        "name": "Bean Sort",
+        "url": "https://coffeefirst.games/bean-sort",
+        "id": 795
+      },
+      {
+        "name": "Catalogues",
+        "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues",
+        "id": 796
+      },
+      {
+        "name": "Flag Connections",
+        "url": "https://flagdoku.com/connections.html",
+        "id": 797
+      },
+      {
+        "name": "Lexagon",
+        "url": "https://lexagon.com",
+        "id": 798
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Fluxis",
+        "url": "https://www.theatlantic.com/games/fluxis/",
+        "id": 127,
+        "reason": "No longer available."
+      }
+    ],
+    "description": "Add 4 dles. Remove 1 dle. "
+  },
+  {
     "date": "2026-07-12",
     "dles removed": [
       {

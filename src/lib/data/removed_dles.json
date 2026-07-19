@@ -223,6 +223,18 @@
     "category": "Science/Nature"
   },
   {
+    "name": "Fluxis",
+    "url": "https://www.theatlantic.com/games/fluxis/",
+    "id": 127,
+    "removals": [
+      {
+        "date_removed": "2026-07-19"
+      }
+    ],
+    "description": "Complete the chain by entering words that satisfy their category and build off the previous word. (From The Atlantic)",
+    "category": "Words"
+  },
+  {
     "name": "Gamedle Classic Unlimited",
     "url": "https://www.gamedle.wtf/unlimited",
     "id": "M27",

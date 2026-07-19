@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-07-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-07-19`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -153,7 +153,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (54)
+### Geography (55)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -163,6 +163,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
+- [Flag Connections](https://flagdoku.com/connections.html) - Make 
 - [Flagdle](https://www.flagdle.org) - Guess the country by its flag.
 - [Flagdoku](https://flagdoku.com) - Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.
 - [Flagged](https://gamebunny.app/flagged) - Guess the country from pieces of its flag, and collect every flag on your 3D globe. Daily handmade challenges.
@@ -419,8 +420,9 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (30)
+### Shapes/Patterns (31)
 
+- [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
 - [Daydoku](https://www.daydoku.com) - Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
@@ -480,9 +482,10 @@ This will update the `./docs` directory with a new build of the site.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (31)
+### Trivia (32)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
+- [Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) - Arrange the items into the correct order in 5 guesses.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
 - [Centumth](https://www.centumth.com) - Guess the items ranked closest to #100 in today's category.
 - [Concludle](https://tryhardguides.com/concludle) - Guess the secret answer from a series of clues.
@@ -693,7 +696,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Emoji Test](https://emojitest.com/en) - Guess the hidden word represented by emojis.
 - [Fibble](https://fibble.xyz) - Wordle but it lies to you. (Like Lirdle)
 - [Flipple](https://flipple.clevergoat.com) - Transform the starting word to the target word by changing one letter at a time
-- [Fluxis](https://www.theatlantic.com/games/fluxis/) - Complete the chain by entering words that satisfy their category and build off the previous word. (From The Atlantic)
 - [FoxiMax](https://foximax.com) - Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.
 - [Freestyle](https://playfreestyle.co) - Find 13 words that rhyme with today's word. The more syllables, the better!
 - [Fusele](https://fusele.netlify.app/?daily) - A Wordle variant in which each row has a unique twist.
@@ -728,6 +730,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Lex.Games - Mini Crossword](https://lex.games/mini/) - A daily mini crossword from Lex.Games
 - [Lex.Games - Six Appeal](https://lex.games/six/) - Guess the 6-letter word, like Wordle, but you don't have to guess real words. The answer is a real word.
 - [Lex.Games - Square Dance](https://lex.games/squaredance) - Make a word with each group of letters, but you must add a letter to each word.
+- [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
 - [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
 - [Lingule](https://lingule.xyz) - Guess the language of the today's word in 6 guesses or less.
 - [LinkedIn - Crossclimb](https://www.linkedin.com/games/crossclimb) - Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.

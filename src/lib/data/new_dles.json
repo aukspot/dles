@@ -12,10 +12,28 @@
     "date_added": "2026-07-09"
   },
   {
+    "name": "Bean Sort",
+    "url": "https://coffeefirst.games/bean-sort",
+    "id": 795,
+    "date_added": "2026-07-19"
+  },
+  {
+    "name": "Catalogues",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues",
+    "id": 796,
+    "date_added": "2026-07-19"
+  },
+  {
     "name": "Dialed - Color Toon",
     "url": "https://dialed.gg/color2",
     "id": 781,
     "date_added": "2026-07-09"
+  },
+  {
+    "name": "Flag Connections",
+    "url": "https://flagdoku.com/connections.html",
+    "id": 797,
+    "date_added": "2026-07-19"
   },
   {
     "name": "FoxiMax",
@@ -28,6 +46,12 @@
     "url": "https://www.landmarkr.app",
     "id": 790,
     "date_added": "2026-07-10"
+  },
+  {
+    "name": "Lexagon",
+    "url": "https://lexagon.com",
+    "id": 798,
+    "date_added": "2026-07-19"
   },
   {
     "name": "LinkedIn - Patches",
