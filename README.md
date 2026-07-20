@@ -163,7 +163,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
-- [Flag Connections](https://flagdoku.com/connections.html) - Make 
+- [Flag Connections](https://flagdoku.com/connections.html) - Make groups of 4 flags that share something unique with the Flag of the Day
 - [Flagdle](https://www.flagdle.org) - Guess the country by its flag.
 - [Flagdoku](https://flagdoku.com) - Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.
 - [Flagged](https://gamebunny.app/flagged) - Guess the country from pieces of its flag, and collect every flag on your 3D globe. Daily handmade challenges.
