@@ -163,7 +163,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
-- [Flag Connections](https://flagdoku.com/connections.html) - Make groups of 4 flags that share something unique with the Flag of the Day
+- [Flag Connections](https://flagdoku.com/connections.html) - Make groups of 4 flags that share something unique with the Flag of the Day.
 - [Flagdle](https://www.flagdle.org) - Guess the country by its flag.
 - [Flagdoku](https://flagdoku.com) - Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.
 - [Flagged](https://gamebunny.app/flagged) - Guess the country from pieces of its flag, and collect every flag on your 3D globe. Daily handmade challenges.
@@ -290,7 +290,7 @@ This will update the `./docs` directory with a new build of the site.
 - [QueenSweep](https://playqueensweep.com) - Find all 8 hidden queens using the number clues.
 - [Refiner](https://nibble.games/refiner/) - Refine the numbers in the grid by grouping them based on each of the requirements.
 - [regexle.com](https://regexle.com) - Fill in the hexagon with sequences of characters that match the regular expressions listed around the edges.
-- [Sequences](https://www.dailyfastgames.com/#/sequences) - Guess the next number in today's sequence.
+- [Sequences](https://www.dailyfastgames.com/sequences/) - Guess the next number in today's sequence.
 - [Stars](https://inkwellgames.com/games/stars) - Distribute stars strategically across the grid without letting them touch.
 - [Sudoku Shift](https://coffeefirst.games/sudoku-shift/) - Solve three sudokus in sequence, each one bigger than the previous.
 - [Summle](https://summle.net) - Reach the target number using the given numbers and operations. Includes a junior mode and hard mode.
