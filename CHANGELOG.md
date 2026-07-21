@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-07-21
+
+Add 3 dles. 
+
+dles added: 
+|    | name                                      | url                                                                  |   id |
+|---:|:------------------------------------------|:---------------------------------------------------------------------|-----:|
+|  1 | [Geozee](https://geozee.earth)            | [https://geozee.earth](https://geozee.earth)                         |  799 |
+|  2 | [putt.day](https://putt.day/play)         | [https://putt.day/play](https://putt.day/play)                       |  800 |
+|  3 | [Smush](https://www.hankgreen.com/smush/) | [https://www.hankgreen.com/smush/](https://www.hankgreen.com/smush/) |  801 |
+
 ## 2026-07-19
 
 Add 4 dles. Remove 1 dle. 

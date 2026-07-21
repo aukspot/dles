@@ -42,6 +42,12 @@
     "date_added": "2026-07-09"
   },
   {
+    "name": "Geozee",
+    "url": "https://geozee.earth",
+    "id": 799,
+    "date_added": "2026-07-21"
+  },
+  {
     "name": "Landmarkr",
     "url": "https://www.landmarkr.app",
     "id": 790,
@@ -88,6 +94,18 @@
     "url": "https://princechazz.com",
     "id": 792,
     "date_added": "2026-07-10"
+  },
+  {
+    "name": "putt.day",
+    "url": "https://putt.day/play",
+    "id": 800,
+    "date_added": "2026-07-21"
+  },
+  {
+    "name": "Smush",
+    "url": "https://www.hankgreen.com/smush/",
+    "id": 801,
+    "date_added": "2026-07-21"
   },
   {
     "name": "Squishy Billiards",

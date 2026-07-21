@@ -1,23 +1,5 @@
 [
   {
-    "name": "putt.day",
-    "url": "https://putt.day/play",
-    "description": "A daily hole of 3D mini golf.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Geozee",
-    "url": "https://geozee.earth",
-    "description": "Place each country in the category that fits it best. The better the match, the more points you get.",
-    "category": "Geography"
-  },
-  {
-    "name": "Smush",
-    "url": "https://www.hankgreen.com/smush/",
-    "description": "Create words using the 9 letters. Each letter gets 5 uses except the center letter, which must be in each word.",
-    "category": "Words"
-  },
-  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
@@ -1674,6 +1656,13 @@
     "description": "Locate today's countries on the world map.",
     "category": "Geography",
     "id": 649
+  },
+  {
+    "name": "Geozee",
+    "url": "https://geozee.earth",
+    "description": "Place each country in the category that fits it best. The better the match, the more points you get.",
+    "category": "Geography",
+    "id": 799
   },
   {
     "name": "Gerrymandle",
@@ -3435,6 +3424,13 @@
     "id": 296
   },
   {
+    "name": "putt.day",
+    "url": "https://putt.day/play",
+    "description": "A daily hole of 3D mini golf.",
+    "category": "Miscellaneous",
+    "id": 800
+  },
+  {
     "name": "Puzzmo - Bongo",
     "url": "https://www.puzzmo.com/game/bongo",
     "description": "Lay tiles onto the grid to spell the best 6 words you can.",
@@ -3950,6 +3946,13 @@
     "description": "Make increasingly longer words using the given 6 letters, each word starting with a different letter.",
     "category": "Words",
     "id": 343
+  },
+  {
+    "name": "Smush",
+    "url": "https://www.hankgreen.com/smush/",
+    "description": "Create words using the 9 letters. Each letter gets 5 uses except the center letter, which must be in each word.",
+    "category": "Words",
+    "id": 801
   },
   {
     "name": "Snapdle",

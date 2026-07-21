@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-07-19`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-07-21`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -153,7 +153,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (55)
+### Geography (56)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -176,6 +176,7 @@ This will update the `./docs` directory with a new build of the site.
 - [GeoGrid](https://www.geogridgame.com) - Fill in the grid with countries that match each cell's corresponding row and column categories.
 - [Geonections](https://geonections.com) - Connections but you group countries based on StreetView images.
 - [GeoQuest](https://geoquest.gg) - Locate today's countries on the world map.
+- [Geozee](https://geozee.earth) - Place each country in the category that fits it best. The better the match, the more points you get.
 - [GlobeHoppr](https://globehoppr.com) - Travel from one world city to another by hopping across nearby cities.
 - [Globeiku](https://www.globeiku.com) - Guess the country based on the given clues.
 - [Globle](https://globle-game.com/game) - Guess the mystery country, given how close it is to each guessed country.
@@ -595,7 +596,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (39)
+### Miscellaneous (40)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -623,6 +624,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Picsey](https://picsey.io) - Identify today's picture by flipping over as few tiles as possible.
 - [Ponder Club](https://ponderclub.co) - A collection of various daily games.
 - [Power Scadle](https://powerscadle.com) - Compare two fictional characters and guess which one is stronger.
+- [putt.day](https://putt.day/play) - A daily hole of 3D mini golf.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Seedle](https://seedle.io) - Grow the perfect garden by properly placing tiles that complement each other.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
@@ -637,7 +639,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (236)
+### Words (237)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -790,6 +792,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Silly Little Codes](https://playsillylittlegames.com/codes) - Guess the word or phrase represented by today's code.
 - [Slate - Pears](https://slate.com/games/pears) - Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.
 - [Smixed](https://smixed.com) - Make increasingly longer words using the given 6 letters, each word starting with a different letter.
+- [Smush](https://www.hankgreen.com/smush/) - Create words using the 9 letters. Each letter gets 5 uses except the center letter, which must be in each word.
 - [Sortdle](https://sortdle.com) - Sort letters into tubes to form the hidden words without running out of moves.
 - [SpaceWord](https://spaceword.org) - Create crosswords using all letters, using as little space as possible.
 - [Spell Bee](https://www.spell-bee.com/game-daily.html) - Create words using the given 7 letters. Each word must contain the center letter.
