@@ -1,5 +1,23 @@
 [
   {
+    "name": "putt.day",
+    "url": "https://putt.day/play",
+    "description": "A daily hole of 3D mini golf.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "Geozee",
+    "url": "https://geozee.earth",
+    "description": "Place each country in the category that fits it best. The better the match, the more points you get.",
+    "category": "Geography"
+  },
+  {
+    "name": "Smush",
+    "url": "https://www.hankgreen.com/smush/",
+    "description": "Create words using the 9 letters. Each letter gets 5 uses except the center letter, which must be in each word.",
+    "category": "Words"
+  },
+  {
     "name": "23 Words",
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
