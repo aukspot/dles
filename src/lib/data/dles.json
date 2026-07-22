@@ -703,6 +703,7 @@
     "url": "https://cluesbysam.com",
     "description": "Use the clues to figure out which characters are innocent and which are criminals.",
     "category": "Math/Logic",
+    "resetTime": "America/New_York",
     "id": 55
   },
   {
@@ -4545,6 +4546,7 @@
     "url": "https://www.tictacword.com",
     "description": "Make three in a row by guessing words that fit today's theme, like Tic-Tac-Toe meets Wordle.",
     "category": "Words",
+    "resetTime": "client",
     "id": 787
   },
   {
