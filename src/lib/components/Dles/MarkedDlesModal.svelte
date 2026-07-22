@@ -34,7 +34,7 @@
     const count = previousPlayedDles.length
 
     if (isLocalStorageAvailable()) {
-      localStorage.playedDlesLastReset = new Date().toDateString()
+      localStorage.playedDlesLastReset = new Date().toISOString()
     }
 
     if (count > 0) {
@@ -67,7 +67,7 @@
     if (isLocalStorageAvailable()) {
       localStorage.autoResetPlayed = $autoResetPlayed.toString()
       if ($autoResetPlayed) {
-        localStorage.playedDlesLastReset = new Date().toDateString()
+        localStorage.playedDlesLastReset = new Date().toISOString()
       }
     }
   }
@@ -93,7 +93,7 @@
           class:active={$autoResetPlayed}
           on:click={toggleAutoResetPlayed}
         >
-          <span class="toggle-label">Auto-reset at midnight</span>
+          <span class="toggle-label">Auto-reset daily</span>
           <span class="toggle-status">{$autoResetPlayed ? "ON" : "OFF"}</span>
         </button>
       </div>
