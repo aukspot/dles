@@ -1545,7 +1545,7 @@
   },
   {
     "name": "Futbol 11",
-    "url": "https://futbol-11.com/",
+    "url": "https://futbol11.com/",
     "description": "A collection of daily games related to Soccer (F\u00fatbol).",
     "category": "Sports",
     "theme": "Soccer",
@@ -3996,13 +3996,6 @@
     "description": "Sort letters into tubes to form the hidden words without running out of moves.",
     "category": "Words",
     "id": 499
-  },
-  {
-    "name": "Sortwise",
-    "url": "https://sortwise.fun",
-    "description": "Drag to sort the events in chronological order.",
-    "category": "History",
-    "id": 500
   },
   {
     "name": "Soulsborndle",

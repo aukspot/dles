@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-25",
+    "dles removed": [
+      {
+        "name": "Sortwise",
+        "url": "https://sortwise.fun",
+        "id": 500
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-07-21",
     "dles added": [
       {

@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-07-21`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-07-25`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -212,7 +212,7 @@ This will update the `./docs` directory with a new build of the site.
 - [WhichWay](https://whichway.is) - Determine which direction the target country is from the starting country, 10 rounds daily.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (19)
+### History (18)
 
 - [Anthropeum](https://anthropeum.com) - Guess the right time and region in which each human artifact is from.
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
@@ -224,7 +224,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Historydle](https://historydle.com) - Daily games where you guess the historical person or place.
 - [Past Puzzle](https://www.pastpuzzle.de) - Guess the correct year of the given events, you have 4 tries.
 - [Ripple](https://ripplegame.app) - Guess the ripple effect of historical events.
-- [Sortwise](https://sortwise.fun) - Drag to sort the events in chronological order.
 - [Timdle](https://www.timdle.com) - Place 8 historical events in chronological order.
 - [Timeline](https://timeline.fromthethink.com) - Guess the year for each of the 6 historical events.
 - [TimeLine Game](https://www.playtimelines.com) - Arrange the historical events in the order they happened.
@@ -463,7 +462,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Chrono NFL](https://chrono.quest/nfl.html) - Put the NFL events in chronological order in 3 tries or less.
 - [Daily Walkoff](https://www.dailywalkoff.com) - Put each baseball player in the correct trivia column to walk-off the game!
 - [Factle Sports](https://frontofficesports.com/trivia/factle-sports) - Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.
-- [Futbol 11](https://futbol-11.com/) - A collection of daily games related to Soccer (Fútbol).
+- [Futbol 11](https://futbol11.com/) - A collection of daily games related to Soccer (Fútbol).
 - [Futdoku](https://flagdoku.com/futdoku.html) - Guess 9 soccer players that fill the FUTDOKU grid.
 - [Hoopgrids](https://www.hoopgrids.com) - A daily NBA grid game.
 - [I Called Game](https://icalledgame.hoopgrids.com) - Identify key details from an image of a historical NBA game to answer 6 questions.

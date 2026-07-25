@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-07-25
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                             | url                                          |   id |
+|---:|:---------------------------------|:---------------------------------------------|-----:|
+|  1 | [Sortwise](https://sortwise.fun) | [https://sortwise.fun](https://sortwise.fun) |  500 |
 ## 2026-07-21
 
 Add 3 dles. 

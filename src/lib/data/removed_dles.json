@@ -778,6 +778,18 @@
     ]
   },
   {
+    "name": "Sortwise",
+    "url": "https://sortwise.fun",
+    "id": 500,
+    "removals": [
+      {
+        "date_removed": "2026-07-25"
+      }
+    ],
+    "description": "Drag to sort the events in chronological order.",
+    "category": "History"
+  },
+  {
     "name": "Spectra",
     "url": "https://spectra.quest/puzzles/latest",
     "id": 676,
