@@ -58,6 +58,18 @@
     ]
   },
   {
+    "name": "Bonedle",
+    "url": "https://bonedle.rito.lol",
+    "id": 540,
+    "removals": [
+      {
+        "date_removed": "2026-08-02"
+      }
+    ],
+    "description": "Guess the League of Legends champion based on a series of animated clues.",
+    "category": "Video Games"
+  },
+  {
     "name": "Capitale",
     "url": "https://capitale.countryle.com",
     "id": 35,
@@ -270,6 +282,18 @@
     ]
   },
   {
+    "name": "graphs.world",
+    "url": "https://www.graphs.world",
+    "id": 144,
+    "removals": [
+      {
+        "date_removed": "2026-08-02"
+      }
+    ],
+    "description": "Select the dataset that fits the displayed graph.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Guess The Jumpshot",
     "url": "https://guessthepro.com/en/games/guess-the-jumpshot",
     "id": 152,
@@ -319,6 +343,18 @@
         "reason": "The game does not work."
       }
     ]
+  },
+  {
+    "name": "Historydle",
+    "url": "https://historydle.com",
+    "id": 653,
+    "removals": [
+      {
+        "date_removed": "2026-08-02"
+      }
+    ],
+    "description": "Daily games where you guess the historical person or place.",
+    "category": "History"
   },
   {
     "name": "Hitori Conquest",
@@ -625,6 +661,18 @@
     ],
     "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
     "category": "Math/Logic"
+  },
+  {
+    "name": "Peekpedia",
+    "url": "https://peekpedia.com",
+    "id": 751,
+    "removals": [
+      {
+        "date_removed": "2026-08-02"
+      }
+    ],
+    "description": "Guess the Wikipedia article based on the pictures.",
+    "category": "Trivia"
   },
   {
     "name": "Petdle",
@@ -996,6 +1044,18 @@
         "reason": "The game has ended."
       }
     ]
+  },
+  {
+    "name": "WhichWay",
+    "url": "https://whichway.is",
+    "id": 597,
+    "removals": [
+      {
+        "date_removed": "2026-08-02"
+      }
+    ],
+    "description": "Determine which direction the target country is from the starting country, 10 rounds daily.",
+    "category": "Geography"
   },
   {
     "name": "WordLinx",

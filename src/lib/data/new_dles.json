@@ -18,6 +18,18 @@
     "date_added": "2026-07-19"
   },
   {
+    "name": "Beat Me At Boggle",
+    "url": "https://beatmeatboggle.com",
+    "id": 802,
+    "date_added": "2026-08-02"
+  },
+  {
+    "name": "Cascadle",
+    "url": "https://cascadle.xyz",
+    "id": 803,
+    "date_added": "2026-08-02"
+  },
+  {
     "name": "Catalogues",
     "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues",
     "id": 796,
@@ -28,6 +40,18 @@
     "url": "https://dialed.gg/color2",
     "id": 781,
     "date_added": "2026-07-09"
+  },
+  {
+    "name": "Estimatle",
+    "url": "https://estimatle.com",
+    "id": 804,
+    "date_added": "2026-08-02"
+  },
+  {
+    "name": "FilmLink",
+    "url": "https://filmlink.io",
+    "id": 805,
+    "date_added": "2026-08-02"
   },
   {
     "name": "Flag Connections",
@@ -132,9 +156,21 @@
     "date_added": "2026-07-09"
   },
   {
+    "name": "Underline",
+    "url": "https://www.fromthethink.com/underline",
+    "id": 806,
+    "date_added": "2026-08-02"
+  },
+  {
     "name": "Whereabouts?",
     "url": "https://whereabouts.earth/daily/",
     "id": 789,
     "date_added": "2026-07-09"
+  },
+  {
+    "name": "Zaggle",
+    "url": "https://playzaggle.com",
+    "id": 807,
+    "date_added": "2026-08-02"
   }
 ]

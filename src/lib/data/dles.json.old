@@ -252,6 +252,13 @@
     "id": 795
   },
   {
+    "name": "Beat Me At Boggle",
+    "url": "https://beatmeatboggle.com",
+    "description": "Try to beat Ava at Boggle. They played the board yesterday, you play it today.",
+    "category": "Words",
+    "id": 802
+  },
+  {
     "name": "Beatdle",
     "url": "https://beatdle.fun",
     "description": "Recreate the drum beat on the sequencer after listening to it.",
@@ -321,13 +328,6 @@
     "description": "Search for the best 3 words you can find in the Boggle grid.",
     "category": "Words",
     "id": 25
-  },
-  {
-    "name": "Bonedle",
-    "url": "https://bonedle.rito.lol",
-    "description": "Guess the League of Legends champion based on a series of animated clues.",
-    "category": "Video Games",
-    "id": 540
   },
   {
     "name": "BopMatch",
@@ -454,6 +454,13 @@
     "description": "Guess the cartoon character within 15 guesses.",
     "category": "Movies/TV",
     "id": 38
+  },
+  {
+    "name": "Cascadle",
+    "url": "https://cascadle.xyz",
+    "description": "Solve 5 linked Wordle puzzles, growing from 3 letters to 7 letters long.",
+    "category": "Words",
+    "id": 803
   },
   {
     "name": "Catalogues",
@@ -1321,6 +1328,13 @@
     "id": 112
   },
   {
+    "name": "Estimatle",
+    "url": "https://estimatle.com",
+    "description": "Five daily estimation-trivia questions with global stats.",
+    "category": "Estimation",
+    "id": 804
+  },
+  {
     "name": "Exodle",
     "url": "https://exodle.astrelion.com",
     "description": "Guess the daily exotic weapon or armor piece from the game Destiny.",
@@ -1398,6 +1412,13 @@
     "description": "Clear all of the tiles before running out of moves.",
     "category": "Math/Logic",
     "id": 119
+  },
+  {
+    "name": "FilmLink",
+    "url": "https://filmlink.io",
+    "description": "Connect the movies by their cast, crew, or similar films.",
+    "category": "Movies/TV",
+    "id": 805
   },
   {
     "name": "Five Fold",
@@ -1742,13 +1763,6 @@
     "id": 143
   },
   {
-    "name": "graphs.world",
-    "url": "https://www.graphs.world",
-    "description": "Select the dataset that fits the displayed graph.",
-    "category": "Miscellaneous",
-    "id": 144
-  },
-  {
     "name": "Griddable",
     "url": "https://griddable.co.uk",
     "description": "Create a grid of words with a blind sequence of letters, mixing in your own letters as you go.",
@@ -1959,13 +1973,6 @@
     "description": "A unique daily symmetry game where you try to match the given pattern.",
     "category": "Shapes/Patterns",
     "id": 169
-  },
-  {
-    "name": "Historydle",
-    "url": "https://historydle.com",
-    "description": "Daily games where you guess the historical person or place.",
-    "category": "History",
-    "id": 653
   },
   {
     "name": "Hoopgrids",
@@ -3175,13 +3182,6 @@
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
     "category": "Trivia",
     "id": 276
-  },
-  {
-    "name": "Peekpedia",
-    "url": "https://peekpedia.com",
-    "description": "Guess the Wikipedia article based on the pictures.",
-    "category": "Trivia",
-    "id": 751
   },
   {
     "name": "Pell Puzzles",
@@ -4720,6 +4720,13 @@
     "id": 635
   },
   {
+    "name": "Underline",
+    "url": "https://www.fromthethink.com/underline",
+    "description": "A word chain game with multiple routes to the final word.",
+    "category": "Words",
+    "id": 806
+  },
+  {
     "name": "Unolingo",
     "url": "https://games.usatoday.com/games/uclick-unolingo",
     "description": "Solve the clueless crossword by using each letter of the English alphabet exactly once.",
@@ -4897,13 +4904,6 @@
     "description": "Guess which year each photo was taken.",
     "category": "History",
     "id": 421
-  },
-  {
-    "name": "WhichWay",
-    "url": "https://whichway.is",
-    "description": "Determine which direction the target country is from the starting country, 10 rounds daily.",
-    "category": "Geography",
-    "id": 597
   },
   {
     "name": "Whodle",
@@ -5221,6 +5221,13 @@
     "description": "A collection of daily guessing games based on the card game 'Yu-Gi-Oh!'",
     "category": "Card/Board Games",
     "id": 738
+  },
+  {
+    "name": "Zaggle",
+    "url": "https://playzaggle.com",
+    "description": "Trace words in the grid based on the given clues.",
+    "category": "Words",
+    "id": 807
   },
   {
     "name": "Zaku Chess",

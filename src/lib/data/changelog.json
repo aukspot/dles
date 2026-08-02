@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-08-02",
+    "dles added": [
+      {
+        "name": "Beat Me At Boggle",
+        "url": "https://beatmeatboggle.com",
+        "id": 802
+      },
+      {
+        "name": "Cascadle",
+        "url": "https://cascadle.xyz",
+        "id": 803
+      },
+      {
+        "name": "Estimatle",
+        "url": "https://estimatle.com",
+        "id": 804
+      },
+      {
+        "name": "FilmLink",
+        "url": "https://filmlink.io",
+        "id": 805
+      },
+      {
+        "name": "Underline",
+        "url": "https://www.fromthethink.com/underline",
+        "id": 806
+      },
+      {
+        "name": "Zaggle",
+        "url": "https://playzaggle.com",
+        "id": 807
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Bonedle",
+        "url": "https://bonedle.rito.lol",
+        "id": 540,
+        "reason": "Daily game no longer loads."
+      },
+      {
+        "name": "graphs.world",
+        "url": "https://www.graphs.world",
+        "id": 144,
+        "reason": "Domain expired."
+      },
+      {
+        "name": "Historydle",
+        "url": "https://historydle.com",
+        "id": 653,
+        "reason": "Contains AI-generated content."
+      },
+      {
+        "name": "Peekpedia",
+        "url": "https://peekpedia.com",
+        "id": 751,
+        "reason": "No new puzzles for a month."
+      },
+      {
+        "name": "WhichWay",
+        "url": "https://whichway.is",
+        "id": 597,
+        "reason": "Reports of malware after game completion."
+      }
+    ],
+    "description": "Add 6 dles. Remove 5 dles. "
+  },
+  {
     "date": "2026-07-25",
     "dles removed": [
       {

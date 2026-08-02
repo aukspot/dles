@@ -1,5 +1,27 @@
 # Changelog - The Dles
 
+## 2026-08-02
+
+Add 6 dles. Remove 5 dles. 
+
+dles added: 
+|    | name                                                | url                                                                              |   id |
+|---:|:----------------------------------------------------|:---------------------------------------------------------------------------------|-----:|
+|  1 | [Beat Me At Boggle](https://beatmeatboggle.com)     | [https://beatmeatboggle.com](https://beatmeatboggle.com)                         |  802 |
+|  2 | [Cascadle](https://cascadle.xyz)                    | [https://cascadle.xyz](https://cascadle.xyz)                                     |  803 |
+|  3 | [Estimatle](https://estimatle.com)                  | [https://estimatle.com](https://estimatle.com)                                   |  804 |
+|  4 | [FilmLink](https://filmlink.io)                     | [https://filmlink.io](https://filmlink.io)                                       |  805 |
+|  5 | [Underline](https://www.fromthethink.com/underline) | [https://www.fromthethink.com/underline](https://www.fromthethink.com/underline) |  806 |
+|  6 | [Zaggle](https://playzaggle.com)                    | [https://playzaggle.com](https://playzaggle.com)                                 |  807 |
+
+dles removed: 
+|    | name                                     | url                                                  |   id | reason                                    |
+|---:|:-----------------------------------------|:-----------------------------------------------------|-----:|:------------------------------------------|
+|  1 | [Bonedle](https://bonedle.rito.lol)      | [https://bonedle.rito.lol](https://bonedle.rito.lol) |  540 | Daily game no longer loads.               |
+|  2 | [graphs.world](https://www.graphs.world) | [https://www.graphs.world](https://www.graphs.world) |  144 | Domain expired.                           |
+|  3 | [Historydle](https://historydle.com)     | [https://historydle.com](https://historydle.com)     |  653 | Contains AI-generated content.            |
+|  4 | [Peekpedia](https://peekpedia.com)       | [https://peekpedia.com](https://peekpedia.com)       |  751 | No new puzzles for a month.               |
+|  5 | [WhichWay](https://whichway.is)          | [https://whichway.is](https://whichway.is)           |  597 | Reports of malware after game completion. |
 ## 2026-07-25
 
 Remove 1 dle. 
