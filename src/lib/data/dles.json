@@ -5223,6 +5223,12 @@
     "id": 738
   },
   {
+    "name": "Yubori",
+    "url": "https://yubori.com",
+    "description": "Guess the anime of the day across five modes: emoji, synopsis, stats, versus, and obscure Deep Cuts.",
+    "category": "Movies/TV"
+  },
+  {
     "name": "Zaggle",
     "url": "https://playzaggle.com",
     "description": "Trace words in the grid based on the given clues.",
