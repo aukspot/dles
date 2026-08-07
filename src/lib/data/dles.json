@@ -4920,6 +4920,12 @@
     "id": 775
   },
   {
+    "name": "Wild Guessr",
+    "url": "https://wildguessr.com",
+    "description": "Guess where each wildlife photo was taken on a world map, 5 rounds every day.",
+    "category": "Science/Nature"
+  },
+  {
     "name": "Wildlife Sudoku",
     "url": "https://flagdoku.com/wildlife.html",
     "description": "Guess 9 animals that properly fill in the grid.",
