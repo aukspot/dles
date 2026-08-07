@@ -3933,6 +3933,12 @@
     "id": 679
   },
   {
+    "name": "Sleuth the Truth",
+    "url": "https://sleuththetruth.com",
+    "description": "Ask yes/no questions to deduce the hidden Wikipedia article from a grid of suspects in as few moves as possible.",
+    "category": "Trivia"
+  },
+  {
     "name": "Smashdle",
     "url": "https://smashdle.net",
     "description": "A bunch of daily games where you guess the character from Super Smash Bros.",
