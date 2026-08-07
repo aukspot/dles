@@ -3617,6 +3617,12 @@
     "id": 316
   },
   {
+    "name": "Redactle Rush",
+    "url": "https://redactlerush.com",
+    "description": "Guess ten redacted Wikipedia subjects, one guess each, with a single hint.",
+    "category": "Trivia"
+  },
+  {
     "name": "Redividers",
     "url": "https://redividers.netlify.app",
     "description": "Find the word that fits the first blank, then split it to fill in the remaining blank(s).",
