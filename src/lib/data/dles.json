@@ -3603,6 +3603,12 @@
     "id": 521
   },
   {
+    "name": "Read the Tape",
+    "url": "https://readthetape.cc",
+    "description": "Guess whether 5 unlabelled S&P 500 charts go up or down over the next 5 trading days.",
+    "category": "Estimation"
+  },
+  {
     "name": "Real Bird Fake Bird",
     "url": "https://realbirdfakebird.com",
     "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
