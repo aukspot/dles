@@ -1,17 +1,5 @@
 [
   {
-    "name": "4 x 3",
-    "url": "https://www.hankgreen.com/fourbythree/",
-    "id": 779,
-    "date_added": "2026-07-09"
-  },
-  {
-    "name": "Anthropeum",
-    "url": "https://anthropeum.com",
-    "id": 780,
-    "date_added": "2026-07-09"
-  },
-  {
     "name": "Bean Sort",
     "url": "https://coffeefirst.games/bean-sort",
     "id": 795,
@@ -36,12 +24,6 @@
     "date_added": "2026-07-19"
   },
   {
-    "name": "Dialed - Color Toon",
-    "url": "https://dialed.gg/color2",
-    "id": 781,
-    "date_added": "2026-07-09"
-  },
-  {
     "name": "Estimatle",
     "url": "https://estimatle.com",
     "id": 804,
@@ -60,64 +42,16 @@
     "date_added": "2026-07-19"
   },
   {
-    "name": "FoxiMax",
-    "url": "https://foximax.com",
-    "id": 782,
-    "date_added": "2026-07-09"
-  },
-  {
     "name": "Geozee",
     "url": "https://geozee.earth",
     "id": 799,
     "date_added": "2026-07-21"
   },
   {
-    "name": "Landmarkr",
-    "url": "https://www.landmarkr.app",
-    "id": 790,
-    "date_added": "2026-07-10"
-  },
-  {
     "name": "Lexagon",
     "url": "https://lexagon.com",
     "id": 798,
     "date_added": "2026-07-19"
-  },
-  {
-    "name": "LinkedIn - Patches",
-    "url": "https://www.linkedin.com/games/patches/",
-    "id": 783,
-    "date_added": "2026-07-09"
-  },
-  {
-    "name": "LinkedIn - Wend",
-    "url": "https://www.linkedin.com/games/wend/",
-    "id": 784,
-    "date_added": "2026-07-09"
-  },
-  {
-    "name": "Motion Path",
-    "url": "https://motionpath.app",
-    "id": 785,
-    "date_added": "2026-07-09"
-  },
-  {
-    "name": "Odle",
-    "url": "https://www.odle.app",
-    "id": 791,
-    "date_added": "2026-07-10"
-  },
-  {
-    "name": "Pipcross",
-    "url": "https://puzzmallow.com/pipcross",
-    "id": 786,
-    "date_added": "2026-07-09"
-  },
-  {
-    "name": "Prince Chazz",
-    "url": "https://princechazz.com",
-    "id": 792,
-    "date_added": "2026-07-10"
   },
   {
     "name": "putt.day",
@@ -132,40 +66,10 @@
     "date_added": "2026-07-21"
   },
   {
-    "name": "Squishy Billiards",
-    "url": "https://squishybilliards.com",
-    "id": 793,
-    "date_added": "2026-07-10"
-  },
-  {
-    "name": "The Split",
-    "url": "https://www.timecube.in",
-    "id": 794,
-    "date_added": "2026-07-10"
-  },
-  {
-    "name": "Tic-Tac-Word",
-    "url": "https://www.tictacword.com",
-    "id": 787,
-    "date_added": "2026-07-09"
-  },
-  {
-    "name": "TypeCircuit",
-    "url": "https://typecircuit.com",
-    "id": 788,
-    "date_added": "2026-07-09"
-  },
-  {
     "name": "Underline",
     "url": "https://www.fromthethink.com/underline",
     "id": 806,
     "date_added": "2026-08-02"
-  },
-  {
-    "name": "Whereabouts?",
-    "url": "https://whereabouts.earth/daily/",
-    "id": 789,
-    "date_added": "2026-07-09"
   },
   {
     "name": "Zaggle",

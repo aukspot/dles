@@ -82,7 +82,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Centumth](https://www.centumth.com) - Guess the items ranked closest to #100 in today's category.
 - [enclose.horse](https://enclose.horse) - Enclose the horse in the biggest possible pen.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
-- [Lexicle](https://lexicle.com) - Guess the secret word based on its meaning.
+- [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
 
 ### Card/Board Games (21)
 
