@@ -1,10 +1,10 @@
 [
   {
-    "id": 202,
-    "name": "Lexicle",
-    "url": "https://lexicle.com",
-    "description": "Guess the secret word based on its meaning.",
-    "category": "Words"
+    "name": "Lexagon",
+    "url": "https://lexagon.com",
+    "description": "Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.",
+    "category": "Words",
+    "id": 798
   },
   {
     "id": 642,
