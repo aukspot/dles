@@ -5088,6 +5088,12 @@
     "id": 439
   },
   {
+    "name": "WordleLike",
+    "url": "https://wordlelike.com/",
+    "description": "A free hub of 5 daily Wordle-style games: classic Wordle, 6-letter Word Hurdle, Mini Crossword, Word Search and Anagram Solver.",
+    "category": "Words"
+  },
+  {
     "name": "Wordless",
     "url": "https://lessgames.com/wordless",
     "description": "Solve Wordle puzzles of various sizes.",
