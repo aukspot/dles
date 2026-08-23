@@ -130,7 +130,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Cutle](https://pfiffel.com/cutle/) - Cut today's shape as evenly as you can.
 - [Dialed - Sound Game](https://dialed.gg/sound) - Listen to a tone and then recreate it from memory. Click the calendar for the daily mode.
 - [Dialed - Time Game](https://dialed.gg/time) - Await the duration and then recreate it from memory. Click the calendar for the daily mode.
-- [Estimate Me](https://estimate-me.aukspot.com) - Estimate something new every day!
+- [Estimate Me](https://estimate-me.aukspot.com) - Handmade and hand-counted estimation puzzles such as "How many jelly beans are in this jar?"
 - [Estimatle](https://estimatle.com) - Five daily estimation-trivia questions with global stats.
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.

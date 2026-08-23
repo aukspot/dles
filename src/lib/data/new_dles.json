@@ -1,11 +1,5 @@
 [
   {
-    "name": "Bean Sort",
-    "url": "https://coffeefirst.games/bean-sort",
-    "id": 795,
-    "date_added": "2026-07-19"
-  },
-  {
     "name": "Beat Me At Boggle",
     "url": "https://beatmeatboggle.com",
     "id": 802,
@@ -18,12 +12,6 @@
     "date_added": "2026-08-02"
   },
   {
-    "name": "Catalogues",
-    "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues",
-    "id": 796,
-    "date_added": "2026-07-19"
-  },
-  {
     "name": "Estimatle",
     "url": "https://estimatle.com",
     "id": 804,
@@ -34,36 +22,6 @@
     "url": "https://filmlink.io",
     "id": 805,
     "date_added": "2026-08-02"
-  },
-  {
-    "name": "Flag Connections",
-    "url": "https://flagdoku.com/connections.html",
-    "id": 797,
-    "date_added": "2026-07-19"
-  },
-  {
-    "name": "Geozee",
-    "url": "https://geozee.earth",
-    "id": 799,
-    "date_added": "2026-07-21"
-  },
-  {
-    "name": "Lexagon",
-    "url": "https://lexagon.com",
-    "id": 798,
-    "date_added": "2026-07-19"
-  },
-  {
-    "name": "putt.day",
-    "url": "https://putt.day/play",
-    "id": 800,
-    "date_added": "2026-07-21"
-  },
-  {
-    "name": "Smush",
-    "url": "https://www.hankgreen.com/smush/",
-    "id": 801,
-    "date_added": "2026-07-21"
   },
   {
     "name": "Underline",
