@@ -3771,6 +3771,12 @@
     "id": 576
   },
   {
+    "name": "Ruledle",
+    "url": "https://ruledle.com",
+    "description": "Discover the hidden daily rule by answering a yes/no question about each sequence. Chain 5 correct answers in a row to reveal it.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Runedle",
     "url": "https://runedle.com",
     "description": "Guess today's Runescape NPC.",
