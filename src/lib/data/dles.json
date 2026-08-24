@@ -2546,12 +2546,6 @@
     "id": 226
   },
   {
-    "name": "MetrosQuest",
-    "url": "https://metrosquest.com",
-    "description": "Guess the world capital based on its stats (altitude, metro lines, skyscrapers, population…) in 5 daily modes.",
-    "category": "Geography"
-  },
-  {
     "name": "Minecraftle",
     "url": "https://minecraftle.zachmanson.com",
     "description": "Guess the crafting recipe from the game Minecraft.",
