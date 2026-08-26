@@ -2,7 +2,7 @@
 
 ## 2026-08-26
 
-Add 21 dles. Remove 2 dles. Move Odle to Novelty.
+Add 21 dles. Remove 3 dles. Move Odle to Novelty.
 
 dles added: 
 |    | name                                                            | url                                                                                            |   id |
@@ -30,10 +30,11 @@ dles added:
 | 21 | [Perceptle](https://perceptle.com)                              | [https://perceptle.com](https://perceptle.com)                                                 |  828 |
 
 dles removed: 
-|    | name                                 | url                                              |   id | reason                                   |
-|---:|:-------------------------------------|:-------------------------------------------------|-----:|:-----------------------------------------|
-|  1 | [Chronoodle](https://chronoodle.com) | [https://chronoodle.com](https://chronoodle.com) |  677 | Game has ended. Archive still available. |
-|  2 | [Numblino](https://numblino.com)     | [https://numblino.com](https://numblino.com)     |  552 | No new puzzles. Archive still available. |
+|    | name                                                | url                                                                                    |   id | reason                                   |
+|---:|:----------------------------------------------------|:---------------------------------------------------------------------------------------|-----:|:-----------------------------------------|
+|  1 | [Chronoodle](https://chronoodle.com)                | [https://chronoodle.com](https://chronoodle.com)                                       |  677 | Game has ended. Archive still available. |
+|  2 | [Numblino](https://numblino.com)                    | [https://numblino.com](https://numblino.com)                                           |  552 | No new puzzles. Archive still available. |
+|  3 | [Stacks](https://www.theatlantic.com/games/stacks/) | [https://www.theatlantic.com/games/stacks/](https://www.theatlantic.com/games/stacks/) |  365 | nan                                      |
 ## 2026-08-02
 
 Add 6 dles. Remove 5 dles. 

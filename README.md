@@ -650,7 +650,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (244)
+### Words (243)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -826,7 +826,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Stackdown](https://puzzlist.com/stackdown/) - Clear the stack of letters by finding each of the 5-letter words.
 - [Stacked](https://stacked.clevergoat.com) - Find groups of different sizes that share something in common.
 - [Stackle](https://www.stackle.fun) - Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.
-- [Stacks](https://www.theatlantic.com/games/stacks/) - Stack words from the word bank to create new words going horizontally. (From The Atlantic)
 - [Stat Mini Crossword](https://www.statnews.com/stat-mini-crossword/) - A weekday mini crossword that's often health and medicine focused.
 - [SteppedUpdle](https://steppedupdle.com) - Solve 4 Wordle puzzles in a row, each word one letter longer than the last. You have 20 total guesses.
 - [Stepwords](https://stepwords.xyz) - A word ladder game where each word is an anagram of the previous word plus an extra letter.

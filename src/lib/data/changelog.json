@@ -120,9 +120,14 @@
         "url": "https://numblino.com",
         "id": 552,
         "reason": "No new puzzles. Archive still available."
+      },
+      {
+        "name": "Stacks",
+        "url": "https://www.theatlantic.com/games/stacks/",
+        "id": 365
       }
     ],
-    "description": "Add 21 dles. Remove 2 dles. Move Odle to Novelty."
+    "description": "Add 21 dles. Remove 3 dles. Move Odle to Novelty."
   },
   {
     "date": "2026-08-02",

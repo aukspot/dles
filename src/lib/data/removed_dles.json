@@ -887,6 +887,18 @@
     ]
   },
   {
+    "name": "Stacks",
+    "url": "https://www.theatlantic.com/games/stacks/",
+    "id": 365,
+    "removals": [
+      {
+        "date_removed": "2026-08-26"
+      }
+    ],
+    "description": "Stack words from the word bank to create new words going horizontally. (From The Atlantic)",
+    "category": "Words"
+  },
+  {
     "name": "steamdle.pro",
     "url": "https://steamdle.pro",
     "id": 502,
