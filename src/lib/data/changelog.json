@@ -101,6 +101,11 @@
         "name": "Year To Beat",
         "url": "https://yeartobeat.com",
         "id": 827
+      },
+      {
+        "name": "Perceptle",
+        "url": "https://perceptle.com",
+        "id": 828
       }
     ],
     "dles removed": [
@@ -117,7 +122,7 @@
         "reason": "No new puzzles. Archive still available."
       }
     ],
-    "description": "Add 20 dles. Remove 2 dles. Move Odle to Novelty."
+    "description": "Add 21 dles. Remove 2 dles. Move Odle to Novelty."
   },
   {
     "date": "2026-08-02",

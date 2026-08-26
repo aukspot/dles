@@ -2,7 +2,7 @@
 
 ## 2026-08-26
 
-Add 20 dles. Remove 2 dles. Move Odle to Novelty.
+Add 21 dles. Remove 2 dles. Move Odle to Novelty.
 
 dles added: 
 |    | name                                                            | url                                                                                            |   id |
@@ -27,6 +27,7 @@ dles added:
 | 18 | [Vexle](https://vexle.org)                                      | [https://vexle.org](https://vexle.org)                                                         |  825 |
 | 19 | [VTuble](https://www.vtuble.moe)                                | [https://www.vtuble.moe](https://www.vtuble.moe)                                               |  826 |
 | 20 | [Year To Beat](https://yeartobeat.com)                          | [https://yeartobeat.com](https://yeartobeat.com)                                               |  827 |
+| 21 | [Perceptle](https://perceptle.com)                              | [https://perceptle.com](https://perceptle.com)                                                 |  828 |
 
 dles removed: 
 |    | name                                 | url                                              |   id | reason                                   |

@@ -120,7 +120,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (26)
+### Estimation (27)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -145,6 +145,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Motion Path](https://motionpath.app) - Watch a dot move around, then recreate its path from memory.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
 - [Per Night](https://pernight.app) - Guess the cost of one night in the given hotel.
+- [Perceptle](https://perceptle.com) - Five tiny tests of perceptual instinct.
 - [Temple](https://tck.mn/temple) - Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
 - [Timingle](https://timingle.danielbrandao.dev) - Try to time when the countdown reaches 0. Each day the beat is different.
 - [Zonday](https://zonday.app) - Guess the price of the item from Amazon.com.
