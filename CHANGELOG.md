@@ -1,5 +1,38 @@
 # Changelog - The Dles
 
+## 2026-08-26
+
+Add 20 dles. Remove 2 dles. Move Odle to Novelty.
+
+dles added: 
+|    | name                                                            | url                                                                                            |   id |
+|---:|:----------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|-----:|
+|  1 | [Dowsle](https://dowsle.com)                                    | [https://dowsle.com](https://dowsle.com)                                                       |  808 |
+|  2 | [Estimania](https://estimania.app)                              | [https://estimania.app](https://estimania.app)                                                 |  809 |
+|  3 | [Fermi](https://fermi.gg)                                       | [https://fermi.gg](https://fermi.gg)                                                           |  810 |
+|  4 | [fridgle](https://fridgle.net)                                  | [https://fridgle.net](https://fridgle.net)                                                     |  811 |
+|  5 | [GnarlyQ](https://gnarlyq.com)                                  | [https://gnarlyq.com](https://gnarlyq.com)                                                     |  812 |
+|  6 | [haggle](https://haggle.gg)                                     | [https://haggle.gg](https://haggle.gg)                                                         |  813 |
+|  7 | [Krillion](https://krillion.io)                                 | [https://krillion.io](https://krillion.io)                                                     |  814 |
+|  8 | [Lawndle](https://johalloran.dev/lawndle/)                      | [https://johalloran.dev/lawndle/](https://johalloran.dev/lawndle/)                             |  815 |
+|  9 | [Mowkoban](https://mowkoban.com/)                               | [https://mowkoban.com/](https://mowkoban.com/)                                                 |  816 |
+| 10 | [Patchdle](https://patchdle.com)                                | [https://patchdle.com](https://patchdle.com)                                                   |  817 |
+| 11 | [Per Night](https://pernight.app)                               | [https://pernight.app](https://pernight.app)                                                   |  818 |
+| 12 | [Petalgrams](https://petalgrams.com)                            | [https://petalgrams.com](https://petalgrams.com)                                               |  819 |
+| 13 | [Quotadle](https://quotadle.com)                                | [https://quotadle.com](https://quotadle.com)                                                   |  820 |
+| 14 | [Rabbithole](https://www.theatlantic.com/games/rabbithole/)     | [https://www.theatlantic.com/games/rabbithole/](https://www.theatlantic.com/games/rabbithole/) |  821 |
+| 15 | [Rackdle](https://rackdle.fun)                                  | [https://rackdle.fun](https://rackdle.fun)                                                     |  822 |
+| 16 | [Thingdle](https://thingdle.app/en/thingdle)                    | [https://thingdle.app/en/thingdle](https://thingdle.app/en/thingdle)                           |  823 |
+| 17 | [Time Machine (MLB)](https://boxscore.email/games/time-machine) | [https://boxscore.email/games/time-machine](https://boxscore.email/games/time-machine)         |  824 |
+| 18 | [Vexle](https://vexle.org)                                      | [https://vexle.org](https://vexle.org)                                                         |  825 |
+| 19 | [VTuble](https://www.vtuble.moe)                                | [https://www.vtuble.moe](https://www.vtuble.moe)                                               |  826 |
+| 20 | [Year To Beat](https://yeartobeat.com)                          | [https://yeartobeat.com](https://yeartobeat.com)                                               |  827 |
+
+dles removed: 
+|    | name                                 | url                                              |   id | reason                                   |
+|---:|:-------------------------------------|:-------------------------------------------------|-----:|:-----------------------------------------|
+|  1 | [Chronoodle](https://chronoodle.com) | [https://chronoodle.com](https://chronoodle.com) |  677 | Game has ended. Archive still available. |
+|  2 | [Numblino](https://numblino.com)     | [https://numblino.com](https://numblino.com)     |  552 | No new puzzles. Archive still available. |
 ## 2026-08-02
 
 Add 6 dles. Remove 5 dles. 

@@ -1,5 +1,125 @@
 [
   {
+    "date": "2026-08-26",
+    "dles added": [
+      {
+        "name": "Dowsle",
+        "url": "https://dowsle.com",
+        "id": 808
+      },
+      {
+        "name": "Estimania",
+        "url": "https://estimania.app",
+        "id": 809
+      },
+      {
+        "name": "Fermi",
+        "url": "https://fermi.gg",
+        "id": 810
+      },
+      {
+        "name": "fridgle",
+        "url": "https://fridgle.net",
+        "id": 811
+      },
+      {
+        "name": "GnarlyQ",
+        "url": "https://gnarlyq.com",
+        "id": 812
+      },
+      {
+        "name": "haggle",
+        "url": "https://haggle.gg",
+        "id": 813
+      },
+      {
+        "name": "Krillion",
+        "url": "https://krillion.io",
+        "id": 814
+      },
+      {
+        "name": "Lawndle",
+        "url": "https://johalloran.dev/lawndle/",
+        "id": 815
+      },
+      {
+        "name": "Mowkoban",
+        "url": "https://mowkoban.com/",
+        "id": 816
+      },
+      {
+        "name": "Patchdle",
+        "url": "https://patchdle.com",
+        "id": 817
+      },
+      {
+        "name": "Per Night",
+        "url": "https://pernight.app",
+        "id": 818
+      },
+      {
+        "name": "Petalgrams",
+        "url": "https://petalgrams.com",
+        "id": 819
+      },
+      {
+        "name": "Quotadle",
+        "url": "https://quotadle.com",
+        "id": 820
+      },
+      {
+        "name": "Rabbithole",
+        "url": "https://www.theatlantic.com/games/rabbithole/",
+        "id": 821
+      },
+      {
+        "name": "Rackdle",
+        "url": "https://rackdle.fun",
+        "id": 822
+      },
+      {
+        "name": "Thingdle",
+        "url": "https://thingdle.app/en/thingdle",
+        "id": 823
+      },
+      {
+        "name": "Time Machine (MLB)",
+        "url": "https://boxscore.email/games/time-machine",
+        "id": 824
+      },
+      {
+        "name": "Vexle",
+        "url": "https://vexle.org",
+        "id": 825
+      },
+      {
+        "name": "VTuble",
+        "url": "https://www.vtuble.moe",
+        "id": 826
+      },
+      {
+        "name": "Year To Beat",
+        "url": "https://yeartobeat.com",
+        "id": 827
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Chronoodle",
+        "url": "https://chronoodle.com",
+        "id": 677,
+        "reason": "Game has ended. Archive still available."
+      },
+      {
+        "name": "Numblino",
+        "url": "https://numblino.com",
+        "id": 552,
+        "reason": "No new puzzles. Archive still available."
+      }
+    ],
+    "description": "Add 20 dles. Remove 2 dles. Move Odle to Novelty."
+  },
+  {
     "date": "2026-08-02",
     "dles added": [
       {

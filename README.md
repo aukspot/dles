@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-08-02`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-08-26`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -120,7 +120,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (23)
+### Estimation (26)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -130,20 +130,23 @@ This will update the `./docs` directory with a new build of the site.
 - [Cutle](https://pfiffel.com/cutle/) - Cut today's shape as evenly as you can.
 - [Dialed - Sound Game](https://dialed.gg/sound) - Listen to a tone and then recreate it from memory. Click the calendar for the daily mode.
 - [Dialed - Time Game](https://dialed.gg/time) - Await the duration and then recreate it from memory. Click the calendar for the daily mode.
+- [Estimania](https://estimania.app) - Guess the numbers behind five daily real-world facts.
 - [Estimate Me](https://estimate-me.aukspot.com) - Handmade and hand-counted estimation puzzles such as "How many jelly beans are in this jar?"
 - [Estimatle](https://estimatle.com) - Five daily estimation-trivia questions with global stats.
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
+- [Fermi](https://fermi.gg) - Three daily estimation questions from different categories.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
+- [haggle](https://haggle.gg) - Guess the price for each of today's five products.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
 - [Magnitudle](https://magnitudle.com/daily) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
 - [Moneyline](https://moneyline.fromthethink.com) - Pick over/under the given line for each fact or statistic.
 - [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
 - [Motion Path](https://motionpath.app) - Watch a dot move around, then recreate its path from memory.
-- [Numblino](https://numblino.com) - Guess the number based on the given fact. You have 6 guesses.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
+- [Per Night](https://pernight.app) - Guess the cost of one night in the given hotel.
 - [Temple](https://tck.mn/temple) - Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
-- [Timingle](https://timingle.com) - Try to time when the countdown reaches 0. Each day the beat is different.
+- [Timingle](https://timingle.danielbrandao.dev) - Try to time when the countdown reaches 0. Each day the beat is different.
 - [Zonday](https://zonday.app) - Guess the price of the item from Amazon.com.
 
 ### Food (5)
@@ -154,7 +157,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (55)
+### Geography (56)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -204,6 +207,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TravelGuessr](https://travelguessr.com/) - Guess where the travel photo was taken, 4 rounds every day.
 - [travle](https://travle.earth) - Connect the starting country to the ending country by naming countries in between them.
 - [Treasure Guessr](https://play.treasureguessr.com) - Narrow down a location on the world map.
+- [Vexle](https://vexle.org) - Draw the country flag from memory.
 - [Viewdle](https://viewdle.org) - Guess the country based on the view.
 - [WhenTaken](https://whentaken.com) - Guess the year and location of the given photo.
 - [WhenTaken Movies](https://movies.whentaken.com) - Guess where and when the given movie scene was filmed.
@@ -212,13 +216,12 @@ This will update the `./docs` directory with a new build of the site.
 - [WhereTaken USA](https://wheretakenusa.teuteuf.fr) - Guess the US State in which the photo was taken.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (17)
+### History (16)
 
 - [Anthropeum](https://anthropeum.com) - Guess the right time and region in which each human artifact is from.
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
 - [Chrono](https://chrono.quest) - Put the events in chronological order in 3 tries or less.
 - [Chrono USA](https://chrono.quest/us_history.html) - Put the USA events in chronological order in 3 tries or less.
-- [Chronoodle](https://chronoodle.com) - Place each event in the correct spot on the timeline.
 - [Chronophoto](https://www.chronophoto.app) - Guess the year in which each historical picture was taken.
 - [Daydle](https://daydle.com) - Guess the year of a historical event that happened on this day in history.
 - [Past Puzzle](https://www.pastpuzzle.de) - Guess the correct year of the given events, you have 4 tries.
@@ -354,7 +357,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (37)
+### Music (38)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -393,13 +396,16 @@ This will update the `./docs` directory with a new build of the site.
 - [Timdle Music](https://timdle.com/music) - Place each mystery song on the timeline after listening to an audio snippet.
 - [TuneGuessr](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
+- [Year To Beat](https://yeartobeat.com) - Guess the year each music video came out, 5 rounds daily.
 
-### Novelty (5)
+### Novelty (7)
 
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
+- [fridgle](https://fridgle.net) - Create a daily message using magnet-style words you might find on a fridge.
 - [Horsle](https://cabletwo.net/horsle/) - Wordle except the answer is always Horse.
 - [Jeffgoldblumle](https://jeffgoldblumle.com) - Wordle except 90% of the time the answer is Jeff Goldblum.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
+- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
 
 ### Science/Nature (15)
@@ -420,7 +426,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (31)
+### Shapes/Patterns (33)
 
 - [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
@@ -433,12 +439,14 @@ This will update the `./docs` directory with a new build of the site.
 - [Jigsaw Explorer](https://www.jigsawexplorer.com) - Solve the jigsaw puzzles, two new puzzles everyday.
 - [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
 - [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle) - A daily jigsaw puzzle from the Los Angeles Times.
+- [Lawndle](https://johalloran.dev/lawndle/) - Mow today's lawn as efficiently as possible.
 - [Lazy River](https://inkwellgames.com/games/lazy-river) - Draw a single continuous loop that flows through every cell.
 - [LinkedIn - Patches](https://www.linkedin.com/games/patches/) - Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.
 - [LinkedIn - Zip](https://www.linkedin.com/games/zip) - Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
 - [Mazetangle](https://mazetangle.com) - Go from the red tile to the blue tile in as many moves as possible.
+- [Mowkoban](https://mowkoban.com/) - A daily puzzle about mowing your lawn in the fewest number of moves.
 - [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal by sliding the pieces around the grid.
 - [Netflix - Jigsaw](https://www.netflix.com/tudum/puzzled/jigsaw/daily) - Complete the image by finding the right spot for each piece. Does not require a Netflix account.
 - [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily) - Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.
@@ -454,7 +462,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
 
-### Sports (25)
+### Sports (26)
 
 - [Basketball 5](https://basketball-5.com) - A collection of daily games related to basketball.
 - [Batter Up](https://www.batter-up.app) - Based on a silhouette video of their batting stance, guess the MLB player.
@@ -478,11 +486,12 @@ This will update the `./docs` directory with a new build of the site.
 - [Poeltl](https://poeltl.nbpa.com) - Guess the NBA player in 8 guesses.
 - [Puckdoku](https://www.puckdoku.com) - Fill out the grid with hockey players matching the criteria of each cell's row and column.
 - [StatPad Game](https://www.statpadgame.com) - Select MLB players to maximize your score given today's stat category and row requirements.
+- [Time Machine (MLB)](https://boxscore.email/games/time-machine) - Guess the MLB season based on a single game's box score.
 - [Weddle](https://www.weddlegame.com) - Guess the NFL player within 8 guesses.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (31)
+### Trivia (34)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) - Arrange the items into the correct order in 5 guesses.
@@ -495,14 +504,17 @@ This will update the `./docs` directory with a new build of the site.
 - [Disorderly](https://playdisorderly.com) - Order the items correctly based on the given criteria.
 - [Eruptle](https://eruptle.app) - Guess the 10 items that fit the prompt, kind of like Family Feud.
 - [Factle](https://frontofficesports.com/trivia/factle) - Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
+- [GnarlyQ](https://gnarlyq.com) - For each category, choose the five correct answers and dodge the traps.
 - [Google Feud](https://googlefeud.com) - Guess how Google auto-completes the search query, click on "Question of the Day".
 - [Jeopardy 6](https://www.jeopardy.com/play/j6) - Weekday jeopardy game where you answer 12 multiple choice questions.
+- [Krillion](https://krillion.io) - Dive as deep as you can by giving rare answers to each trivia question.
 - [On the Record](https://www.washingtonpost.com/news-quiz) - Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
 - [pedantle](https://pedantle.certitudes.org) - Find the secret Wikipedia page by revealing the words in its introduction.
 - [PopCultured](https://histordle.com/popcultured) - Guess the year given three pop culture items released that year.
 - [Quintalist](https://www.quintalist.com) - Correctly choose the top 5 entries in 5 tries or fewer.
 - [Quiple](https://quiple.xyz) - Put today's items into groups of three based on the theme.
 - [Quizl](https://quizl.io) - Answer today's 5 trivia questions.
+- [Rabbithole](https://www.theatlantic.com/games/rabbithole/) - A trivia game where each answer is part of the next question.
 - [Rankle](https://www.rankle.app) - Rank 6 things in 4 guesses. Every day is a different category.
 - [Real Bird Fake Bird](https://realbirdfakebird.com) - Guess if each of the 7 prompts are real or fake (made up or don't belong).
 - [Redactle](https://redactle.net) - Guess the Wikipedia article by its content with keywords redacted.
@@ -523,7 +535,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (67)
+### Video Games (68)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -558,6 +570,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Nookle](https://nookle.net) - Guess the villager from Animal Crossing.
 - [OWdle](https://owdle.guessing.day) - Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.
 - [Palwordle](https://palwordle.net) - Daily games related to the video game Palworld.
+- [Patchdle](https://patchdle.com) - Guess the video game from its patch notes.
 - [Pikadoku](https://pikadoku.dentotino.com) - Fill out the grid with Pokémon matching the criteria of each cell's row and column. More complex than Pokedoku.
 - [PokeCryptic](https://www.pokecryptic.com) - A daily cryptic crossword clue, but with Pokémon-related answers such as Pokémon names, move names, and towns.
 - [Pokedle.com](https://pokedle.com) - Guess the daily Pokemon from all generations.
@@ -593,7 +606,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (39)
+### Miscellaneous (41)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -629,13 +642,15 @@ This will update the `./docs` directory with a new build of the site.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
 - [The Split](https://www.timecube.in) - Answer today's question, then predict how everyone else answered. See how you did after the day ends.
+- [Thingdle](https://thingdle.app/en/thingdle) - A daily riddle where you guess an everyday object.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [TypeCircuit](https://typecircuit.com) - A daily typing speed challenge featuring quotes from popular video games, movies, and anime.
+- [VTuble](https://www.vtuble.moe) - Guess the daily VTuber.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (241)
+### Words (244)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -690,6 +705,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Decodex](https://playdecodex.com) - A daily cryptography game. Decode a new quote every day!
 - [Doople](https://www.dooplepuzzle.com) - Chain word combinations together to fit the given clues.
 - [Dordle](https://zaratustra.itch.io/dordle) - Solve 2 Wordle puzzles at the same time.
+- [Dowsle](https://dowsle.com) - Find today's secret word by guessing words and seeing how close they are by both meaning and spelling.
 - [Duolock Game](https://www.duolockgame.net) - Solve two Alphalock puzzles at the same time. Includes a Padlock (number) mode.
 - [Duotrigordle](https://duotrigordle.com) - Solve 32 Wordle puzzles at the same time.
 - [Eightile](https://eightile.com) - Unscramble each word, adding a new letter each time. You have 5 minutes.
@@ -750,12 +766,12 @@ This will update the `./docs` directory with a new build of the site.
 - [NYT Strands](https://www.nytimes.com/games/strands) - Find hidden words and uncover the day's theme.
 - [NYT Wordle](https://www.nytimes.com/games/wordle/index.html) - Guess the 5-letter word in six or fewer attempts.
 - [Octordle](https://www.britannica.com/games/octordle) - Solve 8 Wordle puzzles at the same time. You have 13 guesses.
-- [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [Omiword](https://www.omiword.com) - Form 4 common words by arranging letter tiles that are locked to different regions of the grid.
 - [One Word Search](https://puzzlist.com/onewordsearch/) - Repeatedly search for the only word in a grid of letters.
 - [Orbits](https://www.playorbits.com) - Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.
 - [Pair Down](https://pairdown.com) - Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.
 - [Parseword](https://www.parseword.com) - Solve today's cryptic clue through careful deduction. Great for those new to cryptics.
+- [Petalgrams](https://petalgrams.com) - Make words using the letters on the flower, aiming for a pangram. More letters are added as you go.
 - [Phrasicle](https://phrasicle.com) - Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.
 - [Phrasle](https://phrasle.com) - Reveal the phrase by guessing one letter at a time.
 - [Pimantle](https://semantle.pimanrul.es) - Guess words to see how close they are to the secret word on a graph, and see where others are guessing as well!
@@ -774,6 +790,8 @@ This will update the `./docs` directory with a new build of the site.
 - [Quintessential](https://quintessential.fun) - Solve each of the 5 horizontal words in as few swaps as possible.
 - [Quizmoji](https://quizmoji.com) - Answer each clue with pairs of emojis.
 - [Quordle](https://www.merriam-webster.com/games/quordle/#/) - Solve 4 Wordle puzzles at the same time.
+- [Quotadle](https://quotadle.com) - Daily typing challenge featuring memorable quotes.
+- [Rackdle](https://rackdle.fun) - Try to find the best move in a tournament Scrabble game. Your move gets graded based on all possible moves.
 - [RADDLE](https://raddle.quest) - Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.
 - [Redividers](https://redividers.netlify.app) - Find the word that fits the first blank, then split it to fill in the remaining blank(s).
 - [regexle.ithea.de](https://regexle.ithea.de) - Guess the secret regular expression by testing sequences of characters.

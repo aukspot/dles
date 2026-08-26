@@ -93,6 +93,18 @@
     ]
   },
   {
+    "name": "Chronoodle",
+    "url": "https://chronoodle.com",
+    "id": 677,
+    "removals": [
+      {
+        "date_removed": "2026-08-26"
+      }
+    ],
+    "description": "Place each event in the correct spot on the timeline.",
+    "category": "History"
+  },
+  {
     "name": "Collections",
     "url": "https://puzzmallow.com/collections",
     "id": 58,
@@ -589,6 +601,18 @@
         "reason": "Page no longer loads."
       }
     ]
+  },
+  {
+    "name": "Numblino",
+    "url": "https://numblino.com",
+    "id": 552,
+    "removals": [
+      {
+        "date_removed": "2026-08-26"
+      }
+    ],
+    "description": "Guess the number based on the given fact. You have 6 guesses.",
+    "category": "Estimation"
   },
   {
     "name": "NYT Mini Crossword",

@@ -621,13 +621,6 @@
     "id": 711
   },
   {
-    "name": "Chronoodle",
-    "url": "https://chronoodle.com",
-    "description": "Place each event in the correct spot on the timeline.",
-    "category": "History",
-    "id": 677
-  },
-  {
     "name": "Chronophoto",
     "url": "https://www.chronophoto.app",
     "description": "Guess the year in which each historical picture was taken.",
@@ -1210,6 +1203,13 @@
     "id": 99
   },
   {
+    "name": "Dowsle",
+    "url": "https://dowsle.com",
+    "description": "Find today's secret word by guessing words and seeing how close they are by both meaning and spelling.",
+    "category": "Words",
+    "id": 808
+  },
+  {
     "name": "Dungleon",
     "url": "https://www.dungleon.com",
     "description": "Guess the dungeon's composition in 6 guesses.",
@@ -1321,6 +1321,13 @@
     "id": 110
   },
   {
+    "name": "Estimania",
+    "url": "https://estimania.app",
+    "description": "Guess the numbers behind five daily real-world facts.",
+    "category": "Estimation",
+    "id": 809
+  },
+  {
     "name": "Estimate Me",
     "url": "https://estimate-me.aukspot.com",
     "description": "Handmade and hand-counted estimation puzzles such as \"How many jelly beans are in this jar?\"",
@@ -1390,6 +1397,13 @@
     "description": "Guess the One Piece character of the day.",
     "category": "Movies/TV",
     "id": 745
+  },
+  {
+    "name": "Fermi",
+    "url": "https://fermi.gg",
+    "description": "Three daily estimation questions from different categories.",
+    "category": "Estimation",
+    "id": 810
   },
   {
     "name": "Fibble",
@@ -1555,6 +1569,13 @@
     "description": "Find 13 words that rhyme with today's word. The more syllables, the better!",
     "category": "Words",
     "id": 589
+  },
+  {
+    "name": "fridgle",
+    "url": "https://fridgle.net",
+    "description": "Create a daily message using magnet-style words you might find on a fridge.",
+    "category": "Novelty",
+    "id": 811
   },
   {
     "name": "Fusele",
@@ -1749,6 +1770,13 @@
     "id": 660
   },
   {
+    "name": "GnarlyQ",
+    "url": "https://gnarlyq.com",
+    "description": "For each category, choose the five correct answers and dodge the traps.",
+    "category": "Trivia",
+    "id": 812
+  },
+  {
     "name": "Google Feud",
     "url": "https://googlefeud.com",
     "description": "Guess how Google auto-completes the search query, click on \"Question of the Day\".",
@@ -1846,6 +1874,13 @@
     "description": "Solve each of the inner clues until you reveal the phrase, like Bracket City.",
     "category": "Words",
     "id": 549
+  },
+  {
+    "name": "haggle",
+    "url": "https://haggle.gg",
+    "description": "Guess the price for each of today's five products.",
+    "category": "Estimation",
+    "id": 813
   },
   {
     "name": "Harmonies: Music Connections",
@@ -2196,6 +2231,13 @@
     "id": 477
   },
   {
+    "name": "Krillion",
+    "url": "https://krillion.io",
+    "description": "Dive as deep as you can by giving rare answers to each trivia question.",
+    "category": "Trivia",
+    "id": 814
+  },
+  {
     "name": "Kuromasu",
     "url": "https://nibble.games/kuromasu/kuromasu-small.html",
     "description": "Fill the board with either black or teal squares based on the numbered cells.",
@@ -2269,6 +2311,13 @@
     "description": "Guess the world language from a few example sentences.",
     "category": "Words",
     "id": 191
+  },
+  {
+    "name": "Lawndle",
+    "url": "https://johalloran.dev/lawndle/",
+    "description": "Mow today's lawn as efficiently as possible.",
+    "category": "Shapes/Patterns",
+    "id": 815
   },
   {
     "name": "Lazy River",
@@ -2803,6 +2852,13 @@
     "id": 245
   },
   {
+    "name": "Mowkoban",
+    "url": "https://mowkoban.com/",
+    "description": "A daily puzzle about mowing your lawn in the fewest number of moves.",
+    "category": "Shapes/Patterns",
+    "id": 816
+  },
+  {
     "name": "Murdle",
     "url": "https://murdle.com",
     "description": "Solve today's murder-mystery logic puzzle.",
@@ -2970,13 +3026,6 @@
     "description": "Reach the target number only using operations and each given number exactly once.",
     "category": "Math/Logic",
     "id": 256
-  },
-  {
-    "name": "Numblino",
-    "url": "https://numblino.com",
-    "description": "Guess the number based on the given fact. You have 6 guesses.",
-    "category": "Estimation",
-    "id": 552
   },
   {
     "name": "Numbobulate",
@@ -3177,6 +3226,13 @@
     "id": 691
   },
   {
+    "name": "Patchdle",
+    "url": "https://patchdle.com",
+    "description": "Guess the video game from its patch notes.",
+    "category": "Video Games",
+    "id": 817
+  },
+  {
     "name": "pedantle",
     "url": "https://pedantle.certitudes.org",
     "description": "Find the secret Wikipedia page by revealing the words in its introduction.",
@@ -3191,11 +3247,25 @@
     "id": 574
   },
   {
+    "name": "Per Night",
+    "url": "https://pernight.app",
+    "description": "Guess the cost of one night in the given hotel.",
+    "category": "Estimation",
+    "id": 818
+  },
+  {
     "name": "Perfect Pitch Puzzle",
     "url": "https://www.perfectpitchpuzzle.com",
     "description": "After listening to a short tune, identify the first 6 notes that were played.",
     "category": "Music",
     "id": 277
+  },
+  {
+    "name": "Petalgrams",
+    "url": "https://petalgrams.com",
+    "description": "Make words using the letters on the flower, aiming for a pangram. More letters are added as you go.",
+    "category": "Words",
+    "id": 819
   },
   {
     "name": "Phrasicle",
@@ -3567,6 +3637,13 @@
     "id": 312
   },
   {
+    "name": "Quotadle",
+    "url": "https://quotadle.com",
+    "description": "Daily typing challenge featuring memorable quotes.",
+    "category": "Words",
+    "id": 820
+  },
+  {
     "name": "Quotesed",
     "url": "https://www.quotesed.com",
     "description": "Guess the movie given 6 quotes.",
@@ -3580,6 +3657,20 @@
     "category": "Video Games",
     "theme": "Raindbow Six",
     "id": 496
+  },
+  {
+    "name": "Rabbithole",
+    "url": "https://www.theatlantic.com/games/rabbithole/",
+    "description": "A trivia game where each answer is part of the next question.",
+    "category": "Trivia",
+    "id": 821
+  },
+  {
+    "name": "Rackdle",
+    "url": "https://rackdle.fun",
+    "description": "Try to find the best move in a tournament Scrabble game. Your move gets graded based on all possible moves.",
+    "category": "Words",
+    "id": 822
   },
   {
     "name": "RADDLE",
@@ -4481,6 +4572,13 @@
     "id": 387
   },
   {
+    "name": "Thingdle",
+    "url": "https://thingdle.app/en/thingdle",
+    "description": "A daily riddle where you guess an everyday object.",
+    "category": "Miscellaneous",
+    "id": 823
+  },
+  {
     "name": "Thinky Dailies",
     "url": "https://thinkygames.com/dailies/today/",
     "description": "Handcrafted daily puzzles of all different kinds with a fun connected story.",
@@ -4579,6 +4677,13 @@
     "id": 757
   },
   {
+    "name": "Time Machine (MLB)",
+    "url": "https://boxscore.email/games/time-machine",
+    "description": "Guess the MLB season based on a single game's box score.",
+    "category": "Sports",
+    "id": 824
+  },
+  {
     "name": "TimeGuessr",
     "url": "https://timeguessr.com",
     "description": "Guess the right time and location of each historical photo.",
@@ -4608,7 +4713,7 @@
   },
   {
     "name": "Timingle",
-    "url": "https://timingle.com",
+    "url": "https://timingle.danielbrandao.dev",
     "description": "Try to time when the countdown reaches 0. Each day the beat is different.",
     "category": "Estimation",
     "id": 538
@@ -4749,6 +4854,13 @@
     "id": 408
   },
   {
+    "name": "Vexle",
+    "url": "https://vexle.org",
+    "description": "Draw the country flag from memory.",
+    "category": "Geography",
+    "id": 825
+  },
+  {
     "name": "Video Game Bandle",
     "url": "https://www.vgbandle.app",
     "description": "Guess the video game and song played by the MIDI band",
@@ -4782,6 +4894,13 @@
     "description": "A free daily crossword from Vox, skips Sundays.",
     "category": "Words",
     "id": 412
+  },
+  {
+    "name": "VTuble",
+    "url": "https://www.vtuble.moe",
+    "description": "Guess the daily VTuber.",
+    "category": "Miscellaneous",
+    "id": 826
   },
   {
     "name": "Waffle",
@@ -5200,6 +5319,13 @@
     "description": "Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.",
     "category": "Math/Logic",
     "id": 449
+  },
+  {
+    "name": "Year To Beat",
+    "url": "https://yeartobeat.com",
+    "description": "Guess the year each music video came out, 5 rounds daily.",
+    "category": "Music",
+    "id": 827
   },
   {
     "name": "Yeardle",
