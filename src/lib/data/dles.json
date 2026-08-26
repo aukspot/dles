@@ -5137,6 +5137,18 @@
     "id": 707
   },
   {
+    "name": "World Flag Map — Daily Flags",
+    "url": "https://worldflagmap.com/games/daily/flags/",
+    "description": "Identify ten national flags in the same daily quiz as every other player.",
+    "category": "Geography"
+  },
+  {
+    "name": "World Flag Map — Daily Map",
+    "url": "https://worldflagmap.com/games/daily/map/",
+    "description": "Identify ten countries from their outlines and geographic positions in a shared daily challenge.",
+    "category": "Geography"
+  },
+  {
     "name": "Worldle",
     "url": "https://worldle.teuteuf.fr",
     "description": "Guess the country by its shape on the world map.",
