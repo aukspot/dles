@@ -9,3 +9,4 @@ history:
   event: added
 - date: '2026-08-02'
   event: removed
+  reason: Daily game no longer loads.

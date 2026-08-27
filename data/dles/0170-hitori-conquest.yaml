@@ -9,3 +9,4 @@ history:
   event: added
 - date: '2026-04-20'
   event: removed
+  reason: No daily puzzle, changes on refresh.

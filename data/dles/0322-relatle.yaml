@@ -9,3 +9,4 @@ history:
   event: added
 - date: '2026-05-29'
   event: removed
+  reason: Site now redirects to suspicious website.

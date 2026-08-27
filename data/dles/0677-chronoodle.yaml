@@ -3,9 +3,10 @@ name: Chronoodle
 url: https://chronoodle.com
 description: Place each event in the correct spot on the timeline.
 category: History
-status: removed
+status: archived
 history:
 - date: '2026-02-15'
   event: added
 - date: '2026-08-26'
-  event: removed
+  event: archived
+  reason: Game has ended. Archive still available.

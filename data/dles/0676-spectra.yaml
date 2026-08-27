@@ -3,9 +3,11 @@ name: Spectra
 url: https://spectra.quest/puzzles/latest
 description: Sort items by discovering the hidden metric.
 category: Trivia
-status: removed
+status: archived
+archive_url: https://spectra.quest/puzzles
 history:
 - date: '2026-02-08'
   event: added
 - date: '2026-03-06'
-  event: removed
+  event: archived
+  reason: New daily puzzles are very rare.

@@ -10,3 +10,4 @@ history:
   event: added
 - date: '2026-07-12'
   event: removed
+  reason: Site no longer loads.

@@ -9,5 +9,6 @@ history:
   event: added
 - date: '2026-01-11'
   event: removed
+  reason: No daily puzzle.
 - date: '2026-02-07'
   event: readded

@@ -9,3 +9,4 @@ history:
   event: added
 - date: '2026-03-14'
   event: removed
+  reason: Now redirects to sketchy site.

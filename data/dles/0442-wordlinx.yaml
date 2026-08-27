@@ -9,3 +9,4 @@ history:
   event: added
 - date: '2026-02-15'
   event: removed
+  reason: Background image is AI-generated.

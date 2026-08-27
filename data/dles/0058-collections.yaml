@@ -4,9 +4,10 @@ url: https://puzzmallow.com/collections
 description: Guess the category of the three hidden words by revealing one letter at a time.
 category: Words
 theme: Find connections
-status: removed
+status: archived
 history:
 - date: '2025-07-06'
   event: added
 - date: '2026-01-06'
-  event: removed
+  event: archived
+  reason: No new puzzles. Archive still available.

@@ -49,6 +49,10 @@ FIELD_ORDER = [
 # Fields that dles.json carries, in the order the existing file uses.
 JSON_FIELDS = ["name", "url", "description", "category", "theme", "id"]
 
+# Fields that live only in the YAML files. Nothing in the JSON sources can
+# reproduce them, so a regeneration copies them across from the existing file.
+MANUAL_FIELDS = ["tags", "archive_url", "screenshot", "notes"]
+
 
 def slugify(name):
     """Lowercase, hyphen-separated form of a game name, for filenames."""
@@ -85,21 +89,45 @@ def read_add_dates():
     return added
 
 
-def build_history(removed_entry, date_added=None):
+def read_removal_reasons():
+    """Map (id, date) to the removal reason recorded in the changelog.
+
+    Removals from 2026 onwards record their reason in the changelog only, not
+    in removed_dles.json, so the changelog is the fuller source. Reasons are
+    keyed by date as well as id because a game can be removed more than once.
+    """
+    with open(CHANGELOG_FILE) as f:
+        changelog = json.load(f)
+
+    reasons = {}
+    for entry in changelog:
+        for dle in entry.get("dles removed", []):
+            if "id" in dle and dle.get("reason"):
+                reasons.setdefault((dle["id"], entry["date"]), dle["reason"])
+
+    return reasons
+
+
+def build_history(removed_entry, date_added=None, dle_id=None, reasons=None):
     """Flatten removals[] into a chronological event list.
 
     The nested {date_removed, reason, date_readded} shape makes "is it removed
     right now?" a backwards scan for a removal lacking a date_readded. A flat
     list answers that by looking at the last event.
     """
+    reasons = reasons or {}
     history = []
     if date_added:
         history.append({"date": date_added, "event": "added"})
 
     for removal in removed_entry.get("removals", []):
-        event = {"date": removal["date_removed"], "event": "removed"}
-        if "reason" in removal:
-            event["reason"] = removal["reason"]
+        date = removal["date_removed"]
+        event = {"date": date, "event": "removed"}
+        # removed_dles.json wins when both carry a reason, since a hand edit
+        # there is the more deliberate of the two.
+        reason = removal.get("reason") or reasons.get((dle_id, date))
+        if reason:
+            event["reason"] = reason
         history.append(event)
 
         if "date_readded" in removal:
@@ -114,16 +142,17 @@ def build_history(removed_entry, date_added=None):
 def derive_status(history):
     """Default status from the last history event.
 
-    Only distinguishes active from removed. "archived" (no new dailies, but the
-    back catalogue is still playable) cannot be inferred from the data and is
-    set by hand after a link check.
+    "archived" (no new dailies, but the back catalogue is still playable)
+    cannot be inferred from a removal reason, so it is set by hand after
+    checking the site. Once set, the history carries an "archived" event and
+    this maps it back, so re-running the split does not undo that judgement.
     """
-    if history and history[-1]["event"] == "removed":
-        return "removed"
+    if history and history[-1]["event"] in ("removed", "archived"):
+        return history[-1]["event"]
     return "active"
 
 
-def merge(active, removed, date_added=None):
+def merge(active, removed, date_added=None, reasons=None):
     """Combine the active and removed records for one game.
 
     Either side may be None. When both exist the game was removed and later
@@ -133,7 +162,8 @@ def merge(active, removed, date_added=None):
     base = dict(active) if active else dict(removed)
     base.pop("removals", None)
 
-    history = build_history(removed or {}, date_added)
+    dle_id = (active or removed)["id"]
+    history = build_history(removed or {}, date_added, dle_id, reasons)
 
     # A removed record that predates a re-add can hold a URL the game has since
     # moved away from. That is the only URL history recorded anywhere today.
@@ -178,13 +208,16 @@ def load_all():
     removed_by_id = {d["id"]: d for d in removed}
 
     add_dates = read_add_dates()
+    reasons = read_removal_reasons()
 
     dles = []
     for dle_id, dle in active_by_id.items():
-        dles.append(merge(dle, removed_by_id.get(dle_id), add_dates.get(dle_id)))
+        dles.append(
+            merge(dle, removed_by_id.get(dle_id), add_dates.get(dle_id), reasons)
+        )
     for dle_id, dle in removed_by_id.items():
         if dle_id not in active_by_id:
-            dles.append(merge(None, dle, add_dates.get(dle_id)))
+            dles.append(merge(None, dle, add_dates.get(dle_id), reasons))
 
     return active, dles
 
@@ -192,6 +225,39 @@ def load_all():
 def to_json_record(dle):
     """Project a YAML record back down to the dles.json field set."""
     return {k: dle[k] for k in JSON_FIELDS if k in dle}
+
+
+def preserve_manual_fields(dles):
+    """Carry hand-set fields over from YAML files that already exist.
+
+    The JSON sources only know active and removed, so regenerating would
+    otherwise revert an "archived" judgement made by checking the site. Any
+    field the JSON cannot express is restored from the file on disk.
+    """
+    if not os.path.isdir(OUT_DIR):
+        return
+
+    existing = {d["id"]: d for d in read_yaml_dir()}
+
+    for dle in dles:
+        prior = existing.get(dle["id"])
+        if not prior:
+            continue
+
+        if prior.get("status") == "archived":
+            dle["status"] = "archived"
+            # Keep the terminal event in step with the status, so the two
+            # cannot drift apart and derive_status stays correct.
+            for event in dle.get("history", []):
+                if event["event"] == "removed" and any(
+                    p["event"] == "archived" and p["date"] == event["date"]
+                    for p in prior.get("history", [])
+                ):
+                    event["event"] = "archived"
+
+        for field in MANUAL_FIELDS:
+            if field in prior and field not in dle:
+                dle[field] = prior[field]
 
 
 def write_yaml(dles):
@@ -231,8 +297,11 @@ def check(original_active):
     A clean result means the split lost nothing that the site currently reads.
     """
     dles = read_yaml_dir()
+    # Archived games are kept out of dles.json alongside removed ones: the site
+    # has no archived handling yet, so surfacing them would list games that no
+    # longer have a puzzle today. Revisit when archived games get their own UI.
     rebuilt = [
-        to_json_record(d) for d in dles if d.get("status") != "removed"
+        to_json_record(d) for d in dles if d.get("status") == "active"
     ]
     rebuilt.sort(key=lambda d: d["name"].lower())
 
@@ -258,6 +327,7 @@ if __name__ == "__main__":
     if "--check" in sys.argv:
         sys.exit(0 if check(original_active) else 1)
 
+    preserve_manual_fields(dles)
     count = write_yaml(dles)
     print(f"Wrote {count} YAML files to {OUT_DIR}")
 

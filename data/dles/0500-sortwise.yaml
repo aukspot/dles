@@ -9,3 +9,4 @@ history:
   event: added
 - date: '2026-07-25'
   event: removed
+  reason: Daily puzzle no longer loads.

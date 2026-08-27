@@ -3,9 +3,10 @@ name: Couplit
 url: https://couplit.io
 description: Arrange the letters to spell out a phrase based on today's theme.
 category: Words
-status: removed
+status: archived
 history:
 - date: '2025-06-11'
   event: added
 - date: '2026-08-26'
-  event: removed
+  event: archived
+  reason: No new puzzles. Archive still available.

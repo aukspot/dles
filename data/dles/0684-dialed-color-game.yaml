@@ -12,5 +12,6 @@ history:
   event: added
 - date: '2026-02-24'
   event: removed
+  reason: They removed the daily version.
 - date: '2026-03-11'
   event: readded

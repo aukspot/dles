@@ -3,9 +3,10 @@ name: GuessTheMovie.me
 url: https://guessthemovie.me
 description: Guess the movie based on its reviews on Letterboxd.
 category: Movies/TV
-status: removed
+status: archived
 history:
 - date: '2025-10-06'
   event: added
 - date: '2026-04-20'
-  event: removed
+  event: archived
+  reason: No new puzzles since March 13, 2026. Archive still available.

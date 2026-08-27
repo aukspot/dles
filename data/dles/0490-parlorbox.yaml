@@ -9,5 +9,6 @@ history:
   event: added
 - date: '2026-02-24'
   event: removed
+  reason: Instructions button opens suspicious url.
 - date: '2026-03-24'
   event: readded

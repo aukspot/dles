@@ -14,3 +14,4 @@ history:
   event: readded
 - date: '2026-02-18'
   event: removed
+  reason: Song audio does not play.

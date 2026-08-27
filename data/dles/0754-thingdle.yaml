@@ -9,5 +9,6 @@ history:
   event: added
 - date: '2026-05-18'
   event: removed
+  reason: Contains AI-generated images.
 - date: '2026-08-26'
   event: readded
