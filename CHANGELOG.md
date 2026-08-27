@@ -2,7 +2,7 @@
 
 ## 2026-08-26
 
-Add 21 dles. Remove 3 dles. Move Odle to Novelty.
+Add 21 dles. Remove 4 dles. Move Odle to Novelty.
 
 dles added: 
 |    | name                                                            | url                                                                                            |   id |
@@ -34,7 +34,8 @@ dles removed:
 |---:|:----------------------------------------------------|:---------------------------------------------------------------------------------------|-----:|:-----------------------------------------|
 |  1 | [Chronoodle](https://chronoodle.com)                | [https://chronoodle.com](https://chronoodle.com)                                       |  677 | Game has ended. Archive still available. |
 |  2 | [Numblino](https://numblino.com)                    | [https://numblino.com](https://numblino.com)                                           |  552 | No new puzzles. Archive still available. |
-|  3 | [Stacks](https://www.theatlantic.com/games/stacks/) | [https://www.theatlantic.com/games/stacks/](https://www.theatlantic.com/games/stacks/) |  365 | nan                                      |
+|  3 | [Stacks](https://www.theatlantic.com/games/stacks/) | [https://www.theatlantic.com/games/stacks/](https://www.theatlantic.com/games/stacks/) |  365 | No longer available.                     |
+|  4 | [Couplit](https://couplit.io)                       | [https://couplit.io](https://couplit.io)                                               |   70 | No new puzzles. Archive still available. |
 ## 2026-08-02
 
 Add 6 dles. Remove 5 dles. 
@@ -63,9 +64,9 @@ Remove 1 dle.
 
 
 dles removed: 
-|    | name                             | url                                          |   id |
-|---:|:---------------------------------|:---------------------------------------------|-----:|
-|  1 | [Sortwise](https://sortwise.fun) | [https://sortwise.fun](https://sortwise.fun) |  500 |
+|    | name                             | url                                          |   id | reason                        |
+|---:|:---------------------------------|:---------------------------------------------|-----:|:------------------------------|
+|  1 | [Sortwise](https://sortwise.fun) | [https://sortwise.fun](https://sortwise.fun) |  500 | Daily puzzle no longer loads. |
 ## 2026-07-21
 
 Add 3 dles. 
@@ -252,19 +253,19 @@ Remove 1 dle.
 
 
 dles removed: 
-|    | name                               | url                                                |   id |
-|---:|:-----------------------------------|:---------------------------------------------------|-----:|
-|  1 | [Stepdle](https://www.stepdle.com) | [https://www.stepdle.com](https://www.stepdle.com) |  369 |
+|    | name                               | url                                                |   id | reason               |
+|---:|:-----------------------------------|:---------------------------------------------------|-----:|:---------------------|
+|  1 | [Stepdle](https://www.stepdle.com) | [https://www.stepdle.com](https://www.stepdle.com) |  369 | No longer available. |
 ## 2026-04-20
 
 Remove 2 dles. 
 
 
 dles removed: 
-|    | name                                          | url                                                      |   id |
-|---:|:----------------------------------------------|:---------------------------------------------------------|-----:|
-|  1 | [GuessTheMovie.me](https://guessthemovie.me)  | [https://guessthemovie.me](https://guessthemovie.me)     |  519 |
-|  2 | [Hitori Conquest](https://hitoriconquest.com) | [https://hitoriconquest.com](https://hitoriconquest.com) |  170 |
+|    | name                                          | url                                                      |   id | reason                                                        |
+|---:|:----------------------------------------------|:---------------------------------------------------------|-----:|:--------------------------------------------------------------|
+|  1 | [GuessTheMovie.me](https://guessthemovie.me)  | [https://guessthemovie.me](https://guessthemovie.me)     |  519 | No new puzzles since March 13, 2026. Archive still available. |
+|  2 | [Hitori Conquest](https://hitoriconquest.com) | [https://hitoriconquest.com](https://hitoriconquest.com) |  170 | No daily puzzle, changes on refresh.                          |
 ## 2026-04-07
 
 Add 3 dles. 
@@ -555,9 +556,9 @@ dles added:
 | 10 | [Sudoku Shift](https://coffeefirst.games/sudoku-shift/) | [https://coffeefirst.games/sudoku-shift/](https://coffeefirst.games/sudoku-shift/)           |  657 |
 
 dles removed: 
-|    | name                                                          | url                                                                          |   id |
-|---:|:--------------------------------------------------------------|:-----------------------------------------------------------------------------|-----:|
-|  1 | [Trivial Pursuit Daily](https://www.trivialpursuit.com/daily) | [https://www.trivialpursuit.com/daily](https://www.trivialpursuit.com/daily) |  561 |
+|    | name                                                          | url                                                                          |   id | reason               |
+|---:|:--------------------------------------------------------------|:-----------------------------------------------------------------------------|-----:|:---------------------|
+|  1 | [Trivial Pursuit Daily](https://www.trivialpursuit.com/daily) | [https://www.trivialpursuit.com/daily](https://www.trivialpursuit.com/daily) |  561 | No longer available. |
 ## 2026-01-23
 
 Add 7 dles. 
@@ -616,12 +617,12 @@ dles added:
 | 23 | [WRDLINK](https://www.wrdlink.io)                                            | [https://www.wrdlink.io](https://www.wrdlink.io)                                                               |  637 |
 
 dles removed: 
-|    | name                                                        | url                                                              |   id |
-|---:|:------------------------------------------------------------|:-----------------------------------------------------------------|-----:|
-|  1 | [Moviedle (from Histordle)](https://histordle.com/moviedle) | [https://histordle.com/moviedle](https://histordle.com/moviedle) |  243 |
-|  2 | [Petdle](https://petdle.link)                               | [https://petdle.link](https://petdle.link)                       |  278 |
-|  3 | [Songle](https://histordle.com/songle)                      | [https://histordle.com/songle](https://histordle.com/songle)     |  345 |
-|  4 | [Yeardle](https://histordle.com/yeardle)                    | [https://histordle.com/yeardle](https://histordle.com/yeardle)   |  450 |
+|    | name                                                        | url                                                              |   id | reason               |
+|---:|:------------------------------------------------------------|:-----------------------------------------------------------------|-----:|:---------------------|
+|  1 | [Moviedle (from Histordle)](https://histordle.com/moviedle) | [https://histordle.com/moviedle](https://histordle.com/moviedle) |  243 | No daily puzzle.     |
+|  2 | [Petdle](https://petdle.link)                               | [https://petdle.link](https://petdle.link)                       |  278 | No longer available. |
+|  3 | [Songle](https://histordle.com/songle)                      | [https://histordle.com/songle](https://histordle.com/songle)     |  345 | No daily puzzle.     |
+|  4 | [Yeardle](https://histordle.com/yeardle)                    | [https://histordle.com/yeardle](https://histordle.com/yeardle)   |  450 | No daily puzzle.     |
 ## 2026-01-06
 
 Add 5 dles. Remove 2 dles. 
@@ -636,10 +637,10 @@ dles added:
 |  5 | [Seadle](https://seadle.muhashi.com)                       | [https://seadle.muhashi.com](https://seadle.muhashi.com)                 |  614 |
 
 dles removed: 
-|    | name                                              | url                                                                      |   id |
-|---:|:--------------------------------------------------|:-------------------------------------------------------------------------|-----:|
-|  1 | [Collections](https://puzzmallow.com/collections) | [https://puzzmallow.com/collections](https://puzzmallow.com/collections) |   58 |
-|  2 | [Meleedle](https://meleedle.netlify.app/)         | [https://meleedle.netlify.app/](https://meleedle.netlify.app/)           |  486 |
+|    | name                                              | url                                                                      |   id | reason                                   |
+|---:|:--------------------------------------------------|:-------------------------------------------------------------------------|-----:|:-----------------------------------------|
+|  1 | [Collections](https://puzzmallow.com/collections) | [https://puzzmallow.com/collections](https://puzzmallow.com/collections) |   58 | No new puzzles. Archive still available. |
+|  2 | [Meleedle](https://meleedle.netlify.app/)         | [https://meleedle.netlify.app/](https://meleedle.netlify.app/)           |  486 | Daily puzzle is empty.                   |
 ## 2026-01-03
 
 Add 4 dles. Remove 1 dle. 

@@ -834,13 +834,6 @@
     "id": 69
   },
   {
-    "name": "Couplit",
-    "url": "https://couplit.io",
-    "description": "Arrange the letters to spell out a phrase based on today's theme.",
-    "category": "Words",
-    "id": 70
-  },
-  {
     "name": "Cracked Sudoku",
     "url": "https://danielchasehooper.com/projects/cracked-sudoku/",
     "description": "Fill the cells with numbers 1-9 without repeating numbers in a dark-outlined group or along a colored run line.",

@@ -124,10 +124,17 @@
       {
         "name": "Stacks",
         "url": "https://www.theatlantic.com/games/stacks/",
-        "id": 365
+        "id": 365,
+        "reason": "No longer available."
+      },
+      {
+        "name": "Couplit",
+        "url": "https://couplit.io",
+        "id": 70,
+        "reason": "No new puzzles. Archive still available."
       }
     ],
-    "description": "Add 21 dles. Remove 3 dles. Move Odle to Novelty."
+    "description": "Add 21 dles. Remove 4 dles. Move Odle to Novelty."
   },
   {
     "date": "2026-08-02",
@@ -203,7 +210,8 @@
       {
         "name": "Sortwise",
         "url": "https://sortwise.fun",
-        "id": 500
+        "id": 500,
+        "reason": "Daily puzzle no longer loads."
       }
     ],
     "description": "Remove 1 dle. "
@@ -666,7 +674,8 @@
       {
         "name": "Stepdle",
         "url": "https://www.stepdle.com",
-        "id": 369
+        "id": 369,
+        "reason": "No longer available."
       }
     ],
     "description": "Remove 1 dle. "
@@ -677,12 +686,14 @@
       {
         "name": "GuessTheMovie.me",
         "url": "https://guessthemovie.me",
-        "id": 519
+        "id": 519,
+        "reason": "No new puzzles since March 13, 2026. Archive still available."
       },
       {
         "name": "Hitori Conquest",
         "url": "https://hitoriconquest.com",
-        "id": 170
+        "id": 170,
+        "reason": "No daily puzzle, changes on refresh."
       }
     ],
     "description": "Remove 2 dles. "
@@ -1407,7 +1418,8 @@
       {
         "name": "Trivial Pursuit Daily",
         "url": "https://www.trivialpursuit.com/daily",
-        "id": 561
+        "id": 561,
+        "reason": "No longer available."
       }
     ],
     "description": "Add 10 dles. Remove 1 dle. "
@@ -1597,22 +1609,26 @@
       {
         "name": "Moviedle (from Histordle)",
         "url": "https://histordle.com/moviedle",
-        "id": 243
+        "id": 243,
+        "reason": "No daily puzzle."
       },
       {
         "name": "Petdle",
         "url": "https://petdle.link",
-        "id": 278
+        "id": 278,
+        "reason": "No longer available."
       },
       {
         "name": "Songle",
         "url": "https://histordle.com/songle",
-        "id": 345
+        "id": 345,
+        "reason": "No daily puzzle."
       },
       {
         "name": "Yeardle",
         "url": "https://histordle.com/yeardle",
-        "id": 450
+        "id": 450,
+        "reason": "No daily puzzle."
       }
     ],
     "description": "Add 23 dles. Remove 4 dles. "
@@ -1650,12 +1666,14 @@
       {
         "name": "Collections",
         "url": "https://puzzmallow.com/collections",
-        "id": 58
+        "id": 58,
+        "reason": "No new puzzles. Archive still available."
       },
       {
         "name": "Meleedle",
         "url": "https://meleedle.netlify.app/",
-        "id": 486
+        "id": 486,
+        "reason": "Daily puzzle is empty."
       }
     ],
     "description": "Add 5 dles. Remove 2 dles. "

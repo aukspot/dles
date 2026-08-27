@@ -132,6 +132,18 @@
     ]
   },
   {
+    "name": "Couplit",
+    "url": "https://couplit.io",
+    "id": 70,
+    "removals": [
+      {
+        "date_removed": "2026-08-26"
+      }
+    ],
+    "description": "Arrange the letters to spell out a phrase based on today's theme.",
+    "category": "Words"
+  },
+  {
     "name": "Daily Tomato",
     "url": "https://www.rottentomatoes.com/movie-trivia",
     "id": "M26",

@@ -650,7 +650,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (243)
+### Words (242)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -685,7 +685,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Connections Game](https://connectionsgame.org) - Group words that share a common thread. Basically a copy of NYT Connections but with 3 difficulty modes and a good archive.
 - [Contexto](https://contexto.me) - Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.
 - [Couples](https://www.couples.game) - Guess the chained word pairs in 3 tries.
-- [Couplit](https://couplit.io) - Arrange the letters to spell out a phrase based on today's theme.
 - [CraftWord](https://craftword.game) - Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.
 - [Crossflip](https://puzzmallow.com/crossflip) - Flip letter tiles to create words that fit today's theme.
 - [Crosshare](https://crosshare.org) - Daily mini crossword from an open-source community of crossword makers.
