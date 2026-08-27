@@ -993,7 +993,8 @@
     "id": 754,
     "removals": [
       {
-        "date_removed": "2026-05-18"
+        "date_removed": "2026-05-18",
+        "date_readded": "2026-08-26"
       }
     ],
     "description": "A daily riddle, where you guess an everyday object.",

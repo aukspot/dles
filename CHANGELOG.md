@@ -2,7 +2,7 @@
 
 ## 2026-08-26
 
-Add 21 dles. Remove 4 dles. Move Odle to Novelty.
+Add 21 dles. Remove 5 dles. Move Odle to Novelty.
 
 dles added: 
 |    | name                                                            | url                                                                                            |   id |
@@ -22,7 +22,7 @@ dles added:
 | 13 | [Quotadle](https://quotadle.com)                                | [https://quotadle.com](https://quotadle.com)                                                   |  820 |
 | 14 | [Rabbithole](https://www.theatlantic.com/games/rabbithole/)     | [https://www.theatlantic.com/games/rabbithole/](https://www.theatlantic.com/games/rabbithole/) |  821 |
 | 15 | [Rackdle](https://rackdle.fun)                                  | [https://rackdle.fun](https://rackdle.fun)                                                     |  822 |
-| 16 | [Thingdle](https://thingdle.app/en/thingdle)                    | [https://thingdle.app/en/thingdle](https://thingdle.app/en/thingdle)                           |  823 |
+| 16 | [Thingdle](https://thingdle.app/en/thingdle)                    | [https://thingdle.app/en/thingdle](https://thingdle.app/en/thingdle)                           |  754 |
 | 17 | [Time Machine (MLB)](https://boxscore.email/games/time-machine) | [https://boxscore.email/games/time-machine](https://boxscore.email/games/time-machine)         |  824 |
 | 18 | [Vexle](https://vexle.org)                                      | [https://vexle.org](https://vexle.org)                                                         |  825 |
 | 19 | [VTuble](https://www.vtuble.moe)                                | [https://www.vtuble.moe](https://www.vtuble.moe)                                               |  826 |
