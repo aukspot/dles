@@ -8,5 +8,7 @@ history:
 - date: '2025-06-11'
   event: added
 - date: '2026-08-26'
-  event: archived
+  event: removed
   reason: No new puzzles. Archive still available.
+- date: '2026-08-27'
+  event: archived

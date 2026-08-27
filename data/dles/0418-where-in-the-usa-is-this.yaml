@@ -5,10 +5,12 @@ description: Guess the location in the United States given 5 pictures of the sam
 category: Geography
 status: archived
 archive_url: https://pudding.cool/games/where/?skip=true&game=0
+notes: 'Archive is awkward: the game starts at puzzle 1 and only advances via Next. A specific day can be reached with ?skip=true&game=N, where N is zero-indexed (game=100 is day 101).'
 history:
 - date: '2024-04-10'
   event: added
 - date: '2025-08-30'
-  event: archived
+  event: removed
   reason: The game has ended.
-notes: 'Archive is awkward: the game starts at puzzle 1 and only advances via Next. A specific day can be reached with ?skip=true&game=N, where N is zero-indexed (game=100 is day 101).'
+- date: '2026-08-27'
+  event: archived

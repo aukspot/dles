@@ -8,5 +8,7 @@ history:
 - date: '2026-02-15'
   event: added
 - date: '2026-08-26'
-  event: archived
+  event: removed
   reason: Game has ended. Archive still available.
+- date: '2026-08-27'
+  event: archived

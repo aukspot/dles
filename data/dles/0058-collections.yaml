@@ -5,9 +5,12 @@ description: Guess the category of the three hidden words by revealing one lette
 category: Words
 theme: Find connections
 status: archived
+archive_url: https://puzzmallow.com/collections/archive
 history:
 - date: '2025-07-06'
   event: added
 - date: '2026-01-06'
-  event: archived
+  event: removed
   reason: No new puzzles. Archive still available.
+- date: '2026-08-27'
+  event: archived
