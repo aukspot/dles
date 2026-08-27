@@ -2,7 +2,7 @@
 
 ## 2026-08-26
 
-Add 21 dles. Remove 5 dles. Move Odle to Novelty.
+Add 21 dles. Remove 4 dles. Move Odle to Novelty.
 
 dles added: 
 |    | name                                                            | url                                                                                            |   id |
