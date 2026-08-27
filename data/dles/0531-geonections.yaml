@@ -1,0 +1,9 @@
+id: 531
+name: Geonections
+url: https://geonections.com
+description: Connections but you group countries based on StreetView images.
+category: Geography
+status: active
+history:
+- date: '2025-10-19'
+  event: added

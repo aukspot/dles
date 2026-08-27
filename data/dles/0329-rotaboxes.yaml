@@ -1,0 +1,9 @@
+id: 329
+name: Rotaboxes
+url: https://rotaboxes.com
+description: Rotate all the tiles into their correct orientation to reveal today's picture.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-07-20'
+  event: added

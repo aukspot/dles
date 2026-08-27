@@ -1,0 +1,9 @@
+id: M10
+name: Jeopardle
+url: https://jeopardle.co
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2025-07-06'
+  event: removed

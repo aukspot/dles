@@ -1,0 +1,11 @@
+id: 639
+name: Outlier
+url: https://outlier.land
+description: Repeatedly pick the outlier as quickly as you can.
+category: Words
+status: removed
+history:
+- date: '2026-01-12'
+  event: added
+- date: '2026-03-28'
+  event: removed

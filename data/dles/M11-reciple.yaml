@@ -1,0 +1,10 @@
+id: M11
+name: Reciple
+url: https://reciple.net
+status: removed
+history:
+- date: '2024-09-18'
+  event: added
+- date: '2025-06-29'
+  event: removed
+  reason: No new daily recipes.

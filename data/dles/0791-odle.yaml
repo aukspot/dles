@@ -1,0 +1,9 @@
+id: 791
+name: Odle
+url: https://www.odle.app
+description: Write an ode to today's subject using only the letters provided.
+category: Novelty
+status: active
+history:
+- date: '2026-07-10'
+  event: added

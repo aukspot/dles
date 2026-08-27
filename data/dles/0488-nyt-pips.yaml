@@ -1,0 +1,9 @@
+id: 488
+name: NYT Pips
+url: https://www.nytimes.com/games/pips
+description: Fill the board with all the dominoes and meet the conditions.
+category: Math/Logic
+status: active
+history:
+- date: '2025-08-30'
+  event: added

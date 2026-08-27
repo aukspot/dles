@@ -1,0 +1,9 @@
+id: 325
+name: Rhyme Time
+url: https://www.rhymetime.co
+description: Guess the three words that all rhyme.
+category: Words
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 721
+name: BallotGuessr
+url: https://ballotguessr.com/daily
+description: Guess how the region voted given a Google Streetview location. 5 rounds every day.
+category: Geography
+status: active
+history:
+- date: '2026-03-14'
+  event: added

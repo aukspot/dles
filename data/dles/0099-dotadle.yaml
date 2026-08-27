@@ -1,0 +1,10 @@
+id: 99
+name: Dotadle
+url: https://dotadle.net
+description: Guess the Dota characters in these daily quizzes.
+category: Video Games
+theme: Dota
+status: active
+history:
+- date: '2024-06-22'
+  event: added

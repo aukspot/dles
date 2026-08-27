@@ -1,0 +1,11 @@
+id: 365
+name: Stacks
+url: https://www.theatlantic.com/games/stacks/
+description: Stack words from the word bank to create new words going horizontally. (From The Atlantic)
+category: Words
+status: removed
+history:
+- date: '2025-06-29'
+  event: added
+- date: '2026-08-26'
+  event: removed

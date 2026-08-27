@@ -1,0 +1,9 @@
+id: 313
+name: Quotesed
+url: https://www.quotesed.com
+description: Guess the movie given 6 quotes.
+category: Movies/TV
+status: active
+history:
+- date: '2025-06-11'
+  event: added

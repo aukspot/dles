@@ -1,0 +1,10 @@
+id: 39
+name: Categories
+url: https://categories.clevergoat.com
+description: Group the words in the grid into the 4 secret categories, like Connections or Conexo.
+category: Words
+theme: Find connections
+status: active
+history:
+- date: '2024-06-22'
+  event: added

@@ -1,0 +1,9 @@
+id: 673
+name: Viewdle
+url: https://viewdle.org
+description: Guess the country based on the view.
+category: Geography
+status: active
+history:
+- date: '2026-02-07'
+  event: added

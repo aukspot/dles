@@ -1,0 +1,10 @@
+id: 85
+name: Daily Tens
+url: https://dailytens.com
+description: Guess the top 10 items of today's category.
+category: Trivia
+theme: Guess the List
+status: active
+history:
+- date: '2024-11-24'
+  event: added

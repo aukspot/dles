@@ -1,0 +1,9 @@
+id: 624
+name: Marveldle
+url: https://marveldle.com/character/audiovisual/guess
+description: Guess the daily character from the Marvel Cinematic Universe.
+category: Movies/TV
+status: active
+history:
+- date: '2026-01-11'
+  event: added

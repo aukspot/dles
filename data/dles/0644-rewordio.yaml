@@ -1,0 +1,9 @@
+id: 644
+name: Rewordio
+url: https://rewordio.com
+description: Move stacks of letters between columns to solve the clues.
+category: Words
+status: active
+history:
+- date: '2026-01-23'
+  event: added

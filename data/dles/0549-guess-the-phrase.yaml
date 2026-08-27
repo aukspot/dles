@@ -1,0 +1,9 @@
+id: 549
+name: Guess The Phrase
+url: https://guessthephrase.xyz
+description: Solve each of the inner clues until you reveal the phrase, like Bracket City.
+category: Words
+status: active
+history:
+- date: '2025-11-23'
+  event: added

@@ -1,0 +1,11 @@
+id: 144
+name: graphs.world
+url: https://www.graphs.world
+description: Select the dataset that fits the displayed graph.
+category: Miscellaneous
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2026-08-02'
+  event: removed

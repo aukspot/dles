@@ -1,0 +1,9 @@
+id: 680
+name: Cadgy
+url: https://cadgy.net
+description: Make valid 5-letter words by selecting one letter from each column.
+category: Words
+status: active
+history:
+- date: '2026-02-18'
+  event: added

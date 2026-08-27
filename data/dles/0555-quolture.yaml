@@ -1,0 +1,9 @@
+id: 555
+name: Quolture
+url: https://www.quolture.com/#/
+description: Guess the movie or TV show the given quote is from. 1st round is a movie, 2nd round is a TV show.
+category: Movies/TV
+status: active
+history:
+- date: '2025-11-23'
+  event: added

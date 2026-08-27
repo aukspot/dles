@@ -1,0 +1,9 @@
+id: 777
+name: Poopguessr
+url: https://poopguessr.com
+description: Guess the animal based on their poop.
+category: Science/Nature
+status: active
+history:
+- date: '2026-06-12'
+  event: added

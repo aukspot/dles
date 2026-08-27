@@ -1,0 +1,9 @@
+id: 601
+name: Brainer
+url: https://gamebunny.app/brainer
+description: A weekday quiz show with creative questions from several categories.
+category: Trivia
+status: active
+history:
+- date: '2026-01-01'
+  event: added

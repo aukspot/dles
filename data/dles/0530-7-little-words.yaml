@@ -1,0 +1,9 @@
+id: 530
+name: 7 Little Words
+url: https://7littlewords.com/7lw
+description: Combine tiles to create words matching the clues, 5 rounds everyday
+category: Words
+status: active
+history:
+- date: '2025-10-19'
+  event: added

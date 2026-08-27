@@ -1,0 +1,9 @@
+id: 94
+name: Disordle
+url: https://disordle.com
+description: Diagnose the patient with a disorder based on their symptoms.
+category: Science/Nature
+status: active
+history:
+- date: '2025-06-11'
+  event: added

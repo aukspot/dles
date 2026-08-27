@@ -1,0 +1,9 @@
+id: 373
+name: Sumplete
+url: https://sumplete.com/daily
+description: Delete numbers so that each row and column adds up to their target number.
+category: Math/Logic
+status: active
+history:
+- date: '2024-02-27'
+  event: added

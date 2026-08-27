@@ -1,0 +1,12 @@
+id: 403
+name: Twofer Goofer
+url: https://twofergoofer.com
+description: Guess the pair of rhyming words that form the given nonsensical phrase.
+category: Words
+status: removed
+history:
+- date: '2024-04-10'
+  event: added
+- date: '2025-10-19'
+  event: removed
+  reason: Contains AI-generated images.

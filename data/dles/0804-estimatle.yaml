@@ -1,0 +1,9 @@
+id: 804
+name: Estimatle
+url: https://estimatle.com
+description: Five daily estimation-trivia questions with global stats.
+category: Estimation
+status: active
+history:
+- date: '2026-08-02'
+  event: added

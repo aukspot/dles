@@ -1,0 +1,9 @@
+id: 529
+name: Wordgy
+url: https://wordgy.com
+description: Guess all five missing words by forming two-word phrases or compound words with the word below each tile.
+category: Words
+status: active
+history:
+- date: '2025-10-17'
+  event: added

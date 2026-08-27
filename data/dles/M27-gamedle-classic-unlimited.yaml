@@ -1,0 +1,10 @@
+id: M27
+name: Gamedle Classic Unlimited
+url: https://www.gamedle.wtf/unlimited
+status: removed
+history:
+- date: '2024-02-13'
+  event: added
+- date: '2024-02-14'
+  event: removed
+  reason: Not a daily game.

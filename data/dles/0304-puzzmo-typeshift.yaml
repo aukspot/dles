@@ -1,0 +1,9 @@
+id: 304
+name: Puzzmo - Typeshift
+url: https://www.puzzmo.com/play/typeshift
+description: Slide columns of letters to make words, using all of the letters along the way.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

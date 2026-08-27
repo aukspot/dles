@@ -1,0 +1,9 @@
+id: 207
+name: LinkedIn - Queens
+url: https://www.linkedin.com/games/queens
+description: Place queens on the board such that exactly one is in each row, column, and color region. Does not require a LinkedIn account.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 591
+name: Pair Down
+url: https://pairdown.com
+description: Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.
+category: Words
+status: active
+history:
+- date: '2025-12-20'
+  event: added

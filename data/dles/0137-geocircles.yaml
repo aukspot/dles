@@ -1,0 +1,12 @@
+id: 137
+name: Geocircles
+url: https://geocircles.io
+description: Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.
+category: Geography
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2025-12-02'
+  event: removed
+  reason: No longer available due to API costs.

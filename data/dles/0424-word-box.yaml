@@ -1,0 +1,9 @@
+id: 424
+name: Word Box
+url: https://wordbox.game
+description: Swap letters until each row and column forms a valid word.
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

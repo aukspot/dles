@@ -1,0 +1,9 @@
+id: 124
+name: Flagle Game
+url: https://flagle-game.com
+description: Guess the hidden flag in six guesses, revealing where your guess overlaps with the solution after each try.
+category: Geography
+status: active
+history:
+- date: '2024-11-24'
+  event: added

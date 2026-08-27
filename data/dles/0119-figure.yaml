@@ -1,0 +1,9 @@
+id: 119
+name: Figure
+url: https://figure.game
+description: Clear all of the tiles before running out of moves.
+category: Math/Logic
+status: active
+history:
+- date: '2024-05-28'
+  event: added

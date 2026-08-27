@@ -1,0 +1,9 @@
+id: 643
+name: Luckle
+url: https://luckle.org
+description: Roll the dice until it lands on the target number. 3 rounds per day.
+category: Novelty
+status: active
+history:
+- date: '2026-01-23'
+  event: added

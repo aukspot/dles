@@ -1,0 +1,9 @@
+id: 445
+name: Worldle
+url: https://worldle.teuteuf.fr
+description: Guess the country by its shape on the world map.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

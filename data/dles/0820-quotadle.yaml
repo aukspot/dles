@@ -1,0 +1,9 @@
+id: 820
+name: Quotadle
+url: https://quotadle.com
+description: Daily typing challenge featuring memorable quotes.
+category: Words
+status: active
+history:
+- date: '2026-08-26'
+  event: added

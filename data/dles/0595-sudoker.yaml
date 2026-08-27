@@ -1,0 +1,9 @@
+id: 595
+name: Sudoker
+url: https://sudoker.io
+description: Rearrange the cards to create better Poker hands and maximize scores across rows and columns.
+category: Card/Board Games
+status: active
+history:
+- date: '2025-12-20'
+  event: added

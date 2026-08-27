@@ -1,0 +1,10 @@
+id: M26
+name: Daily Tomato
+url: https://www.rottentomatoes.com/movie-trivia
+status: removed
+history:
+- date: '2024-02-17'
+  event: added
+- date: '2024-05-28'
+  event: removed
+  reason: The game is on hiatus, starting May 10, 2024.

@@ -1,0 +1,10 @@
+id: 83
+name: Daily Fill-Ins
+url: https://azgames.io/game/daily-fill-ins
+description: Properly fill in the clue-less crossword with all of the words from the given word list.
+category: Words
+theme: Crosswords
+status: active
+history:
+- date: '2024-09-18'
+  event: added

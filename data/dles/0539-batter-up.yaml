@@ -1,0 +1,9 @@
+id: 539
+name: Batter Up
+url: https://www.batter-up.app
+description: Based on a silhouette video of their batting stance, guess the MLB player.
+category: Sports
+status: active
+history:
+- date: '2025-11-23'
+  event: added

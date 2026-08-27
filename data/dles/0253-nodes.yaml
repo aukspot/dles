@@ -1,0 +1,9 @@
+id: 253
+name: Nodes
+url: https://www.nodes-game.com
+description: A puzzle game where you connect dots to reveal beautiful images.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2025-05-08'
+  event: added

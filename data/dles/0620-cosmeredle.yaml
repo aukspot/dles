@@ -1,0 +1,9 @@
+id: 620
+name: Cosmeredle
+url: https://cosmeredle.net
+description: Guess the character from Brandon Sanderson's Cosmere universe by narrowing down their book, world, and abilities.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-01-11'
+  event: added

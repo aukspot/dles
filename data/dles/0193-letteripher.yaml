@@ -1,0 +1,9 @@
+id: 193
+name: Letteripher
+url: https://letteripher.com
+description: Guess letters to reveal all words of some daily category without losing all your lives.
+category: Words
+status: active
+history:
+- date: '2025-07-06'
+  event: added

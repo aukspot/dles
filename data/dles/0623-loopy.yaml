@@ -1,0 +1,9 @@
+id: 623
+name: Loopy
+url: https://loopy.wtf
+description: Make a loop based on the numbers in the grid.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-01-11'
+  event: added

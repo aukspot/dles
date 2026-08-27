@@ -1,0 +1,9 @@
+id: 386
+name: The Daily Burgle
+url: https://www.thedailyburgle.app
+description: Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.
+category: Movies/TV
+status: active
+history:
+- date: '2025-04-02'
+  event: added

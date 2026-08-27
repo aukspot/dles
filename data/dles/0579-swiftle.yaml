@@ -1,0 +1,9 @@
+id: 579
+name: Swiftle
+url: https://www.techyonic.co/swiftle
+description: Listen to the clip and guess the Taylor Swift song.
+category: Music
+status: active
+history:
+- date: '2025-12-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 452
+name: Zebra Puzzles
+url: https://www.zebrapuzzles.com
+description: A collection of 5 daily logic puzzles of increasing difficulty.
+category: Math/Logic
+status: active
+history:
+- date: '2024-06-22'
+  event: added

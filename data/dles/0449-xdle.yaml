@@ -1,0 +1,9 @@
+id: 449
+name: xdle
+url: https://zaratustra.itch.io/xdle
+description: Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
+category: Math/Logic
+status: active
+history:
+- date: '2024-07-20'
+  event: added

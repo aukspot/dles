@@ -1,0 +1,9 @@
+id: 381
+name: Temple
+url: https://tck.mn/temple
+description: Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
+category: Estimation
+status: active
+history:
+- date: '2025-06-11'
+  event: added

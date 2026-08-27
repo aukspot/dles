@@ -1,0 +1,9 @@
+id: 100
+name: Dungleon
+url: https://www.dungleon.com
+description: Guess the dungeon's composition in 6 guesses.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-02-16'
+  event: added

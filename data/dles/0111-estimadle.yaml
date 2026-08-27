@@ -1,0 +1,11 @@
+id: 111
+name: Estimadle
+url: https://estimadle.com
+description: Estimate the number of circles within 10 seconds.
+category: Estimation
+status: removed
+history:
+- date: '2025-06-29'
+  event: added
+- date: '2026-06-01'
+  event: removed

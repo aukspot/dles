@@ -1,0 +1,9 @@
+id: 541
+name: Chartle
+url: https://chartle.cc
+description: Guess the country based on the chart.
+category: Geography
+status: active
+history:
+- date: '2025-11-23'
+  event: added

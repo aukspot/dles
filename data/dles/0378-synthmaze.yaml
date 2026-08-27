@@ -1,0 +1,9 @@
+id: 378
+name: Synthmaze
+url: https://synthmaze.heliante.io/#/daily
+description: Swap tiles in the maze so that the rocket reaches the exit.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-06-22'
+  event: added

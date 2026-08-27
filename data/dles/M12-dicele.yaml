@@ -1,0 +1,10 @@
+id: M12
+name: Dicele
+url: https://dicele.com
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2025-06-24'
+  event: removed
+  reason: Site no longer loads.

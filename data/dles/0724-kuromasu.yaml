@@ -1,0 +1,9 @@
+id: 724
+name: Kuromasu
+url: https://nibble.games/kuromasu/kuromasu-small.html
+description: Fill the board with either black or teal squares based on the numbered cells.
+category: Math/Logic
+status: active
+history:
+- date: '2026-03-21'
+  event: added

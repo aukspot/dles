@@ -1,0 +1,12 @@
+id: 328
+name: Rolldle
+url: https://www.light.gg/rolldle/
+description: Guess the roll of the weapon from Destiny 2.
+category: Video Games
+theme: Destiny
+status: removed
+history:
+- date: '2025-07-06'
+  event: added
+- date: '2025-11-11'
+  event: removed

@@ -1,0 +1,9 @@
+id: 356
+name: Spotle
+url: https://spotle.io
+description: Guess the music artist in 10 tries, gaining new information based on each guess.
+category: Music
+status: active
+history:
+- date: '2024-05-28'
+  event: added

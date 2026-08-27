@@ -1,0 +1,9 @@
+id: 212
+name: Lirdle
+url: https://lirdle.com
+description: Wordle except each line contains a lie. (Like Fibble)
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

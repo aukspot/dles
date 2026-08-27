@@ -1,0 +1,9 @@
+id: 138
+name: GeoConnections
+url: https://geoconnections.net
+description: Group geography-related squares that share a common theme.
+category: Geography
+status: active
+history:
+- date: '2025-02-16'
+  event: added

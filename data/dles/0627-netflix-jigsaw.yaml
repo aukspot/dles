@@ -1,0 +1,9 @@
+id: 627
+name: Netflix - Jigsaw
+url: https://www.netflix.com/tudum/puzzled/jigsaw/daily
+description: Complete the image by finding the right spot for each piece. Does not require a Netflix account.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-01-11'
+  event: added

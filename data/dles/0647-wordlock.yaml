@@ -1,0 +1,11 @@
+id: 647
+name: WordLock
+url: https://wordlockgame.com
+description: Create 5 words by choosing one letter from each column.
+category: Words
+status: removed
+history:
+- date: '2026-01-23'
+  event: added
+- date: '2026-03-14'
+  event: removed

@@ -1,0 +1,9 @@
+id: 206
+name: LinkedIn - Pinpoint
+url: https://www.linkedin.com/games/pinpoint
+description: Guess today's category given as few clues as possible. Does not require a LinkedIn account.
+category: Words
+status: active
+history:
+- date: '2025-06-11'
+  event: added

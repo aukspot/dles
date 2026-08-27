@@ -1,0 +1,9 @@
+id: 276
+name: pedantle
+url: https://pedantle.certitudes.org
+description: Find the secret Wikipedia page by revealing the words in its introduction.
+category: Trivia
+status: active
+history:
+- date: '2024-02-27'
+  event: added

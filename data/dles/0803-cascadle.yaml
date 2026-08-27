@@ -1,0 +1,9 @@
+id: 803
+name: Cascadle
+url: https://cascadle.xyz
+description: Solve 5 linked Wordle puzzles, growing from 3 letters to 7 letters long.
+category: Words
+status: active
+history:
+- date: '2026-08-02'
+  event: added

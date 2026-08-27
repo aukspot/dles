@@ -1,0 +1,9 @@
+id: 132
+name: Gamedle Artwork
+url: https://www.gamedle.wtf/artwork
+description: Guess the video game by its artwork.
+category: Video Games
+status: active
+history:
+- date: '2024-02-13'
+  event: added

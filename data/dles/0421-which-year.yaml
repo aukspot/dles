@@ -1,0 +1,9 @@
+id: 421
+name: Which year
+url: https://whichyr.com
+description: Guess which year each photo was taken.
+category: History
+status: active
+history:
+- date: '2025-05-08'
+  event: added

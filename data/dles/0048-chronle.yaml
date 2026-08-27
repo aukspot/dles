@@ -1,0 +1,9 @@
+id: 48
+name: Chronle
+url: https://chronle.com
+description: Put the events in the order of when they happened.
+category: History
+status: active
+history:
+- date: '2025-06-29'
+  event: added

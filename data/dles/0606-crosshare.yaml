@@ -1,0 +1,9 @@
+id: 606
+name: Crosshare
+url: https://crosshare.org
+description: Daily mini crossword from an open-source community of crossword makers.
+category: Words
+status: active
+history:
+- date: '2026-01-03'
+  event: added

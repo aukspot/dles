@@ -1,0 +1,9 @@
+id: 583
+name: Weather Darts
+url: http://www.weatherdarts.com
+description: Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
+category: Miscellaneous
+status: active
+history:
+- date: '2025-12-11'
+  event: added

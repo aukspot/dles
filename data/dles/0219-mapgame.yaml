@@ -1,0 +1,9 @@
+id: 219
+name: MapGame
+url: https://mapgame.net
+description: Use the map to guess a country, getting new hints after each guess.
+category: Geography
+status: active
+history:
+- date: '2024-04-10'
+  event: added

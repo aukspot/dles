@@ -1,0 +1,9 @@
+id: 456
+name: Gamedle Character
+url: https://www.gamedle.wtf/characters
+description: Guess the video game character by their artwork.
+category: Video Games
+status: active
+history:
+- date: '2025-07-24'
+  event: added

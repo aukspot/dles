@@ -1,0 +1,10 @@
+id: 453
+name: Zeldadle
+url: https://www.zeldadle.net
+description: Test your Zelda knowledge in these daily games.
+category: Video Games
+theme: Zelda
+status: active
+history:
+- date: '2024-11-24'
+  event: added

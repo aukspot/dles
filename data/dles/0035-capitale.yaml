@@ -1,0 +1,11 @@
+id: 35
+name: Capitale
+url: https://capitale.countryle.com
+description: Guess the world capital in as few attempts as possible with the given clues.
+category: Geography
+status: removed
+history:
+- date: '2024-06-22'
+  event: added
+- date: '2025-10-19'
+  event: removed

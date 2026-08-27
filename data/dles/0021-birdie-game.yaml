@@ -1,0 +1,9 @@
+id: 21
+name: Birdie Game
+url: https://birdiegame.net
+description: Guess the bird from cropped images and audio.
+category: Science/Nature
+status: active
+history:
+- date: '2025-06-29'
+  event: added

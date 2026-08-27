@@ -1,0 +1,9 @@
+id: 287
+name: Poeltl
+url: https://poeltl.nbpa.com
+description: Guess the NBA player in 8 guesses.
+category: Sports
+status: active
+history:
+- date: '2024-11-24'
+  event: added

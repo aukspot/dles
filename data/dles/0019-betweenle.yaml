@@ -1,0 +1,10 @@
+id: 19
+name: Betweenle
+url: https://betweenle.com
+description: Guess the secret word hidden between other words before running out of guesses.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2024-05-28'
+  event: added

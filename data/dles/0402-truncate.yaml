@@ -1,0 +1,9 @@
+id: 402
+name: Truncate
+url: https://truncate.town
+description: Place a chain of tiles on the board and reach the opponent's base before they reach yours.
+category: Words
+status: active
+history:
+- date: '2025-06-11'
+  event: added

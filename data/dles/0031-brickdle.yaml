@@ -1,0 +1,9 @@
+id: 31
+name: Brickdle
+url: https://www.brickdle.com
+description: Guess the number of pieces in the pictured LEGO set.
+category: Estimation
+status: active
+history:
+- date: '2024-05-28'
+  event: added

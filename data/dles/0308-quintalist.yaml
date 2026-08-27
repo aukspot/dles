@@ -1,0 +1,10 @@
+id: 308
+name: Quintalist
+url: https://www.quintalist.com
+description: Correctly choose the top 5 entries in 5 tries or fewer.
+category: Trivia
+theme: Guess the List
+status: active
+history:
+- date: '2025-06-29'
+  event: added

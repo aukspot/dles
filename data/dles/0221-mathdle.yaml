@@ -1,0 +1,9 @@
+id: 221
+name: Mathdle
+url: https://mathdle.app
+description: Reach the target number using the given numbers and operations.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-11'
+  event: added

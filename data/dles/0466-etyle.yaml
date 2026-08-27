@@ -1,0 +1,12 @@
+id: 466
+name: Etyle
+url: https://www.etyle.app
+description: Guess the root words of the daily word. A game about Etymology.
+category: Words
+status: removed
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2025-11-11'
+  event: removed
+  reason: Puzzle does not load.

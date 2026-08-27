@@ -1,0 +1,9 @@
+id: 173
+name: Huewords
+url: https://huewords.snellman.net
+description: Fill the partitioned grid with letters to form 5-letter words, choosing from the given groups of letters.
+category: Words
+status: active
+history:
+- date: '2024-06-06'
+  event: added

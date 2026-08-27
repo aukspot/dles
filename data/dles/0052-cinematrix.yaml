@@ -1,0 +1,9 @@
+id: 52
+name: Cinematrix
+url: https://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html
+description: Fill out the grid with movies matching the criteria of each cell's row and column. Changes every weekday.
+category: Movies/TV
+status: active
+history:
+- date: '2024-03-17'
+  event: added

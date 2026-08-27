@@ -1,0 +1,9 @@
+id: 90
+name: Decipher
+url: https://decipher.wtf
+description: Solve the daily cryptogram to reveal the quote.
+category: Words
+status: active
+history:
+- date: '2024-07-20'
+  event: added

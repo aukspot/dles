@@ -1,0 +1,12 @@
+id: 155
+name: GuessTen
+url: https://guessten.com
+description: Guess the top ten entries of today's category.
+category: Trivia
+theme: Guess the List
+status: removed
+history:
+- date: '2025-06-11'
+  event: added
+- date: '2026-05-22'
+  event: removed

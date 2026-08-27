@@ -1,0 +1,9 @@
+id: 782
+name: FoxiMax
+url: https://foximax.com
+description: Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.
+category: Words
+status: active
+history:
+- date: '2026-07-09'
+  event: added

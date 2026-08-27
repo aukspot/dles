@@ -1,0 +1,9 @@
+id: 768
+name: Story Sleuth
+url: https://booksleuth.club/storysleuth/
+description: Guess the name of the book based on a short summary. More info is given after each guess.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-05-22'
+  event: added

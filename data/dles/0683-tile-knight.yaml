@@ -1,0 +1,9 @@
+id: 683
+name: Tile Knight
+url: https://tileknight.com
+description: Clear every tile on the board without landing on an empty tile.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-18'
+  event: added

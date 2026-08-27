@@ -1,0 +1,9 @@
+id: 489
+name: Omiword
+url: https://www.omiword.com
+description: Form 4 common words by arranging letter tiles that are locked to different regions of the grid.
+category: Words
+status: active
+history:
+- date: '2025-08-30'
+  event: added

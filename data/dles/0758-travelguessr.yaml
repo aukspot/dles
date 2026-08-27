@@ -1,0 +1,9 @@
+id: 758
+name: TravelGuessr
+url: https://travelguessr.com/
+description: Guess where the travel photo was taken, 4 rounds every day.
+category: Geography
+status: active
+history:
+- date: '2026-05-03'
+  event: added

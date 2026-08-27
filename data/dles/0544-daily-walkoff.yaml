@@ -1,0 +1,9 @@
+id: 544
+name: Daily Walkoff
+url: https://www.dailywalkoff.com
+description: Put each baseball player in the correct trivia column to walk-off the game!
+category: Sports
+status: active
+history:
+- date: '2025-11-23'
+  event: added

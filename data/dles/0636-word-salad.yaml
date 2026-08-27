@@ -1,0 +1,9 @@
+id: 636
+name: Word Salad
+url: https://wordsalad.online
+description: Find all the words in the 4 by 4 grid that are part of today's theme. Refresh after doing the tutorial to get to the daily.
+category: Words
+status: active
+history:
+- date: '2026-01-11'
+  event: added

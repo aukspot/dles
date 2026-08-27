@@ -1,0 +1,9 @@
+id: 411
+name: Vowel Play
+url: https://bythomas.co.uk/vowelplay
+description: Guess the words with their vowels removed.
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

@@ -1,0 +1,9 @@
+id: 315
+name: Real Bird Fake Bird
+url: https://realbirdfakebird.com
+description: Guess if each of the 7 prompts are real or fake (made up or don't belong).
+category: Trivia
+status: active
+history:
+- date: '2025-04-02'
+  event: added

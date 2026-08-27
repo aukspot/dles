@@ -1,0 +1,10 @@
+id: 513
+name: Wowdle
+url: https://www.wowdle.app
+description: A collection of daily games related to World of Warcraft.
+category: Video Games
+theme: World of Warcraft
+status: active
+history:
+- date: '2025-08-30'
+  event: added

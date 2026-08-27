@@ -1,0 +1,9 @@
+id: 440
+name: Wordless
+url: https://lessgames.com/wordless
+description: Solve Wordle puzzles of various sizes.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

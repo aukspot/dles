@@ -1,0 +1,9 @@
+id: 266
+name: OEC Pick 5
+url: https://oec.world/en/games/pick-5
+description: Guess the top 5 countries that export the most of the given product.
+category: Geography
+status: active
+history:
+- date: '2024-05-28'
+  event: added

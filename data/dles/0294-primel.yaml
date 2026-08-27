@@ -1,0 +1,9 @@
+id: 294
+name: Primel
+url: https://converged.yt/primel
+description: Guess the 5-digit prime number in six guesses or less.
+category: Math/Logic
+status: active
+history:
+- date: '2024-03-17'
+  event: added

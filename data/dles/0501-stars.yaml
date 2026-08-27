@@ -1,0 +1,9 @@
+id: 501
+name: Stars
+url: https://inkwellgames.com/games/stars
+description: Distribute stars strategically across the grid without letting them touch.
+category: Math/Logic
+status: active
+history:
+- date: '2025-08-30'
+  event: added

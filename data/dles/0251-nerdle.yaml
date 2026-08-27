@@ -1,0 +1,9 @@
+id: 251
+name: Nerdle
+url: https://nerdlegame.com
+description: Guess the secret arithmetic equation.
+category: Math/Logic
+status: active
+history:
+- date: '2024-02-14'
+  event: added

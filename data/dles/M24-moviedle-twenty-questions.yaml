@@ -1,0 +1,10 @@
+id: M24
+name: Moviedle - Twenty Questions
+url: https://moviedle.xyz/twenty
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2024-06-22'
+  event: removed
+  reason: Now part of a paid subscription.

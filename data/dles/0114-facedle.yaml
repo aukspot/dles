@@ -1,0 +1,9 @@
+id: 114
+name: Facedle
+url: https://facedle.app
+description: Guess the famous person in the partially covered picture.
+category: Miscellaneous
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,10 @@
+id: 362
+name: Squirdle Daily
+url: https://squirdle.fireblend.com/daily.html
+description: Guess today's pokemon within 9 guesses.
+category: Video Games
+theme: Pokemon
+status: active
+history:
+- date: '2024-05-28'
+  event: added

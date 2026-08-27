@@ -1,0 +1,9 @@
+id: 581
+name: TimeSwipe
+url: https://play.timeswipe.fun
+description: Guess if the event occurred before or after the given year. There are 10 events each day.
+category: History
+status: active
+history:
+- date: '2025-12-11'
+  event: added

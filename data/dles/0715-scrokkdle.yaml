@@ -1,0 +1,9 @@
+id: 715
+name: Scrokkdle
+url: https://scrokkle.io/daily
+description: Build connected Poker hands on the board using the tiles given to you. Like Poker mixed with Scrabble.
+category: Card/Board Games
+status: active
+history:
+- date: '2026-03-06'
+  event: added

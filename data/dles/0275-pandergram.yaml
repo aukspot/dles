@@ -1,0 +1,11 @@
+id: 275
+name: Pandergram
+url: https://onelook.com/pandergram
+description: Swap out letters from the given words to create new words that together use the entire alphabet.
+category: Words
+status: removed
+history:
+- date: '2025-04-02'
+  event: added
+- date: '2025-10-27'
+  event: removed

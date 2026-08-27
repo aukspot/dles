@@ -1,0 +1,9 @@
+id: 336
+name: Semantle
+url: https://semantle.com
+description: Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

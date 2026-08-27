@@ -1,0 +1,11 @@
+id: 561
+name: Trivial Pursuit Daily
+url: https://www.trivialpursuit.com/daily
+description: Daily trivia game from Trivial Pursuit. One question from each category.
+category: Trivia
+status: removed
+history:
+- date: '2025-11-23'
+  event: added
+- date: '2026-01-28'
+  event: removed

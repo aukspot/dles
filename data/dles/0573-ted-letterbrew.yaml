@@ -1,0 +1,9 @@
+id: 573
+name: TED - Letterbrew
+url: https://www.ted.com/games/letter-brew
+description: Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.
+category: Words
+status: active
+history:
+- date: '2025-12-11'
+  event: added

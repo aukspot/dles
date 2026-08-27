@@ -1,0 +1,9 @@
+id: 775
+name: Wikitrivia
+url: https://wikitrivia.tomjwatson.com/daily
+description: Place the events in chronological order on the timeline, one by one.
+category: History
+status: active
+history:
+- date: '2026-06-06'
+  event: added

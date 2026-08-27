@@ -1,0 +1,11 @@
+id: 594
+name: Stewardle
+url: https://stewardle.com
+description: Guess the daily F1 driver.
+category: Sports
+status: removed
+history:
+- date: '2025-12-20'
+  event: added
+- date: '2026-02-22'
+  event: removed

@@ -1,0 +1,9 @@
+id: 29
+name: BrainBashers Daily Puzzle
+url: https://www.brainbashers.com/dailypuzzle.asp
+description: A daily brainteaser from BrainBashers.
+category: Math/Logic
+status: active
+history:
+- date: '2024-05-28'
+  event: added

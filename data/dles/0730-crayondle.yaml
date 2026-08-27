@@ -1,0 +1,9 @@
+id: 730
+name: Crayondle
+url: https://crayondle.com
+description: Guess the color of today's crayon.
+category: Colors
+status: active
+history:
+- date: '2026-03-28'
+  event: added

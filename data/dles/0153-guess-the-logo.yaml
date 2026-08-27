@@ -1,0 +1,9 @@
+id: 153
+name: Guess The Logo
+url: https://guessthelogo.wtf
+description: Guess the logo which becomes less blurry with each guess.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-05-08'
+  event: added

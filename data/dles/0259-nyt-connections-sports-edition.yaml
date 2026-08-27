@@ -1,0 +1,9 @@
+id: 259
+name: 'NYT Connections: Sports Edition'
+url: https://www.nytimes.com/athletic/connections-sports-edition
+description: Group sports terms that share a common thread.
+category: Sports
+status: active
+history:
+- date: '2024-11-24'
+  event: added

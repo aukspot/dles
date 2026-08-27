@@ -1,0 +1,9 @@
+id: 599
+name: Wormle
+url: https://wormle.com
+description: Worm your way through the grid to spell today's themed words.
+category: Words
+status: active
+history:
+- date: '2025-12-20'
+  event: added

@@ -1,0 +1,12 @@
+id: 483
+name: Leetle
+url: https://leetle.app/
+description: Daily programming problem in the style of LeetCode.
+category: Miscellaneous
+status: removed
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2025-09-15'
+  event: removed
+  reason: Contains AI-generated puzzles.

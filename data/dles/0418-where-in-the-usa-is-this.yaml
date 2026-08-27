@@ -1,0 +1,12 @@
+id: 418
+name: Where in the USA is this?
+url: https://pudding.cool/games/where
+description: Guess the location in the United States given 5 pictures of the same place, one at a time.
+category: Geography
+status: removed
+history:
+- date: '2024-04-10'
+  event: added
+- date: '2025-08-30'
+  event: removed
+  reason: The game has ended.

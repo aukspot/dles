@@ -1,0 +1,9 @@
+id: 224
+name: Mazele
+url: https://mazele.io
+description: Guess the correct maze path in the grid in 6 tries or less.
+category: Math/Logic
+status: active
+history:
+- date: '2024-07-20'
+  event: added

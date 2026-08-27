@@ -1,0 +1,9 @@
+id: 22
+name: Birdle
+url: https://www.play-birdle.com
+description: Identify today's bird in 6 guesses or less.
+category: Science/Nature
+status: active
+history:
+- date: '2025-06-11'
+  event: added

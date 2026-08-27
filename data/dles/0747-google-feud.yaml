@@ -1,0 +1,9 @@
+id: 747
+name: Google Feud
+url: https://googlefeud.com
+description: Guess how Google auto-completes the search query, click on "Question of the Day".
+category: Trivia
+status: active
+history:
+- date: '2026-05-03'
+  event: added

@@ -1,0 +1,9 @@
+id: 284
+name: Plotwords
+url: https://plotwords.com/daily
+description: Guess the name of the movie using as few plot keywords as possible!
+category: Movies/TV
+status: active
+history:
+- date: '2024-03-17'
+  event: added

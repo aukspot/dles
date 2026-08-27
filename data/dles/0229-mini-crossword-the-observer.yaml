@@ -1,0 +1,11 @@
+id: 229
+name: Mini Crossword (The Observer)
+url: https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword
+description: A daily mini crossword from The Observer.
+category: Words
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2026-05-18'
+  event: removed

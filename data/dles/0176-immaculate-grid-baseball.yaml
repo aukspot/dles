@@ -1,0 +1,9 @@
+id: 176
+name: 'Immaculate Grid: Baseball'
+url: https://www.sports-reference.com/immaculate-grid/
+description: Fill out the grid with baseball players matching the criteria of each cell's row and column.
+category: Sports
+status: active
+history:
+- date: '2024-02-13'
+  event: added

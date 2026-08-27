@@ -1,0 +1,10 @@
+id: 407
+name: Valodle
+url: https://valodle.eu
+description: Test your Valorant knowledge in these daily games.
+category: Video Games
+theme: Valorant
+status: active
+history:
+- date: '2024-11-24'
+  event: added

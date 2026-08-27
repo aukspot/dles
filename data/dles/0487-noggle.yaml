@@ -1,0 +1,9 @@
+id: 487
+name: Noggle
+url: https://nibble.games/noggle/noggle.html
+description: A daily logic puzzle with a touch of learning and trivia.
+category: Math/Logic
+status: active
+history:
+- date: '2025-08-30'
+  event: added

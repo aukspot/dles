@@ -1,0 +1,9 @@
+id: 343
+name: Smixed
+url: https://smixed.com
+description: Make increasingly longer words using the given 6 letters, each word starting with a different letter.
+category: Words
+status: active
+history:
+- date: '2025-05-08'
+  event: added

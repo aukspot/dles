@@ -1,0 +1,9 @@
+id: 379
+name: Talldle
+url: https://www.talldle.com
+description: Sort the famous people from shortest to tallest.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-05-08'
+  event: added

@@ -1,0 +1,9 @@
+id: 150
+name: Guess The Game
+url: https://guessthe.game
+description: Guess the video game by its cropped screenshots.
+category: Video Games
+status: active
+history:
+- date: '2024-02-13'
+  event: added

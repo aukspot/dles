@@ -1,0 +1,9 @@
+id: 42
+name: Chainagram
+url: https://puzzletrail.games/puzzles/chainagram
+description: Make a chain linking two words together by changing one letter and making an anagram at each step.
+category: Words
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 312
+name: Quordle
+url: https://www.merriam-webster.com/games/quordle/#/
+description: Solve 4 Wordle puzzles at the same time.
+category: Words
+status: active
+history:
+- date: '2024-02-17'
+  event: added

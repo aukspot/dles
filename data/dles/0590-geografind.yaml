@@ -1,0 +1,9 @@
+id: 590
+name: Geografind
+url: https://coffeefirst.games/geografind
+description: Guess the mystery country in as few guesses as possible, watch the map for hints after each guess.
+category: Geography
+status: active
+history:
+- date: '2025-12-20'
+  event: added

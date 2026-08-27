@@ -1,0 +1,9 @@
+id: 632
+name: Spellify
+url: https://edhrec.com/games/spellify
+description: 'Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. '
+category: Card/Board Games
+status: active
+history:
+- date: '2026-01-11'
+  event: added

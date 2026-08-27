@@ -1,0 +1,9 @@
+id: 761
+name: Headline
+url: https://headline.fromthethink.com
+description: Guess the place tied to or missing from each headline.
+category: Geography
+status: active
+history:
+- date: '2026-05-18'
+  event: added

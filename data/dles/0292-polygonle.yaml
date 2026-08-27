@@ -1,0 +1,9 @@
+id: 292
+name: Polygonle
+url: https://www.polygonle.com
+description: Guess the word in 6 tries, like Wordle. Each unique shape over a column represents a letter.
+category: Words
+status: active
+history:
+- date: '2024-04-10'
+  event: added

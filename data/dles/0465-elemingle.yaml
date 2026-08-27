@@ -1,0 +1,9 @@
+id: 465
+name: Elemingle
+url: https://elemingle.com
+description: Guess today's element by swiping cards left, right or up.
+category: Science/Nature
+status: active
+history:
+- date: '2025-08-30'
+  event: added

@@ -1,0 +1,10 @@
+id: 510
+name: Weakdle
+url: https://dentotino.com/weakdle
+description: Guess the Pokemon type based on its weaknesses to the attacking types.
+category: Video Games
+theme: Pokemon
+status: active
+history:
+- date: '2025-08-30'
+  event: added

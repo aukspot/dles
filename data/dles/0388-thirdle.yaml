@@ -1,0 +1,9 @@
+id: 388
+name: Thirdle
+url: https://thirdle.org
+description: Solve 3 Wordle puzzles crossed together.
+category: Words
+status: active
+history:
+- date: '2024-04-10'
+  event: added

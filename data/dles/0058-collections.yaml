@@ -1,0 +1,12 @@
+id: 58
+name: Collections
+url: https://puzzmallow.com/collections
+description: Guess the category of the three hidden words by revealing one letter at a time.
+category: Words
+theme: Find connections
+status: removed
+history:
+- date: '2025-07-06'
+  event: added
+- date: '2026-01-06'
+  event: removed

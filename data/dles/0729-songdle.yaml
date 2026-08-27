@@ -1,0 +1,9 @@
+id: 729
+name: Songdle
+url: https://statt-land-song.ch/songdle
+description: Guess the artist, title, and year of the song that's playing.
+category: Music
+status: active
+history:
+- date: '2026-03-22'
+  event: added

@@ -1,0 +1,10 @@
+id: M13
+name: Chronoline
+url: https://chronoline.app/daily
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2025-06-11'
+  event: removed
+  reason: The daily challenge does not work.

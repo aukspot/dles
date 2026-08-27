@@ -1,0 +1,11 @@
+id: 120
+name: Fishdle
+url: https://tacklevillage.com/fishdle-game/
+description: Guess the fish based on its silhouette and number of letters.
+category: Science/Nature
+status: removed
+history:
+- date: '2025-05-08'
+  event: added
+- date: '2026-03-14'
+  event: removed

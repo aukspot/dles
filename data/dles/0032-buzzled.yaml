@@ -1,0 +1,9 @@
+id: 32
+name: Buzzled
+url: https://puzzmallow.com/buzzled
+description: Color each hex cell black or yellow to satisfy the target sums along the edges.
+category: Math/Logic
+status: active
+history:
+- date: '2025-07-06'
+  event: added

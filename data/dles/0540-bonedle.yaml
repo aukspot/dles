@@ -1,0 +1,11 @@
+id: 540
+name: Bonedle
+url: https://bonedle.rito.lol
+description: Guess the League of Legends champion based on a series of animated clues.
+category: Video Games
+status: removed
+history:
+- date: '2025-11-23'
+  event: added
+- date: '2026-08-02'
+  event: removed

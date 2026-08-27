@@ -1,0 +1,9 @@
+id: 416
+name: WhenTaken
+url: https://whentaken.com
+description: Guess the year and location of the given photo.
+category: Geography
+status: active
+history:
+- date: '2024-05-28'
+  event: added

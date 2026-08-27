@@ -1,0 +1,9 @@
+id: 796
+name: Catalogues
+url: https://www.newyorker.com/puzzles-and-games-dept/catalogues
+description: Arrange the items into the correct order in 5 guesses.
+category: Trivia
+status: active
+history:
+- date: '2026-07-19'
+  event: added

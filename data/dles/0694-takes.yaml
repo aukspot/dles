@@ -1,0 +1,9 @@
+id: 694
+name: Takes
+url: https://takes.clevergoat.com
+description: Capture Chess pieces until only one remains.
+category: Card/Board Games
+status: active
+history:
+- date: '2026-02-24'
+  event: added

@@ -1,0 +1,9 @@
+id: 128
+name: FoodGuessr
+url: https://www.foodguessr.com
+description: Guess what country each of the food dishes are from.
+category: Food
+status: active
+history:
+- date: '2024-03-17'
+  event: added

@@ -1,0 +1,10 @@
+id: 384
+name: TFTdle
+url: https://tftdle.gg/classic
+description: Daily games related to Teamfight Tactics.
+category: Video Games
+theme: Teamfight Tactics
+status: active
+history:
+- date: '2025-06-11'
+  event: added

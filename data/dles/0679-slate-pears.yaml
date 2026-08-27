@@ -1,0 +1,9 @@
+id: 679
+name: Slate - Pears
+url: https://slate.com/games/pears
+description: Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.
+category: Words
+status: active
+history:
+- date: '2026-02-15'
+  event: added

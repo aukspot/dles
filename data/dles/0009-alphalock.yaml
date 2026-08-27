@@ -1,0 +1,10 @@
+id: 9
+name: Alphalock
+url: https://alphalockgame.net
+description: Word puzzle game inspired by Wordle and Mastermind.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2025-06-29'
+  event: added

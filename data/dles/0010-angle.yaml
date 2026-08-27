@@ -1,0 +1,9 @@
+id: 10
+name: Angle
+url: https://angle.wtf
+description: Guess the angle in 4 guesses or less.
+category: Estimation
+status: active
+history:
+- date: '2024-05-28'
+  event: added

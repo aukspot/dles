@@ -1,0 +1,9 @@
+id: 188
+name: Keyword
+url: https://www.washingtonpost.com/games/keyword
+description: Find the target word by guessing the final letter of the vertical words.
+category: Words
+status: active
+history:
+- date: '2024-02-27'
+  event: added

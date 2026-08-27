@@ -1,0 +1,9 @@
+id: 780
+name: Anthropeum
+url: https://anthropeum.com
+description: Guess the right time and region in which each human artifact is from.
+category: History
+status: active
+history:
+- date: '2026-07-09'
+  event: added

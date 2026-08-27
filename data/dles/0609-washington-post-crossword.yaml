@@ -1,0 +1,9 @@
+id: 609
+name: Washington Post Crossword
+url: https://www.washingtonpost.com/games/crossword/
+description: A daily crossword from the Washington Post
+category: Words
+status: active
+history:
+- date: '2026-01-03'
+  event: added

@@ -1,0 +1,9 @@
+id: 592
+name: Royal Family
+url: https://coffeefirst.games/royal-family
+description: Place the chess pieces on the board so that each zone has a piece and no piece can attack another.
+category: Card/Board Games
+status: active
+history:
+- date: '2025-12-20'
+  event: added

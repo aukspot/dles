@@ -1,0 +1,9 @@
+id: 385
+name: The Atlantic Crossword
+url: https://www.theatlantic.com/games/daily-crossword/
+description: A daily crossword from The Atlantic.
+category: Words
+status: active
+history:
+- date: '2025-06-29'
+  event: added

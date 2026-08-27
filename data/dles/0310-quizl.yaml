@@ -1,0 +1,9 @@
+id: 310
+name: Quizl
+url: https://quizl.io
+description: Answer today's 5 trivia questions.
+category: Trivia
+status: active
+history:
+- date: '2024-02-14'
+  event: added

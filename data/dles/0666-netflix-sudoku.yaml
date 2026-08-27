@@ -1,0 +1,9 @@
+id: 666
+name: Netflix - Sudoku
+url: https://www.netflix.com/tudum/puzzled/sudoku/daily
+description: A daily sudoku puzzle on Netflix, 3 difficulties. Does not require a Netflix account.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-07'
+  event: added

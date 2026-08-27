@@ -1,0 +1,9 @@
+id: 689
+name: Harrypotterdle
+url: https://www.harrypotterdle.com
+description: A collection of daily games related to Harry Potter.
+category: Movies/TV
+status: active
+history:
+- date: '2026-02-22'
+  event: added

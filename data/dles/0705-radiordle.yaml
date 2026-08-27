@@ -1,0 +1,9 @@
+id: 705
+name: Radiordle
+url: https://www.radiordle.org
+description: Make the correct diagnosis based on the medical image and hints provided.
+category: Science/Nature
+status: active
+history:
+- date: '2026-03-01'
+  event: added

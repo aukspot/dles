@@ -1,0 +1,9 @@
+id: 74
+name: Crosstune
+url: https://crosstune.io
+description: A music crossword puzzle where the clues include song audio.
+category: Music
+status: active
+history:
+- date: '2025-06-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 714
+name: Number Crunch
+url: https://numbercrunch.fun
+description: Clear the board by efficiently matching digits. Clicking a number increments it, except for 9 which wraps around to 1.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-03-06'
+  event: added

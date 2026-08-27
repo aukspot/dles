@@ -1,0 +1,9 @@
+id: 169
+name: Hidden Mirrors
+url: https://www.hidden-mirrors.com
+description: A unique daily symmetry game where you try to match the given pattern.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-11-24'
+  event: added

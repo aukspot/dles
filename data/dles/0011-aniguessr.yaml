@@ -1,0 +1,9 @@
+id: 11
+name: AniGuessr
+url: https://aniguessr.com
+description: A collection of daily games related to Anime, or Japanese animation.
+category: Movies/TV
+status: active
+history:
+- date: '2025-06-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 726
+name: NonoDaily
+url: https://www.nonodaily.com
+description: Daily handmade nonogram puzzles. Follow the numbered clues to create a pixel art image.
+category: Math/Logic
+status: active
+history:
+- date: '2026-03-21'
+  event: added

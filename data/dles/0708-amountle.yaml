@@ -1,0 +1,9 @@
+id: 708
+name: Amountle
+url: https://amountle.dev
+description: Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
+category: Estimation
+status: active
+history:
+- date: '2026-03-06'
+  event: added

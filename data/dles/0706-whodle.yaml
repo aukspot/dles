@@ -1,0 +1,9 @@
+id: 706
+name: Whodle
+url: https://whodle.dixonary.co.uk
+description: Guess the Doctor Who episode based on the frames, audio, or transcripts.
+category: Movies/TV
+status: active
+history:
+- date: '2026-03-01'
+  event: added

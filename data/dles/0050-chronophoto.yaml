@@ -1,0 +1,9 @@
+id: 50
+name: Chronophoto
+url: https://www.chronophoto.app
+description: Guess the year in which each historical picture was taken.
+category: History
+status: active
+history:
+- date: '2024-02-13'
+  event: added

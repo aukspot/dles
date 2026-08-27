@@ -1,0 +1,9 @@
+id: 38
+name: Cartoonguessr
+url: https://cartoonguesser.pythonanywhere.com
+description: Guess the cartoon character within 15 guesses.
+category: Movies/TV
+status: active
+history:
+- date: '2025-04-02'
+  event: added

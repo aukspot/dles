@@ -1,0 +1,9 @@
+id: 687
+name: Boston Globe - Align
+url: https://www.bostonglobe.com/games/align/
+description: Swap tiles in the grid so that each row and column forms a word.
+category: Words
+status: active
+history:
+- date: '2026-02-22'
+  event: added

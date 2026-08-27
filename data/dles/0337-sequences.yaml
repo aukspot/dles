@@ -1,0 +1,9 @@
+id: 337
+name: Sequences
+url: https://www.dailyfastgames.com/sequences/
+description: Guess the next number in today's sequence.
+category: Math/Logic
+status: active
+history:
+- date: '2025-02-10'
+  event: added

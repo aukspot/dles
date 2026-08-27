@@ -1,0 +1,9 @@
+id: 773
+name: Lazy River
+url: https://inkwellgames.com/games/lazy-river
+description: Draw a single continuous loop that flows through every cell.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-06-06'
+  event: added

@@ -1,0 +1,9 @@
+id: 660
+name: Glyph
+url: https://glyph.today
+description: Guess the word based on its glyph, or all of its letters stacked together.
+category: Words
+status: active
+history:
+- date: '2026-02-07'
+  event: added

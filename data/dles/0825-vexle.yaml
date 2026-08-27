@@ -1,0 +1,9 @@
+id: 825
+name: Vexle
+url: https://vexle.org
+description: Draw the country flag from memory.
+category: Geography
+status: active
+history:
+- date: '2026-08-26'
+  event: added

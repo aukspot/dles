@@ -1,0 +1,9 @@
+id: 792
+name: Prince Chazz
+url: https://princechazz.com
+description: Capture as many Chess pieces as you can without getting captured. You're playing as Prince Chazz, a piece that moves like a Queen.
+category: Card/Board Games
+status: active
+history:
+- date: '2026-07-10'
+  event: added

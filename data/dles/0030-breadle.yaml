@@ -1,0 +1,9 @@
+id: 30
+name: Breadle
+url: https://breadle.us
+description: Solve the daily 5-letter word that is related to food.
+category: Food
+status: active
+history:
+- date: '2025-05-08'
+  event: added

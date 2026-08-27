@@ -1,0 +1,9 @@
+id: 646
+name: Wallstreetle
+url: https://wallstreetle.com
+description: Guess the company based on information about its stock.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-01-23'
+  event: added

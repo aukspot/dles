@@ -1,0 +1,9 @@
+id: 122
+name: Flagdoku
+url: https://flagdoku.com
+description: Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.
+category: Geography
+status: active
+history:
+- date: '2024-09-18'
+  event: added

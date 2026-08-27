@@ -1,0 +1,9 @@
+id: 789
+name: Whereabouts?
+url: https://whereabouts.earth/daily/
+description: Five points are scattered across the world map, guess the countries they are located in.
+category: Geography
+status: active
+history:
+- date: '2026-07-09'
+  event: added

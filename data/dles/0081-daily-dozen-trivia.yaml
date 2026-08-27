@@ -1,0 +1,9 @@
+id: 81
+name: Daily Dozen Trivia
+url: https://dailydozentrivia.com
+description: Answer 9 trivia questions from various categories.
+category: Trivia
+status: active
+history:
+- date: '2024-02-13'
+  event: added

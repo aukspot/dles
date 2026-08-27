@@ -1,0 +1,9 @@
+id: 757
+name: Timdle Music
+url: https://timdle.com/music
+description: Place each mystery song on the timeline after listening to an audio snippet.
+category: Music
+status: active
+history:
+- date: '2026-05-03'
+  event: added

@@ -1,0 +1,9 @@
+id: 282
+name: Pixletters
+url: https://pixletters.com
+description: Guess the word, except each letter is represented in a pixel grid.
+category: Words
+status: active
+history:
+- date: '2025-05-08'
+  event: added

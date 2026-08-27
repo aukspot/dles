@@ -1,0 +1,9 @@
+id: 69
+name: Couples
+url: https://www.couples.game
+description: Guess the chained word pairs in 3 tries.
+category: Words
+status: active
+history:
+- date: '2025-02-16'
+  event: added

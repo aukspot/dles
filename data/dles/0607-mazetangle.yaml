@@ -1,0 +1,9 @@
+id: 607
+name: Mazetangle
+url: https://mazetangle.com
+description: Go from the red tile to the blue tile in as many moves as possible.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-01-03'
+  event: added

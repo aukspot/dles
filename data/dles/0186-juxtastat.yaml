@@ -1,0 +1,9 @@
+id: 186
+name: Juxtastat
+url: https://urbanstats.org/quiz.html
+description: For 5 rounds, guess which of the two regions better fits the given criteria.
+category: Geography
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,16 @@
+id: 684
+name: Dialed - Color Game
+url: https://dialed.gg
+description: They show you a color for 5 seconds, then you try to recreate it. Click the calendar for the daily mode.
+category: Colors
+status: active
+previous_urls:
+- url: https://dialed.gg/?daily
+  until: '2026-03-11'
+history:
+- date: '2026-02-19'
+  event: added
+- date: '2026-02-24'
+  event: removed
+- date: '2026-03-11'
+  event: readded

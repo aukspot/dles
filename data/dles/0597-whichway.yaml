@@ -1,0 +1,11 @@
+id: 597
+name: WhichWay
+url: https://whichway.is
+description: Determine which direction the target country is from the starting country, 10 rounds daily.
+category: Geography
+status: removed
+history:
+- date: '2025-12-20'
+  event: added
+- date: '2026-08-02'
+  event: removed

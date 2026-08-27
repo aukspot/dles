@@ -1,0 +1,10 @@
+id: 382
+name: Terradle
+url: https://www.terradle.com
+description: Guess today's weapon from the game Terraria.
+category: Video Games
+theme: Terraria
+status: active
+history:
+- date: '2024-11-24'
+  event: added

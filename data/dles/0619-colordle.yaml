@@ -1,0 +1,14 @@
+id: 619
+name: Colordle
+url: https://colordle.ryantanen.com
+description: Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
+category: Colors
+status: active
+history:
+- date: '2025-04-02'
+  event: added
+- date: '2025-06-24'
+  event: removed
+  reason: Daily puzzle does not change.
+- date: '2026-01-11'
+  event: readded

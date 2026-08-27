@@ -1,0 +1,9 @@
+id: 723
+name: Ballot Blocks
+url: https://ballotblocks.com
+description: Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
+category: Geography
+status: active
+history:
+- date: '2026-03-21'
+  event: added

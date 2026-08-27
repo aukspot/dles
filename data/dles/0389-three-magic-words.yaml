@@ -1,0 +1,9 @@
+id: 389
+name: Three Magic Words
+url: https://www.threemagicwords.app/play
+description: Place letters in the empty spaces to form 3 words. Five rounds per day.
+category: Words
+status: active
+history:
+- date: '2025-06-11'
+  event: added

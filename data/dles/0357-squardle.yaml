@@ -1,0 +1,9 @@
+id: 357
+name: Squardle
+url: https://fubargames.se/squardle
+description: A complex Wordle variant where your guesses count in two directions and cycle between three positions.
+category: Words
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 6
+name: Actorle TV
+url: https://actorle.tv
+description: Guess the TV actor based on the given information, with each guess revealing matching information.
+category: Movies/TV
+status: active
+history:
+- date: '2024-05-28'
+  event: added

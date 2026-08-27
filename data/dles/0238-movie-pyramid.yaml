@@ -1,0 +1,9 @@
+id: 238
+name: Movie Pyramid
+url: https://moviepyramid.io
+description: Fill in the cells of the pyramid with movies that match the criteria of their given row.
+category: Movies/TV
+status: active
+history:
+- date: '2025-04-02'
+  event: added

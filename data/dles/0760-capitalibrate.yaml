@@ -1,0 +1,9 @@
+id: 760
+name: Capitalibrate
+url: https://guessdash.com/capitalibrate
+description: Guess the direction and distance from the starting capital to the target capital.
+category: Geography
+status: active
+history:
+- date: '2026-05-18'
+  event: added

@@ -1,0 +1,9 @@
+id: 690
+name: Nonodle
+url: https://lab174.com/nonodle
+description: A daily nonogram puzzle.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-22'
+  event: added

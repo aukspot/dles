@@ -1,0 +1,9 @@
+id: 250
+name: Neighborle
+url: https://neighborle.com
+description: Guess the countries that border the highlighted country on the map.
+category: Geography
+status: active
+history:
+- date: '2024-04-10'
+  event: added

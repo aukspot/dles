@@ -1,0 +1,10 @@
+id: 78
+name: cryptle
+url: https://cryptle.xyz
+description: Slide each row of letters in to the right position to guess the secret word. You have 5 guesses.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2024-07-20'
+  event: added

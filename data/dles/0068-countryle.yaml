@@ -1,0 +1,9 @@
+id: 68
+name: Countryle
+url: https://www.countryle.com
+description: Guess the country in as few attempts as possible with the given clues.
+category: Geography
+status: active
+history:
+- date: '2024-05-28'
+  event: added

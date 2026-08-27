@@ -1,0 +1,9 @@
+id: 234
+name: More/Less
+url: https://lessgames.com/moreless
+description: Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
+category: Estimation
+status: active
+history:
+- date: '2024-11-24'
+  event: added

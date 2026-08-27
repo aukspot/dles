@@ -1,0 +1,9 @@
+id: 56
+name: Cluewords
+url: https://wordnerd.co/cluewords
+description: Solve the clues to find the hidden words.
+category: Words
+status: active
+history:
+- date: '2024-09-18'
+  event: added

@@ -1,0 +1,9 @@
+id: 613
+name: Ripple
+url: https://ripplegame.app
+description: Guess the ripple effect of historical events.
+category: History
+status: active
+history:
+- date: '2026-01-06'
+  event: added

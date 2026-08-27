@@ -1,0 +1,9 @@
+id: 710
+name: Chrono NFL
+url: https://chrono.quest/nfl.html
+description: Put the NFL events in chronological order in 3 tries or less.
+category: Sports
+status: active
+history:
+- date: '2026-03-06'
+  event: added

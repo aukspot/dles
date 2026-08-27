@@ -1,0 +1,9 @@
+id: 517
+name: CineLine
+url: https://www.playcineline.com
+description: A daily movie puzzle where you place films in chronological order.
+category: Movies/TV
+status: active
+history:
+- date: '2025-10-06'
+  event: added

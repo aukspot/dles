@@ -1,0 +1,14 @@
+id: 293
+name: PopCultured
+url: https://histordle.com/popcultured
+description: Guess the year given three pop culture items released that year.
+category: Trivia
+status: active
+history:
+- date: '2024-02-27'
+  event: added
+- date: '2026-01-01'
+  event: removed
+  reason: Daily puzzle is empty.
+- date: '2026-02-07'
+  event: readded

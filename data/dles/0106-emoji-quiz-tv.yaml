@@ -1,0 +1,9 @@
+id: 106
+name: Emoji Quiz - TV
+url: https://www.emojiquiz.net/tv
+description: Use the emojis to guess the title of the tv show.
+category: Movies/TV
+status: active
+history:
+- date: '2025-06-11'
+  event: added

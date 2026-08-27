@@ -1,0 +1,9 @@
+id: 26
+name: Box Office Game
+url: https://boxofficega.me
+description: Guess the top five movies in the US domestic box office for the given weekend.
+category: Movies/TV
+status: active
+history:
+- date: '2024-02-13'
+  event: added

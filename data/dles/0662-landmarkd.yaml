@@ -1,0 +1,9 @@
+id: 662
+name: Landmarkd
+url: https://www.landmarkdgame.com
+description: Guess the daily landmark based on a zoomed-in picture.
+category: Geography
+status: active
+history:
+- date: '2026-02-07'
+  event: added

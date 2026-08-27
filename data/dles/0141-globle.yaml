@@ -1,0 +1,9 @@
+id: 141
+name: Globle
+url: https://globle-game.com/game
+description: Guess the mystery country, given how close it is to each guessed country.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

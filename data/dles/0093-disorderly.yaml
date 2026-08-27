@@ -1,0 +1,9 @@
+id: 93
+name: Disorderly
+url: https://playdisorderly.com
+description: Order the items correctly based on the given criteria.
+category: Trivia
+status: active
+history:
+- date: '2024-05-28'
+  event: added

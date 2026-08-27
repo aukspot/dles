@@ -1,0 +1,9 @@
+id: 164
+name: Heardle Daily
+url: https://www.heardle.info/daily/
+description: Guess the song by listening to small parts of it.
+category: Music
+status: active
+history:
+- date: '2025-06-29'
+  event: added

@@ -1,0 +1,9 @@
+id: 821
+name: Rabbithole
+url: https://www.theatlantic.com/games/rabbithole/
+description: A trivia game where each answer is part of the next question.
+category: Trivia
+status: active
+history:
+- date: '2026-08-26'
+  event: added

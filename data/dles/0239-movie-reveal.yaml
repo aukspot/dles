@@ -1,0 +1,9 @@
+id: 239
+name: Movie Reveal
+url: https://moviereveal.io
+description: Guess today's hidden movie by revealing clues that cost you points!
+category: Movies/TV
+status: active
+history:
+- date: '2025-04-02'
+  event: added

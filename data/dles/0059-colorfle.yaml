@@ -1,0 +1,9 @@
+id: 59
+name: Colorfle
+url: https://colorfle.com
+description: Figure out the color composition of the given color.
+category: Colors
+status: active
+history:
+- date: '2024-02-13'
+  event: added

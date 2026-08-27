@@ -1,0 +1,10 @@
+id: M18
+name: Anigrams
+url: https://anigrams.us
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2025-05-15'
+  event: removed
+  reason: The game has been paused.

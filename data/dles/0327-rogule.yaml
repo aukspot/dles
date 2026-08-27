@@ -1,0 +1,9 @@
+id: 327
+name: Rogule
+url: https://rogule.com/game.html
+description: A daily emoji dungeon crawler roguelike.
+category: Miscellaneous
+status: active
+history:
+- date: '2024-02-27'
+  event: added

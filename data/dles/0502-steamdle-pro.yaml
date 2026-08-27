@@ -1,0 +1,12 @@
+id: 502
+name: steamdle.pro
+url: https://steamdle.pro
+description: Guess the Steam game with new hints after each guess, such as release date, reviews, and tags.
+category: Video Games
+status: removed
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2025-11-24'
+  event: removed
+  reason: Site no longer loads.

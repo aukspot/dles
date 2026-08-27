@@ -1,0 +1,9 @@
+id: 508
+name: Treasure Guessr
+url: https://play.treasureguessr.com
+description: Narrow down a location on the world map.
+category: Geography
+status: active
+history:
+- date: '2025-08-30'
+  event: added

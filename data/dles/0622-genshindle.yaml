@@ -1,0 +1,9 @@
+id: 622
+name: Genshindle
+url: https://us.genshindle.com/
+description: Guess the character from Genshin Impact.
+category: Video Games
+status: active
+history:
+- date: '2026-01-11'
+  event: added

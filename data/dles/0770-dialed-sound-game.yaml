@@ -1,0 +1,9 @@
+id: 770
+name: Dialed - Sound Game
+url: https://dialed.gg/sound
+description: Listen to a tone and then recreate it from memory. Click the calendar for the daily mode.
+category: Estimation
+status: active
+history:
+- date: '2026-06-06'
+  event: added

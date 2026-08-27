@@ -1,0 +1,9 @@
+id: 709
+name: Chrono NBA
+url: https://chrono.quest/basketball.html
+description: Put the NBA events in chronological order in 3 tries or less.
+category: Sports
+status: active
+history:
+- date: '2026-03-06'
+  event: added

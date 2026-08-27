@@ -1,0 +1,11 @@
+id: 369
+name: Stepdle
+url: https://www.stepdle.com
+description: Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.
+category: Words
+status: removed
+history:
+- date: '2024-04-10'
+  event: added
+- date: '2026-04-27'
+  event: removed

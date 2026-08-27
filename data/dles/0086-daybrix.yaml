@@ -1,0 +1,9 @@
+id: 86
+name: DayBrix
+url: https://vole.wtf/daybrix
+description: Daily tetris-style falling blocks game.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-05-28'
+  event: added

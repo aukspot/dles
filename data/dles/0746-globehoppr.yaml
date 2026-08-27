@@ -1,0 +1,9 @@
+id: 746
+name: GlobeHoppr
+url: https://globehoppr.com
+description: Travel from one world city to another by hopping across nearby cities.
+category: Geography
+status: active
+history:
+- date: '2026-05-03'
+  event: added

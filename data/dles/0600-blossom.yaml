@@ -1,0 +1,9 @@
+id: 600
+name: Blossom
+url: https://www.merriam-webster.com/games/blossom-word-game
+description: Create 12 words using the letters on the petals, always including the center letter. You get more points for longer words.
+category: Words
+status: active
+history:
+- date: '2026-01-01'
+  event: added

@@ -1,0 +1,9 @@
+id: 605
+name: Centroid
+url: https://centroidgame.com
+description: Guess the center of mass of all the shapes in the grid.
+category: Estimation
+status: active
+history:
+- date: '2026-01-02'
+  event: added

@@ -1,0 +1,9 @@
+id: 225
+name: Metaflora
+url: https://flora.metazooa.com
+description: Guess plants to see where they share common ancestors with the mystery plant, eventually guessing the mystery plant.
+category: Science/Nature
+status: active
+history:
+- date: '2024-02-13'
+  event: added

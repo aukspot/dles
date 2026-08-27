@@ -1,0 +1,9 @@
+id: 571
+name: Five Fold
+url: https://fivefold.ca
+description: Fill in the 5x5 grid based on rules that change each day.
+category: Math/Logic
+status: active
+history:
+- date: '2025-12-11'
+  event: added

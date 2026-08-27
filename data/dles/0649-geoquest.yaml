@@ -1,0 +1,9 @@
+id: 649
+name: GeoQuest
+url: https://geoquest.gg
+description: Locate today's countries on the world map.
+category: Geography
+status: active
+history:
+- date: '2026-01-28'
+  event: added

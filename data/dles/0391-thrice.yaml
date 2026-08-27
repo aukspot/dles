@@ -1,0 +1,9 @@
+id: 391
+name: Thrice
+url: https://thrice.geekswhodrink.com
+description: Answer today's 5 trivia questions, each from a different category.
+category: Trivia
+status: active
+history:
+- date: '2024-05-28'
+  event: added

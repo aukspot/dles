@@ -1,0 +1,9 @@
+id: 82
+name: Daily Fact or Fiction
+url: https://dailyfactorfiction.com
+description: Guess whether today's statement is fact or fiction.
+category: Trivia
+status: active
+history:
+- date: '2024-09-18'
+  event: added

@@ -1,0 +1,9 @@
+id: 546
+name: Equations
+url: https://www.equations-game.com
+description: Find 5 groups of 3 numbers, each of which represents an equation.
+category: Math/Logic
+status: active
+history:
+- date: '2025-11-23'
+  event: added

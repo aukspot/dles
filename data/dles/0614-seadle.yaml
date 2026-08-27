@@ -1,0 +1,9 @@
+id: 614
+name: Seadle
+url: https://seadle.muhashi.com
+description: Guess the sea of the day in as few attempts as possible.
+category: Geography
+status: active
+history:
+- date: '2026-01-06'
+  event: added

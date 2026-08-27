@@ -1,0 +1,9 @@
+id: 55
+name: Clues By Sam
+url: https://cluesbysam.com
+description: Use the clues to figure out which characters are innocent and which are criminals.
+category: Math/Logic
+status: active
+history:
+- date: '2025-05-08'
+  event: added

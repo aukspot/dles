@@ -1,0 +1,10 @@
+id: 492
+name: Pimantle
+url: https://semantle.pimanrul.es
+description: Guess words to see how close they are to the secret word on a graph, and see where others are guessing as well!
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2025-08-30'
+  event: added

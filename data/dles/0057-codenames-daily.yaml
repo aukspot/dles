@@ -1,0 +1,9 @@
+id: 57
+name: Codenames Daily
+url: https://codenames.game/daily/en
+description: A daily set of puzzles from Codenames, a word association game.
+category: Words
+status: active
+history:
+- date: '2025-07-06'
+  event: added

@@ -1,0 +1,10 @@
+id: 383
+name: TF2dle
+url: https://www.tf2dle.com
+description: Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.
+category: Video Games
+theme: Team Fortress 2
+status: active
+history:
+- date: '2025-06-29'
+  event: added

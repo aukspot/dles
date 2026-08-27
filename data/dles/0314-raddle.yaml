@@ -1,0 +1,9 @@
+id: 314
+name: RADDLE
+url: https://raddle.quest
+description: Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.
+category: Words
+status: active
+history:
+- date: '2025-05-08'
+  event: added

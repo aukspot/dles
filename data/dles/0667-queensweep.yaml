@@ -1,0 +1,9 @@
+id: 667
+name: QueenSweep
+url: https://playqueensweep.com
+description: Find all 8 hidden queens using the number clues.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-07'
+  event: added

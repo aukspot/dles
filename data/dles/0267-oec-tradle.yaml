@@ -1,0 +1,9 @@
+id: 267
+name: OEC Tradle
+url: https://oec.world/en/games/tradle
+description: Guess the country by its exports.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

@@ -1,0 +1,13 @@
+id: 754
+name: Thingdle
+url: https://thingdle.app/en/thingdle
+description: A daily riddle where you guess an everyday object.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-05-03'
+  event: added
+- date: '2026-05-18'
+  event: removed
+- date: '2026-08-26'
+  event: readded

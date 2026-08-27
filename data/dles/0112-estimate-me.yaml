@@ -1,0 +1,9 @@
+id: 112
+name: Estimate Me
+url: https://estimate-me.aukspot.com
+description: Handmade and hand-counted estimation puzzles such as "How many jelly beans are in this jar?"
+category: Estimation
+status: active
+history:
+- date: '2025-06-29'
+  event: added

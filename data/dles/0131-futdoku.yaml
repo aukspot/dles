@@ -1,0 +1,10 @@
+id: 131
+name: Futdoku
+url: https://flagdoku.com/futdoku.html
+description: Guess 9 soccer players that fill the FUTDOKU grid.
+category: Sports
+theme: Soccer
+status: active
+history:
+- date: '2025-06-11'
+  event: added

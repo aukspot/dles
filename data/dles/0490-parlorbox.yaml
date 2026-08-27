@@ -1,0 +1,13 @@
+id: 490
+name: Parlorbox
+url: https://parlorbox.com/
+description: Logic puzzle game based on the Parlor room puzzle from Blue Prince
+category: Math/Logic
+status: active
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2026-02-24'
+  event: removed
+- date: '2026-03-24'
+  event: readded

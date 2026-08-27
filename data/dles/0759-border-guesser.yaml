@@ -1,0 +1,9 @@
+id: 759
+name: Border guesser
+url: https://borderguesser.com
+description: Guess the country by its partially-drawn border, up to 50% drawn.
+category: Geography
+status: active
+history:
+- date: '2026-05-18'
+  event: added

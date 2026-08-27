@@ -1,0 +1,9 @@
+id: 425
+name: Word Chain
+url: https://wordnerd.co/wordchain
+description: Connect the two unrelated words by adding a chain of related words between them.
+category: Words
+status: active
+history:
+- date: '2024-06-22'
+  event: added

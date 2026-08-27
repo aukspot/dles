@@ -1,0 +1,9 @@
+id: 732
+name: Horsle
+url: https://cabletwo.net/horsle/
+description: Wordle except the answer is always Horse.
+category: Novelty
+status: active
+history:
+- date: '2026-03-28'
+  event: added

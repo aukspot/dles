@@ -1,0 +1,10 @@
+id: 101
+name: Duolock Game
+url: https://www.duolockgame.net
+description: Solve two Alphalock puzzles at the same time. Includes a Padlock (number) mode.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2025-06-29'
+  event: added

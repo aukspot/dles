@@ -1,0 +1,9 @@
+id: 739
+name: Far Out
+url: https://www.faroutquiz.com
+description: Three daily estimation trivia questions. The closer you get, the higher your score.
+category: Estimation
+status: active
+history:
+- date: '2026-04-07'
+  event: added

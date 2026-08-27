@@ -1,0 +1,9 @@
+id: 793
+name: Squishy Billiards
+url: https://squishybilliards.com
+description: A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-07-10'
+  event: added

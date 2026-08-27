@@ -1,0 +1,9 @@
+id: 743
+name: Coastle
+url: https://pkyu.github.io/coastle/
+description: Guess the daily rollercoaster.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-05-03'
+  event: added

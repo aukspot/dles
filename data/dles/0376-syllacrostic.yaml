@@ -1,0 +1,12 @@
+id: 376
+name: Syllacrostic
+url: https://www.syllacrostic.com/daily
+description: Combine syllables to solve the clues.
+category: Words
+status: removed
+history:
+- date: '2024-02-27'
+  event: added
+- date: '2025-11-25'
+  event: removed
+  reason: Site no longer loads.

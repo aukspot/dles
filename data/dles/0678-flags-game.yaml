@@ -1,0 +1,9 @@
+id: 678
+name: Flags Game
+url: https://flagsgame.net
+description: Guess the country flag by its color composition.
+category: Geography
+status: active
+history:
+- date: '2026-02-15'
+  event: added

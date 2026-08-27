@@ -1,0 +1,9 @@
+id: 43
+name: Chemdle
+url: https://www.chemdle.com
+description: Solve the daily organic chemistry problem.
+category: Science/Nature
+status: active
+history:
+- date: '2025-05-08'
+  event: added

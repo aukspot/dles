@@ -1,0 +1,9 @@
+id: 750
+name: Passportle
+url: https://passportle.lordos.tech
+description: Guess the country based on its passport.
+category: Geography
+status: active
+history:
+- date: '2026-05-03'
+  event: added

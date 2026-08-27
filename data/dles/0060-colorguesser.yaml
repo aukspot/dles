@@ -1,0 +1,9 @@
+id: 60
+name: ColorGuesser
+url: https://colorguesser.com
+description: Guess the actual color that each of the color names represent.
+category: Colors
+status: active
+history:
+- date: '2024-05-28'
+  event: added

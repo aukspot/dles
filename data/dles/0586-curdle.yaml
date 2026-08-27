@@ -1,0 +1,9 @@
+id: 586
+name: Curdle
+url: https://gumbo.systems/curdle/
+description: Guess the cheese from the zoomed-in photo.
+category: Food
+status: active
+history:
+- date: '2025-12-20'
+  event: added

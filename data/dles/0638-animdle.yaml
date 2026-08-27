@@ -1,0 +1,9 @@
+id: 638
+name: Animdle
+url: https://animdle.com
+description: Guess the anime opening or ending with a video clue that gets less blurry with each guess.
+category: Movies/TV
+status: active
+history:
+- date: '2026-01-12'
+  event: added

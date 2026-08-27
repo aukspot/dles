@@ -1,0 +1,9 @@
+id: 51
+name: CineNerdle
+url: https://www.cinenerdle.app
+description: Rearrange the cells into groups that represent movies/themes. Includes Critical - a game where you guess a movie by revealing as few clues as you can.
+category: Movies/TV
+status: active
+history:
+- date: '2024-02-13'
+  event: added

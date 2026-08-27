@@ -1,0 +1,9 @@
+id: 720
+name: StatPad Game
+url: https://www.statpadgame.com
+description: Select MLB players to maximize your score given today's stat category and row requirements.
+category: Sports
+status: active
+history:
+- date: '2026-03-10'
+  event: added

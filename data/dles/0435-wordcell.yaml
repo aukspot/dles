@@ -1,0 +1,9 @@
+id: 435
+name: Wordcell
+url: https://gamebunny.app/wordcell
+description: Launch the ball around the board to collect letters and compose the hidden words.
+category: Words
+status: active
+history:
+- date: '2025-05-08'
+  event: added

@@ -1,0 +1,10 @@
+id: 130
+name: Fusele
+url: https://fusele.netlify.app/?daily
+description: A Wordle variant in which each row has a unique twist.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2024-06-22'
+  event: added

@@ -1,0 +1,9 @@
+id: 525
+name: Cropple
+url: https://cropple.app
+description: Guess the thing based on a cropped image, you can zoom out or ask for letters.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-10-17'
+  event: added

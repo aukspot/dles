@@ -1,0 +1,9 @@
+id: 712
+name: list animals until failure
+url: https://rose.systems/animalist/#today
+description: List as many animals of a given type as you can until time runs out.
+category: Science/Nature
+status: active
+history:
+- date: '2026-03-06'
+  event: added

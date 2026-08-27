@@ -1,0 +1,9 @@
+id: 367
+name: Statele
+url: https://statele.teuteuf.fr
+description: Guess the US State by its outline on the map.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

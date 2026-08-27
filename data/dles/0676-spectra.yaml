@@ -1,0 +1,11 @@
+id: 676
+name: Spectra
+url: https://spectra.quest/puzzles/latest
+description: Sort items by discovering the hidden metric.
+category: Trivia
+status: removed
+history:
+- date: '2026-02-08'
+  event: added
+- date: '2026-03-06'
+  event: removed

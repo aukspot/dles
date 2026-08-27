@@ -1,0 +1,9 @@
+id: 610
+name: Crossword Club Daily
+url: https://crosswordclub.com/puzzles/
+description: Daily crossword by the Crossword Club.
+category: Words
+status: active
+history:
+- date: '2026-01-06'
+  event: added

@@ -1,0 +1,9 @@
+id: 817
+name: Patchdle
+url: https://patchdle.com
+description: Guess the video game from its patch notes.
+category: Video Games
+status: active
+history:
+- date: '2026-08-26'
+  event: added

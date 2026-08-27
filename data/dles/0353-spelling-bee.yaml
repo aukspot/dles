@@ -1,0 +1,9 @@
+id: 353
+name: Spelling Bee
+url: https://spellsbee.com
+description: Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.
+category: Words
+status: active
+history:
+- date: '2024-02-17'
+  event: added

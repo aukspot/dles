@@ -1,0 +1,9 @@
+id: 107
+name: Emoji Quiz - Video Games
+url: https://www.emojiquiz.net/games
+description: Use the emojis to guess the title of the video game.
+category: Video Games
+status: active
+history:
+- date: '2025-06-11'
+  event: added

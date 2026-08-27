@@ -1,0 +1,10 @@
+id: M15
+name: Listed
+url: https://listed.fun
+status: removed
+history:
+- date: '2024-02-17'
+  event: added
+- date: '2025-06-11'
+  event: removed
+  reason: The game has been concluded.

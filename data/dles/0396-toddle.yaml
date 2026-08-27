@@ -1,0 +1,9 @@
+id: 396
+name: Toddle
+url: https://toddle-puzzle.web.app
+description: Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.
+category: Words
+status: active
+history:
+- date: '2024-05-28'
+  event: added

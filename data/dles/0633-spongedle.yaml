@@ -1,0 +1,9 @@
+id: 633
+name: Spongedle
+url: https://spongedle.onrender.com
+description: Guess the episode from Spongebob Squarepants based on the screenshots.
+category: Movies/TV
+status: active
+history:
+- date: '2026-01-11'
+  event: added

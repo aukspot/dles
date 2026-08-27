@@ -1,0 +1,9 @@
+id: 813
+name: haggle
+url: https://haggle.gg
+description: Guess the price for each of today's five products.
+category: Estimation
+status: active
+history:
+- date: '2026-08-26'
+  event: added

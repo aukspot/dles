@@ -1,0 +1,9 @@
+id: 419
+name: WhereTaken
+url: https://wheretaken.teuteuf.fr
+description: Guess the Country/Region in which the photo was taken.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

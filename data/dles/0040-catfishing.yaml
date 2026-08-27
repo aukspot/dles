@@ -1,0 +1,9 @@
+id: 40
+name: Catfishing
+url: https://catfishing.net
+description: Guess the Wikipedia article by its categories. 10 rounds per day.
+category: Trivia
+status: active
+history:
+- date: '2025-02-16'
+  event: added

@@ -1,0 +1,9 @@
+id: 688
+name: Clue Tube
+url: https://thecluetube.com
+description: Guess the popular YouTube video based on its comments.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-02-22'
+  event: added

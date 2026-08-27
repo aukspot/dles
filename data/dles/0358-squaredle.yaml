@@ -1,0 +1,9 @@
+id: 358
+name: Squaredle
+url: https://squaredle.app
+description: Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. Two puzzles each day.
+category: Words
+status: active
+history:
+- date: '2024-06-22'
+  event: added

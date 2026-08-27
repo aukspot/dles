@@ -1,0 +1,9 @@
+id: 149
+name: Guess The Book
+url: https://guessthebook.app
+description: Guess the book based on short snippets and details.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-05-08'
+  event: added

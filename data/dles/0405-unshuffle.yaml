@@ -1,0 +1,12 @@
+id: 405
+name: Unshuffle
+url: https://www.unshuffle.me
+description: Unshuffle the grid using the numbers along each row and column as a guide.
+category: Math/Logic
+status: removed
+history:
+- date: '2025-06-29'
+  event: added
+- date: '2025-11-11'
+  event: removed
+  reason: Site no longer loads.

@@ -1,0 +1,12 @@
+id: 455
+name: NBAGrid
+url: https://www.nbagr.id
+description: Guess a grid of NBA players that fit into specific categories.
+category: Sports
+status: removed
+history:
+- date: '2025-07-21'
+  event: added
+- date: '2026-02-07'
+  event: removed
+  reason: Player pictures are AI-generated.

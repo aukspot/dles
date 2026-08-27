@@ -1,0 +1,9 @@
+id: 695
+name: Beatdle
+url: https://beatdle.fun
+description: Recreate the drum beat on the sequencer after listening to it.
+category: Music
+status: active
+history:
+- date: '2026-02-24'
+  event: added

@@ -1,0 +1,9 @@
+id: 692
+name: PIVOT
+url: https://pivotthegame.com
+description: Create today's word by rotating its letters into the gold row.
+category: Words
+status: active
+history:
+- date: '2026-02-22'
+  event: added

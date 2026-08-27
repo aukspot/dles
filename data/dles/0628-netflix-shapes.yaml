@@ -1,0 +1,9 @@
+id: 628
+name: Netflix - Shapes
+url: https://www.netflix.com/tudum/puzzled/shapes/daily
+description: Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-01-11'
+  event: added

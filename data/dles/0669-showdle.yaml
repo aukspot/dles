@@ -1,0 +1,9 @@
+id: 669
+name: Showdle
+url: https://showdle.com
+description: Guess today's TV show by narrowing down its attributes.
+category: Movies/TV
+status: active
+history:
+- date: '2026-02-07'
+  event: added

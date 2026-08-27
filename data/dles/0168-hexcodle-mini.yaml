@@ -1,0 +1,9 @@
+id: 168
+name: Hexcodle Mini
+url: https://www.hexcodle.com/mini
+description: Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
+category: Colors
+status: active
+history:
+- date: '2024-04-10'
+  event: added

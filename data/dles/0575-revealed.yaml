@@ -1,0 +1,9 @@
+id: 575
+name: Revealed
+url: https://www.britannica.com/games/revealed
+description: Guess the daily topic based on its description with redacted words.
+category: Trivia
+status: active
+history:
+- date: '2025-12-11'
+  event: added

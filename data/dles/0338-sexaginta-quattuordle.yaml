@@ -1,0 +1,9 @@
+id: 338
+name: Sexaginta-quattuordle
+url: https://64ordle.au/?mode=daily
+description: Solve 64 Wordle puzzles at the same time.
+category: Words
+status: active
+history:
+- date: '2025-02-10'
+  event: added

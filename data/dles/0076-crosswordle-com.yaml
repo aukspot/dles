@@ -1,0 +1,9 @@
+id: 76
+name: crosswordle.com
+url: https://crosswordle.com
+description: Swap tiles to solve multiple Wordle puzzles crossed together.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

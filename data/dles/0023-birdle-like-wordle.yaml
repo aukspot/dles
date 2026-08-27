@@ -1,0 +1,12 @@
+id: 23
+name: Birdle (like Wordle)
+url: https://birdle.escism.net
+description: Guess the 5-letter bird name in 6 guesses or less.
+category: Science/Nature
+status: removed
+history:
+- date: '2025-06-11'
+  event: added
+- date: '2026-02-07'
+  event: removed
+  reason: Page gives 404 error.

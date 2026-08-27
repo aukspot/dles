@@ -1,0 +1,9 @@
+id: 533
+name: Jumble Daily
+url: https://fun.chicagotribune.com/game/tca-jumble-daily/
+description: Unscramble each word to reveal letters to be used in the punchline of a punny cartoon.
+category: Words
+status: active
+history:
+- date: '2025-10-19'
+  event: added

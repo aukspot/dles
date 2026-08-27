@@ -1,0 +1,9 @@
+id: 352
+name: Spellie
+url: https://spelliegame.com
+description: Wordle for young spellers with 3 difficulty modes.
+category: Words
+status: active
+history:
+- date: '2024-04-10'
+  event: added

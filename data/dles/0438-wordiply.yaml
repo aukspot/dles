@@ -1,0 +1,9 @@
+id: 438
+name: Wordiply
+url: https://www.wordiply.com
+description: Try to make the longest word that contains the given word in 5 tries or less.
+category: Words
+status: active
+history:
+- date: '2024-09-18'
+  event: added

@@ -1,0 +1,10 @@
+id: M22
+name: Apparle
+url: https://www.apparle.com
+status: removed
+history:
+- date: '2024-04-10'
+  event: added
+- date: '2024-11-24'
+  event: removed
+  reason: Game does not load most days.

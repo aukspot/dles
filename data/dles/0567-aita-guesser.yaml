@@ -1,0 +1,9 @@
+id: 567
+name: AITA Guesser
+url: https://muhashi.com/aita-guesser/
+description: Guess the verdict of Reddit AITA posts.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-12-11'
+  event: added

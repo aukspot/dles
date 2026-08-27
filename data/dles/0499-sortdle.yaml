@@ -1,0 +1,9 @@
+id: 499
+name: Sortdle
+url: https://sortdle.com
+description: Sort letters into tubes to form the hidden words without running out of moves.
+category: Words
+status: active
+history:
+- date: '2025-08-30'
+  event: added

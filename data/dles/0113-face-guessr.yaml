@@ -1,0 +1,9 @@
+id: 113
+name: Face Guessr
+url: https://www.faceguesser.com
+description: Guess the pixelated face of today's notable figure.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-02-10'
+  event: added

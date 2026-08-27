@@ -1,0 +1,9 @@
+id: 564
+name: Wordamid
+url: https://www.wordamid.com
+description: Solve the daily word pyramid by guessing words of increasing length.
+category: Words
+status: active
+history:
+- date: '2025-11-23'
+  event: added

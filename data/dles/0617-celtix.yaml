@@ -1,0 +1,9 @@
+id: 617
+name: Celtix
+url: https://www.andrewt.net/puzzles/celtix/
+description: Divide the Celtic knot into separate loops, one for each color.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-01-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 799
+name: Geozee
+url: https://geozee.earth
+description: Place each country in the category that fits it best. The better the match, the more points you get.
+category: Geography
+status: active
+history:
+- date: '2026-07-21'
+  event: added

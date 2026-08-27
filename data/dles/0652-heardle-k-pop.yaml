@@ -1,0 +1,9 @@
+id: 652
+name: Heardle K-pop
+url: https://kpop.heardledecades.com
+description: Guess the K-pop song from listening to small parts of it.
+category: Music
+status: active
+history:
+- date: '2026-01-28'
+  event: added

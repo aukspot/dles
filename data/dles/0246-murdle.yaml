@@ -1,0 +1,9 @@
+id: 246
+name: Murdle
+url: https://murdle.com
+description: Solve today's murder-mystery logic puzzle.
+category: Math/Logic
+status: active
+history:
+- date: '2024-05-28'
+  event: added

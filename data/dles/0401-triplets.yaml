@@ -1,0 +1,9 @@
+id: 401
+name: Triplets
+url: https://www.tripletgame.com
+description: Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-05-28'
+  event: added

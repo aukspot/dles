@@ -1,0 +1,9 @@
+id: 422
+name: Wildlife Sudoku
+url: https://flagdoku.com/wildlife.html
+description: Guess 9 animals that properly fill in the grid.
+category: Science/Nature
+status: active
+history:
+- date: '2025-06-11'
+  event: added

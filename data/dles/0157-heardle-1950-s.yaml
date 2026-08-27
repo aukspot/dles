@@ -1,0 +1,9 @@
+id: 157
+name: Heardle 1950's
+url: https://50s.heardledecades.com
+description: Guess the 1950's song from listening to small parts of it.
+category: Music
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 584
+name: Yearly Daily
+url: https://coffeefirst.games/yearly-daily
+description: Guess the year of each of these events that all happened today's month and day.
+category: History
+status: active
+history:
+- date: '2025-12-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 36
+name: Cardle
+url: https://cardle.boxbox.autos
+description: Correctly identify the pictured car's make, model, and year.
+category: Vehicles
+status: active
+history:
+- date: '2024-11-24'
+  event: added

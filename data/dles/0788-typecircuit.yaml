@@ -1,0 +1,9 @@
+id: 788
+name: TypeCircuit
+url: https://typecircuit.com
+description: A daily typing speed challenge featuring quotes from popular video games, movies, and anime.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-07-09'
+  event: added

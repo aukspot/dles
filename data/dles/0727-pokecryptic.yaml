@@ -1,0 +1,9 @@
+id: 727
+name: PokeCryptic
+url: https://www.pokecryptic.com
+description: A daily cryptic crossword clue, but with Pokémon-related answers such as Pokémon names, move names, and towns.
+category: Video Games
+status: active
+history:
+- date: '2026-03-21'
+  event: added

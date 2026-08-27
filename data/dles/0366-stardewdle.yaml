@@ -1,0 +1,10 @@
+id: 366
+name: Stardewdle
+url: https://stardewdle.com/game
+description: Guess today's mystery crop from Stardew Valley.
+category: Video Games
+theme: Stardew Valley
+status: active
+history:
+- date: '2025-06-11'
+  event: added

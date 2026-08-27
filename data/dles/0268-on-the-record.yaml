@@ -1,0 +1,9 @@
+id: 268
+name: On the Record
+url: https://www.washingtonpost.com/news-quiz
+description: Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
+category: Trivia
+status: active
+history:
+- date: '2024-07-20'
+  event: added

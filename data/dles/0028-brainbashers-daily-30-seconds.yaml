@@ -1,0 +1,9 @@
+id: 28
+name: BrainBashers Daily 30 Seconds
+url: https://www.brainbashers.com/30seconds.asp
+description: Try to solve the arithmetic questions in 30 seconds, but it is okay if you go over.
+category: Math/Logic
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 208
+name: LinkedIn - Tango
+url: https://www.linkedin.com/games/tango
+description: Fill in the grid properly with suns and moons. Does not require a LinkedIn account.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-11'
+  event: added

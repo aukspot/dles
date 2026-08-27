@@ -1,0 +1,11 @@
+id: 127
+name: Fluxis
+url: https://www.theatlantic.com/games/fluxis/
+description: Complete the chain by entering words that satisfy their category and build off the previous word. (From The Atlantic)
+category: Words
+status: removed
+history:
+- date: '2025-06-29'
+  event: added
+- date: '2026-07-19'
+  event: removed

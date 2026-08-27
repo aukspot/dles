@@ -1,0 +1,9 @@
+id: 556
+name: Spiredle
+url: https://spiredle.com
+description: Guess the daily Slay the Spire card.
+category: Video Games
+status: active
+history:
+- date: '2025-11-23'
+  event: added

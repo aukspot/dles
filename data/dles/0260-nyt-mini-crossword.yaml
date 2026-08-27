@@ -1,0 +1,12 @@
+id: 260
+name: NYT Mini Crossword
+url: https://www.nytimes.com/crosswords/game/mini
+description: A very small crossword puzzle by the New York Times.
+category: Words
+status: removed
+history:
+- date: '2024-02-13'
+  event: added
+- date: '2025-08-30'
+  event: removed
+  reason: Now behind a paywall.

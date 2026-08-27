@@ -1,0 +1,9 @@
+id: 815
+name: Lawndle
+url: https://johalloran.dev/lawndle/
+description: Mow today's lawn as efficiently as possible.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-08-26'
+  event: added

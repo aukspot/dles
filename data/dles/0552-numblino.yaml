@@ -1,0 +1,11 @@
+id: 552
+name: Numblino
+url: https://numblino.com
+description: Guess the number based on the given fact. You have 6 guesses.
+category: Estimation
+status: removed
+history:
+- date: '2025-11-23'
+  event: added
+- date: '2026-08-26'
+  event: removed

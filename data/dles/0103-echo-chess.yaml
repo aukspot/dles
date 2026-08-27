@@ -1,0 +1,18 @@
+id: 103
+name: Echo Chess
+url: https://echochess.com
+description: Solve the chess puzzle where you have to capture all black pieces to win and your piece becomes what it captures.
+category: Card/Board Games
+theme: Chess
+status: active
+previous_urls:
+- url: https://echochess.com/game.html
+  until: '2025-04-16'
+history:
+- date: '2024-04-10'
+  event: added
+- date: '2024-05-28'
+  event: removed
+  reason: Frustrating bug on mobile where dragging pieces down causes the browser to refresh.
+- date: '2025-04-16'
+  event: readded

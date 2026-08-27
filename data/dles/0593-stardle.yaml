@@ -1,0 +1,9 @@
+id: 593
+name: Stardle
+url: https://stardlegame.github.io/stardle
+description: Wordle except the secret word is related to Astronomy in some way.
+category: Science/Nature
+status: active
+history:
+- date: '2025-12-20'
+  event: added

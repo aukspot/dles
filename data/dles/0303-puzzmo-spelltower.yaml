@@ -1,0 +1,9 @@
+id: 303
+name: Puzzmo - Spelltower
+url: https://www.puzzmo.com/play/spelltower
+description: Find words to clear tiles in the falling grid.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

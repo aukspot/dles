@@ -1,0 +1,16 @@
+id: 582
+name: Warbl
+url: https://www.warbl.org
+description: Guess the name of the song that is playing backwards!
+category: Music
+status: removed
+history:
+- date: '2025-05-08'
+  event: added
+- date: '2025-06-29'
+  event: removed
+  reason: Songs do not play.
+- date: '2025-12-11'
+  event: readded
+- date: '2026-02-18'
+  event: removed

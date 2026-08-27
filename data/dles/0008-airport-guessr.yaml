@@ -1,0 +1,9 @@
+id: 8
+name: Airport Guessr
+url: https://airportguessr.bytecatch.io/
+description: Guess the airport given its satellite image.
+category: Vehicles
+status: active
+history:
+- date: '2024-11-24'
+  event: added

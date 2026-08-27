@@ -1,0 +1,9 @@
+id: 177
+name: 'Immaculate Grid: Hockey'
+url: https://www.sports-reference.com/immaculate-grid/hockey
+description: Fill out the grid with hockey players matching the criteria of each cell's row and column.
+category: Sports
+status: active
+history:
+- date: '2024-02-14'
+  event: added

@@ -1,0 +1,9 @@
+id: 201
+name: Lex.Games - Square Dance
+url: https://lex.games/squaredance
+description: Make a word with each group of letters, but you must add a letter to each word.
+category: Words
+status: active
+history:
+- date: '2025-02-10'
+  event: added

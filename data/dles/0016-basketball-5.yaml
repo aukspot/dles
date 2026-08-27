@@ -1,0 +1,9 @@
+id: 16
+name: Basketball 5
+url: https://basketball-5.com
+description: A collection of daily games related to basketball.
+category: Sports
+status: active
+history:
+- date: '2025-07-06'
+  event: added

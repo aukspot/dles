@@ -1,0 +1,9 @@
+id: 612
+name: Plausible
+url: https://plausiblegame.com/en
+description: Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.
+category: Words
+status: active
+history:
+- date: '2026-01-06'
+  event: added

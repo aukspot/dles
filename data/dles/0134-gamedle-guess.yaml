@@ -1,0 +1,9 @@
+id: 134
+name: Gamedle Guess
+url: https://www.gamedle.wtf/guess
+description: Guess the video game by its specifications.
+category: Video Games
+status: active
+history:
+- date: '2024-02-13'
+  event: added

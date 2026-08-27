@@ -1,0 +1,10 @@
+id: 116
+name: Factle
+url: https://frontofficesports.com/trivia/factle
+description: Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
+category: Trivia
+theme: Guess the List
+status: active
+history:
+- date: '2024-07-20'
+  event: added

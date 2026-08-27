@@ -1,0 +1,9 @@
+id: 79
+name: Cyphr
+url: https://cyphrgame.com
+description: Guess letters to form a word on each row of the pyramid, starting from the top row.
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

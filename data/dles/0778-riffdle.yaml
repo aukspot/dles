@@ -1,0 +1,9 @@
+id: 778
+name: Riffdle
+url: https://www.synthia.space/riffdle
+description: Guess the notes of a musical riff after listening to it.
+category: Music
+status: active
+history:
+- date: '2026-06-12'
+  event: added

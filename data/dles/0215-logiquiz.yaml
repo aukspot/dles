@@ -1,0 +1,9 @@
+id: 215
+name: Logiquiz
+url: https://www.logiquiz.com
+description: A self-referential logic quiz with 5 difficulty modes.
+category: Math/Logic
+status: active
+history:
+- date: '2024-06-22'
+  event: added

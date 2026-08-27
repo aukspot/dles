@@ -1,0 +1,9 @@
+id: 368
+name: steamdle.com
+url: https://steamdle.com
+description: Guess the game based on the Steam review.
+category: Video Games
+status: active
+history:
+- date: '2025-06-11'
+  event: added

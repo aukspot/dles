@@ -1,0 +1,9 @@
+id: 142
+name: Globle Capitals
+url: https://globle-capitals.com
+description: Guess the mystery world capital, given how close it is to each guessed world capital.
+category: Geography
+status: active
+history:
+- date: '2024-02-16'
+  event: added

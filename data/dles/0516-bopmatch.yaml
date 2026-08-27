@@ -1,0 +1,9 @@
+id: 516
+name: BopMatch
+url: https://bopmatch.com
+description: Match the target artist with one of the same popularity - the closer the match, the higher your score! 5 new rounds every day.
+category: Music
+status: active
+history:
+- date: '2025-10-06'
+  event: added

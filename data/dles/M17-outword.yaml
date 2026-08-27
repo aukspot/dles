@@ -1,0 +1,10 @@
+id: M17
+name: Outword
+url: https://outword.me
+status: removed
+history:
+- date: '2024-07-20'
+  event: added
+- date: '2025-06-11'
+  event: removed
+  reason: The website does not load.

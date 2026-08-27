@@ -1,0 +1,12 @@
+id: 380
+name: Tarkovdle
+url: https://tarkovdle.com
+description: Guess the weapon from Escape from Tarkov by its properties or sound.
+category: Video Games
+theme: Escape from Tarkov
+status: removed
+history:
+- date: '2025-06-29'
+  event: added
+- date: '2026-07-12'
+  event: removed

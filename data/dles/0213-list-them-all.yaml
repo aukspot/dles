@@ -1,0 +1,13 @@
+id: 213
+name: List Them All!
+url: https://listthemall.com
+description: List all of the items that fit today's category.
+category: Trivia
+theme: Guess the List
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2026-01-01'
+  event: removed
+  reason: Puzzles repeat too often.

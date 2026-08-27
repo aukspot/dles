@@ -1,0 +1,9 @@
+id: 269
+name: One Up Puzzle
+url: https://www.oneuppuzzle.com
+description: Sudoku-style game where you need to fill segmented rows and columns with numbers.
+category: Math/Logic
+status: active
+history:
+- date: '2024-06-22'
+  event: added

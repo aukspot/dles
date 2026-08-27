@@ -1,0 +1,9 @@
+id: 737
+name: TED - Cheat Sheet
+url: https://www.ted.com/games/cheat-sheet
+description: Answer today's redacted question by investigating each of the clues.
+category: Trivia
+status: active
+history:
+- date: '2026-03-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 167
+name: Hexcodle
+url: https://www.hexcodle.com
+description: Guess the 6-digit hex code of the shown color in 5 tries or less.
+category: Colors
+status: active
+history:
+- date: '2024-04-10'
+  event: added

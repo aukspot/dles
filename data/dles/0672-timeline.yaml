@@ -1,0 +1,9 @@
+id: 672
+name: Timeline
+url: https://timeline.fromthethink.com
+description: Guess the year for each of the 6 historical events.
+category: History
+status: active
+history:
+- date: '2026-02-07'
+  event: added

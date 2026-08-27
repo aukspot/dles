@@ -1,0 +1,10 @@
+id: 108
+name: Emoji Test
+url: https://emojitest.com/en
+description: Guess the hidden word represented by emojis.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2025-06-29'
+  event: added

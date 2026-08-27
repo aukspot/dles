@@ -1,0 +1,9 @@
+id: 550
+name: Mapster
+url: https://mapster.teuteuf.fr
+description: Draw the outline of a country as close as you can to the country's actual borders.
+category: Geography
+status: active
+history:
+- date: '2025-11-23'
+  event: added

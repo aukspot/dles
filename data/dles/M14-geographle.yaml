@@ -1,0 +1,10 @@
+id: M14
+name: Geographle
+url: https://geographle.com
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2025-06-11'
+  event: removed
+  reason: Daily puzzles do not load.

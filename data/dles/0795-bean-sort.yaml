@@ -1,0 +1,9 @@
+id: 795
+name: Bean Sort
+url: https://coffeefirst.games/bean-sort
+description: Sort the colorful coffee beans so that each tube contains only one color.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-07-19'
+  event: added

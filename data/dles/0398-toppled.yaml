@@ -1,0 +1,12 @@
+id: 398
+name: Toppled
+url: https://bythomas.co.uk/toppled
+description: Topple the letter wall by finding four 5-letter words
+category: Words
+status: removed
+history:
+- date: '2024-06-22'
+  event: added
+- date: '2025-08-30'
+  event: removed
+  reason: Cannot access the game, stuck on advertisement.

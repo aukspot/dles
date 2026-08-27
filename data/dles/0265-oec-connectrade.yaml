@@ -1,0 +1,9 @@
+id: 265
+name: OEC Connectrade
+url: https://oec.world/en/games/connectrade
+description: Form groups of four exported products that are associated with one of the given countries.
+category: Geography
+status: active
+history:
+- date: '2024-05-28'
+  event: added

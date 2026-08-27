@@ -1,0 +1,9 @@
+id: 477
+name: Knotilus
+url: https://knotil.us
+description: Solve this daily puzzle by finding Fibonacci-like sequences from the given numbers.
+category: Math/Logic
+status: active
+history:
+- date: '2025-08-30'
+  event: added

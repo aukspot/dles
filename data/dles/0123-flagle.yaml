@@ -1,0 +1,9 @@
+id: 123
+name: Flagle
+url: https://www.flagle.io
+description: Guess the flag in 5 guesses or less.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

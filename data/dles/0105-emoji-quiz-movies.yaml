@@ -1,0 +1,9 @@
+id: 105
+name: Emoji Quiz - Movies
+url: https://www.emojiquiz.net/movies
+description: Use the emojis to guess the title of the movie.
+category: Movies/TV
+status: active
+history:
+- date: '2025-06-11'
+  event: added

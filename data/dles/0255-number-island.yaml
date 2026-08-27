@@ -1,0 +1,9 @@
+id: 255
+name: Number Island
+url: https://numberisland.com
+description: Divide the number board into islands that match the target sums.
+category: Math/Logic
+status: active
+history:
+- date: '2024-11-24'
+  event: added

@@ -1,0 +1,9 @@
+id: 392
+name: Tightrope
+url: https://www.britannica.com/quiz/tightrope
+description: Answer 9 timed trivia questions without running out of lives!
+category: Trivia
+status: active
+history:
+- date: '2024-09-18'
+  event: added

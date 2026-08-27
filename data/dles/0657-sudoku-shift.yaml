@@ -1,0 +1,9 @@
+id: 657
+name: Sudoku Shift
+url: https://coffeefirst.games/sudoku-shift/
+description: Solve three sudokus in sequence, each one bigger than the previous.
+category: Math/Logic
+status: active
+history:
+- date: '2026-01-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 783
+name: LinkedIn - Patches
+url: https://www.linkedin.com/games/patches/
+description: Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-07-09'
+  event: added

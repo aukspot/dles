@@ -1,0 +1,9 @@
+id: 608
+name: Power Scadle
+url: https://powerscadle.com
+description: Compare two fictional characters and guess which one is stronger.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-01-03'
+  event: added

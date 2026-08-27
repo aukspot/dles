@@ -1,0 +1,9 @@
+id: 786
+name: Pipcross
+url: https://puzzmallow.com/pipcross
+description: Place every die onto the grid so that their pips form the pattern described by the numbered clues.
+category: Math/Logic
+status: active
+history:
+- date: '2026-07-09'
+  event: added

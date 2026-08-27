@@ -1,0 +1,9 @@
+id: 332
+name: Scramble
+url: https://playscramble.vercel.app/?daily=1
+description: Guess as many valid words as possible for each row of a scrambled grid of letters.
+category: Words
+status: active
+history:
+- date: '2024-06-22'
+  event: added

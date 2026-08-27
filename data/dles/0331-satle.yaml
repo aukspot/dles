@@ -1,0 +1,9 @@
+id: 331
+name: Satle
+url: https://satle.ca
+description: Guess the city given a satellite image, zooming out after each guess.
+category: Geography
+status: active
+history:
+- date: '2024-04-10'
+  event: added

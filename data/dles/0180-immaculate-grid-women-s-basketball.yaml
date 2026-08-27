@@ -1,0 +1,9 @@
+id: 180
+name: 'Immaculate Grid: Women''s Basketball'
+url: https://www.sports-reference.com/immaculate-grid/basketball/womens
+description: Fill out the grid with women's basketball players matching the criteria of each cell's row and column.
+category: Sports
+status: active
+history:
+- date: '2024-02-13'
+  event: added

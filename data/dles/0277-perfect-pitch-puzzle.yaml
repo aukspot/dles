@@ -1,0 +1,9 @@
+id: 277
+name: Perfect Pitch Puzzle
+url: https://www.perfectpitchpuzzle.com
+description: After listening to a short tune, identify the first 6 notes that were played.
+category: Music
+status: active
+history:
+- date: '2024-09-18'
+  event: added

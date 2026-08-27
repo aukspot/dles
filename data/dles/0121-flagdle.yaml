@@ -1,0 +1,9 @@
+id: 121
+name: Flagdle
+url: https://www.flagdle.org
+description: Guess the country by its flag.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

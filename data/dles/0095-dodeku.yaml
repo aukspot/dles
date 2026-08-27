@@ -1,0 +1,9 @@
+id: 95
+name: Dodeku
+url: https://dodeku.com
+description: Make the sum of each row and column match the numbers on the perimeter.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-11'
+  event: added

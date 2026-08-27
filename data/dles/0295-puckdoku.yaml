@@ -1,0 +1,9 @@
+id: 295
+name: Puckdoku
+url: https://www.puckdoku.com
+description: Fill out the grid with hockey players matching the criteria of each cell's row and column.
+category: Sports
+status: active
+history:
+- date: '2024-02-17'
+  event: added

@@ -1,0 +1,9 @@
+id: 433
+name: Word500
+url: https://word500.com/game?mode=daily
+description: Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.
+category: Words
+status: active
+history:
+- date: '2024-05-28'
+  event: added

@@ -1,0 +1,10 @@
+id: 289
+name: Pokedle.net
+url: https://pokedle.net
+description: Guess the Pokemon in these daily quizzes.
+category: Video Games
+theme: Pokemon
+status: active
+history:
+- date: '2024-06-22'
+  event: added

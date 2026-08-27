@@ -1,0 +1,9 @@
+id: 731
+name: Doctordle
+url: https://doctordle.org
+description: Diagnose the patient based on their symptoms and history.
+category: Science/Nature
+status: active
+history:
+- date: '2026-03-28'
+  event: added

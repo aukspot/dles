@@ -1,0 +1,9 @@
+id: 663
+name: MapleWordle
+url: https://www.maplewordle.com
+description: A collection of daily guessing games related to the game MapleStory.
+category: Video Games
+status: active
+history:
+- date: '2026-02-07'
+  event: added

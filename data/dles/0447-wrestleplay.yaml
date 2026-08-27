@@ -1,0 +1,9 @@
+id: 447
+name: WrestlePlay
+url: https://wrestleplay.com
+description: A collection of daily games related to wrestling.
+category: Sports
+status: active
+history:
+- date: '2025-07-06'
+  event: added

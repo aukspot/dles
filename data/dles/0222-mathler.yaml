@@ -1,0 +1,9 @@
+id: 222
+name: Mathler
+url: https://www.mathler.com
+description: Find the hidden calculation that equals the given number.
+category: Math/Logic
+status: active
+history:
+- date: '2024-02-27'
+  event: added

@@ -1,0 +1,9 @@
+id: 394
+name: TimeGuessr
+url: https://timeguessr.com
+description: Guess the right time and location of each historical photo.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

@@ -1,0 +1,10 @@
+id: 228
+name: Minecraftle
+url: https://minecraftle.zachmanson.com
+description: Guess the crafting recipe from the game Minecraft.
+category: Video Games
+theme: Minecraft
+status: active
+history:
+- date: '2025-04-02'
+  event: added

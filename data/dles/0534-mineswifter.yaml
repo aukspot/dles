@@ -1,0 +1,9 @@
+id: 534
+name: Mineswifter
+url: https://mineswifter.com
+description: Solvable Minesweeper puzzles with daily challenges.
+category: Math/Logic
+status: active
+history:
+- date: '2025-10-19'
+  event: added

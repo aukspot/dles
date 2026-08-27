@@ -1,0 +1,9 @@
+id: 262
+name: NYT Sudoku
+url: https://www.nytimes.com/puzzles/sudoku
+description: Daily Sudoku puzzles from the New York Times.
+category: Math/Logic
+status: active
+history:
+- date: '2024-02-16'
+  event: added

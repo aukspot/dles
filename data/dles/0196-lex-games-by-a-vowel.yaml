@@ -1,0 +1,9 @@
+id: 196
+name: Lex.Games - By A Vowel
+url: https://lex.games/byavowel/
+description: Unjumble five words by inserting a unique vowel into each word.
+category: Words
+status: active
+history:
+- date: '2025-02-10'
+  event: added

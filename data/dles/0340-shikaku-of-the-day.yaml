@@ -1,0 +1,9 @@
+id: 340
+name: Shikaku of the day
+url: https://shikakuofthe.day
+description: 5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-06-22'
+  event: added

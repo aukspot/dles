@@ -1,0 +1,9 @@
+id: 372
+name: Summle
+url: https://summle.net
+description: Reach the target number using the given numbers and operations. Includes a junior mode and hard mode.
+category: Math/Logic
+status: active
+history:
+- date: '2024-05-28'
+  event: added

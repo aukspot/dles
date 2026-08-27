@@ -1,0 +1,9 @@
+id: 810
+name: Fermi
+url: https://fermi.gg
+description: Three daily estimation questions from different categories.
+category: Estimation
+status: active
+history:
+- date: '2026-08-26'
+  event: added

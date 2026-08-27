@@ -1,0 +1,9 @@
+id: 711
+name: Chrono USA
+url: https://chrono.quest/us_history.html
+description: Put the USA events in chronological order in 3 tries or less.
+category: History
+status: active
+history:
+- date: '2026-03-06'
+  event: added

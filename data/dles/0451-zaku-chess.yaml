@@ -1,0 +1,10 @@
+id: 451
+name: Zaku Chess
+url: https://zakuchess.com
+description: A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
+category: Card/Board Games
+theme: Chess
+status: active
+history:
+- date: '2024-09-18'
+  event: added

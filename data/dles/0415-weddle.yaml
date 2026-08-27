@@ -1,0 +1,9 @@
+id: 415
+name: Weddle
+url: https://www.weddlegame.com
+description: Guess the NFL player within 8 guesses.
+category: Sports
+status: active
+history:
+- date: '2025-04-02'
+  event: added

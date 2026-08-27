@@ -1,0 +1,9 @@
+id: 299
+name: Puzzmo - Flipart
+url: https://www.puzzmo.com/play/flip-art
+description: Rotate the pieces to fit them within the frame.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-02-13'
+  event: added

@@ -1,0 +1,9 @@
+id: 616
+name: Bibdle
+url: https://bibdle.com
+description: Guess the bible book that the verse is from.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-01-11'
+  event: added

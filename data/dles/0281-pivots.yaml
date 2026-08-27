@@ -1,0 +1,9 @@
+id: 281
+name: Pivots
+url: https://playpivots.com
+description: Sort the board by pivoting parts of it at a time.
+category: Math/Logic
+status: active
+history:
+- date: '2024-09-18'
+  event: added

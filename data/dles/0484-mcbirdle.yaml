@@ -1,0 +1,9 @@
+id: 484
+name: Mcbirdle
+url: https://kendisc.com/mcbirdle
+description: Professional disc golfer guessing game.
+category: Sports
+status: active
+history:
+- date: '2025-08-30'
+  event: added

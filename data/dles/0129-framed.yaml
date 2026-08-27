@@ -1,0 +1,9 @@
+id: 129
+name: Framed
+url: https://framed.wtf
+description: Guess the movie from 6 frames.
+category: Movies/TV
+status: active
+history:
+- date: '2024-02-13'
+  event: added

@@ -1,0 +1,9 @@
+id: 696
+name: Electle
+url: https://electle.fun
+description: Guess the country and election year of the given parliament seating diagram.
+category: Geography
+status: active
+history:
+- date: '2026-02-24'
+  event: added

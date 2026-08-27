@@ -1,0 +1,10 @@
+id: 45
+name: Chessguessr
+url: https://www.chessguessr.com
+description: Given a snapshot from a chess game, guess the next 5 moves played.
+category: Card/Board Games
+theme: Chess
+status: active
+history:
+- date: '2024-11-24'
+  event: added

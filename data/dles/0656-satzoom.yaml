@@ -1,0 +1,9 @@
+id: 656
+name: SatZoom
+url: https://satpixel.com/en/satellite-zoom-game/
+description: Guess the city based on the satellite image.
+category: Geography
+status: active
+history:
+- date: '2026-01-28'
+  event: added

@@ -1,0 +1,9 @@
+id: 34
+name: Cancelwise
+url: https://cancelwise.com
+description: Cancel numbers such that the remaining tiles add up to the target numbers.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-29'
+  event: added

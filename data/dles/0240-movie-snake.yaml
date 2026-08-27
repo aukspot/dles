@@ -1,0 +1,9 @@
+id: 240
+name: Movie Snake
+url: https://moviesnake.io
+description: Guess movies that match pairs of criteria until all clues have been used.
+category: Movies/TV
+status: active
+history:
+- date: '2025-04-02'
+  event: added

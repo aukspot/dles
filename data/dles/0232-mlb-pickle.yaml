@@ -1,0 +1,9 @@
+id: 232
+name: MLB Pickle
+url: https://www.mlbpickle.com
+description: Guess today's mystery MLB player within nine guesses.
+category: Sports
+status: active
+history:
+- date: '2024-02-13'
+  event: added

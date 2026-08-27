@@ -1,0 +1,9 @@
+id: 439
+name: Wordistance
+url: https://wordistance.com
+description: Keep guessing words until you find the mystery word, each guess revealing the distance between the guessed word and mystery word.
+category: Words
+status: active
+history:
+- date: '2024-06-22'
+  event: added

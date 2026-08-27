@@ -1,0 +1,9 @@
+id: 96
+name: Domino Fit
+url: https://dominofit.isotropic.us
+description: Fill the board with dominoes so that the dots add up in each row and column.
+category: Math/Logic
+status: active
+history:
+- date: '2024-06-22'
+  event: added

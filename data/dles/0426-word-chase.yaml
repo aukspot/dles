@@ -1,0 +1,9 @@
+id: 426
+name: Word Chase
+url: https://wordchase.semantle.com
+description: Guess the secret word within 5 tries, receiving a new word as a hint before each guess.
+category: Words
+status: active
+history:
+- date: '2024-04-10'
+  event: added

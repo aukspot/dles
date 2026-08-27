@@ -1,0 +1,9 @@
+id: 174
+name: I Called Game
+url: https://icalledgame.hoopgrids.com
+description: Identify key details from an image of a historical NBA game to answer 6 questions.
+category: Sports
+status: active
+history:
+- date: '2024-06-22'
+  event: added

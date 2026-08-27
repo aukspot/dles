@@ -1,0 +1,9 @@
+id: 618
+name: Cliffhanger
+url: https://jumoh.com/games/cliffhanger/
+description: Hangman but it's always a movie title.
+category: Movies/TV
+status: active
+history:
+- date: '2026-01-11'
+  event: added

@@ -1,0 +1,11 @@
+id: 20
+name: BingeWatcher
+url: https://bingewatcher.org
+description: Guess the daily movie title by revealing its details.
+category: Movies/TV
+status: removed
+history:
+- date: '2025-05-08'
+  event: added
+- date: '2026-05-22'
+  event: removed

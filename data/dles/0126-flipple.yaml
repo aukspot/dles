@@ -1,0 +1,10 @@
+id: 126
+name: Flipple
+url: https://flipple.clevergoat.com
+description: Transform the starting word to the target word by changing one letter at a time
+category: Words
+theme: Transform words
+status: active
+history:
+- date: '2024-06-06'
+  event: added

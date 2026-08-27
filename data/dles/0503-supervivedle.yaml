@@ -1,0 +1,13 @@
+id: 503
+name: Supervivedle
+url: https://supervivedle.com
+description: A collection of daily games related to Supervive.
+category: Video Games
+theme: Supervive
+status: removed
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2026-02-07'
+  event: removed
+  reason: Page no longer loads.

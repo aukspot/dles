@@ -1,0 +1,9 @@
+id: 722
+name: Am I Dead?
+url: https://www.amidead.gg
+description: Guess whether each of the famous faces are alive or dead.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-03-21'
+  event: added

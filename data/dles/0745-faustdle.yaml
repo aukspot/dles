@@ -1,0 +1,9 @@
+id: 745
+name: Faustdle
+url: https://faustdle.com/
+description: Guess the One Piece character of the day.
+category: Movies/TV
+status: active
+history:
+- date: '2026-05-03'
+  event: added

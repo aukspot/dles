@@ -1,0 +1,9 @@
+id: 84
+name: Daily Jingle
+url: https://dailyjingle.me
+description: Guess the melody within 5 tries.
+category: Music
+status: active
+history:
+- date: '2024-05-28'
+  event: added

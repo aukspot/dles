@@ -1,0 +1,9 @@
+id: 283
+name: Planespottle
+url: https://planespottle.bytecatch.io
+description: Given an image of an airplane, determine the make, type, and the airline it belongs to.
+category: Vehicles
+status: active
+history:
+- date: '2024-11-24'
+  event: added

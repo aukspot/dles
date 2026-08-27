@@ -1,0 +1,9 @@
+id: 217
+name: Lyricle
+url: https://www.lyricle.app
+description: Guess the song from the given lyrics.
+category: Music
+status: active
+history:
+- date: '2024-05-28'
+  event: added

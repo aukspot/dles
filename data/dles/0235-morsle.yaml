@@ -1,0 +1,9 @@
+id: 235
+name: morsle
+url: https://morsle.fun
+description: Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.
+category: Miscellaneous
+status: active
+history:
+- date: '2024-09-18'
+  event: added

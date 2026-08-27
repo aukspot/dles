@@ -1,0 +1,10 @@
+id: 181
+name: Isaacle
+url: https://isaacle.net
+description: Guess the items from the game The Binding of Isaac in these daily quizzes.
+category: Video Games
+theme: The Binding of Isaac
+status: active
+history:
+- date: '2025-02-16'
+  event: added

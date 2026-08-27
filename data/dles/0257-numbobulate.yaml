@@ -1,0 +1,9 @@
+id: 257
+name: Numbobulate
+url: https://www.numbobulate.com
+description: Use the numbers and operations in the square to reach the target number.
+category: Math/Logic
+status: active
+history:
+- date: '2024-06-22'
+  event: added

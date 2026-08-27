@@ -1,0 +1,10 @@
+id: 342
+name: Smashdle
+url: https://smashdle.net
+description: A bunch of daily games where you guess the character from Super Smash Bros.
+category: Video Games
+theme: Super Smash Bros
+status: active
+history:
+- date: '2024-05-28'
+  event: added

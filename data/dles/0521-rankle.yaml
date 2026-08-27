@@ -1,0 +1,9 @@
+id: 521
+name: Rankle
+url: https://www.rankle.app
+description: Rank 6 things in 4 guesses. Every day is a different category.
+category: Trivia
+status: active
+history:
+- date: '2025-10-06'
+  event: added

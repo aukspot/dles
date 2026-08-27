@@ -1,0 +1,9 @@
+id: 139
+name: Geodle
+url: https://geodle.me
+description: Guess today's mystery country within 7 guesses.
+category: Geography
+status: active
+history:
+- date: '2025-01-31'
+  event: added

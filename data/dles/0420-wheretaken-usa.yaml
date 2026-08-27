@@ -1,0 +1,9 @@
+id: 420
+name: WhereTaken USA
+url: https://wheretakenusa.teuteuf.fr
+description: Guess the US State in which the photo was taken.
+category: Geography
+status: active
+history:
+- date: '2024-02-13'
+  event: added

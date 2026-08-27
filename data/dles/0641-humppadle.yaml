@@ -1,0 +1,9 @@
+id: 641
+name: Humppadle
+url: https://www.humppadle.de
+description: Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.
+category: Music
+status: active
+history:
+- date: '2026-01-23'
+  event: added

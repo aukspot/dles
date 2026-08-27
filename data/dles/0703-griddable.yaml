@@ -1,0 +1,9 @@
+id: 703
+name: Griddable
+url: https://griddable.co.uk
+description: Create a grid of words with a blind sequence of letters, mixing in your own letters as you go.
+category: Words
+status: active
+history:
+- date: '2026-03-01'
+  event: added

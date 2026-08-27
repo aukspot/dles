@@ -1,0 +1,9 @@
+id: 245
+name: Moviedle - Moviemoji
+url: https://moviedle.xyz/moviemoji
+description: Guess the movie based on the given emojis.
+category: Movies/TV
+status: active
+history:
+- date: '2024-05-28'
+  event: added

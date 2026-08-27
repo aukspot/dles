@@ -1,0 +1,12 @@
+id: 537
+name: sqnces
+url: https://sqnces.com
+description: Find the secret word that contains the given 3-letter sequence. Three words everyday (6, 7, & 8-letter words).
+category: Words
+status: removed
+history:
+- date: '2025-10-19'
+  event: added
+- date: '2025-12-11'
+  event: removed
+  reason: The game does not work.

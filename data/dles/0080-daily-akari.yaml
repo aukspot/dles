@@ -1,0 +1,9 @@
+id: 80
+name: Daily Akari
+url: https://dailyakari.com
+description: A classic logic puzzle game where you must light up the grid.
+category: Math/Logic
+status: active
+history:
+- date: '2025-04-10'
+  event: added

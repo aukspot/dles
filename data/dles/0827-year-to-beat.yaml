@@ -1,0 +1,9 @@
+id: 827
+name: Year To Beat
+url: https://yeartobeat.com
+description: Guess the year each music video came out, 5 rounds daily.
+category: Music
+status: active
+history:
+- date: '2026-08-26'
+  event: added

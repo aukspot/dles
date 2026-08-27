@@ -1,0 +1,9 @@
+id: 324
+name: Retro Game Trivia
+url: https://retrotrivia.games
+description: Daily games where you guess the retro game that was released on this date in history.
+category: Video Games
+status: active
+history:
+- date: '2025-06-11'
+  event: added

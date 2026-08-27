@@ -1,0 +1,9 @@
+id: 808
+name: Dowsle
+url: https://dowsle.com
+description: Find today's secret word by guessing words and seeing how close they are by both meaning and spelling.
+category: Words
+status: active
+history:
+- date: '2026-08-26'
+  event: added

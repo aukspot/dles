@@ -1,0 +1,9 @@
+id: 693
+name: Zonday
+url: https://zonday.app
+description: Guess the price of the item from Amazon.com.
+category: Estimation
+status: active
+history:
+- date: '2026-02-22'
+  event: added

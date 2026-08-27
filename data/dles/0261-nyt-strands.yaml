@@ -1,0 +1,9 @@
+id: 261
+name: NYT Strands
+url: https://www.nytimes.com/games/strands
+description: Find hidden words and uncover the day's theme.
+category: Words
+status: active
+history:
+- date: '2024-03-17'
+  event: added

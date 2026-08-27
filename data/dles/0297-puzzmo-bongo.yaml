@@ -1,0 +1,9 @@
+id: 297
+name: Puzzmo - Bongo
+url: https://www.puzzmo.com/game/bongo
+description: Lay tiles onto the grid to spell the best 6 words you can.
+category: Words
+status: active
+history:
+- date: '2025-06-11'
+  event: added

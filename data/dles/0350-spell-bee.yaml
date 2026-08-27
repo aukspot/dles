@@ -1,0 +1,9 @@
+id: 350
+name: Spell Bee
+url: https://www.spell-bee.com/game-daily.html
+description: Create words using the given 7 letters. Each word must contain the center letter.
+category: Words
+status: active
+history:
+- date: '2024-09-18'
+  event: added

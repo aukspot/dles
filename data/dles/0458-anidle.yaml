@@ -1,0 +1,9 @@
+id: 458
+name: Anidle
+url: https://anidle.net
+description: Guess the Anime by its specifications.
+category: Movies/TV
+status: active
+history:
+- date: '2025-08-30'
+  event: added

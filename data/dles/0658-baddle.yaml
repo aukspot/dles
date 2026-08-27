@@ -1,0 +1,9 @@
+id: 658
+name: Baddle
+url: https://tumblecricket.net/Baddle/
+description: A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-02-07'
+  event: added

@@ -1,0 +1,9 @@
+id: 824
+name: Time Machine (MLB)
+url: https://boxscore.email/games/time-machine
+description: Guess the MLB season based on a single game's box score.
+category: Sports
+status: active
+history:
+- date: '2026-08-26'
+  event: added

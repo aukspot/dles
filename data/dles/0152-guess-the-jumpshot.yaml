@@ -1,0 +1,12 @@
+id: 152
+name: Guess The Jumpshot
+url: https://guessthepro.com/en/games/guess-the-jumpshot
+description: Guess the NBA player based on a silhouette video of their jumpshot.
+category: Sports
+status: removed
+history:
+- date: '2025-07-06'
+  event: added
+- date: '2025-08-30'
+  event: removed
+  reason: Stuck on loading screen, doesn't always have a new game everyday.

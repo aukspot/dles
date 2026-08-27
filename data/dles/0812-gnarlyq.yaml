@@ -1,0 +1,9 @@
+id: 812
+name: GnarlyQ
+url: https://gnarlyq.com
+description: For each category, choose the five correct answers and dodge the traps.
+category: Trivia
+status: active
+history:
+- date: '2026-08-26'
+  event: added

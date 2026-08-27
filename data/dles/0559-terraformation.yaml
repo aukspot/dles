@@ -1,0 +1,9 @@
+id: 559
+name: Terraformation
+url: https://puzzmallow.com/terraformation
+description: Fill in the hex grid planet with the correct terrains.
+category: Math/Logic
+status: active
+history:
+- date: '2025-11-23'
+  event: added

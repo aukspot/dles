@@ -1,0 +1,9 @@
+id: 236
+name: Morsle (decipher.wiki)
+url: https://decipher.wiki/morsle
+description: Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-06-29'
+  event: added

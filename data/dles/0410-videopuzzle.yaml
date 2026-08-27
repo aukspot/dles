@@ -1,0 +1,9 @@
+id: 410
+name: VideoPuzzle
+url: https://videopuzzle.org
+description: Swap tiles to unscramble the puzzle of a looping short video.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-11-24'
+  event: added

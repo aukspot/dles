@@ -1,0 +1,9 @@
+id: 412
+name: Vox Daily Crossword
+url: https://www.vox.com/21523212/crossword-puzzles-free-daily-printable
+description: A free daily crossword from Vox, skips Sundays.
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

@@ -1,0 +1,9 @@
+id: 97
+name: Doople
+url: https://www.dooplepuzzle.com
+description: Chain word combinations together to fit the given clues.
+category: Words
+status: active
+history:
+- date: '2024-04-10'
+  event: added

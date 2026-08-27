@@ -1,0 +1,9 @@
+id: 323
+name: relatle.io
+url: https://relatle.io
+description: Get from one musical artist to another by linking through related artists.
+category: Music
+status: active
+history:
+- date: '2024-06-22'
+  event: added

@@ -1,0 +1,9 @@
+id: 574
+name: Pell Puzzles
+url: https://pell.achromath.com
+description: Fill the entire 6x6 grid by properly drawing paths between the O's and X's.
+category: Math/Logic
+status: active
+history:
+- date: '2025-12-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 443
+name: Wordloop
+url: https://word-loop.com
+description: Place segments on the circle such that each pair of segments forms a valid word.
+category: Words
+status: active
+history:
+- date: '2025-06-29'
+  event: added

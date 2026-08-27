@@ -1,0 +1,9 @@
+id: 504
+name: Tally Game
+url: https://tally-game.com
+description: Partition the board of numbers such that each group sums to 10.
+category: Math/Logic
+status: active
+history:
+- date: '2025-08-30'
+  event: added

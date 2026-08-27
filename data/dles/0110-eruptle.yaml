@@ -1,0 +1,10 @@
+id: 110
+name: Eruptle
+url: https://eruptle.app
+description: Guess the 10 items that fit the prompt, kind of like Family Feud.
+category: Trivia
+theme: Guess the List
+status: active
+history:
+- date: '2024-07-20'
+  event: added

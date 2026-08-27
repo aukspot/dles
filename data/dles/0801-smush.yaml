@@ -1,0 +1,9 @@
+id: 801
+name: Smush
+url: https://www.hankgreen.com/smush/
+description: Create words using the 9 letters. Each letter gets 5 uses except the center letter, which must be in each word.
+category: Words
+status: active
+history:
+- date: '2026-07-21'
+  event: added

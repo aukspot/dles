@@ -1,0 +1,9 @@
+id: 767
+name: Moneyline
+url: https://moneyline.fromthethink.com
+description: Pick over/under the given line for each fact or statistic.
+category: Estimation
+status: active
+history:
+- date: '2026-05-22'
+  event: added

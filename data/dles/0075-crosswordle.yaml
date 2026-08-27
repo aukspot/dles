@@ -1,0 +1,9 @@
+id: 75
+name: Crosswordle
+url: https://crosswordle.vercel.app
+description: Fill in the grid to logically fit a series of Wordle guesses.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

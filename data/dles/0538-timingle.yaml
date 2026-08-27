@@ -1,0 +1,9 @@
+id: 538
+name: Timingle
+url: https://timingle.danielbrandao.dev
+description: Try to time when the countdown reaches 0. Each day the beat is different.
+category: Estimation
+status: active
+history:
+- date: '2025-10-19'
+  event: added

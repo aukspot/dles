@@ -1,0 +1,9 @@
+id: 640
+name: SetFury
+url: https://www.setfury.com
+description: Find valid sets of 3 to 5 tiles by moving through the grid.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-01-12'
+  event: added

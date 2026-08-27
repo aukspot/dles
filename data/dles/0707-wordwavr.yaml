@@ -1,0 +1,9 @@
+id: 707
+name: WordWavr
+url: https://wordwavr.app
+description: Guess the 5 letter word that's been transformed into a wave.
+category: Words
+status: active
+history:
+- date: '2026-03-01'
+  event: added

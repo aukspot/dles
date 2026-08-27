@@ -1,0 +1,9 @@
+id: 133
+name: Gamedle Classic
+url: https://www.gamedle.wtf/classic
+description: Guess the video game by its cover.
+category: Video Games
+status: active
+history:
+- date: '2024-02-13'
+  event: added

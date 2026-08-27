@@ -1,0 +1,9 @@
+id: 264
+name: Octordle
+url: https://www.britannica.com/games/octordle
+description: Solve 8 Wordle puzzles at the same time. You have 13 guesses.
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

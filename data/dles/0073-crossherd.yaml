@@ -1,0 +1,10 @@
+id: 73
+name: Crossherd
+url: https://crossherd.clevergoat.com
+description: A daily mini crossword from Clever Goat.
+category: Words
+theme: Crosswords
+status: active
+history:
+- date: '2025-04-02'
+  event: added

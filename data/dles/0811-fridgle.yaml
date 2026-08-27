@@ -1,0 +1,9 @@
+id: 811
+name: fridgle
+url: https://fridgle.net
+description: Create a daily message using magnet-style words you might find on a fridge.
+category: Novelty
+status: active
+history:
+- date: '2026-08-26'
+  event: added

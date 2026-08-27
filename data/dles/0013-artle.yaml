@@ -1,0 +1,9 @@
+id: 13
+name: Artle
+url: https://www.nga.gov/artle.html
+description: Guess the artist of the shown work of art.
+category: Miscellaneous
+status: active
+history:
+- date: '2025-01-31'
+  event: added

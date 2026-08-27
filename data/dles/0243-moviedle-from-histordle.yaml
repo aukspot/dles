@@ -1,0 +1,13 @@
+id: 243
+name: Moviedle (from Histordle)
+url: https://histordle.com/moviedle
+description: Guess the year that the given movies were released.
+category: Movies/TV
+status: active
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2026-01-11'
+  event: removed
+- date: '2026-02-07'
+  event: readded

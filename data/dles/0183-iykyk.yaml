@@ -1,0 +1,12 @@
+id: 183
+name: IYKYK
+url: https://daily.iykyk.com
+description: Guess what today's acronym stands for. By the makers of the card game CultureTags.
+category: Words
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2026-02-07'
+  event: removed
+  reason: Daily puzzles rarely appear.

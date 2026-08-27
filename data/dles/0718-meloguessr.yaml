@@ -1,0 +1,9 @@
+id: 718
+name: MeloGuessr
+url: https://meloguessr.com
+description: Click the geographic origin of the song that's playing, 5 rounds every day.
+category: Music
+status: active
+history:
+- date: '2026-03-10'
+  event: added

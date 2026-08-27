@@ -1,0 +1,9 @@
+id: 428
+name: Word Grid
+url: https://wordgrid.clevergoat.com
+description: Fill the cells in the grid with words matching the criteria of both their row and column
+category: Words
+status: active
+history:
+- date: '2024-06-06'
+  event: added

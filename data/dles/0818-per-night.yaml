@@ -1,0 +1,9 @@
+id: 818
+name: Per Night
+url: https://pernight.app
+description: Guess the cost of one night in the given hotel.
+category: Estimation
+status: active
+history:
+- date: '2026-08-26'
+  event: added

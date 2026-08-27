@@ -1,0 +1,9 @@
+id: 659
+name: Clue Raider
+url: https://clueraider.com
+description: Find the hidden relic by placing each person based on their clues.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-07'
+  event: added

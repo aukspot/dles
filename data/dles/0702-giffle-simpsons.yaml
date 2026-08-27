@@ -1,0 +1,9 @@
+id: 702
+name: Giffle - Simpsons
+url: https://giffle.com/simpsons/
+description: Guess the Simpsons episode based on short gifs taken from it.
+category: Movies/TV
+status: active
+history:
+- date: '2026-03-01'
+  event: added

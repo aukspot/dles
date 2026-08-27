@@ -1,0 +1,9 @@
+id: 468
+name: FlashPopTiles
+url: https://flashpoptiles.com
+description: Traverse the grid while changing either shape or color, never both!
+category: Shapes/Patterns
+status: active
+history:
+- date: '2025-08-30'
+  event: added

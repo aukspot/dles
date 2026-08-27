@@ -1,0 +1,9 @@
+id: 300
+name: Puzzmo - Memoku
+url: https://www.puzzmo.com/play/memoku
+description: A daily sudoku game where you match numbers instead of entering them.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 572
+name: Kickoff League
+url: https://kickoffleague.com
+description: Recreate fictional soccer matches with chess pieces that can move and kick the ball!
+category: Card/Board Games
+status: active
+history:
+- date: '2025-12-11'
+  event: added

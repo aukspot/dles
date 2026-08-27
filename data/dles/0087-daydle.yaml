@@ -1,0 +1,9 @@
+id: 87
+name: Daydle
+url: https://daydle.com
+description: Guess the year of a historical event that happened on this day in history.
+category: History
+status: active
+history:
+- date: '2024-02-14'
+  event: added

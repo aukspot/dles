@@ -1,0 +1,12 @@
+id: 247
+name: Musicdoku
+url: https://musicdoku.com
+description: Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.
+category: Music
+status: removed
+history:
+- date: '2025-04-02'
+  event: added
+- date: '2025-10-19'
+  event: removed
+  reason: Site no longer loads.

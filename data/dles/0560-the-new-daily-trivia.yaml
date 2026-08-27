@@ -1,0 +1,9 @@
+id: 560
+name: The New Daily - Trivia
+url: https://www.thenewdaily.com.au/puzzles/quiz-trivia
+description: Daily trivia quizzes from multiple categories.
+category: Trivia
+status: active
+history:
+- date: '2025-11-23'
+  event: added

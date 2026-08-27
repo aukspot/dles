@@ -1,0 +1,9 @@
+id: 816
+name: Mowkoban
+url: https://mowkoban.com/
+description: A daily puzzle about mowing your lawn in the fewest number of moves.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-08-26'
+  event: added

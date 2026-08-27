@@ -1,0 +1,12 @@
+id: 195
+name: Letterset
+url: https://www.letterset.net/daily
+description: Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.
+category: Words
+status: removed
+history:
+- date: '2024-02-27'
+  event: added
+- date: '2025-11-11'
+  event: removed
+  reason: Site no longer loads.

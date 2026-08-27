@@ -1,0 +1,9 @@
+id: 654
+name: Lockle
+url: https://www.lockle.app
+description: Guess the Deadlock character based on their items or quote.
+category: Video Games
+status: active
+history:
+- date: '2026-01-28'
+  event: added

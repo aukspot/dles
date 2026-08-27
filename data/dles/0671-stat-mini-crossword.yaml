@@ -1,0 +1,9 @@
+id: 671
+name: Stat Mini Crossword
+url: https://www.statnews.com/stat-mini-crossword/
+description: A weekday mini crossword that's often health and medicine focused.
+category: Words
+status: active
+history:
+- date: '2026-02-07'
+  event: added

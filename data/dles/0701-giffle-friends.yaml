@@ -1,0 +1,9 @@
+id: 701
+name: Giffle - Friends
+url: https://giffle.com/friends/
+description: Guess the Friends episode based on short gifs taken from it.
+category: Movies/TV
+status: active
+history:
+- date: '2026-03-01'
+  event: added

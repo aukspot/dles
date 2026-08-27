@@ -1,0 +1,9 @@
+id: 738
+name: YGOdle
+url: https://www.ygodle.net/
+description: A collection of daily guessing games based on the card game 'Yu-Gi-Oh!'
+category: Card/Board Games
+status: active
+history:
+- date: '2026-03-28'
+  event: added

@@ -1,0 +1,11 @@
+id: 442
+name: WordLinx
+url: https://sacsgames.com/wordlinx/#/todaydaily
+description: Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.
+category: Words
+status: removed
+history:
+- date: '2024-07-20'
+  event: added
+- date: '2026-02-15'
+  event: removed

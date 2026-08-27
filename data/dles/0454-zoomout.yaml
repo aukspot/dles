@@ -1,0 +1,9 @@
+id: 454
+name: ZoomOut
+url: https://zoomout.videoludid.com
+description: Guess the video game from the zoomed-in screenshot.
+category: Video Games
+status: active
+history:
+- date: '2025-04-02'
+  event: added

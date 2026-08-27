@@ -1,0 +1,9 @@
+id: 147
+name: Guess The Angle
+url: https://guesstheangle.wtf
+description: Guess today's angle in 4 guesses or less.
+category: Estimation
+status: active
+history:
+- date: '2025-05-08'
+  event: added

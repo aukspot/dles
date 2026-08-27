@@ -1,0 +1,9 @@
+id: 536
+name: riddl.ing
+url: https://riddl.ing
+description: Guess the answer to the handmade daily riddle in five clues.
+category: Trivia
+status: active
+history:
+- date: '2025-10-19'
+  event: added

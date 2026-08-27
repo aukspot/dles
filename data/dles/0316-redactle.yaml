@@ -1,0 +1,9 @@
+id: 316
+name: Redactle
+url: https://redactle.net
+description: Guess the Wikipedia article by its content with keywords redacted.
+category: Trivia
+status: active
+history:
+- date: '2024-02-14'
+  event: added

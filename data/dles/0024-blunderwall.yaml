@@ -1,0 +1,9 @@
+id: 24
+name: Blunderwall
+url: https://bythomas.co.uk/blunderwall
+description: Find the secret word on the Blunderwall in 4 tries.
+category: Words
+status: active
+history:
+- date: '2024-11-24'
+  event: added

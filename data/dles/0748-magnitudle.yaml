@@ -1,0 +1,9 @@
+id: 748
+name: Magnitudle
+url: https://magnitudle.com/daily
+description: A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
+category: Estimation
+status: active
+history:
+- date: '2026-05-03'
+  event: added

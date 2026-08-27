@@ -1,0 +1,10 @@
+id: M20
+name: Acted
+url: https://acted.wtf
+status: removed
+history:
+- date: '2024-03-17'
+  event: added
+- date: '2025-01-31'
+  event: removed
+  reason: Site no longer loads.

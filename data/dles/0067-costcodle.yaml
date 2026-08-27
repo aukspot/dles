@@ -1,0 +1,9 @@
+id: 67
+name: Costcodle
+url: https://costcodle.com
+description: Guess the price of the given Costco item.
+category: Estimation
+status: active
+history:
+- date: '2024-02-13'
+  event: added

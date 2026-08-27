@@ -1,0 +1,9 @@
+id: 220
+name: MapTap
+url: https://maptap.gg
+description: Click as close as you can to the given world cities, 5 rounds per day.
+category: Geography
+status: active
+history:
+- date: '2025-06-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 551
+name: Narutodle
+url: https://narutodle.net
+description: A collection of daily games where you guess characters from Naruto.
+category: Movies/TV
+status: active
+history:
+- date: '2025-11-23'
+  event: added

@@ -1,0 +1,9 @@
+id: 172
+name: HowLongToBeat Daily Challenge
+url: https://howlongtobeat.com/play
+description: Guess how long it takes to beat the given video game. Use power-ups if you need help.
+category: Video Games
+status: active
+history:
+- date: '2025-02-10'
+  event: added

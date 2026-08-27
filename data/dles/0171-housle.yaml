@@ -1,0 +1,9 @@
+id: 171
+name: Housle
+url: https://housle.house
+description: Guess the price of the house, given pictures of parts of the house.
+category: Estimation
+status: active
+history:
+- date: '2024-02-13'
+  event: added

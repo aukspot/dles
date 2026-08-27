@@ -1,0 +1,9 @@
+id: 98
+name: Dordle
+url: https://zaratustra.itch.io/dordle
+description: Solve 2 Wordle puzzles at the same time.
+category: Words
+status: active
+history:
+- date: '2024-02-17'
+  event: added

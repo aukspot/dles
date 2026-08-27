@@ -1,0 +1,12 @@
+id: 307
+name: QuickQ
+url: https://www.quickqtrivia.com
+description: A 90 second trivia game with questions from 8 categories.
+category: Trivia
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2025-07-28'
+  event: removed
+  reason: No new games for months.

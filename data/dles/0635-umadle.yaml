@@ -1,0 +1,9 @@
+id: 635
+name: Umadle
+url: https://umadle.net
+description: A collection of daily guessing games related to Umamusume.
+category: Video Games
+status: active
+history:
+- date: '2026-01-11'
+  event: added

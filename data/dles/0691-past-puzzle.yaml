@@ -1,0 +1,9 @@
+id: 691
+name: Past Puzzle
+url: https://www.pastpuzzle.de
+description: Guess the correct year of the given events, you have 4 tries.
+category: History
+status: active
+history:
+- date: '2026-02-22'
+  event: added

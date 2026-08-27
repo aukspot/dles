@@ -1,0 +1,9 @@
+id: 744
+name: DOGDLE
+url: https://dogdle.org
+description: Guess the breeds of today's shelter dog that is looking for their forever home.
+category: Science/Nature
+status: active
+history:
+- date: '2026-05-03'
+  event: added

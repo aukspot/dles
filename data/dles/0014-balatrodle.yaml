@@ -1,0 +1,10 @@
+id: 14
+name: Balatrodle
+url: https://www.balatrodle.com
+description: Guess the Joker from the game Balatro.
+category: Video Games
+theme: Balatro
+status: active
+history:
+- date: '2024-07-20'
+  event: added

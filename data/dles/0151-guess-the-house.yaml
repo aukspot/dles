@@ -1,0 +1,9 @@
+id: 151
+name: Guess The House
+url: https://guessthe.house
+description: Guess the price of the house by its pictures and information.
+category: Estimation
+status: active
+history:
+- date: '2025-05-08'
+  event: added

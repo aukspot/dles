@@ -1,0 +1,9 @@
+id: 565
+name: LinkedIn - Mini Sudoku
+url: https://www.linkedin.com/games/mini-sudoku/
+description: A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.
+category: Math/Logic
+status: active
+history:
+- date: '2025-12-02'
+  event: added

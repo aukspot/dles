@@ -1,0 +1,9 @@
+id: 446
+name: Worpel
+url: https://playworpel.com
+description: Guess the player in the Australian Football League (AFL).
+category: Sports
+status: active
+history:
+- date: '2025-06-29'
+  event: added

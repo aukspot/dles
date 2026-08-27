@@ -1,0 +1,9 @@
+id: 545
+name: Doggle
+url: https://doggle.app
+description: Guess breed of the dog in the picture.
+category: Science/Nature
+status: active
+history:
+- date: '2025-11-23'
+  event: added

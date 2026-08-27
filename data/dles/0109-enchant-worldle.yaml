@@ -1,0 +1,10 @@
+id: 109
+name: Enchant Worldle
+url: https://enchantworldle.com
+description: Guess the card from Magic the Gathering within 20 tries.
+category: Card/Board Games
+theme: Magic the Gathering
+status: active
+history:
+- date: '2025-06-11'
+  event: added

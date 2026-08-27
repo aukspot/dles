@@ -1,0 +1,9 @@
+id: 498
+name: Reversle
+url: https://reversle.net
+description: Basically the reverse of Wordle. You start with the solution and walk backwards.
+category: Words
+status: active
+history:
+- date: '2025-08-30'
+  event: added

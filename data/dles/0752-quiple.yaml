@@ -1,0 +1,9 @@
+id: 752
+name: Quiple
+url: https://quiple.xyz
+description: Put today's items into groups of three based on the theme.
+category: Trivia
+status: active
+history:
+- date: '2026-05-03'
+  event: added

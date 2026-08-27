@@ -1,0 +1,9 @@
+id: 5
+name: Actorle - Storyboard
+url: https://actorle.com/storyboard
+description: Rearrange the movie frames in chronological order.
+category: Movies/TV
+status: active
+history:
+- date: '2024-05-28'
+  event: added

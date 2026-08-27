@@ -1,0 +1,9 @@
+id: 642
+name: Lettered
+url: https://lettered.io
+description: Move letter tiles on the board to spell out the hidden phrase.
+category: Words
+status: active
+history:
+- date: '2026-01-23'
+  event: added

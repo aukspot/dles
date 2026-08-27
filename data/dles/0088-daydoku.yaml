@@ -1,0 +1,9 @@
+id: 88
+name: Daydoku
+url: https://www.daydoku.com
+description: Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-06-22'
+  event: added

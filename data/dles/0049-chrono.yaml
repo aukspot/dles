@@ -1,0 +1,9 @@
+id: 49
+name: Chrono
+url: https://chrono.quest
+description: Put the events in chronological order in 3 tries or less.
+category: History
+status: active
+history:
+- date: '2024-04-10'
+  event: added

@@ -1,0 +1,11 @@
+id: 653
+name: Historydle
+url: https://historydle.com
+description: Daily games where you guess the historical person or place.
+category: History
+status: removed
+history:
+- date: '2026-01-28'
+  event: added
+- date: '2026-08-02'
+  event: removed

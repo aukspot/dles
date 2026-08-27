@@ -1,0 +1,9 @@
+id: 765
+name: Gerrymandle
+url: https://gerrymandle.com
+description: Win the election for the given color by properly gerrymandering the grid into districts.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-05-22'
+  event: added

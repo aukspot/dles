@@ -1,0 +1,9 @@
+id: 785
+name: Motion Path
+url: https://motionpath.app
+description: Watch a dot move around, then recreate its path from memory.
+category: Estimation
+status: active
+history:
+- date: '2026-07-09'
+  event: added

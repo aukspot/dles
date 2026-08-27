@@ -1,0 +1,13 @@
+id: 89
+name: DBDle
+url: https://dbdle.net
+description: Test your Dead by Daylight knowledge in these daily games.
+category: Video Games
+theme: Dead by Daylight
+status: removed
+history:
+- date: '2024-11-24'
+  event: added
+- date: '2026-01-03'
+  event: removed
+  reason: Is now an irrelevant website.

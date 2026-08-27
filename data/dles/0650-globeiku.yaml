@@ -1,0 +1,9 @@
+id: 650
+name: Globeiku
+url: https://www.globeiku.com
+description: Guess the country based on the given clues.
+category: Geography
+status: active
+history:
+- date: '2026-01-28'
+  event: added

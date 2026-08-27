@@ -1,0 +1,9 @@
+id: 725
+name: Marathondle
+url: https://marathondle.com
+description: Daily guessing games related to Marathon.
+category: Video Games
+status: active
+history:
+- date: '2026-03-21'
+  event: added

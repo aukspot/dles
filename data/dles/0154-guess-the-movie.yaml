@@ -1,0 +1,9 @@
+id: 154
+name: Guess The Movie
+url: https://guessthemovie.name
+description: Guess the movie based on its screenshots and details.
+category: Movies/TV
+status: active
+history:
+- date: '2025-05-08'
+  event: added

@@ -1,0 +1,10 @@
+id: 473
+name: Hoopgrids
+url: https://www.hoopgrids.com
+description: A daily NBA grid game.
+category: Sports
+theme: Basketball
+status: active
+history:
+- date: '2025-08-30'
+  event: added

@@ -1,0 +1,9 @@
+id: 630
+name: Ophex
+url: https://www.andrewt.net/puzzles/ophex/
+description: Combine the 7 numbers into the target number using the operations between them.
+category: Math/Logic
+status: active
+history:
+- date: '2026-01-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 178
+name: 'Immaculate Grid: Men''s Basketball'
+url: https://www.sports-reference.com/immaculate-grid/basketball/mens
+description: Fill out the grid with men's basketball players matching the criteria of each cell's row and column.
+category: Sports
+status: active
+history:
+- date: '2024-02-13'
+  event: added

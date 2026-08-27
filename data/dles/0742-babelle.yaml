@@ -1,0 +1,9 @@
+id: 742
+name: Babelle
+url: https://babelle.terrylaire.fr/
+description: Guess which country the given city is in.
+category: Geography
+status: active
+history:
+- date: '2026-05-03'
+  event: added

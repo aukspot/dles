@@ -1,0 +1,9 @@
+id: 339
+name: Shaple
+url: https://swag.github.io/shaple
+description: Choose the shape that matches the top shape.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2024-09-18'
+  event: added

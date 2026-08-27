@@ -1,0 +1,10 @@
+id: 2
+name: Absurdle
+url: https://qntm.org/files/absurdle/absurdle.html
+description: An adversarial version of Wordle that actively avoids giving you the answer.
+category: Words
+theme: Guess the word
+status: active
+history:
+- date: '2024-05-28'
+  event: added

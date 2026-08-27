@@ -1,0 +1,9 @@
+id: 273
+name: Padlock
+url: https://www.padlockgame.net
+description: Number puzzle game inspired by Wordle and Mastermind.
+category: Math/Logic
+status: active
+history:
+- date: '2025-06-29'
+  event: added

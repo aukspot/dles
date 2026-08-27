@@ -1,0 +1,9 @@
+id: 18
+name: Bells & Whistles
+url: https://puzzmallow.com/bells
+description: Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
+category: Math/Logic
+status: active
+history:
+- date: '2025-07-06'
+  event: added

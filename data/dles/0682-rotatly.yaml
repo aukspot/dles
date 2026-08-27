@@ -1,0 +1,9 @@
+id: 682
+name: Rotatly
+url: https://www.rotatly.com
+description: Rotate cells until the outline is correct.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-02-18'
+  event: added

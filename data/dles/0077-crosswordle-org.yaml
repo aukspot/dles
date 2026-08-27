@@ -1,0 +1,9 @@
+id: 77
+name: crosswordle.org
+url: https://crosswordle.org
+description: Solve multiple Wordle puzzles crossed together.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

@@ -1,0 +1,9 @@
+id: 214
+name: Locatle
+url: https://locatle.strct.net
+description: Guess the country that the picture was taken in.
+category: Geography
+status: active
+history:
+- date: '2024-05-28'
+  event: added

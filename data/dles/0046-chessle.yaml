@@ -1,0 +1,10 @@
+id: 46
+name: Chessle
+url: https://jackli.gg/chessle
+description: Guess today's entire opening Chess sequence.
+category: Card/Board Games
+theme: Chess
+status: active
+history:
+- date: '2024-05-28'
+  event: added

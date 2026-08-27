@@ -1,0 +1,9 @@
+id: 3
+name: Actorle
+url: https://actorle.com
+description: Guess the movie actor based on the given information, with each guess revealing matching information.
+category: Movies/TV
+status: active
+history:
+- date: '2024-05-28'
+  event: added

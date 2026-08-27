@@ -1,0 +1,9 @@
+id: 444
+name: words for days
+url: https://wordsfordays.com
+description: A word alchemy game with a daily objective, like infinite craft.
+category: Words
+status: active
+history:
+- date: '2025-05-08'
+  event: added

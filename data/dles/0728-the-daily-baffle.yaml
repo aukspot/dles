@@ -1,0 +1,9 @@
+id: 728
+name: The Daily Baffle
+url: https://dailybaffle.com
+description: A collection of daily word and logic games.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-03-21'
+  event: added

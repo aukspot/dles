@@ -1,0 +1,9 @@
+id: 578
+name: SongSwipe
+url: https://play.songswipe.fun
+description: Guess if the song was released before or after the given year. There are 10 songs each day.
+category: Music
+status: active
+history:
+- date: '2025-12-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 668
+name: Refiner
+url: https://nibble.games/refiner/
+description: Refine the numbers in the grid by grouping them based on each of the requirements.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-07'
+  event: added

@@ -1,0 +1,11 @@
+id: 500
+name: Sortwise
+url: https://sortwise.fun
+description: Drag to sort the events in chronological order.
+category: History
+status: removed
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2026-07-25'
+  event: removed

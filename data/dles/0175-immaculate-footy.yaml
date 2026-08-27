@@ -1,0 +1,9 @@
+id: 175
+name: Immaculate Footy
+url: https://www.sports-reference.com/immaculate-footy/
+description: Fill out the grid with soccer players matching the criteria of each cell's row and column.
+category: Sports
+status: active
+history:
+- date: '2024-02-13'
+  event: added

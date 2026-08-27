@@ -1,0 +1,12 @@
+id: 486
+name: Meleedle
+url: https://meleedle.netlify.app/
+description: Name the character and move of the hitbox shown from Super Smash Bros Melee.
+category: Video Games
+theme: Super Smash Bros
+status: removed
+history:
+- date: '2025-08-30'
+  event: added
+- date: '2026-01-06'
+  event: removed

@@ -1,0 +1,9 @@
+id: 475
+name: Jeopardy 6
+url: https://www.jeopardy.com/play/j6
+description: Weekday jeopardy game where you answer 12 multiple choice questions.
+category: Trivia
+status: active
+history:
+- date: '2025-08-30'
+  event: added

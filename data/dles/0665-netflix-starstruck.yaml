@@ -1,0 +1,9 @@
+id: 665
+name: Netflix - Starstruck
+url: https://www.netflix.com/tudum/puzzled/starstruck/daily
+description: Place a star in each row, column, and color area. Does not require a Netflix account.
+category: Math/Logic
+status: active
+history:
+- date: '2026-02-07'
+  event: added

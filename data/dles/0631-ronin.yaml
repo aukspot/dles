@@ -1,0 +1,9 @@
+id: 631
+name: Ronin
+url: https://www.andrewt.net/puzzles/ronin/
+description: Fill each region with Chess pieces such that no piece can attack a piece of the same type.
+category: Card/Board Games
+status: active
+history:
+- date: '2026-01-11'
+  event: added

@@ -1,0 +1,9 @@
+id: 37
+name: CarGuesser
+url: https://carguesser.com
+description: Guess the brand, model, and year of a car given pictures of parts of it.
+category: Vehicles
+status: active
+history:
+- date: '2025-06-29'
+  event: added

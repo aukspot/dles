@@ -1,0 +1,9 @@
+id: 249
+name: MusicVidle
+url: https://www.musicvidle.com
+description: Guess the song based on selected frames from its music video.
+category: Music
+status: active
+history:
+- date: '2025-05-08'
+  event: added

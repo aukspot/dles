@@ -1,0 +1,9 @@
+id: 432
+name: Word Waffle
+url: https://wordwaffle.org
+description: Swap letters to create words both horizontally and vertically.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added

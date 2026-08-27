@@ -1,0 +1,10 @@
+id: M16
+name: Order Up
+url: https://orderup.games
+status: removed
+history:
+- date: '2024-05-28'
+  event: added
+- date: '2025-06-11'
+  event: removed
+  reason: The game has been paused.

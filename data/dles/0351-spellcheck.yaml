@@ -1,0 +1,9 @@
+id: 351
+name: Spellcheck
+url: https://spellcheck.xyz
+description: Spell the words correctly after listening to them.
+category: Words
+status: active
+history:
+- date: '2024-02-13'
+  event: added
