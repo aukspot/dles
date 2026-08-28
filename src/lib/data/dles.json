@@ -2103,6 +2103,12 @@
     "id": 180
   },
   {
+    "name": "Impress",
+    "url": "https://impress.ink",
+    "description": "Spell words to reveal a hidden headline that uses every letter on the board, but each letter has only so much ink.",
+    "category": "Words"
+  },
+  {
     "name": "Isaacle",
     "url": "https://isaacle.net",
     "description": "Guess the items from the game The Binding of Isaac in these daily quizzes.",
