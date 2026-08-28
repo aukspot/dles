@@ -94,6 +94,12 @@
     "id": 567
   },
   {
+    "name": "ALLEGEDLY",
+    "url": "https://playallegedly.com",
+    "description": "Guess the celebrity in the redacted tabloid story. Three strikes, and every miss unlocks a clue.",
+    "category": "Trivia"
+  },
+  {
     "name": "Alphalock",
     "url": "https://alphalockgame.net",
     "description": "Word puzzle game inspired by Wordle and Mastermind.",
