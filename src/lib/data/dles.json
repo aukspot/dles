@@ -862,6 +862,12 @@
     "id": 730
   },
   {
+    "name": "Criboku",
+    "url": "https://criboku.com",
+    "description": "Fill a 4x4 grid of cards so every row, column and corner square scores as a cribbage hand.",
+    "category": "Card/Board Games"
+  },
+  {
     "name": "Cropple",
     "url": "https://cropple.app",
     "description": "Guess the thing based on a cropped image, you can zoom out or ask for letters.",
