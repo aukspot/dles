@@ -3347,6 +3347,12 @@
     "id": 612
   },
   {
+    "name": "Play Higher Lower",
+    "url": "https://playhigherlower.com/daily",
+    "description": "Choose which of two items has the higher real-world value. Everyone gets the same daily challenge across topics like movies, technology, geography, sports, and prices.",
+    "category": "Estimation"
+  },
+  {
     "name": "Plotwords",
     "url": "https://plotwords.com/daily",
     "description": "Guess the name of the movie using as few plot keywords as possible!",
