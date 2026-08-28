@@ -869,6 +869,13 @@
     "id": 525
   },
   {
+    "name": "Crosscheck",
+    "url": "https://morningcoffee.games/crosscheck",
+    "description": "A crossword whose clues relate to each other: an anagram, a letter changed, a word hidden inside.",
+    "category": "Words",
+    "theme": "Crosswords"
+  },
+  {
     "name": "Crossflip",
     "url": "https://puzzmallow.com/crossflip",
     "description": "Flip letter tiles to create words that fit today's theme.",
@@ -1196,6 +1203,13 @@
     "id": 99
   },
   {
+    "name": "Doublet",
+    "url": "https://morningcoffee.games/doublet",
+    "description": "Transform one word into another, one step at a time.",
+    "category": "Words",
+    "theme": "Transform words"
+  },
+  {
     "name": "Dowsle",
     "url": "https://dowsle.com",
     "description": "Find today's secret word by guessing words and seeing how close they are by both meaning and spelling.",
@@ -1340,6 +1354,12 @@
     "description": "Guess the daily exotic weapon or armor piece from the game Destiny.",
     "category": "Video Games",
     "id": 621
+  },
+  {
+    "name": "Expressions",
+    "url": "https://morningcoffee.games/expressions",
+    "description": "Combine four numbers into expressions that equal as many targets as possible.",
+    "category": "Math/Logic"
   },
   {
     "name": "Face Guessr",
@@ -2117,6 +2137,12 @@
     "category": "Video Games",
     "theme": "The Binding of Isaac",
     "id": 182
+  },
+  {
+    "name": "Islands",
+    "url": "https://morningcoffee.games/islands",
+    "description": "Use logic to mark the grid with island and sea tiles.",
+    "category": "Math/Logic"
   },
   {
     "name": "Jeffgoldblumle",
@@ -3820,6 +3846,12 @@
     "id": 736
   },
   {
+    "name": "Roads",
+    "url": "https://morningcoffee.games/roads",
+    "description": "Connect cities via a network of roads.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Rogule",
     "url": "https://rogule.com/game.html",
     "description": "A daily emoji dungeon crawler roguelike.",
@@ -4266,6 +4298,12 @@
     "id": 364
   },
   {
+    "name": "Star Battle",
+    "url": "https://morningcoffee.games/star-battle",
+    "description": "Place stars in each row, column, and region so that no two stars are adjacent.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Stardewdle",
     "url": "https://stardewdle.com/game",
     "description": "Guess today's mystery crop from Stardew Valley.",
@@ -4343,6 +4381,13 @@
     "category": "Video Games",
     "theme": "Street Fighter",
     "id": 370
+  },
+  {
+    "name": "Subwords",
+    "url": "https://morningcoffee.games/subwords",
+    "description": "Find words on a grid of letters. Try to hit 5 stars.",
+    "category": "Words",
+    "theme": "Find words"
   },
   {
     "name": "Sudoker",
