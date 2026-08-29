@@ -3,7 +3,8 @@ name: Matle
 url: https://www.matle.io
 description: Guess the missing chess pieces on the board to match the checkmate from a real chess match.
 category: Card/Board Games
-theme: Chess
+themes:
+- Chess
 status: active
 history:
 - date: '2025-07-06'

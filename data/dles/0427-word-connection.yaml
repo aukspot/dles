@@ -3,6 +3,8 @@ name: Word Connection
 url: https://www.thewordfinder.com/word-connection
 description: Link a chain of 4 relevant words together.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2024-05-28'

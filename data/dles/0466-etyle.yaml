@@ -3,6 +3,8 @@ name: Etyle
 url: https://www.etyle.app
 description: Guess the root words of the daily word. A game about Etymology.
 category: Words
+themes:
+- Linguistics
 status: removed
 history:
 - date: '2025-08-30'

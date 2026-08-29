@@ -3,6 +3,8 @@ name: LA Times Crossword
 url: https://www.latimes.com/games/daily-crossword
 description: Solve today's crossword from the Los Angeles Times.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2025-02-16'

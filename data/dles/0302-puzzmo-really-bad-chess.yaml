@@ -3,7 +3,8 @@ name: Puzzmo - Really Bad Chess
 url: https://www.puzzmo.com/play/really-bad-chess
 description: Checkmate the opponent's king in this randomized Chess variant.
 category: Card/Board Games
-theme: Chess
+themes:
+- Chess
 status: active
 history:
 - date: '2024-02-13'

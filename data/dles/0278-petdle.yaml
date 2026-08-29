@@ -3,7 +3,8 @@ name: Petdle
 url: https://petdle.link
 description: Guess the pet taken from the game Super Auto Pets.
 category: Video Games
-theme: Super Auto Pets
+themes:
+- Super Auto Pets
 status: removed
 history:
 - date: '2024-02-13'

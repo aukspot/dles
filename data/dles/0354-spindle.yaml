@@ -3,6 +3,8 @@ name: Spindle
 url: https://playspindle.com
 description: Rearrange the grid of letters so that the target word is spelled out. Rearranging is done by spinning words.
 category: Words
+themes:
+- Swap/Slide/Spin
 status: active
 history:
 - date: '2024-09-18'

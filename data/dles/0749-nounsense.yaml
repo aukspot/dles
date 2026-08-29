@@ -3,6 +3,8 @@ name: NounSense
 url: https://daily.gametje.com/nounsense
 description: Guess the most common noun that follows the adjective, 10 words every day.
 category: Words
+themes:
+- Linguistics
 status: active
 history:
 - date: '2026-05-03'

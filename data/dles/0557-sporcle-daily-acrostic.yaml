@@ -3,6 +3,8 @@ name: Sporcle Daily Acrostic
 url: https://www.sporcle.com/acrostic/todays-acrostic
 description: A daily acrostic puzzle from Sporcle.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2025-11-23'

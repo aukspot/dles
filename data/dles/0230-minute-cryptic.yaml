@@ -3,6 +3,8 @@ name: Minute Cryptic
 url: https://www.minutecryptic.com
 description: Solve today's cryptic clue.
 category: Words
+themes:
+- Cryptics
 status: active
 history:
 - date: '2024-07-20'

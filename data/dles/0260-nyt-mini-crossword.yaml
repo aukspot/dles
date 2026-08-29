@@ -3,6 +3,8 @@ name: NYT Mini Crossword
 url: https://www.nytimes.com/crosswords/game/mini
 description: A very small crossword puzzle by the New York Times.
 category: Words
+themes:
+- Crosswords
 status: removed
 history:
 - date: '2024-02-13'

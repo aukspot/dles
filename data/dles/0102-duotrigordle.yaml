@@ -3,7 +3,9 @@ name: Duotrigordle
 url: https://duotrigordle.com
 description: Solve 32 Wordle puzzles at the same time.
 category: Words
-theme: Guess the word
+themes:
+- Wordle-like
+- Multi-Board
 status: active
 history:
 - date: '2024-05-28'

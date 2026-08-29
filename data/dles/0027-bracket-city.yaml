@@ -3,6 +3,8 @@ name: Bracket City
 url: https://www.theatlantic.com/games/bracket-city/
 description: Solve the clues within brackets, eventually completing the puzzle. (From The Atlantic)
 category: Words
+themes:
+- Clues
 status: active
 history:
 - date: '2025-03-08'

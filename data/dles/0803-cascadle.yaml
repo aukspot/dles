@@ -3,6 +3,8 @@ name: Cascadle
 url: https://cascadle.xyz
 description: Solve 5 linked Wordle puzzles, growing from 3 letters to 7 letters long.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2026-08-02'

@@ -3,6 +3,8 @@ name: Daily Analogy
 url: https://dailyanalogy.com
 description: Guess 5 analogies each day from different categories.
 category: Words
+themes:
+- Linguistics
 status: active
 history:
 - date: '2025-08-30'

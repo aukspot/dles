@@ -3,6 +3,8 @@ name: Silly Little Codes
 url: https://playsillylittlegames.com/codes
 description: Guess the word or phrase represented by today's code.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2025-06-29'

@@ -3,6 +3,8 @@ name: Wordgy
 url: https://wordgy.com
 description: Guess all five missing words by forming two-word phrases or compound words with the word below each tile.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2025-10-17'

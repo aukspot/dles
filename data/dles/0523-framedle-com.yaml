@@ -3,7 +3,8 @@ name: Framedle.com
 url: https://framedle.com
 description: A collection of daily games related to Warframe.
 category: Video Games
-theme: Warframe
+themes:
+- Warframe
 status: active
 history:
 - date: '2025-10-17'

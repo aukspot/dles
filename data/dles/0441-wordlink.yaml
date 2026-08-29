@@ -3,6 +3,8 @@ name: WordLink
 url: https://playwordlink.com
 description: Rearrange the words to form a chain of two-word phrases.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2025-06-29'

@@ -3,7 +3,8 @@ name: Pokerating
 url: https://pokerating.com/puzzle
 description: Guess an unknown Pokemon based on its in game information and how popular it is, using the ratings of other people.
 category: Video Games
-theme: Pokemon
+themes:
+- Pokemon
 status: active
 history:
 - date: '2025-08-30'

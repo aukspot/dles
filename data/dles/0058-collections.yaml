@@ -3,7 +3,8 @@ name: Collections
 url: https://puzzmallow.com/collections
 description: Guess the category of the three hidden words by revealing one letter at a time.
 category: Words
-theme: Find connections
+themes:
+- Grouping
 status: archived
 archive_url: https://puzzmallow.com/collections/archive
 history:

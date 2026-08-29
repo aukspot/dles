@@ -3,7 +3,8 @@ name: Bazaar Doku
 url: https://bazaardb.gg/doku
 description: Doku-style trivia game for The Bazaar.
 category: Video Games
-theme: The Bazaar
+themes:
+- The Bazaar
 status: active
 history:
 - date: '2025-06-29'

@@ -3,7 +3,8 @@ name: LA Times Sudoku
 url: https://www.latimes.com/games/sudoku
 description: Daily sudoku puzzles across 5 difficulties from the Los Angeles Times.
 category: Math/Logic
-theme: Sudoku
+themes:
+- Sudoku
 status: active
 history:
 - date: '2025-08-30'

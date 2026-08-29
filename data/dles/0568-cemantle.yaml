@@ -3,6 +3,8 @@ name: cemantle
 url: https://cemantle.certitudes.org
 description: Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.
 category: Words
+themes:
+- Semantics
 status: active
 history:
 - date: '2025-12-11'

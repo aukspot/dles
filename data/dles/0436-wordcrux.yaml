@@ -3,6 +3,8 @@ name: Wordcrux
 url: https://wordcrux.com
 description: A mini crossword puzzle, but don't make too many wrong guesses.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2025-06-11'

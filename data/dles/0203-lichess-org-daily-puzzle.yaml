@@ -3,7 +3,8 @@ name: lichess.org Daily Puzzle
 url: https://lichess.org/training/daily
 description: Solve the daily chess puzzle from lichess.org.
 category: Card/Board Games
-theme: Chess
+themes:
+- Chess
 status: active
 history:
 - date: '2025-05-08'

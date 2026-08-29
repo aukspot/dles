@@ -3,6 +3,8 @@ name: Petalgrams
 url: https://petalgrams.com
 description: Make words using the letters on the flower, aiming for a pangram. More letters are added as you go.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2026-08-26'

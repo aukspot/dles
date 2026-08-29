@@ -3,7 +3,8 @@ name: LA Times Mini
 url: https://www.latimes.com/games/mini-crossword
 description: A daily mini crossword from the Los Angeles Times.
 category: Words
-theme: Crosswords
+themes:
+- Crosswords
 status: active
 history:
 - date: '2025-08-30'

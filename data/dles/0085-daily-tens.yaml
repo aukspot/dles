@@ -3,7 +3,8 @@ name: Daily Tens
 url: https://dailytens.com
 description: Guess the top 10 items of today's category.
 category: Trivia
-theme: Guess the List
+themes:
+- Guess the List
 status: active
 history:
 - date: '2024-11-24'

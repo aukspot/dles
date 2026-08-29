@@ -3,6 +3,8 @@ name: Semantle
 url: https://semantle.com
 description: Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.
 category: Words
+themes:
+- Semantics
 status: active
 history:
 - date: '2024-02-13'

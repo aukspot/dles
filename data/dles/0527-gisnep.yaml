@@ -3,6 +3,8 @@ name: Gisnep
 url: https://gisnep.com
 description: Solve the daily quote with the letters above each column.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2025-10-17'

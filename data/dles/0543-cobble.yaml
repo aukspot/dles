@@ -3,6 +3,8 @@ name: Cobble
 url: https://wilf.live/cobble/
 description: Find two words that together use up all the given letters.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2025-11-23'

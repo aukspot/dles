@@ -3,6 +3,8 @@ name: Compound Your Joy
 url: https://onelook.com/?loc=rd&w=cyj
 description: Rearrange the words into a chain of 2-word concepts.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2025-04-02'

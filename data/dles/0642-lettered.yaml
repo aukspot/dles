@@ -3,6 +3,8 @@ name: Lettered
 url: https://lettered.io
 description: Move letter tiles on the board to spell out the hidden phrase.
 category: Words
+themes:
+- Scrabble-like
 status: active
 history:
 - date: '2026-01-23'

@@ -3,7 +3,8 @@ name: Alphalock
 url: https://alphalockgame.net
 description: Word puzzle game inspired by Wordle and Mastermind.
 category: Words
-theme: Guess the word
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2025-06-29'

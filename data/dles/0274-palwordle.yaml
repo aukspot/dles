@@ -3,7 +3,8 @@ name: Palwordle
 url: https://palwordle.net
 description: Daily games related to the video game Palworld.
 category: Video Games
-theme: Palworld
+themes:
+- Palworld
 status: active
 history:
 - date: '2025-06-29'

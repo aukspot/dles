@@ -3,6 +3,8 @@ name: Cyphr
 url: https://cyphrgame.com
 description: Guess letters to form a word on each row of the pyramid, starting from the top row.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2024-11-24'

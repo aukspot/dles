@@ -3,7 +3,8 @@ name: Conexo
 url: https://conexo.ws/en
 description: Form groups of 4 words that have something in common.
 category: Words
-theme: Find connections
+themes:
+- Grouping
 status: active
 history:
 - date: '2024-02-13'

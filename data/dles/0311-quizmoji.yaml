@@ -3,6 +3,8 @@ name: Quizmoji
 url: https://quizmoji.com
 description: Answer each clue with pairs of emojis.
 category: Words
+themes:
+- Clues
 status: active
 history:
 - date: '2025-06-11'

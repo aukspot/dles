@@ -3,6 +3,8 @@ name: Blunderwall
 url: https://bythomas.co.uk/blunderwall
 description: Find the secret word on the Blunderwall in 4 tries.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2024-11-24'

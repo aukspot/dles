@@ -3,7 +3,8 @@ name: Pokle
 url: https://poklegame.com
 description: Guess the 5 board cards in this daily Texas Holdem challenge.
 category: Card/Board Games
-theme: Poker
+themes:
+- Poker
 status: active
 history:
 - date: '2025-01-31'

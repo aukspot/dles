@@ -3,6 +3,9 @@ name: Lex.Games - Lexicogs
 url: https://lex.games/lexicogs/
 description: Solve today's clues by combining blocks of letters. Like the game 7 Little Words.
 category: Words
+themes:
+- Clues
+- Anagrams
 status: active
 history:
 - date: '2025-02-10'

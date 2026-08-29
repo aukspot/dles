@@ -3,6 +3,8 @@ name: Crosshare
 url: https://crosshare.org
 description: Daily mini crossword from an open-source community of crossword makers.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2026-01-03'

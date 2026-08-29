@@ -3,6 +3,9 @@ name: Syllacrostic
 url: https://www.syllacrostic.com/daily
 description: Combine syllables to solve the clues.
 category: Words
+themes:
+- Clues
+- Anagrams
 status: removed
 history:
 - date: '2024-02-27'

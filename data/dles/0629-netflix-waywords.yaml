@@ -3,6 +3,8 @@ name: Netflix - Waywords
 url: https://www.netflix.com/tudum/puzzled/waywords/daily
 description: A themed word search with emojis where the words make a path. Does not require a Netflix account.
 category: Words
+themes:
+- Word Search
 status: active
 history:
 - date: '2026-01-11'

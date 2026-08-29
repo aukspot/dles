@@ -3,7 +3,8 @@ name: Fibble
 url: https://fibble.xyz
 description: Wordle but it lies to you. (Like Lirdle)
 category: Words
-theme: Guess the word
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-06-06'

@@ -3,6 +3,8 @@ name: CHN LNK
 url: https://thechnlnk.com
 description: Complete the chain of connected words by guessing all of the consonants, then all of the vowels.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2026-03-01'

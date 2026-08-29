@@ -3,6 +3,8 @@ name: Cell Tower
 url: https://www.andrewt.net/puzzles/cell-tower
 description: Divide the grid into regions such that each region represents a word.
 category: Words
+themes:
+- Word Search
 status: active
 history:
 - date: '2024-05-28'

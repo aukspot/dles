@@ -3,6 +3,8 @@ name: Lingule
 url: https://lingule.xyz
 description: Guess the language of the today's word in 6 guesses or less.
 category: Words
+themes:
+- Linguistics
 status: active
 history:
 - date: '2024-05-28'

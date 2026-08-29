@@ -3,6 +3,9 @@ name: Stackle
 url: https://www.stackle.fun
 description: Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.
 category: Words
+themes:
+- Word Ladders
+- Anagrams
 status: active
 history:
 - date: '2024-04-10'

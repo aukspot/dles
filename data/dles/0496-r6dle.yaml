@@ -3,7 +3,8 @@ name: R6dle
 url: https://r6dle.net
 description: A collection of daily guessing games related to Tom Clancy's Rainbow Six Siege.
 category: Video Games
-theme: Raindbow Six
+themes:
+- Raindbow Six
 status: active
 history:
 - date: '2025-08-30'

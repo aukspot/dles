@@ -3,6 +3,8 @@ name: Linxicon
 url: https://linxicon.com
 description: Connect two random words by creating a chain of new words that bridge the gap in their meanings.
 category: Words
+themes:
+- Semantics
 status: active
 history:
 - date: '2024-05-28'

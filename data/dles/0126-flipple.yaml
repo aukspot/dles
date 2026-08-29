@@ -3,7 +3,8 @@ name: Flipple
 url: https://flipple.clevergoat.com
 description: Transform the starting word to the target word by changing one letter at a time
 category: Words
-theme: Transform words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2024-06-06'

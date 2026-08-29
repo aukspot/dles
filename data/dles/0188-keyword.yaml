@@ -3,6 +3,8 @@ name: Keyword
 url: https://www.washingtonpost.com/games/keyword
 description: Find the target word by guessing the final letter of the vertical words.
 category: Words
+themes:
+- Letter Reveal
 status: active
 history:
 - date: '2024-02-27'

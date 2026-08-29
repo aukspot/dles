@@ -3,6 +3,8 @@ name: Plausible
 url: https://plausiblegame.com/en
 description: Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.
 category: Words
+themes:
+- Semantics
 status: active
 history:
 - date: '2026-01-06'

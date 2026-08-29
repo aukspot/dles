@@ -3,7 +3,8 @@ name: Weakdoku
 url: https://weakdoku.dentotino.com
 description: Fill out the grid with Pokémon based on the weaknesses described in each cell's row and column.
 category: Video Games
-theme: Pokemon
+themes:
+- Pokemon
 status: active
 history:
 - date: '2025-08-30'

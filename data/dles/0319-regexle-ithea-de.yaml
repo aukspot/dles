@@ -3,6 +3,8 @@ name: regexle.ithea.de
 url: https://regexle.ithea.de
 description: Guess the secret regular expression by testing sequences of characters.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2024-05-28'

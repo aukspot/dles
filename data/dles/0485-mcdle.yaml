@@ -3,7 +3,8 @@ name: Mcdle
 url: https://www.mcdle.net
 description: A collection of daily games related to Minecraft.
 category: Video Games
-theme: Minecraft
+themes:
+- Minecraft
 status: active
 history:
 - date: '2025-08-30'

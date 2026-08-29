@@ -3,6 +3,8 @@ name: Decodex
 url: https://playdecodex.com
 description: A daily cryptography game. Decode a new quote every day!
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2025-06-29'

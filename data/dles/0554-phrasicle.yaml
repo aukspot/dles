@@ -3,6 +3,8 @@ name: Phrasicle
 url: https://phrasicle.com
 description: Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2025-11-23'

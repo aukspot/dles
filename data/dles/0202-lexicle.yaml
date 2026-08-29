@@ -3,6 +3,8 @@ name: Lexicle
 url: https://lexicle.com
 description: Guess the secret word based on its meaning.
 category: Words
+themes:
+- Semantics
 status: active
 history:
 - date: '2025-05-08'

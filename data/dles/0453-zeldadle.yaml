@@ -3,7 +3,8 @@ name: Zeldadle
 url: https://www.zeldadle.net
 description: Test your Zelda knowledge in these daily games.
 category: Video Games
-theme: Zelda
+themes:
+- Zelda
 status: active
 history:
 - date: '2024-11-24'

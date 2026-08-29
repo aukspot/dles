@@ -3,7 +3,8 @@ name: Futbol 11
 url: https://futbol11.com/
 description: A collection of daily games related to Soccer (Fútbol).
 category: Sports
-theme: Soccer
+themes:
+- Soccer
 status: active
 history:
 - date: '2025-08-30'

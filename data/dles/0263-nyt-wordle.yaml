@@ -3,6 +3,8 @@ name: NYT Wordle
 url: https://www.nytimes.com/games/wordle/index.html
 description: Guess the 5-letter word in six or fewer attempts.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-02-13'

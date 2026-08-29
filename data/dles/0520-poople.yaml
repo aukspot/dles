@@ -3,6 +3,8 @@ name: Poople
 url: https://poople.io
 description: Get to 'POOP' in as few steps as possible!
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2025-10-06'

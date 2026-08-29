@@ -3,6 +3,8 @@ name: Chiddle
 url: https://www.chiddle.net
 description: Try to find five high scoring words in the puzzle grid, like Boggle.
 category: Words
+themes:
+- Boggle-like
 status: active
 history:
 - date: '2025-05-08'

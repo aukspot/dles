@@ -3,7 +3,8 @@ name: Streetfighterdle
 url: https://streetfighterdle.net
 description: Guess the daily Street Fighter character in as few tries as possible.
 category: Video Games
-theme: Street Fighter
+themes:
+- Street Fighter
 status: active
 history:
 - date: '2025-06-11'

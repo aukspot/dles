@@ -3,7 +3,8 @@ name: Mahjong Handle
 url: https://mahjong-handle.update.sh
 description: Guess the Riichi Mahjong hand in 6 tries.
 category: Card/Board Games
-theme: Mahjong
+themes:
+- Mahjong
 status: active
 history:
 - date: '2024-07-20'

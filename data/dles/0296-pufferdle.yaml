@@ -3,7 +3,8 @@ name: Pufferdle
 url: https://pufferdle.com
 description: Catch a fish from the game Stardew Valley and then guess what fish it was.
 category: Video Games
-theme: Stardew Valley
+themes:
+- Stardew Valley
 status: active
 history:
 - date: '2024-09-18'

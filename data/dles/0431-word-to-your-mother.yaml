@@ -3,6 +3,8 @@ name: Word to your Mother
 url: https://w2ym.org
 description: Guess all possible Wordle words based on the two starting words and their results.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2025-07-06'

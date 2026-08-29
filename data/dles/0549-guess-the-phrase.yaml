@@ -3,6 +3,8 @@ name: Guess The Phrase
 url: https://guessthephrase.xyz
 description: Solve each of the inner clues until you reveal the phrase, like Bracket City.
 category: Words
+themes:
+- Clues
 status: active
 history:
 - date: '2025-11-23'

@@ -3,6 +3,8 @@ name: PlusWord
 url: https://puzzles-prod.telegraph.co.uk/plusword
 description: Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.
 category: Words
+themes:
+- Crosswords
 status: removed
 history:
 - date: '2024-07-20'

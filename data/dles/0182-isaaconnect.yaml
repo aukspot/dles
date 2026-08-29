@@ -3,7 +3,8 @@ name: Isaaconnect
 url: https://isaaconnect.com
 description: Group items from The Binding of Isaac that share a common theme.
 category: Video Games
-theme: The Binding of Isaac
+themes:
+- The Binding of Isaac
 status: active
 history:
 - date: '2025-02-16'

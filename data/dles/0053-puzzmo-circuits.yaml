@@ -3,6 +3,8 @@ name: Puzzmo - Circuits
 url: https://www.puzzmo.com/play/circuits
 description: Place words into the empty boxes so that each connection of two words make a compound word.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2024-06-22'

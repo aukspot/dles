@@ -3,6 +3,8 @@ name: Polygonle
 url: https://www.polygonle.com
 description: Guess the word in 6 tries, like Wordle. Each unique shape over a column represents a letter.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-04-10'

@@ -3,6 +3,8 @@ name: Squareword
 url: https://squareword.org
 description: Guess 5-letter words to uncover the square of words both horizontally and vertically.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-07-20'

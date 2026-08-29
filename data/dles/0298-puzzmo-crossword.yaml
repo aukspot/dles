@@ -3,6 +3,8 @@ name: Puzzmo - Crossword
 url: https://www.puzzmo.com/play/crossword
 description: Crosswords without getting stuck.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2024-02-13'

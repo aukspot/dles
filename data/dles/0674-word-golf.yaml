@@ -3,6 +3,8 @@ name: word.golf
 url: https://word.golf
 description: Link the starting word to the target word by choosing related words from the grid. 5 rounds per day.
 category: Words
+themes:
+- Word Association
 status: active
 history:
 - date: '2026-02-07'

@@ -3,6 +3,8 @@ name: Spelling Bee
 url: https://spellsbee.com
 description: Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2024-02-17'

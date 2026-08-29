@@ -3,6 +3,8 @@ name: Crossword Club Daily
 url: https://crosswordclub.com/puzzles/
 description: Daily crossword by the Crossword Club.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2026-01-06'

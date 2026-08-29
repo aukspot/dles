@@ -3,7 +3,8 @@ name: GuessTen
 url: https://guessten.com
 description: Guess the top ten entries of today's category.
 category: Trivia
-theme: Guess the List
+themes:
+- Guess the List
 status: archived
 archive_url: https://www.guessten.com/archive.html
 history:

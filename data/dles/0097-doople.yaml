@@ -3,6 +3,9 @@ name: Doople
 url: https://www.dooplepuzzle.com
 description: Chain word combinations together to fit the given clues.
 category: Words
+themes:
+- Word Chains
+- Clues
 status: active
 history:
 - date: '2024-04-10'

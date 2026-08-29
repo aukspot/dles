@@ -3,6 +3,8 @@ name: Mislettered
 url: https://tryhardguides.com/mislettered
 description: Solve the word or phrase by guessing one letter at a time.
 category: Words
+themes:
+- Letter Reveal
 status: active
 history:
 - date: '2024-02-27'

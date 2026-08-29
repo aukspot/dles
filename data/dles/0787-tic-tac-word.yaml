@@ -3,6 +3,8 @@ name: Tic-Tac-Word
 url: https://www.tictacword.com
 description: Make three in a row by guessing words that fit today's theme, like Tic-Tac-Toe meets Wordle.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2026-07-09'

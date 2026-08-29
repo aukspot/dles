@@ -3,7 +3,8 @@ name: MinecraftDle
 url: https://www.minecraftdle.net
 description: Test your Minecraft knowledge in these daily games.
 category: Video Games
-theme: Minecraft
+themes:
+- Minecraft
 status: removed
 history:
 - date: '2024-11-24'

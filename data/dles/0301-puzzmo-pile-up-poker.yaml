@@ -3,7 +3,8 @@ name: Puzzmo - Pile-Up Poker
 url: https://www.puzzmo.com/play/pile-up-poker
 description: Make poker hands by placing cards onto the grid.
 category: Card/Board Games
-theme: Poker
+themes:
+- Poker
 status: active
 history:
 - date: '2025-06-11'

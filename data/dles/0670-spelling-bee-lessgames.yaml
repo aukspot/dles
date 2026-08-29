@@ -3,6 +3,8 @@ name: Spelling Bee (Lessgames)
 url: https://lessgames.com/spellingbee
 description: Spell the words based on their pronunciation. Optionally get a definition or use it in a sentence.
 category: Words
+themes:
+- Linguistics
 status: active
 history:
 - date: '2026-02-07'

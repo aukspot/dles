@@ -3,7 +3,8 @@ name: Pikadoku
 url: https://pikadoku.dentotino.com
 description: Fill out the grid with Pokémon matching the criteria of each cell's row and column. More complex than Pokedoku.
 category: Video Games
-theme: Pokemon
+themes:
+- Pokemon
 status: active
 history:
 - date: '2025-08-30'

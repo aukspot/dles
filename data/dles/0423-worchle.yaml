@@ -3,6 +3,8 @@ name: Worchle
 url: https://www.worchle.com
 description: Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.
 category: Words
+themes:
+- Word Search
 status: active
 history:
 - date: '2024-06-22'

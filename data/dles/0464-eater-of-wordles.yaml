@@ -3,7 +3,8 @@ name: Eater of Wordles
 url: https://hexdecima.github.io/eowordles/
 description: Guess today's secret Terraria NPC.
 category: Video Games
-theme: Terraria
+themes:
+- Terraria
 status: removed
 history:
 - date: '2025-08-30'

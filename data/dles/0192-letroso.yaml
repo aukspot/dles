@@ -3,6 +3,8 @@ name: Letroso
 url: https://letroso.com/en/daily
 description: Guess the secret word that can be up to 10 letters long.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-11-24'

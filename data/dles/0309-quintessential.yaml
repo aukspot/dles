@@ -3,6 +3,9 @@ name: Quintessential
 url: https://quintessential.fun
 description: Solve each of the 5 horizontal words in as few swaps as possible.
 category: Words
+themes:
+- Swap/Slide/Spin
+- Wordle-like
 status: active
 history:
 - date: '2024-05-28'

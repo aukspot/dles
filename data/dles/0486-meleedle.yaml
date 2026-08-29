@@ -3,7 +3,8 @@ name: Meleedle
 url: https://meleedle.netlify.app/
 description: Name the character and move of the hitbox shown from Super Smash Bros Melee.
 category: Video Games
-theme: Super Smash Bros
+themes:
+- Super Smash Bros
 status: removed
 history:
 - date: '2025-08-30'

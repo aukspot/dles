@@ -3,7 +3,9 @@ name: Netflix - Keysmash
 url: https://www.netflix.com/tudum/puzzled/keysmash/daily
 description: Guess the themed words with their vowels removed. Does not require a Netflix account.
 category: Words
-status: active
+themes:
+- Grouping
+status: removed
 history:
 - date: '2026-02-07'
   event: added

@@ -3,6 +3,8 @@ name: The Guardian - Quick Crossword
 url: https://www.theguardian.com/crosswords/series/quick
 description: A small crossword puzzle from The Guardian. New puzzle 6 days a week.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2026-01-23'

@@ -3,6 +3,8 @@ name: Zaggle
 url: https://playzaggle.com
 description: Trace words in the grid based on the given clues.
 category: Words
+themes:
+- Boggle-like
 status: active
 history:
 - date: '2026-08-02'

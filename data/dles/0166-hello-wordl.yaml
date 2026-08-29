@@ -3,7 +3,8 @@ name: hello wordl
 url: https://hellowordl.net/?today
 description: Play Wordle puzzles from 4 to 11 letters long.
 category: Words
-theme: Guess the word
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-02-17'

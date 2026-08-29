@@ -3,6 +3,8 @@ name: FoxiMax
 url: https://foximax.com
 description: Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.
 category: Words
+themes:
+- Letter Reveal
 status: active
 history:
 - date: '2026-07-09'

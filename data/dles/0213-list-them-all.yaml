@@ -3,7 +3,8 @@ name: List Them All!
 url: https://listthemall.com
 description: List all of the items that fit today's category.
 category: Trivia
-theme: Guess the List
+themes:
+- Guess the List
 status: removed
 history:
 - date: '2024-11-24'

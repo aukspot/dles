@@ -3,7 +3,8 @@ name: Pokegrid
 url: https://www.pokegrid.net
 description: Guess the combination of attributes of pokemon in a grid.
 category: Video Games
-theme: Pokemon
+themes:
+- Pokemon
 status: active
 history:
 - date: '2025-08-30'

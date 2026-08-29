@@ -3,7 +3,8 @@ name: Runedle
 url: https://runedle.com
 description: Guess today's Runescape NPC.
 category: Video Games
-theme: RuneScape
+themes:
+- RuneScape
 status: active
 history:
 - date: '2024-11-24'

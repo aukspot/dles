@@ -3,6 +3,8 @@ name: Phrasle
 url: https://phrasle.com
 description: Reveal the phrase by guessing one letter at a time.
 category: Words
+themes:
+- Letter Reveal
 status: active
 history:
 - date: '2024-04-10'

@@ -3,6 +3,8 @@ name: Mini Crossword (The Observer)
 url: https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword
 description: A daily mini crossword from The Observer.
 category: Words
+themes:
+- Crosswords
 status: archived
 history:
 - date: '2024-11-24'

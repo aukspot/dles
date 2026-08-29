@@ -3,6 +3,8 @@ name: Outlier
 url: https://outlier.land
 description: Repeatedly pick the outlier as quickly as you can.
 category: Words
+themes:
+- Grouping
 status: archived
 history:
 - date: '2026-01-12'

@@ -3,6 +3,8 @@ name: Traindle
 url: https://www.traindle.io
 description: Chain together words to form familiar phrases. Timed-based word game.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2025-08-30'

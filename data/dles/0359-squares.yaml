@@ -3,6 +3,8 @@ name: Squares
 url: https://squares.org
 description: Find all of the words in this daily Boggle game.
 category: Words
+themes:
+- Boggle-like
 status: active
 history:
 - date: '2024-05-28'

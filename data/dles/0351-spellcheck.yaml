@@ -3,6 +3,8 @@ name: Spellcheck
 url: https://spellcheck.xyz
 description: Spell the words correctly after listening to them.
 category: Words
+themes:
+- Linguistics
 status: active
 history:
 - date: '2024-02-13'

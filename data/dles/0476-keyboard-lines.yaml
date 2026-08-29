@@ -3,6 +3,8 @@ name: Keyboard Lines
 url: https://keyboardlines.com
 description: Determine the mystery word just by following the swipe line on the keyboard.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2025-08-30'

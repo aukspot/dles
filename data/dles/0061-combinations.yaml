@@ -3,6 +3,8 @@ name: Combinations
 url: https://combinations.org
 description: Create words using combinations of letters from the grid.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2024-02-13'

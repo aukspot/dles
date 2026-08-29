@@ -3,7 +3,8 @@ name: Monster Hunter-dle
 url: https://monster-hunter-dle.akato.fr/classic
 description: Guess the monster from the Monster Hunter series.
 category: Video Games
-theme: Monster Hunter
+themes:
+- Monster Hunter
 status: active
 history:
 - date: '2025-06-29'

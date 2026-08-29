@@ -3,6 +3,9 @@ name: Karat
 url: https://karat.auronymous.com
 description: Turn the rings of the ingot until each side forms a word - in 24 turns or less.
 category: Words
+themes:
+- Swap/Slide/Spin
+- Anagrams
 status: active
 history:
 - date: '2024-04-10'

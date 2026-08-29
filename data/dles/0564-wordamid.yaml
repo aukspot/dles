@@ -3,6 +3,8 @@ name: Wordamid
 url: https://www.wordamid.com
 description: Solve the daily word pyramid by guessing words of increasing length.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2025-11-23'

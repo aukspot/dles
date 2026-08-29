@@ -3,6 +3,8 @@ name: 4 x 3
 url: https://www.hankgreen.com/fourbythree/
 description: Group the words into 4 categories of 3 words apiece. One word is shared by each group.
 category: Words
+themes:
+- Grouping
 status: active
 history:
 - date: '2026-07-09'

@@ -3,7 +3,8 @@ name: Nookle
 url: https://nookle.net
 description: Guess the villager from Animal Crossing.
 category: Video Games
-theme: Animal Crossing
+themes:
+- Animal Crossing
 status: active
 history:
 - date: '2025-06-29'

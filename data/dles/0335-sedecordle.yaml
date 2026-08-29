@@ -3,6 +3,9 @@ name: sedecordle
 url: https://sedecordle.com
 description: Solve 16 wordles at the same time. You have 21 guesses.
 category: Words
+themes:
+- Wordle-like
+- Multi-Board
 status: active
 history:
 - date: '2024-07-20'

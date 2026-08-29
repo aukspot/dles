@@ -3,7 +3,8 @@ name: Framedle
 url: https://framedle.org
 description: Guess the Warframe of the day.
 category: Video Games
-theme: Warframe
+themes:
+- Warframe
 status: active
 history:
 - date: '2025-08-30'

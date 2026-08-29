@@ -3,7 +3,8 @@ name: Snapdle
 url: https://snapdle.github.io/classic
 description: Guess the card from the game Marvel Snap.
 category: Video Games
-theme: Marvel Snap
+themes:
+- Marvel Snap
 status: active
 history:
 - date: '2025-05-08'

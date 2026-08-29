@@ -3,7 +3,8 @@ name: Guess My Word
 url: https://hryanjones.com/guess-my-word
 description: Make guesses and see if they are alphabetically before or after the secret word.
 category: Words
-theme: Guess the word
+themes:
+- Guess the word
 status: active
 history:
 - date: '2024-05-28'

@@ -3,6 +3,8 @@ name: Orbits
 url: https://www.playorbits.com
 description: Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.
 category: Words
+themes:
+- Word Chains
 status: active
 history:
 - date: '2024-07-20'

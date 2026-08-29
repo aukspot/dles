@@ -3,7 +3,8 @@ name: Contexto
 url: https://contexto.me
 description: Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.
 category: Words
-theme: Guess the word
+themes:
+- Semantics
 status: active
 history:
 - date: '2024-02-13'

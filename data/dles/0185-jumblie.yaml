@@ -3,6 +3,8 @@ name: Jumblie
 url: https://jumblie.com
 description: Find the 4 themed words hidden amongst the letters such that all letters are used exactly once.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2024-05-28'

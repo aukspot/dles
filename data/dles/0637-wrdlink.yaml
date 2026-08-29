@@ -3,6 +3,8 @@ name: WRDLINK
 url: https://www.wrdlink.io
 description: Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2026-01-11'

@@ -3,6 +3,9 @@ name: Quordle
 url: https://www.merriam-webster.com/games/quordle/#/
 description: Solve 4 Wordle puzzles at the same time.
 category: Words
+themes:
+- Wordle-like
+- Multi-Board
 status: active
 history:
 - date: '2024-02-17'

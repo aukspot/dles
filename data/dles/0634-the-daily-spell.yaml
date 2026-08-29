@@ -3,6 +3,8 @@ name: The Daily Spell
 url: https://www.the-daily-spell.com
 description: Unscramble the fictional headline by dropping letters into place.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2026-01-11'

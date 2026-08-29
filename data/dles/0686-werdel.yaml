@@ -3,6 +3,9 @@ name: werdel
 url: https://bennw.github.io/werdel/#daily
 description: Wordle except you're guessing based on the word's pronunciation as represented by the International Phonetic Alphabet (IPA).
 category: Words
+themes:
+- Linguistics
+- Wordle-like
 status: active
 history:
 - date: '2026-02-19'

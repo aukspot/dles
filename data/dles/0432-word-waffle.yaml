@@ -3,6 +3,9 @@ name: Word Waffle
 url: https://wordwaffle.org
 description: Swap letters to create words both horizontally and vertically.
 category: Words
+themes:
+- Swap/Slide/Spin
+- Wordle-like
 status: active
 history:
 - date: '2024-02-13'

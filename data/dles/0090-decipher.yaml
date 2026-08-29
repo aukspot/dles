@@ -3,6 +3,8 @@ name: Decipher
 url: https://decipher.wtf
 description: Solve the daily cryptogram to reveal the quote.
 category: Words
+themes:
+- Decoding
 status: active
 history:
 - date: '2024-07-20'

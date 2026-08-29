@@ -3,6 +3,8 @@ name: WordSmyth
 url: https://playwordsmyth.com
 description: Transform the word using one of the clues listed until you reach the secret word.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2025-12-20'

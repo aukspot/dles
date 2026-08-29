@@ -3,7 +3,8 @@ name: Clasherdle
 url: https://clasherdle.pixelcrux.com/
 description: A daily guessing game for Clash Royale.
 category: Video Games
-theme: Clash Royale
+themes:
+- Clash Royale
 status: active
 history:
 - date: '2025-08-30'

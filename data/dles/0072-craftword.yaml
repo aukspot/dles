@@ -3,6 +3,8 @@ name: CraftWord
 url: https://craftword.game
 description: Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2024-05-28'

@@ -3,6 +3,8 @@ name: Gridogram
 url: https://www.gridogram.com
 description: Reveal the quote by finding words in the grid of letters.
 category: Words
+themes:
+- Boggle-like
 status: active
 history:
 - date: '2026-02-18'

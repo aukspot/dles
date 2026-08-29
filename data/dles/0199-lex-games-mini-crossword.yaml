@@ -3,6 +3,8 @@ name: Lex.Games - Mini Crossword
 url: https://lex.games/mini/
 description: A daily mini crossword from Lex.Games
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2025-02-10'

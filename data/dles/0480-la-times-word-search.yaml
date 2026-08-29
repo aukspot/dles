@@ -3,7 +3,8 @@ name: LA Times Word Search
 url: https://www.latimes.com/games/wordsearch
 description: A daily word search puzzle from the Los Angeles Times.
 category: Words
-theme: Find words
+themes:
+- Word Search
 status: active
 history:
 - date: '2025-08-30'

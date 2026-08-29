@@ -3,6 +3,8 @@ name: Unolingo
 url: https://games.usatoday.com/games/uclick-unolingo
 description: Solve the clueless crossword by using each letter of the English alphabet exactly once.
 category: Words
+themes:
+- Crosswords
 status: active
 history:
 - date: '2024-04-10'

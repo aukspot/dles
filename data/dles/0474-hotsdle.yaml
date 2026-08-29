@@ -3,7 +3,8 @@ name: HOTSdle
 url: https://hotsdle.zgame.studio/
 description: Guess the daily hero from Heroes of the Storm.
 category: Video Games
-theme: Heroes of the Storm
+themes:
+- Heroes of the Storm
 status: active
 history:
 - date: '2025-08-30'

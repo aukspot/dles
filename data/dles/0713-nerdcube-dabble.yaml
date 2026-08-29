@@ -3,6 +3,8 @@ name: Nerdcube - Dabble
 url: https://www.nerdcube.games/dabble
 description: Score as many points as you can by building words on a small custom Scrabble board.
 category: Words
+themes:
+- Scrabble-like
 status: active
 history:
 - date: '2026-03-06'

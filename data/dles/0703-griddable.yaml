@@ -3,6 +3,8 @@ name: Griddable
 url: https://griddable.co.uk
 description: Create a grid of words with a blind sequence of letters, mixing in your own letters as you go.
 category: Words
+themes:
+- Scrabble-like
 status: active
 history:
 - date: '2026-03-01'

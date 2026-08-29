@@ -3,6 +3,8 @@ name: Eightile
 url: https://eightile.com
 description: Unscramble each word, adding a new letter each time. You have 5 minutes.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2025-02-16'

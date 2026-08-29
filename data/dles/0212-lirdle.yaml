@@ -3,6 +3,8 @@ name: Lirdle
 url: https://lirdle.com
 description: Wordle except each line contains a lie. (Like Fibble)
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-11-24'

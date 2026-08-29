@@ -3,6 +3,8 @@ name: Word Ladder
 url: https://wordladder.com
 description: Change one word into another by switching one letter at a time, keeping a valid word at each step.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2025-06-29'

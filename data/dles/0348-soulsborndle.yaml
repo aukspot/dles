@@ -3,7 +3,8 @@ name: Soulsborndle
 url: https://malthesers.github.io/soulsborndle
 description: Guess bosses from the Soulsborne games by their health, souls, weaknesses and resistances. For fans of Elden Ring, Dark Souls, Demon Souls, and Bloodborne.
 category: Video Games
-theme: Souls
+themes:
+- Souls
 status: active
 history:
 - date: '2024-07-20'

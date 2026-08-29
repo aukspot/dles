@@ -3,6 +3,8 @@ name: ClickWord
 url: https://clickword.org
 description: Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.
 category: Words
+themes:
+- Scrabble-like
 status: active
 history:
 - date: '2024-07-20'

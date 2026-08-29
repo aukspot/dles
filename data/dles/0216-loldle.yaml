@@ -3,7 +3,8 @@ name: LoLdle
 url: https://loldle.net
 description: A bunch of daily games where you guess the champion from League of Legends.
 category: Video Games
-theme: League of Legends
+themes:
+- League of Legends
 status: active
 history:
 - date: '2025-04-02'

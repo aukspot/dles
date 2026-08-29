@@ -3,7 +3,8 @@ name: Top 5
 url: https://topfivetrivia.com
 description: Guess the top 5 items of today's category.
 category: Trivia
-theme: Guess the List
+themes:
+- Guess the List
 status: active
 history:
 - date: '2025-02-16'

@@ -3,6 +3,8 @@ name: Langle
 url: https://langle.uk
 description: Guess the world language from a few example sentences.
 category: Words
+themes:
+- Linguistics
 status: active
 history:
 - date: '2025-06-11'

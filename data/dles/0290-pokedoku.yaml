@@ -3,7 +3,8 @@ name: Pokedoku
 url: https://pokedoku.com
 description: Fill out the grid with Pokémon matching the criteria of each cell's row and column.
 category: Video Games
-theme: Pokemon
+themes:
+- Pokemon
 status: active
 history:
 - date: '2024-02-13'

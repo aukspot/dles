@@ -3,7 +3,8 @@ name: Pokedle.com
 url: https://pokedle.com
 description: Guess the daily Pokemon from all generations.
 category: Video Games
-theme: Pokemon
+themes:
+- Pokemon
 status: active
 history:
 - date: '2025-06-29'

@@ -3,6 +3,8 @@ name: WordAll
 url: https://wordall.xyz
 description: Guess all of the Wordle words, given the starting clues.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-02-14'

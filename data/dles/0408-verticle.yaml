@@ -3,6 +3,8 @@ name: Verticle
 url: https://verticle.netlify.app
 description: A vertical variant of Wordle.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-07-20'

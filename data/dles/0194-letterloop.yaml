@@ -3,6 +3,8 @@ name: LetterLoop
 url: https://theletterloop.com
 description: Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2024-06-22'

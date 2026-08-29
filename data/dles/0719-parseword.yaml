@@ -3,6 +3,8 @@ name: Parseword
 url: https://www.parseword.com
 description: Solve today's cryptic clue through careful deduction. Great for those new to cryptics.
 category: Words
+themes:
+- Cryptics
 status: active
 history:
 - date: '2026-03-10'

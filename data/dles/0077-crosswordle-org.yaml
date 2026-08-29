@@ -3,6 +3,8 @@ name: crosswordle.org
 url: https://crosswordle.org
 description: Solve multiple Wordle puzzles crossed together.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-02-13'

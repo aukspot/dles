@@ -3,7 +3,7 @@ name: Totem Words
 url: https://totemwords.com
 description: Guess the words associated their emoji category, then slide those words to solve the vertical category.
 category: Words
-status: active
+status: removed
 history:
 - date: '2025-08-30'
   event: added

@@ -3,7 +3,11 @@ name: Crosslink
 url: https://romainpastureau.github.io/crosslink/
 description: Guess the two words crossed together that are related in some way.
 category: Words
-status: active
+themes:
+- Clues
+status: archived
 history:
 - date: '2025-10-17'
   event: added
+- date: '2026-08-28'
+  event: archived

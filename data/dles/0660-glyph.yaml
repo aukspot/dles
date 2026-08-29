@@ -3,6 +3,9 @@ name: Glyph
 url: https://glyph.today
 description: Guess the word based on its glyph, or all of its letters stacked together.
 category: Words
+themes:
+- Decoding
+- Wordle-like
 status: active
 history:
 - date: '2026-02-07'

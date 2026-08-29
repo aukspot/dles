@@ -3,6 +3,8 @@ name: Searchle
 url: https://searchle.net
 description: Guess the secret word of the day by completing the Google search prompt.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-05-28'

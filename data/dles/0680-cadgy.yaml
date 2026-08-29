@@ -3,6 +3,8 @@ name: Cadgy
 url: https://cadgy.net
 description: Make valid 5-letter words by selecting one letter from each column.
 category: Words
+themes:
+- Anagrams
 status: active
 history:
 - date: '2026-02-18'

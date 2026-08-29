@@ -3,6 +3,8 @@ name: Weaver
 url: https://weavergame.org
 description: Weave your way from the start word to the end word, changing only one letter at a time.
 category: Words
+themes:
+- Word Ladders
 status: active
 history:
 - date: '2024-02-13'

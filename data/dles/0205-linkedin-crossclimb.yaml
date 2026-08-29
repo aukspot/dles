@@ -3,6 +3,9 @@ name: LinkedIn - Crossclimb
 url: https://www.linkedin.com/games/crossclimb
 description: Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.
 category: Words
+themes:
+- Word Ladders
+- Clues
 status: active
 history:
 - date: '2025-06-11'

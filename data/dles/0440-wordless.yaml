@@ -3,6 +3,8 @@ name: Wordless
 url: https://lessgames.com/wordless
 description: Solve Wordle puzzles of various sizes.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2024-02-13'

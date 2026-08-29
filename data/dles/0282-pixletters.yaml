@@ -3,6 +3,8 @@ name: Pixletters
 url: https://pixletters.com
 description: Guess the word, except each letter is represented in a pixel grid.
 category: Words
+themes:
+- Wordle-like
 status: active
 history:
 - date: '2025-05-08'

@@ -3,6 +3,8 @@ name: Relatle
 url: https://www.relatle.lol
 description: Guess the word based on one of its synonyms, given a new synonym after each guess.
 category: Words
+themes:
+- Semantics
 status: removed
 history:
 - date: '2024-04-10'

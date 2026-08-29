@@ -3,7 +3,8 @@ name: Ace Attorneydle
 url: https://aceattorneydle.fr
 description: A collection of daily games related to Ace Attorney.
 category: Video Games
-theme: Ace Attorney
+themes:
+- Ace Attorney
 status: active
 history:
 - date: '2025-08-30'

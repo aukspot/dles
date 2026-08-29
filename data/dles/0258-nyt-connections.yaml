@@ -3,6 +3,8 @@ name: NYT Connections
 url: https://www.nytimes.com/games/connections
 description: Group words that share a common thread.
 category: Words
+themes:
+- Grouping
 status: active
 history:
 - date: '2024-02-13'

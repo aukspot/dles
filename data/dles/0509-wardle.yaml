@@ -3,7 +3,8 @@ name: Wardle
 url: https://wardlegame.com/
 description: A collection of daily games related to War Thunder
 category: Video Games
-theme: War Thunder
+themes:
+- War Thunder
 status: active
 history:
 - date: '2025-08-30'

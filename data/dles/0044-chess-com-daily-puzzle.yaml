@@ -3,7 +3,8 @@ name: Chess.com Daily Puzzle
 url: https://www.chess.com/daily-chess-puzzle
 description: Solve the daily chess puzzle from chess.com.
 category: Card/Board Games
-theme: Chess
+themes:
+- Chess
 status: active
 history:
 - date: '2024-05-28'

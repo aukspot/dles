@@ -3,6 +3,9 @@ name: crosswordle.com
 url: https://crosswordle.com
 description: Swap tiles to solve multiple Wordle puzzles crossed together.
 category: Words
+themes:
+- Swap/Slide/Spin
+- Wordle-like
 status: active
 history:
 - date: '2024-02-13'

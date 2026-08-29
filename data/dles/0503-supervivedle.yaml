@@ -3,7 +3,8 @@ name: Supervivedle
 url: https://supervivedle.com
 description: A collection of daily games related to Supervive.
 category: Video Games
-theme: Supervive
+themes:
+- Supervive
 status: removed
 history:
 - date: '2025-08-30'

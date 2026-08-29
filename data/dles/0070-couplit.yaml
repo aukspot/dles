@@ -3,6 +3,8 @@ name: Couplit
 url: https://couplit.io
 description: Arrange the letters to spell out a phrase based on today's theme.
 category: Words
+themes:
+- Anagrams
 status: archived
 history:
 - date: '2025-06-11'
