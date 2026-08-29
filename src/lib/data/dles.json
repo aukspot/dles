@@ -4097,6 +4097,13 @@
     "id": 348
   },
   {
+    "name": "SoulsDoku",
+    "url": "https://www.soulsdoku.com",
+    "description": "Daily FromSoftware boss guessing games: a 3x3 grid, classic clues, silhouettes, lore and arenas across Demon's Souls, Dark Souls, Bloodborne, Sekiro and Elden Ring.",
+    "category": "Video Games",
+    "theme": "Souls"
+  },
+  {
     "name": "SpaceWord",
     "url": "https://spaceword.org",
     "description": "Create crosswords using all letters, using as little space as possible.",
