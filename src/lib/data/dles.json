@@ -2546,6 +2546,12 @@
     "id": 216
   },
   {
+    "name": "Long Story Short",
+    "url": "https://sheets.works/long-story-short",
+    "description": "Cut a sentence to five of its own words. Wordle scoring, one a day.",
+    "category": "Words"
+  },
+  {
     "name": "Loopy",
     "url": "https://loopy.wtf",
     "description": "Make a loop based on the numbers in the grid.",
