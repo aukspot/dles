@@ -703,6 +703,7 @@
     "url": "https://cluesbysam.com",
     "description": "Use the clues to figure out which characters are innocent and which are criminals.",
     "category": "Math/Logic",
+    "resetTime": "America/New_York",
     "id": 55
   },
   {
@@ -1411,6 +1412,7 @@
     "url": "https://inkwellgames.com/games/fields",
     "description": "Fill the grid with colorful fields that never connect.",
     "category": "Math/Logic",
+    "resetTime": "client",
     "id": 467
   },
   {
@@ -2317,6 +2319,7 @@
     "url": "https://inkwellgames.com/games/lazy-river",
     "description": "Draw a single continuous loop that flows through every cell.",
     "category": "Shapes/Patterns",
+    "resetTime": "client",
     "id": 773
   },
   {
@@ -2437,6 +2440,7 @@
     "url": "https://www.linkedin.com/games/crossclimb",
     "description": "Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.",
     "category": "Words",
+    "resetTime": "America/Los_Angeles",
     "id": 205
   },
   {
@@ -2444,6 +2448,7 @@
     "url": "https://www.linkedin.com/games/mini-sudoku/",
     "description": "A daily 6x6 Sudoku puzzle. Does not require a LinkedIn account.",
     "category": "Math/Logic",
+    "resetTime": "America/Los_Angeles",
     "id": 565
   },
   {
@@ -2451,6 +2456,7 @@
     "url": "https://www.linkedin.com/games/patches/",
     "description": "Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.",
     "category": "Shapes/Patterns",
+    "resetTime": "America/Los_Angeles",
     "id": 783
   },
   {
@@ -2458,6 +2464,7 @@
     "url": "https://www.linkedin.com/games/pinpoint",
     "description": "Guess today's category given as few clues as possible. Does not require a LinkedIn account.",
     "category": "Words",
+    "resetTime": "America/Los_Angeles",
     "id": 206
   },
   {
@@ -2465,6 +2472,7 @@
     "url": "https://www.linkedin.com/games/queens",
     "description": "Place queens on the board such that exactly one is in each row, column, and color region. Does not require a LinkedIn account.",
     "category": "Math/Logic",
+    "resetTime": "America/Los_Angeles",
     "id": 207
   },
   {
@@ -2472,6 +2480,7 @@
     "url": "https://www.linkedin.com/games/tango",
     "description": "Fill in the grid properly with suns and moons. Does not require a LinkedIn account.",
     "category": "Math/Logic",
+    "resetTime": "America/Los_Angeles",
     "id": 208
   },
   {
@@ -2479,6 +2488,7 @@
     "url": "https://www.linkedin.com/games/wend/",
     "description": "Find the hidden words that partition the grid of letters. Does not require a LinkedIn account.",
     "category": "Words",
+    "resetTime": "America/Los_Angeles",
     "id": 784
   },
   {
@@ -2486,6 +2496,7 @@
     "url": "https://www.linkedin.com/games/zip",
     "description": "Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.",
     "category": "Shapes/Patterns",
+    "resetTime": "America/Los_Angeles",
     "id": 209
   },
   {
@@ -4285,6 +4296,7 @@
     "url": "https://inkwellgames.com/games/stars",
     "description": "Distribute stars strategically across the grid without letting them touch.",
     "category": "Math/Logic",
+    "resetTime": "client",
     "id": 501
   },
   {
@@ -4618,6 +4630,7 @@
     "url": "https://www.tictacword.com",
     "description": "Make three in a row by guessing words that fit today's theme, like Tic-Tac-Toe meets Wordle.",
     "category": "Words",
+    "resetTime": "client",
     "id": 787
   },
   {

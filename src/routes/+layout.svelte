@@ -40,6 +40,7 @@
     getCurrentDlesOfTheWeek,
     isLocalStorageAvailable,
   } from "$lib/js/utilities"
+  import { computePlayedReset, parseResetDate } from "$lib/js/playedReset"
   import {
     migrateFavoritesToIds,
     needsFavoritesMigration,
@@ -113,15 +114,17 @@
       $autoResetPlayed = localStorage.autoResetPlayed !== "false"
 
       if ($autoResetPlayed) {
-        const today = new Date().toDateString()
-        const lastResetDate = localStorage.playedDlesLastReset
+        // Unmark only the dles whose own reset boundary has passed since the
+        // last check (per-dle resetTime; defaults to the user's local midnight).
+        const now = new Date()
+        const lastReset = parseResetDate(localStorage.playedDlesLastReset)
+        const remaining = computePlayedReset($playedDleIds, $dles, lastReset, now)
 
-        if (lastResetDate !== today) {
-          // Reset played dles at midnight
-          $playedDleIds = []
-          localStorage.playedDles = JSON.stringify([])
-          localStorage.playedDlesLastReset = today
+        if (remaining.length !== $playedDleIds.length) {
+          $playedDleIds = remaining
+          localStorage.playedDles = JSON.stringify(remaining)
         }
+        localStorage.playedDlesLastReset = now.toISOString()
       }
     }
   })
