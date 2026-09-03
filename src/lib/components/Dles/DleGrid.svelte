@@ -5,6 +5,7 @@
 
   export let cards = []
   export let cardsVersion = 0
+  export let maxColumns = 5
 
   let gridContainer
   let columns = []
@@ -14,20 +15,21 @@
   let lastWindowWidth = 0
 
   function getNumColumns() {
-    if (!browser) return 2
+    if (!browser) return Math.min(2, maxColumns)
 
     // Use document.documentElement.clientWidth instead of window.innerWidth
     // to account for zoom/scaling
     const width = document.documentElement.clientWidth
     // Use minimum of 300px
     if (width < 300) return 1
-    if (width >= 1200) return Math.min(Math.floor(width / 220), 5) // 5 columns when there's space
-    if (width >= 768) return Math.min(Math.floor(width / 220), 4) // 4 columns on large screens
-    if (width >= 570) return 3
-    return 2
+    if (width >= 1200) return Math.min(Math.floor(width / 220), 5, maxColumns)
+    if (width >= 768) return Math.min(Math.floor(width / 220), 4, maxColumns)
+    if (width >= 570) return Math.min(3, maxColumns)
+    return Math.min(2, maxColumns)
   }
 
   function estimateCardHeight(card) {
+    if (typeof card.estimatedHeight === "number") return card.estimatedHeight
     // Estimate relative heights based on card type and content
     if (card.type === "dlesOfTheWeek") return 300 // Usually has multiple items
     if (card.type === "favorites") return card.data.length * 40 + 100 // Base height + items
@@ -35,7 +37,7 @@
     if (card.type === "new") {
       // Calculate based on newDles data - need to count unique dates + dles
       const newDlesData = $newDles || []
-      const uniqueDates = new Set(newDlesData.map(d => d.date_added)).size
+      const uniqueDates = new Set(newDlesData.map((d) => d.date_added)).size
       return newDlesData.length * 40 + uniqueDates * 30 + 80 // dles + date headers + section header
     }
     if (card.type === "category") return card.data.length * 40 + 80 // Base height + items
@@ -60,7 +62,8 @@
     )
     const sponsorsCard = cards.find((card) => card.type === "sponsors")
     const newCard = cards.find((card) => card.type === "new")
-    const categoryCards = cards.filter((card) => card.type === "category")
+    const pinnedTypes = ["favorites", "dlesOfTheWeek", "sponsors", "new"]
+    const flowCards = cards.filter((card) => !pinnedTypes.includes(card.type))
 
     if (numColumns === 1) {
       const orderedCards = []
@@ -69,7 +72,7 @@
       if (dlesOfTheWeekCard) orderedCards.push(dlesOfTheWeekCard)
       if (sponsorsCard) orderedCards.push(sponsorsCard)
       if (newCard) orderedCards.push(newCard)
-      orderedCards.push(...categoryCards)
+      orderedCards.push(...flowCards)
 
       orderedCards.forEach((card) => {
         columns[0].push(card)
@@ -93,16 +96,14 @@
         columnHeights[1] += estimateCardHeight(favoriteCard)
       }
 
-      // Sort all category cards by rank
-      const sortedCategoryCards = [...categoryCards].sort((a, b) => {
-        const rankA = $categoryRanks[a.category] ?? 999
-        const rankB = $categoryRanks[b.category] ?? 999
+      const sortedFlowCards = [...flowCards].sort((a, b) => {
+        const rankA = a.rank ?? $categoryRanks[a.category] ?? 999
+        const rankB = b.rank ?? $categoryRanks[b.category] ?? 999
         return rankA - rankB
       })
 
-      // Distribute categories based on height - always add to the shortest column
       // This creates a balanced masonry layout
-      sortedCategoryCards.forEach((card) => {
+      sortedFlowCards.forEach((card) => {
         // Find the column with minimum height
         const shortestColumnIndex = columnHeights.indexOf(
           Math.min(...columnHeights),

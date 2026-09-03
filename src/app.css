@@ -24,8 +24,46 @@
   }
 }
 
+body {
+  @apply text-colorText;
+}
+
 a {
   @apply text-colorLink hover:text-colorLinkHover active:text-colorLinkActive;
+}
+
+@layer components {
+
+  .dle-columns {
+    column-gap: 0.5rem;
+    columns: 2;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: 374px) {
+    .dle-columns {
+      columns: 1;
+    }
+  }
+
+  @media (min-width: 570px) {
+    .dle-columns {
+      columns: 3;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .dle-columns {
+      columns: 4;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .dle-columns {
+      columns: 5;
+    }
+  }
 }
 
 .header-section-label {
@@ -48,7 +86,7 @@ a {
   @apply flex-shrink-0 w-6 h-6 flex items-center justify-center;
 }
 
-.section-icon :global(svg) {
+.section-icon svg {
   @apply w-full h-full;
 }
 

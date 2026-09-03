@@ -16,6 +16,7 @@
 
   import SectionHeader from "../SectionHeader.svelte"
   import { categoryIcons } from "$lib/js/categoryIcons"
+  import { themesByCategory } from "$lib/js/themes"
   import { base } from "$app/paths"
   import IconCalendarHeart from "../Icons/IconCalendarHeart.svelte"
   import IconFavoriteFilled from "../Icons/IconFavoriteFilled.svelte"
@@ -205,7 +206,6 @@
 
 <svelte:window on:resize={handleResize} />
 <svelte:document on:keyup={(e) => handleKeyUp(e)} />
-<!-- <Banner includeSearch={true} onOpenPreferences={openPreferencesModal} /> -->
 <div class="w-full mx-auto">
   <DleGrid
     cards={allCards}
@@ -337,6 +337,14 @@
             icon={categoryIcons[card.category]}
             color={$categoryColors[card.category]}
           />
+          {#if themesByCategory[card.category]}
+            <a
+              class="browse-themes"
+              href="{base}/category/{card.category.toLowerCase()}"
+            >
+              Browse subcategories &rarr;
+            </a>
+          {/if}
           <DleGroup dleGroup={visibleDles} />
         </div>
       {/if}
@@ -366,6 +374,10 @@
     max-width: 100%;
     overflow-wrap: break-word;
     word-break: break-word;
+  }
+
+  .browse-themes {
+    @apply block px-2 py-1 text-xs font-medium text-colorTextSoft bg-colorCardC text-center hover:text-colorText;
   }
 
   .favorites-add-row {

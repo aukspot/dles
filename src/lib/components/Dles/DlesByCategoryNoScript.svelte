@@ -1,7 +1,8 @@
 <script>
   import { categories, categorizedDles } from "$lib/stores"
+  import { themesByCategory } from "$lib/js/themes"
+  import { base } from "$app/paths"
 
-  import Banner from "../Banner.svelte"
   import SectionHeader from "../SectionHeader.svelte"
 
   import IconCardBoardGames from "$lib/components/Icons/IconCardBoardGames.svelte"
@@ -64,7 +65,7 @@
   }
 </script>
 
-<div class="gridContainer">
+<div class="gridContainer dle-columns">
   {#each $categories as category, i (i)}
     <div class="card">
       <SectionHeader
@@ -72,6 +73,14 @@
         icon={categoryIcons[category]}
         color={categoryColors[category]}
       />
+      {#if themesByCategory[category]}
+        <a
+          class="browse-themes"
+          href="{base}/category/{category.toLowerCase()}"
+        >
+          Browse subcategories &rarr;
+        </a>
+      {/if}
       <div>
         <ol class="dleList">
           {#each $categorizedDles[category] as dle, j (j)}
@@ -92,35 +101,6 @@
 <style lang="postcss">
   .gridContainer {
     @apply pb-3 mt-1 mb-2;
-    columns: 2;
-    column-gap: 0.5rem;
-    width: 100%;
-    max-width: 100%;
-  }
-
-  /* Responsive column count */
-  @media (min-width: 570px) {
-    .gridContainer {
-      columns: 3;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .gridContainer {
-      columns: 4;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .gridContainer {
-      column-count: 5;
-    }
-  }
-
-  @media (max-width: 374px) {
-    .gridContainer {
-      columns: 1;
-    }
   }
 
   .card {
@@ -140,5 +120,8 @@
   }
   .dleList {
     @apply list-none p-0 m-0;
+  }
+  .browse-themes {
+    @apply block px-2 py-1 text-xs font-medium text-colorTextSoft bg-colorCardC text-center hover:text-colorText;
   }
 </style>

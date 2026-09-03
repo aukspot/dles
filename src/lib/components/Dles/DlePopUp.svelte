@@ -30,7 +30,12 @@
   let cleanup
 
   function handleClick() {
-    countClick(dle.id, section === "regular" ? dle.category.toLowerCase().replace(/[\s/]+/g, "-") : section)
+    countClick(
+      dle.id,
+      section === "regular"
+        ? dle.category.toLowerCase().replace(/[\s/]+/g, "-")
+        : section,
+    )
     playedDles.markAsPlayed(dle)
   }
 
@@ -151,7 +156,7 @@
 
 <style lang="postcss">
   .dlePopUp {
-    @apply absolute p-3 flex flex-col gap-3.5 bg-colorCardC rounded-sm shadow-md shadow-colorTextSoftest z-50 dark:shadow-sm;
+    @apply absolute p-3 flex flex-col gap-3.5 bg-colorCardC rounded-sm shadow-md shadow-colorTextSoftest z-[130] dark:shadow-sm;
     width: 21.5rem;
     top: 0;
     left: 0;
