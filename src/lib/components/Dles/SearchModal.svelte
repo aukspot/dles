@@ -5,71 +5,36 @@
   import { useFavorites } from "$lib/composables/useFavorites.js"
   import { onMount } from "svelte"
   import { autoFocus } from "$lib/js/autoFocus"
-  import Modal from "../Modal.svelte"
-  import ModalHeader from "../ModalHeader.svelte"
+  import ModalPanel from "../ModalPanel.svelte"
   import IconPlus from "../Icons/IconPlus.svelte"
 
   export let onClose
-  export let pageX = null
-  export let pageY = null
   export let zIndex = 100
 
   const favorites = useFavorites()
 
   let searchQuery = ""
   let filteredDles = []
-  let newlyToggledInSession = new Set()
   let isTouchDevice = false
   let dlesCache = new Map()
+  let allCandidates = []
   let favoriteIdsSet = new Set()
   let prevFavoriteIds = []
   let searchRaf = null
+  let resultsContainer
+  let prevSearchQuery = ""
 
-  let width = 320
-  let baseHeight = 120
-  let maxHeight = 400
+  // Rows the user has acted on this session. Their only job is to keep a row
+  // on screen after it is favorited, so the action stays undoable — it must NOT
+  // feed into `isFavorited`, or a row stays stuck reading "Click to remove"
+  // after being removed again.
+  let stickyIds = new Set()
 
-  $: currentHeight = filteredDles.length > 0 ? maxHeight : baseHeight
-
-  $: isMobile = typeof window !== "undefined" && window.innerWidth <= 768
-
-  let adjustedPageX, adjustedPageY, transformX, transformY
-
-  $: {
-    if (isMobile || pageX === null || pageY === null) {
-      adjustedPageX = "50%"
-      adjustedPageY = "2%"
-      transformX = "-50%"
-      transformY = "0%"
-    } else {
-      let adjustedX = pageX
-      if (adjustedX < width / 2) {
-        adjustedX = width / 2 + 5
-      }
-      if (adjustedX + width / 2 > document.documentElement.clientWidth) {
-        adjustedX = document.documentElement.clientWidth - width / 2 - 5
-      }
-
-      const viewportY = pageY - window.scrollY
-
-      adjustedPageY = viewportY - 68
-      transformY = "0%"
-
-      adjustedPageX = adjustedX
-      transformX = "-50%"
-    }
-  }
-
-  // Build cache once on mount with pre-sorted groups by first letter
   function buildCache() {
     const newCache = new Map()
     for (const dle of $dles) {
       if (dle?.id && dle?.name) {
-        newCache.set(dle.id, {
-          dle,
-          nameLower: dle.name.toLowerCase(),
-          nameFirstChar: dle.name.toLowerCase().charAt(0),
-        })
+        newCache.set(dle.id, { dle, nameLower: dle.name.toLowerCase() })
       }
     }
     dlesCache = newCache
@@ -83,77 +48,88 @@
     }
   }
 
-  // Optimized search function with result limit
+  // Everything that can still be added, plus whatever the user just touched.
+  $: {
+    favoriteIdsSet
+    stickyIds
+    allCandidates = [...dlesCache.values()]
+      .map(({ dle }) => dle)
+      .filter((dle) => !favoriteIdsSet.has(dle.id) || stickyIds.has(dle.id))
+      .sort((a, b) => a.name.localeCompare(b.name))
+  }
+
   function performSearch(query) {
     if (!query.trim()) {
-      filteredDles = []
+      // Match the main search modal: show the full list before any typing
+      filteredDles = allCandidates
       return
     }
 
     const queryLower = query.toLowerCase()
     const results = []
-    const maxResults = 50 // Limit results for better performance
 
-    // Single pass: collect and immediately sort by insertion
-    for (const [id, { dle, nameLower }] of dlesCache) {
-      if (favoriteIdsSet.has(id) && !newlyToggledInSession.has(id)) continue
-
+    for (const dle of allCandidates) {
+      const nameLower = dle.name.toLowerCase()
       if (nameLower.includes(queryLower)) {
-        // Calculate a simple sort score: 0 for starts with, 1 for contains
-        const sortScore = nameLower.startsWith(queryLower) ? 0 : 1
-        results.push({ dle, sortScore, name: dle.name })
-
-        // Early exit if we have enough results and they're all "starts with"
-        if (results.length >= maxResults && sortScore === 0) break
+        results.push({
+          dle,
+          sortScore: nameLower.startsWith(queryLower) ? 0 : 1,
+          name: dle.name,
+        })
       }
     }
 
-    // Sort: first by sortScore, then alphabetically
     results.sort((a, b) => {
       if (a.sortScore !== b.sortScore) return a.sortScore - b.sortScore
       return a.name.localeCompare(b.name)
     })
 
-    // Take only the top results and extract dles
-    filteredDles = results.slice(0, maxResults).map((r) => r.dle)
+    filteredDles = results.map((r) => r.dle)
   }
 
   // Use RAF to batch search updates and prevent UI freezing
   $: {
-    if (searchRaf) {
-      cancelAnimationFrame(searchRaf)
-    }
+    allCandidates
+    if (searchRaf) cancelAnimationFrame(searchRaf)
+    const queryChanged = searchQuery !== prevSearchQuery
     searchRaf = requestAnimationFrame(() => {
       performSearch(searchQuery)
+      if (queryChanged && resultsContainer) {
+        resultsContainer.scrollTop = 0
+        prevSearchQuery = searchQuery
+      }
       searchRaf = null
     })
   }
 
+  function clearSearch() {
+    searchQuery = ""
+  }
+
   function toggleFavorite(dle) {
     const result = favorites.toggleFavorite(dle)
-
-    if (result.success) {
-      newlyToggledInSession.add(dle.id)
-    }
+    if (!result.success) return
+    // Reassign so Svelte picks the change up
+    stickyIds = new Set(stickyIds).add(dle.id)
   }
 
   onMount(() => {
     isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0
     buildCache()
+    return () => {
+      if (searchRaf) cancelAnimationFrame(searchRaf)
+    }
   })
 </script>
 
-<Modal {onClose} overlay={true} {zIndex}>
-  <div
-    class="searchPopup"
-    style="left: {adjustedPageX}{typeof adjustedPageX === 'number'
-      ? 'px'
-      : ''}; top: {adjustedPageY}{typeof adjustedPageY === 'number'
-      ? 'px'
-      : ''}; width: {width}px; height: {currentHeight}px; transform: translate({transformX}, {transformY}); z-index: {zIndex};"
-  >
-    <ModalHeader title="Add a new favorite!" {onClose} variant="inline" />
-
+<ModalPanel
+  title="Add favorites"
+  {onClose}
+  {zIndex}
+  maxWidth="24rem"
+  align="top"
+>
+  <div class="search-content">
     <div class="search-header">
       <input
         type="text"
@@ -162,16 +138,39 @@
         class="search-input"
         use:autoFocus
       />
+      {#if searchQuery.trim()}
+        <button
+          class="btn-clear"
+          on:click={clearSearch}
+          aria-label="Clear search"
+        >
+          Clear
+        </button>
+      {/if}
     </div>
 
-    <div class="results-container">
-      {#if searchQuery.trim() && filteredDles.length === 0}
-        <div class="no-results">No dles found.</div>
-      {:else if filteredDles.length > 0}
+    {#if filteredDles.length > 0}
+      <div class="results-count">
+        {#if searchQuery.trim()}
+          Found <strong>{filteredDles.length}</strong>
+          {filteredDles.length === 1 ? "dle" : "dles"}
+        {:else}
+          Showing <strong>{filteredDles.length}</strong> dles
+        {/if}
+      </div>
+    {/if}
+
+    <div class="results-container" bind:this={resultsContainer}>
+      {#if filteredDles.length === 0}
+        <div class="no-results">
+          {searchQuery.trim()
+            ? "No dles found."
+            : "Everything is already in your favorites!"}
+        </div>
+      {:else}
         <div class="results">
           {#each filteredDles as dle, index (dle.id)}
-            {@const isFavorited =
-              favoriteIdsSet.has(dle.id) || newlyToggledInSession.has(dle.id)}
+            {@const isFavorited = favoriteIdsSet.has(dle.id)}
             <button
               class="result-item"
               class:favorited={isFavorited}
@@ -194,12 +193,12 @@
                   <div class="dle-category">{dle.category}</div>
                 </div>
               </div>
-              {#if isFavorited && newlyToggledInSession.has(dle.id)}
+              {#if isFavorited}
                 <div class="favorite-message">
                   <div class="favorite-text">Added!</div>
                   <div class="favorite-subtext">Click to remove</div>
                 </div>
-              {:else if !isFavorited && !isTouchDevice}
+              {:else if !isTouchDevice}
                 <div class="plus-icon">
                   <IconPlus />
                 </div>
@@ -210,50 +209,48 @@
       {/if}
     </div>
   </div>
-</Modal>
+</ModalPanel>
 
 <style lang="postcss">
-  .searchPopup {
-    @apply fixed p-3 flex flex-col bg-colorCardC rounded-sm border border-colorNeutralSoft;
-    box-shadow:
-      0 10px 25px -3px rgba(0, 0, 0, 0.9),
-      0 4px 6px -2px rgba(0, 0, 0, 0.9);
-  }
-
-  :global(.dark) .searchPopup {
-    @apply border-colorTextSoftest;
-    box-shadow:
-      0 10px 25px -3px rgba(0, 0, 0, 0.3),
-      0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  .search-content {
+    @apply flex flex-col items-center w-full;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .search-header {
-    @apply flex-shrink-0 mb-2 flex justify-center;
+    @apply flex items-center gap-2 mb-3;
   }
 
   .search-input {
-    @apply p-2 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
-    width: 80%;
-    max-width: 18.75rem;
+    @apply p-3 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
+    width: 220px;
+  }
+
+  .btn-clear {
+    @apply px-3.5 py-2.5 text-xs rounded bg-colorCardB text-colorText border border-colorTextSoftest hover:bg-red-100 dark:hover:bg-red-900 transition-colors;
+  }
+
+  .results-count {
+    @apply text-xs text-center text-colorTextSoft mb-2;
   }
 
   .results-container {
-    @apply flex-1 overflow-y-auto;
-    min-height: 0; /* Important for flex child to shrink */
+    @apply w-full overflow-y-auto border border-colorTextSoftest;
+    max-height: 300px;
   }
 
   .no-results {
-    @apply text-center text-colorTextSoft py-2 text-sm;
+    @apply text-center text-colorTextSoft py-4 text-sm;
   }
 
   .results {
+    @apply flex flex-col;
   }
 
   .result-item {
-    @apply flex items-center justify-between p-2 pr-4 rounded cursor-pointer border-none w-full text-left;
-    transition:
-      transform 0.15s ease,
-      box-shadow 0.15s ease;
+    @apply flex items-center justify-between p-2 pr-3 cursor-pointer border-none w-full text-left;
+    transition: background-color 0.15s ease;
   }
 
   .result-item.even-row {
@@ -266,43 +263,42 @@
 
   .result-item:hover {
     @apply bg-colorCardC;
-    background-color: rgb(var(--colors-colorCardC)) !important;
   }
 
   .result-item.favorited {
     @apply bg-green-200 hover:bg-green-300 dark:bg-green-900/20 dark:hover:bg-green-800/30;
+  }
 
-    .favorite-text {
-      @apply text-xs font-bold text-green-900 dark:text-green-200;
-    }
+  .result-item.favorited .favorite-text {
+    @apply text-xs font-bold text-green-900 dark:text-green-200;
+  }
 
-    .favorite-subtext {
-      @apply text-xs text-green-800 dark:text-green-100;
-    }
+  .result-item.favorited .favorite-subtext {
+    @apply text-xs text-green-800 dark:text-green-100;
   }
 
   .favorite-message {
-    @apply text-right flex-shrink-0 px-2;
+    @apply text-right flex-shrink-0 pl-2;
   }
 
   .dle-info {
-    @apply flex items-center gap-2 flex-1;
+    @apply flex items-center gap-2 flex-1 min-w-0;
   }
 
   .category-icon {
-    @apply p-1 rounded flex items-center justify-center flex-shrink-0 w-6 h-6;
+    @apply p-1 rounded flex items-center justify-center flex-shrink-0 w-6 h-6 text-colorText;
   }
 
   .dle-details {
-    @apply flex-1;
+    @apply flex-1 min-w-0;
   }
 
   .dle-name {
-    @apply font-medium text-colorText text-sm leading-tight;
+    @apply font-medium text-colorText text-sm leading-tight truncate;
   }
 
   .dle-category {
-    @apply text-xs text-colorTextSoft;
+    @apply text-xs text-colorTextSoft truncate;
   }
 
   .plus-icon {

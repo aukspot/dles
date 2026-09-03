@@ -26,16 +26,13 @@ export function useTheme() {
   function toggleTheme() {
     if (!browser) return
 
-    const stored = localStorage.getItem(STORAGE_KEY)
+    const isCurrentlyDark =
+      document.documentElement.classList.contains(THEMES.DARK)
 
-    if (stored) {
-      localStorage.removeItem(STORAGE_KEY)
-    } else {
-      localStorage.setItem(
-        STORAGE_KEY,
-        prefersDarkThemes() ? THEMES.LIGHT : THEMES.DARK,
-      )
-    }
+    localStorage.setItem(
+      STORAGE_KEY,
+      isCurrentlyDark ? THEMES.LIGHT : THEMES.DARK,
+    )
     applyTheme()
     checkTheme()
   }

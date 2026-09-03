@@ -8,6 +8,9 @@
   export let closeOnClickOutside = true
   export let zIndex = 100
   export let lockScroll = true
+  // "top" pins the dialog near the top of the viewport so that content which
+  // grows and shrinks (e.g. a filtering result list) only moves its bottom edge.
+  export let align = "center"
 
   onMount(() => {
     if (lockScroll) {
@@ -41,7 +44,11 @@
 <svelte:window on:keydown={handleKeydown} />
 
 {#if overlay}
-  <div class="modal-overlay" style="z-index: {zIndex}">
+  <div
+    class="modal-overlay"
+    class:align-top={align === "top"}
+    style="z-index: {zIndex}"
+  >
     <div use:clickOutside on:click_outside={handleClickOutside}>
       <slot />
     </div>
@@ -55,5 +62,10 @@
 <style lang="postcss">
   .modal-overlay {
     @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center;
+  }
+
+  .modal-overlay.align-top {
+    @apply items-start;
+    padding-top: 8vh;
   }
 </style>

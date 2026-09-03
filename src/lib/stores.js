@@ -76,6 +76,9 @@ export let categoryColors = readable({
 import sponsorsData from "$lib/data/sponsors.json"
 export let sponsors = readable(sponsorsData)
 
+import archivedDlesData from "$lib/data/archived_dles.json"
+export let archivedDles = readable(archivedDlesData)
+
 export { categoryRanks } from "$lib/js/categoryRanks"
 export { completelyHiddenSections } from "$lib/js/completelyHiddenSections"
 export let hideDiscord = writable(false)
@@ -85,9 +88,17 @@ function createActivePanelStore() {
   const isBrowser = typeof window !== 'undefined'
   const isLocalStorageAvailable = isBrowser && typeof localStorage !== 'undefined'
 
-  const initialValue = isLocalStorageAvailable && localStorage.activePanel
-    ? localStorage.activePanel
-    : null
+  // Search and Settings used to be inline panels; they are modals now, so a
+  // stored value naming either one would never match and should be discarded.
+  const RETIRED_PANELS = ["search", "settings"]
+
+  let stored = isLocalStorageAvailable ? localStorage.activePanel : null
+  if (stored && RETIRED_PANELS.includes(stored)) {
+    localStorage.removeItem('activePanel')
+    stored = null
+  }
+
+  const initialValue = stored || null
 
   const { subscribe, set, update } = writable(initialValue)
 
@@ -161,3 +172,6 @@ export const favoritesView = createFavoritesViewStore()
 export let showHiddenDlesModal = writable(false)
 export let showMarkedDlesModal = writable(false)
 export let showFavoritesSettingsModal = writable(false)
+
+export let showSearchModal = writable(false)
+export let showSettingsModal = writable(false)

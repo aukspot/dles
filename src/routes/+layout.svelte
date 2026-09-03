@@ -24,16 +24,19 @@
     activePanelStore,
     showHiddenDlesModal,
     showMarkedDlesModal,
+    showSearchModal,
+    showSettingsModal,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
   import { onMount } from "svelte"
+  import { afterNavigate } from "$app/navigation"
   import Footer from "$lib/components/Footer.svelte"
   import Info from "$lib/components/Info.svelte"
   import RandomPanel from "$lib/components/RandomPanel.svelte"
-  import SettingsPanel from "$lib/components/SettingsPanel.svelte"
+  import SettingsModal from "$lib/components/SettingsModal.svelte"
   import HowToHelp from "$lib/components/HowToHelp.svelte"
-  import SearchPanel from "$lib/components/SearchPanel.svelte"
+  import SearchModalPanel from "$lib/components/SearchModalPanel.svelte"
   import PollPanel from "$lib/components/PollPanel.svelte"
   import DiscordPanel from "$lib/components/DiscordPanel.svelte"
   import {
@@ -67,6 +70,13 @@
   initializeDles()
   initializeNewDles()
   initializeChangelog()
+
+  afterNavigate(({ from }) => {
+    if (!from) return
+    $activePanelStore = null
+    $showSearchModal = false
+    $showSettingsModal = false
+  })
 
   onMount(() => {
     if (isLocalStorageAvailable()) {
@@ -316,9 +326,7 @@
         >
           <Info open={$activePanelStore === "info"} />
           <RandomPanel open={$activePanelStore === "random"} />
-          <SettingsPanel open={$activePanelStore === "settings"} />
           <HowToHelp open={$activePanelStore === "help"} />
-          <SearchPanel open={$activePanelStore === "search"} />
           <PollPanel open={$activePanelStore === "poll"} />
           <DiscordPanel open={$activePanelStore === "discord"} />
         </div>
@@ -333,12 +341,26 @@
 
 <Toast />
 
+{#if $showSearchModal}
+  <SearchModalPanel onClose={() => ($showSearchModal = false)} />
+{/if}
+
+{#if $showSettingsModal}
+  <SettingsModal onClose={() => ($showSettingsModal = false)} />
+{/if}
+
 {#if $showHiddenDlesModal}
-  <HiddenDlesModal onClose={() => ($showHiddenDlesModal = false)} />
+  <HiddenDlesModal
+    onClose={() => ($showHiddenDlesModal = false)}
+    lockScroll={!$showSettingsModal}
+  />
 {/if}
 
 {#if $showMarkedDlesModal}
-  <MarkedDlesModal onClose={() => ($showMarkedDlesModal = false)} />
+  <MarkedDlesModal
+    onClose={() => ($showMarkedDlesModal = false)}
+    lockScroll={!$showSettingsModal}
+  />
 {/if}
 
 <style lang="postcss">

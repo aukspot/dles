@@ -3,7 +3,7 @@ import { browser } from "$app/environment"
 
 const STORAGE_KEY = "categoryRanks"
 
-const defaultRanks = {
+export const defaultRanks = {
   "Card/Board Games": 1,
   Colors: 2,
   Estimation: 3,

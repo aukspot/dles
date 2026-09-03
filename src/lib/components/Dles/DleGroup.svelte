@@ -15,6 +15,7 @@
   import { categoryIcons } from "$lib/js/categoryIcons"
   import IconDragHandle from "../Icons/IconDragHandle.svelte"
   import { dndzone } from "svelte-dnd-action"
+  import { preventDragScroll } from "$lib/js/dndTransform.js"
   import { flip } from "svelte/animate"
 
   export let dleGroup
@@ -80,6 +81,7 @@
       items,
       dragDisabled: !(reorderable && editMode),
       dropTargetStyle: {},
+      transformDraggedElement: preventDragScroll,
     }}
     on:consider={handleDndConsider}
     on:finalize={handleDndFinalize}

@@ -16,6 +16,7 @@
   import { usePlayedDles } from "$lib/composables/usePlayedDles"
   import { countClick } from "$lib/js/counter.js"
   import { dndzone } from "svelte-dnd-action"
+  import { preventDragScroll } from "$lib/js/dndTransform.js"
 
   export let section = "favorites"
   export let showCategory = false
@@ -257,6 +258,7 @@
               dropTargetStyle: {},
               type: section,
               transformDraggedElement: (el) => {
+                preventDragScroll(el)
                 el.style.willChange = "transform"
                 el.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)"
                 el.style.opacity = "0.95"
@@ -374,6 +376,7 @@
               dragDisabled: !dragEnabled,
               dropTargetStyle: {},
               type: section,
+              transformDraggedElement: preventDragScroll,
             }}
             on:consider={handleDndConsider}
             on:finalize={handleDndFinalize}
@@ -702,7 +705,7 @@
   }
 
   .dle-name-btn.grid-name {
-    @apply text-sm leading-tight;
+    @apply text-base leading-tight;
   }
 
   .grid-card .dle-category {

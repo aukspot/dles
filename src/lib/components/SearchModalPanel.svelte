@@ -2,19 +2,17 @@
   import { dles, favoriteIds, poppedUpDle } from "$lib/stores"
   import { categoryIcons } from "$lib/js/categoryIcons"
   import { categoryColors } from "$lib/stores"
-  import { onMount, tick } from "svelte"
+  import { onMount, onDestroy } from "svelte"
   import { browser } from "$app/environment"
-  import PanelWrapper from "./PanelWrapper.svelte"
-  import PanelTitle from "./PanelTitle.svelte"
+  import { autoFocus } from "$lib/js/autoFocus"
+  import ModalPanel from "./ModalPanel.svelte"
   import DlePopUp from "./Dles/DlePopUp.svelte"
   import IconFavoriteFilled from "./Icons/IconFavoriteFilled.svelte"
 
-  export let open = false
+  export let onClose
 
   let searchQuery = ""
   let filteredDles = []
-  let searchInput
-  let previousOpen = false
   let dlesCache = new Map()
   let allDlesSorted = []
   let favoriteIdsSet = new Set()
@@ -23,23 +21,6 @@
   let referenceElements = {}
   let resultsContainer
   let prevSearchQuery = ""
-
-  // Handle panel opening - focus the input
-  $: if (open && !previousOpen) {
-    previousOpen = true
-    tick().then(() => {
-      if (searchInput) {
-        searchInput.focus()
-      }
-    })
-  }
-
-  // Reset when panel closes
-  $: if (!open && previousOpen) {
-    previousOpen = false
-    searchQuery = ""
-    $poppedUpDle = ""
-  }
 
   // Build cache once on mount
   function buildCache() {
@@ -69,7 +50,7 @@
     }
   }
 
-  // Optimized search function with result limit
+  // Optimized search function
   function performSearch(query) {
     if (!query.trim()) {
       // Show all dles alphabetically when no search query
@@ -155,18 +136,33 @@
   onMount(() => {
     buildCache()
   })
+
+  onDestroy(() => {
+    if (searchRaf) cancelAnimationFrame(searchRaf)
+    $poppedUpDle = ""
+  })
 </script>
 
-<PanelWrapper {open}>
-  <PanelTitle color="violet" title="SEARCH DLES" id="search-panel-title" />
+<!--
+  The popup renders outside this modal's DOM node, so a click on it reads as a
+  click outside. Suppressing the outside-close while a popup is open means the
+  first click dismisses the popup and a second closes the modal.
+-->
+<ModalPanel
+  title="Search dles"
+  {onClose}
+  maxWidth="24rem"
+  align="top"
+  closeOnClickOutside={!$poppedUpDle}
+>
   <div class="search-content">
     <div class="search-header">
       <input
-        bind:this={searchInput}
         type="text"
         placeholder="Search dles..."
         bind:value={searchQuery}
         class="search-input"
+        use:autoFocus
       />
       {#if searchQuery.trim()}
         <button
@@ -234,9 +230,9 @@
       {/if}
     </div>
   </div>
-</PanelWrapper>
+</ModalPanel>
 
-<!-- Render popup outside the scrollable container -->
+<!-- Render popup outside the scrollable container so it isn't clipped -->
 {#each filteredDles as dle, index (dle.id)}
   {@const popupKey = `search-${dle.id}`}
   {#if $poppedUpDle === popupKey}

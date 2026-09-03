@@ -10,6 +10,8 @@
 
   export let onClose
 
+  // Set false when a parent modal already holds the scroll lock.
+  export let lockScroll = true
   const hiddenDlesComposable = useHiddenDles()
 
   let undoData = null
@@ -58,7 +60,7 @@
   }
 </script>
 
-<Modal {onClose} overlay={true} zIndex={1000}>
+<Modal {onClose} overlay={true} zIndex={1000} {lockScroll}>
   <div class="modal-container">
     <ModalHeader title="Manage Hidden Dles" {onClose} variant="section" />
 

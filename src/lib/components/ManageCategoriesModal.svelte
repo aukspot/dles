@@ -12,6 +12,7 @@
   import Modal from "./Modal.svelte"
   import ModalHeader from "./ModalHeader.svelte"
   import { dndzone } from "svelte-dnd-action"
+  import { preventDragScroll } from "$lib/js/dndTransform.js"
   import { flip } from "svelte/animate"
   import { onMount } from "svelte"
   import IconFavoriteFilled from "./Icons/IconFavoriteFilled.svelte"
@@ -19,6 +20,8 @@
 
   export let onClose
 
+  // Set false when a parent modal already holds the scroll lock.
+  export let lockScroll = true
   let categoryItems = []
   const flipDurationMs = 200
   let isDragging = false
@@ -109,7 +112,7 @@
   }
 </script>
 
-<Modal {onClose} overlay={true} zIndex={1000} closeOnClickOutside={false}>
+<Modal {onClose} overlay={true} zIndex={1000} {lockScroll} closeOnClickOutside={false}>
   <div class="modal-container">
     <ModalHeader title="Manage Categories" {onClose} variant="section" />
 
@@ -204,6 +207,7 @@
             dragDisabled: isMobile && !reorderMode,
             morphDisabled: true,
             dropFromOthersDisabled: true,
+            transformDraggedElement: preventDragScroll,
           }}
           on:consider={handleDndConsider}
           on:finalize={handleDndFinalize}

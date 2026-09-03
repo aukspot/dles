@@ -1,12 +1,11 @@
 <script>
   import { activePanelStore } from "$lib/stores"
-  import { onMount, tick } from "svelte"
-  import { browser } from "$app/environment"
+  import { headerColorClasses } from "$lib/js/headerColors"
+  import { onMount } from "svelte"
 
-  export let panelId = null // 'info' | 'random' | 'settings' | 'help' | null
+  export let panelId = null // 'info' | 'random' | 'help' | 'poll' | 'discord'
   export let label // Button text
   export let hoverColor // 'red' | 'orange' | 'yellow' | 'green' | 'blue'
-  export let href = null // For link-only buttons (Discord)
   export let jsOnly = false // Hide when JavaScript is disabled
   export let showBadge = false // Show "NEW" badge
 
@@ -16,74 +15,30 @@
     loading = false
   })
 
-  const colorClasses = {
-    zinc: "!bg-zinc-300 dark:!bg-zinc-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    red: "!bg-red-300 dark:!bg-red-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    orange:
-      "!bg-orange-300 dark:!bg-orange-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    yellow:
-      "!bg-yellow-300 dark:!bg-yellow-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    green:
-      "!bg-green-300 dark:!bg-green-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    blue: "!bg-blue-300 dark:!bg-blue-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    violet:
-      "!bg-violet-300 dark:!bg-violet-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-    teal: "!bg-teal-300 dark:!bg-teal-800 hover:!bg-colorCardC dark:hover:!bg-colorCardC",
-  }
-
   $: isActive = $activePanelStore === panelId
   $: displayLabel = isActive && panelId ? `${label} X` : label
-  $: colorClass = colorClasses[hoverColor] || ""
+  $: colorClass = headerColorClasses[hoverColor] || ""
   $: wrapperClass = jsOnly ? "js-only" : ""
 
-  function isMobile() {
-    return browser && window.innerWidth < 768
-  }
-
-  async function handleToggle() {
+  function handleToggle() {
     if (!panelId) return
-    const willOpen = !isActive
     $activePanelStore = isActive ? null : panelId // Toggle
-
-    // Scroll to header title on mobile when opening search panel
-    if (willOpen && panelId === "search" && isMobile()) {
-      await tick()
-      const searchTitle = document.getElementById("search-panel-title")
-      if (searchTitle) {
-        searchTitle.scrollIntoView({ behavior: "smooth", block: "start" })
-      }
-    }
   }
 </script>
 
-{#if href}
-  <a
-    {href}
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label={label}
-    class="btn-header text-colorText {colorClass} {wrapperClass} relative"
-  >
-    {label}
-    {#if showBadge}
-      <span class="new-badge">NEW</span>
-    {/if}
-  </a>
-{:else}
-  <button
-    on:click={handleToggle}
-    aria-label={label}
-    aria-pressed={isActive}
-    class="btn-header {colorClass} {wrapperClass} relative"
-  >
-    {displayLabel}
-    {#if showBadge && !isActive}
-      <span class="new-badge" style="visibility:{loading ? 'hidden' : 'unset'}"
-        >NEW</span
-      >
-    {/if}
-  </button>
-{/if}
+<button
+  on:click={handleToggle}
+  aria-label={label}
+  aria-pressed={isActive}
+  class="btn-header {colorClass} {wrapperClass} relative"
+>
+  {displayLabel}
+  {#if showBadge && !isActive}
+    <span class="new-badge" style="visibility:{loading ? 'hidden' : 'unset'}"
+      >NEW</span
+    >
+  {/if}
+</button>
 
 <style lang="postcss">
   .new-badge {
