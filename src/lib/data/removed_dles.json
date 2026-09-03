@@ -1,1145 +1,1398 @@
 [
   {
+    "id": "M20",
     "name": "Acted",
     "url": "https://acted.wtf",
-    "id": "M20",
-    "removals": [
+    "history": [
       {
-        "date_removed": "2025-01-31",
+        "date": "2024-03-17",
+        "event": "added"
+      },
+      {
+        "date": "2025-01-31",
+        "event": "removed",
         "reason": "Site no longer loads."
       }
     ]
   },
   {
+    "id": "M18",
     "name": "Anigrams",
     "url": "https://anigrams.us",
-    "id": "M18",
-    "removals": [
+    "history": [
       {
-        "date_removed": "2025-05-15",
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-05-15",
+        "event": "removed",
         "reason": "The game has been paused."
       }
     ]
   },
   {
+    "id": "M22",
     "name": "Apparle",
     "url": "https://www.apparle.com",
-    "id": "M22",
-    "removals": [
+    "history": [
       {
-        "date_removed": "2024-11-24",
+        "date": "2024-04-10",
+        "event": "added"
+      },
+      {
+        "date": "2024-11-24",
+        "event": "removed",
         "reason": "Game does not load most days."
       }
     ]
   },
   {
+    "id": 20,
     "name": "BingeWatcher",
     "url": "https://bingewatcher.org",
-    "id": 20,
-    "removals": [
-      {
-        "date_removed": "2026-05-22"
-      }
-    ],
     "description": "Guess the daily movie title by revealing its details.",
-    "category": "Movies/TV"
-  },
-  {
-    "name": "Birdle (like Wordle)",
-    "url": "https://birdle.escism.net",
-    "id": 23,
-    "description": "Guess the 5-letter bird name in 6 guesses or less.",
-    "category": "Science/Nature",
-    "removals": [
-      {
-        "date_removed": "2026-02-07",
-        "reason": "Page gives 404 error."
-      }
-    ]
-  },
-  {
-    "name": "Bonedle",
-    "url": "https://bonedle.rito.lol",
-    "id": 540,
-    "removals": [
-      {
-        "date_removed": "2026-08-02"
-      }
-    ],
-    "description": "Guess the League of Legends champion based on a series of animated clues.",
-    "category": "Video Games"
-  },
-  {
-    "name": "Capitale",
-    "url": "https://capitale.countryle.com",
-    "id": 35,
-    "description": "Guess the world capital in as few attempts as possible with the given clues.",
-    "category": "Geography",
-    "removals": [
-      {
-        "date_removed": "2025-10-19"
-      }
-    ]
-  },
-  {
-    "name": "Chronoline",
-    "url": "https://chronoline.app/daily",
-    "id": "M13",
-    "removals": [
-      {
-        "date_removed": "2025-06-11",
-        "reason": "The daily challenge does not work."
-      }
-    ]
-  },
-  {
-    "name": "Chronoodle",
-    "url": "https://chronoodle.com",
-    "id": 677,
-    "removals": [
-      {
-        "date_removed": "2026-08-26"
-      }
-    ],
-    "description": "Place each event in the correct spot on the timeline.",
-    "category": "History"
-  },
-  {
-    "name": "Collections",
-    "url": "https://puzzmallow.com/collections",
-    "id": 58,
-    "description": "Guess the category of the three hidden words by revealing one letter at a time.",
-    "category": "Words",
-    "theme": "Find connections",
-    "removals": [
-      {
-        "date_removed": "2026-01-06"
-      }
-    ]
-  },
-  {
-    "name": "Colordle",
-    "url": "https://colordle.ryantanen.com",
-    "id": 619,
-    "description": "Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.",
-    "category": "Colors",
-    "removals": [
-      {
-        "date_removed": "2025-06-24",
-        "reason": "Daily puzzle does not change.",
-        "date_readded": "2026-01-11"
-      }
-    ]
-  },
-  {
-    "name": "Couplit",
-    "url": "https://couplit.io",
-    "id": 70,
-    "removals": [
-      {
-        "date_removed": "2026-08-26"
-      }
-    ],
-    "description": "Arrange the letters to spell out a phrase based on today's theme.",
-    "category": "Words"
-  },
-  {
-    "name": "Daily Tomato",
-    "url": "https://www.rottentomatoes.com/movie-trivia",
-    "id": "M26",
-    "removals": [
-      {
-        "date_removed": "2024-05-28",
-        "reason": "The game is on hiatus, starting May 10, 2024."
-      }
-    ]
-  },
-  {
-    "name": "DBDle",
-    "url": "https://dbdle.net",
-    "id": 89,
-    "description": "Test your Dead by Daylight knowledge in these daily games.",
-    "category": "Video Games",
-    "theme": "Dead by Daylight",
-    "removals": [
-      {
-        "date_removed": "2026-01-03",
-        "reason": "Is now an irrelevant website."
-      }
-    ]
-  },
-  {
-    "name": "Dialed - Color Game",
-    "url": "https://dialed.gg/?daily",
-    "id": 684,
-    "removals": [
-      {
-        "date_removed": "2026-02-24",
-        "date_readded": "2026-03-11"
-      }
-    ],
-    "description": "They show you a color for 5 seconds, then you try to recreate it. 5 rounds every day.",
-    "category": "Colors"
-  },
-  {
-    "name": "Dicele",
-    "url": "https://dicele.com",
-    "id": "M12",
-    "removals": [
-      {
-        "date_removed": "2025-06-24",
-        "reason": "Site no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Eater of Wordles",
-    "url": "https://hexdecima.github.io/eowordles/",
-    "id": 464,
-    "description": "Guess today's secret Terraria NPC.",
-    "category": "Video Games",
-    "theme": "Terraria",
-    "removals": [
-      {
-        "date_removed": "2025-12-24",
-        "reason": "The game has ended."
-      }
-    ]
-  },
-  {
-    "name": "Echo Chess",
-    "url": "https://echochess.com/game.html",
-    "id": 103,
-    "description": "Solve the chess puzzle where you have to capture all black pieces to win and your piece becomes what it captures.",
-    "category": "Card/Board Games",
-    "theme": "Chess",
-    "removals": [
-      {
-        "date_removed": "2024-05-28",
-        "reason": "Frustrating bug on mobile where dragging pieces down causes the browser to refresh.",
-        "date_readded": "2025-04-16"
-      }
-    ]
-  },
-  {
-    "name": "Estimadle",
-    "url": "https://estimadle.com",
-    "id": 111,
-    "removals": [
-      {
-        "date_removed": "2026-06-01"
-      }
-    ],
-    "description": "Estimate the number of circles within 10 seconds.",
-    "category": "Estimation"
-  },
-  {
-    "name": "Etyle",
-    "url": "https://www.etyle.app",
-    "id": 466,
-    "description": "Guess the root words of the daily word. A game about Etymology.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-11-11",
-        "reason": "Puzzle does not load."
-      }
-    ]
-  },
-  {
-    "name": "Fishdle",
-    "url": "https://tacklevillage.com/fishdle-game/",
-    "id": 120,
-    "removals": [
-      {
-        "date_removed": "2026-03-14"
-      }
-    ],
-    "description": "Guess the fish based on its silhouette and number of letters.",
-    "category": "Science/Nature"
-  },
-  {
-    "name": "Fluxis",
-    "url": "https://www.theatlantic.com/games/fluxis/",
-    "id": 127,
-    "removals": [
-      {
-        "date_removed": "2026-07-19"
-      }
-    ],
-    "description": "Complete the chain by entering words that satisfy their category and build off the previous word. (From The Atlantic)",
-    "category": "Words"
-  },
-  {
-    "name": "Gamedle Classic Unlimited",
-    "url": "https://www.gamedle.wtf/unlimited",
-    "id": "M27",
-    "removals": [
-      {
-        "date_removed": "2024-02-14",
-        "reason": "Not a daily game."
-      }
-    ]
-  },
-  {
-    "name": "Geocircles",
-    "url": "https://geocircles.io",
-    "id": 137,
-    "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
-    "category": "Geography",
-    "removals": [
-      {
-        "date_removed": "2025-12-02",
-        "reason": "No longer available due to API costs."
-      }
-    ]
-  },
-  {
-    "name": "Geographle",
-    "url": "https://geographle.com",
-    "id": "M14",
-    "removals": [
-      {
-        "date_removed": "2025-06-11",
-        "reason": "Daily puzzles do not load."
-      }
-    ]
-  },
-  {
-    "name": "graphs.world",
-    "url": "https://www.graphs.world",
-    "id": 144,
-    "removals": [
-      {
-        "date_removed": "2026-08-02"
-      }
-    ],
-    "description": "Select the dataset that fits the displayed graph.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Guess The Jumpshot",
-    "url": "https://guessthepro.com/en/games/guess-the-jumpshot",
-    "id": 152,
-    "description": "Guess the NBA player based on a silhouette video of their jumpshot.",
-    "category": "Sports",
-    "removals": [
-      {
-        "date_removed": "2025-08-30",
-        "reason": "Stuck on loading screen, doesn't always have a new game everyday."
-      }
-    ]
-  },
-  {
-    "name": "GuessTen",
-    "url": "https://guessten.com",
-    "id": 155,
-    "removals": [
-      {
-        "date_removed": "2026-05-22"
-      }
-    ],
-    "description": "Guess the top ten entries of today's category.",
-    "category": "Trivia",
-    "theme": "Guess the List"
-  },
-  {
-    "name": "GuessTheMovie.me",
-    "url": "https://guessthemovie.me",
-    "id": 519,
-    "removals": [
-      {
-        "date_removed": "2026-04-20"
-      }
-    ],
-    "description": "Guess the movie based on its reviews on Letterboxd.",
-    "category": "Movies/TV"
-  },
-  {
-    "name": "Hexle",
-    "url": "https://frankljin.github.io/hexle/",
-    "id": 472,
-    "description": "Guess the secret color by its 6-digit hex code.",
-    "category": "Colors",
-    "removals": [
-      {
-        "date_removed": "2025-12-11",
-        "reason": "The game does not work."
-      }
-    ]
-  },
-  {
-    "name": "Historydle",
-    "url": "https://historydle.com",
-    "id": 653,
-    "removals": [
-      {
-        "date_removed": "2026-08-02"
-      }
-    ],
-    "description": "Daily games where you guess the historical person or place.",
-    "category": "History"
-  },
-  {
-    "name": "Hitori Conquest",
-    "url": "https://hitoriconquest.com",
-    "id": 170,
-    "removals": [
-      {
-        "date_removed": "2026-04-20"
-      }
-    ],
-    "description": "Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "IYKYK",
-    "url": "https://daily.iykyk.com",
-    "id": 183,
-    "description": "Guess what today's acronym stands for. By the makers of the card game CultureTags.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2026-02-07",
-        "reason": "Daily puzzles rarely appear."
-      }
-    ]
-  },
-  {
-    "name": "Jeopardle",
-    "url": "https://jeopardle.co",
-    "id": "M10",
-    "removals": [
-      {
-        "date_removed": "2025-07-06"
-      }
-    ]
-  },
-  {
-    "name": "Leetle",
-    "url": "https://leetle.app/",
-    "id": 483,
-    "description": "Daily programming problem in the style of LeetCode.",
-    "category": "Miscellaneous",
-    "removals": [
-      {
-        "date_removed": "2025-09-15",
-        "reason": "Contains AI-generated puzzles."
-      }
-    ]
-  },
-  {
-    "name": "Letterset",
-    "url": "https://www.letterset.net/daily",
-    "id": 195,
-    "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-11-11",
-        "reason": "Site no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "List Them All!",
-    "url": "https://listthemall.com",
-    "id": 213,
-    "description": "List all of the items that fit today's category.",
-    "category": "Trivia",
-    "theme": "Guess the List",
-    "removals": [
-      {
-        "date_removed": "2026-01-01",
-        "reason": "Puzzles repeat too often."
-      }
-    ]
-  },
-  {
-    "name": "Listed",
-    "url": "https://listed.fun",
-    "id": "M15",
-    "removals": [
-      {
-        "date_removed": "2025-06-11",
-        "reason": "The game has been concluded."
-      }
-    ]
-  },
-  {
-    "name": "Meleedle",
-    "url": "https://meleedle.netlify.app/",
-    "id": 486,
-    "description": "Name the character and move of the hitbox shown from Super Smash Bros Melee.",
-    "category": "Video Games",
-    "theme": "Super Smash Bros",
-    "removals": [
-      {
-        "date_removed": "2026-01-06"
-      }
-    ]
-  },
-  {
-    "name": "MinecraftDle",
-    "url": "https://www.minecraftdle.net",
-    "id": 227,
-    "description": "Test your Minecraft knowledge in these daily games.",
-    "category": "Video Games",
-    "theme": "Minecraft",
-    "removals": [
-      {
-        "date_removed": "2025-12-20",
-        "reason": "Now redirects to Mcdle.net"
-      }
-    ]
-  },
-  {
-    "name": "Mini Crossword (The Observer)",
-    "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
-    "id": 229,
-    "removals": [
-      {
-        "date_removed": "2026-05-18"
-      }
-    ],
-    "description": "A daily mini crossword from The Observer.",
-    "category": "Words"
-  },
-  {
-    "name": "Moviedle (from Histordle)",
-    "url": "https://histordle.com/moviedle",
-    "id": 243,
-    "description": "Guess the year that the given movies were released.",
     "category": "Movies/TV",
-    "removals": [
+    "history": [
       {
-        "date_removed": "2026-01-11",
-        "date_readded": "2026-02-07"
-      }
-    ]
-  },
-  {
-    "name": "Moviedle - Twenty Questions",
-    "url": "https://moviedle.xyz/twenty",
-    "id": "M24",
-    "removals": [
+        "date": "2025-05-08",
+        "event": "added"
+      },
       {
-        "date_removed": "2024-06-22",
-        "reason": "Now part of a paid subscription."
-      }
-    ]
-  },
-  {
-    "name": "Moviemoji",
-    "url": "https://www.playmoviemoji.com",
-    "id": "M21",
-    "removals": [
-      {
-        "date_removed": "2025-01-31",
-        "reason": "Site no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Moview",
-    "url": "https://moview.online",
-    "id": "M19",
-    "removals": [
-      {
-        "date_removed": "2025-05-08",
-        "reason": "No new puzzles for months."
-      }
-    ]
-  },
-  {
-    "name": "Musicdoku",
-    "url": "https://musicdoku.com",
-    "id": 247,
-    "description": "Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.",
-    "category": "Music",
-    "removals": [
-      {
-        "date_removed": "2025-10-19",
-        "reason": "Site no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Musicle",
-    "url": "https://musicle.app",
-    "id": 248,
-    "removals": [
-      {
-        "date_removed": "2026-06-06"
-      }
-    ],
-    "description": "Match the song audio to the correct album art. Lots of categories.",
-    "category": "Music"
-  },
-  {
-    "name": "NBAGrid",
-    "url": "https://www.nbagr.id",
-    "id": 455,
-    "description": "Guess a grid of NBA players that fit into specific categories.",
-    "category": "Sports",
-    "removals": [
-      {
-        "date_removed": "2026-02-07",
-        "reason": "Player pictures are AI-generated."
-      }
-    ]
-  },
-  {
-    "name": "NextUp",
-    "url": "https://nextupgame.com",
-    "id": 735,
-    "removals": [
-      {
-        "date_removed": "2026-05-22"
-      }
-    ],
-    "description": "Guess the next number in the sequence, five rounds every day.",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "NHLdle",
-    "url": "https://nhldle.com/classic",
-    "id": 252,
-    "description": "Guess today's mystery NHL player.",
-    "category": "Sports",
-    "removals": [
-      {
-        "date_removed": "2025-09-21",
-        "reason": "Page no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Numblino",
-    "url": "https://numblino.com",
-    "id": 552,
-    "removals": [
-      {
-        "date_removed": "2026-08-26"
-      }
-    ],
-    "description": "Guess the number based on the given fact. You have 6 guesses.",
-    "category": "Estimation"
-  },
-  {
-    "name": "NYT Mini Crossword",
-    "url": "https://www.nytimes.com/crosswords/game/mini",
-    "id": 260,
-    "description": "A very small crossword puzzle by the New York Times.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-08-30",
-        "reason": "Now behind a paywall."
-      }
-    ]
-  },
-  {
-    "name": "Order Up",
-    "url": "https://orderup.games",
-    "id": "M16",
-    "removals": [
-      {
-        "date_removed": "2025-06-11",
-        "reason": "The game has been paused."
-      }
-    ]
-  },
-  {
-    "name": "Outlier",
-    "url": "https://outlier.land",
-    "id": 639,
-    "removals": [
-      {
-        "date_removed": "2026-03-28"
-      }
-    ],
-    "description": "Repeatedly pick the outlier as quickly as you can.",
-    "category": "Words"
-  },
-  {
-    "name": "Outword",
-    "url": "https://outword.me",
-    "id": "M17",
-    "removals": [
-      {
-        "date_removed": "2025-06-11",
-        "reason": "The website does not load."
-      }
-    ]
-  },
-  {
-    "name": "Pandergram",
-    "url": "https://onelook.com/pandergram",
-    "id": 275,
-    "description": "Swap out letters from the given words to create new words that together use the entire alphabet.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-10-27"
-      }
-    ]
-  },
-  {
-    "name": "Parlorbox",
-    "url": "https://parlorbox.com/",
-    "id": 490,
-    "removals": [
-      {
-        "date_removed": "2026-02-24",
-        "date_readded": "2026-03-24"
-      }
-    ],
-    "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
-    "category": "Math/Logic"
-  },
-  {
-    "name": "Peekpedia",
-    "url": "https://peekpedia.com",
-    "id": 751,
-    "removals": [
-      {
-        "date_removed": "2026-08-02"
-      }
-    ],
-    "description": "Guess the Wikipedia article based on the pictures.",
-    "category": "Trivia"
-  },
-  {
-    "name": "Petdle",
-    "url": "https://petdle.link",
-    "id": 278,
-    "description": "Guess the pet taken from the game Super Auto Pets.",
-    "category": "Video Games",
-    "theme": "Super Auto Pets",
-    "removals": [
-      {
-        "date_removed": "2026-01-11"
-      }
-    ]
-  },
-  {
-    "name": "PlusWord",
-    "url": "https://puzzles-prod.telegraph.co.uk/plusword",
-    "id": 285,
-    "removals": [
-      {
-        "date_removed": "2026-03-24"
-      }
-    ],
-    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
-    "category": "Words"
-  },
-  {
-    "name": "PopCultured",
-    "url": "https://histordle.com/popcultured",
-    "id": 293,
-    "description": "Guess the year given three pop culture items released that year.",
-    "category": "Trivia",
-    "removals": [
-      {
-        "date_removed": "2026-01-01",
-        "reason": "Daily puzzle is empty.",
-        "date_readded": "2026-02-07"
-      }
-    ]
-  },
-  {
-    "name": "Posterdle",
-    "url": "https://likewise.com/games/posterdle",
-    "id": 495,
-    "removals": [
-      {
-        "date_removed": "2026-03-21"
-      }
-    ],
-    "description": "Guess the movie poster in 20 seconds or less.",
-    "category": "Movies/TV"
-  },
-  {
-    "name": "QuickQ",
-    "url": "https://www.quickqtrivia.com",
-    "id": 307,
-    "description": "A 90 second trivia game with questions from 8 categories.",
-    "category": "Trivia",
-    "removals": [
-      {
-        "date_removed": "2025-07-28",
-        "reason": "No new games for months."
-      }
-    ]
-  },
-  {
-    "name": "Raindle",
-    "url": "https://raindle.net/items",
-    "id": 497,
-    "removals": [
-      {
-        "date_removed": "2026-06-06"
-      }
-    ],
-    "description": "Guess the Risk of Rain 2 item.",
-    "category": "Video Games"
-  },
-  {
-    "name": "Reciple",
-    "url": "https://reciple.net",
-    "id": "M11",
-    "removals": [
-      {
-        "date_removed": "2025-06-29",
-        "reason": "No new daily recipes."
-      }
-    ]
-  },
-  {
-    "name": "Relatle",
-    "url": "https://www.relatle.lol",
-    "id": 322,
-    "removals": [
-      {
-        "date_removed": "2026-05-29"
-      }
-    ],
-    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
-    "category": "Words"
-  },
-  {
-    "name": "Rivadle",
-    "url": "https://rivadle.net",
-    "id": 326,
-    "removals": [
-      {
-        "date_removed": "2026-06-06"
-      }
-    ],
-    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
-    "category": "Video Games",
-    "theme": "Marvel Rivals"
-  },
-  {
-    "name": "Rolldle",
-    "url": "https://www.light.gg/rolldle/",
-    "id": 328,
-    "description": "Guess the roll of the weapon from Destiny 2.",
-    "category": "Video Games",
-    "theme": "Destiny",
-    "removals": [
-      {
-        "date_removed": "2025-11-11"
-      }
-    ]
-  },
-  {
-    "name": "Songle",
-    "url": "https://histordle.com/songle",
-    "id": 345,
-    "description": "Guess the year given three songs that were released that year.",
-    "category": "Music",
-    "removals": [
-      {
-        "date_removed": "2026-01-11",
-        "date_readded": "2026-02-07"
-      }
-    ]
-  },
-  {
-    "name": "Sorted",
-    "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
-    "id": 347,
-    "description": "Place the items in the correct order, 3 new rounds everyday.",
-    "category": "Trivia",
-    "removals": [
-      {
-        "date_removed": "2025-07-28",
-        "reason": "Stuck on Sorted #234."
-      }
-    ]
-  },
-  {
-    "name": "Sortwise",
-    "url": "https://sortwise.fun",
-    "id": 500,
-    "removals": [
-      {
-        "date_removed": "2026-07-25"
-      }
-    ],
-    "description": "Drag to sort the events in chronological order.",
-    "category": "History"
-  },
-  {
-    "name": "Spectra",
-    "url": "https://spectra.quest/puzzles/latest",
-    "id": 676,
-    "removals": [
-      {
-        "date_removed": "2026-03-06"
-      }
-    ],
-    "description": "Sort items by discovering the hidden metric.",
-    "category": "Trivia"
-  },
-  {
-    "name": "sqnces",
-    "url": "https://sqnces.com",
-    "id": 537,
-    "description": "Find the secret word that contains the given 3-letter sequence. Three words everyday (6, 7, & 8-letter words).",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-12-11",
-        "reason": "The game does not work."
-      }
-    ]
-  },
-  {
-    "name": "Stacks",
-    "url": "https://www.theatlantic.com/games/stacks/",
-    "id": 365,
-    "removals": [
-      {
-        "date_removed": "2026-08-26"
-      }
-    ],
-    "description": "Stack words from the word bank to create new words going horizontally. (From The Atlantic)",
-    "category": "Words"
-  },
-  {
-    "name": "steamdle.pro",
-    "url": "https://steamdle.pro",
-    "id": 502,
-    "description": "Guess the Steam game with new hints after each guess, such as release date, reviews, and tags.",
-    "category": "Video Games",
-    "removals": [
-      {
-        "date_removed": "2025-11-24",
-        "reason": "Site no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Stepdle",
-    "url": "https://www.stepdle.com",
-    "id": 369,
-    "removals": [
-      {
-        "date_removed": "2026-04-27"
-      }
-    ],
-    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
-    "category": "Words"
-  },
-  {
-    "name": "Stewardle",
-    "url": "https://stewardle.com",
-    "id": 594,
-    "removals": [
-      {
-        "date_removed": "2026-02-22"
-      }
-    ],
-    "description": "Guess the daily F1 driver.",
-    "category": "Sports"
-  },
-  {
-    "name": "Supervivedle",
-    "url": "https://supervivedle.com",
-    "id": 503,
-    "description": "A collection of daily games related to Supervive.",
-    "category": "Video Games",
-    "theme": "Supervive",
-    "removals": [
-      {
-        "date_removed": "2026-02-07",
-        "reason": "Page no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Syllacrostic",
-    "url": "https://www.syllacrostic.com/daily",
-    "id": 376,
-    "description": "Combine syllables to solve the clues.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-11-25",
-        "reason": "Site no longer loads."
-      }
-    ]
-  },
-  {
-    "name": "Tarkovdle",
-    "url": "https://tarkovdle.com",
-    "id": 380,
-    "removals": [
-      {
-        "date_removed": "2026-07-12"
-      }
-    ],
-    "description": "Guess the weapon from Escape from Tarkov by its properties or sound.",
-    "category": "Video Games",
-    "theme": "Escape from Tarkov"
-  },
-  {
-    "name": "Thingdle",
-    "url": "https://thingdle.app/en/thingdle",
-    "id": 754,
-    "removals": [
-      {
-        "date_removed": "2026-05-18",
-        "date_readded": "2026-08-26"
-      }
-    ],
-    "description": "A daily riddle, where you guess an everyday object.",
-    "category": "Miscellaneous"
-  },
-  {
-    "name": "Toppled",
-    "url": "https://bythomas.co.uk/toppled",
-    "id": 398,
-    "description": "Topple the letter wall by finding four 5-letter words",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-08-30",
-        "reason": "Cannot access the game, stuck on advertisement."
-      }
-    ]
-  },
-  {
-    "name": "Trivial Pursuit Daily",
-    "url": "https://www.trivialpursuit.com/daily",
-    "id": 561,
-    "description": "Daily trivia game from Trivial Pursuit. One question from each category.",
-    "category": "Trivia",
-    "removals": [
-      {
-        "date_removed": "2026-01-28"
-      }
-    ]
-  },
-  {
-    "name": "Twofer Goofer",
-    "url": "https://twofergoofer.com",
-    "id": 403,
-    "description": "Guess the pair of rhyming words that form the given nonsensical phrase.",
-    "category": "Words",
-    "removals": [
-      {
-        "date_removed": "2025-10-19",
+        "date": "2026-05-22",
+        "event": "removed",
         "reason": "Contains AI-generated images."
       }
     ]
   },
   {
-    "name": "Unshuffle",
-    "url": "https://www.unshuffle.me",
-    "id": 405,
-    "description": "Unshuffle the grid using the numbers along each row and column as a guide.",
-    "category": "Math/Logic",
-    "removals": [
+    "id": 23,
+    "name": "Birdle (like Wordle)",
+    "url": "https://birdle.escism.net",
+    "description": "Guess the 5-letter bird name in 6 guesses or less.",
+    "category": "Science/Nature",
+    "history": [
       {
-        "date_removed": "2025-11-11",
+        "date": "2025-06-11",
+        "event": "added"
+      },
+      {
+        "date": "2026-02-07",
+        "event": "removed",
+        "reason": "Page gives 404 error."
+      }
+    ]
+  },
+  {
+    "id": 540,
+    "name": "Bonedle",
+    "url": "https://bonedle.rito.lol",
+    "description": "Guess the League of Legends champion based on a series of animated clues.",
+    "category": "Video Games",
+    "history": [
+      {
+        "date": "2025-11-23",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-02",
+        "event": "removed",
+        "reason": "Daily game no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Capitale",
+    "url": "https://capitale.countryle.com",
+    "description": "Guess the world capital in as few attempts as possible with the given clues.",
+    "category": "Geography",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "event": "added"
+      },
+      {
+        "date": "2025-10-19",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": "M13",
+    "name": "Chronoline",
+    "url": "https://chronoline.app/daily",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-11",
+        "event": "removed",
+        "reason": "The daily challenge does not work."
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "name": "Crosslink",
+    "url": "https://romainpastureau.github.io/crosslink/",
+    "description": "Guess the two words crossed together that are related in some way.",
+    "category": "Words",
+    "themes": [
+      "Clues"
+    ],
+    "history": [
+      {
+        "date": "2025-10-17",
+        "event": "added"
+      },
+      {
+        "date": "2026-09-03",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": "M26",
+    "name": "Daily Tomato",
+    "url": "https://www.rottentomatoes.com/movie-trivia",
+    "history": [
+      {
+        "date": "2024-02-17",
+        "event": "added"
+      },
+      {
+        "date": "2024-05-28",
+        "event": "removed",
+        "reason": "The game is on hiatus, starting May 10, 2024."
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "DBDle",
+    "url": "https://dbdle.net",
+    "description": "Test your Dead by Daylight knowledge in these daily games.",
+    "category": "Video Games",
+    "themes": [
+      "Dead by Daylight"
+    ],
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2026-01-03",
+        "event": "removed",
+        "reason": "Is now an irrelevant website."
+      }
+    ]
+  },
+  {
+    "id": "M12",
+    "name": "Dicele",
+    "url": "https://dicele.com",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-24",
+        "event": "removed",
         "reason": "Site no longer loads."
       }
     ]
   },
   {
-    "name": "Unzoomed",
-    "url": "https://www.unzoomed.com/en",
-    "id": 406,
-    "description": "Guess the city based on the given satellite image.",
-    "category": "Geography",
-    "removals": [
+    "id": 464,
+    "name": "Eater of Wordles",
+    "url": "https://hexdecima.github.io/eowordles/",
+    "description": "Guess today's secret Terraria NPC.",
+    "category": "Video Games",
+    "themes": [
+      "Terraria"
+    ],
+    "history": [
       {
-        "date_removed": "2025-12-02",
-        "reason": "Now requires sign-in."
-      }
-    ]
-  },
-  {
-    "name": "Warbl",
-    "url": "https://www.warbl.org",
-    "id": 582,
-    "description": "Guess the name of the song that is playing backwards!",
-    "category": "Music",
-    "removals": [
-      {
-        "date_removed": "2025-06-29",
-        "reason": "Songs do not play.",
-        "date_readded": "2025-12-11"
+        "date": "2025-08-30",
+        "event": "added"
       },
       {
-        "date_removed": "2026-02-18"
-      }
-    ]
-  },
-  {
-    "name": "Where in the USA is this?",
-    "url": "https://pudding.cool/games/where",
-    "id": 418,
-    "description": "Guess the location in the United States given 5 pictures of the same place, one at a time.",
-    "category": "Geography",
-    "removals": [
-      {
-        "date_removed": "2025-08-30",
+        "date": "2025-12-24",
+        "event": "removed",
         "reason": "The game has ended."
       }
     ]
   },
   {
+    "id": 111,
+    "name": "Estimadle",
+    "url": "https://estimadle.com",
+    "description": "Estimate the number of circles within 10 seconds.",
+    "category": "Estimation",
+    "history": [
+      {
+        "date": "2025-06-29",
+        "event": "added"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "removed",
+        "reason": "Site now redirects to suspicious website."
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "name": "Etyle",
+    "url": "https://www.etyle.app",
+    "description": "Guess the root words of the daily word. A game about Etymology.",
+    "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2025-11-11",
+        "event": "removed",
+        "reason": "Puzzle does not load."
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Fishdle",
+    "url": "https://tacklevillage.com/fishdle-game/",
+    "description": "Guess the fish based on its silhouette and number of letters.",
+    "category": "Science/Nature",
+    "history": [
+      {
+        "date": "2025-05-08",
+        "event": "added"
+      },
+      {
+        "date": "2026-03-14",
+        "event": "removed",
+        "reason": "Now redirects to sketchy site."
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Fluxis",
+    "url": "https://www.theatlantic.com/games/fluxis/",
+    "description": "Complete the chain by entering words that satisfy their category and build off the previous word. (From The Atlantic)",
+    "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
+    "history": [
+      {
+        "date": "2025-06-29",
+        "event": "added"
+      },
+      {
+        "date": "2026-07-19",
+        "event": "removed",
+        "reason": "No longer available."
+      }
+    ]
+  },
+  {
+    "id": "M27",
+    "name": "Gamedle Classic Unlimited",
+    "url": "https://www.gamedle.wtf/unlimited",
+    "history": [
+      {
+        "date": "2024-02-13",
+        "event": "added"
+      },
+      {
+        "date": "2024-02-14",
+        "event": "removed",
+        "reason": "Not a daily game."
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Geocircles",
+    "url": "https://geocircles.io",
+    "description": "Given a streetview location, place progressively smaller circles on the map to help pinpoint its exact coordinates.",
+    "category": "Geography",
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2025-12-02",
+        "event": "removed",
+        "reason": "No longer available due to API costs."
+      }
+    ]
+  },
+  {
+    "id": "M14",
+    "name": "Geographle",
+    "url": "https://geographle.com",
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-11",
+        "event": "removed",
+        "reason": "Daily puzzles do not load."
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "name": "graphs.world",
+    "url": "https://www.graphs.world",
+    "description": "Select the dataset that fits the displayed graph.",
+    "category": "Miscellaneous",
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-02",
+        "event": "removed",
+        "reason": "Domain expired."
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Guess The Jumpshot",
+    "url": "https://guessthepro.com/en/games/guess-the-jumpshot",
+    "description": "Guess the NBA player based on a silhouette video of their jumpshot.",
+    "category": "Sports",
+    "history": [
+      {
+        "date": "2025-07-06",
+        "event": "added"
+      },
+      {
+        "date": "2025-08-30",
+        "event": "removed",
+        "reason": "Stuck on loading screen, doesn't always have a new game everyday."
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "name": "Hexle",
+    "url": "https://frankljin.github.io/hexle/",
+    "description": "Guess the secret color by its 6-digit hex code.",
+    "category": "Colors",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2025-12-11",
+        "event": "removed",
+        "reason": "The game does not work."
+      }
+    ]
+  },
+  {
+    "id": 653,
+    "name": "Historydle",
+    "url": "https://historydle.com",
+    "description": "Daily games where you guess the historical person or place.",
+    "category": "History",
+    "history": [
+      {
+        "date": "2026-01-28",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-02",
+        "event": "removed",
+        "reason": "Contains AI-generated content."
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Hitori Conquest",
+    "url": "https://hitoriconquest.com",
+    "description": "Eliminate cells in the grid to remove row or column duplicates and satisfy the given rules.",
+    "category": "Math/Logic",
+    "history": [
+      {
+        "date": "2024-02-27",
+        "event": "added"
+      },
+      {
+        "date": "2026-04-20",
+        "event": "removed",
+        "reason": "No daily puzzle, changes on refresh."
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "name": "IYKYK",
+    "url": "https://daily.iykyk.com",
+    "description": "Guess what today's acronym stands for. By the makers of the card game CultureTags.",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2026-02-07",
+        "event": "removed",
+        "reason": "Daily puzzles rarely appear."
+      }
+    ]
+  },
+  {
+    "id": "M10",
+    "name": "Jeopardle",
+    "url": "https://jeopardle.co",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-07-06",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "name": "Leetle",
+    "url": "https://leetle.app/",
+    "description": "Daily programming problem in the style of LeetCode.",
+    "category": "Miscellaneous",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2025-09-15",
+        "event": "removed",
+        "reason": "Contains AI-generated puzzles."
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Letterset",
+    "url": "https://www.letterset.net/daily",
+    "description": "Spell words with the given letters to earn points. Longer words help prolong the game and earn more points.",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2024-02-27",
+        "event": "added"
+      },
+      {
+        "date": "2025-11-11",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "List Them All!",
+    "url": "https://listthemall.com",
+    "description": "List all of the items that fit today's category.",
+    "category": "Trivia",
+    "themes": [
+      "Guess the List"
+    ],
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2026-01-01",
+        "event": "removed",
+        "reason": "Puzzles repeat too often."
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "name": "Meleedle",
+    "url": "https://meleedle.netlify.app/",
+    "description": "Name the character and move of the hitbox shown from Super Smash Bros Melee.",
+    "category": "Video Games",
+    "themes": [
+      "Super Smash Bros"
+    ],
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2026-01-06",
+        "event": "removed",
+        "reason": "Daily puzzle is empty."
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "MinecraftDle",
+    "url": "https://www.minecraftdle.net",
+    "description": "Test your Minecraft knowledge in these daily games.",
+    "category": "Video Games",
+    "themes": [
+      "Minecraft"
+    ],
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2025-12-20",
+        "event": "removed",
+        "reason": "Now redirects to Mcdle.net"
+      }
+    ]
+  },
+  {
+    "id": "M24",
+    "name": "Moviedle - Twenty Questions",
+    "url": "https://moviedle.xyz/twenty",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2024-06-22",
+        "event": "removed",
+        "reason": "Now part of a paid subscription."
+      }
+    ]
+  },
+  {
+    "id": "M21",
+    "name": "Moviemoji",
+    "url": "https://www.playmoviemoji.com",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-01-31",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": "M19",
+    "name": "Moview",
+    "url": "https://moview.online",
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2025-05-08",
+        "event": "removed",
+        "reason": "No new puzzles for months."
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Musicdoku",
+    "url": "https://musicdoku.com",
+    "description": "Fill in the grid with songs that meet the criteria of both the row and column corresponding to their cell.",
+    "category": "Music",
+    "history": [
+      {
+        "date": "2025-04-02",
+        "event": "added"
+      },
+      {
+        "date": "2025-10-19",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Musicle",
+    "url": "https://musicle.app",
+    "description": "Match the song audio to the correct album art. Lots of categories.",
+    "category": "Music",
+    "history": [
+      {
+        "date": "2025-06-11",
+        "event": "added"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "name": "NBAGrid",
+    "url": "https://www.nbagr.id",
+    "description": "Guess a grid of NBA players that fit into specific categories.",
+    "category": "Sports",
+    "history": [
+      {
+        "date": "2025-07-21",
+        "event": "added"
+      },
+      {
+        "date": "2026-02-07",
+        "event": "removed",
+        "reason": "Player pictures are AI-generated."
+      }
+    ]
+  },
+  {
+    "id": 664,
+    "name": "Netflix - Keysmash",
+    "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
+    "description": "Guess the themed words with their vowels removed. Does not require a Netflix account.",
+    "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
+    "history": [
+      {
+        "date": "2026-02-07",
+        "event": "added"
+      },
+      {
+        "date": "2026-09-03",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": 735,
+    "name": "NextUp",
+    "url": "https://nextupgame.com",
+    "description": "Guess the next number in the sequence, five rounds every day.",
+    "category": "Math/Logic",
+    "history": [
+      {
+        "date": "2026-03-28",
+        "event": "added"
+      },
+      {
+        "date": "2026-05-22",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "name": "NHLdle",
+    "url": "https://nhldle.com/classic",
+    "description": "Guess today's mystery NHL player.",
+    "category": "Sports",
+    "history": [
+      {
+        "date": "2025-01-31",
+        "event": "added"
+      },
+      {
+        "date": "2025-09-21",
+        "event": "removed",
+        "reason": "Page no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "name": "NYT Mini Crossword",
+    "url": "https://www.nytimes.com/crosswords/game/mini",
+    "description": "A very small crossword puzzle by the New York Times.",
+    "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
+    "history": [
+      {
+        "date": "2024-02-13",
+        "event": "added"
+      },
+      {
+        "date": "2025-08-30",
+        "event": "removed",
+        "reason": "Now behind a paywall."
+      }
+    ]
+  },
+  {
+    "id": "M16",
+    "name": "Order Up",
+    "url": "https://orderup.games",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-11",
+        "event": "removed",
+        "reason": "The game has been paused."
+      }
+    ]
+  },
+  {
+    "id": "M17",
+    "name": "Outword",
+    "url": "https://outword.me",
+    "history": [
+      {
+        "date": "2024-07-20",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-11",
+        "event": "removed",
+        "reason": "The website does not load."
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Pandergram",
+    "url": "https://onelook.com/pandergram",
+    "description": "Swap out letters from the given words to create new words that together use the entire alphabet.",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2025-04-02",
+        "event": "added"
+      },
+      {
+        "date": "2025-10-27",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": 751,
+    "name": "Peekpedia",
+    "url": "https://peekpedia.com",
+    "description": "Guess the Wikipedia article based on the pictures.",
+    "category": "Trivia",
+    "history": [
+      {
+        "date": "2026-05-03",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-02",
+        "event": "removed",
+        "reason": "No new puzzles for a month."
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "name": "Petdle",
+    "url": "https://petdle.link",
+    "description": "Guess the pet taken from the game Super Auto Pets.",
+    "category": "Video Games",
+    "themes": [
+      "Super Auto Pets"
+    ],
+    "history": [
+      {
+        "date": "2024-02-13",
+        "event": "added"
+      },
+      {
+        "date": "2026-01-11",
+        "event": "removed",
+        "reason": "No longer available."
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "name": "PlusWord",
+    "url": "https://puzzles-prod.telegraph.co.uk/plusword",
+    "description": "Solve the mini crossword, then use letters in the shaded squares to figure out an additional word.",
+    "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
+    "history": [
+      {
+        "date": "2024-07-20",
+        "event": "added"
+      },
+      {
+        "date": "2026-03-24",
+        "event": "removed",
+        "reason": "Link no longer works."
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "name": "Posterdle",
+    "url": "https://likewise.com/games/posterdle",
+    "description": "Guess the movie poster in 20 seconds or less.",
+    "category": "Movies/TV",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2026-03-21",
+        "event": "removed",
+        "reason": "Now redirects to an irrelevant site."
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "name": "QuickQ",
+    "url": "https://www.quickqtrivia.com",
+    "description": "A 90 second trivia game with questions from 8 categories.",
+    "category": "Trivia",
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2025-07-28",
+        "event": "removed",
+        "reason": "No new games for months."
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "name": "Raindle",
+    "url": "https://raindle.net/items",
+    "description": "Guess the Risk of Rain 2 item.",
+    "category": "Video Games",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": "M11",
+    "name": "Reciple",
+    "url": "https://reciple.net",
+    "history": [
+      {
+        "date": "2024-09-18",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-29",
+        "event": "removed",
+        "reason": "No new daily recipes."
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Relatle",
+    "url": "https://www.relatle.lol",
+    "description": "Guess the word based on one of its synonyms, given a new synonym after each guess.",
+    "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
+    "history": [
+      {
+        "date": "2024-04-10",
+        "event": "added"
+      },
+      {
+        "date": "2026-05-29",
+        "event": "removed",
+        "reason": "Site now redirects to suspicious website."
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Rivadle",
+    "url": "https://rivadle.net",
+    "description": "A bunch of daily games where you guess the character from Marvel Rivals.",
+    "category": "Video Games",
+    "themes": [
+      "Marvel Rivals"
+    ],
+    "history": [
+      {
+        "date": "2025-04-02",
+        "event": "added"
+      },
+      {
+        "date": "2026-06-06",
+        "event": "removed",
+        "reason": "Site now redirects to suspicious website."
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Rolldle",
+    "url": "https://www.light.gg/rolldle/",
+    "description": "Guess the roll of the weapon from Destiny 2.",
+    "category": "Video Games",
+    "themes": [
+      "Destiny"
+    ],
+    "history": [
+      {
+        "date": "2025-07-06",
+        "event": "added"
+      },
+      {
+        "date": "2025-11-11",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": 682,
+    "name": "Rotatly",
+    "url": "https://www.rotatly.com",
+    "description": "Rotate cells until the outline is correct.",
+    "category": "Shapes/Patterns",
+    "history": [
+      {
+        "date": "2026-02-18",
+        "event": "added"
+      },
+      {
+        "date": "2026-09-03",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Sorted",
+    "url": "https://puzzles-prod.telegraph.co.uk/sorted/index.html",
+    "description": "Place the items in the correct order, 3 new rounds everyday.",
+    "category": "Trivia",
+    "history": [
+      {
+        "date": "2024-09-18",
+        "event": "added"
+      },
+      {
+        "date": "2025-07-28",
+        "event": "removed",
+        "reason": "Stuck on Sorted #234."
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "name": "Sortwise",
+    "url": "https://sortwise.fun",
+    "description": "Drag to sort the events in chronological order.",
+    "category": "History",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2026-07-25",
+        "event": "removed",
+        "reason": "Daily puzzle no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "name": "sqnces",
+    "url": "https://sqnces.com",
+    "description": "Find the secret word that contains the given 3-letter sequence. Three words everyday (6, 7, & 8-letter words).",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2025-10-19",
+        "event": "added"
+      },
+      {
+        "date": "2025-12-11",
+        "event": "removed",
+        "reason": "The game does not work."
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "name": "Stacks",
+    "url": "https://www.theatlantic.com/games/stacks/",
+    "description": "Stack words from the word bank to create new words going horizontally. (From The Atlantic)",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2025-06-29",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-26",
+        "event": "removed",
+        "reason": "No longer available."
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "name": "steamdle.pro",
+    "url": "https://steamdle.pro",
+    "description": "Guess the Steam game with new hints after each guess, such as release date, reviews, and tags.",
+    "category": "Video Games",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2025-11-24",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "name": "Stepdle",
+    "url": "https://www.stepdle.com",
+    "description": "Solve 4 Wordle puzzles, one at a time, each word one letter longer than the last. You have 20 total guesses.",
+    "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
+    "history": [
+      {
+        "date": "2024-04-10",
+        "event": "added"
+      },
+      {
+        "date": "2026-04-27",
+        "event": "removed",
+        "reason": "No longer available."
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "name": "Stewardle",
+    "url": "https://stewardle.com",
+    "description": "Guess the daily F1 driver.",
+    "category": "Sports",
+    "history": [
+      {
+        "date": "2025-12-20",
+        "event": "added"
+      },
+      {
+        "date": "2026-02-22",
+        "event": "removed",
+        "reason": "The website does not load."
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Supervivedle",
+    "url": "https://supervivedle.com",
+    "description": "A collection of daily games related to Supervive.",
+    "category": "Video Games",
+    "themes": [
+      "Supervive"
+    ],
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2026-02-07",
+        "event": "removed",
+        "reason": "Page no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "name": "Syllacrostic",
+    "url": "https://www.syllacrostic.com/daily",
+    "description": "Combine syllables to solve the clues.",
+    "category": "Words",
+    "themes": [
+      "Clues",
+      "Anagrams"
+    ],
+    "history": [
+      {
+        "date": "2024-02-27",
+        "event": "added"
+      },
+      {
+        "date": "2025-11-25",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "name": "Tarkovdle",
+    "url": "https://tarkovdle.com",
+    "description": "Guess the weapon from Escape from Tarkov by its properties or sound.",
+    "category": "Video Games",
+    "themes": [
+      "Escape from Tarkov"
+    ],
+    "history": [
+      {
+        "date": "2025-06-29",
+        "event": "added"
+      },
+      {
+        "date": "2026-07-12",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "name": "Toppled",
+    "url": "https://bythomas.co.uk/toppled",
+    "description": "Topple the letter wall by finding four 5-letter words",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2024-06-22",
+        "event": "added"
+      },
+      {
+        "date": "2025-08-30",
+        "event": "removed",
+        "reason": "Cannot access the game, stuck on advertisement."
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Totem Words",
+    "url": "https://totemwords.com",
+    "description": "Guess the words associated their emoji category, then slide those words to solve the vertical category.",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2025-08-30",
+        "event": "added"
+      },
+      {
+        "date": "2026-09-03",
+        "event": "removed"
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "name": "Trivial Pursuit Daily",
+    "url": "https://www.trivialpursuit.com/daily",
+    "description": "Daily trivia game from Trivial Pursuit. One question from each category.",
+    "category": "Trivia",
+    "history": [
+      {
+        "date": "2025-11-23",
+        "event": "added"
+      },
+      {
+        "date": "2026-01-28",
+        "event": "removed",
+        "reason": "No longer available."
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "name": "Twofer Goofer",
+    "url": "https://twofergoofer.com",
+    "description": "Guess the pair of rhyming words that form the given nonsensical phrase.",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2024-04-10",
+        "event": "added"
+      },
+      {
+        "date": "2025-10-19",
+        "event": "removed",
+        "reason": "Contains AI-generated images."
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "name": "Unshuffle",
+    "url": "https://www.unshuffle.me",
+    "description": "Unshuffle the grid using the numbers along each row and column as a guide.",
+    "category": "Math/Logic",
+    "history": [
+      {
+        "date": "2025-06-29",
+        "event": "added"
+      },
+      {
+        "date": "2025-11-11",
+        "event": "removed",
+        "reason": "Site no longer loads."
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "name": "Unzoomed",
+    "url": "https://www.unzoomed.com/en",
+    "description": "Guess the city based on the given satellite image.",
+    "category": "Geography",
+    "history": [
+      {
+        "date": "2024-05-28",
+        "event": "added"
+      },
+      {
+        "date": "2025-12-02",
+        "event": "removed",
+        "reason": "Now requires sign-in."
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "name": "Warbl",
+    "url": "https://www.warbl.org",
+    "description": "Guess the name of the song that is playing backwards!",
+    "category": "Music",
+    "history": [
+      {
+        "date": "2025-05-08",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-29",
+        "event": "removed",
+        "reason": "Songs do not play."
+      },
+      {
+        "date": "2025-12-11",
+        "event": "readded"
+      },
+      {
+        "date": "2026-02-18",
+        "event": "removed",
+        "reason": "Song audio does not play."
+      }
+    ]
+  },
+  {
+    "id": 597,
     "name": "WhichWay",
     "url": "https://whichway.is",
-    "id": 597,
-    "removals": [
-      {
-        "date_removed": "2026-08-02"
-      }
-    ],
     "description": "Determine which direction the target country is from the starting country, 10 rounds daily.",
-    "category": "Geography"
+    "category": "Geography",
+    "history": [
+      {
+        "date": "2025-12-20",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-02",
+        "event": "removed",
+        "reason": "Reports of malware after game completion."
+      }
+    ]
   },
   {
+    "id": 442,
     "name": "WordLinx",
     "url": "https://sacsgames.com/wordlinx/#/todaydaily",
-    "id": 442,
-    "removals": [
-      {
-        "date_removed": "2026-02-15"
-      }
-    ],
     "description": "Using a single word as a clue, guess the 4 related words by dragging and dropping letters into the empty spaces.",
-    "category": "Words"
+    "category": "Words",
+    "history": [
+      {
+        "date": "2024-07-20",
+        "event": "added"
+      },
+      {
+        "date": "2026-02-15",
+        "event": "removed",
+        "reason": "Background image is AI-generated."
+      }
+    ]
   },
   {
+    "id": 647,
     "name": "WordLock",
     "url": "https://wordlockgame.com",
-    "id": 647,
-    "removals": [
-      {
-        "date_removed": "2026-03-14"
-      }
-    ],
     "description": "Create 5 words by choosing one letter from each column.",
-    "category": "Words"
-  },
-  {
-    "name": "Yeardle",
-    "url": "https://histordle.com/yeardle",
-    "id": 450,
-    "description": "Guess the year based on the given historical events of that year.",
-    "category": "History",
-    "removals": [
+    "category": "Words",
+    "history": [
       {
-        "date_removed": "2026-01-11",
-        "date_readded": "2026-02-07"
+        "date": "2026-01-23",
+        "event": "added"
+      },
+      {
+        "date": "2026-03-14",
+        "event": "removed",
+        "reason": "Site no longer loads."
       }
     ]
   }

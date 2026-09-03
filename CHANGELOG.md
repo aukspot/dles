@@ -1,5 +1,55 @@
 # Changelog - The Dles
 
+## 2026-09-03
+
+Add 2 dles. Remove 4 dles. Archive 11 dles. <a href="https://dles.aukspot.com/archive">View all archived dles</a>.<br/>Add <a href="https://dles.aukspot.com/category/words">Words page which includes subcategories</a>, also linked to at the top of the Words category.
+
+dles added: 
+|    | name                                            | url                                                                  |   id |
+|---:|:------------------------------------------------|:---------------------------------------------------------------------|-----:|
+|  1 | [HexHunt](https://thehexhunt.com)               | [https://thehexhunt.com](https://thehexhunt.com)                     |  830 |
+|  2 | [Lettergrams](https://puzzlist.com/lettergrams) | [https://puzzlist.com/lettergrams](https://puzzlist.com/lettergrams) |  829 |
+
+dles removed: 
+|    | name                                                                       | url                                                                                                          |   id |
+|---:|:---------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|-----:|
+|  1 | [Crosslink](https://romainpastureau.github.io/crosslink/)                  | [https://romainpastureau.github.io/crosslink/](https://romainpastureau.github.io/crosslink/)                 |  526 |
+|  2 | [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) | [https://www.netflix.com/tudum/puzzled/keysmash/daily](https://www.netflix.com/tudum/puzzled/keysmash/daily) |  664 |
+|  3 | [Rotatly](https://www.rotatly.com)                                         | [https://www.rotatly.com](https://www.rotatly.com)                                                           |  682 |
+|  4 | [Totem Words](https://totemwords.com)                                      | [https://totemwords.com](https://totemwords.com)                                                             |  506 |
+dles archived: 
+|    | name                                                                                                     | url                                                                                                                                                | id   | note                           | archive_url                                        |
+|---:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|:-----|:-------------------------------|:---------------------------------------------------|
+|  1 | [Chronoodle](https://chronoodle.com)                                                                     | [https://chronoodle.com](https://chronoodle.com)                                                                                                   | 677  | Previously removed 2026-08-26. |                                                    |
+|  2 | [Collections](https://puzzmallow.com/collections)                                                        | [https://puzzmallow.com/collections](https://puzzmallow.com/collections)                                                                           | 58   | Previously removed 2026-01-06. | https://puzzmallow.com/collections/archive         |
+|  3 | [Couplit](https://couplit.io)                                                                            | [https://couplit.io](https://couplit.io)                                                                                                           | 70   | Previously removed 2026-08-26. | https://couplit.io/puzzle-archive                  |
+|  4 | [GuessTen](https://guessten.com)                                                                         | [https://guessten.com](https://guessten.com)                                                                                                       | 155  | Previously removed 2026-05-22. | https://www.guessten.com/archive.html              |
+|  5 | [GuessTheMovie.me](https://guessthemovie.me)                                                             | [https://guessthemovie.me](https://guessthemovie.me)                                                                                               | 519  | Previously removed 2026-04-20. |                                                    |
+|  6 | [Listed](https://listed.fun)                                                                             | [https://listed.fun](https://listed.fun)                                                                                                           | M15  | Previously removed 2025-06-11. |                                                    |
+|  7 | [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) | [https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) | 229  | Previously removed 2026-05-18. |                                                    |
+|  8 | [Numblino](https://numblino.com)                                                                         | [https://numblino.com](https://numblino.com)                                                                                                       | 552  | Previously removed 2026-08-26. |                                                    |
+|  9 | [Outlier](https://outlier.land)                                                                          | [https://outlier.land](https://outlier.land)                                                                                                       | 639  | Previously removed 2026-03-28. |                                                    |
+| 10 | [Spectra](https://spectra.quest/puzzles/latest)                                                          | [https://spectra.quest/puzzles/latest](https://spectra.quest/puzzles/latest)                                                                       | 676  | Previously removed 2026-03-06. | https://spectra.quest/puzzles                      |
+| 11 | [Where in the USA is this?](https://pudding.cool/games/where)                                            | [https://pudding.cool/games/where](https://pudding.cool/games/where)                                                                               | 418  | Previously removed 2025-08-30. | https://pudding.cool/games/where/?skip=true&game=0 |
+## 2026-08-27
+
+Archive 11 dles. 
+
+
+dles archived: 
+|    | name                                                                                                     | url                                                                                                                                                | id   | note                           | archive_url                                        |
+|---:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|:-----|:-------------------------------|:---------------------------------------------------|
+|  1 | [Chronoodle](https://chronoodle.com)                                                                     | [https://chronoodle.com](https://chronoodle.com)                                                                                                   | 677  | Previously removed 2026-08-26. |                                                    |
+|  2 | [Collections](https://puzzmallow.com/collections)                                                        | [https://puzzmallow.com/collections](https://puzzmallow.com/collections)                                                                           | 58   | Previously removed 2026-01-06. | https://puzzmallow.com/collections/archive         |
+|  3 | [Couplit](https://couplit.io)                                                                            | [https://couplit.io](https://couplit.io)                                                                                                           | 70   | Previously removed 2026-08-26. |                                                    |
+|  4 | [GuessTen](https://guessten.com)                                                                         | [https://guessten.com](https://guessten.com)                                                                                                       | 155  | Previously removed 2026-05-22. | https://www.guessten.com/archive.html              |
+|  5 | [GuessTheMovie.me](https://guessthemovie.me)                                                             | [https://guessthemovie.me](https://guessthemovie.me)                                                                                               | 519  | Previously removed 2026-04-20. |                                                    |
+|  6 | [Listed](https://listed.fun)                                                                             | [https://listed.fun](https://listed.fun)                                                                                                           | M15  | Previously removed 2025-06-11. |                                                    |
+|  7 | [Mini Crossword (The Observer)](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) | [https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword](https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword) | 229  | Previously removed 2026-05-18. |                                                    |
+|  8 | [Numblino](https://numblino.com)                                                                         | [https://numblino.com](https://numblino.com)                                                                                                       | 552  | Previously removed 2026-08-26. |                                                    |
+|  9 | [Outlier](https://outlier.land)                                                                          | [https://outlier.land](https://outlier.land)                                                                                                       | 639  | Previously removed 2026-03-28. |                                                    |
+| 10 | [Spectra](https://spectra.quest/puzzles/latest)                                                          | [https://spectra.quest/puzzles/latest](https://spectra.quest/puzzles/latest)                                                                       | 676  | Previously removed 2026-03-06. | https://spectra.quest/puzzles                      |
+| 11 | [Where in the USA is this?](https://pudding.cool/games/where)                                            | [https://pudding.cool/games/where](https://pudding.cool/games/where)                                                                               | 418  | Previously removed 2025-08-30. | https://pudding.cool/games/where/?skip=true&game=0 |
 ## 2026-08-26
 
 Add 21 dles. Remove 4 dles. Move Odle to Novelty.
@@ -827,7 +877,7 @@ dles removed:
 |---:|:---------------------------------------------|:-------------------------------------------------------------------|:----------------------|-----:|
 |  1 | [Etyle](https://www.etyle.app)               | [https://www.etyle.app](https://www.etyle.app)                     | Puzzle does not load. |  466 |
 |  2 | [Letterset](https://www.letterset.net/daily) | [https://www.letterset.net/daily](https://www.letterset.net/daily) | Site no longer loads. |  195 |
-|  3 | [Rolldle](https://www.light.gg/rolldle/)     | [https://www.light.gg/rolldle/](https://www.light.gg/rolldle/)     | nan                   |  328 |
+|  3 | [Rolldle](https://www.light.gg/rolldle/)     | [https://www.light.gg/rolldle/](https://www.light.gg/rolldle/)     |                       |  328 |
 |  4 | [Unshuffle](https://www.unshuffle.me)        | [https://www.unshuffle.me](https://www.unshuffle.me)               | Site no longer loads. |  405 |
 ## 2025-10-27
 
@@ -858,7 +908,7 @@ dles added:
 dles removed: 
 |    | name                                       | url                                                              |   id | reason                        |
 |---:|:-------------------------------------------|:-----------------------------------------------------------------|-----:|:------------------------------|
-|  1 | [Capitale](https://capitale.countryle.com) | [https://capitale.countryle.com](https://capitale.countryle.com) |   35 | nan                           |
+|  1 | [Capitale](https://capitale.countryle.com) | [https://capitale.countryle.com](https://capitale.countryle.com) |   35 |                               |
 |  2 | [Musicdoku](https://musicdoku.com)         | [https://musicdoku.com](https://musicdoku.com)                   |  247 | Site no longer loads.         |
 |  3 | [Twofer Goofer](https://twofergoofer.com)  | [https://twofergoofer.com](https://twofergoofer.com)             |  403 | Contains AI-generated images. |
 ## 2025-10-17

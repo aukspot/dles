@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-08-26`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-09-03`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -157,7 +157,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (56)
+### Geography (57)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -186,6 +186,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Globle](https://globle-game.com/game) - Guess the mystery country, given how close it is to each guessed country.
 - [Globle Capitals](https://globle-capitals.com) - Guess the mystery world capital, given how close it is to each guessed world capital.
 - [Headline](https://headline.fromthethink.com) - Guess the place tied to or missing from each headline.
+- [HexHunt](https://thehexhunt.com) - Guess which hex cell each location is in on the world map, zoom in for more smaller hexes but more points.
 - [Juxtastat](https://urbanstats.org/quiz.html) - For 5 rounds, guess which of the two regions better fits the given criteria.
 - [Landmarkd](https://www.landmarkdgame.com) - Guess the daily landmark based on a zoomed-in picture.
 - [Landmarkr](https://www.landmarkr.app) - Name the place in the world based on the given pictures.
@@ -426,7 +427,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (33)
+### Shapes/Patterns (32)
 
 - [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
@@ -454,7 +455,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Number Crunch](https://numbercrunch.fun) - Clear the board by efficiently matching digits. Clicking a number increments it, except for 9 which wraps around to 1.
 - [Puzzmo - Flipart](https://www.puzzmo.com/play/flip-art) - Rotate the pieces to fit them within the frame.
 - [Rotaboxes](https://rotaboxes.com) - Rotate all the tiles into their correct orientation to reveal today's picture.
-- [Rotatly](https://www.rotatly.com) - Rotate cells until the outline is correct.
 - [SetFury](https://www.setfury.com) - Find valid sets of 3 to 5 tiles by moving through the grid.
 - [Shaple](https://swag.github.io/shaple) - Choose the shape that matches the top shape.
 - [Shikaku of the day](https://shikakuofthe.day) - 5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.
@@ -606,7 +606,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (41)
+### Miscellaneous (42)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
@@ -634,6 +634,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Ponder Club](https://ponderclub.co) - A collection of various daily games.
 - [Power Scadle](https://powerscadle.com) - Compare two fictional characters and guess which one is stronger.
 - [putt.day](https://putt.day/play) - A daily hole of 3D mini golf.
+- [Quotadle](https://quotadle.com) - Daily typing challenge featuring memorable quotes.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Seedle](https://seedle.io) - Grow the perfect garden by properly placing tiles that complement each other.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
@@ -650,7 +651,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (242)
+### Words (239)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -689,7 +690,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Crossflip](https://puzzmallow.com/crossflip) - Flip letter tiles to create words that fit today's theme.
 - [Crosshare](https://crosshare.org) - Daily mini crossword from an open-source community of crossword makers.
 - [Crossherd](https://crossherd.clevergoat.com) - A daily mini crossword from Clever Goat.
-- [Crosslink](https://romainpastureau.github.io/crosslink/) - Guess the two words crossed together that are related in some way.
 - [Crossword Club Daily](https://crosswordclub.com/puzzles/) - Daily crossword by the Crossword Club.
 - [Crosswordle](https://crosswordle.vercel.app) - Fill in the grid to logically fit a series of Wordle guesses.
 - [crosswordle.com](https://crosswordle.com) - Swap tiles to solve multiple Wordle puzzles crossed together.
@@ -736,6 +736,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Langle](https://langle.uk) - Guess the world language from a few example sentences.
 - [Letroso](https://letroso.com/en/daily) - Guess the secret word that can be up to 10 letters long.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
+- [Lettergrams](https://puzzlist.com/lettergrams) - Build connected words using the letter tiles, scoring as many points as you can.
 - [Letterinth](https://letterinth.com) - Trace a quote inside a grid of letters, starting at the center and visiting each letter once.
 - [Letteripher](https://letteripher.com) - Guess letters to reveal all words of some daily category without losing all your lives.
 - [LetterLoop](https://theletterloop.com) - Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.
@@ -758,7 +759,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Nerdcube - Dabble](https://www.nerdcube.games/dabble) - Score as many points as you can by building words on a small custom Scrabble board.
 - [Netflix - Bonza](https://www.netflix.com/tudum/puzzled/bonza/daily) - Join fragments of letters together to form words that share a theme. Does not require a Netflix account.
 - [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) - Swap letters and emojis to form words that match the clues. Does not require a Netflix account.
-- [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) - Guess the themed words with their vowels removed. Does not require a Netflix account.
 - [Netflix - Waywords](https://www.netflix.com/tudum/puzzled/waywords/daily) - A themed word search with emojis where the words make a path. Does not require a Netflix account.
 - [NounSense](https://daily.gametje.com/nounsense) - Guess the most common noun that follows the adjective, 10 words every day.
 - [NYT Connections](https://www.nytimes.com/games/connections) - Group words that share a common thread.
@@ -789,10 +789,9 @@ This will update the `./docs` directory with a new build of the site.
 - [Quintessential](https://quintessential.fun) - Solve each of the 5 horizontal words in as few swaps as possible.
 - [Quizmoji](https://quizmoji.com) - Answer each clue with pairs of emojis.
 - [Quordle](https://www.merriam-webster.com/games/quordle/#/) - Solve 4 Wordle puzzles at the same time.
-- [Quotadle](https://quotadle.com) - Daily typing challenge featuring memorable quotes.
 - [Rackdle](https://rackdle.fun) - Try to find the best move in a tournament Scrabble game. Your move gets graded based on all possible moves.
 - [RADDLE](https://raddle.quest) - Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.
-- [Redividers](https://redividers.netlify.app) - Find the word that fits the first blank, then split it to fill in the remaining blank(s).
+- [Redividers - Storylines](https://storylines.redividers.app) - Find the word that fits the first blank, then split it to fill in the remaining blank(s).
 - [regexle.ithea.de](https://regexle.ithea.de) - Guess the secret regular expression by testing sequences of characters.
 - [Reversle](https://reversle.net) - Basically the reverse of Wordle. You start with the solution and walk backwards.
 - [Rewordio](https://rewordio.com) - Move stacks of letters between columns to solve the clues.
@@ -835,7 +834,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TED - Letterbrew](https://www.ted.com/games/letter-brew) - Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.
 - [TED - Spellcheck](https://www.ted.com/games/spellcheck) - Daily spelling challenges made in collaboration with Spellcheck.xyz
 - [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) - A daily crossword from The Atlantic.
-- [The Daily Spell](https://www.the-daily-spell.com) - Unscramble the fictional headline by dropping letters into place.
+- [The Daily Spell](https://www.the-daily-spell.com/today) - Unscramble the fictional headline by dropping letters into place.
 - [The Guardian - Cryptic Crossword](https://www.theguardian.com/crosswords/series/cryptic) - A weekday cryptic crossword from The Guardian.
 - [The Guardian - Quick Crossword](https://www.theguardian.com/crosswords/series/quick) - A small crossword puzzle from The Guardian. New puzzle 6 days a week.
 - [Thirdle](https://thirdle.org) - Solve 3 Wordle puzzles crossed together.
@@ -845,7 +844,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Tiled Words](https://tiledwords.com) - Move and rotate tiles to find clues, connect words, and rebuild a broken crossword. 
 - [Tiler](https://gamebunny.app/tiler) - Assemble tiles with unique designs to recompose intertwined words. Play in English, or learn French words as well!
 - [Toddle](https://toddle-puzzle.web.app) - Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.
-- [Totem Words](https://totemwords.com) - Guess the words associated their emoji category, then slide those words to solve the vertical category.
 - [Tracell](https://tracellgame.com) - Uncover the hidden text by placing the letter tiles in the grid.
 - [Traindle](https://www.traindle.io) - Chain together words to form familiar phrases. Timed-based word game.
 - [trms](https://impliedampersand.itch.io/trms) - Restore the vowels in each clue to find answers that reduce to the same consonants. Try the "How to Play"!

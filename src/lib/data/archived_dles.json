@@ -1,0 +1,262 @@
+[
+  {
+    "id": 677,
+    "name": "Chronoodle",
+    "url": "https://chronoodle.com",
+    "description": "Place each event in the correct spot on the timeline.",
+    "category": "History",
+    "history": [
+      {
+        "date": "2026-02-15",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-26",
+        "event": "removed",
+        "reason": "Game has ended. Archive still available."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Collections",
+    "url": "https://puzzmallow.com/collections",
+    "description": "Guess the category of the three hidden words by revealing one letter at a time.",
+    "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
+    "archive_url": "https://puzzmallow.com/collections/archive",
+    "history": [
+      {
+        "date": "2025-07-06",
+        "event": "added"
+      },
+      {
+        "date": "2026-01-06",
+        "event": "removed",
+        "reason": "No new puzzles. Archive still available."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Couplit",
+    "url": "https://couplit.io",
+    "description": "Arrange the letters to spell out a phrase based on today's theme.",
+    "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
+    "archive_url": "https://couplit.io/puzzle-archive",
+    "history": [
+      {
+        "date": "2025-06-11",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-26",
+        "event": "removed",
+        "reason": "No new puzzles. Archive still available."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "name": "GuessTen",
+    "url": "https://guessten.com",
+    "description": "Guess the top ten entries of today's category.",
+    "category": "Trivia",
+    "themes": [
+      "Guess the List"
+    ],
+    "archive_url": "https://www.guessten.com/archive.html",
+    "history": [
+      {
+        "date": "2025-06-11",
+        "event": "added"
+      },
+      {
+        "date": "2026-05-22",
+        "event": "removed",
+        "reason": "No new puzzles since April 28, 2026"
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "name": "GuessTheMovie.me",
+    "url": "https://guessthemovie.me",
+    "description": "Guess the movie based on its reviews on Letterboxd.",
+    "category": "Movies/TV",
+    "history": [
+      {
+        "date": "2025-10-06",
+        "event": "added"
+      },
+      {
+        "date": "2026-04-20",
+        "event": "removed",
+        "reason": "No new puzzles since March 13, 2026. Archive still available."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": "M15",
+    "name": "Listed",
+    "url": "https://listed.fun",
+    "description": "Guess the price of the house listed.",
+    "category": "Estimation",
+    "history": [
+      {
+        "date": "2024-02-17",
+        "event": "added"
+      },
+      {
+        "date": "2025-06-11",
+        "event": "removed",
+        "reason": "The game has been concluded."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Mini Crossword (The Observer)",
+    "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+    "description": "A daily mini crossword from The Observer.",
+    "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
+    "history": [
+      {
+        "date": "2024-11-24",
+        "event": "added"
+      },
+      {
+        "date": "2026-05-18",
+        "event": "removed",
+        "reason": "No new puzzles since April 27, 2026."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "name": "Numblino",
+    "url": "https://numblino.com",
+    "description": "Guess the number based on the given fact. You have 6 guesses.",
+    "category": "Estimation",
+    "history": [
+      {
+        "date": "2025-11-23",
+        "event": "added"
+      },
+      {
+        "date": "2026-08-26",
+        "event": "removed",
+        "reason": "No new puzzles. Archive still available."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 639,
+    "name": "Outlier",
+    "url": "https://outlier.land",
+    "description": "Repeatedly pick the outlier as quickly as you can.",
+    "category": "Trivia",
+    "history": [
+      {
+        "date": "2026-01-12",
+        "event": "added"
+      },
+      {
+        "date": "2026-03-28",
+        "event": "removed",
+        "reason": "No longer updates."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 676,
+    "name": "Spectra",
+    "url": "https://spectra.quest/puzzles/latest",
+    "description": "Sort items by discovering the hidden metric.",
+    "category": "Trivia",
+    "archive_url": "https://spectra.quest/puzzles",
+    "history": [
+      {
+        "date": "2026-02-08",
+        "event": "added"
+      },
+      {
+        "date": "2026-03-06",
+        "event": "removed",
+        "reason": "New daily puzzles are very rare."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "name": "Where in the USA is this?",
+    "url": "https://pudding.cool/games/where",
+    "description": "Guess the location in the United States given 5 pictures of the same place, one at a time.",
+    "category": "Geography",
+    "archive_url": "https://pudding.cool/games/where/?skip=true&game=0",
+    "notes": "Archive is awkward: the game starts at puzzle 1 and only advances via Next. A specific day can be reached with ?skip=true&game=N, where N is zero-indexed (game=100 is day 101).",
+    "history": [
+      {
+        "date": "2024-04-10",
+        "event": "added"
+      },
+      {
+        "date": "2025-08-30",
+        "event": "removed",
+        "reason": "The game has ended."
+      },
+      {
+        "date": "2026-09-03",
+        "event": "archived"
+      }
+    ]
+  }
+]

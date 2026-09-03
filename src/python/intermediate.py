@@ -3,13 +3,17 @@
 import re
 import datetime
 import json
+import os
 import pandas
 import shutil
+
+import yaml
 
 
 SPONSORS_FILE = "../lib/data/sponsors.json"
 DLES_FILE = "../lib/data/dles.json"
 DLES_FILE_OLD = "../lib/data/dles.json.old"
+YAML_DIR = "../../data/dles"
 DLES_METADATA_FILE = "../lib/data/dles_metadata.json"
 NEW_DLES_FILE = "../lib/data/new_dles.json"
 REMOVED_DLES_FILE = "../lib/data/removed_dles.json"
@@ -204,6 +208,133 @@ def add_changes_to_changelog():
     backup_file(DLES_FILE, ".old")
 
 
+def read_yaml_dles():
+    """Read every per-game YAML file from data/dles."""
+    dles = []
+    for filename in sorted(os.listdir(YAML_DIR)):
+        if filename.endswith(".yaml"):
+            with open(os.path.join(YAML_DIR, filename)) as f:
+                dles.append(yaml.safe_load(f))
+    return dles
+
+
+def collect_events_for_date(dles, date):
+    added = []
+    removed = []
+    archived = []
+
+    for dle in dles:
+        for event in dle.get("history", []):
+            if event["date"] != date:
+                continue
+
+            record = {"name": dle["name"], "url": dle["url"], "id": dle["id"]}
+
+            if event["event"] in ("added", "readded"):
+                added.append(record)
+            elif event["event"] == "removed":
+                if event.get("reason"):
+                    record["reason"] = event["reason"]
+                removed.append(record)
+            elif event["event"] == "archived":
+                if dle.get("archive_url"):
+                    record["archive_url"] = dle["archive_url"]
+                earlier_removal = next(
+                    (e for e in dle.get("history", [])
+                     if e["event"] == "removed" and e["date"] < date),
+                    None,
+                )
+                if earlier_removal:
+                    record["note"] = f"Previously removed {earlier_removal['date']}."
+                archived.append(record)
+
+    added.sort(key=lambda d: d["name"].lower())
+    removed.sort(key=lambda d: d["name"].lower())
+    archived.sort(key=lambda d: d["name"].lower())
+    return added, removed, archived
+
+
+def prune_missing_dles(entry, known_ids):
+    dropped = 0
+    listed = entry.get("dles added", [])
+    kept = [d for d in listed if d["id"] in known_ids]
+
+    if len(kept) != len(listed):
+        dropped = len(listed) - len(kept)
+        names = ", ".join(d["name"] for d in listed if d["id"] not in known_ids)
+        print(f"Pruned {dropped} deleted dle(s) from the changelog: {names}")
+        if kept:
+            entry["dles added"] = kept
+        else:
+            del entry["dles added"]
+
+    return dropped
+
+
+def sync_changelog_from_yaml(date=None):
+    date = date or current_date()
+    dles = read_yaml_dles()
+    added, removed, archived = collect_events_for_date(dles, date)
+
+    changelog_json = read_changelog()
+    entry = next((e for e in changelog_json if e["date"] == date), None)
+
+    if not (added or removed or archived) and not entry:
+        print(f"No dle changes dated {date}")
+        return
+
+    if not entry:
+        entry = {"date": date}
+        changelog_json.insert(0, entry)
+
+    existing_added = {d["id"] for d in entry.get("dles added", [])}
+    existing_removed = {d["id"] for d in entry.get("dles removed", [])}
+    existing_archived = {d["id"] for d in entry.get("dles archived", [])}
+
+    new_added = [d for d in added if d["id"] not in existing_added]
+    new_removed = [d for d in removed if d["id"] not in existing_removed]
+    new_archived = [d for d in archived if d["id"] not in existing_archived]
+
+    if new_added:
+        entry.setdefault("dles added", []).extend(new_added)
+        entry["dles added"].sort(key=lambda d: d["name"].lower())
+    if new_removed:
+        entry.setdefault("dles removed", []).extend(new_removed)
+        entry["dles removed"].sort(key=lambda d: d["name"].lower())
+    if new_archived:
+        entry.setdefault("dles archived", []).extend(new_archived)
+        entry["dles archived"].sort(key=lambda d: d["name"].lower())
+
+    known_ids = {d["id"] for d in dles}
+    pruned = prune_missing_dles(entry, known_ids)
+
+    if not (new_added or new_removed or new_archived or pruned):
+        print(f"Changelog already up to date for {date}")
+        return
+
+    description = create_add_remove_description(
+        entry.get("dles added"), entry.get("dles removed"),
+        entry.get("dles archived"))
+    existing_description = entry.get("description", "")
+    existing_description = re.sub(r'Add \d+ dles?\. ', '', existing_description)
+    existing_description = re.sub(r'Remove \d+ dles?\. ', '', existing_description)
+    existing_description = re.sub(r'Archive \d+ dles?\. ', '', existing_description)
+    entry["description"] = description + existing_description
+
+    has_dles = any(k in entry for k in ("dles added", "dles removed", "dles archived"))
+    if not has_dles and not entry["description"].strip():
+        changelog_json.remove(entry)
+        print(f"Removed empty changelog entry for {date}")
+
+    backup_file(CHANGELOG_JSON)
+    with open(CHANGELOG_JSON, "w+") as f:
+        f.write(json.dumps(changelog_json, indent=2))
+
+    print(
+        f"Changelog {date}: added {len(new_added)}, "
+        f"removed {len(new_removed)}, archived {len(new_archived)}")
+
+
 def read_changelog():
     """Read and return the changelog from changelog.json."""
     with open(CHANGELOG_JSON, 'r') as f:
@@ -221,6 +352,8 @@ def changelog_dles_to_markdown_table(dles):
     df = pandas.DataFrame.from_dict(dles)
     df.index = df.index + 1
 
+    df = df.fillna("")
+
     return df.to_markdown(index=True)
 
 
@@ -230,21 +363,27 @@ def last_update_date():
     return changelog_json[0]["date"]
 
 
-def create_add_remove_description(dles_added, dles_removed):
+def create_add_remove_description(dles_added, dles_removed, dles_archived=None):
     """Generate a description string like 'Add 3 dles. Remove 1 dle.' from the given lists."""
     if not dles_added:
         dles_added = []
     if not dles_removed:
         dles_removed = []
+    if not dles_archived:
+        dles_archived = []
     dles_added_count = len(dles_added)
     dles_removed_count = len(dles_removed)
+    dles_archived_count = len(dles_archived)
     description = ""
     plural_added = "s" if dles_added_count > 1 or dles_added_count == 0 else ""
     plural_removed = "s" if dles_removed_count > 1 or dles_removed_count == 0 else ""
+    plural_archived = "s" if dles_archived_count > 1 or dles_archived_count == 0 else ""
     if dles_added_count > 0:
         description += f"Add {dles_added_count} dle{plural_added}. "
     if dles_removed_count > 0:
         description += f"Remove {dles_removed_count} dle{plural_removed}. "
+    if dles_archived_count > 0:
+        description += f"Archive {dles_archived_count} dle{plural_archived}. "
     return description
 
 
@@ -277,6 +416,11 @@ def changelog_json_to_md_str():
         if "dles removed" in day:
             result += "dles removed: \n"
             result += changelog_dles_to_markdown_table(day["dles removed"])
+            result += "\n"
+
+        if "dles archived" in day:
+            result += "dles archived: \n"
+            result += changelog_dles_to_markdown_table(day["dles archived"])
             result += "\n"
 
     return result
@@ -413,7 +557,7 @@ def update_removed_dles(removed_dles_changes, readded_dles_changes, old_dles):
             # Dle was removed before - update data and add new removal entry
             entry = removed_dles_by_id[dle_id]
             # Update fields to reflect latest state
-            for key in ["name", "url", "description", "category", "theme"]:
+            for key in ["name", "url", "description", "category", "themes"]:
                 if key in full_data:
                     entry[key] = full_data[key]
                 elif key in entry and key not in full_data:
@@ -427,7 +571,7 @@ def update_removed_dles(removed_dles_changes, readded_dles_changes, old_dles):
                 "id": dle_id,
                 "removals": [{"date_removed": date}]
             }
-            for key in ["description", "category", "theme"]:
+            for key in ["description", "category", "themes"]:
                 if key in full_data:
                     entry[key] = full_data[key]
             removed_dles_data.append(entry)

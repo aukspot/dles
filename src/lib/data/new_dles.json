@@ -1,17 +1,5 @@
 [
   {
-    "name": "Beat Me At Boggle",
-    "url": "https://beatmeatboggle.com",
-    "id": 802,
-    "date_added": "2026-08-02"
-  },
-  {
-    "name": "Cascadle",
-    "url": "https://cascadle.xyz",
-    "id": 803,
-    "date_added": "2026-08-02"
-  },
-  {
     "name": "Dowsle",
     "url": "https://dowsle.com",
     "id": 808,
@@ -24,22 +12,10 @@
     "date_added": "2026-08-26"
   },
   {
-    "name": "Estimatle",
-    "url": "https://estimatle.com",
-    "id": 804,
-    "date_added": "2026-08-02"
-  },
-  {
     "name": "Fermi",
     "url": "https://fermi.gg",
     "id": 810,
     "date_added": "2026-08-26"
-  },
-  {
-    "name": "FilmLink",
-    "url": "https://filmlink.io",
-    "id": 805,
-    "date_added": "2026-08-02"
   },
   {
     "name": "fridgle",
@@ -60,6 +36,12 @@
     "date_added": "2026-08-26"
   },
   {
+    "name": "HexHunt",
+    "url": "https://thehexhunt.com",
+    "id": 830,
+    "date_added": "2026-09-03"
+  },
+  {
     "name": "Krillion",
     "url": "https://krillion.io",
     "id": 814,
@@ -70,6 +52,12 @@
     "url": "https://johalloran.dev/lawndle/",
     "id": 815,
     "date_added": "2026-08-26"
+  },
+  {
+    "name": "Lettergrams",
+    "url": "https://puzzlist.com/lettergrams",
+    "id": 829,
+    "date_added": "2026-09-03"
   },
   {
     "name": "Mowkoban",
@@ -126,12 +114,6 @@
     "date_added": "2026-08-26"
   },
   {
-    "name": "Underline",
-    "url": "https://www.fromthethink.com/underline",
-    "id": 806,
-    "date_added": "2026-08-02"
-  },
-  {
     "name": "Vexle",
     "url": "https://vexle.org",
     "id": 825,
@@ -148,11 +130,5 @@
     "url": "https://yeartobeat.com",
     "id": 827,
     "date_added": "2026-08-26"
-  },
-  {
-    "name": "Zaggle",
-    "url": "https://playzaggle.com",
-    "id": 807,
-    "date_added": "2026-08-02"
   }
 ]

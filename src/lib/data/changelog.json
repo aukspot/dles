@@ -1,5 +1,196 @@
 [
   {
+    "date": "2026-09-03",
+    "dles added": [
+      {
+        "name": "HexHunt",
+        "url": "https://thehexhunt.com",
+        "id": 830
+      },
+      {
+        "name": "Lettergrams",
+        "url": "https://puzzlist.com/lettergrams",
+        "id": 829
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Crosslink",
+        "url": "https://romainpastureau.github.io/crosslink/",
+        "id": 526,
+        "reason": "No new puzzles. Archive still available, but awkward."
+      },
+      {
+        "name": "Netflix - Keysmash",
+        "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
+        "id": 664,
+        "reason": "No longer available."
+      },
+      {
+        "name": "Rotatly",
+        "url": "https://www.rotatly.com",
+        "id": 682,
+        "reason": "Link no longer works."
+      },
+      {
+        "name": "Totem Words",
+        "url": "https://totemwords.com",
+        "id": 506,
+        "reason": "No new puzzles. Archive still available, but awkward."
+      }
+    ],
+    "dles archived": [
+      {
+        "name": "Chronoodle",
+        "url": "https://chronoodle.com",
+        "id": 677,
+        "note": "Previously removed 2026-08-26."
+      },
+      {
+        "name": "Collections",
+        "url": "https://puzzmallow.com/collections",
+        "id": 58,
+        "archive_url": "https://puzzmallow.com/collections/archive",
+        "note": "Previously removed 2026-01-06."
+      },
+      {
+        "name": "Couplit",
+        "url": "https://couplit.io",
+        "id": 70,
+        "archive_url": "https://couplit.io/puzzle-archive",
+        "note": "Previously removed 2026-08-26."
+      },
+      {
+        "name": "GuessTen",
+        "url": "https://guessten.com",
+        "id": 155,
+        "archive_url": "https://www.guessten.com/archive.html",
+        "note": "Previously removed 2026-05-22."
+      },
+      {
+        "name": "GuessTheMovie.me",
+        "url": "https://guessthemovie.me",
+        "id": 519,
+        "note": "Previously removed 2026-04-20."
+      },
+      {
+        "name": "Listed",
+        "url": "https://listed.fun",
+        "id": "M15",
+        "note": "Previously removed 2025-06-11."
+      },
+      {
+        "name": "Mini Crossword (The Observer)",
+        "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+        "id": 229,
+        "note": "Previously removed 2026-05-18."
+      },
+      {
+        "name": "Numblino",
+        "url": "https://numblino.com",
+        "id": 552,
+        "note": "Previously removed 2026-08-26."
+      },
+      {
+        "name": "Outlier",
+        "url": "https://outlier.land",
+        "id": 639,
+        "note": "Previously removed 2026-03-28."
+      },
+      {
+        "name": "Spectra",
+        "url": "https://spectra.quest/puzzles/latest",
+        "id": 676,
+        "archive_url": "https://spectra.quest/puzzles",
+        "note": "Previously removed 2026-03-06."
+      },
+      {
+        "name": "Where in the USA is this?",
+        "url": "https://pudding.cool/games/where",
+        "id": 418,
+        "archive_url": "https://pudding.cool/games/where/?skip=true&game=0",
+        "note": "Previously removed 2025-08-30."
+      }
+    ],
+    "description": "Add 2 dles. Remove 4 dles. Archive 11 dles. <a href=\"https://dles.aukspot.com/archive\">View all archived dles</a>.<br/>Add <a href=\"https://dles.aukspot.com/category/words\">Words page which includes subcategories</a>, also linked to at the top of the Words category."
+  },
+  {
+    "date": "2026-08-27",
+    "dles archived": [
+      {
+        "name": "Chronoodle",
+        "url": "https://chronoodle.com",
+        "id": 677,
+        "note": "Previously removed 2026-08-26."
+      },
+      {
+        "name": "Collections",
+        "url": "https://puzzmallow.com/collections",
+        "id": 58,
+        "archive_url": "https://puzzmallow.com/collections/archive",
+        "note": "Previously removed 2026-01-06."
+      },
+      {
+        "name": "Couplit",
+        "url": "https://couplit.io",
+        "id": 70,
+        "note": "Previously removed 2026-08-26."
+      },
+      {
+        "name": "GuessTen",
+        "url": "https://guessten.com",
+        "id": 155,
+        "archive_url": "https://www.guessten.com/archive.html",
+        "note": "Previously removed 2026-05-22."
+      },
+      {
+        "name": "GuessTheMovie.me",
+        "url": "https://guessthemovie.me",
+        "id": 519,
+        "note": "Previously removed 2026-04-20."
+      },
+      {
+        "name": "Listed",
+        "url": "https://listed.fun",
+        "id": "M15",
+        "note": "Previously removed 2025-06-11."
+      },
+      {
+        "name": "Mini Crossword (The Observer)",
+        "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
+        "id": 229,
+        "note": "Previously removed 2026-05-18."
+      },
+      {
+        "name": "Numblino",
+        "url": "https://numblino.com",
+        "id": 552,
+        "note": "Previously removed 2026-08-26."
+      },
+      {
+        "name": "Outlier",
+        "url": "https://outlier.land",
+        "id": 639,
+        "note": "Previously removed 2026-03-28."
+      },
+      {
+        "name": "Spectra",
+        "url": "https://spectra.quest/puzzles/latest",
+        "id": 676,
+        "archive_url": "https://spectra.quest/puzzles",
+        "note": "Previously removed 2026-03-06."
+      },
+      {
+        "name": "Where in the USA is this?",
+        "url": "https://pudding.cool/games/where",
+        "id": 418,
+        "archive_url": "https://pudding.cool/games/where/?skip=true&game=0",
+        "note": "Previously removed 2025-08-30."
+      }
+    ],
+    "description": "Archive 11 dles. "
+  },
+  {
     "date": "2026-08-26",
     "dles added": [
       {

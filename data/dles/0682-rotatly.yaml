@@ -3,7 +3,9 @@ name: Rotatly
 url: https://www.rotatly.com
 description: Rotate cells until the outline is correct.
 category: Shapes/Patterns
-status: active
+status: removed
 history:
 - date: '2026-02-18'
   event: added
+- date: '2026-09-03'
+  event: removed

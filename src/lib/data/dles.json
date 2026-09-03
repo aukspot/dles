@@ -4,6 +4,9 @@
     "url": "https://wordnerd.co/23words",
     "description": "Unscramble 23 words, one by one, without running out of time.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 1
   },
   {
@@ -18,6 +21,9 @@
     "url": "https://www.hankgreen.com/fourbythree/",
     "description": "Group the words into 4 categories of 3 words apiece. One word is shared by each group.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 779
   },
   {
@@ -25,6 +31,9 @@
     "url": "https://7littlewords.com/7lw",
     "description": "Combine tiles to create words matching the clues, 5 rounds everyday",
     "category": "Words",
+    "themes": [
+      "Clues"
+    ],
     "id": 530
   },
   {
@@ -32,7 +41,9 @@
     "url": "https://qntm.org/files/absurdle/absurdle.html",
     "description": "An adversarial version of Wordle that actively avoids giving you the answer.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 2
   },
   {
@@ -40,7 +51,9 @@
     "url": "https://aceattorneydle.fr",
     "description": "A collection of daily games related to Ace Attorney.",
     "category": "Video Games",
-    "theme": "Ace Attorney",
+    "themes": [
+      "Ace Attorney"
+    ],
     "id": 457
   },
   {
@@ -76,7 +89,9 @@
     "url": "https://tryhardguides.com/adoptle",
     "description": "Guess the name of a pet that is up for adoption, given a picture of them.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 7
   },
   {
@@ -98,7 +113,9 @@
     "url": "https://alphalockgame.net",
     "description": "Word puzzle game inspired by Wordle and Mastermind.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 9
   },
   {
@@ -155,6 +172,9 @@
     "url": "https://www.antiwordle.com",
     "description": "Wordle except you're trying to avoid the secret word.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 615
   },
   {
@@ -176,7 +196,9 @@
     "url": "https://avatardle.com",
     "description": "A daily guessing game based on the show Avatar: The Last Airbender.",
     "category": "Movies/TV",
-    "theme": "Avatar: The Last Airbender",
+    "themes": [
+      "Avatar: The Last Airbender"
+    ],
     "id": 459
   },
   {
@@ -198,7 +220,9 @@
     "url": "https://www.balatrodle.com",
     "description": "Guess the Joker from the game Balatro.",
     "category": "Video Games",
-    "theme": "Balatro",
+    "themes": [
+      "Balatro"
+    ],
     "id": 14
   },
   {
@@ -241,7 +265,9 @@
     "url": "https://bazaardb.gg/doku",
     "description": "Doku-style trivia game for The Bazaar.",
     "category": "Video Games",
-    "theme": "The Bazaar",
+    "themes": [
+      "The Bazaar"
+    ],
     "id": 17
   },
   {
@@ -256,6 +282,9 @@
     "url": "https://beatmeatboggle.com",
     "description": "Try to beat Ava at Boggle. They played the board yesterday, you play it today.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 802
   },
   {
@@ -277,7 +306,9 @@
     "url": "https://betweenle.com",
     "description": "Guess the secret word hidden between other words before running out of guesses.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 19
   },
   {
@@ -306,6 +337,9 @@
     "url": "https://blockle.au",
     "description": "Fill a square grid with Tetris pieces to spell out words horizontally.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 460
   },
   {
@@ -313,6 +347,9 @@
     "url": "https://www.merriam-webster.com/games/blossom-word-game",
     "description": "Create 12 words using the letters on the petals, always including the center letter. You get more points for longer words.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 600
   },
   {
@@ -320,6 +357,9 @@
     "url": "https://bythomas.co.uk/blunderwall",
     "description": "Find the secret word on the Blunderwall in 4 tries.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 24
   },
   {
@@ -327,6 +367,9 @@
     "url": "https://simenmh.com/boggdle",
     "description": "Search for the best 3 words you can find in the Boggle grid.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 25
   },
   {
@@ -348,6 +391,9 @@
     "url": "https://www.bostonglobe.com/games/align/",
     "description": "Swap tiles in the grid so that each row and column forms a word.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 687
   },
   {
@@ -362,6 +408,9 @@
     "url": "https://www.theatlantic.com/games/bracket-city/",
     "description": "Solve the clues within brackets, eventually completing the puzzle. (From The Atlantic)",
     "category": "Words",
+    "themes": [
+      "Clues"
+    ],
     "id": 27
   },
   {
@@ -411,6 +460,9 @@
     "url": "https://cadgy.net",
     "description": "Make valid 5-letter words by selecting one letter from each column.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 680
   },
   {
@@ -460,6 +512,9 @@
     "url": "https://cascadle.xyz",
     "description": "Solve 5 linked Wordle puzzles, growing from 3 letters to 7 letters long.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 803
   },
   {
@@ -474,7 +529,9 @@
     "url": "https://categories.clevergoat.com",
     "description": "Group the words in the grid into the 4 secret categories, like Connections or Conexo.",
     "category": "Words",
-    "theme": "Find connections",
+    "themes": [
+      "Grouping"
+    ],
     "id": 39
   },
   {
@@ -489,6 +546,9 @@
     "url": "https://www.andrewt.net/puzzles/cell-tower",
     "description": "Divide the grid into regions such that each region represents a word.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 41
   },
   {
@@ -503,6 +563,9 @@
     "url": "https://cemantle.certitudes.org",
     "description": "Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 568
   },
   {
@@ -524,6 +587,10 @@
     "url": "https://puzzletrail.games/puzzles/chainagram",
     "description": "Make a chain linking two words together by changing one letter and making an anagram at each step.",
     "category": "Words",
+    "themes": [
+      "Word Ladders",
+      "Anagrams"
+    ],
     "id": 42
   },
   {
@@ -545,7 +612,9 @@
     "url": "https://www.chess.com/daily-chess-puzzle",
     "description": "Solve the daily chess puzzle from chess.com.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 44
   },
   {
@@ -553,7 +622,9 @@
     "url": "https://www.chessguessr.com",
     "description": "Given a snapshot from a chess game, guess the next 5 moves played.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 45
   },
   {
@@ -561,7 +632,9 @@
     "url": "https://jackli.gg/chessle",
     "description": "Guess today's entire opening Chess sequence.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 46
   },
   {
@@ -569,6 +642,9 @@
     "url": "https://www.chiddle.net",
     "description": "Try to find five high scoring words in the puzzle grid, like Boggle.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 47
   },
   {
@@ -576,6 +652,9 @@
     "url": "https://thechnlnk.com",
     "description": "Complete the chain of connected words by guessing all of the consonants, then all of the vowels.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 699
   },
   {
@@ -667,7 +746,9 @@
     "url": "https://clasherdle.pixelcrux.com/",
     "description": "A daily guessing game for Clash Royale.",
     "category": "Video Games",
-    "theme": "Clash Royale",
+    "themes": [
+      "Clash Royale"
+    ],
     "id": 461
   },
   {
@@ -675,6 +756,9 @@
     "url": "https://clickword.org",
     "description": "Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 54
   },
   {
@@ -710,6 +794,9 @@
     "url": "https://wordnerd.co/cluewords",
     "description": "Solve the clues to find the hidden words.",
     "category": "Words",
+    "themes": [
+      "Clues"
+    ],
     "id": 56
   },
   {
@@ -724,6 +811,9 @@
     "url": "https://wilf.live/cobble/",
     "description": "Find two words that together use up all the given letters.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 543
   },
   {
@@ -731,6 +821,9 @@
     "url": "https://codenames.game/daily/en",
     "description": "A daily set of puzzles from Codenames, a word association game.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 57
   },
   {
@@ -766,6 +859,9 @@
     "url": "https://combinations.org",
     "description": "Create words using combinations of letters from the grid.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 61
   },
   {
@@ -773,6 +869,9 @@
     "url": "https://onelook.com/?loc=rd&w=cyj",
     "description": "Rearrange the words into a chain of 2-word concepts.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 62
   },
   {
@@ -787,7 +886,9 @@
     "url": "https://conexo.ws/en",
     "description": "Form groups of 4 words that have something in common.",
     "category": "Words",
-    "theme": "Find connections",
+    "themes": [
+      "Grouping"
+    ],
     "id": 64
   },
   {
@@ -795,6 +896,9 @@
     "url": "https://connectionsgame.org",
     "description": "Group words that share a common thread. Basically a copy of NYT Connections but with 3 difficulty modes and a good archive.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 65
   },
   {
@@ -802,7 +906,9 @@
     "url": "https://contexto.me",
     "description": "Guess words to see how close they are to the secret word in terms of context, eventually guessing the secret word.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Semantics"
+    ],
     "id": 66
   },
   {
@@ -831,6 +937,9 @@
     "url": "https://www.couples.game",
     "description": "Guess the chained word pairs in 3 tries.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 69
   },
   {
@@ -852,6 +961,9 @@
     "url": "https://craftword.game",
     "description": "Get from the starting word to the ending word in as few words as possible. At each step you can either add a letter, remove a letter, change a letter, or rearrange letters.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 72
   },
   {
@@ -873,6 +985,9 @@
     "url": "https://puzzmallow.com/crossflip",
     "description": "Flip letter tiles to create words that fit today's theme.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 648
   },
   {
@@ -880,6 +995,9 @@
     "url": "https://crosshare.org",
     "description": "Daily mini crossword from an open-source community of crossword makers.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 606
   },
   {
@@ -887,15 +1005,10 @@
     "url": "https://crossherd.clevergoat.com",
     "description": "A daily mini crossword from Clever Goat.",
     "category": "Words",
-    "theme": "Crosswords",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 73
-  },
-  {
-    "name": "Crosslink",
-    "url": "https://romainpastureau.github.io/crosslink/",
-    "description": "Guess the two words crossed together that are related in some way.",
-    "category": "Words",
-    "id": 526
   },
   {
     "name": "Crosstune",
@@ -909,6 +1022,9 @@
     "url": "https://crosswordclub.com/puzzles/",
     "description": "Daily crossword by the Crossword Club.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 610
   },
   {
@@ -916,6 +1032,9 @@
     "url": "https://crosswordle.vercel.app",
     "description": "Fill in the grid to logically fit a series of Wordle guesses.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 75
   },
   {
@@ -923,6 +1042,10 @@
     "url": "https://crosswordle.com",
     "description": "Swap tiles to solve multiple Wordle puzzles crossed together.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Wordle-likes"
+    ],
     "id": 76
   },
   {
@@ -930,6 +1053,9 @@
     "url": "https://crosswordle.org",
     "description": "Solve multiple Wordle puzzles crossed together.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 77
   },
   {
@@ -937,7 +1063,9 @@
     "url": "https://cryptle.xyz",
     "description": "Slide each row of letters in to the right position to guess the secret word. You have 5 guesses.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 78
   },
   {
@@ -959,6 +1087,9 @@
     "url": "https://cyphrgame.com",
     "description": "Guess letters to form a word on each row of the pyramid, starting from the top row.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 79
   },
   {
@@ -973,6 +1104,9 @@
     "url": "https://dailyanalogy.com",
     "description": "Guess 5 analogies each day from different categories.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 462
   },
   {
@@ -980,6 +1114,10 @@
     "url": "https://dailycrypticle.com",
     "description": "Daily cryptic puzzle in the style of Wordle. You have 3 guesses.",
     "category": "Words",
+    "themes": [
+      "Cryptics",
+      "Wordle-likes"
+    ],
     "id": 463
   },
   {
@@ -1001,7 +1139,9 @@
     "url": "https://azgames.io/game/daily-fill-ins",
     "description": "Properly fill in the clue-less crossword with all of the words from the given word list.",
     "category": "Words",
-    "theme": "Crosswords",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 83
   },
   {
@@ -1009,6 +1149,9 @@
     "url": "https://www.dailygogen.com",
     "description": "Place the missing letters onto the grid so that the whole list of words can be made.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 587
   },
   {
@@ -1030,7 +1173,9 @@
     "url": "https://dailytens.com",
     "description": "Guess the top 10 items of today's category.",
     "category": "Trivia",
-    "theme": "Guess the List",
+    "themes": [
+      "Guess the List"
+    ],
     "id": 85
   },
   {
@@ -1066,6 +1211,9 @@
     "url": "https://decipher.wtf",
     "description": "Solve the daily cryptogram to reveal the quote.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 90
   },
   {
@@ -1073,6 +1221,9 @@
     "url": "https://playdecodex.com",
     "description": "A daily cryptography game. Decode a new quote every day!",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 91
   },
   {
@@ -1178,6 +1329,10 @@
     "url": "https://www.dooplepuzzle.com",
     "description": "Chain word combinations together to fit the given clues.",
     "category": "Words",
+    "themes": [
+      "Word Chains",
+      "Clues"
+    ],
     "id": 97
   },
   {
@@ -1185,6 +1340,10 @@
     "url": "https://zaratustra.itch.io/dordle",
     "description": "Solve 2 Wordle puzzles at the same time.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 98
   },
   {
@@ -1192,7 +1351,9 @@
     "url": "https://dotadle.net",
     "description": "Guess the Dota characters in these daily quizzes.",
     "category": "Video Games",
-    "theme": "Dota",
+    "themes": [
+      "Dota"
+    ],
     "id": 99
   },
   {
@@ -1200,6 +1361,10 @@
     "url": "https://dowsle.com",
     "description": "Find today's secret word by guessing words and seeing how close they are by both meaning and spelling.",
     "category": "Words",
+    "themes": [
+      "Semantics",
+      "Linguistics"
+    ],
     "id": 808
   },
   {
@@ -1214,7 +1379,10 @@
     "url": "https://www.duolockgame.net",
     "description": "Solve two Alphalock puzzles at the same time. Includes a Padlock (number) mode.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 101
   },
   {
@@ -1222,7 +1390,10 @@
     "url": "https://duotrigordle.com",
     "description": "Solve 32 Wordle puzzles at the same time.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 102
   },
   {
@@ -1230,7 +1401,9 @@
     "url": "https://echochess.com",
     "description": "Solve the chess puzzle where you have to capture all black pieces to win and your piece becomes what it captures.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 103
   },
   {
@@ -1238,6 +1411,9 @@
     "url": "https://eightile.com",
     "description": "Unscramble each word, adding a new letter each time. You have 5 minutes.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 104
   },
   {
@@ -1280,7 +1456,10 @@
     "url": "https://emojitest.com/en",
     "description": "Guess the hidden word represented by emojis.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Clues",
+      "Wordle-likes"
+    ],
     "id": 108
   },
   {
@@ -1288,7 +1467,9 @@
     "url": "https://enchantworldle.com",
     "description": "Guess the card from Magic the Gathering within 20 tries.",
     "category": "Card/Board Games",
-    "theme": "Magic the Gathering",
+    "themes": [
+      "Magic the Gathering"
+    ],
     "id": 109
   },
   {
@@ -1310,7 +1491,9 @@
     "url": "https://eruptle.app",
     "description": "Guess the 10 items that fit the prompt, kind of like Family Feud.",
     "category": "Trivia",
-    "theme": "Guess the List",
+    "themes": [
+      "Guess the List"
+    ],
     "id": 110
   },
   {
@@ -1367,7 +1550,9 @@
     "url": "https://frontofficesports.com/trivia/factle",
     "description": "Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.",
     "category": "Trivia",
-    "theme": "Guess the List",
+    "themes": [
+      "Guess the List"
+    ],
     "id": 116
   },
   {
@@ -1403,7 +1588,9 @@
     "url": "https://fibble.xyz",
     "description": "Wordle but it lies to you. (Like Lirdle)",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 118
   },
   {
@@ -1502,7 +1689,9 @@
     "url": "https://flipple.clevergoat.com",
     "description": "Transform the starting word to the target word by changing one letter at a time",
     "category": "Words",
-    "theme": "Transform words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 126
   },
   {
@@ -1531,6 +1720,9 @@
     "url": "https://foximax.com",
     "description": "Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.",
     "category": "Words",
+    "themes": [
+      "Letter Reveal"
+    ],
     "id": 782
   },
   {
@@ -1545,7 +1737,9 @@
     "url": "https://framedle.org",
     "description": "Guess the Warframe of the day.",
     "category": "Video Games",
-    "theme": "Warframe",
+    "themes": [
+      "Warframe"
+    ],
     "id": 470
   },
   {
@@ -1553,7 +1747,9 @@
     "url": "https://framedle.com",
     "description": "A collection of daily games related to Warframe.",
     "category": "Video Games",
-    "theme": "Warframe",
+    "themes": [
+      "Warframe"
+    ],
     "id": 523
   },
   {
@@ -1561,6 +1757,9 @@
     "url": "https://playfreestyle.co",
     "description": "Find 13 words that rhyme with today's word. The more syllables, the better!",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 589
   },
   {
@@ -1575,7 +1774,9 @@
     "url": "https://fusele.netlify.app/?daily",
     "description": "A Wordle variant in which each row has a unique twist.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 130
   },
   {
@@ -1583,7 +1784,9 @@
     "url": "https://futbol11.com/",
     "description": "A collection of daily games related to Soccer (F\u00fatbol).",
     "category": "Sports",
-    "theme": "Soccer",
+    "themes": [
+      "Soccer"
+    ],
     "id": 471
   },
   {
@@ -1591,7 +1794,9 @@
     "url": "https://flagdoku.com/futdoku.html",
     "description": "Guess 9 soccer players that fill the FUTDOKU grid.",
     "category": "Sports",
-    "theme": "Soccer",
+    "themes": [
+      "Soccer"
+    ],
     "id": 131
   },
   {
@@ -1725,6 +1930,9 @@
     "url": "https://gisnep.com",
     "description": "Solve the daily quote with the letters above each column.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 527
   },
   {
@@ -1760,6 +1968,10 @@
     "url": "https://glyph.today",
     "description": "Guess the word based on its glyph, or all of its letters stacked together.",
     "category": "Words",
+    "themes": [
+      "Decoding",
+      "Wordle-likes"
+    ],
     "id": 660
   },
   {
@@ -1781,6 +1993,9 @@
     "url": "https://gramjam.app",
     "description": "Clear the board in under 20 swaps, clearing letters by creating words on full rows or columns.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 143
   },
   {
@@ -1788,6 +2003,9 @@
     "url": "https://griddable.co.uk",
     "description": "Create a grid of words with a blind sequence of letters, mixing in your own letters as you go.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 703
   },
   {
@@ -1795,6 +2013,9 @@
     "url": "https://griddlegame.io",
     "description": "Form words by placing letters on the board to get the highest score you can in this Scrabble-like daily game.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 145
   },
   {
@@ -1802,6 +2023,10 @@
     "url": "https://www.gridogram.com",
     "description": "Reveal the quote by finding words in the grid of letters.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes",
+      "Word Searches"
+    ],
     "id": 681
   },
   {
@@ -1809,7 +2034,6 @@
     "url": "https://hryanjones.com/guess-my-word",
     "description": "Make guesses and see if they are alphabetically before or after the secret word.",
     "category": "Words",
-    "theme": "Guess the word",
     "id": 146
   },
   {
@@ -1866,6 +2090,9 @@
     "url": "https://guessthephrase.xyz",
     "description": "Solve each of the inner clues until you reveal the phrase, like Bracket City.",
     "category": "Words",
+    "themes": [
+      "Clues"
+    ],
     "id": 549
   },
   {
@@ -1978,7 +2205,9 @@
     "url": "https://hellowordl.net/?today",
     "description": "Play Wordle puzzles from 4 to 11 letters long.",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 166
   },
   {
@@ -1996,6 +2225,13 @@
     "id": 168
   },
   {
+    "name": "HexHunt",
+    "url": "https://thehexhunt.com",
+    "description": "Guess which hex cell each location is in on the world map, zoom in for more smaller hexes but more points.",
+    "category": "Geography",
+    "id": 830
+  },
+  {
     "name": "Hidden Mirrors",
     "url": "https://www.hidden-mirrors.com",
     "description": "A unique daily symmetry game where you try to match the given pattern.",
@@ -2007,7 +2243,9 @@
     "url": "https://www.hoopgrids.com",
     "description": "A daily NBA grid game.",
     "category": "Sports",
-    "theme": "Basketball",
+    "themes": [
+      "Basketball"
+    ],
     "id": 473
   },
   {
@@ -2022,7 +2260,9 @@
     "url": "https://hotsdle.zgame.studio/",
     "description": "Guess the daily hero from Heroes of the Storm.",
     "category": "Video Games",
-    "theme": "Heroes of the Storm",
+    "themes": [
+      "Heroes of the Storm"
+    ],
     "id": 474
   },
   {
@@ -2044,6 +2284,9 @@
     "url": "https://huewords.snellman.net",
     "description": "Fill the partitioned grid with letters to form 5-letter words, choosing from the given groups of letters.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 173
   },
   {
@@ -2107,7 +2350,9 @@
     "url": "https://isaacle.net",
     "description": "Guess the items from the game The Binding of Isaac in these daily quizzes.",
     "category": "Video Games",
-    "theme": "The Binding of Isaac",
+    "themes": [
+      "The Binding of Isaac"
+    ],
     "id": 181
   },
   {
@@ -2115,7 +2360,9 @@
     "url": "https://isaaconnect.com",
     "description": "Group items from The Binding of Isaac that share a common theme.",
     "category": "Video Games",
-    "theme": "The Binding of Isaac",
+    "themes": [
+      "The Binding of Isaac"
+    ],
     "id": 182
   },
   {
@@ -2165,6 +2412,9 @@
     "url": "https://fun.chicagotribune.com/game/tca-jumble-daily/",
     "description": "Unscramble each word to reveal letters to be used in the punchline of a punny cartoon.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 533
   },
   {
@@ -2172,6 +2422,9 @@
     "url": "https://jumblie.com",
     "description": "Find the 4 themed words hidden amongst the letters such that all letters are used exactly once.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 185
   },
   {
@@ -2186,6 +2439,10 @@
     "url": "https://karat.auronymous.com",
     "description": "Turn the rings of the ingot until each side forms a word - in 24 turns or less.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Anagrams"
+    ],
     "id": 187
   },
   {
@@ -2193,6 +2450,9 @@
     "url": "https://keyboardlines.com",
     "description": "Determine the mystery word just by following the swipe line on the keyboard.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 476
   },
   {
@@ -2200,6 +2460,9 @@
     "url": "https://www.washingtonpost.com/games/keyword",
     "description": "Find the target word by guessing the final letter of the vertical words.",
     "category": "Words",
+    "themes": [
+      "Letter Reveal"
+    ],
     "id": 188
   },
   {
@@ -2242,6 +2505,9 @@
     "url": "https://www.latimes.com/games/daily-crossword",
     "description": "Solve today's crossword from the Los Angeles Times.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 190
   },
   {
@@ -2249,7 +2515,9 @@
     "url": "https://www.latimes.com/games/jigsaw-puzzle",
     "description": "A daily jigsaw puzzle from the Los Angeles Times.",
     "category": "Shapes/Patterns",
-    "theme": "Find words",
+    "themes": [
+      "Find words"
+    ],
     "id": 478
   },
   {
@@ -2257,7 +2525,9 @@
     "url": "https://www.latimes.com/games/mini-crossword",
     "description": "A daily mini crossword from the Los Angeles Times.",
     "category": "Words",
-    "theme": "Crosswords",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 479
   },
   {
@@ -2265,7 +2535,9 @@
     "url": "https://www.latimes.com/games/sudoku",
     "description": "Daily sudoku puzzles across 5 difficulties from the Los Angeles Times.",
     "category": "Math/Logic",
-    "theme": "Sudoku",
+    "themes": [
+      "Sudoku"
+    ],
     "id": 481
   },
   {
@@ -2273,7 +2545,9 @@
     "url": "https://www.latimes.com/games/wordsearch",
     "description": "A daily word search puzzle from the Los Angeles Times.",
     "category": "Words",
-    "theme": "Find words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 480
   },
   {
@@ -2281,7 +2555,9 @@
     "url": "https://www.latimes.com/games/wordflower",
     "description": "Find words using the letters in the flower, always using the center letter.",
     "category": "Words",
-    "theme": "Find words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 482
   },
   {
@@ -2303,6 +2579,9 @@
     "url": "https://langle.uk",
     "description": "Guess the world language from a few example sentences.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 191
   },
   {
@@ -2324,6 +2603,9 @@
     "url": "https://letroso.com/en/daily",
     "description": "Guess the secret word that can be up to 10 letters long.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 192
   },
   {
@@ -2338,13 +2620,29 @@
     "url": "https://lettered.io",
     "description": "Move letter tiles on the board to spell out the hidden phrase.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 642
+  },
+  {
+    "name": "Lettergrams",
+    "url": "https://puzzlist.com/lettergrams",
+    "description": "Build connected words using the letter tiles, scoring as many points as you can.",
+    "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
+    "id": 829
   },
   {
     "name": "Letterinth",
     "url": "https://letterinth.com",
     "description": "Trace a quote inside a grid of letters, starting at the center and visiting each letter once.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 776
   },
   {
@@ -2352,6 +2650,9 @@
     "url": "https://letteripher.com",
     "description": "Guess letters to reveal all words of some daily category without losing all your lives.",
     "category": "Words",
+    "themes": [
+      "Letter Reveal"
+    ],
     "id": 193
   },
   {
@@ -2359,6 +2660,9 @@
     "url": "https://theletterloop.com",
     "description": "Place the 8 letters in the circle to make two 5-letter words that share their first and last letters.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 194
   },
   {
@@ -2366,6 +2670,9 @@
     "url": "https://lex.games/byavowel/",
     "description": "Unjumble five words by inserting a unique vowel into each word.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 196
   },
   {
@@ -2373,6 +2680,9 @@
     "url": "https://lex.games/connections/",
     "description": "Group words that share a common thread, like Connections.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 197
   },
   {
@@ -2380,6 +2690,10 @@
     "url": "https://lex.games/lexicogs/",
     "description": "Solve today's clues by combining blocks of letters. Like the game 7 Little Words.",
     "category": "Words",
+    "themes": [
+      "Clues",
+      "Anagrams"
+    ],
     "id": 198
   },
   {
@@ -2387,6 +2701,9 @@
     "url": "https://lex.games/mini/",
     "description": "A daily mini crossword from Lex.Games",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 199
   },
   {
@@ -2394,6 +2711,9 @@
     "url": "https://lex.games/six/",
     "description": "Guess the 6-letter word, like Wordle, but you don't have to guess real words. The answer is a real word.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 200
   },
   {
@@ -2401,6 +2721,9 @@
     "url": "https://lex.games/squaredance",
     "description": "Make a word with each group of letters, but you must add a letter to each word.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 201
   },
   {
@@ -2408,6 +2731,9 @@
     "url": "https://lexagon.com",
     "description": "Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 798
   },
   {
@@ -2415,6 +2741,9 @@
     "url": "https://lexicle.com",
     "description": "Guess the secret word based on its meaning.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 202
   },
   {
@@ -2422,7 +2751,9 @@
     "url": "https://lichess.org/training/daily",
     "description": "Solve the daily chess puzzle from lichess.org.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 203
   },
   {
@@ -2430,6 +2761,9 @@
     "url": "https://lingule.xyz",
     "description": "Guess the language of the today's word in 6 guesses or less.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 204
   },
   {
@@ -2437,6 +2771,10 @@
     "url": "https://www.linkedin.com/games/crossclimb",
     "description": "Guess the words that fit the clues, then rearrange to create a word ladder. Does not require a LinkedIn account.",
     "category": "Words",
+    "themes": [
+      "Word Ladders",
+      "Clues"
+    ],
     "id": 205
   },
   {
@@ -2458,6 +2796,9 @@
     "url": "https://www.linkedin.com/games/pinpoint",
     "description": "Guess today's category given as few clues as possible. Does not require a LinkedIn account.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 206
   },
   {
@@ -2479,6 +2820,9 @@
     "url": "https://www.linkedin.com/games/wend/",
     "description": "Find the hidden words that partition the grid of letters. Does not require a LinkedIn account.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 784
   },
   {
@@ -2500,6 +2844,9 @@
     "url": "https://linxicon.com",
     "description": "Connect two random words by creating a chain of new words that bridge the gap in their meanings.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 211
   },
   {
@@ -2507,6 +2854,9 @@
     "url": "https://lirdle.com",
     "description": "Wordle except each line contains a lie. (Like Fibble)",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 212
   },
   {
@@ -2542,7 +2892,9 @@
     "url": "https://loldle.net",
     "description": "A bunch of daily games where you guess the champion from League of Legends.",
     "category": "Video Games",
-    "theme": "League of Legends",
+    "themes": [
+      "League of Legends"
+    ],
     "id": 216
   },
   {
@@ -2578,7 +2930,9 @@
     "url": "https://mahjong-handle.update.sh",
     "description": "Guess the Riichi Mahjong hand in 6 tries.",
     "category": "Card/Board Games",
-    "theme": "Mahjong",
+    "themes": [
+      "Mahjong"
+    ],
     "id": 218
   },
   {
@@ -2642,7 +2996,9 @@
     "url": "https://www.matle.io",
     "description": "Guess the missing chess pieces on the board to match the checkmate from a real chess match.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 223
   },
   {
@@ -2671,7 +3027,9 @@
     "url": "https://www.mcdle.net",
     "description": "A collection of daily games related to Minecraft.",
     "category": "Video Games",
-    "theme": "Minecraft",
+    "themes": [
+      "Minecraft"
+    ],
     "id": 485
   },
   {
@@ -2700,7 +3058,9 @@
     "url": "https://minecraftle.zachmanson.com",
     "description": "Guess the crafting recipe from the game Minecraft.",
     "category": "Video Games",
-    "theme": "Minecraft",
+    "themes": [
+      "Minecraft"
+    ],
     "id": 228
   },
   {
@@ -2722,6 +3082,9 @@
     "url": "https://www.minutecryptic.com",
     "description": "Solve today's cryptic clue.",
     "category": "Words",
+    "themes": [
+      "Cryptics"
+    ],
     "id": 230
   },
   {
@@ -2729,6 +3092,9 @@
     "url": "https://tryhardguides.com/mislettered",
     "description": "Solve the word or phrase by guessing one letter at a time.",
     "category": "Words",
+    "themes": [
+      "Letter Reveal"
+    ],
     "id": 231
   },
   {
@@ -2750,7 +3116,9 @@
     "url": "https://monster-hunter-dle.akato.fr/classic",
     "description": "Guess the monster from the Monster Hunter series.",
     "category": "Video Games",
-    "theme": "Monster Hunter",
+    "themes": [
+      "Monster Hunter"
+    ],
     "id": 233
   },
   {
@@ -2891,6 +3259,9 @@
     "url": "https://www.nerdcube.games/dabble",
     "description": "Score as many points as you can by building words on a small custom Scrabble board.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 713
   },
   {
@@ -2905,6 +3276,9 @@
     "url": "https://www.netflix.com/tudum/puzzled/bonza/daily",
     "description": "Join fragments of letters together to form words that share a theme. Does not require a Netflix account.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 625
   },
   {
@@ -2912,6 +3286,9 @@
     "url": "https://www.netflix.com/tudum/puzzled/crossover/daily",
     "description": "Swap letters and emojis to form words that match the clues. Does not require a Netflix account.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 626
   },
   {
@@ -2920,13 +3297,6 @@
     "description": "Complete the image by finding the right spot for each piece. Does not require a Netflix account.",
     "category": "Shapes/Patterns",
     "id": 627
-  },
-  {
-    "name": "Netflix - Keysmash",
-    "url": "https://www.netflix.com/tudum/puzzled/keysmash/daily",
-    "description": "Guess the themed words with their vowels removed. Does not require a Netflix account.",
-    "category": "Words",
-    "id": 664
   },
   {
     "name": "Netflix - Shapes",
@@ -2954,6 +3324,9 @@
     "url": "https://www.netflix.com/tudum/puzzled/waywords/daily",
     "description": "A themed word search with emojis where the words make a path. Does not require a Netflix account.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 629
   },
   {
@@ -2989,7 +3362,9 @@
     "url": "https://nookle.net",
     "description": "Guess the villager from Animal Crossing.",
     "category": "Video Games",
-    "theme": "Animal Crossing",
+    "themes": [
+      "Animal Crossing"
+    ],
     "id": 254
   },
   {
@@ -2997,6 +3372,9 @@
     "url": "https://daily.gametje.com/nounsense",
     "description": "Guess the most common noun that follows the adjective, 10 words every day.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 749
   },
   {
@@ -3032,6 +3410,9 @@
     "url": "https://www.nytimes.com/games/connections",
     "description": "Group words that share a common thread.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 258
   },
   {
@@ -3053,6 +3434,9 @@
     "url": "https://www.nytimes.com/games/strands",
     "description": "Find hidden words and uncover the day's theme.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 261
   },
   {
@@ -3067,6 +3451,9 @@
     "url": "https://www.nytimes.com/games/wordle/index.html",
     "description": "Guess the 5-letter word in six or fewer attempts.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 263
   },
   {
@@ -3074,6 +3461,10 @@
     "url": "https://www.britannica.com/games/octordle",
     "description": "Solve 8 Wordle puzzles at the same time. You have 13 guesses.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 264
   },
   {
@@ -3109,6 +3500,9 @@
     "url": "https://www.omiword.com",
     "description": "Form 4 common words by arranging letter tiles that are locked to different regions of the grid.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 489
   },
   {
@@ -3130,6 +3524,9 @@
     "url": "https://puzzlist.com/onewordsearch/",
     "description": "Repeatedly search for the only word in a grid of letters.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 270
   },
   {
@@ -3151,6 +3548,9 @@
     "url": "https://www.playorbits.com",
     "description": "Place the 8 words in the correct order in the orbit by creating compound words or 2-word phrases.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 271
   },
   {
@@ -3158,7 +3558,9 @@
     "url": "https://owdle.guessing.day",
     "description": "Daily games related to Overwatch 2. Guess the character or guess the conversation between two characters.",
     "category": "Video Games",
-    "theme": "Overwatch",
+    "themes": [
+      "Overwatch"
+    ],
     "id": 272
   },
   {
@@ -3180,6 +3582,9 @@
     "url": "https://pairdown.com",
     "description": "Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 591
   },
   {
@@ -3187,7 +3592,9 @@
     "url": "https://palwordle.net",
     "description": "Daily games related to the video game Palworld.",
     "category": "Video Games",
-    "theme": "Palworld",
+    "themes": [
+      "Palworld"
+    ],
     "id": 274
   },
   {
@@ -3202,6 +3609,9 @@
     "url": "https://www.parseword.com",
     "description": "Solve today's cryptic clue through careful deduction. Great for those new to cryptics.",
     "category": "Words",
+    "themes": [
+      "Cryptics"
+    ],
     "id": 719
   },
   {
@@ -3265,6 +3675,9 @@
     "url": "https://petalgrams.com",
     "description": "Make words using the letters on the flower, aiming for a pangram. More letters are added as you go.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 819
   },
   {
@@ -3272,6 +3685,9 @@
     "url": "https://phrasicle.com",
     "description": "Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 554
   },
   {
@@ -3279,6 +3695,9 @@
     "url": "https://phrasle.com",
     "description": "Reveal the phrase by guessing one letter at a time.",
     "category": "Words",
+    "themes": [
+      "Letter Reveal"
+    ],
     "id": 279
   },
   {
@@ -3293,7 +3712,9 @@
     "url": "https://pikadoku.dentotino.com",
     "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column. More complex than Pokedoku.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 491
   },
   {
@@ -3301,7 +3722,9 @@
     "url": "https://semantle.pimanrul.es",
     "description": "Guess words to see how close they are to the secret word on a graph, and see where others are guessing as well!",
     "category": "Words",
-    "theme": "Guess the word",
+    "themes": [
+      "Semantics"
+    ],
     "id": 492
   },
   {
@@ -3316,6 +3739,9 @@
     "url": "https://pivotthegame.com",
     "description": "Create today's word by rotating its letters into the gold row.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 692
   },
   {
@@ -3330,6 +3756,9 @@
     "url": "https://pixletters.com",
     "description": "Guess the word, except each letter is represented in a pixel grid.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 282
   },
   {
@@ -3344,6 +3773,9 @@
     "url": "https://plausiblegame.com/en",
     "description": "Guess the real definition of today's obscure word, then make up a fake definition for tomorrow's word.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 612
   },
   {
@@ -3379,7 +3811,9 @@
     "url": "https://pokedle.com",
     "description": "Guess the daily Pokemon from all generations.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 288
   },
   {
@@ -3387,7 +3821,9 @@
     "url": "https://pokedle.net",
     "description": "Guess the Pokemon in these daily quizzes.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 289
   },
   {
@@ -3395,7 +3831,9 @@
     "url": "https://pokedoku.com",
     "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 290
   },
   {
@@ -3403,7 +3841,9 @@
     "url": "https://www.pokegrid.net",
     "description": "Guess the combination of attributes of pokemon in a grid.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 493
   },
   {
@@ -3411,7 +3851,9 @@
     "url": "https://pokerating.com/puzzle",
     "description": "Guess an unknown Pokemon based on its in game information and how popular it is, using the ratings of other people.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 494
   },
   {
@@ -3419,7 +3861,9 @@
     "url": "https://poklegame.com",
     "description": "Guess the 5 board cards in this daily Texas Holdem challenge.",
     "category": "Card/Board Games",
-    "theme": "Poker",
+    "themes": [
+      "Poker"
+    ],
     "id": 291
   },
   {
@@ -3427,6 +3871,9 @@
     "url": "https://www.polygonle.com",
     "description": "Guess the word in 6 tries, like Wordle. Each unique shape over a column represents a letter.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 292
   },
   {
@@ -3448,6 +3895,9 @@
     "url": "https://poople.io",
     "description": "Get to 'POOP' in as few steps as possible!",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 520
   },
   {
@@ -3490,7 +3940,9 @@
     "url": "https://pufferdle.com",
     "description": "Catch a fish from the game Stardew Valley and then guess what fish it was.",
     "category": "Video Games",
-    "theme": "Stardew Valley",
+    "themes": [
+      "Stardew Valley"
+    ],
     "id": 296
   },
   {
@@ -3505,6 +3957,9 @@
     "url": "https://www.puzzmo.com/game/bongo",
     "description": "Lay tiles onto the grid to spell the best 6 words you can.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 297
   },
   {
@@ -3512,6 +3967,9 @@
     "url": "https://www.puzzmo.com/play/circuits",
     "description": "Place words into the empty boxes so that each connection of two words make a compound word.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 53
   },
   {
@@ -3519,6 +3977,9 @@
     "url": "https://www.puzzmo.com/play/crossword",
     "description": "Crosswords without getting stuck.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 298
   },
   {
@@ -3540,7 +4001,9 @@
     "url": "https://www.puzzmo.com/play/pile-up-poker",
     "description": "Make poker hands by placing cards onto the grid.",
     "category": "Card/Board Games",
-    "theme": "Poker",
+    "themes": [
+      "Poker"
+    ],
     "id": 301
   },
   {
@@ -3548,7 +4011,9 @@
     "url": "https://www.puzzmo.com/play/really-bad-chess",
     "description": "Checkmate the opponent's king in this randomized Chess variant.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 302
   },
   {
@@ -3556,6 +4021,9 @@
     "url": "https://www.puzzmo.com/play/spelltower",
     "description": "Find words to clear tiles in the falling grid.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 303
   },
   {
@@ -3563,6 +4031,9 @@
     "url": "https://www.puzzmo.com/play/typeshift",
     "description": "Slide columns of letters to make words, using all of the letters along the way.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 304
   },
   {
@@ -3584,6 +4055,9 @@
     "url": "https://puzzmallow.com/quickflip",
     "description": "Flip the tiles to make an 8 letter word. Two words are possible, but only one is the correct answer.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 306
   },
   {
@@ -3591,7 +4065,9 @@
     "url": "https://www.quintalist.com",
     "description": "Correctly choose the top 5 entries in 5 tries or fewer.",
     "category": "Trivia",
-    "theme": "Guess the List",
+    "themes": [
+      "Guess the List"
+    ],
     "id": 308
   },
   {
@@ -3599,6 +4075,10 @@
     "url": "https://quintessential.fun",
     "description": "Solve each of the 5 horizontal words in as few swaps as possible.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Wordle-likes"
+    ],
     "id": 309
   },
   {
@@ -3620,6 +4100,9 @@
     "url": "https://quizmoji.com",
     "description": "Answer each clue with pairs of emojis.",
     "category": "Words",
+    "themes": [
+      "Clues"
+    ],
     "id": 311
   },
   {
@@ -3634,13 +4117,17 @@
     "url": "https://www.merriam-webster.com/games/quordle/#/",
     "description": "Solve 4 Wordle puzzles at the same time.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 312
   },
   {
     "name": "Quotadle",
     "url": "https://quotadle.com",
     "description": "Daily typing challenge featuring memorable quotes.",
-    "category": "Words",
+    "category": "Miscellaneous",
     "id": 820
   },
   {
@@ -3655,7 +4142,9 @@
     "url": "https://r6dle.net",
     "description": "A collection of daily guessing games related to Tom Clancy's Rainbow Six Siege.",
     "category": "Video Games",
-    "theme": "Raindbow Six",
+    "themes": [
+      "Raindbow Six"
+    ],
     "id": 496
   },
   {
@@ -3670,6 +4159,9 @@
     "url": "https://rackdle.fun",
     "description": "Try to find the best move in a tournament Scrabble game. Your move gets graded based on all possible moves.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 822
   },
   {
@@ -3677,6 +4169,9 @@
     "url": "https://raddle.quest",
     "description": "Solve the word ladder by transforming each word in some way, with the scrambled clues as guidance.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 314
   },
   {
@@ -3708,8 +4203,8 @@
     "id": 316
   },
   {
-    "name": "Redividers",
-    "url": "https://redividers.netlify.app",
+    "name": "Redividers - Storylines",
+    "url": "https://storylines.redividers.app",
     "description": "Find the word that fits the first blank, then split it to fill in the remaining blank(s).",
     "category": "Words",
     "id": 317
@@ -3733,6 +4228,9 @@
     "url": "https://regexle.ithea.de",
     "description": "Guess the secret regular expression by testing sequences of characters.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 319
   },
   {
@@ -3775,6 +4273,9 @@
     "url": "https://reversle.net",
     "description": "Basically the reverse of Wordle. You start with the solution and walk backwards.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 498
   },
   {
@@ -3782,6 +4283,9 @@
     "url": "https://rewordio.com",
     "description": "Move stacks of letters between columns to solve the clues.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 644
   },
   {
@@ -3789,6 +4293,9 @@
     "url": "https://www.rhymetime.co",
     "description": "Guess the three words that all rhyme.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 325
   },
   {
@@ -3841,13 +4348,6 @@
     "id": 329
   },
   {
-    "name": "Rotatly",
-    "url": "https://www.rotatly.com",
-    "description": "Rotate cells until the outline is correct.",
-    "category": "Shapes/Patterns",
-    "id": 682
-  },
-  {
     "name": "Royal Family",
     "url": "https://coffeefirst.games/royal-family",
     "description": "Place the chess pieces on the board so that each zone has a piece and no piece can attack another.",
@@ -3866,7 +4366,9 @@
     "url": "https://runedle.com",
     "description": "Guess today's Runescape NPC.",
     "category": "Video Games",
-    "theme": "RuneScape",
+    "themes": [
+      "RuneScape"
+    ],
     "id": 330
   },
   {
@@ -3895,6 +4397,9 @@
     "url": "https://playscramble.vercel.app/?daily=1",
     "description": "Guess as many valid words as possible for each row of a scrambled grid of letters.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 332
   },
   {
@@ -3923,6 +4428,9 @@
     "url": "https://searchle.net",
     "description": "Guess the secret word of the day by completing the Google search prompt.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 334
   },
   {
@@ -3930,6 +4438,10 @@
     "url": "https://sedecordle.com",
     "description": "Solve 16 wordles at the same time. You have 21 guesses.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 335
   },
   {
@@ -3944,6 +4456,9 @@
     "url": "https://semantle.com",
     "description": "Guess words to see how close they are to the secret word semantically, eventually guessing the secret word.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 336
   },
   {
@@ -3965,6 +4480,10 @@
     "url": "https://64ordle.au/?mode=daily",
     "description": "Solve 64 Wordle puzzles at the same time.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes",
+      "Multi-Board"
+    ],
     "id": 338
   },
   {
@@ -3993,6 +4512,9 @@
     "url": "https://shrinkle.org",
     "description": "Remove letters and make new words until you find the hidden phrase.",
     "category": "Words",
+    "themes": [
+      "Rearrange"
+    ],
     "id": 740
   },
   {
@@ -4000,6 +4522,9 @@
     "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo",
     "description": "Make a word using all the letters on the wheel, adding a new letter after each correct guess.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 577
   },
   {
@@ -4014,6 +4539,9 @@
     "url": "https://playsillylittlegames.com/codes",
     "description": "Guess the word or phrase represented by today's code.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 341
   },
   {
@@ -4021,6 +4549,9 @@
     "url": "https://slate.com/games/pears",
     "description": "Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 679
   },
   {
@@ -4028,7 +4559,9 @@
     "url": "https://smashdle.net",
     "description": "A bunch of daily games where you guess the character from Super Smash Bros.",
     "category": "Video Games",
-    "theme": "Super Smash Bros",
+    "themes": [
+      "Super Smash Bros"
+    ],
     "id": 342
   },
   {
@@ -4036,6 +4569,9 @@
     "url": "https://smixed.com",
     "description": "Make increasingly longer words using the given 6 letters, each word starting with a different letter.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 343
   },
   {
@@ -4043,6 +4579,9 @@
     "url": "https://www.hankgreen.com/smush/",
     "description": "Create words using the 9 letters. Each letter gets 5 uses except the center letter, which must be in each word.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 801
   },
   {
@@ -4050,7 +4589,9 @@
     "url": "https://snapdle.github.io/classic",
     "description": "Guess the card from the game Marvel Snap.",
     "category": "Video Games",
-    "theme": "Marvel Snap",
+    "themes": [
+      "Marvel Snap"
+    ],
     "id": 344
   },
   {
@@ -4086,6 +4627,9 @@
     "url": "https://sortdle.com",
     "description": "Sort letters into tubes to form the hidden words without running out of moves.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 499
   },
   {
@@ -4093,7 +4637,9 @@
     "url": "https://malthesers.github.io/soulsborndle",
     "description": "Guess bosses from the Soulsborne games by their health, souls, weaknesses and resistances. For fans of Elden Ring, Dark Souls, Demon Souls, and Bloodborne.",
     "category": "Video Games",
-    "theme": "Souls",
+    "themes": [
+      "Souls"
+    ],
     "id": 348
   },
   {
@@ -4101,6 +4647,9 @@
     "url": "https://spaceword.org",
     "description": "Create crosswords using all letters, using as little space as possible.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 349
   },
   {
@@ -4108,6 +4657,9 @@
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 350
   },
   {
@@ -4115,6 +4667,9 @@
     "url": "https://spellcheck.xyz",
     "description": "Spell the words correctly after listening to them.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 351
   },
   {
@@ -4122,6 +4677,9 @@
     "url": "https://spelliegame.com",
     "description": "Wordle for young spellers with 3 difficulty modes.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 352
   },
   {
@@ -4136,6 +4694,9 @@
     "url": "https://spellsbee.com",
     "description": "Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 353
   },
   {
@@ -4143,6 +4704,9 @@
     "url": "https://lessgames.com/spellingbee",
     "description": "Spell the words based on their pronunciation. Optionally get a definition or use it in a sentence.",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 670
   },
   {
@@ -4150,6 +4714,9 @@
     "url": "https://playspindle.com",
     "description": "Rearrange the grid of letters so that the target word is spelled out. Rearranging is done by spinning words.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 354
   },
   {
@@ -4178,6 +4745,9 @@
     "url": "https://www.sporcle.com/acrostic/todays-acrostic",
     "description": "A daily acrostic puzzle from Sporcle.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 557
   },
   {
@@ -4199,6 +4769,9 @@
     "url": "https://fubargames.se/squardle",
     "description": "A complex Wordle variant where your guesses count in two directions and cycle between three positions.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 357
   },
   {
@@ -4206,6 +4779,9 @@
     "url": "https://squaredle.app",
     "description": "Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. Two puzzles each day.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 358
   },
   {
@@ -4213,6 +4789,9 @@
     "url": "https://squares.org",
     "description": "Find all of the words in this daily Boggle game.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 359
   },
   {
@@ -4220,6 +4799,9 @@
     "url": "https://squareword.org",
     "description": "Guess 5-letter words to uncover the square of words both horizontally and vertically.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 360
   },
   {
@@ -4227,6 +4809,9 @@
     "url": "https://imsqueezy.com",
     "description": "Insert the given letters into the given words to make new words and reveal the secret word, phrase, or name.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 361
   },
   {
@@ -4234,7 +4819,9 @@
     "url": "https://squirdle.fireblend.com/daily.html",
     "description": "Guess today's pokemon within 9 guesses.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 362
   },
   {
@@ -4249,6 +4836,9 @@
     "url": "https://puzzlist.com/stackdown/",
     "description": "Clear the stack of letters by finding each of the 5-letter words.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 558
   },
   {
@@ -4256,6 +4846,9 @@
     "url": "https://stacked.clevergoat.com",
     "description": "Find groups of different sizes that share something in common.",
     "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
     "id": 363
   },
   {
@@ -4263,6 +4856,10 @@
     "url": "https://www.stackle.fun",
     "description": "Build the tallest possible stack of words, swapping out one letter and scrambling the rest with each new word.",
     "category": "Words",
+    "themes": [
+      "Word Ladders",
+      "Anagrams"
+    ],
     "id": 364
   },
   {
@@ -4270,7 +4867,9 @@
     "url": "https://stardewdle.com/game",
     "description": "Guess today's mystery crop from Stardew Valley.",
     "category": "Video Games",
-    "theme": "Stardew Valley",
+    "themes": [
+      "Stardew Valley"
+    ],
     "id": 366
   },
   {
@@ -4292,6 +4891,9 @@
     "url": "https://www.statnews.com/stat-mini-crossword/",
     "description": "A weekday mini crossword that's often health and medicine focused.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 671
   },
   {
@@ -4320,6 +4922,9 @@
     "url": "https://steppedupdle.com",
     "description": "Solve 4 Wordle puzzles in a row, each word one letter longer than the last. You have 20 total guesses.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 763
   },
   {
@@ -4327,6 +4932,10 @@
     "url": "https://stepwords.xyz",
     "description": "A word ladder game where each word is an anagram of the previous word plus an extra letter.",
     "category": "Words",
+    "themes": [
+      "Word Ladders",
+      "Anagrams"
+    ],
     "id": 716
   },
   {
@@ -4341,7 +4950,9 @@
     "url": "https://streetfighterdle.net",
     "description": "Guess the daily Street Fighter character in as few tries as possible.",
     "category": "Video Games",
-    "theme": "Street Fighter",
+    "themes": [
+      "Street Fighter"
+    ],
     "id": 370
   },
   {
@@ -4384,6 +4995,9 @@
     "url": "https://lazyguyy.github.io/survivle",
     "description": "Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 374
   },
   {
@@ -4391,6 +5005,10 @@
     "url": "https://nibble.games/swapple/swapple-easy.html",
     "description": "Swap letters such that every row and column is a word.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Wordle-likes"
+    ],
     "id": 375
   },
   {
@@ -4405,6 +5023,9 @@
     "url": "https://www.symble.app",
     "description": "A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 377
   },
   {
@@ -4447,6 +5068,9 @@
     "url": "https://www.ted.com/games/letter-brew",
     "description": "Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 573
   },
   {
@@ -4454,6 +5078,9 @@
     "url": "https://www.ted.com/games/spellcheck",
     "description": "Daily spelling challenges made in collaboration with Spellcheck.xyz",
     "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
     "id": 741
   },
   {
@@ -4468,7 +5095,9 @@
     "url": "https://www.terradle.com",
     "description": "Guess today's weapon from the game Terraria.",
     "category": "Video Games",
-    "theme": "Terraria",
+    "themes": [
+      "Terraria"
+    ],
     "id": 382
   },
   {
@@ -4483,7 +5112,9 @@
     "url": "https://www.tf2dle.com",
     "description": "Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.",
     "category": "Video Games",
-    "theme": "Team Fortress 2",
+    "themes": [
+      "Team Fortress 2"
+    ],
     "id": 383
   },
   {
@@ -4491,7 +5122,9 @@
     "url": "https://tftdle.gg/classic",
     "description": "Daily games related to Teamfight Tactics.",
     "category": "Video Games",
-    "theme": "Teamfight Tactics",
+    "themes": [
+      "Teamfight Tactics"
+    ],
     "id": 384
   },
   {
@@ -4499,6 +5132,9 @@
     "url": "https://www.theatlantic.com/games/daily-crossword/",
     "description": "A daily crossword from The Atlantic.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 385
   },
   {
@@ -4517,9 +5153,12 @@
   },
   {
     "name": "The Daily Spell",
-    "url": "https://www.the-daily-spell.com",
+    "url": "https://www.the-daily-spell.com/today",
     "description": "Unscramble the fictional headline by dropping letters into place.",
     "category": "Words",
+    "themes": [
+      "Decoding"
+    ],
     "id": 634
   },
   {
@@ -4527,6 +5166,9 @@
     "url": "https://www.theguardian.com/crosswords/series/cryptic",
     "description": "A weekday cryptic crossword from The Guardian.",
     "category": "Words",
+    "themes": [
+      "Cryptics"
+    ],
     "id": 698
   },
   {
@@ -4534,6 +5176,9 @@
     "url": "https://www.theguardian.com/crosswords/series/quick",
     "description": "A small crossword puzzle from The Guardian. New puzzle 6 days a week.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 645
   },
   {
@@ -4583,6 +5228,10 @@
     "url": "https://thirdle.org",
     "description": "Solve 3 Wordle puzzles crossed together.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Wordle-likes"
+    ],
     "id": 388
   },
   {
@@ -4590,6 +5239,9 @@
     "url": "https://www.threemagicwords.app/play",
     "description": "Place letters in the empty spaces to form 3 words. Five rounds per day.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 389
   },
   {
@@ -4618,6 +5270,9 @@
     "url": "https://www.tictacword.com",
     "description": "Make three in a row by guessing words that fit today's theme, like Tic-Tac-Toe meets Wordle.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 787
   },
   {
@@ -4639,6 +5294,9 @@
     "url": "https://tiledwords.com",
     "description": "Move and rotate tiles to find clues, connect words, and rebuild a broken crossword. ",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 580
   },
   {
@@ -4646,6 +5304,9 @@
     "url": "https://gamebunny.app/tiler",
     "description": "Assemble tiles with unique designs to recompose intertwined words. Play in English, or learn French words as well!",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 522
   },
   {
@@ -4716,6 +5377,10 @@
     "url": "https://toddle-puzzle.web.app",
     "description": "Guess the secret word or phrase, starting with a 4-letter word whose letters appear in the same order.",
     "category": "Words",
+    "themes": [
+      "Letter Reveal",
+      "Clues"
+    ],
     "id": 396
   },
   {
@@ -4723,15 +5388,10 @@
     "url": "https://topfivetrivia.com",
     "description": "Guess the top 5 items of today's category.",
     "category": "Trivia",
-    "theme": "Guess the List",
+    "themes": [
+      "Guess the List"
+    ],
     "id": 397
-  },
-  {
-    "name": "Totem Words",
-    "url": "https://totemwords.com",
-    "description": "Guess the words associated their emoji category, then slide those words to solve the vertical category.",
-    "category": "Words",
-    "id": 506
   },
   {
     "name": "Tracell",
@@ -4745,6 +5405,9 @@
     "url": "https://www.traindle.io",
     "description": "Chain together words to form familiar phrases. Timed-based word game.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 507
   },
   {
@@ -4787,6 +5450,9 @@
     "url": "https://truncate.town",
     "description": "Place a chain of tiles on the board and reach the opponent's base before they reach yours.",
     "category": "Words",
+    "themes": [
+      "Scrabble-likes"
+    ],
     "id": 402
   },
   {
@@ -4822,6 +5488,9 @@
     "url": "https://www.fromthethink.com/underline",
     "description": "A word chain game with multiple routes to the final word.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 806
   },
   {
@@ -4829,6 +5498,9 @@
     "url": "https://games.usatoday.com/games/uclick-unolingo",
     "description": "Solve the clueless crossword by using each letter of the English alphabet exactly once.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 404
   },
   {
@@ -4836,7 +5508,9 @@
     "url": "https://valodle.eu",
     "description": "Test your Valorant knowledge in these daily games.",
     "category": "Video Games",
-    "theme": "Valorant",
+    "themes": [
+      "Valorant"
+    ],
     "id": 407
   },
   {
@@ -4844,6 +5518,9 @@
     "url": "https://verticle.netlify.app",
     "description": "A vertical variant of Wordle.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 408
   },
   {
@@ -4886,6 +5563,9 @@
     "url": "https://www.vox.com/21523212/crossword-puzzles-free-daily-printable",
     "description": "A free daily crossword from Vox, skips Sundays.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 412
   },
   {
@@ -4900,6 +5580,10 @@
     "url": "https://wafflegame.net/daily",
     "description": "Swap letters to create words both horizontally and vertically. Seems to have been made before Word Waffle.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Wordle-likes"
+    ],
     "id": 413
   },
   {
@@ -4921,7 +5605,9 @@
     "url": "https://wardlegame.com/",
     "description": "A collection of daily games related to War Thunder",
     "category": "Video Games",
-    "theme": "War Thunder",
+    "themes": [
+      "War Thunder"
+    ],
     "id": 509
   },
   {
@@ -4929,6 +5615,9 @@
     "url": "https://www.washingtonpost.com/games/crossword/",
     "description": "A daily crossword from the Washington Post",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 609
   },
   {
@@ -4936,7 +5625,9 @@
     "url": "https://dentotino.com/weakdle",
     "description": "Guess the Pokemon type based on its weaknesses to the attacking types.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 510
   },
   {
@@ -4944,7 +5635,9 @@
     "url": "https://weakdoku.dentotino.com",
     "description": "Fill out the grid with Pok\u00e9mon based on the weaknesses described in each cell's row and column.",
     "category": "Video Games",
-    "theme": "Pokemon",
+    "themes": [
+      "Pokemon"
+    ],
     "id": 511
   },
   {
@@ -4959,6 +5652,9 @@
     "url": "https://weavergame.org",
     "description": "Weave your way from the start word to the end word, changing only one letter at a time.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 414
   },
   {
@@ -4973,6 +5669,10 @@
     "url": "https://bennw.github.io/werdel/#daily",
     "description": "Wordle except you're guessing based on the word's pronunciation as represented by the International Phonetic Alphabet (IPA).",
     "category": "Words",
+    "themes": [
+      "Linguistics",
+      "Wordle-likes"
+    ],
     "id": 686
   },
   {
@@ -5043,6 +5743,9 @@
     "url": "https://www.worchle.com",
     "description": "Find the keyword in the word search before running out of guesses. Three increasingly difficult puzzles everyday.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 423
   },
   {
@@ -5050,6 +5753,9 @@
     "url": "https://wordbox.game",
     "description": "Swap letters until each row and column forms a valid word.",
     "category": "Words",
+    "themes": [
+      "Rearranging"
+    ],
     "id": 424
   },
   {
@@ -5057,6 +5763,9 @@
     "url": "https://wordnerd.co/wordchain",
     "description": "Connect the two unrelated words by adding a chain of related words between them.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 425
   },
   {
@@ -5064,6 +5773,9 @@
     "url": "https://wordchase.semantle.com",
     "description": "Guess the secret word within 5 tries, receiving a new word as a hint before each guess.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 426
   },
   {
@@ -5071,6 +5783,9 @@
     "url": "https://www.thewordfinder.com/word-connection",
     "description": "Link a chain of 4 relevant words together.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 427
   },
   {
@@ -5085,6 +5800,9 @@
     "url": "https://wordladder.com",
     "description": "Change one word into another by switching one letter at a time, keeping a valid word at each step.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 429
   },
   {
@@ -5092,6 +5810,9 @@
     "url": "https://vegeta897.github.io/word-peaks",
     "description": "Guess the word in 6 tries. Each guess shows if letters come earlier or later in the alphabet than the answer.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 430
   },
   {
@@ -5099,6 +5820,10 @@
     "url": "https://wordsalad.online",
     "description": "Find all the words in the 4 by 4 grid that are part of today's theme. Refresh after doing the tutorial to get to the daily.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes",
+      "Word Searches"
+    ],
     "id": 636
   },
   {
@@ -5106,6 +5831,9 @@
     "url": "https://w2ym.org",
     "description": "Guess all possible Wordle words based on the two starting words and their results.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 431
   },
   {
@@ -5113,6 +5841,10 @@
     "url": "https://wordwaffle.org",
     "description": "Swap letters to create words both horizontally and vertically.",
     "category": "Words",
+    "themes": [
+      "Rearranging",
+      "Wordle-likes"
+    ],
     "id": 432
   },
   {
@@ -5120,6 +5852,9 @@
     "url": "https://www.wfhgames.com/word-zip",
     "description": "Build as many words as you can by alternating between two pools of letters.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 563
   },
   {
@@ -5127,6 +5862,9 @@
     "url": "https://word.golf",
     "description": "Link the starting word to the target word by choosing related words from the grid. 5 rounds per day.",
     "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
     "id": 674
   },
   {
@@ -5134,6 +5872,9 @@
     "url": "https://word500.com/game?mode=daily",
     "description": "Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 433
   },
   {
@@ -5141,6 +5882,9 @@
     "url": "https://wordall.xyz",
     "description": "Guess all of the Wordle words, given the starting clues.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 434
   },
   {
@@ -5148,6 +5892,9 @@
     "url": "https://www.wordamid.com",
     "description": "Solve the daily word pyramid by guessing words of increasing length.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 564
   },
   {
@@ -5162,6 +5909,9 @@
     "url": "https://wordcrux.com",
     "description": "A mini crossword puzzle, but don't make too many wrong guesses.",
     "category": "Words",
+    "themes": [
+      "Crosswords"
+    ],
     "id": 436
   },
   {
@@ -5169,6 +5919,9 @@
     "url": "https://play-wordfall.com",
     "description": "Clear letters on the board by finding words, ending with as few letters as possible.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 675
   },
   {
@@ -5176,6 +5929,9 @@
     "url": "https://wordga.com/daily",
     "description": "Find as many 4+ letter words using today's letters.",
     "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
     "id": 437
   },
   {
@@ -5183,6 +5939,9 @@
     "url": "https://wordgy.com",
     "description": "Guess all five missing words by forming two-word phrases or compound words with the word below each tile.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 529
   },
   {
@@ -5204,6 +5963,9 @@
     "url": "https://lessgames.com/wordless",
     "description": "Solve Wordle puzzles of various sizes.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 440
   },
   {
@@ -5211,6 +5973,9 @@
     "url": "https://playwordlink.com",
     "description": "Rearrange the words to form a chain of two-word phrases.",
     "category": "Words",
+    "themes": [
+      "Word Chains"
+    ],
     "id": 441
   },
   {
@@ -5232,6 +5997,9 @@
     "url": "https://playwordsmyth.com",
     "description": "Transform the word using one of the clues listed until you reach the secret word.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 598
   },
   {
@@ -5239,6 +6007,9 @@
     "url": "https://puzzmallow.com/wordspan",
     "description": "Guess the 5-letter word based on where adjacent letters relatively appear in the alphabet.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 512
   },
   {
@@ -5246,6 +6017,9 @@
     "url": "https://wordwavr.app",
     "description": "Guess the 5 letter word that's been transformed into a wave.",
     "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
     "id": 707
   },
   {
@@ -5260,6 +6034,9 @@
     "url": "https://wormle.com",
     "description": "Worm your way through the grid to spell today's themed words.",
     "category": "Words",
+    "themes": [
+      "Word Searches"
+    ],
     "id": 599
   },
   {
@@ -5274,7 +6051,9 @@
     "url": "https://www.wowdle.app",
     "description": "A collection of daily games related to World of Warcraft.",
     "category": "Video Games",
-    "theme": "World of Warcraft",
+    "themes": [
+      "World of Warcraft"
+    ],
     "id": 513
   },
   {
@@ -5282,6 +6061,9 @@
     "url": "https://www.wrdlink.io",
     "description": "Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.",
     "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
     "id": 637
   },
   {
@@ -5296,7 +6078,9 @@
     "url": "https://www.washingtonpost.com/games/wridges/",
     "description": "Race the clock by spelling words in the hex grid starting from the bottom row.",
     "category": "Words",
-    "theme": "Find words",
+    "themes": [
+      "Boggle-likes"
+    ],
     "id": 514
   },
   {
@@ -5346,6 +6130,10 @@
     "url": "https://playzaggle.com",
     "description": "Trace words in the grid based on the given clues.",
     "category": "Words",
+    "themes": [
+      "Boggle-likes",
+      "Word Searches"
+    ],
     "id": 807
   },
   {
@@ -5353,7 +6141,9 @@
     "url": "https://zakuchess.com",
     "description": "A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.",
     "category": "Card/Board Games",
-    "theme": "Chess",
+    "themes": [
+      "Chess"
+    ],
     "id": 451
   },
   {
@@ -5368,7 +6158,9 @@
     "url": "https://www.zeldadle.net",
     "description": "Test your Zelda knowledge in these daily games.",
     "category": "Video Games",
-    "theme": "Zelda",
+    "themes": [
+      "Zelda"
+    ],
     "id": 453
   },
   {
@@ -5376,7 +6168,9 @@
     "url": "https://zeldle.xyz",
     "description": "A collection of daily games related to Zelda.",
     "category": "Video Games",
-    "theme": "Zelda",
+    "themes": [
+      "Zelda"
+    ],
     "id": 515
   },
   {

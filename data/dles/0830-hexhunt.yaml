@@ -1,0 +1,9 @@
+id: 830
+name: HexHunt
+url: https://thehexhunt.com
+description: Guess which hex cell each location is in on the world map, zoom in for more smaller hexes but more points.
+category: Geography
+status: active
+history:
+- date: '2026-09-03'
+  event: added
