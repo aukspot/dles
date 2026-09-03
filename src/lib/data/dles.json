@@ -2227,7 +2227,7 @@
   {
     "name": "HexHunt",
     "url": "https://thehexhunt.com",
-    "description": "Guess which hex cell each location is in on the world map, zoom in for more smaller hexes but more points.",
+    "description": "Guess which hex cell each location is in on the world map, zoom in for smaller hexes but get more points.",
     "category": "Geography",
     "id": 830
   },
