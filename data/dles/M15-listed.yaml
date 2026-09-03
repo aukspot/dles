@@ -1,6 +1,8 @@
 id: M15
 name: Listed
 url: https://listed.fun
+description: Guess the price of the house listed.
+category: Estimation
 status: archived
 history:
 - date: '2024-02-17'

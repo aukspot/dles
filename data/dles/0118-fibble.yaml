@@ -4,7 +4,7 @@ url: https://fibble.xyz
 description: Wordle but it lies to you. (Like Lirdle)
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-06-06'

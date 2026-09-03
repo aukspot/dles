@@ -4,7 +4,7 @@ url: https://w2ym.org
 description: Guess all possible Wordle words based on the two starting words and their results.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2025-07-06'

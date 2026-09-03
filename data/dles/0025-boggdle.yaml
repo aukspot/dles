@@ -4,7 +4,7 @@ url: https://simenmh.com/boggdle
 description: Search for the best 3 words you can find in the Boggle grid.
 category: Words
 themes:
-- Boggle-like
+- Boggle-likes
 status: active
 history:
 - date: '2024-04-10'

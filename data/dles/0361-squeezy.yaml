@@ -3,6 +3,8 @@ name: Squeezy
 url: https://imsqueezy.com
 description: Insert the given letters into the given words to make new words and reveal the secret word, phrase, or name.
 category: Words
+themes:
+- Rearranging
 status: active
 history:
 - date: '2024-06-22'

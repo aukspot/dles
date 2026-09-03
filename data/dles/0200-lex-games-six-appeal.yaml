@@ -4,7 +4,7 @@ url: https://lex.games/six/
 description: Guess the 6-letter word, like Wordle, but you don't have to guess real words. The answer is a real word.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2025-02-10'

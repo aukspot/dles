@@ -4,7 +4,7 @@ url: https://rackdle.fun
 description: Try to find the best move in a tournament Scrabble game. Your move gets graded based on all possible moves.
 category: Words
 themes:
-- Scrabble-like
+- Scrabble-likes
 status: active
 history:
 - date: '2026-08-26'

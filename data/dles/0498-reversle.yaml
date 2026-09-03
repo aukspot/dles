@@ -4,7 +4,7 @@ url: https://reversle.net
 description: Basically the reverse of Wordle. You start with the solution and walk backwards.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2025-08-30'

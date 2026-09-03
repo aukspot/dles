@@ -4,7 +4,7 @@ url: https://fusele.netlify.app/?daily
 description: A Wordle variant in which each row has a unique twist.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-06-22'

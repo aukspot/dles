@@ -4,7 +4,7 @@ url: https://steppedupdle.com
 description: Solve 4 Wordle puzzles in a row, each word one letter longer than the last. You have 20 total guesses.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2026-05-18'

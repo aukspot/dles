@@ -4,7 +4,7 @@ url: https://tryhardguides.com/adoptle
 description: Guess the name of a pet that is up for adoption, given a picture of them.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-02-16'

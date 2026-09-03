@@ -5,7 +5,7 @@ description: Guess the word based on its glyph, or all of its letters stacked to
 category: Words
 themes:
 - Decoding
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2026-02-07'

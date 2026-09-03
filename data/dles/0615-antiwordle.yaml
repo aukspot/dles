@@ -4,7 +4,7 @@ url: https://www.antiwordle.com
 description: Wordle except you're trying to avoid the secret word.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2026-01-11'

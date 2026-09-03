@@ -4,7 +4,7 @@ url: https://wordall.xyz
 description: Guess all of the Wordle words, given the starting clues.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-02-14'

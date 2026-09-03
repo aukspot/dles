@@ -5,9 +5,9 @@ description: Guess the two words crossed together that are related in some way.
 category: Words
 themes:
 - Clues
-status: archived
+status: removed
 history:
 - date: '2025-10-17'
   event: added
-- date: '2026-08-28'
-  event: archived
+- date: '2026-09-01'
+  event: removed

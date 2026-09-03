@@ -1,0 +1,11 @@
+id: 829
+name: Lettergrams
+url: https://puzzlist.com/lettergrams
+description: Build connected words using the letter tiles, scoring as many points as you can.
+category: Words
+themes:
+- Scrabble-likes
+status: active
+history:
+- date: '2026-09-02'
+  event: added

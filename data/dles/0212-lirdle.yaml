@@ -4,7 +4,7 @@ url: https://lirdle.com
 description: Wordle except each line contains a lie. (Like Fibble)
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-11-24'

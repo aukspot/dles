@@ -5,7 +5,7 @@ description: Daily cryptic puzzle in the style of Wordle. You have 3 guesses.
 category: Words
 themes:
 - Cryptics
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2025-08-30'

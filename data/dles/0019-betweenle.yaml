@@ -4,7 +4,7 @@ url: https://betweenle.com
 description: Guess the secret word hidden between other words before running out of guesses.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-05-28'

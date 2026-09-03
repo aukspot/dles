@@ -4,7 +4,7 @@ url: https://puzzmallow.com/wordspan
 description: Guess the 5-letter word based on where adjacent letters relatively appear in the alphabet.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2025-08-30'

@@ -4,7 +4,7 @@ url: https://puzzlist.com/stackdown/
 description: Clear the stack of letters by finding each of the 5-letter words.
 category: Words
 themes:
-- Boggle-like
+- Word Searches
 status: active
 history:
 - date: '2025-11-23'

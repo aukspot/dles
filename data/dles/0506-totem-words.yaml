@@ -7,3 +7,5 @@ status: removed
 history:
 - date: '2025-08-30'
   event: added
+- date: '2026-08-29'
+  event: removed

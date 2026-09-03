@@ -4,7 +4,7 @@ url: https://www.symble.app
 description: A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-06-22'

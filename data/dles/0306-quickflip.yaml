@@ -3,6 +3,8 @@ name: Quickflip
 url: https://puzzmallow.com/quickflip
 description: Flip the tiles to make an 8 letter word. Two words are possible, but only one is the correct answer.
 category: Words
+themes:
+- Rearranging
 status: active
 history:
 - date: '2025-07-06'

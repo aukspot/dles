@@ -4,7 +4,7 @@ url: https://letterinth.com
 description: Trace a quote inside a grid of letters, starting at the center and visiting each letter once.
 category: Words
 themes:
-- Word Search
+- Word Searches
 status: active
 history:
 - date: '2026-06-12'

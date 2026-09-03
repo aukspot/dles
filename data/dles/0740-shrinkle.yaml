@@ -3,6 +3,8 @@ name: Shrinkle
 url: https://shrinkle.org
 description: Remove letters and make new words until you find the hidden phrase.
 category: Words
+themes:
+- Rearrange
 status: active
 history:
 - date: '2026-04-07'

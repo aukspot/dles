@@ -4,8 +4,8 @@ url: https://nibble.games/swapple/swapple-easy.html
 description: Swap letters such that every row and column is a word.
 category: Words
 themes:
-- Swap/Slide/Spin
-- Wordle-like
+- Rearranging
+- Wordle-likes
 status: active
 history:
 - date: '2025-06-29'

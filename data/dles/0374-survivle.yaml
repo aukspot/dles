@@ -4,7 +4,7 @@ url: https://lazyguyy.github.io/survivle
 description: Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-05-28'

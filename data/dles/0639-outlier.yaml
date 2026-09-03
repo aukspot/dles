@@ -2,9 +2,7 @@ id: 639
 name: Outlier
 url: https://outlier.land
 description: Repeatedly pick the outlier as quickly as you can.
-category: Words
-themes:
-- Grouping
+category: Trivia
 status: archived
 history:
 - date: '2026-01-12'

@@ -4,7 +4,7 @@ url: https://wordwavr.app
 description: Guess the 5 letter word that's been transformed into a wave.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2026-03-01'

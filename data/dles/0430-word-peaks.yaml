@@ -4,7 +4,7 @@ url: https://vegeta897.github.io/word-peaks
 description: Guess the word in 6 tries. Each guess shows if letters come earlier or later in the alphabet than the answer.
 category: Words
 themes:
-- Wordle-like
+- Wordle-likes
 status: active
 history:
 - date: '2024-05-28'

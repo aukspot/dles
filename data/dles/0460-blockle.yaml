@@ -4,7 +4,7 @@ url: https://blockle.au
 description: Fill a square grid with Tetris pieces to spell out words horizontally.
 category: Words
 themes:
-- Scrabble-like
+- Scrabble-likes
 status: active
 history:
 - date: '2025-08-30'

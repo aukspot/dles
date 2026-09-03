@@ -4,7 +4,7 @@ url: https://www.bostonglobe.com/games/align/
 description: Swap tiles in the grid so that each row and column forms a word.
 category: Words
 themes:
-- Swap/Slide/Spin
+- Rearranging
 status: active
 history:
 - date: '2026-02-22'
