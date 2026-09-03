@@ -26,6 +26,7 @@
     showMarkedDlesModal,
     showSearchModal,
     showSettingsModal,
+    showFavoritesSettingsModal,
   } from "$lib/stores"
 
   import Header from "$lib/components/Header.svelte"
@@ -51,6 +52,7 @@
   import Toast from "$lib/components/Toast.svelte"
   import HiddenDlesModal from "$lib/components/Dles/HiddenDlesModal.svelte"
   import MarkedDlesModal from "$lib/components/Dles/MarkedDlesModal.svelte"
+  import FavoritesSettingsModal from "$lib/components/Dles/FavoritesSettingsModal.svelte"
 
   function initializeDles() {
     $dles = dles_json
@@ -360,6 +362,12 @@
   <MarkedDlesModal
     onClose={() => ($showMarkedDlesModal = false)}
     lockScroll={!$showSettingsModal}
+  />
+{/if}
+
+{#if $showFavoritesSettingsModal}
+  <FavoritesSettingsModal
+    onClose={() => ($showFavoritesSettingsModal = false)}
   />
 {/if}
 

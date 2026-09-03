@@ -29,7 +29,6 @@
   import DleGrid from "./DleGrid.svelte"
   import SearchModal from "./SearchModal.svelte"
   import FavoritesImportExportModal from "./FavoritesImportExportModal.svelte"
-  import FavoritesSettingsModal from "./FavoritesSettingsModal.svelte"
   import Sponsors from "../Sponsors.svelte"
   import NewDles from "../NewDles.svelte"
 
@@ -82,10 +81,6 @@
 
   function openFavoritesSettingsModal() {
     $showFavoritesSettingsModal = true
-  }
-
-  function closeFavoritesSettingsModal() {
-    $showFavoritesSettingsModal = false
   }
 
   function toggleEditMode() {
@@ -361,10 +356,6 @@
     mode={importExportMode}
     onClose={closeImportExportModal}
   />
-{/if}
-
-{#if $showFavoritesSettingsModal}
-  <FavoritesSettingsModal onClose={closeFavoritesSettingsModal} />
 {/if}
 
 <style lang="postcss">
