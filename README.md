@@ -186,7 +186,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Globle](https://globle-game.com/game) - Guess the mystery country, given how close it is to each guessed country.
 - [Globle Capitals](https://globle-capitals.com) - Guess the mystery world capital, given how close it is to each guessed world capital.
 - [Headline](https://headline.fromthethink.com) - Guess the place tied to or missing from each headline.
-- [HexHunt](https://thehexhunt.com) - Guess which hex cell each location is in on the world map, zoom in for more smaller hexes but more points.
+- [HexHunt](https://thehexhunt.com) - Guess which hex cell each location is in on the world map, zoom in for smaller hexes but get more points.
 - [Juxtastat](https://urbanstats.org/quiz.html) - For 5 rounds, guess which of the two regions better fits the given criteria.
 - [Landmarkd](https://www.landmarkdgame.com) - Guess the daily landmark based on a zoomed-in picture.
 - [Landmarkr](https://www.landmarkr.app) - Name the place in the world based on the given pictures.
