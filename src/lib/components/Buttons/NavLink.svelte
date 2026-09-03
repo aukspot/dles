@@ -5,10 +5,16 @@
   export let label
   export let routeId // Canonical route id, e.g. "/favorites"
   export let icon = null
+  export let params = null
 
   // Match on route id, not href: with SvelteKit's relative paths, `base` is
   // rewritten per page at prerender time (".", "..") so hrefs can't be compared.
-  $: isActive = $page.route.id === routeId
+  $: isActive =
+    $page.route.id === routeId &&
+    (!params ||
+      Object.entries(params).every(
+        ([key, value]) => $page.params[key] === value,
+      ))
 </script>
 
 <!--

@@ -19,6 +19,7 @@
   } from "$lib/stores"
   import { onMount } from "svelte"
   import { getLocalStorage, setLocalStorage } from "$lib/js/localStorage"
+  import IconBookOutline from "./Icons/IconBookOutline.svelte"
 
   // Check if there are unanswered polls
   $: activePolls = getActivePolls()
@@ -100,6 +101,13 @@
           routeId="/archived"
           label="Archived"
           icon={IconArchive}
+        />
+        <NavLink
+          href="{base}/category/words"
+          routeId="/category/[category]"
+          params={{ category: "words" }}
+          label="Word dles"
+          icon={IconBookOutline}
         />
       </nav>
 
