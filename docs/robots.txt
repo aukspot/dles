@@ -2,6 +2,8 @@
 User-agent: *
 Disallow:
 
+Sitemap: https://dles.aukspot.com/sitemap.xml
+
 #        _
 #       [ ]
 #      (   )

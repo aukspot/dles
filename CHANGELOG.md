@@ -11,12 +11,12 @@ dles added:
 |  2 | [Lettergrams](https://puzzlist.com/lettergrams) | [https://puzzlist.com/lettergrams](https://puzzlist.com/lettergrams) |  829 |
 
 dles removed: 
-|    | name                                                                       | url                                                                                                          |   id |
-|---:|:---------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|-----:|
-|  1 | [Crosslink](https://romainpastureau.github.io/crosslink/)                  | [https://romainpastureau.github.io/crosslink/](https://romainpastureau.github.io/crosslink/)                 |  526 |
-|  2 | [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) | [https://www.netflix.com/tudum/puzzled/keysmash/daily](https://www.netflix.com/tudum/puzzled/keysmash/daily) |  664 |
-|  3 | [Rotatly](https://www.rotatly.com)                                         | [https://www.rotatly.com](https://www.rotatly.com)                                                           |  682 |
-|  4 | [Totem Words](https://totemwords.com)                                      | [https://totemwords.com](https://totemwords.com)                                                             |  506 |
+|    | name                                                                       | url                                                                                                          |   id | reason                                                |
+|---:|:---------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|-----:|:------------------------------------------------------|
+|  1 | [Crosslink](https://romainpastureau.github.io/crosslink/)                  | [https://romainpastureau.github.io/crosslink/](https://romainpastureau.github.io/crosslink/)                 |  526 | No new puzzles. Archive still available, but awkward. |
+|  2 | [Netflix - Keysmash](https://www.netflix.com/tudum/puzzled/keysmash/daily) | [https://www.netflix.com/tudum/puzzled/keysmash/daily](https://www.netflix.com/tudum/puzzled/keysmash/daily) |  664 | No longer available.                                  |
+|  3 | [Rotatly](https://www.rotatly.com)                                         | [https://www.rotatly.com](https://www.rotatly.com)                                                           |  682 | Link no longer works.                                 |
+|  4 | [Totem Words](https://totemwords.com)                                      | [https://totemwords.com](https://totemwords.com)                                                             |  506 | No new puzzles. Archive still available, but awkward. |
 dles archived: 
 |    | name                                                                                                     | url                                                                                                                                                | id   | note                           | archive_url                                        |
 |---:|:---------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|:-----|:-------------------------------|:---------------------------------------------------|
