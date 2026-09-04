@@ -11,6 +11,7 @@ const config = {
     }),
     paths: {
       base: "",
+      relative: false,
     },
   },
   preprocess: [vitePreprocess()],
