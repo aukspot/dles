@@ -2,7 +2,7 @@
 
 ## 2026-09-03
 
-Add 2 dles. Remove 4 dles. Archive 11 dles. <a href="https://dles.aukspot.com/archive">View all archived dles</a>.<br/>Add <a href="https://dles.aukspot.com/category/words">Words page which includes subcategories</a>, also linked to at the top of the Words category.
+Add 2 dles. Remove 4 dles. Archive 11 dles. <a href="https://dles.aukspot.com/archive">View all archived dles</a>.<br/>Add <a href="https://dles.aukspot.com/category/words">Words page which includes subcategories</a>, also linked to from the header and from the top of the Words category.
 
 dles added: 
 |    | name                                            | url                                                                  |   id |
