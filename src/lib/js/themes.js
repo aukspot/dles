@@ -43,12 +43,14 @@ export const themesByCategory = {
 }
 
 const WORDS_HUE = 336
-const SPREAD = 50
+const SPREAD_BELOW = 55
+const SPREAD_ABOVE = 30
 
 export function themeColor(theme, themes = wordsThemes) {
   const index = themes.indexOf(theme)
   if (index === -1) return "hsl(0, 0%, 49%, 45%)"
-  const offset = (index / Math.max(themes.length - 1, 1) - 0.5) * SPREAD
+  const t = index / Math.max(themes.length - 1, 1)
+  const offset = -SPREAD_BELOW + t * (SPREAD_BELOW + SPREAD_ABOVE)
   const hue = (WORDS_HUE + offset + 360) % 360
   return `hsl(${hue.toFixed(0)}, 90%, 50%, 45%)`
 }
