@@ -712,7 +712,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Fibble](https://fibble.xyz) - Wordle but it lies to you. (Like Lirdle)
 - [Flipple](https://flipple.clevergoat.com) - Transform the starting word to the target word by changing one letter at a time
 - [FoxiMax](https://foximax.com) - Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.
-- [Freestyle](https://playfreestyle.co) - Find 13 words that rhyme with today's word. The more syllables, the better!
+- [Freestyle](https://playfreestyle.co) - Find words that rhyme with today's word. The more syllables, the better!
 - [Fusele](https://fusele.netlify.app/?daily) - A Wordle variant in which each row has a unique twist.
 - [Gisnep](https://gisnep.com) - Solve the daily quote with the letters above each column.
 - [Glyph](https://glyph.today) - Guess the word based on its glyph, or all of its letters stacked together.
