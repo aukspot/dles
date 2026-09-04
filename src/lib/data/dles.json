@@ -4653,6 +4653,12 @@
     "id": 349
   },
   {
+    "name": "Spectrle",
+    "url": "https://spectrle.games",
+    "description": "Guess the movie from its color spectrum - the whole film compressed into one radial gradient. Each wrong guess adds a clue and redraws it from fewer, wider frames. Includes a daily video game puzzle and The Grid, a nine-spectrum matching mode.",
+    "category": "Movies/TV"
+  },
+  {
     "name": "Spell Bee",
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",
