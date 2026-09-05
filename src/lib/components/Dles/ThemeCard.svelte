@@ -1,16 +1,18 @@
 <script>
   import { themeColor } from "$lib/js/themes"
   import { themeIcons } from "$lib/js/themeIcons"
+  import { slugifySection } from "$lib/js/counter.js"
   import SectionHeader from "../SectionHeader.svelte"
   import DleGroup from "./DleGroup.svelte"
 
   export let theme
   export let dles
   export let themes
+  export let category
   export let description = ""
   export let untyped = false
 
-  $: sectionName = "theme-" + theme.toLowerCase().replace(/[^a-z0-9]+/g, "-")
+  $: sectionName = `theme-${slugifySection(category)}-${slugifySection(theme)}`
 </script>
 
 <div class="card">

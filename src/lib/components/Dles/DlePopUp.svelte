@@ -6,7 +6,7 @@
   } from "$lib/stores"
   import { toasts, toastName } from "$lib/stores/toastStore.js"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
-  import { countClick } from "$lib/js/counter.js"
+  import { countClick, slugifySection } from "$lib/js/counter.js"
   import IconClose from "../Icons/IconClose.svelte"
   import IconCheck from "../Icons/IconCheck.svelte"
   import DleFavorite from "../Buttons/FavoriteButton.svelte"
@@ -32,9 +32,7 @@
   function handleClick() {
     countClick(
       dle.id,
-      section === "regular"
-        ? dle.category.toLowerCase().replace(/[\s/]+/g, "-")
-        : section,
+      section === "regular" ? slugifySection(dle.category) : section,
     )
     playedDles.markAsPlayed(dle)
   }

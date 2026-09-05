@@ -8,7 +8,7 @@
   } from "$lib/stores"
   import { openInNewTab, isLocalStorageAvailable } from "$lib/js/utilities"
   import { usePlayedDles } from "$lib/composables/usePlayedDles.js"
-  import { countClick } from "$lib/js/counter.js"
+  import { countClick, slugifySection } from "$lib/js/counter.js"
   import DlePopUp from "./DlePopUp.svelte"
   import IconNew from "../Icons/IconNew.svelte"
   import FavoriteButton from "../Buttons/FavoriteButton.svelte"
@@ -68,7 +68,7 @@
   }
 
   function handleOpen(dle) {
-    countClick(dle.id, section === "regular" ? dle.category.toLowerCase().replace(/[\s/]+/g, "-") : section)
+    countClick(dle.id, section === "regular" ? slugifySection(dle.category) : section)
     playedDles.markAsPlayed(dle)
     openInNewTab(dle.url)
   }

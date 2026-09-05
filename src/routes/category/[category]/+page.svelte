@@ -66,6 +66,7 @@
         description={card.description}
         untyped={card.untyped}
         themes={data.themes}
+        category={data.category}
       />
     </DleGrid>
   </div>
@@ -80,6 +81,7 @@
         description={group.description}
         untyped={Boolean(group.untyped)}
         themes={data.themes}
+        category={data.category}
       />
     {/each}
   </div>
