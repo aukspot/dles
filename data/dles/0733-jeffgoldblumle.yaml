@@ -3,7 +3,10 @@ name: Jeffgoldblumle
 url: https://jeffgoldblumle.com
 description: Wordle except 90% of the time the answer is Jeff Goldblum.
 category: Novelty
-status: active
+status: removed
 history:
 - date: '2026-03-28'
   event: added
+- date: '2026-09-04'
+  event: removed
+  reason: Ads cause a redirect to suspicious site.

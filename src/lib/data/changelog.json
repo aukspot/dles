@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-04",
+    "dles removed": [
+      {
+        "name": "Jeffgoldblumle",
+        "url": "https://jeffgoldblumle.com",
+        "id": 733,
+        "reason": "Ads cause a redirect to suspicious site."
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-09-03",
     "dles added": [
       {

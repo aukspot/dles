@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-09-03`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-09-04`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -399,12 +399,11 @@ This will update the `./docs` directory with a new build of the site.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 - [Year To Beat](https://yeartobeat.com) - Guess the year each music video came out, 5 rounds daily.
 
-### Novelty (7)
+### Novelty (6)
 
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
 - [fridgle](https://fridgle.net) - Create a daily message using magnet-style words you might find on a fridge.
 - [Horsle](https://cabletwo.net/horsle/) - Wordle except the answer is always Horse.
-- [Jeffgoldblumle](https://jeffgoldblumle.com) - Wordle except 90% of the time the answer is Jeff Goldblum.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.

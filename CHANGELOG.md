@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-09-04
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                         | url                                                      |   id | reason                                   |
+|---:|:---------------------------------------------|:---------------------------------------------------------|-----:|:-----------------------------------------|
+|  1 | [Jeffgoldblumle](https://jeffgoldblumle.com) | [https://jeffgoldblumle.com](https://jeffgoldblumle.com) |  733 | Ads cause a redirect to suspicious site. |
 ## 2026-09-03
 
 Add 2 dles. Remove 4 dles. Archive 11 dles. <a href="https://dles.aukspot.com/archived">View all archived dles</a>.<br/>Add <a href="https://dles.aukspot.com/category/words">Words page which includes subcategories</a>, also linked to from the header and from the top of the Words category.
