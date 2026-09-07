@@ -440,11 +440,11 @@ This will update the `./docs` directory with a new build of the site.
 - [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
 - [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle) - A daily jigsaw puzzle from the Los Angeles Times.
 - [Lawndle](https://johalloran.dev/lawndle/) - Mow today's lawn as efficiently as possible.
-- [Lazy River](https://inkwellgames.com/games/lazy-river) - Draw a single continuous loop that flows through every cell.
 - [LinkedIn - Patches](https://www.linkedin.com/games/patches/) - Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.
 - [LinkedIn - Zip](https://www.linkedin.com/games/zip) - Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
+- [Loopy River](https://inkwellgames.com/games/lazy-river) - Draw a single continuous loop that flows through every cell.
 - [Mazetangle](https://mazetangle.com) - Go from the red tile to the blue tile in as many moves as possible.
 - [Mowkoban](https://mowkoban.com/) - A daily puzzle about mowing your lawn in the fewest number of moves.
 - [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal by sliding the pieces around the grid.

@@ -2585,13 +2585,6 @@
     "id": 815
   },
   {
-    "name": "Lazy River",
-    "url": "https://inkwellgames.com/games/lazy-river",
-    "description": "Draw a single continuous loop that flows through every cell.",
-    "category": "Shapes/Patterns",
-    "id": 773
-  },
-  {
     "name": "Letroso",
     "url": "https://letroso.com/en/daily",
     "description": "Guess the secret word that can be up to 10 letters long.",
@@ -2896,6 +2889,13 @@
     "description": "Make a loop based on the numbers in the grid.",
     "category": "Shapes/Patterns",
     "id": 623
+  },
+  {
+    "name": "Loopy River",
+    "url": "https://inkwellgames.com/games/lazy-river",
+    "description": "Draw a single continuous loop that flows through every cell.",
+    "category": "Shapes/Patterns",
+    "id": 773
   },
   {
     "name": "Luckle",
