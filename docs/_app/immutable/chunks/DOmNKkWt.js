@@ -1,0 +1,1 @@
+function o(e){return e.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")}function c(e,n){if(typeof document>"u")return;const t=new Image;t.src=`https://counter.aukspot.com/t?id=${e}&s=${encodeURIComponent(n)}`}export{c as countClick,o as slugifySection};
