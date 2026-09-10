@@ -26,5 +26,12 @@
     "description": "Enclose the horse in the biggest possible pen.",
     "category": "Miscellaneous",
     "id": 603
+  },
+  {
+    "name": "Cinema Circuit",
+    "url": "https://www.wfhgames.com/cinema-circuit",
+    "description": "Connect the two movie actors in the fewest links possible.",
+    "category": "Movies/TV",
+    "id": 542
   }
 ]
