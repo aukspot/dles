@@ -1790,6 +1790,15 @@
     "id": 471
   },
   {
+    "name": "Futbolle",
+    "url": "https://futbolle.com",
+    "description": "Daily soccer puzzles with live multiplayer rooms: guess the player who played for both clubs against friends or a Twitch chat.",
+    "category": "Sports",
+    "themes": [
+      "Soccer"
+    ]
+  },
+  {
     "name": "Futdoku",
     "url": "https://flagdoku.com/futdoku.html",
     "description": "Guess 9 soccer players that fill the FUTDOKU grid.",
