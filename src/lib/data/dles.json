@@ -215,6 +215,12 @@
     "category": "Miscellaneous",
     "id": 658
   },
+    {
+    "name": "Backtotal",
+    "url": "https://backtotal.com",
+    "description": "The total is given and the signs are already printed; find the four hidden digits in four tries.",
+    "category": "Math/Logic"
+  },
   {
     "name": "Balatrodle",
     "url": "https://www.balatrodle.com",
