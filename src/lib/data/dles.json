@@ -1678,6 +1678,13 @@
     "id": 125
   },
   {
+    "name": "FlipList Daily",
+    "url": "https://playfliplist.com/daily/",
+    "description": "Choose the right song title after listening to a short snippet, multiple choice, 7 rounds daily.",
+    "category": "Music",
+    "id": 831
+  },
+  {
     "name": "Flipple",
     "url": "https://flipple.clevergoat.com",
     "description": "Transform the starting word to the target word by changing one letter at a time",
@@ -1882,6 +1889,13 @@
     "description": "Connections but you group countries based on StreetView images.",
     "category": "Geography",
     "id": 531
+  },
+  {
+    "name": "GeoPaint",
+    "url": "https://georankle.io/geopaint",
+    "description": "Guess the color missing from the country flag, 4 rounds every day.",
+    "category": "Geography",
+    "id": 832
   },
   {
     "name": "GeoQuest",
@@ -4531,6 +4545,20 @@
     "id": 341
   },
   {
+    "name": "Size It Up",
+    "url": "https://magnitudle.com/size-it-up",
+    "description": "Scale the object accurately based on a real-world reference object, 5 rounds every day.",
+    "category": "Estimation",
+    "id": 834
+  },
+  {
+    "name": "Size It Up - Geography",
+    "url": "https://magnitudle.com/size-it-up/geography",
+    "description": "Scale the geographical feature accurately based on the reference object, 5 rounds every day.",
+    "category": "Geography",
+    "id": 833
+  },
+  {
     "name": "Slate - Pears",
     "url": "https://slate.com/games/pears",
     "description": "Make words using the letters around the pear. Every 4 words, reveal the pear and try to make the longest word.",
@@ -6103,6 +6131,16 @@
     "description": "Guess the year of each of these events that all happened today's month and day.",
     "category": "History",
     "id": 584
+  },
+  {
+    "name": "Yellow Yellow",
+    "url": "https://yellowyellow.xyz/",
+    "description": "Just like Wordle, but you need to get all yellow tiles to win.",
+    "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ],
+    "id": 835
   },
   {
     "name": "YGOdle",

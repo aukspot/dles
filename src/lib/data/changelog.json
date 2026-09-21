@@ -9,7 +9,34 @@
         "reason": "Contains AI-generated content."
       }
     ],
-    "description": "Remove 1 dle. "
+    "description": "Add 5 dles. Remove 1 dle. ",
+    "dles added": [
+      {
+        "name": "FlipList Daily",
+        "url": "https://playfliplist.com/daily/",
+        "id": 831
+      },
+      {
+        "name": "GeoPaint",
+        "url": "https://georankle.io/geopaint",
+        "id": 832
+      },
+      {
+        "name": "Size It Up",
+        "url": "https://magnitudle.com/size-it-up",
+        "id": 834
+      },
+      {
+        "name": "Size It Up - Geography",
+        "url": "https://magnitudle.com/size-it-up/geography",
+        "id": 833
+      },
+      {
+        "name": "Yellow Yellow",
+        "url": "https://yellowyellow.xyz/",
+        "id": 835
+      }
+    ]
   },
   {
     "date": "2026-09-04",

@@ -1,0 +1,11 @@
+id: 835
+name: Yellow Yellow
+url: https://yellowyellow.xyz/
+description: Just like Wordle, but you need to get all yellow tiles to win.
+category: Words
+themes:
+- Wordle-likes
+status: active
+history:
+- date: '2026-09-21'
+  event: added

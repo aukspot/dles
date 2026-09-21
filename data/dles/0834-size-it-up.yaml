@@ -1,0 +1,9 @@
+id: 834
+name: Size It Up
+url: https://magnitudle.com/size-it-up
+description: Scale the object accurately based on a real-world reference object, 5 rounds every day.
+category: Estimation
+status: active
+history:
+- date: '2026-09-21'
+  event: added

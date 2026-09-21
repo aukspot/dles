@@ -18,10 +18,22 @@
     "date_added": "2026-08-26"
   },
   {
+    "name": "FlipList Daily",
+    "url": "https://playfliplist.com/daily/",
+    "id": 831,
+    "date_added": "2026-09-21"
+  },
+  {
     "name": "fridgle",
     "url": "https://fridgle.net",
     "id": 811,
     "date_added": "2026-08-26"
+  },
+  {
+    "name": "GeoPaint",
+    "url": "https://georankle.io/geopaint",
+    "id": 832,
+    "date_added": "2026-09-21"
   },
   {
     "name": "GnarlyQ",
@@ -108,6 +120,18 @@
     "date_added": "2026-08-26"
   },
   {
+    "name": "Size It Up",
+    "url": "https://magnitudle.com/size-it-up",
+    "id": 834,
+    "date_added": "2026-09-21"
+  },
+  {
+    "name": "Size It Up - Geography",
+    "url": "https://magnitudle.com/size-it-up/geography",
+    "id": 833,
+    "date_added": "2026-09-21"
+  },
+  {
     "name": "Time Machine (MLB)",
     "url": "https://boxscore.email/games/time-machine",
     "id": 824,
@@ -130,5 +154,11 @@
     "url": "https://yeartobeat.com",
     "id": 827,
     "date_added": "2026-08-26"
+  },
+  {
+    "name": "Yellow Yellow",
+    "url": "https://yellowyellow.xyz/",
+    "id": 835,
+    "date_added": "2026-09-21"
   }
 ]

@@ -120,7 +120,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (27)
+### Estimation (28)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -146,6 +146,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
 - [Per Night](https://pernight.app) - Guess the cost of one night in the given hotel.
 - [Perceptle](https://perceptle.com) - Five tiny tests of perceptual instinct.
+- [Size It Up](https://magnitudle.com/size-it-up) - Scale the object accurately based on a real-world reference object, 5 rounds every day.
 - [Temple](https://tck.mn/temple) - Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
 - [Timingle](https://timingle.danielbrandao.dev) - Try to time when the countdown reaches 0. Each day the beat is different.
 - [Zonday](https://zonday.app) - Guess the price of the item from Amazon.com.
@@ -158,7 +159,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (57)
+### Geography (59)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -180,6 +181,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Geografind](https://coffeefirst.games/geografind) - Guess the mystery country in as few guesses as possible, watch the map for hints after each guess.
 - [GeoGrid](https://www.geogridgame.com) - Fill in the grid with countries that match each cell's corresponding row and column categories.
 - [Geonections](https://geonections.com) - Connections but you group countries based on StreetView images.
+- [GeoPaint](https://georankle.io/geopaint) - Guess the color missing from the country flag, 4 rounds every day.
 - [GeoQuest](https://geoquest.gg) - Locate today's countries on the world map.
 - [Geozee](https://geozee.earth) - Place each country in the category that fits it best. The better the match, the more points you get.
 - [GlobeHoppr](https://globehoppr.com) - Travel from one world city to another by hopping across nearby cities.
@@ -204,6 +206,7 @@ This will update the `./docs` directory with a new build of the site.
 - [SatPin](https://satpixel.com/en/satellite-pin-guess/) - Pin the world locations on the map based on satellite images.
 - [SatZoom](https://satpixel.com/en/satellite-zoom-game/) - Guess the city based on the satellite image.
 - [Seadle](https://seadle.muhashi.com) - Guess the sea of the day in as few attempts as possible.
+- [Size It Up - Geography](https://magnitudle.com/size-it-up/geography) - Scale the geographical feature accurately based on the reference object, 5 rounds every day.
 - [Statele](https://statele.teuteuf.fr) - Guess the US State by its outline on the map.
 - [TimeGuessr](https://timeguessr.com) - Guess the right time and location of each historical photo.
 - [TravelGuessr](https://travelguessr.com/) - Guess where the travel photo was taken, 4 rounds every day.
@@ -359,7 +362,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (38)
+### Music (39)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -367,6 +370,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Crosstune](https://crosstune.io) - A music crossword puzzle where the clues include song audio.
 - [Daily Jingle](https://dailyjingle.me) - Guess the melody within 5 tries.
 - [Disney Heardle](https://www.disney.heardledecades.com) - Guess the Disney song from listening to small parts of it.
+- [FlipList Daily](https://playfliplist.com/daily/) - Choose the right song title after listening to a short snippet, multiple choice, 7 rounds daily.
 - [Guess The Audio](https://guesstheaudio.com) - Guess the song from listening to small parts of it, getting a clue after each guess.
 - [Harmonies: Music Connections](https://harmonies.io) - Find the groups of 4 that share some musical theme.
 - [Heardle 1950's](https://50s.heardledecades.com) - Guess the 1950's song from listening to small parts of it.
@@ -650,7 +654,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (239)
+### Words (240)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -890,4 +894,5 @@ This will update the `./docs` directory with a new build of the site.
 - [WRDLINK](https://www.wrdlink.io) - Link the starting word to the ending word by changing one letter at a time. 3 rounds daily.
 - [Wridges](https://www.washingtonpost.com/games/wridges/) - Race the clock by spelling words in the hex grid starting from the bottom row.
 - [Wrodeo](https://wrodeo.com) - Reveal the quote or book passage by guessing one word at a time, starting with some letters already shown.
+- [Yellow Yellow](https://yellowyellow.xyz/) - Just like Wordle, but you need to get all yellow tiles to win.
 - [Zaggle](https://playzaggle.com) - Trace words in the grid based on the given clues.

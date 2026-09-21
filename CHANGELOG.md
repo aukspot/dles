@@ -2,8 +2,16 @@
 
 ## 2026-09-21
 
-Remove 1 dle. 
+Add 5 dles. Remove 1 dle. 
 
+dles added: 
+|    | name                                                                  | url                                                                                        |   id |
+|---:|:----------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|-----:|
+|  1 | [FlipList Daily](https://playfliplist.com/daily/)                     | [https://playfliplist.com/daily/](https://playfliplist.com/daily/)                         |  831 |
+|  2 | [GeoPaint](https://georankle.io/geopaint)                             | [https://georankle.io/geopaint](https://georankle.io/geopaint)                             |  832 |
+|  3 | [Size It Up](https://magnitudle.com/size-it-up)                       | [https://magnitudle.com/size-it-up](https://magnitudle.com/size-it-up)                     |  834 |
+|  4 | [Size It Up - Geography](https://magnitudle.com/size-it-up/geography) | [https://magnitudle.com/size-it-up/geography](https://magnitudle.com/size-it-up/geography) |  833 |
+|  5 | [Yellow Yellow](https://yellowyellow.xyz/)                            | [https://yellowyellow.xyz/](https://yellowyellow.xyz/)                                     |  835 |
 
 dles removed: 
 |    | name                                 | url                                              |   id | reason                         |

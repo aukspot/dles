@@ -1,0 +1,9 @@
+id: 831
+name: FlipList Daily
+url: https://playfliplist.com/daily/
+description: Choose the right song title after listening to a short snippet, multiple choice, 7 rounds daily.
+category: Music
+status: active
+history:
+- date: '2026-09-21'
+  event: added
