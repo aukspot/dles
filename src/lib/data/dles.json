@@ -1162,6 +1162,13 @@
     "id": 588
   },
   {
+    "name": "Daily SWAT",
+    "url": "https://daily-swat.onrender.com",
+    "description": "Daily Swat is a shooter and strategy DLE game: plan your SWAT squad's routes, breach the building, and clear every enemy in the fastest time. A new map unlocks every day.",
+    "category": "Video Games",
+    "themes": ["Rainbow Six"]
+  },
+  {
     "name": "Daily Tens",
     "url": "https://dailytens.com",
     "description": "Guess the top 10 items of today's category.",
