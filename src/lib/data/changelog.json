@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-21",
+    "dles removed": [
+      {
+        "name": "Am I Dead?",
+        "url": "https://www.amidead.gg",
+        "id": 722,
+        "reason": "Contains AI-generated content."
+      }
+    ],
+    "description": "Remove 1 dle. "
+  },
+  {
     "date": "2026-09-04",
     "dles removed": [
       {

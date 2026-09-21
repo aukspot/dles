@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-09-21
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                 | url                                              |   id | reason                         |
+|---:|:-------------------------------------|:-------------------------------------------------|-----:|:-------------------------------|
+|  1 | [Am I Dead?](https://www.amidead.gg) | [https://www.amidead.gg](https://www.amidead.gg) |  722 | Contains AI-generated content. |
 ## 2026-09-04
 
 Remove 1 dle. 

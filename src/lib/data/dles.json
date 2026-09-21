@@ -119,13 +119,6 @@
     "id": 9
   },
   {
-    "name": "Am I Dead?",
-    "url": "https://www.amidead.gg",
-    "description": "Guess whether each of the famous faces are alive or dead.",
-    "category": "Miscellaneous",
-    "id": 722
-  },
-  {
     "name": "Amountle",
     "url": "https://amountle.dev",
     "description": "Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)",
@@ -436,7 +429,7 @@
   },
   {
     "name": "Breadle",
-    "url": "https://breadle.us",
+    "url": "https://breadle.us/Breadle_Home/Breadle_Classic/breadle-classic.html",
     "description": "Solve the daily 5-letter word that is related to food.",
     "category": "Food",
     "id": 30

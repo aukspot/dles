@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-09-04`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-09-21`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -152,7 +152,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ### Food (5)
 
-- [Breadle](https://breadle.us) - Solve the daily 5-letter word that is related to food.
+- [Breadle](https://breadle.us/Breadle_Home/Breadle_Classic/breadle-classic.html) - Solve the daily 5-letter word that is related to food.
 - [Curdle](https://gumbo.systems/curdle/) - Guess the cheese from the zoomed-in photo.
 - [Daily Rinds](https://dailyrinds.com) - Guess the daily mystery cheese.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
@@ -606,10 +606,9 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (42)
+### Miscellaneous (41)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
-- [Am I Dead?](https://www.amidead.gg) - Guess whether each of the famous faces are alive or dead.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
 - [Artle](https://www.nga.gov/artle.html) - Guess the artist of the shown work of art.
 - [Baddle](https://tumblecricket.net/Baddle/) - A roguelike where you guess the arrangement of two armies on a battlefield, in Wordle-like fashion. Best played on desktop.
