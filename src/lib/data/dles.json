@@ -3337,6 +3337,69 @@
     "id": 253
   },
   {
+    "name": "Noggin Blink",
+    "url": "https://noggin.games/blink/?utm_source=dles&utm_medium=directory",
+    "description": "A scene of shapes blinks and one of them changes; find it and tap it, ten rounds a day.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Noggin Connect",
+    "url": "https://noggin.games/connect/?utm_source=dles&utm_medium=directory",
+    "description": "Watch a trail draw itself across a grid of dots, then redraw it from memory, ten trails a day.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Noggin Deduce",
+    "url": "https://noggin.games/deduce/?utm_source=dles&utm_medium=directory",
+    "description": "A logic grid: four people, three things to work out about each, and clues that rule things out.",
+    "category": "Math/Logic",
+    "themes": [
+      "Clues"
+    ]
+  },
+  {
+    "name": "Noggin Mini",
+    "url": "https://noggin.games/mini/?utm_source=dles&utm_medium=directory",
+    "description": "A five-by-five crossword against the clock.",
+    "category": "Words",
+    "themes": [
+      "Crosswords"
+    ]
+  },
+  {
+    "name": "Noggin Rung",
+    "url": "https://noggin.games/rung/?utm_source=dles&utm_medium=directory",
+    "description": "Climb from one word to another changing one letter at a time, every step a real word; par is the shortest path.",
+    "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ]
+  },
+  {
+    "name": "Noggin Spectrum",
+    "url": "https://noggin.games/spectrum/?utm_source=dles&utm_medium=directory",
+    "description": "Put six things in order along a hidden scale, oldest to newest or mildest to hottest.",
+    "category": "Estimation",
+    "themes": [
+      "Rearranging"
+    ]
+  },
+  {
+    "name": "Noggin Trace",
+    "url": "https://noggin.games/trace/?utm_source=dles&utm_medium=directory",
+    "description": "Draw the day's shape without seeing your ink, then see how close you came.",
+    "category": "Shapes/Patterns"
+  },
+  {
+    "name": "Noggin Vault",
+    "url": "https://noggin.games/vault/?utm_source=dles&utm_medium=directory",
+    "description": "Crack a hidden code in nine guesses; each guess says how many symbols are exact, near or far, never which.",
+    "category": "Math/Logic",
+    "themes": [
+      "Decoding"
+    ]
+  },
+  {
     "name": "Noggle",
     "url": "https://nibble.games/noggle/noggle.html",
     "description": "A daily logic puzzle with a touch of learning and trivia.",
