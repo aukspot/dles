@@ -8,7 +8,7 @@
  * - GET /api/poll-results?pollId=X - Get poll results
  */
 
-import pollsData from "../src/lib/data/polls.json"
+const POLLS_URL = "https://dles.aukspot.com/polls.json"
 
 export default {
   async fetch(request, env) {
@@ -43,16 +43,33 @@ export default {
           )
         }
 
+        let pollsData
+        try {
+          pollsData = await loadPolls(env.POLLS_URL || POLLS_URL)
+        } catch (error) {
+          console.error("Failed to load poll definitions", error)
+          return new Response(
+            JSON.stringify({
+              error: "Polls are temporarily unavailable. Please try again.",
+            }),
+            {
+              status: 503,
+              headers: {
+                ...corsHeaders,
+                "Content-Type": "application/json",
+                "Retry-After": "60",
+              },
+            },
+          )
+        }
+
         // Check if the poll exists and is still active
         const poll = pollsData.find((p) => p.id === pollId)
         if (!poll) {
-          return new Response(
-            JSON.stringify({ error: "Poll not found" }),
-            {
-              status: 404,
-              headers: { ...corsHeaders, "Content-Type": "application/json" },
-            },
-          )
+          return new Response(JSON.stringify({ error: "Poll not found" }), {
+            status: 404,
+            headers: { ...corsHeaders, "Content-Type": "application/json" },
+          })
         }
 
         const now = new Date()
@@ -116,6 +133,33 @@ export default {
       )
     }
   },
+}
+
+async function loadPolls(url) {
+  const response = await fetch(url, {
+    // Keep definitions briefly at the edge, without bundling them into the worker.
+    cf: { cacheEverything: true, cacheTtl: 60 },
+    signal: AbortSignal.timeout(5000),
+  })
+  if (!response.ok)
+    throw new Error(`Poll definitions returned HTTP ${response.status}`)
+
+  const polls = await response.json()
+  if (
+    !Array.isArray(polls) ||
+    !polls.every(
+      (poll) =>
+        poll &&
+        typeof poll.id === "string" &&
+        poll.id.length > 0 &&
+        typeof poll.timeRange?.end === "string" &&
+        /^\d{4}-\d{2}-\d{2}$/.test(poll.timeRange.end) &&
+        Number.isFinite(Date.parse(poll.timeRange.end + "T23:59:59Z")),
+    )
+  ) {
+    throw new Error("Invalid poll definitions")
+  }
+  return polls
 }
 
 /**
