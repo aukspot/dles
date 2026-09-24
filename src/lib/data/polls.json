@@ -405,5 +405,32 @@
       "end": "2026-04-30"
     },
     "showResultsImmediately": true
+  },
+  {
+    "id": "poll-22",
+    "question": "How often do you play Wordle?",
+    "options": [
+      {
+        "id": "everyday",
+        "label": "Everyday!"
+      },
+      {
+        "id": "pretty-often",
+        "label": "Pretty often"
+      },
+      {
+        "id": "rarely",
+        "label": "Rarely"
+      },
+      {
+        "id": "ive-never-played-wordle",
+        "label": "I've never played Wordle"
+      }
+    ],
+    "timeRange": {
+      "start": "2026-09-24",
+      "end": "2026-11-24"
+    },
+    "showResultsImmediately": true
   }
 ]
