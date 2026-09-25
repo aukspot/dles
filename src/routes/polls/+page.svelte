@@ -2,6 +2,7 @@
   import { allPolls } from "$lib/stores"
   import BackArrow from "$lib/components/Buttons/BackArrow.svelte"
   import GoBackHome from "$lib/components/GoBackHome.svelte"
+  import IconCheckBold from "$lib/components/Icons/IconCheckBold.svelte"
   import { onMount } from "svelte"
 
   let pollResults = {}
@@ -31,6 +32,12 @@
       return now > end
     })
     .sort((a, b) => new Date(b.timeRange.end) - new Date(a.timeRange.end))
+
+  $: columns = [0, 1].map((col) =>
+    completedPolls
+      .map((poll, index) => ({ poll, index }))
+      .filter(({ index }) => index % 2 === col),
+  )
 
   onMount(() => {
     // Load results for all completed polls
@@ -134,60 +141,75 @@
     <p class="empty-message">No completed polls yet.</p>
   {:else}
     <div class="polls-list">
-      {#each completedPolls as poll, index}
-        {@const results = pollResults[poll.id]}
-        {@const winner = getWinner(poll, results)}
-        {@const isLoading = loadingPolls.has(poll.id)}
-        {@const error = errorPolls[poll.id]}
+      {#each columns as column}
+        <div class="polls-column">
+          {#each column as { poll, index } (poll.id)}
+            {@const results = pollResults[poll.id]}
+            {@const winner = getWinner(poll, results)}
+            {@const isLoading = loadingPolls.has(poll.id)}
+            {@const error = errorPolls[poll.id]}
 
-        <div class="poll-card">
-          <div class="poll-header">
-            <span></span>
-            <h3 class="poll-question">
-              {completedPolls.length - index}. {poll.question}
-            </h3>
-            <!-- <span class="poll-date">{formatDateRange(poll.timeRange)}</span> -->
-          </div>
+            <article class="poll-card" style="order: {index}">
+              <header class="poll-header">
+                <h3 class="poll-question">{poll.question}</h3>
+                {#if poll.subtitle}
+                  <p class="poll-subtitle">{poll.subtitle}</p>
+                {/if}
+              </header>
 
-          <div class="poll-content">
-            {#if isLoading}
-              <div class="loading-container">
-                <span class="loading-text">Loading...</span>
-              </div>
-            {:else if error}
-              <div class="error-message">Failed to load results</div>
-            {:else if results}
-              <div class="poll-results">
-                {#each poll.options as option}
-                  {@const count = results[option.id] || 0}
-                  {@const percentage = results.percentages[option.id] || 0}
-                  {@const isWinner = winner && winner.id === option.id}
-
-                  <div class="result-row" class:winner={isWinner}>
-                    <div class="result-info">
-                      <span class="result-label" class:winner-label={isWinner}>
-                        {option.label}
-                        <!-- {#if isWinner}
-                          <span class="winner-badge">Winner</span>
-                        {/if} -->
-                      </span>
-                      <span class="result-stats"
-                        >{count} votes ({percentage}%)</span
-                      >
-                    </div>
-                    <div class="result-bar-container">
-                      <div
-                        class="result-bar"
-                        class:winner-bar={isWinner}
-                        style="width: {percentage}%"
-                      ></div>
-                    </div>
+              <div class="poll-content">
+                {#if isLoading}
+                  <div class="loading-container">
+                    <span class="loading-text">Loading...</span>
                   </div>
-                {/each}
-                <p class="results-total">{results.total} total votes</p>
+                {:else if error}
+                  <div class="error-message">Failed to load results</div>
+                {:else if results}
+                  <ul class="poll-results">
+                    {#each poll.options as option}
+                      {@const count = results[option.id] || 0}
+                      {@const percentage = results.percentages[option.id] || 0}
+                      {@const isWinner = winner && winner.id === option.id}
+
+                      <li class="result-row" class:winner={isWinner}>
+                        <div class="result-info">
+                          <span class="result-label">
+                            {option.label}
+                            {#if isWinner}
+                              <span class="winner-icon" aria-label="Winner">
+                                <IconCheckBold />
+                              </span>
+                            {/if}
+                          </span>
+                          <span class="result-percentage">{percentage}%</span>
+                        </div>
+                        <div class="result-bar-container">
+                          <div
+                            class="result-bar"
+                            style="width: {percentage}%"
+                          ></div>
+                        </div>
+                        <span class="result-count">
+                          {count}
+                          {count === 1 ? "vote" : "votes"}
+                        </span>
+                      </li>
+                    {/each}
+                  </ul>
+                {/if}
               </div>
-            {/if}
-          </div>
+
+              <footer class="poll-footer">
+                <span>
+                  {#if results && !isLoading && !error}
+                    {results.total} total votes
+                  {/if}
+                </span>
+                <span class="poll-number">#{completedPolls.length - index}</span
+                >
+              </footer>
+            </article>
+          {/each}
         </div>
       {/each}
     </div>
@@ -198,7 +220,7 @@
 
 <style lang="postcss">
   .polls-container {
-    @apply max-w-lg mx-auto px-3 py-4;
+    @apply max-w-lg lg:max-w-4xl mx-auto px-3 py-4;
   }
 
   .polls-header {
@@ -225,28 +247,36 @@
     @apply text-center text-colorTextSoft py-8;
   }
 
-  /* .polls-list {
-    @apply grid grid-cols-2 gap-2;
-  } */
-
   .polls-list {
-    @apply flex flex-col gap-8;
+    @apply flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:items-start lg:gap-5;
+  }
+
+  .polls-column {
+    @apply contents lg:flex lg:flex-col lg:gap-5;
   }
 
   .poll-card {
-    @apply border-2 border-colorTextSoftest rounded-sm overflow-hidden bg-colorCardA;
+    @apply flex flex-col border-2 border-colorTextSoftest rounded overflow-hidden bg-colorCardA;
   }
 
   .poll-header {
-    @apply px-2 py-1.5 bg-colorCardC border-b border-colorTextSoftest text-center flex flex-col;
+    @apply px-3 py-2.5 bg-colorCardC border-b border-colorTextSoftest;
+  }
+
+  .poll-number {
+    @apply text-xs font-mono text-colorTextSofter;
   }
 
   .poll-question {
-    @apply text-base font-semibold text-colorText m-0;
+    @apply text-base font-semibold leading-snug text-colorText m-0;
+  }
+
+  .poll-subtitle {
+    @apply text-xs text-colorTextSoft mt-0.5 mb-0;
   }
 
   .poll-content {
-    @apply p-2;
+    @apply px-3 py-3;
   }
 
   .loading-container {
@@ -262,46 +292,51 @@
   }
 
   .poll-results {
-    @apply flex flex-col gap-3;
+    @apply flex flex-col gap-3.5 list-none m-0 p-0;
   }
 
   .result-row {
-    @apply flex flex-col gap-0.5;
-  }
-
-  .result-row.winner {
-    @apply p-1.5 -mx-1.5 bg-green-100 dark:bg-green-700/20 rounded;
+    @apply flex flex-col gap-1;
   }
 
   .result-info {
-    @apply flex items-center justify-between gap-2;
+    @apply flex items-baseline justify-between gap-3;
   }
 
   .result-label {
-    @apply text-sm font-medium text-colorText flex items-center gap-2;
+    @apply text-sm font-medium leading-snug text-colorText;
   }
 
-  .result-label.winner-label {
-    @apply text-green-700 dark:text-green-400;
+  .winner-icon {
+    @apply inline-flex w-3 h-3 ml-0.5 align-[-0.05em];
   }
 
-  .result-stats {
-    @apply text-xs text-colorTextSoft font-mono;
+  .result-percentage {
+    @apply text-sm font-semibold tabular-nums text-colorText shrink-0;
+  }
+
+  .result-count {
+    @apply text-xs tabular-nums text-colorTextSofter;
   }
 
   .result-bar-container {
-    @apply w-full h-2 bg-zinc-400 dark:bg-zinc-600 rounded overflow-hidden;
+    @apply w-full h-2.5 bg-zinc-400/50 dark:bg-zinc-600/60 rounded-full overflow-hidden;
   }
 
   .result-bar {
-    @apply h-full bg-blue-500 dark:bg-blue-600 transition-all duration-300;
+    @apply h-full rounded-full bg-blue-500 dark:bg-blue-600 transition-all duration-300;
   }
 
-  .result-bar.winner-bar {
+  .winner .result-label,
+  .winner .result-percentage {
+    @apply text-green-700 dark:text-green-400 font-semibold;
+  }
+
+  .winner .result-bar {
     @apply bg-green-500 dark:bg-green-600;
   }
 
-  .results-total {
-    @apply text-center text-xs text-colorTextSoft mt-1 mb-0;
+  .poll-footer {
+    @apply flex items-center justify-between gap-2 px-3 py-2 text-xs text-colorTextSoft border-t border-colorTextSoftest bg-colorCardC;
   }
 </style>

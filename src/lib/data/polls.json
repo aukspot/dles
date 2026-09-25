@@ -58,7 +58,8 @@
   },
   {
     "id": "poll-4",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Math/Logic or Words",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "math-logic",
@@ -100,7 +101,8 @@
   },
   {
     "id": "poll-6",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Music or Movies/TV",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "music",
@@ -119,7 +121,8 @@
   },
   {
     "id": "poll-7",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Sports or Video Games",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "sports",
@@ -138,7 +141,8 @@
   },
   {
     "id": "poll-8",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "History or Science/Nature",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "history",
@@ -157,7 +161,8 @@
   },
   {
     "id": "poll-9",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Card/Board Games or Shapes/Patterns",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "card-board-games",
@@ -176,7 +181,8 @@
   },
   {
     "id": "poll-10",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Geography or Trivia",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "geography",
@@ -195,7 +201,8 @@
   },
   {
     "id": "poll-11",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Food or Colors",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "food",
@@ -214,7 +221,8 @@
   },
   {
     "id": "poll-12",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Estimation or Miscellaneous",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "estimation",
@@ -233,7 +241,8 @@
   },
   {
     "id": "poll-13",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Movies/TV or Video Games",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "movies-tv",
@@ -252,7 +261,8 @@
   },
   {
     "id": "poll-14",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Card/Board Games or Science/Nature",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "card-board-games",
@@ -271,7 +281,8 @@
   },
   {
     "id": "poll-15",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Trivia or Words",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "trivia",
@@ -290,7 +301,8 @@
   },
   {
     "id": "poll-16",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Math/Logic or Music",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "math-logic",
@@ -309,7 +321,8 @@
   },
   {
     "id": "poll-17",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Geography or History",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "geography",
@@ -351,7 +364,8 @@
   },
   {
     "id": "poll-19",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Food or Miscellaneous",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "food",
@@ -370,7 +384,8 @@
   },
   {
     "id": "poll-20",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Colors or Shapes/Patterns",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "colors",
@@ -389,7 +404,8 @@
   },
   {
     "id": "poll-21",
-    "question": "CATEGORY BATTLE: Which DLES category is better?",
+    "question": "Card/Board Games or Movies/TV",
+    "subtitle": "Which DLES category is better?",
     "options": [
       {
         "id": "card-board-games",

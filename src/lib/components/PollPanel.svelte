@@ -176,6 +176,9 @@
               {currentPoll.question}
             </div>
           </h3>
+          {#if currentPoll.subtitle}
+            <p class="poll-subtitle">{currentPoll.subtitle}</p>
+          {/if}
           <div class="poll-card">
             {#if errorPollId === currentPoll.id}
               <div class="error-message">
@@ -300,6 +303,10 @@
 
   .poll-card {
     @apply p-2 min-h-40 rounded flex flex-col gap-1 justify-around;
+  }
+
+  .poll-subtitle {
+    @apply text-center text-sm text-colorTextSoft -mt-1 mb-2;
   }
 
   .poll-question {
