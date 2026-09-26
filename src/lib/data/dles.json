@@ -6210,5 +6210,11 @@
     "description": "Guess the video game from the zoomed-in screenshot.",
     "category": "Video Games",
     "id": 454
-  }
+  },
+  { "name": "Grid Puzzles - Mini Sudoku", "url": "https://gridpuzzles.app/mini-sudoku/daily/", "description": "A 6x6 sudoku with 2x3 boxes, new every day, with hints and unlimited practice. No account needed.", "category": "Math/Logic", "themes": ["Sudoku"] },
+{ "name": "Grid Puzzles - Patches", "url": "https://gridpuzzles.app/patches/daily/", "description": "Cut the grid into rectangles so each holds exactly one clue giving its area and shape. No account needed.", "category": "Shapes/Patterns" },
+{ "name": "Grid Puzzles - Wend", "url": "https://gridpuzzles.app/wend/daily/", "description": "Trace the hidden words through a letter grid; every letter is used exactly once. No account needed.", "category": "Words", "themes": ["Word Searches"] },
+{ "name": "Grid Puzzles - Pips", "url": "https://gridpuzzles.app/pips/daily/", "description": "Place every domino so each colored region obeys its rule: a sum, all equal, all different, or a bound. No account needed.", "category": "Math/Logic" },
+{ "name": "Grid Puzzles - Zip", "url": "https://gridpuzzles.app/zip/daily/", "description": "Draw one line through every cell, hitting the numbers in order without crossing walls. No account needed.", "category": "Shapes/Patterns" }
+
 ]
