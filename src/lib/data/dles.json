@@ -185,6 +185,13 @@
     "id": 13
   },
   {
+    "name": "Auctimate",
+    "url": "https://guessdash.com/auctimate",
+    "description": "Guess what the items in the auction lot sold for, 5 rounds every day.",
+    "category": "Estimation",
+    "id": 836
+  },
+  {
     "name": "Avatardle",
     "url": "https://avatardle.com",
     "description": "A daily guessing game based on the show Avatar: The Last Airbender.",
@@ -1155,6 +1162,13 @@
     "id": 84
   },
   {
+    "name": "Daily Orbs",
+    "url": "https://dailyorbs.com",
+    "description": "Try to get 6 orbs across four daily trivia puzzles.",
+    "category": "Trivia",
+    "id": 837
+  },
+  {
     "name": "Daily Rinds",
     "url": "https://dailyrinds.com",
     "description": "Guess the daily mystery cheese.",
@@ -1893,7 +1907,7 @@
   {
     "name": "GeoPaint",
     "url": "https://georankle.io/geopaint",
-    "description": "Guess the color missing from the country flag, 4 rounds every day.",
+    "description": "Guess the color missing from the country flag, 5 rounds every day.",
     "category": "Geography",
     "id": 832
   },
@@ -2108,6 +2122,13 @@
     "description": "Guess the price for each of today's five products.",
     "category": "Estimation",
     "id": 813
+  },
+  {
+    "name": "Halfsies",
+    "url": "https://halfsies.dev",
+    "description": "Split the object into 2 pieces that weigh the same, 5 rounds every day.",
+    "category": "Estimation",
+    "id": 838
   },
   {
     "name": "Harmonies: Music Connections",
@@ -4755,6 +4776,20 @@
     "id": 633
   },
   {
+    "name": "Sporcle - Chess Attack",
+    "url": "https://www.sporcle.com/chess-attack/play",
+    "description": "Checkmate the opponent in this 6x6 randomized Chess variant.",
+    "category": "Card/Board Games",
+    "id": 839
+  },
+  {
+    "name": "Sporcle - WorldPlay",
+    "url": "https://www.sporcle.com/worldplay/play",
+    "description": "Find today's city by exploring the world, revealing a new clue after each guess.",
+    "category": "Geography",
+    "id": 840
+  },
+  {
     "name": "Sporcle Daily Acrostic",
     "url": "https://www.sporcle.com/acrostic/todays-acrostic",
     "description": "A daily acrostic puzzle from Sporcle.",
@@ -4844,6 +4879,13 @@
     "description": "A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.",
     "category": "Miscellaneous",
     "id": 793
+  },
+  {
+    "name": "Stackdle",
+    "url": "https://stackdle.dev",
+    "description": "Build the tallest stack of shapes without it falling over.",
+    "category": "Shapes/Patterns",
+    "id": 841
   },
   {
     "name": "Stackdown",
@@ -5322,6 +5364,13 @@
       "Scrabble-likes"
     ],
     "id": 522
+  },
+  {
+    "name": "Tilt",
+    "url": "https://tilt.day",
+    "description": "Guess how many given objects it takes to balance the scale, 5 rounds every day.",
+    "category": "Estimation",
+    "id": 842
   },
   {
     "name": "Timdle",

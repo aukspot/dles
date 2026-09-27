@@ -1,0 +1,9 @@
+id: 841
+name: Stackdle
+url: https://stackdle.dev
+description: Build the tallest stack of shapes without it falling over.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-09-27'
+  event: added

@@ -1,0 +1,9 @@
+id: 837
+name: Daily Orbs
+url: https://dailyorbs.com
+description: Try to get 6 orbs across four daily trivia puzzles.
+category: Trivia
+status: active
+history:
+- date: '2026-09-27'
+  event: added

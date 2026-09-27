@@ -1,5 +1,20 @@
 # Changelog - The Dles
 
+## 2026-09-27
+
+Add 7 dles. 
+
+dles added: 
+|    | name                                                                | url                                                                                    |   id |
+|---:|:--------------------------------------------------------------------|:---------------------------------------------------------------------------------------|-----:|
+|  1 | [Auctimate](https://guessdash.com/auctimate)                        | [https://guessdash.com/auctimate](https://guessdash.com/auctimate)                     |  836 |
+|  2 | [Daily Orbs](https://dailyorbs.com)                                 | [https://dailyorbs.com](https://dailyorbs.com)                                         |  837 |
+|  3 | [Halfsies](https://halfsies.dev)                                    | [https://halfsies.dev](https://halfsies.dev)                                           |  838 |
+|  4 | [Sporcle - Chess Attack](https://www.sporcle.com/chess-attack/play) | [https://www.sporcle.com/chess-attack/play](https://www.sporcle.com/chess-attack/play) |  839 |
+|  5 | [Sporcle - WorldPlay](https://www.sporcle.com/worldplay/play)       | [https://www.sporcle.com/worldplay/play](https://www.sporcle.com/worldplay/play)       |  840 |
+|  6 | [Stackdle](https://stackdle.dev)                                    | [https://stackdle.dev](https://stackdle.dev)                                           |  841 |
+|  7 | [Tilt](https://tilt.day)                                            | [https://tilt.day](https://tilt.day)                                                   |  842 |
+
 ## 2026-09-21
 
 Add 5 dles. Remove 1 dle. 

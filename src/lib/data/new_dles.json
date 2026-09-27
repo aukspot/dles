@@ -1,21 +1,15 @@
 [
   {
-    "name": "Dowsle",
-    "url": "https://dowsle.com",
-    "id": 808,
-    "date_added": "2026-08-26"
+    "name": "Auctimate",
+    "url": "https://guessdash.com/auctimate",
+    "id": 836,
+    "date_added": "2026-09-27"
   },
   {
-    "name": "Estimania",
-    "url": "https://estimania.app",
-    "id": 809,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Fermi",
-    "url": "https://fermi.gg",
-    "id": 810,
-    "date_added": "2026-08-26"
+    "name": "Daily Orbs",
+    "url": "https://dailyorbs.com",
+    "id": 837,
+    "date_added": "2026-09-27"
   },
   {
     "name": "FlipList Daily",
@@ -24,28 +18,16 @@
     "date_added": "2026-09-21"
   },
   {
-    "name": "fridgle",
-    "url": "https://fridgle.net",
-    "id": 811,
-    "date_added": "2026-08-26"
-  },
-  {
     "name": "GeoPaint",
     "url": "https://georankle.io/geopaint",
     "id": 832,
     "date_added": "2026-09-21"
   },
   {
-    "name": "GnarlyQ",
-    "url": "https://gnarlyq.com",
-    "id": 812,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "haggle",
-    "url": "https://haggle.gg",
-    "id": 813,
-    "date_added": "2026-08-26"
+    "name": "Halfsies",
+    "url": "https://halfsies.dev",
+    "id": 838,
+    "date_added": "2026-09-27"
   },
   {
     "name": "HexHunt",
@@ -54,70 +36,10 @@
     "date_added": "2026-09-03"
   },
   {
-    "name": "Krillion",
-    "url": "https://krillion.io",
-    "id": 814,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Lawndle",
-    "url": "https://johalloran.dev/lawndle/",
-    "id": 815,
-    "date_added": "2026-08-26"
-  },
-  {
     "name": "Lettergrams",
     "url": "https://puzzlist.com/lettergrams",
     "id": 829,
     "date_added": "2026-09-03"
-  },
-  {
-    "name": "Mowkoban",
-    "url": "https://mowkoban.com/",
-    "id": 816,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Patchdle",
-    "url": "https://patchdle.com",
-    "id": 817,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Per Night",
-    "url": "https://pernight.app",
-    "id": 818,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Perceptle",
-    "url": "https://perceptle.com",
-    "id": 828,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Petalgrams",
-    "url": "https://petalgrams.com",
-    "id": 819,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Quotadle",
-    "url": "https://quotadle.com",
-    "id": 820,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Rabbithole",
-    "url": "https://www.theatlantic.com/games/rabbithole/",
-    "id": 821,
-    "date_added": "2026-08-26"
-  },
-  {
-    "name": "Rackdle",
-    "url": "https://rackdle.fun",
-    "id": 822,
-    "date_added": "2026-08-26"
   },
   {
     "name": "Size It Up",
@@ -132,28 +54,28 @@
     "date_added": "2026-09-21"
   },
   {
-    "name": "Time Machine (MLB)",
-    "url": "https://boxscore.email/games/time-machine",
-    "id": 824,
-    "date_added": "2026-08-26"
+    "name": "Sporcle - Chess Attack",
+    "url": "https://www.sporcle.com/chess-attack/play",
+    "id": 839,
+    "date_added": "2026-09-27"
   },
   {
-    "name": "Vexle",
-    "url": "https://vexle.org",
-    "id": 825,
-    "date_added": "2026-08-26"
+    "name": "Sporcle - WorldPlay",
+    "url": "https://www.sporcle.com/worldplay/play",
+    "id": 840,
+    "date_added": "2026-09-27"
   },
   {
-    "name": "VTuble",
-    "url": "https://www.vtuble.moe",
-    "id": 826,
-    "date_added": "2026-08-26"
+    "name": "Stackdle",
+    "url": "https://stackdle.dev",
+    "id": 841,
+    "date_added": "2026-09-27"
   },
   {
-    "name": "Year To Beat",
-    "url": "https://yeartobeat.com",
-    "id": 827,
-    "date_added": "2026-08-26"
+    "name": "Tilt",
+    "url": "https://tilt.day",
+    "id": 842,
+    "date_added": "2026-09-27"
   },
   {
     "name": "Yellow Yellow",

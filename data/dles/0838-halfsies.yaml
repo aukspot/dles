@@ -1,0 +1,9 @@
+id: 838
+name: Halfsies
+url: https://halfsies.dev
+description: Split the object into 2 pieces that weigh the same, 5 rounds every day.
+category: Estimation
+status: active
+history:
+- date: '2026-09-27'
+  event: added

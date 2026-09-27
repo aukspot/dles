@@ -1,0 +1,9 @@
+id: 842
+name: Tilt
+url: https://tilt.day
+description: Guess how many given objects it takes to balance the scale, 5 rounds every day.
+category: Estimation
+status: active
+history:
+- date: '2026-09-27'
+  event: added

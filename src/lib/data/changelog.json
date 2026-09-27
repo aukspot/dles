@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-27",
+    "dles added": [
+      {
+        "name": "Auctimate",
+        "url": "https://guessdash.com/auctimate",
+        "id": 836
+      },
+      {
+        "name": "Daily Orbs",
+        "url": "https://dailyorbs.com",
+        "id": 837
+      },
+      {
+        "name": "Halfsies",
+        "url": "https://halfsies.dev",
+        "id": 838
+      },
+      {
+        "name": "Sporcle - Chess Attack",
+        "url": "https://www.sporcle.com/chess-attack/play",
+        "id": 839
+      },
+      {
+        "name": "Sporcle - WorldPlay",
+        "url": "https://www.sporcle.com/worldplay/play",
+        "id": 840
+      },
+      {
+        "name": "Stackdle",
+        "url": "https://stackdle.dev",
+        "id": 841
+      },
+      {
+        "name": "Tilt",
+        "url": "https://tilt.day",
+        "id": 842
+      }
+    ],
+    "description": "Add 7 dles. "
+  },
+  {
     "date": "2026-09-21",
     "dles removed": [
       {

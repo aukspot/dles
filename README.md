@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-09-21`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-09-27`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -84,7 +84,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
 
-### Card/Board Games (21)
+### Card/Board Games (22)
 
 - [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) - Solve the daily chess puzzle from chess.com.
 - [Chessguessr](https://www.chessguessr.com) - Given a snapshot from a chess game, guess the next 5 moves played.
@@ -103,6 +103,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Royal Family](https://coffeefirst.games/royal-family) - Place the chess pieces on the board so that each zone has a piece and no piece can attack another.
 - [Scrokkdle](https://scrokkle.io/daily) - Build connected Poker hands on the board using the tiles given to you. Like Poker mixed with Scrabble.
 - [Spellify](https://edhrec.com/games/spellify) - Guess the daily card from Magic The Gathering after choosing up to 10 letters to reveal. 
+- [Sporcle - Chess Attack](https://www.sporcle.com/chess-attack/play) - Checkmate the opponent in this 6x6 randomized Chess variant.
 - [Sudoker](https://sudoker.io) - Rearrange the cards to create better Poker hands and maximize scores across rows and columns.
 - [Takes](https://takes.clevergoat.com) - Capture Chess pieces until only one remains.
 - [YGOdle](https://www.ygodle.net/) - A collection of daily guessing games based on the card game 'Yu-Gi-Oh!'
@@ -120,10 +121,11 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (28)
+### Estimation (31)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
+- [Auctimate](https://guessdash.com/auctimate) - Guess what the items in the auction lot sold for, 5 rounds every day.
 - [Brickdle](https://www.brickdle.com) - Guess the number of pieces in the pictured LEGO set.
 - [Centroid](https://centroidgame.com) - Guess the center of mass of all the shapes in the grid.
 - [Costcodle](https://costcodle.com) - Guess the price of the given Costco item.
@@ -138,6 +140,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [haggle](https://haggle.gg) - Guess the price for each of today's five products.
+- [Halfsies](https://halfsies.dev) - Split the object into 2 pieces that weigh the same, 5 rounds every day.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
 - [Magnitudle](https://magnitudle.com/daily) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
 - [Moneyline](https://moneyline.fromthethink.com) - Pick over/under the given line for each fact or statistic.
@@ -148,6 +151,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Perceptle](https://perceptle.com) - Five tiny tests of perceptual instinct.
 - [Size It Up](https://magnitudle.com/size-it-up) - Scale the object accurately based on a real-world reference object, 5 rounds every day.
 - [Temple](https://tck.mn/temple) - Guess a duration or tempo by watching a flashing light, or give a duration or tempo by clicking.
+- [Tilt](https://tilt.day) - Guess how many given objects it takes to balance the scale, 5 rounds every day.
 - [Timingle](https://timingle.danielbrandao.dev) - Try to time when the countdown reaches 0. Each day the beat is different.
 - [Zonday](https://zonday.app) - Guess the price of the item from Amazon.com.
 
@@ -159,7 +163,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (59)
+### Geography (60)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -181,7 +185,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Geografind](https://coffeefirst.games/geografind) - Guess the mystery country in as few guesses as possible, watch the map for hints after each guess.
 - [GeoGrid](https://www.geogridgame.com) - Fill in the grid with countries that match each cell's corresponding row and column categories.
 - [Geonections](https://geonections.com) - Connections but you group countries based on StreetView images.
-- [GeoPaint](https://georankle.io/geopaint) - Guess the color missing from the country flag, 4 rounds every day.
+- [GeoPaint](https://georankle.io/geopaint) - Guess the color missing from the country flag, 5 rounds every day.
 - [GeoQuest](https://geoquest.gg) - Locate today's countries on the world map.
 - [Geozee](https://geozee.earth) - Place each country in the category that fits it best. The better the match, the more points you get.
 - [GlobeHoppr](https://globehoppr.com) - Travel from one world city to another by hopping across nearby cities.
@@ -207,6 +211,7 @@ This will update the `./docs` directory with a new build of the site.
 - [SatZoom](https://satpixel.com/en/satellite-zoom-game/) - Guess the city based on the satellite image.
 - [Seadle](https://seadle.muhashi.com) - Guess the sea of the day in as few attempts as possible.
 - [Size It Up - Geography](https://magnitudle.com/size-it-up/geography) - Scale the geographical feature accurately based on the reference object, 5 rounds every day.
+- [Sporcle - WorldPlay](https://www.sporcle.com/worldplay/play) - Find today's city by exploring the world, revealing a new clue after each guess.
 - [Statele](https://statele.teuteuf.fr) - Guess the US State by its outline on the map.
 - [TimeGuessr](https://timeguessr.com) - Guess the right time and location of each historical photo.
 - [TravelGuessr](https://travelguessr.com/) - Guess where the travel photo was taken, 4 rounds every day.
@@ -431,7 +436,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (32)
+### Shapes/Patterns (33)
 
 - [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
@@ -462,6 +467,7 @@ This will update the `./docs` directory with a new build of the site.
 - [SetFury](https://www.setfury.com) - Find valid sets of 3 to 5 tiles by moving through the grid.
 - [Shaple](https://swag.github.io/shaple) - Choose the shape that matches the top shape.
 - [Shikaku of the day](https://shikakuofthe.day) - 5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.
+- [Stackdle](https://stackdle.dev) - Build the tallest stack of shapes without it falling over.
 - [Synthmaze](https://synthmaze.heliante.io/#/daily) - Swap tiles in the maze so that the rocket reaches the exit.
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
@@ -495,7 +501,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (34)
+### Trivia (35)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) - Arrange the items into the correct order in 5 guesses.
@@ -504,6 +510,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Concludle](https://tryhardguides.com/concludle) - Guess the secret answer from a series of clues.
 - [Daily Dozen Trivia](https://dailydozentrivia.com) - Answer 9 trivia questions from various categories.
 - [Daily Fact or Fiction](https://dailyfactorfiction.com) - Guess whether today's statement is fact or fiction.
+- [Daily Orbs](https://dailyorbs.com) - Try to get 6 orbs across four daily trivia puzzles.
 - [Daily Tens](https://dailytens.com) - Guess the top 10 items of today's category.
 - [Disorderly](https://playdisorderly.com) - Order the items correctly based on the given criteria.
 - [Eruptle](https://eruptle.app) - Guess the 10 items that fit the prompt, kind of like Family Feud.

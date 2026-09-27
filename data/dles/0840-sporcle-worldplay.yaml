@@ -1,0 +1,9 @@
+id: 840
+name: Sporcle - WorldPlay
+url: https://www.sporcle.com/worldplay/play
+description: Find today's city by exploring the world, revealing a new clue after each guess.
+category: Geography
+status: active
+history:
+- date: '2026-09-27'
+  event: added

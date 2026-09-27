@@ -1,0 +1,9 @@
+id: 839
+name: Sporcle - Chess Attack
+url: https://www.sporcle.com/chess-attack/play
+description: Checkmate the opponent in this 6x6 randomized Chess variant.
+category: Card/Board Games
+status: active
+history:
+- date: '2026-09-27'
+  event: added

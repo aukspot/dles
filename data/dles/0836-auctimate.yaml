@@ -1,0 +1,9 @@
+id: 836
+name: Auctimate
+url: https://guessdash.com/auctimate
+description: Guess what the items in the auction lot sold for, 5 rounds every day.
+category: Estimation
+status: active
+history:
+- date: '2026-09-27'
+  event: added
