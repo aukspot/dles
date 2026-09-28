@@ -163,7 +163,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (60)
+### Geography (61)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -206,6 +206,7 @@ This will update the `./docs` directory with a new build of the site.
 - [OEC Pick 5](https://oec.world/en/games/pick-5) - Guess the top 5 countries that export the most of the given product.
 - [OEC Tradle](https://oec.world/en/games/tradle) - Guess the country by its exports.
 - [Passportle](https://passportle.lordos.tech) - Guess the country based on its passport.
+- [Real Flag / Fake Flag](https://realflagfakeflag.com) - Guess if each flag is real or fake.
 - [Satle](https://satle.ca) - Guess the city given a satellite image, zooming out after each guess.
 - [SatPin](https://satpixel.com/en/satellite-pin-guess/) - Pin the world locations on the map based on satellite images.
 - [SatZoom](https://satpixel.com/en/satellite-zoom-game/) - Guess the city based on the satellite image.

@@ -2,12 +2,13 @@
 
 ## 2026-09-28
 
-Add 1 dle. 
+Add 2 dles. 
 
 dles added: 
-|    | name                          | url                                      |   id |
-|---:|:------------------------------|:-----------------------------------------|-----:|
-|  1 | [Chainle](https://chainle.io) | [https://chainle.io](https://chainle.io) |  843 |
+|    | name                                                  | url                                                          |   id |
+|---:|:------------------------------------------------------|:-------------------------------------------------------------|-----:|
+|  1 | [Chainle](https://chainle.io)                         | [https://chainle.io](https://chainle.io)                     |  843 |
+|  2 | [Real Flag / Fake Flag](https://realflagfakeflag.com) | [https://realflagfakeflag.com](https://realflagfakeflag.com) |  844 |
 
 ## 2026-09-27
 

@@ -4227,6 +4227,13 @@
     "id": 315
   },
   {
+    "name": "Real Flag / Fake Flag",
+    "url": "https://realflagfakeflag.com",
+    "description": "Guess if each flag is real or fake.",
+    "category": "Geography",
+    "id": 844
+  },
+  {
     "name": "Redactle",
     "url": "https://redactle.net",
     "description": "Guess the Wikipedia article by its content with keywords redacted.",
