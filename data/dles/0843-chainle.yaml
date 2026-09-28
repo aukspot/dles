@@ -1,0 +1,11 @@
+id: 843
+name: Chainle
+url: https://chainle.io
+description: Guess the word that best connects the clue words, scoring up to 1000 points per round. 5 rounds every day.
+category: Words
+themes:
+- Semantics
+status: active
+history:
+- date: '2026-09-28'
+  event: added

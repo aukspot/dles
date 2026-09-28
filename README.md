@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-09-27`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-09-28`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -661,7 +661,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (240)
+### Words (241)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -684,6 +684,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Cell Tower](https://www.andrewt.net/puzzles/cell-tower) - Divide the grid into regions such that each region represents a word.
 - [cemantle](https://cemantle.certitudes.org) - Guess words to see how close they are to the secret word contextually, eventually guessing the secret word.
 - [Chainagram](https://puzzletrail.games/puzzles/chainagram) - Make a chain linking two words together by changing one letter and making an anagram at each step.
+- [Chainle](https://chainle.io) - Guess the word that best connects the clue words, scoring up to 1000 points per round. 5 rounds every day.
 - [Chiddle](https://www.chiddle.net) - Try to find five high scoring words in the puzzle grid, like Boggle.
 - [CHN LNK](https://thechnlnk.com) - Complete the chain of connected words by guessing all of the consonants, then all of the vowels.
 - [ClickWord](https://clickword.org) - Place letter tiles on the board to make words and score points! Keep placing tiles until you run out.

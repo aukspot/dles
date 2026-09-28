@@ -594,6 +594,16 @@
     "id": 42
   },
   {
+    "name": "Chainle",
+    "url": "https://chainle.io",
+    "description": "Guess the word that best connects the clue words, scoring up to 1000 points per round. 5 rounds every day.",
+    "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
+    "id": 843
+  },
+  {
     "name": "Chartle",
     "url": "https://chartle.cc",
     "description": "Guess the country based on the chart.",

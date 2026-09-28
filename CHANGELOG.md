@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-09-28
+
+Add 1 dle. 
+
+dles added: 
+|    | name                          | url                                      |   id |
+|---:|:------------------------------|:-----------------------------------------|-----:|
+|  1 | [Chainle](https://chainle.io) | [https://chainle.io](https://chainle.io) |  843 |
+
 ## 2026-09-27
 
 Add 7 dles. 
