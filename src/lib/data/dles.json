@@ -10,6 +10,13 @@
     "id": 1
   },
   {
+    "name": "Higher or Lower",
+    "url": "https://www.higherorlowergame.com/daily/",
+    "description": "The daily game version of the popular Higher or Lower game. 5 rounds of 5 questions, resets at midnight.",
+    "category": "Trivia",
+    "id": 
+  },
+  {
     "name": "3Doku",
     "url": "https://www.andrewt.net/puzzles/3doku/",
     "description": "3D Sudoku on a cube using the numbers 1 to 16.",
