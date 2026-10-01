@@ -80,9 +80,9 @@ This will update the `./docs` directory with a new build of the site.
 
 - [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
 - [Cinema Circuit](https://www.wfhgames.com/cinema-circuit) - Connect the two movie actors in the fewest links possible.
-- [enclose.horse](https://enclose.horse) - Enclose the horse in the biggest possible pen.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
+- [Word Grid](https://wordgrid.clevergoat.com) - Fill the cells in the grid with words matching the criteria of both their row and column
 
 ### Card/Board Games (22)
 
