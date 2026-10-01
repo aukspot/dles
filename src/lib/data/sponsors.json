@@ -21,11 +21,11 @@
     "id": 680
   },
   {
-    "name": "enclose.horse",
-    "url": "https://enclose.horse",
-    "description": "Enclose the horse in the biggest possible pen.",
-    "category": "Miscellaneous",
-    "id": 603
+    "name": "Word Grid",
+    "url": "https://wordgrid.clevergoat.com",
+    "description": "Fill the cells in the grid with words matching the criteria of both their row and column",
+    "category": "Words",
+    "id": 428
   },
   {
     "name": "Cinema Circuit",
