@@ -4255,6 +4255,12 @@
     "id": 668
   },
   {
+    "name": "Regex Hunter",
+    "url": "https://regexhunter.com",
+    "description": "Write one regex that catches every target and spares every decoy, in as few characters as you can.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "regexle.com",
     "url": "https://regexle.com",
     "description": "Fill in the hexagon with sequences of characters that match the regular expressions listed around the edges.",
