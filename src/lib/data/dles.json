@@ -810,6 +810,16 @@
     "id": 56
   },
   {
+    "name": "Cluword",
+    "url": "https://oneapplefall.com/games/cluword/",
+    "description": "Solve today's cryptic clue by cracking the wordplay.",
+    "category": "Words",
+    "themes": [
+      "Cryptics"
+    ]
+  
+  },  
+  {
     "name": "Coastle",
     "url": "https://pkyu.github.io/coastle/",
     "description": "Guess the daily rollercoaster.",
