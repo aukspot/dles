@@ -24,6 +24,12 @@
     "date_added": "2026-09-21"
   },
   {
+    "name": "Flipsies",
+    "url": "https://www.flipsies.dev",
+    "id": 845,
+    "date_added": "2026-10-04"
+  },
+  {
     "name": "GeoPaint",
     "url": "https://georankle.io/geopaint",
     "id": 832,
@@ -36,16 +42,16 @@
     "date_added": "2026-09-27"
   },
   {
-    "name": "HexHunt",
-    "url": "https://thehexhunt.com",
-    "id": 830,
-    "date_added": "2026-09-03"
+    "name": "Jihanki",
+    "url": "https://puzzmallow.com/jihanki",
+    "id": 846,
+    "date_added": "2026-10-04"
   },
   {
-    "name": "Lettergrams",
-    "url": "https://puzzlist.com/lettergrams",
-    "id": 829,
-    "date_added": "2026-09-03"
+    "name": "Mentle",
+    "url": "https://mentle.gg",
+    "id": 847,
+    "date_added": "2026-10-04"
   },
   {
     "name": "Real Flag / Fake Flag",
@@ -64,6 +70,12 @@
     "url": "https://magnitudle.com/size-it-up/geography",
     "id": 833,
     "date_added": "2026-09-21"
+  },
+  {
+    "name": "Sound of Sliver",
+    "url": "https://soundofsliver.com",
+    "id": 848,
+    "date_added": "2026-10-04"
   },
   {
     "name": "Sporcle - Chess Attack",

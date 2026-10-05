@@ -1,0 +1,9 @@
+id: 846
+name: Jihanki
+url: https://puzzmallow.com/jihanki
+description: Restock the vending machine by loading every product and obeying all the rules.
+category: Math/Logic
+status: active
+history:
+- date: '2026-10-04'
+  event: added

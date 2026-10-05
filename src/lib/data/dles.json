@@ -1719,6 +1719,13 @@
     "id": 126
   },
   {
+    "name": "Flipsies",
+    "url": "https://www.flipsies.dev",
+    "description": "Flip the objects so that they land upright on the target.",
+    "category": "Miscellaneous",
+    "id": 845
+  },
+  {
     "name": "FoodGuessr",
     "url": "https://www.foodguessr.com",
     "description": "Guess what country each of the food dishes are from.",
@@ -2425,6 +2432,13 @@
     "id": 611
   },
   {
+    "name": "Jihanki",
+    "url": "https://puzzmallow.com/jihanki",
+    "description": "Restock the vending machine by loading every product and obeying all the rules.",
+    "category": "Math/Logic",
+    "id": 846
+  },
+  {
     "name": "Jingle.rs",
     "url": "https://jingle.rs",
     "description": "Place the OldSchool RuneScape song on the in-game map to where you would hear it, 5 rounds daily.",
@@ -3069,6 +3083,13 @@
     "description": "Click the geographic origin of the song that's playing, 5 rounds every day.",
     "category": "Music",
     "id": 718
+  },
+  {
+    "name": "Mentle",
+    "url": "https://mentle.gg",
+    "description": "Answer the arithmetic problems as quickly as you can.",
+    "category": "Math/Logic",
+    "id": 847
   },
   {
     "name": "Metaflora",
@@ -4693,6 +4714,13 @@
       "Souls"
     ],
     "id": 348
+  },
+  {
+    "name": "Sound of Sliver",
+    "url": "https://soundofsliver.com",
+    "description": "Match each song's audio snippet with its title and artist.",
+    "category": "Music",
+    "id": 848
   },
   {
     "name": "SpaceWord",

@@ -1,0 +1,9 @@
+id: 845
+name: Flipsies
+url: https://www.flipsies.dev
+description: Flip the objects so that they land upright on the target.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-10-04'
+  event: added

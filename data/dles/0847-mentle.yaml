@@ -1,0 +1,9 @@
+id: 847
+name: Mentle
+url: https://mentle.gg
+description: Answer the arithmetic problems as quickly as you can.
+category: Math/Logic
+status: active
+history:
+- date: '2026-10-04'
+  event: added

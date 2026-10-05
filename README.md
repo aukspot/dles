@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-09-28`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-04`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -246,7 +246,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (67)
+### Math/Logic (69)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -267,6 +267,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Fields](https://inkwellgames.com/games/fields) - Fill the grid with colorful fields that never connect.
 - [Figure](https://figure.game) - Clear all of the tiles before running out of moves.
 - [Five Fold](https://fivefold.ca) - Fill in the 5x5 grid based on rules that change each day.
+- [Jihanki](https://puzzmallow.com/jihanki) - Restock the vending machine by loading every product and obeying all the rules.
 - [Knotilus](https://knotil.us) - Solve this daily puzzle by finding Fibonacci-like sequences from the given numbers.
 - [Kuromasu](https://nibble.games/kuromasu/kuromasu-small.html) - Fill the board with either black or teal squares based on the numbered cells.
 - [LA Times Sudoku](https://www.latimes.com/games/sudoku) - Daily sudoku puzzles across 5 difficulties from the Los Angeles Times.
@@ -277,6 +278,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Mathdle](https://mathdle.app) - Reach the target number using the given numbers and operations.
 - [Mathler](https://www.mathler.com) - Find the hidden calculation that equals the given number.
 - [Mazele](https://mazele.io) - Guess the correct maze path in the grid in 6 tries or less.
+- [Mentle](https://mentle.gg) - Answer the arithmetic problems as quickly as you can.
 - [Mineswifter](https://mineswifter.com) - Solvable Minesweeper puzzles with daily challenges.
 - [Murdle](https://murdle.com) - Solve today's murder-mystery logic puzzle.
 - [Nerdle](https://nerdlegame.com) - Guess the secret arithmetic equation.
@@ -368,7 +370,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (39)
+### Music (40)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -403,6 +405,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Songle](https://histordle.com/songle) - Guess the year given three songs that were released that year.
 - [Songless](https://lessgames.com/songless) - Guess the song from listening to small parts of it.
 - [SongSwipe](https://play.songswipe.fun) - Guess if the song was released before or after the given year. There are 10 songs each day.
+- [Sound of Sliver](https://soundofsliver.com) - Match each song's audio snippet with its title and artist.
 - [Spotle](https://spotle.io) - Guess the music artist in 10 tries, gaining new information based on each guess.
 - [Swiftle](https://www.techyonic.co/swiftle) - Listen to the clip and guess the Taylor Swift song.
 - [Timdle Music](https://timdle.com/music) - Place each mystery song on the timeline after listening to an audio snippet.
@@ -618,7 +621,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (41)
+### Miscellaneous (42)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
@@ -633,6 +636,7 @@ This will update the `./docs` directory with a new build of the site.
 - [enclose.horse](https://enclose.horse) - Enclose the horse in the biggest possible pen.
 - [Face Guessr](https://www.faceguesser.com) - Guess the pixelated face of today's notable figure.
 - [Facedle](https://facedle.app) - Guess the famous person in the partially covered picture.
+- [Flipsies](https://www.flipsies.dev) - Flip the objects so that they land upright on the target.
 - [Forgeous](https://forgeous.fun) - Try to copy famous paintings as close as you can in 3 minutes!
 - [Gauntle](https://gauntle.com) - Complete 11 mini daily games in a row as quickly as you can.
 - [Guess The Book](https://guessthebook.app) - Guess the book based on short snippets and details.

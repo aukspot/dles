@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-10-04",
+    "dles added": [
+      {
+        "name": "Flipsies",
+        "url": "https://www.flipsies.dev",
+        "id": 845
+      },
+      {
+        "name": "Jihanki",
+        "url": "https://puzzmallow.com/jihanki",
+        "id": 846
+      },
+      {
+        "name": "Mentle",
+        "url": "https://mentle.gg",
+        "id": 847
+      },
+      {
+        "name": "Sound of Sliver",
+        "url": "https://soundofsliver.com",
+        "id": 848
+      }
+    ],
+    "description": "Add 4 dles. "
+  },
+  {
     "date": "2026-09-28",
     "dles added": [
       {

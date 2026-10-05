@@ -1,5 +1,17 @@
 # Changelog - The Dles
 
+## 2026-10-04
+
+Add 4 dles. 
+
+dles added: 
+|    | name                                         | url                                                              |   id |
+|---:|:---------------------------------------------|:-----------------------------------------------------------------|-----:|
+|  1 | [Flipsies](https://www.flipsies.dev)         | [https://www.flipsies.dev](https://www.flipsies.dev)             |  845 |
+|  2 | [Jihanki](https://puzzmallow.com/jihanki)    | [https://puzzmallow.com/jihanki](https://puzzmallow.com/jihanki) |  846 |
+|  3 | [Mentle](https://mentle.gg)                  | [https://mentle.gg](https://mentle.gg)                           |  847 |
+|  4 | [Sound of Sliver](https://soundofsliver.com) | [https://soundofsliver.com](https://soundofsliver.com)           |  848 |
+
 ## 2026-09-28
 
 Add 2 dles. 
