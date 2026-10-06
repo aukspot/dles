@@ -1,0 +1,9 @@
+id: 852
+name: New Yorker - Laugh Lines
+url: https://www.newyorker.com/puzzles-and-games-dept/laugh-lines
+description: Place the New Yorker cartoons in chronological order.
+category: History
+status: active
+history:
+- date: '2026-10-06'
+  event: added

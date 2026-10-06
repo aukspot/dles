@@ -518,13 +518,6 @@
     "id": 803
   },
   {
-    "name": "Catalogues",
-    "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues",
-    "description": "Arrange the items into the correct order in 5 guesses.",
-    "category": "Trivia",
-    "id": 796
-  },
-  {
     "name": "Categories",
     "url": "https://categories.clevergoat.com",
     "description": "Group the words in the grid into the 4 secret categories, like Connections or Conexo.",
@@ -1069,6 +1062,13 @@
     "id": 77
   },
   {
+    "name": "Crowdle.gg",
+    "url": "https://crowdle.gg",
+    "description": "Guess the top four answers to today's prompt based on responses from 10,000 people.",
+    "category": "Trivia",
+    "id": 849
+  },
+  {
     "name": "cryptle",
     "url": "https://cryptle.xyz",
     "description": "Slide each row of letters in to the right position to guess the secret word. You have 5 guesses.",
@@ -1242,6 +1242,17 @@
       "Decoding"
     ],
     "id": 91
+  },
+  {
+    "name": "Definitions",
+    "url": "https://pzlgames.com/games/definitions/",
+    "description": "Swap words to reveal today's three dictionary definitions.",
+    "category": "Words",
+    "themes": [
+      "Semantics",
+      "Rearranging"
+    ],
+    "id": 850
   },
   {
     "name": "Dialed - Color Game",
@@ -2094,6 +2105,13 @@
     "description": "Guess the book based on short snippets and details.",
     "category": "Miscellaneous",
     "id": 149
+  },
+  {
+    "name": "Guess the Chain",
+    "url": "https://guessthechain.com",
+    "description": "Guess the US chain based on a map of its locations.",
+    "category": "Geography",
+    "id": 851
   },
   {
     "name": "Guess The Game",
@@ -3382,6 +3400,30 @@
     "id": 629
   },
   {
+    "name": "New Yorker - Catalogues",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/catalogues",
+    "description": "Arrange the items into the correct order in 5 guesses.",
+    "category": "Trivia",
+    "id": 796
+  },
+  {
+    "name": "New Yorker - Laugh Lines",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/laugh-lines",
+    "description": "Place the New Yorker cartoons in chronological order.",
+    "category": "History",
+    "id": 852
+  },
+  {
+    "name": "New Yorker - Shuffalo",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo",
+    "description": "Make a word using all the letters on the wheel, adding a new letter after each correct guess.",
+    "category": "Words",
+    "themes": [
+      "Anagrams"
+    ],
+    "id": 577
+  },
+  {
     "name": "Nodes",
     "url": "https://www.nodes-game.com",
     "description": "A puzzle game where you connect dots to reveal beautiful images.",
@@ -3604,6 +3646,13 @@
       "Word Chains"
     ],
     "id": 271
+  },
+  {
+    "name": "Originle",
+    "url": "https://originle.io",
+    "description": "Watch today's video guest answer questions, then guess which country they represent.",
+    "category": "Geography",
+    "id": 853
   },
   {
     "name": "OWdle",
@@ -4003,6 +4052,13 @@
     "description": "A daily hole of 3D mini golf.",
     "category": "Miscellaneous",
     "id": 800
+  },
+  {
+    "name": "Puttsies",
+    "url": "https://www.puttsies.dev",
+    "description": "Nine daily holes of mini golf.",
+    "category": "Miscellaneous",
+    "id": 854
   },
   {
     "name": "Puzzmo - Bongo",
@@ -4577,16 +4633,6 @@
     "id": 740
   },
   {
-    "name": "Shuffalo",
-    "url": "https://www.newyorker.com/puzzles-and-games-dept/shuffalo",
-    "description": "Make a word using all the letters on the wheel, adding a new letter after each correct guess.",
-    "category": "Words",
-    "themes": [
-      "Anagrams"
-    ],
-    "id": 577
-  },
-  {
     "name": "Silksongdle",
     "url": "https://silksongdle.com",
     "description": "Daily guessing games related to Hollow Knight: Silksong.",
@@ -4828,14 +4874,7 @@
     "id": 839
   },
   {
-    "name": "Sporcle - WorldPlay",
-    "url": "https://www.sporcle.com/worldplay/play",
-    "description": "Find today's city by exploring the world, revealing a new clue after each guess.",
-    "category": "Geography",
-    "id": 840
-  },
-  {
-    "name": "Sporcle Daily Acrostic",
+    "name": "Sporcle - Daily Acrostic",
     "url": "https://www.sporcle.com/acrostic/todays-acrostic",
     "description": "A daily acrostic puzzle from Sporcle.",
     "category": "Words",
@@ -4843,6 +4882,13 @@
       "Decoding"
     ],
     "id": 557
+  },
+  {
+    "name": "Sporcle - WorldPlay",
+    "url": "https://www.sporcle.com/worldplay/play",
+    "description": "Find today's city by exploring the world, revealing a new clue after each guess.",
+    "category": "Geography",
+    "id": 840
   },
   {
     "name": "Spot the differences",
@@ -5360,6 +5406,16 @@
     "id": 391
   },
   {
+    "name": "ThroughWord",
+    "url": "https://throughword.app",
+    "description": "Make 4 groups of 3, then guess a word that fits each group.",
+    "category": "Words",
+    "themes": [
+      "Grouping"
+    ],
+    "id": 855
+  },
+  {
     "name": "Thruline",
     "url": "https://cyllibi.com/thruline",
     "description": "Determine the word that connects the four images.",
@@ -5771,6 +5827,13 @@
     "description": "Guess the NFL player within 8 guesses.",
     "category": "Sports",
     "id": 415
+  },
+  {
+    "name": "Weighsies",
+    "url": "https://www.weighsies.dev",
+    "description": "Guess how many things it takes to balance the other thing on the scale.",
+    "category": "Estimation",
+    "id": 856
   },
   {
     "name": "werdel",

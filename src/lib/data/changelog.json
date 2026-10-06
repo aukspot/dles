@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-10-06",
+    "dles added": [
+      {
+        "name": "Crowdle.gg",
+        "url": "https://crowdle.gg",
+        "id": 849
+      },
+      {
+        "name": "Definitions",
+        "url": "https://pzlgames.com/games/definitions/",
+        "id": 850
+      },
+      {
+        "name": "Guess the Chain",
+        "url": "https://guessthechain.com",
+        "id": 851
+      },
+      {
+        "name": "New Yorker - Laugh Lines",
+        "url": "https://www.newyorker.com/puzzles-and-games-dept/laugh-lines",
+        "id": 852
+      },
+      {
+        "name": "Originle",
+        "url": "https://originle.io",
+        "id": 853
+      },
+      {
+        "name": "Puttsies",
+        "url": "https://www.puttsies.dev",
+        "id": 854
+      },
+      {
+        "name": "ThroughWord",
+        "url": "https://throughword.app",
+        "id": 855
+      },
+      {
+        "name": "Weighsies",
+        "url": "https://www.weighsies.dev",
+        "id": 856
+      }
+    ],
+    "description": "Add 8 dles. "
+  },
+  {
     "date": "2026-10-04",
     "dles added": [
       {

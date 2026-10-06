@@ -1,0 +1,11 @@
+id: 855
+name: ThroughWord
+url: https://throughword.app
+description: Make 4 groups of 3, then guess a word that fits each group.
+category: Words
+themes:
+- Grouping
+status: active
+history:
+- date: '2026-10-06'
+  event: added

@@ -12,10 +12,22 @@
     "date_added": "2026-09-28"
   },
   {
+    "name": "Crowdle.gg",
+    "url": "https://crowdle.gg",
+    "id": 849,
+    "date_added": "2026-10-06"
+  },
+  {
     "name": "Daily Orbs",
     "url": "https://dailyorbs.com",
     "id": 837,
     "date_added": "2026-09-27"
+  },
+  {
+    "name": "Definitions",
+    "url": "https://pzlgames.com/games/definitions/",
+    "id": 850,
+    "date_added": "2026-10-06"
   },
   {
     "name": "FlipList Daily",
@@ -36,6 +48,12 @@
     "date_added": "2026-09-21"
   },
   {
+    "name": "Guess the Chain",
+    "url": "https://guessthechain.com",
+    "id": 851,
+    "date_added": "2026-10-06"
+  },
+  {
     "name": "Halfsies",
     "url": "https://halfsies.dev",
     "id": 838,
@@ -52,6 +70,24 @@
     "url": "https://mentle.gg",
     "id": 847,
     "date_added": "2026-10-04"
+  },
+  {
+    "name": "New Yorker - Laugh Lines",
+    "url": "https://www.newyorker.com/puzzles-and-games-dept/laugh-lines",
+    "id": 852,
+    "date_added": "2026-10-06"
+  },
+  {
+    "name": "Originle",
+    "url": "https://originle.io",
+    "id": 853,
+    "date_added": "2026-10-06"
+  },
+  {
+    "name": "Puttsies",
+    "url": "https://www.puttsies.dev",
+    "id": 854,
+    "date_added": "2026-10-06"
   },
   {
     "name": "Real Flag / Fake Flag",
@@ -96,10 +132,22 @@
     "date_added": "2026-09-27"
   },
   {
+    "name": "ThroughWord",
+    "url": "https://throughword.app",
+    "id": 855,
+    "date_added": "2026-10-06"
+  },
+  {
     "name": "Tilt",
     "url": "https://tilt.day",
     "id": 842,
     "date_added": "2026-09-27"
+  },
+  {
+    "name": "Weighsies",
+    "url": "https://www.weighsies.dev",
+    "id": 856,
+    "date_added": "2026-10-06"
   },
   {
     "name": "Yellow Yellow",

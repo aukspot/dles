@@ -1,0 +1,9 @@
+id: 851
+name: Guess the Chain
+url: https://guessthechain.com
+description: Guess the US chain based on a map of its locations.
+category: Geography
+status: active
+history:
+- date: '2026-10-06'
+  event: added

@@ -1,0 +1,9 @@
+id: 849
+name: Crowdle.gg
+url: https://crowdle.gg
+description: Guess the top four answers to today's prompt based on responses from 10,000 people.
+category: Trivia
+status: active
+history:
+- date: '2026-10-06'
+  event: added

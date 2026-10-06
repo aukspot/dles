@@ -1,0 +1,9 @@
+id: 856
+name: Weighsies
+url: https://www.weighsies.dev
+description: Guess how many things it takes to balance the other thing on the scale.
+category: Estimation
+status: active
+history:
+- date: '2026-10-06'
+  event: added

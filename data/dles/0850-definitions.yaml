@@ -1,0 +1,12 @@
+id: 850
+name: Definitions
+url: https://pzlgames.com/games/definitions/
+description: Swap words to reveal today's three dictionary definitions.
+category: Words
+themes:
+- Semantics
+- Rearranging
+status: active
+history:
+- date: '2026-10-06'
+  event: added

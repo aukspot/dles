@@ -1,5 +1,21 @@
 # Changelog - The Dles
 
+## 2026-10-06
+
+Add 8 dles. 
+
+dles added: 
+|    | name                                                                                     | url                                                                                                                          |   id |
+|---:|:-----------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|-----:|
+|  1 | [Crowdle.gg](https://crowdle.gg)                                                         | [https://crowdle.gg](https://crowdle.gg)                                                                                     |  849 |
+|  2 | [Definitions](https://pzlgames.com/games/definitions/)                                   | [https://pzlgames.com/games/definitions/](https://pzlgames.com/games/definitions/)                                           |  850 |
+|  3 | [Guess the Chain](https://guessthechain.com)                                             | [https://guessthechain.com](https://guessthechain.com)                                                                       |  851 |
+|  4 | [New Yorker - Laugh Lines](https://www.newyorker.com/puzzles-and-games-dept/laugh-lines) | [https://www.newyorker.com/puzzles-and-games-dept/laugh-lines](https://www.newyorker.com/puzzles-and-games-dept/laugh-lines) |  852 |
+|  5 | [Originle](https://originle.io)                                                          | [https://originle.io](https://originle.io)                                                                                   |  853 |
+|  6 | [Puttsies](https://www.puttsies.dev)                                                     | [https://www.puttsies.dev](https://www.puttsies.dev)                                                                         |  854 |
+|  7 | [ThroughWord](https://throughword.app)                                                   | [https://throughword.app](https://throughword.app)                                                                           |  855 |
+|  8 | [Weighsies](https://www.weighsies.dev)                                                   | [https://www.weighsies.dev](https://www.weighsies.dev)                                                                       |  856 |
+
 ## 2026-10-04
 
 Add 4 dles. 
