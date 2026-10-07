@@ -207,7 +207,7 @@ This will update the `./docs` directory with a new build of the site.
 - [OEC Connectrade](https://oec.world/en/games/connectrade) - Form groups of four exported products that are associated with one of the given countries.
 - [OEC Pick 5](https://oec.world/en/games/pick-5) - Guess the top 5 countries that export the most of the given product.
 - [OEC Tradle](https://oec.world/en/games/tradle) - Guess the country by its exports.
-- [Originle](https://originle.io) - Watch today's video guest answer questions, then guess which country they represent.
+- [Originle](https://originle.io) - Get clues from today's video guest, then guess which country they represent.
 - [Passportle](https://passportle.lordos.tech) - Guess the country based on its passport.
 - [Real Flag / Fake Flag](https://realflagfakeflag.com) - Guess if each flag is real or fake.
 - [Satle](https://satle.ca) - Guess the city given a satellite image, zooming out after each guess.
