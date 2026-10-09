@@ -473,6 +473,12 @@
     "id": 33
   },
   {
+    "name": "Campsite",
+    "url": "https://campsite.daily-game.page/",
+    "description": "Pitch a tent beside every tree to match the counts.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Cancelwise",
     "url": "https://cancelwise.com",
     "description": "Cancel numbers such that the remaining tiles add up to the target numbers.",
@@ -4616,6 +4622,12 @@
     "id": 340
   },
   {
+    "name": "Shinro Garden",
+    "url": "https://shinro-garden.daily-game.page/",
+    "description": "Plant 12 flowers using the arrow and count clues.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Showdle",
     "url": "https://showdle.com",
     "description": "Guess today's TV show by narrowing down its attributes.",
@@ -5138,6 +5150,12 @@
     "id": 373
   },
   {
+    "name": "Sunset",
+    "url": "https://sunset.daily-game.page/",
+    "description": "Find the six sets hidden in the board.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Survivle",
     "url": "https://lazyguyy.github.io/survivle",
     "description": "Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.",
@@ -5594,6 +5612,12 @@
     "description": "Narrow down a location on the world map.",
     "category": "Geography",
     "id": 508
+  },
+  {
+    "name": "Triplet",
+    "url": "https://triplet.daily-game.page/",
+    "description": "Find the three letters that complete all the words.",
+    "category": "Words"
   },
   {
     "name": "Triplets",
