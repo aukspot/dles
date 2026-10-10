@@ -1,9 +1,12 @@
 id: 163
 name: Heardle 2010's
-url: https://heardle10s.com
+url: https://10s.heardledecades.com
 description: Guess the 2010's song from listening to small parts of it.
 category: Music
 status: active
+previous_urls:
+- url: https://heardle10s.com
+  until: '2026-10-09'
 history:
 - date: '2024-05-28'
   event: added

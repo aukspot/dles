@@ -389,7 +389,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Heardle 1980's](https://80s.heardledecades.com) - Guess the 1980's song from listening to small parts of it.
 - [Heardle 1990's](https://90s.heardledecades.com) - Guess the 1990's song from listening to small parts of it.
 - [Heardle 2000's](https://00s.heardledecades.com) - Guess the 2000's song from listening to small parts of it.
-- [Heardle 2010's](https://heardle10s.com) - Guess the 2010's song from listening to small parts of it.
+- [Heardle 2010's](https://10s.heardledecades.com) - Guess the 2010's song from listening to small parts of it.
 - [Heardle 2020's](https://20s.heardledecades.com) - Guess the 2020's song from listening to small parts of it.
 - [Heardle Daily](https://www.heardle.info/daily/) - Guess the song by listening to small parts of it.
 - [Heardle K-pop](https://kpop.heardledecades.com) - Guess the K-pop song from listening to small parts of it.
