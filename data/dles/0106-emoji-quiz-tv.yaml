@@ -3,7 +3,10 @@ name: Emoji Quiz - TV
 url: https://www.emojiquiz.net/tv
 description: Use the emojis to guess the title of the tv show.
 category: Movies/TV
-status: active
+status: removed
 history:
 - date: '2025-06-11'
   event: added
+- date: '2026-10-09'
+  event: removed
+  reason: Site no longer loads.

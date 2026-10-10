@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-10-09",
+    "dles removed": [
+      {
+        "name": "Emoji Quiz - Movies",
+        "url": "https://www.emojiquiz.net/movies",
+        "id": 105,
+        "reason": "Site no longer loads."
+      },
+      {
+        "name": "Emoji Quiz - TV",
+        "url": "https://www.emojiquiz.net/tv",
+        "id": 106,
+        "reason": "Site no longer loads."
+      },
+      {
+        "name": "Emoji Quiz - Video Games",
+        "url": "https://www.emojiquiz.net/games",
+        "id": 107,
+        "reason": "Site no longer loads."
+      }
+    ],
+    "description": "Remove 3 dles. "
+  },
+  {
     "date": "2026-10-06",
     "dles added": [
       {

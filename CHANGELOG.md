@@ -1,5 +1,16 @@
 # Changelog - The Dles
 
+## 2026-10-09
+
+Remove 3 dles. 
+
+
+dles removed: 
+|    | name                                                        | url                                                                  |   id | reason                |
+|---:|:------------------------------------------------------------|:---------------------------------------------------------------------|-----:|:----------------------|
+|  1 | [Emoji Quiz - Movies](https://www.emojiquiz.net/movies)     | [https://www.emojiquiz.net/movies](https://www.emojiquiz.net/movies) |  105 | Site no longer loads. |
+|  2 | [Emoji Quiz - TV](https://www.emojiquiz.net/tv)             | [https://www.emojiquiz.net/tv](https://www.emojiquiz.net/tv)         |  106 | Site no longer loads. |
+|  3 | [Emoji Quiz - Video Games](https://www.emojiquiz.net/games) | [https://www.emojiquiz.net/games](https://www.emojiquiz.net/games)   |  107 | Site no longer loads. |
 ## 2026-10-06
 
 Add 8 dles. 

@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-09`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -116,7 +116,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Colorfle](https://colorfle.com) - Figure out the color composition of the given color.
 - [ColorGuesser](https://colorguesser.com) - Guess the actual color that each of the color names represent.
 - [Crayondle](https://crayondle.com) - Guess the color of today's crayon.
-- [Dialed - Color Game](https://dialed.gg) - They show you a color for 5 seconds, then you try to recreate it. Click the calendar for the daily mode.
+- [Dialed - Color Game](https://dialed.gg/color) - They show you a color for 5 seconds, then you try to recreate it. Click the calendar for the daily mode.
 - [Dialed - Color Toon](https://dialed.gg/color2) - Guess the color of the cartoon, character, or logo from memory. Click the calendar for the daily mode.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
@@ -144,7 +144,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Housle](https://housle.house) - Guess the price of the house, given pictures of parts of the house.
 - [Magnitudle](https://magnitudle.com/daily) - A daily estimation-trivia challenge, but you only get one guess. Final score is based on magnitude.
 - [Moneyline](https://moneyline.fromthethink.com) - Pick over/under the given line for each fact or statistic.
-- [More/Less](https://lessgames.com/moreless) - Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.
+- [More/Less](https://lessgames.com/moreless) - Guess which option has more, 5 categories, 5 rounds each. (25 rounds total)
 - [Motion Path](https://motionpath.app) - Watch a dot move around, then recreate its path from memory.
 - [Packle](https://packle.top) - Guess how many circles can fit into today's shape.
 - [Per Night](https://pernight.app) - Guess the cost of one night in the given hotel.
@@ -322,7 +322,7 @@ This will update the `./docs` directory with a new build of the site.
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (49)
+### Movies/TV (47)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -339,8 +339,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Cinematrix](https://www.vulture.com/article/daily-movie-grid-trivia-game-cinematrix.html) - Fill out the grid with movies matching the criteria of each cell's row and column. Changes every weekday.
 - [CineNerdle](https://www.cinenerdle.app) - Rearrange the cells into groups that represent movies/themes. Includes Critical - a game where you guess a movie by revealing as few clues as you can.
 - [Cliffhanger](https://jumoh.com/games/cliffhanger/) - Hangman but it's always a movie title.
-- [Emoji Quiz - Movies](https://www.emojiquiz.net/movies) - Use the emojis to guess the title of the movie.
-- [Emoji Quiz - TV](https://www.emojiquiz.net/tv) - Use the emojis to guess the title of the tv show.
 - [faces](https://faces.wtf) - Guess the names of the movie stars that are blended together into a single image.
 - [Faustdle](https://faustdle.com/) - Guess the One Piece character of the day.
 - [FilmLink](https://filmlink.io) - Connect the movies by their cast, crew, or similar films.
@@ -555,7 +553,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (68)
+### Video Games (67)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -563,7 +561,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Clasherdle](https://clasherdle.pixelcrux.com/) - A daily guessing game for Clash Royale.
 - [Craft Connections](https://craftconnections.net) - Create groups of 4 Minecraft items that have something in common.
 - [Dotadle](https://dotadle.net) - Guess the Dota characters in these daily quizzes.
-- [Emoji Quiz - Video Games](https://www.emojiquiz.net/games) - Use the emojis to guess the title of the video game.
 - [Exodle](https://exodle.astrelion.com) - Guess the daily exotic weapon or armor piece from the game Destiny.
 - [Fortnitedle](https://www.fortnitedle.net) - Test your Fortnite knowledge in these daily games.
 - [Framedle](https://framedle.org) - Guess the Warframe of the day.

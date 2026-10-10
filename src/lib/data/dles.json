@@ -1256,7 +1256,7 @@
   },
   {
     "name": "Dialed - Color Game",
-    "url": "https://dialed.gg",
+    "url": "https://dialed.gg/color",
     "description": "They show you a color for 5 seconds, then you try to recreate it. Click the calendar for the daily mode.",
     "category": "Colors",
     "id": 684
@@ -1457,27 +1457,6 @@
     "description": "Guess today's element by swiping cards left, right or up.",
     "category": "Science/Nature",
     "id": 465
-  },
-  {
-    "name": "Emoji Quiz - Movies",
-    "url": "https://www.emojiquiz.net/movies",
-    "description": "Use the emojis to guess the title of the movie.",
-    "category": "Movies/TV",
-    "id": 105
-  },
-  {
-    "name": "Emoji Quiz - TV",
-    "url": "https://www.emojiquiz.net/tv",
-    "description": "Use the emojis to guess the title of the tv show.",
-    "category": "Movies/TV",
-    "id": 106
-  },
-  {
-    "name": "Emoji Quiz - Video Games",
-    "url": "https://www.emojiquiz.net/games",
-    "description": "Use the emojis to guess the title of the video game.",
-    "category": "Video Games",
-    "id": 107
   },
   {
     "name": "Emoji Test",
@@ -3194,7 +3173,7 @@
   {
     "name": "More/Less",
     "url": "https://lessgames.com/moreless",
-    "description": "Decide which option has more or less, and keep going until you get one wrong. There are 3 categories to play.",
+    "description": "Guess which option has more, 5 categories, 5 rounds each. (25 rounds total)",
     "category": "Estimation",
     "id": 234
   },
