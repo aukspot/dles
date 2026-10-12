@@ -1,0 +1,9 @@
+id: 863
+name: WikiRNG
+url: https://wikirng.com
+description: Roll a random Wikipedia article and score points based on its properties.
+category: Novelty
+status: active
+history:
+- date: '2026-10-11'
+  event: added

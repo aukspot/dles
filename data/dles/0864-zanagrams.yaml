@@ -1,0 +1,11 @@
+id: 864
+name: Zanagrams
+url: https://pzlgames.com/games/zanagrams/
+description: Trace letters to find all the hidden words in the grid.
+category: Words
+themes:
+- Word Searches Boggle-likes
+status: active
+history:
+- date: '2026-10-11'
+  event: added

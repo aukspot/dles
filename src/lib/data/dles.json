@@ -1774,6 +1774,13 @@
     "id": 523
   },
   {
+    "name": "Freehand",
+    "url": "https://freehand.fun",
+    "description": "Six perception-based estimation challenges, play them all to compete in the daily gauntlet.",
+    "category": "Estimation",
+    "id": 857
+  },
+  {
     "name": "Freestyle",
     "url": "https://playfreestyle.co",
     "description": "Hit the syllable target by finding words that rhyme with today's word.",
@@ -2406,6 +2413,13 @@
       "The Binding of Isaac"
     ],
     "id": 182
+  },
+  {
+    "name": "Jeopardiem",
+    "url": "https://jeopardiem.com",
+    "description": "Answer 10 historical Jeopardy questions, then wager your winnings in Final Jeopardy.",
+    "category": "Trivia",
+    "id": 858
   },
   {
     "name": "Jeopardy 6",
@@ -3887,6 +3901,13 @@
     "id": 287
   },
   {
+    "name": "Poemdle",
+    "url": "https://poemdle.org",
+    "description": "Guess the poem as more of its lines are revealed.",
+    "category": "Miscellaneous",
+    "id": 859
+  },
+  {
     "name": "PokeCryptic",
     "url": "https://www.pokecryptic.com",
     "description": "A daily cryptic crossword clue, but with Pok\u00e9mon-related answers such as Pok\u00e9mon names, move names, and towns.",
@@ -4870,6 +4891,16 @@
     "id": 557
   },
   {
+    "name": "Sporcle - Steps",
+    "url": "https://www.sporcle.com/steps/play",
+    "description": "A word ladder puzzle where the first and last words together form a phrase.",
+    "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ],
+    "id": 860
+  },
+  {
     "name": "Sporcle - WorldPlay",
     "url": "https://www.sporcle.com/worldplay/play",
     "description": "Find today's city by exploring the world, revealing a new clue after each guess.",
@@ -5004,6 +5035,13 @@
       "Stardew Valley"
     ],
     "id": 366
+  },
+  {
+    "name": "Stardewdle.org",
+    "url": "https://stardewdle.org",
+    "description": "A collection of daily games related to Stardew Valley.",
+    "category": "Video Games",
+    "id": 861
   },
   {
     "name": "Stardle",
@@ -5460,6 +5498,13 @@
     "id": 842
   },
   {
+    "name": "Tiltanic",
+    "url": "https://tiltanic.com",
+    "description": "Move the boat through as many obstacles as you can by controlling the waves, similar to Flappy Bird.",
+    "category": "Arcade",
+    "id": 862
+  },
+  {
     "name": "Timdle",
     "url": "https://www.timdle.com",
     "description": "Place 8 historical events in chronological order.",
@@ -5880,6 +5925,13 @@
     "description": "Guess the Doctor Who episode based on the frames, audio, or transcripts.",
     "category": "Movies/TV",
     "id": 706
+  },
+  {
+    "name": "WikiRNG",
+    "url": "https://wikirng.com",
+    "description": "Roll a random Wikipedia article and score points based on its properties.",
+    "category": "Novelty",
+    "id": 863
   },
   {
     "name": "Wikitrivia",
@@ -6312,6 +6364,16 @@
       "Chess"
     ],
     "id": 451
+  },
+  {
+    "name": "Zanagrams",
+    "url": "https://pzlgames.com/games/zanagrams/",
+    "description": "Trace letters to find all the hidden words in the grid.",
+    "category": "Words",
+    "themes": [
+      "Word Searches Boggle-likes"
+    ],
+    "id": 864
   },
   {
     "name": "Zebra Puzzles",

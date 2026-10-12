@@ -1,0 +1,9 @@
+id: 859
+name: Poemdle
+url: https://poemdle.org
+description: Guess the poem as more of its lines are revealed.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-10-11'
+  event: added

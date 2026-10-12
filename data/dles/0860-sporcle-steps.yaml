@@ -1,0 +1,11 @@
+id: 860
+name: Sporcle - Steps
+url: https://www.sporcle.com/steps/play
+description: A word ladder puzzle where the first and last words together form a phrase.
+category: Words
+themes:
+- Word Ladders
+status: active
+history:
+- date: '2026-10-11'
+  event: added

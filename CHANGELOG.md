@@ -2,12 +2,20 @@
 
 ## 2026-10-11
 
-Add 1 dle. Remove 1 archived dle. Add category: Arcade
+Add 9 dles. Remove 1 archived dle. <b>Add category</b>: Arcade
 
 dles added: 
-|    | name                           | url                                        |   id |
-|---:|:-------------------------------|:-------------------------------------------|-----:|
-|  1 | [Musicle](https://musicle.app) | [https://musicle.app](https://musicle.app) |  248 |
+|    | name                                                  | url                                                                            |   id |
+|---:|:------------------------------------------------------|:-------------------------------------------------------------------------------|-----:|
+|  1 | [Freehand](https://freehand.fun)                      | [https://freehand.fun](https://freehand.fun)                                   |  857 |
+|  2 | [Jeopardiem](https://jeopardiem.com)                  | [https://jeopardiem.com](https://jeopardiem.com)                               |  858 |
+|  3 | [Musicle](https://musicle.app)                        | [https://musicle.app](https://musicle.app)                                     |  248 |
+|  4 | [Poemdle](https://poemdle.org)                        | [https://poemdle.org](https://poemdle.org)                                     |  859 |
+|  5 | [Sporcle - Steps](https://www.sporcle.com/steps/play) | [https://www.sporcle.com/steps/play](https://www.sporcle.com/steps/play)       |  860 |
+|  6 | [Stardewdle.org](https://stardewdle.org)              | [https://stardewdle.org](https://stardewdle.org)                               |  861 |
+|  7 | [Tiltanic](https://tiltanic.com)                      | [https://tiltanic.com](https://tiltanic.com)                                   |  862 |
+|  8 | [WikiRNG](https://wikirng.com)                        | [https://wikirng.com](https://wikirng.com)                                     |  863 |
+|  9 | [Zanagrams](https://pzlgames.com/games/zanagrams/)    | [https://pzlgames.com/games/zanagrams/](https://pzlgames.com/games/zanagrams/) |  864 |
 
 dles removed: 
 |    | name                                                          | url                                                                  |   id | reason                                          | from_archive   | note                            |

@@ -1,0 +1,9 @@
+id: 862
+name: Tiltanic
+url: https://tiltanic.com
+description: Move the boat through as many obstacles as you can by controlling the waves, similar to Flappy Bird.
+category: Arcade
+status: active
+history:
+- date: '2026-10-11'
+  event: added

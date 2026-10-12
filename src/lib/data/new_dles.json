@@ -42,6 +42,12 @@
     "date_added": "2026-10-04"
   },
   {
+    "name": "Freehand",
+    "url": "https://freehand.fun",
+    "id": 857,
+    "date_added": "2026-10-11"
+  },
+  {
     "name": "GeoPaint",
     "url": "https://georankle.io/geopaint",
     "id": 832,
@@ -58,6 +64,12 @@
     "url": "https://halfsies.dev",
     "id": 838,
     "date_added": "2026-09-27"
+  },
+  {
+    "name": "Jeopardiem",
+    "url": "https://jeopardiem.com",
+    "id": 858,
+    "date_added": "2026-10-11"
   },
   {
     "name": "Jihanki",
@@ -82,6 +94,12 @@
     "url": "https://originle.io",
     "id": 853,
     "date_added": "2026-10-06"
+  },
+  {
+    "name": "Poemdle",
+    "url": "https://poemdle.org",
+    "id": 859,
+    "date_added": "2026-10-11"
   },
   {
     "name": "Puttsies",
@@ -120,6 +138,12 @@
     "date_added": "2026-09-27"
   },
   {
+    "name": "Sporcle - Steps",
+    "url": "https://www.sporcle.com/steps/play",
+    "id": 860,
+    "date_added": "2026-10-11"
+  },
+  {
     "name": "Sporcle - WorldPlay",
     "url": "https://www.sporcle.com/worldplay/play",
     "id": 840,
@@ -130,6 +154,12 @@
     "url": "https://stackdle.dev",
     "id": 841,
     "date_added": "2026-09-27"
+  },
+  {
+    "name": "Stardewdle.org",
+    "url": "https://stardewdle.org",
+    "id": 861,
+    "date_added": "2026-10-11"
   },
   {
     "name": "ThroughWord",
@@ -144,15 +174,33 @@
     "date_added": "2026-09-27"
   },
   {
+    "name": "Tiltanic",
+    "url": "https://tiltanic.com",
+    "id": 862,
+    "date_added": "2026-10-11"
+  },
+  {
     "name": "Weighsies",
     "url": "https://www.weighsies.dev",
     "id": 856,
     "date_added": "2026-10-06"
   },
   {
+    "name": "WikiRNG",
+    "url": "https://wikirng.com",
+    "id": 863,
+    "date_added": "2026-10-11"
+  },
+  {
     "name": "Yellow Yellow",
     "url": "https://yellowyellow.xyz/",
     "id": 835,
     "date_added": "2026-09-21"
+  },
+  {
+    "name": "Zanagrams",
+    "url": "https://pzlgames.com/games/zanagrams/",
+    "id": 864,
+    "date_added": "2026-10-11"
   }
 ]

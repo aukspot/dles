@@ -1,0 +1,9 @@
+id: 858
+name: Jeopardiem
+url: https://jeopardiem.com
+description: Answer 10 historical Jeopardy questions, then wager your winnings in Final Jeopardy.
+category: Trivia
+status: active
+history:
+- date: '2026-10-11'
+  event: added

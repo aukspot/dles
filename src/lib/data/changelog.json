@@ -11,12 +11,52 @@
         "note": "Previously archived 2026-09-03."
       }
     ],
-    "description": "Add 1 dle. Remove 1 archived dle. <b>Add category</b>: Arcade",
+    "description": "Add 9 dles. Remove 1 archived dle. <b>Add category</b>: Arcade",
     "dles added": [
+      {
+        "name": "Freehand",
+        "url": "https://freehand.fun",
+        "id": 857
+      },
+      {
+        "name": "Jeopardiem",
+        "url": "https://jeopardiem.com",
+        "id": 858
+      },
       {
         "name": "Musicle",
         "url": "https://musicle.app",
         "id": 248
+      },
+      {
+        "name": "Poemdle",
+        "url": "https://poemdle.org",
+        "id": 859
+      },
+      {
+        "name": "Sporcle - Steps",
+        "url": "https://www.sporcle.com/steps/play",
+        "id": 860
+      },
+      {
+        "name": "Stardewdle.org",
+        "url": "https://stardewdle.org",
+        "id": 861
+      },
+      {
+        "name": "Tiltanic",
+        "url": "https://tiltanic.com",
+        "id": 862
+      },
+      {
+        "name": "WikiRNG",
+        "url": "https://wikirng.com",
+        "id": 863
+      },
+      {
+        "name": "Zanagrams",
+        "url": "https://pzlgames.com/games/zanagrams/",
+        "id": 864
       }
     ]
   },

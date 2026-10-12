@@ -84,7 +84,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
 - [Word Grid](https://wordgrid.clevergoat.com) - Fill the cells in the grid with words matching the criteria of both their row and column
 
-### Arcade (9)
+### Arcade (10)
 
 - [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
 - [Flipsies](https://www.flipsies.dev) - Flip the objects so that they land upright on the target.
@@ -94,6 +94,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Puttsies](https://www.puttsies.dev) - Nine daily holes of mini golf.
 - [Squishy Billiards](https://squishybilliards.com) - A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.
 - [Stackdle](https://stackdle.dev) - Build the tallest stack of shapes without it falling over.
+- [Tiltanic](https://tiltanic.com) - Move the boat through as many obstacles as you can by controlling the waves, similar to Flappy Bird.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 
 ### Card/Board Games (22)
@@ -133,7 +134,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (32)
+### Estimation (33)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -149,6 +150,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Estimatle](https://estimatle.com) - Five daily estimation-trivia questions with global stats.
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Fermi](https://fermi.gg) - Three daily estimation questions from different categories.
+- [Freehand](https://freehand.fun) - Six perception-based estimation challenges, play them all to compete in the daily gauntlet.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [haggle](https://haggle.gg) - Guess the price for each of today's five products.
@@ -428,7 +430,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
 - [Year To Beat](https://yeartobeat.com) - Guess the year each music video came out, 5 rounds daily.
 
-### Novelty (6)
+### Novelty (7)
 
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
 - [fridgle](https://fridgle.net) - Create a daily message using magnet-style words you might find on a fridge.
@@ -436,6 +438,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
+- [WikiRNG](https://wikirng.com) - Roll a random Wikipedia article and score points based on its properties.
 
 ### Science/Nature (15)
 
@@ -518,7 +521,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (36)
+### Trivia (37)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -534,6 +537,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Factle](https://frontofficesports.com/trivia/factle) - Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
 - [GnarlyQ](https://gnarlyq.com) - For each category, choose the five correct answers and dodge the traps.
 - [Google Feud](https://googlefeud.com) - Guess how Google auto-completes the search query, click on "Question of the Day".
+- [Jeopardiem](https://jeopardiem.com) - Answer 10 historical Jeopardy questions, then wager your winnings in Final Jeopardy.
 - [Jeopardy 6](https://www.jeopardy.com/play/j6) - Weekday jeopardy game where you answer 12 multiple choice questions.
 - [Krillion](https://krillion.io) - Dive as deep as you can by giving rare answers to each trivia question.
 - [New Yorker - Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) - Arrange the items into the correct order in 5 guesses.
@@ -564,7 +568,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (67)
+### Video Games (68)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -619,6 +623,7 @@ This will update the `./docs` directory with a new build of the site.
 - [spiredle.net](https://spiredle.net) - Collection of daily games related to Slay The Spire 2.
 - [Squirdle Daily](https://squirdle.fireblend.com/daily.html) - Guess today's pokemon within 9 guesses.
 - [Stardewdle](https://stardewdle.com/game) - Guess today's mystery crop from Stardew Valley.
+- [Stardewdle.org](https://stardewdle.org) - A collection of daily games related to Stardew Valley.
 - [steamdle.com](https://steamdle.com) - Guess the game based on the Steam review.
 - [Streetfighterdle](https://streetfighterdle.net) - Guess the daily Street Fighter character in as few tries as possible.
 - [Terradle](https://www.terradle.com) - Guess today's weapon from the game Terraria.
@@ -634,7 +639,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (36)
+### Miscellaneous (37)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
@@ -656,6 +661,7 @@ This will update the `./docs` directory with a new build of the site.
 - [morsle](https://morsle.fun) - Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.
 - [Morsle (decipher.wiki)](https://decipher.wiki/morsle) - Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.
 - [Picsey](https://picsey.io) - Identify today's picture by flipping over as few tiles as possible.
+- [Poemdle](https://poemdle.org) - Guess the poem as more of its lines are revealed.
 - [Ponder Club](https://ponderclub.co) - A collection of various daily games.
 - [Power Scadle](https://powerscadle.com) - Compare two fictional characters and guess which one is stronger.
 - [Quotadle](https://quotadle.com) - Daily typing challenge featuring memorable quotes.
@@ -673,7 +679,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (243)
+### Words (245)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -840,6 +846,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Spelling Bee (Lessgames)](https://lessgames.com/spellingbee) - Spell the words based on their pronunciation. Optionally get a definition or use it in a sentence.
 - [Spindle](https://playspindle.com) - Rearrange the grid of letters so that the target word is spelled out. Rearranging is done by spinning words.
 - [Sporcle - Daily Acrostic](https://www.sporcle.com/acrostic/todays-acrostic) - A daily acrostic puzzle from Sporcle.
+- [Sporcle - Steps](https://www.sporcle.com/steps/play) - A word ladder puzzle where the first and last words together form a phrase.
 - [Squardle](https://fubargames.se/squardle) - A complex Wordle variant where your guesses count in two directions and cycle between three positions.
 - [Squaredle](https://squaredle.app) - Find all the hidden words in a grid by connecting letters horizontally, vertically, or diagonally. Two puzzles each day.
 - [Squares](https://squares.org) - Find all of the words in this daily Boggle game.
@@ -918,3 +925,4 @@ This will update the `./docs` directory with a new build of the site.
 - [Wrodeo](https://wrodeo.com) - Reveal the quote or book passage by guessing one word at a time, starting with some letters already shown.
 - [Yellow Yellow](https://yellowyellow.xyz/) - Just like Wordle, but you need to get all yellow tiles to win.
 - [Zaggle](https://playzaggle.com) - Trace words in the grid based on the given clues.
+- [Zanagrams](https://pzlgames.com/games/zanagrams/) - Trace letters to find all the hidden words in the grid.
