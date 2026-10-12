@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-11`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -458,7 +458,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (31)
+### Shapes/Patterns (30)
 
 - [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
@@ -480,7 +480,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Mowkoban](https://mowkoban.com/) - A daily puzzle about mowing your lawn in the fewest number of moves.
 - [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal by sliding the pieces around the grid.
 - [Netflix - Jigsaw](https://www.netflix.com/tudum/puzzled/jigsaw/daily) - Complete the image by finding the right spot for each piece. Does not require a Netflix account.
-- [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily) - Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.
 - [Nodes](https://www.nodes-game.com) - A puzzle game where you connect dots to reveal beautiful images.
 - [Number Crunch](https://numbercrunch.fun) - Clear the board by efficiently matching digits. Clicking a number increments it, except for 9 which wraps around to 1.
 - [Puzzmo - Flipart](https://www.puzzmo.com/play/flip-art) - Rotate the pieces to fit them within the frame.

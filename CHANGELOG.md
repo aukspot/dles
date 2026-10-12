@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-10-12
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                                                   | url                                                                                                      |   id | reason              |
+|---:|:-----------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------|-----:|:--------------------|
+|  1 | [Netflix - Shapes](https://www.netflix.com/tudum/puzzled/shapes/daily) | [https://www.netflix.com/tudum/puzzled/shapes/daily](https://www.netflix.com/tudum/puzzled/shapes/daily) |  628 | No longer available |
 ## 2026-10-11
 
 Add 9 dles. Remove 1 archived dle. <b>Add category</b>: Arcade

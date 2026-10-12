@@ -773,6 +773,24 @@
     ]
   },
   {
+    "id": 628,
+    "name": "Netflix - Shapes",
+    "url": "https://www.netflix.com/tudum/puzzled/shapes/daily",
+    "description": "Arrange the given shapes so that they fit into the silhouette. Does not require a Netflix account.",
+    "category": "Shapes/Patterns",
+    "history": [
+      {
+        "date": "2026-01-11",
+        "event": "added"
+      },
+      {
+        "date": "2026-10-12",
+        "event": "removed",
+        "reason": "No longer available"
+      }
+    ]
+  },
+  {
     "id": 735,
     "name": "NextUp",
     "url": "https://nextupgame.com",
