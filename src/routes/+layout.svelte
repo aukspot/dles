@@ -215,6 +215,7 @@
         <Header />
         <noscript>
           <div class="noscript-content">
+            <span id="close" class="noscript-anchor"></span>
             <span id="panel-info" class="noscript-anchor"></span>
             <div
               class="noscript-panel border border-zinc-900 dark:border-zinc-200 p-4 my-4"
