@@ -1,3 +1,4 @@
+import IconArcade from "$lib/components/Icons/IconArcade.svelte"
 import IconCardBoardGames from "$lib/components/Icons/IconCardBoardGames.svelte"
 import IconColors from "$lib/components/Icons/IconColors.svelte"
 import IconEstimation from "$lib/components/Icons/IconEstimation.svelte"
@@ -18,6 +19,7 @@ import IconMiscellaneous from "$lib/components/Icons/IconMiscellaneous.svelte"
 import IconNovelty from "$lib/components/Icons/IconNovelty.svelte"
 
 export const categoryIcons = {
+  Arcade: IconArcade,
   "Card/Board Games": IconCardBoardGames,
   Colors: IconColors,
   Estimation: IconEstimation,

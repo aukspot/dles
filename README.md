@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-09`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-11`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -83,6 +83,18 @@ This will update the `./docs` directory with a new build of the site.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
 - [Word Grid](https://wordgrid.clevergoat.com) - Fill the cells in the grid with words matching the criteria of both their row and column
+
+### Arcade (9)
+
+- [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
+- [Flipsies](https://www.flipsies.dev) - Flip the objects so that they land upright on the target.
+- [Kinda Hard Golf](https://kindahardgolf.com) - A challenging daily golf game.
+- [Minigolfle](https://minigolfle.com) - 2D retro minigolf game with 3 randomly generated levels each day.
+- [putt.day](https://putt.day/play) - A daily hole of 3D mini golf.
+- [Puttsies](https://www.puttsies.dev) - Nine daily holes of mini golf.
+- [Squishy Billiards](https://squishybilliards.com) - A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.
+- [Stackdle](https://stackdle.dev) - Build the tallest stack of shapes without it falling over.
+- [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 
 ### Card/Board Games (22)
 
@@ -372,7 +384,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (40)
+### Music (41)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -397,6 +409,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Humppadle](https://www.humppadle.de) - Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.
 - [Lyricle](https://www.lyricle.app) - Guess the song from the given lyrics.
 - [MeloGuessr](https://meloguessr.com) - Click the geographic origin of the song that's playing, 5 rounds every day.
+- [Musicle](https://musicle.app) - Match the song audio to the correct album art. Lots of categories.
 - [MusicVidle](https://www.musicvidle.com) - Guess the song based on selected frames from its music video.
 - [Perfect Pitch Puzzle](https://www.perfectpitchpuzzle.com) - After listening to a short tune, identify the first 6 notes that were played.
 - [ReHeardle](https://reheardle.com) - Guess the song from listening to small parts of it.
@@ -442,11 +455,10 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (33)
+### Shapes/Patterns (31)
 
 - [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
-- [DayBrix](https://vole.wtf/daybrix) - Daily tetris-style falling blocks game.
 - [Daydoku](https://www.daydoku.com) - Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
 - [Dialed - Shape Game](https://dialed.gg/shape) - Recreate the shape from memory after watching how it was moved, rotated, and scaled. Click the calendar for the daily mode.
 - [FlashPopTiles](https://flashpoptiles.com) - Traverse the grid while changing either shape or color, never both!
@@ -460,7 +472,7 @@ This will update the `./docs` directory with a new build of the site.
 - [LinkedIn - Zip](https://www.linkedin.com/games/zip) - Connect the numbered dots in the grid in order, starting at 1. Does not require a LinkedIn account.
 - [LINKR](https://www.playlinkr.net) - Link each pair of numbered points together in three daily puzzles.
 - [Loopy](https://loopy.wtf) - Make a loop based on the numbers in the grid.
-- [Loopy River](https://inkwellgames.com/games/lazy-river) - Draw a single continuous loop that flows through every cell.
+- [Loopy River](https://inkwellgames.com/games/loopy-river) - Draw a single continuous loop that flows through every cell.
 - [Mazetangle](https://mazetangle.com) - Go from the red tile to the blue tile in as many moves as possible.
 - [Mowkoban](https://mowkoban.com/) - A daily puzzle about mowing your lawn in the fewest number of moves.
 - [Nerdcube - Carom](https://www.nerdcube.games/carom) - Reach the goal by sliding the pieces around the grid.
@@ -473,7 +485,6 @@ This will update the `./docs` directory with a new build of the site.
 - [SetFury](https://www.setfury.com) - Find valid sets of 3 to 5 tiles by moving through the grid.
 - [Shaple](https://swag.github.io/shaple) - Choose the shape that matches the top shape.
 - [Shikaku of the day](https://shikakuofthe.day) - 5 daily Shikaku puzzles where you partition a grid into rectangles whose areas match the number inside them.
-- [Stackdle](https://stackdle.dev) - Build the tallest stack of shapes without it falling over.
 - [Synthmaze](https://synthmaze.heliante.io/#/daily) - Swap tiles in the maze so that the rocket reaches the exit.
 - [Triplets](https://www.tripletgame.com) - Find as many triplets as you can in 3 minutes. A triplet is a set of 3 cards whose attributes are either all the same or all different.
 - [VideoPuzzle](https://videopuzzle.org) - Swap tiles to unscramble the puzzle of a looping short video.
@@ -623,7 +634,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (43)
+### Miscellaneous (36)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
@@ -638,25 +649,19 @@ This will update the `./docs` directory with a new build of the site.
 - [enclose.horse](https://enclose.horse) - Enclose the horse in the biggest possible pen.
 - [Face Guessr](https://www.faceguesser.com) - Guess the pixelated face of today's notable figure.
 - [Facedle](https://facedle.app) - Guess the famous person in the partially covered picture.
-- [Flipsies](https://www.flipsies.dev) - Flip the objects so that they land upright on the target.
 - [Forgeous](https://forgeous.fun) - Try to copy famous paintings as close as you can in 3 minutes!
 - [Gauntle](https://gauntle.com) - Complete 11 mini daily games in a row as quickly as you can.
 - [Guess The Book](https://guessthebook.app) - Guess the book based on short snippets and details.
 - [Guess The Logo](https://guessthelogo.wtf) - Guess the logo which becomes less blurry with each guess.
-- [Kinda Hard Golf](https://kindahardgolf.com) - A challenging daily golf game.
-- [Minigolfle](https://minigolfle.com) - 2D retro minigolf game with 3 randomly generated levels each day.
 - [morsle](https://morsle.fun) - Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.
 - [Morsle (decipher.wiki)](https://decipher.wiki/morsle) - Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.
 - [Picsey](https://picsey.io) - Identify today's picture by flipping over as few tiles as possible.
 - [Ponder Club](https://ponderclub.co) - A collection of various daily games.
 - [Power Scadle](https://powerscadle.com) - Compare two fictional characters and guess which one is stronger.
-- [putt.day](https://putt.day/play) - A daily hole of 3D mini golf.
-- [Puttsies](https://www.puttsies.dev) - Nine daily holes of mini golf.
 - [Quotadle](https://quotadle.com) - Daily typing challenge featuring memorable quotes.
 - [Rogule](https://rogule.com/game.html) - A daily emoji dungeon crawler roguelike.
 - [Seedle](https://seedle.io) - Grow the perfect garden by properly placing tiles that complement each other.
 - [Spot the differences](https://www.spot-differences.com) - Spot all of the differences in the two pictures.
-- [Squishy Billiards](https://squishybilliards.com) - A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.
 - [Story Sleuth](https://booksleuth.club/storysleuth/) - Guess the name of the book based on a short summary. More info is given after each guess.
 - [Talldle](https://www.talldle.com) - Sort the famous people from shortest to tallest.
 - [The Daily Baffle](https://dailybaffle.com) - A collection of daily word and logic games.
@@ -666,7 +671,6 @@ This will update the `./docs` directory with a new build of the site.
 - [TypeCircuit](https://typecircuit.com) - A daily typing speed challenge featuring quotes from popular video games, movies, and anime.
 - [VTuble](https://www.vtuble.moe) - Guess the daily VTuber.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
-- [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
 ### Words (243)
@@ -732,7 +736,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Fibble](https://fibble.xyz) - Wordle but it lies to you. (Like Lirdle)
 - [Flipple](https://flipple.clevergoat.com) - Transform the starting word to the target word by changing one letter at a time
 - [FoxiMax](https://foximax.com) - Reveal the secret word by guessing letters, but each wrong guess adds another word to solve.
-- [Freestyle](https://playfreestyle.co) - Find words that rhyme with today's word. The more syllables, the better!
+- [Freestyle](https://playfreestyle.co) - Hit the syllable target by finding words that rhyme with today's word.
 - [Fusele](https://fusele.netlify.app/?daily) - A Wordle variant in which each row has a unique twist.
 - [Gisnep](https://gisnep.com) - Solve the daily quote with the letters above each column.
 - [Glyph](https://glyph.today) - Guess the word based on its glyph, or all of its letters stacked together.

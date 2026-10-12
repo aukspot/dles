@@ -31,6 +31,7 @@ export let poppedUpDle = writable("")
 export let searchQuery = writable("")
 export let categorizedDles = writable({})
 export let categories = readable([
+  "Arcade",
   "Card/Board Games",
   "Colors",
   "Estimation",
@@ -51,7 +52,8 @@ export let categories = readable([
   "Words",
 ])
 export let categoryColors = readable({
-  "Card/Board Games": "hsl(0, 90%, 50%, 45%)",
+  Arcade: "hsl(0, 90%, 50%, 45%)",
+  "Card/Board Games": "hsl(12, 90%, 50%, 45%)",
   Colors: "hsl(24, 90%, 50%, 45%)",
   Estimation: "hsl(48, 90%, 50%, 45%)",
   Food: "hsl(72, 90%, 50%, 45%)",

@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-10-11",
+    "dles removed": [
+      {
+        "name": "Where in the USA is this?",
+        "url": "https://pudding.cool/games/where",
+        "id": 418,
+        "reason": "No longer playable since its map does not work.",
+        "from_archive": true,
+        "note": "Previously archived 2026-09-03."
+      }
+    ],
+    "description": "Add 1 dle. Remove 1 archived dle. <b>Add category</b>: Arcade",
+    "dles added": [
+      {
+        "name": "Musicle",
+        "url": "https://musicle.app",
+        "id": 248
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "dles removed": [
       {
@@ -317,82 +338,6 @@
       }
     ],
     "description": "Add 2 dles. Remove 4 dles. Archive 11 dles. <a href=\"https://dles.aukspot.com/archived\">View all archived dles</a>.<br/>Add <a href=\"https://dles.aukspot.com/category/words\">Words page which includes subcategories</a>, also linked to from the header and from the top of the Words category."
-  },
-  {
-    "date": "2026-08-27",
-    "dles archived": [
-      {
-        "name": "Chronoodle",
-        "url": "https://chronoodle.com",
-        "id": 677,
-        "note": "Previously removed 2026-08-26."
-      },
-      {
-        "name": "Collections",
-        "url": "https://puzzmallow.com/collections",
-        "id": 58,
-        "archive_url": "https://puzzmallow.com/collections/archive",
-        "note": "Previously removed 2026-01-06."
-      },
-      {
-        "name": "Couplit",
-        "url": "https://couplit.io",
-        "id": 70,
-        "note": "Previously removed 2026-08-26."
-      },
-      {
-        "name": "GuessTen",
-        "url": "https://guessten.com",
-        "id": 155,
-        "archive_url": "https://www.guessten.com/archive.html",
-        "note": "Previously removed 2026-05-22."
-      },
-      {
-        "name": "GuessTheMovie.me",
-        "url": "https://guessthemovie.me",
-        "id": 519,
-        "note": "Previously removed 2026-04-20."
-      },
-      {
-        "name": "Listed",
-        "url": "https://listed.fun",
-        "id": "M15",
-        "note": "Previously removed 2025-06-11."
-      },
-      {
-        "name": "Mini Crossword (The Observer)",
-        "url": "https://fordhamobserver.com/category/fun-and-games/daily-mini-crossword",
-        "id": 229,
-        "note": "Previously removed 2026-05-18."
-      },
-      {
-        "name": "Numblino",
-        "url": "https://numblino.com",
-        "id": 552,
-        "note": "Previously removed 2026-08-26."
-      },
-      {
-        "name": "Outlier",
-        "url": "https://outlier.land",
-        "id": 639,
-        "note": "Previously removed 2026-03-28."
-      },
-      {
-        "name": "Spectra",
-        "url": "https://spectra.quest/puzzles/latest",
-        "id": 676,
-        "archive_url": "https://spectra.quest/puzzles",
-        "note": "Previously removed 2026-03-06."
-      },
-      {
-        "name": "Where in the USA is this?",
-        "url": "https://pudding.cool/games/where",
-        "id": 418,
-        "archive_url": "https://pudding.cool/games/where/?skip=true&game=0",
-        "note": "Previously removed 2025-08-30."
-      }
-    ],
-    "description": "Archive 11 dles. "
   },
   {
     "date": "2026-08-26",

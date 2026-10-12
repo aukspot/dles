@@ -9,6 +9,7 @@ from generate import YAML_DIR, slugify, write_yaml
 FIELDS = ["name", "url", "description", "category"]
 
 CATEGORIES = [
+    "Arcade",
     "Card/Board Games",
     "Colors",
     "Estimation",

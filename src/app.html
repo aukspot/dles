@@ -6,6 +6,42 @@
   <link rel="icon" href="%sveltekit.assets%/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="referrer" content="no-referrer-when-downgrade">
+
+  <script>
+    (function () {
+      try {
+        window.localStorage.getItem('__localStorage_test__');
+        return;
+      } catch { }
+
+      let data = {};
+      const api = {
+        getItem: (key) => (Object.hasOwn(data, key) ? data[key] : null),
+        setItem: (key, value) => { data[String(key)] = String(value); },
+        removeItem: (key) => { delete data[key]; },
+        clear: () => { data = {}; },
+        key: (i) => Object.keys(data)[i] ?? null,
+        get length() { return Object.keys(data).length; },
+      };
+
+      const shim = new Proxy(api, {
+        get: (target, prop) => (prop in target ? target[prop] : data[prop]),
+        set: (target, prop, value) => { api.setItem(prop, value); return true; },
+        deleteProperty: (target, prop) => { api.removeItem(prop); return true; },
+        has: (target, prop) => prop in target || Object.hasOwn(data, prop),
+        ownKeys: () => Object.keys(data),
+        getOwnPropertyDescriptor: (target, prop) =>
+          Object.hasOwn(data, prop)
+            ? { value: data[prop], writable: true, enumerable: true, configurable: true }
+            : undefined,
+      });
+
+      try {
+        Object.defineProperty(window, 'localStorage', { value: shim, configurable: true });
+      } catch { }
+    })();
+  </script>
+
   <script defer src="https://analytics.aukspot.com/script.js"
     data-website-id="14fa27d1-104f-4567-9ae6-23fbb218885f"></script>
 

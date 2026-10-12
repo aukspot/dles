@@ -139,7 +139,7 @@
       </div>
 
       <noscript>
-        <div class="flex items-baseline gap-2 flex-wrap">
+        <div class="flex items-baseline gap-3 flex-wrap justify-center">
           <a
             href="#panel-info"
             class="btn-header text-colorText !bg-red-300 dark:!bg-red-800 hover:!bg-colorCardC"

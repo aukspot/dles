@@ -1206,7 +1206,7 @@
     "name": "DayBrix",
     "url": "https://vole.wtf/daybrix",
     "description": "Daily tetris-style falling blocks game.",
-    "category": "Shapes/Patterns",
+    "category": "Arcade",
     "id": 86
   },
   {
@@ -1712,7 +1712,7 @@
     "name": "Flipsies",
     "url": "https://www.flipsies.dev",
     "description": "Flip the objects so that they land upright on the target.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 845
   },
   {
@@ -1776,7 +1776,7 @@
   {
     "name": "Freestyle",
     "url": "https://playfreestyle.co",
-    "description": "Find words that rhyme with today's word. The more syllables, the better!",
+    "description": "Hit the syllable target by finding words that rhyme with today's word.",
     "category": "Words",
     "themes": [
       "Linguistics"
@@ -2518,7 +2518,7 @@
     "name": "Kinda Hard Golf",
     "url": "https://kindahardgolf.com",
     "description": "A challenging daily golf game.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 189
   },
   {
@@ -2941,7 +2941,7 @@
   },
   {
     "name": "Loopy River",
-    "url": "https://inkwellgames.com/games/lazy-river",
+    "url": "https://inkwellgames.com/games/loopy-river",
     "description": "Draw a single continuous loop that flows through every cell.",
     "category": "Shapes/Patterns",
     "id": 773
@@ -3123,7 +3123,7 @@
     "name": "Minigolfle",
     "url": "https://minigolfle.com",
     "description": "2D retro minigolf game with 3 randomly generated levels each day.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 535
   },
   {
@@ -3274,6 +3274,13 @@
     "description": "Solve today's murder-mystery logic puzzle.",
     "category": "Math/Logic",
     "id": 246
+  },
+  {
+    "name": "Musicle",
+    "url": "https://musicle.app",
+    "description": "Match the song audio to the correct album art. Lots of categories.",
+    "category": "Music",
+    "id": 248
   },
   {
     "name": "MusicVidle",
@@ -4029,14 +4036,14 @@
     "name": "putt.day",
     "url": "https://putt.day/play",
     "description": "A daily hole of 3D mini golf.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 800
   },
   {
     "name": "Puttsies",
     "url": "https://www.puttsies.dev",
     "description": "Nine daily holes of mini golf.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 854
   },
   {
@@ -4947,14 +4954,14 @@
     "name": "Squishy Billiards",
     "url": "https://squishybilliards.com",
     "description": "A daily Pool/Billiards game with special ball types. Avoid the balls with the caution triangle, sink the rest.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 793
   },
   {
     "name": "Stackdle",
     "url": "https://stackdle.dev",
     "description": "Build the tallest stack of shapes without it falling over.",
-    "category": "Shapes/Patterns",
+    "category": "Arcade",
     "id": 841
   },
   {
@@ -5740,7 +5747,7 @@
     "name": "Wantedle",
     "url": "https://wantedle.com",
     "description": "Find the 'WANTED' character among all of the moving characters on the screen.",
-    "category": "Miscellaneous",
+    "category": "Arcade",
     "id": 528
   },
   {

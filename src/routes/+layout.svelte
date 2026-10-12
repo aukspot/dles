@@ -195,8 +195,12 @@
       display: none;
     }
 
-    /* Show panel when targeted */
-    .noscript-panel:target {
+    .noscript-anchor {
+      position: fixed;
+      top: 0;
+    }
+
+    .noscript-anchor:target + .noscript-panel {
       display: block !important;
     }
   </style>
@@ -210,9 +214,9 @@
       <div>
         <Header />
         <noscript>
-          <div class="noscript-content pt-16">
+          <div class="noscript-content">
+            <span id="panel-info" class="noscript-anchor"></span>
             <div
-              id="panel-info"
               class="noscript-panel border border-zinc-900 dark:border-zinc-200 p-4 my-4"
             >
               <div class="m-auto max-w-[36rem] p-2">
@@ -259,7 +263,7 @@
                 </p>
                 <div class="flex justify-center mt-6">
                   <a
-                    href="#top"
+                    href="#close"
                     class="btn-header hover:bg-red-200 dark:hover:bg-red-800"
                   >
                     X CLOSE
@@ -267,9 +271,9 @@
                 </div>
               </div>
             </div>
+            <span id="panel-help" class="noscript-anchor"></span>
             <div
-              id="panel-help"
-              class="noscript-panel border border-zinc-900 dark:border-zinc-200 p-4 my-4 pt-16"
+              class="noscript-panel border border-zinc-900 dark:border-zinc-200 p-4 my-4"
             >
               <div class="m-auto max-w-[36rem] p-2">
                 <div class="header-section-label">HOW TO HELP</div>
@@ -310,7 +314,7 @@
                 </div>
                 <div class="flex justify-center mt-6">
                   <a
-                    href="#top"
+                    href="#close"
                     class="btn-header hover:bg-red-200 dark:hover:bg-red-800"
                   >
                     X CLOSE

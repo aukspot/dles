@@ -193,7 +193,7 @@
 
 <div
   bind:this={gridContainer}
-  class="grid-container"
+  class="grid-container js-only"
   style="--num-columns: {numColumns}"
 >
   {#each columns as column, colIndex (colIndex)}

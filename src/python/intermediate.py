@@ -185,7 +185,7 @@ def add_changes_to_changelog():
     if "description" in entry and entry["description"]:
         existing_description = entry["description"]
         existing_description = re.sub(r'Add \d+ dles?\. ', '', existing_description)
-        existing_description = re.sub(r'Remove \d+ dles?\. ', '', existing_description)
+        existing_description = re.sub(r'Remove \d+ (archived )?dles?\. ', '', existing_description)
         entry["description"] = add_remove_description + existing_description
     else:
         entry["description"] = add_remove_description
@@ -224,7 +224,8 @@ def collect_events_for_date(dles, date):
     archived = []
 
     for dle in dles:
-        for event in dle.get("history", []):
+        history = dle.get("history", [])
+        for i, event in enumerate(history):
             if event["date"] != date:
                 continue
 
@@ -235,6 +236,10 @@ def collect_events_for_date(dles, date):
             elif event["event"] == "removed":
                 if event.get("reason"):
                     record["reason"] = event["reason"]
+                previous = history[i - 1] if i > 0 else None
+                if previous and previous["event"] == "archived":
+                    record["from_archive"] = True
+                    record["note"] = f"Previously archived {previous['date']}."
                 removed.append(record)
             elif event["event"] == "archived":
                 if dle.get("archive_url"):
@@ -317,7 +322,7 @@ def sync_changelog_from_yaml(date=None):
         entry.get("dles archived"))
     existing_description = entry.get("description", "")
     existing_description = re.sub(r'Add \d+ dles?\. ', '', existing_description)
-    existing_description = re.sub(r'Remove \d+ dles?\. ', '', existing_description)
+    existing_description = re.sub(r'Remove \d+ (archived )?dles?\. ', '', existing_description)
     existing_description = re.sub(r'Archive \d+ dles?\. ', '', existing_description)
     entry["description"] = description + existing_description
 
@@ -372,16 +377,20 @@ def create_add_remove_description(dles_added, dles_removed, dles_archived=None):
     if not dles_archived:
         dles_archived = []
     dles_added_count = len(dles_added)
-    dles_removed_count = len(dles_removed)
+    dles_removed_count = len([d for d in dles_removed if not d.get("from_archive")])
+    dles_unarchived_count = len(dles_removed) - dles_removed_count
     dles_archived_count = len(dles_archived)
     description = ""
     plural_added = "s" if dles_added_count > 1 or dles_added_count == 0 else ""
     plural_removed = "s" if dles_removed_count > 1 or dles_removed_count == 0 else ""
+    plural_unarchived = "s" if dles_unarchived_count > 1 else ""
     plural_archived = "s" if dles_archived_count > 1 or dles_archived_count == 0 else ""
     if dles_added_count > 0:
         description += f"Add {dles_added_count} dle{plural_added}. "
     if dles_removed_count > 0:
         description += f"Remove {dles_removed_count} dle{plural_removed}. "
+    if dles_unarchived_count > 0:
+        description += f"Remove {dles_unarchived_count} archived dle{plural_unarchived}. "
     if dles_archived_count > 0:
         description += f"Archive {dles_archived_count} dle{plural_archived}. "
     return description
@@ -439,6 +448,7 @@ def read_sponsors():
         return json.loads(f.read())
 
 CATEGORY_ORDER = [
+    "Arcade",
     "Card/Board Games",
     "Colors",
     "Estimation",

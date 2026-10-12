@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths"
   import { changelog, dles, poppedUpDle } from "$lib/stores"
   import BackArrow from "$lib/components/Buttons/BackArrow.svelte"
   import GoBackHome from "$lib/components/GoBackHome.svelte"
@@ -62,9 +63,26 @@
     0,
   )
   $: totalRemoved = $changelog.reduce(
-    (sum, log) => sum + (log["dles removed"]?.length || 0),
+    (sum, log) => sum + activeRemoved(log).length,
     0,
   )
+
+  function activeRemoved(log) {
+    return (log["dles removed"] ?? []).filter((dle) => !dle.from_archive)
+  }
+
+  function archiveChanges(log) {
+    return [
+      {
+        label: "Moved to the archive",
+        dles: log["dles archived"] ?? [],
+      },
+      {
+        label: "Removed from the archive",
+        dles: (log["dles removed"] ?? []).filter((dle) => dle.from_archive),
+      },
+    ].filter((change) => change.dles.length > 0)
+  }
 
   // Parse description into bullet points, excluding add/remove mentions
   function parseDescription(description) {
@@ -76,10 +94,20 @@
       .map((part) => {
         // Strip "Add X dles." and "Remove X dles." from the beginning
         return part
-          .replace(/^(add|remove)\s+\d+\s+dles?\.\s*/gi, "")
-          .replace(/^(add|remove)\s+\d+\s+dles?\.\s*/gi, "") // Run twice for "Add X. Remove Y."
+          .replace(
+            /^((add|remove|archive)\s+\d+\s+(archived\s+)?dles?\.\s*)+/gi,
+            "",
+          )
           .trim()
       })
+      .map((part) =>
+        part
+          .replace(
+            /^<a [^>]*\/archived"[^>]*>View all archived dles<\/a>\.\s*/i,
+            "",
+          )
+          .trim(),
+      )
       .filter((part) => part.length > 0)
   }
 </script>
@@ -109,18 +137,16 @@
       <div class="date-group">
         <div class="date-header">
           <span class="date-text">{formatDate(log.date)} </span>
-          {#if log["dles added"]?.length > 0 || log["dles removed"]?.length > 0}
+          {#if log["dles added"]?.length > 0 || activeRemoved(log).length > 0}
             <div>
               <span class="stat added">+{log["dles added"]?.length ?? 0}</span>
               /
-              <span class="stat removed"
-                >-{log["dles removed"]?.length ?? 0}</span
-              >
+              <span class="stat removed">-{activeRemoved(log).length}</span>
             </div>
           {/if}
         </div>
 
-        {#if log["dles added"]?.length > 0 || log["dles removed"]?.length > 0}
+        {#if log["dles added"]?.length > 0 || activeRemoved(log).length > 0}
           <div class="dles-columns">
             <div
               class="dles-section added-section"
@@ -186,14 +212,14 @@
 
             <div
               class="dles-section removed-section"
-              class:empty-section={!log["dles removed"]?.length}
+              class:empty-section={!activeRemoved(log).length}
             >
               <div class="section-label removed">
                 <IconMinus />
-                <span>Removed ({log["dles removed"]?.length || 0})</span>
+                <span>Removed ({activeRemoved(log).length})</span>
               </div>
-              {#if log["dles removed"]?.length > 0}
-                {#each log["dles removed"] as dle, i}
+              {#if activeRemoved(log).length > 0}
+                {#each activeRemoved(log) as dle, i}
                   <div
                     class="dle-item removed"
                     class:even-row={i % 2 === 0}
@@ -218,12 +244,19 @@
           </div>
         {/if}
 
-        {#if parseDescription(log.description).length > 0}
+        {#if archiveChanges(log).length > 0 || parseDescription(log.description).length > 0}
           <div class="updates-section">
             <div class="section-label updates">
               <span>Updates</span>
             </div>
             <ul class="updates-list">
+              {#each archiveChanges(log) as change}
+                <li class="update-item">
+                  <span class="archive-label">{change.label}:</span>
+                  {change.dles.map((dle) => dle.name).join(", ")}
+                  (<a href="{base}/archived">view all archived dles</a>)
+                </li>
+              {/each}
               {#each parseDescription(log.description) as update}
                 <li class="update-item">{@html update}</li>
               {/each}
@@ -403,7 +436,8 @@
   }
 
   .dle-url {
-    @apply text-xs text-colorTextSoft truncate;
+    @apply text-xs text-colorTextSoft;
+    overflow-wrap: anywhere;
   }
 
   .dle-meta {
@@ -446,6 +480,10 @@
 
   .update-item {
     @apply px-3 py-1.5 text-sm text-colorTextSoft bg-colorCardC border-b border-colorNeutralSoft last:border-b-0;
+  }
+
+  .archive-label {
+    @apply font-semibold text-colorText;
   }
 
   .update-item::before {
