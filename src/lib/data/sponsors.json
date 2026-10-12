@@ -28,10 +28,10 @@
     "id": 428
   },
   {
-    "name": "Cinema Circuit",
-    "url": "https://www.wfhgames.com/cinema-circuit",
-    "description": "Connect the two movie actors in the fewest links possible.",
-    "category": "Movies/TV",
-    "id": 542
+    "name": "Buzzled",
+    "url": "https://puzzmallow.com/buzzled",
+    "description": "Color each hex cell black or yellow to satisfy the target sums along the edges.",
+    "category": "Math/Logic",
+    "id": 32
   }
 ]
