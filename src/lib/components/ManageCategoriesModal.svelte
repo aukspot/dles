@@ -26,15 +26,17 @@
   const flipDurationMs = 200
   let isDragging = false
   let reorderMode = false
-  let isMobile = false
+  let isTouch = false
 
   onMount(() => {
-    const checkMobile = () => {
-      isMobile = window.innerWidth < 768
+    const mq = window.matchMedia("(pointer: coarse)")
+    const update = () => {
+      isTouch = mq.matches
+      if (!isTouch) reorderMode = false
     }
-    checkMobile()
-    window.addEventListener("resize", checkMobile)
-    return () => window.removeEventListener("resize", checkMobile)
+    update()
+    mq.addEventListener("change", update)
+    return () => mq.removeEventListener("change", update)
   })
 
   // Initialize category items once on mount
@@ -112,7 +114,13 @@
   }
 </script>
 
-<Modal {onClose} overlay={true} zIndex={1000} {lockScroll} closeOnClickOutside={false}>
+<Modal
+  {onClose}
+  overlay={true}
+  zIndex={1000}
+  {lockScroll}
+  closeOnClickOutside={false}
+>
   <div class="modal-container">
     <ModalHeader title="Manage Categories" {onClose} variant="section" />
 
@@ -188,13 +196,15 @@
         <h3 class="section-subtitle">Categories</h3>
         <div class="categories-header">
           <p class="section-hint">Drag to reorder, or press the eye to hide</p>
-          <button
-            class="reorder-toggle-btn md:hidden"
-            class:active={reorderMode}
-            on:click={toggleReorderMode}
-          >
-            {reorderMode ? "Done" : "Reorder"}
-          </button>
+          {#if isTouch}
+            <button
+              class="reorder-toggle-btn"
+              class:active={reorderMode}
+              on:click={toggleReorderMode}
+            >
+              {reorderMode ? "Done" : "Reorder"}
+            </button>
+          {/if}
         </div>
         <div
           class="category-grid"
@@ -204,7 +214,7 @@
             flipDurationMs,
             type: "category",
             dropTargetStyle: {},
-            dragDisabled: isMobile && !reorderMode,
+            dragDisabled: isTouch && !reorderMode,
             morphDisabled: true,
             dropFromOthersDisabled: true,
             transformDraggedElement: preventDragScroll,
