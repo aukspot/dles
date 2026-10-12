@@ -52,12 +52,12 @@
 
 <style lang="postcss">
   .toast-container {
-    @apply fixed bottom-4 left-1/2 -translate-x-1/2 z-[9999] flex flex-col gap-2 items-center;
+    @apply fixed bottom-4 inset-x-0 px-4 z-[9999] flex flex-col gap-2 items-center;
     pointer-events: none;
   }
 
   .toast {
-    @apply flex items-center gap-4 px-4 py-3 rounded shadow-sm shadow-colorText border border-colorTextSoft text-sm w-[90vw] md:w-auto md:max-w-[95vw];
+    @apply flex items-center gap-4 px-4 py-3 rounded shadow-sm shadow-colorText border border-colorTextSoft text-sm w-full sm:w-auto max-w-xl;
     pointer-events: auto;
   }
 
@@ -78,7 +78,7 @@
   }
 
   .toast-message {
-    @apply flex-1;
+    @apply flex-1 min-w-0;
   }
 
   .toast-message :global(strong) {
@@ -86,7 +86,7 @@
   }
 
   .toast-action {
-    @apply px-2 py-1 text-xs font-semibold uppercase bg-colorTextSoft/20 hover:bg-colorTextSoft/30 rounded transition-colors cursor-pointer;
+    @apply px-2 py-1 text-xs font-semibold uppercase bg-colorTextSoft/20 hover:bg-colorTextSoft/30 rounded transition-colors cursor-pointer whitespace-nowrap;
   }
 
   .toast-dismiss {
