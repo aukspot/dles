@@ -6,9 +6,9 @@ Remove 1 dle.
 
 
 dles removed: 
-|    | name                                     | url                                              |   id |
-|---:|:-----------------------------------------|:-------------------------------------------------|-----:|
-|  1 | [Stardewdle.org](https://stardewdle.org) | [https://stardewdle.org](https://stardewdle.org) |  861 |
+|    | name                                     | url                                              |   id | reason                                          |
+|---:|:-----------------------------------------|:-------------------------------------------------|-----:|:------------------------------------------------|
+|  1 | [Stardewdle.org](https://stardewdle.org) | [https://stardewdle.org](https://stardewdle.org) |  861 | Captcha / ads cause redirect to malicious site. |
 ## 2026-10-12
 
 Remove 1 dle. 
