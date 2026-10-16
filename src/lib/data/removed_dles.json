@@ -1178,6 +1178,24 @@
     ]
   },
   {
+    "id": 861,
+    "name": "Stardewdle.org",
+    "url": "https://stardewdle.org",
+    "description": "A collection of daily games related to Stardew Valley.",
+    "category": "Video Games",
+    "history": [
+      {
+        "date": "2026-10-11",
+        "event": "added"
+      },
+      {
+        "date": "2026-10-16",
+        "event": "removed",
+        "reason": "Captcha / ads cause redirect to malicious site."
+      }
+    ]
+  },
+  {
     "id": 502,
     "name": "steamdle.pro",
     "url": "https://steamdle.pro",

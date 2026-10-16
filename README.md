@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-12`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-16`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -567,7 +567,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (68)
+### Video Games (67)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -622,7 +622,6 @@ This will update the `./docs` directory with a new build of the site.
 - [spiredle.net](https://spiredle.net) - Collection of daily games related to Slay The Spire 2.
 - [Squirdle Daily](https://squirdle.fireblend.com/daily.html) - Guess today's pokemon within 9 guesses.
 - [Stardewdle](https://stardewdle.com/game) - Guess today's mystery crop from Stardew Valley.
-- [Stardewdle.org](https://stardewdle.org) - A collection of daily games related to Stardew Valley.
 - [steamdle.com](https://steamdle.com) - Guess the game based on the Steam review.
 - [Streetfighterdle](https://streetfighterdle.net) - Guess the daily Street Fighter character in as few tries as possible.
 - [Terradle](https://www.terradle.com) - Guess today's weapon from the game Terraria.

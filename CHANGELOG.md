@@ -1,5 +1,14 @@
 # Changelog - The Dles
 
+## 2026-10-16
+
+Remove 1 dle. 
+
+
+dles removed: 
+|    | name                                     | url                                              |   id |
+|---:|:-----------------------------------------|:-------------------------------------------------|-----:|
+|  1 | [Stardewdle.org](https://stardewdle.org) | [https://stardewdle.org](https://stardewdle.org) |  861 |
 ## 2026-10-12
 
 Remove 1 dle. 

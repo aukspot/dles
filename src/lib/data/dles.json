@@ -1464,8 +1464,8 @@
     "description": "Guess the hidden word represented by emojis.",
     "category": "Words",
     "themes": [
-      "Clues",
-      "Wordle-likes"
+      "Wordle-likes",
+      "Clues"
     ],
     "id": 108
   },
@@ -5028,13 +5028,6 @@
       "Stardew Valley"
     ],
     "id": 366
-  },
-  {
-    "name": "Stardewdle.org",
-    "url": "https://stardewdle.org",
-    "description": "A collection of daily games related to Stardew Valley.",
-    "category": "Video Games",
-    "id": 861
   },
   {
     "name": "Stardle",
