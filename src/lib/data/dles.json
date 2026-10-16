@@ -449,6 +449,12 @@
     "id": 31
   },
   {
+    "name": "Bulkle",
+    "url": "https://www.outletpicks.com/bulkle",
+    "description": "Pick which pack size of each of five Amazon products is the cheapest per unit.",
+    "category": "Estimation"
+  },
+  {
     "name": "Buzzled",
     "url": "https://puzzmallow.com/buzzled",
     "description": "Color each hex cell black or yellow to satisfy the target sums along the edges.",
