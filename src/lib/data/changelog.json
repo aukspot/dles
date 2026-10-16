@@ -5,7 +5,8 @@
       {
         "name": "Stardewdle.org",
         "url": "https://stardewdle.org",
-        "id": 861
+        "id": 861,
+        "reason": "Captcha / ads cause redirect to malicious site."
       }
     ],
     "description": "Remove 1 dle. "
