@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-16`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -244,7 +244,7 @@ This will update the `./docs` directory with a new build of the site.
 - [WhereTaken USA](https://wheretakenusa.teuteuf.fr) - Guess the US State in which the photo was taken.
 - [Worldle](https://worldle.teuteuf.fr) - Guess the country by its shape on the world map.
 
-### History (17)
+### History (18)
 
 - [Anthropeum](https://anthropeum.com) - Guess the right time and region in which each human artifact is from.
 - [Chronle](https://chronle.com) - Put the events in the order of when they happened.
@@ -255,6 +255,7 @@ This will update the `./docs` directory with a new build of the site.
 - [New Yorker - Laugh Lines](https://www.newyorker.com/puzzles-and-games-dept/laugh-lines) - Place the New Yorker cartoons in chronological order.
 - [Past Puzzle](https://www.pastpuzzle.de) - Guess the correct year of the given events, you have 4 tries.
 - [Ripple](https://ripplegame.app) - Guess the ripple effect of historical events.
+- [The Daily Headlines](https://www.daily-headlines.com) - Guess the year of each headline from the New York Times.
 - [Timdle](https://www.timdle.com) - Place 8 historical events in chronological order.
 - [Timeline](https://timeline.fromthethink.com) - Guess the year for each of the 6 historical events.
 - [TimeLine Game](https://www.playtimelines.com) - Arrange the historical events in the order they happened.
@@ -336,7 +337,7 @@ This will update the `./docs` directory with a new build of the site.
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (47)
+### Movies/TV (48)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -381,12 +382,13 @@ This will update the `./docs` directory with a new build of the site.
 - [Quolture](https://www.quolture.com/#/) - Guess the movie or TV show the given quote is from. 1st round is a movie, 2nd round is a TV show.
 - [Quotesed](https://www.quotesed.com) - Guess the movie given 6 quotes.
 - [Showdle](https://showdle.com) - Guess today's TV show by narrowing down its attributes.
+- [Spectrle](https://spectrle.games) - Guess the movie based on a disc made from its frames.
 - [Spongedle](https://spongedle.onrender.com) - Guess the episode from Spongebob Squarepants based on the screenshots.
 - [The Daily Burgle](https://www.thedailyburgle.app) - Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (41)
+### Music (42)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -428,6 +430,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Timdle Music](https://timdle.com/music) - Place each mystery song on the timeline after listening to an audio snippet.
 - [TuneGuessr](https://www.tuneguessr.net/) - Guess the country that the song is from by listening to small parts of it.
 - [Video Game Bandle](https://www.vgbandle.app) - Guess the video game and song played by the MIDI band
+- [vocalstim](https://vocalstim.app) - Guess when the singing begins after listening to the song's intro, 3 rounds every day.
 - [Year To Beat](https://yeartobeat.com) - Guess the year each music video came out, 5 rounds daily.
 
 ### Novelty (7)
@@ -458,10 +461,11 @@ This will update the `./docs` directory with a new build of the site.
 - [Stardle](https://stardlegame.github.io/stardle) - Wordle except the secret word is related to Astronomy in some way.
 - [Wildlife Sudoku](https://flagdoku.com/wildlife.html) - Guess 9 animals that properly fill in the grid.
 
-### Shapes/Patterns (30)
+### Shapes/Patterns (31)
 
 - [Bean Sort](https://coffeefirst.games/bean-sort) - Sort the colorful coffee beans so that each tube contains only one color.
 - [Celtix](https://www.andrewt.net/puzzles/celtix/) - Divide the Celtic knot into separate loops, one for each color.
+- [Cramdle](https://cramdle.com) - Cram the objects into the smallest area possible, you have 90 seconds.
 - [Daydoku](https://www.daydoku.com) - Place the polyominoes on the calendar so that every cell is covered except ones that correspond to today's date.
 - [Dialed - Shape Game](https://dialed.gg/shape) - Recreate the shape from memory after watching how it was moved, rotated, and scaled. Click the calendar for the daily mode.
 - [FlashPopTiles](https://flashpoptiles.com) - Traverse the grid while changing either shape or color, never both!
@@ -567,7 +571,7 @@ This will update the `./docs` directory with a new build of the site.
 - [CarGuesser](https://carguesser.com) - Guess the brand, model, and year of a car given pictures of parts of it.
 - [Planespottle](https://planespottle.bytecatch.io) - Given an image of an airplane, determine the make, type, and the airline it belongs to.
 
-### Video Games (67)
+### Video Games (68)
 
 - [Ace Attorneydle](https://aceattorneydle.fr) - A collection of daily games related to Ace Attorney.
 - [Balatrodle](https://www.balatrodle.com) - Guess the Joker from the game Balatro.
@@ -625,6 +629,7 @@ This will update the `./docs` directory with a new build of the site.
 - [steamdle.com](https://steamdle.com) - Guess the game based on the Steam review.
 - [Streetfighterdle](https://streetfighterdle.net) - Guess the daily Street Fighter character in as few tries as possible.
 - [Terradle](https://www.terradle.com) - Guess today's weapon from the game Terraria.
+- [Terrariadle](https://terrariadle.com) - A collection of daily games related to Terraria.
 - [TF2dle](https://www.tf2dle.com) - Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.
 - [TFTdle](https://tftdle.gg/classic) - Daily games related to Teamfight Tactics.
 - [Umadle](https://umadle.net) - A collection of daily guessing games related to Umamusume.

@@ -1,0 +1,9 @@
+id: 865
+name: Cramdle
+url: https://cramdle.com
+description: Cram the objects into the smallest area possible, you have 90 seconds.
+category: Shapes/Patterns
+status: active
+history:
+- date: '2026-10-18'
+  event: added

@@ -1,0 +1,9 @@
+id: 869
+name: vocalstim
+url: https://vocalstim.app
+description: Guess when the singing begins after listening to the song's intro, 3 rounds every day.
+category: Music
+status: active
+history:
+- date: '2026-10-18'
+  event: added

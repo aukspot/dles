@@ -12,6 +12,12 @@
     "date_added": "2026-09-28"
   },
   {
+    "name": "Cramdle",
+    "url": "https://cramdle.com",
+    "id": 865,
+    "date_added": "2026-10-18"
+  },
+  {
     "name": "Crowdle.gg",
     "url": "https://crowdle.gg",
     "id": 849,
@@ -132,6 +138,12 @@
     "date_added": "2026-10-04"
   },
   {
+    "name": "Spectrle",
+    "url": "https://spectrle.games",
+    "id": 866,
+    "date_added": "2026-10-18"
+  },
+  {
     "name": "Sporcle - Chess Attack",
     "url": "https://www.sporcle.com/chess-attack/play",
     "id": 839,
@@ -156,6 +168,18 @@
     "date_added": "2026-09-27"
   },
   {
+    "name": "Terrariadle",
+    "url": "https://terrariadle.com",
+    "id": 867,
+    "date_added": "2026-10-18"
+  },
+  {
+    "name": "The Daily Headlines",
+    "url": "https://www.daily-headlines.com",
+    "id": 868,
+    "date_added": "2026-10-18"
+  },
+  {
     "name": "ThroughWord",
     "url": "https://throughword.app",
     "id": 855,
@@ -172,6 +196,12 @@
     "url": "https://tiltanic.com",
     "id": 862,
     "date_added": "2026-10-11"
+  },
+  {
+    "name": "vocalstim",
+    "url": "https://vocalstim.app",
+    "id": 869,
+    "date_added": "2026-10-18"
   },
   {
     "name": "Weighsies",

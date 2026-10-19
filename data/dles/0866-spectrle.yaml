@@ -1,0 +1,9 @@
+id: 866
+name: Spectrle
+url: https://spectrle.games
+description: Guess the movie based on a disc made from its frames.
+category: Movies/TV
+status: active
+history:
+- date: '2026-10-18'
+  event: added

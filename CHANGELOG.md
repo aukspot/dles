@@ -1,5 +1,18 @@
 # Changelog - The Dles
 
+## 2026-10-18
+
+Add 5 dles. 
+
+dles added: 
+|    | name                                                   | url                                                                |   id |
+|---:|:-------------------------------------------------------|:-------------------------------------------------------------------|-----:|
+|  1 | [Cramdle](https://cramdle.com)                         | [https://cramdle.com](https://cramdle.com)                         |  865 |
+|  2 | [Spectrle](https://spectrle.games)                     | [https://spectrle.games](https://spectrle.games)                   |  866 |
+|  3 | [Terrariadle](https://terrariadle.com)                 | [https://terrariadle.com](https://terrariadle.com)                 |  867 |
+|  4 | [The Daily Headlines](https://www.daily-headlines.com) | [https://www.daily-headlines.com](https://www.daily-headlines.com) |  868 |
+|  5 | [vocalstim](https://vocalstim.app)                     | [https://vocalstim.app](https://vocalstim.app)                     |  869 |
+
 ## 2026-10-16
 
 Remove 1 dle. 

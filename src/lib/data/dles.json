@@ -970,6 +970,13 @@
     "id": 72
   },
   {
+    "name": "Cramdle",
+    "url": "https://cramdle.com",
+    "description": "Cram the objects into the smallest area possible, you have 90 seconds.",
+    "category": "Shapes/Patterns",
+    "id": 865
+  },
+  {
     "name": "Crayondle",
     "url": "https://crayondle.com",
     "description": "Guess the color of today's crayon.",
@@ -4779,6 +4786,13 @@
     "id": 349
   },
   {
+    "name": "Spectrle",
+    "url": "https://spectrle.games",
+    "description": "Guess the movie based on a disc made from its frames.",
+    "category": "Movies/TV",
+    "id": 866
+  },
+  {
     "name": "Spell Bee",
     "url": "https://www.spell-bee.com/game-daily.html",
     "description": "Create words using the given 7 letters. Each word must contain the center letter.",
@@ -5265,6 +5279,13 @@
     "id": 559
   },
   {
+    "name": "Terrariadle",
+    "url": "https://terrariadle.com",
+    "description": "A collection of daily games related to Terraria.",
+    "category": "Video Games",
+    "id": 867
+  },
+  {
     "name": "TF2dle",
     "url": "https://www.tf2dle.com",
     "description": "Guess the Team Fortress 2 weapon, map, cosmetic or unusual effect based on attributes.",
@@ -5307,6 +5328,13 @@
     "description": "Burgle the vault by guessing movies whose plot descriptions contain words from the vault! By CineNerdle.",
     "category": "Movies/TV",
     "id": 386
+  },
+  {
+    "name": "The Daily Headlines",
+    "url": "https://www.daily-headlines.com",
+    "description": "Guess the year of each headline from the New York Times.",
+    "category": "History",
+    "id": 868
   },
   {
     "name": "The Daily Spell",
@@ -5731,6 +5759,13 @@
     "description": "Guess the country based on the view.",
     "category": "Geography",
     "id": 673
+  },
+  {
+    "name": "vocalstim",
+    "url": "https://vocalstim.app",
+    "description": "Guess when the singing begins after listening to the song's intro, 3 rounds every day.",
+    "category": "Music",
+    "id": 869
   },
   {
     "name": "Vowel Play",

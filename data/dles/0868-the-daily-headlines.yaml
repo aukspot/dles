@@ -1,0 +1,9 @@
+id: 868
+name: The Daily Headlines
+url: https://www.daily-headlines.com
+description: Guess the year of each headline from the New York Times.
+category: History
+status: active
+history:
+- date: '2026-10-18'
+  event: added

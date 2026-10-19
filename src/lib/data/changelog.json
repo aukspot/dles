@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-10-18",
+    "dles added": [
+      {
+        "name": "Cramdle",
+        "url": "https://cramdle.com",
+        "id": 865
+      },
+      {
+        "name": "Spectrle",
+        "url": "https://spectrle.games",
+        "id": 866
+      },
+      {
+        "name": "Terrariadle",
+        "url": "https://terrariadle.com",
+        "id": 867
+      },
+      {
+        "name": "The Daily Headlines",
+        "url": "https://www.daily-headlines.com",
+        "id": 868
+      },
+      {
+        "name": "vocalstim",
+        "url": "https://vocalstim.app",
+        "id": 869
+      }
+    ],
+    "description": "Add 5 dles. "
+  },
+  {
     "date": "2026-10-16",
     "dles removed": [
       {
