@@ -4484,6 +4484,12 @@
     "id": 576
   },
   {
+    "name": "Rulebreaker",
+    "url": "https://bludle.com/rulebreaker/",
+    "description": "Decode a daily phrase by assembling, tuning and reordering transformation rules that update the output live.",
+    "category": "Math/Logic"
+  },
+  {
     "name": "Runedle",
     "url": "https://runedle.com",
     "description": "Guess today's Runescape NPC.",
@@ -5987,6 +5993,15 @@
       "Rearranging"
     ],
     "id": 424
+  },
+  {
+    "name": "Word Bridge",
+    "url": "https://bludle.com/wordbridge/",
+    "description": "Find one word that completes familiar compounds or phrases with both words on the bridge.",
+    "category": "Words",
+    "themes": [
+      "Word Chains"
+    ]
   },
   {
     "name": "Word Chain",
