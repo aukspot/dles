@@ -1172,6 +1172,12 @@
     "id": 587
   },
   {
+    "name": "Daily Holmes",
+    "url": "https://www.dailyholmes.com",
+    "description": "Study the day's photo or scene and deduce what's going on, Sherlock style, then get scored on your evidence and logic.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Daily Jingle",
     "url": "https://dailyjingle.me",
     "description": "Guess the melody within 5 tries.",
