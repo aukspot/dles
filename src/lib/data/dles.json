@@ -3863,6 +3863,12 @@
     "id": 282
   },
   {
+    "name": "Plain Game",
+    "url": "https://plaingame.fun/",
+    "description": "Seven timed rounds a day: name something close to a target number or estimate an everyday fact.",
+    "category": "Estimation"
+  },
+  {
     "name": "Planespottle",
     "url": "https://planespottle.bytecatch.io",
     "description": "Given an image of an airplane, determine the make, type, and the airline it belongs to.",
