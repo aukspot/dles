@@ -6189,6 +6189,15 @@
     "id": 439
   },
   {
+    "name": "Wordle Global",
+    "url": "https://wordle.global",
+    "description": "Daily Wordle in 90+ languages, each with its own native word list. Free, no login.",
+    "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ]
+  },
+  {
     "name": "Wordless",
     "url": "https://lessgames.com/wordless",
     "description": "Solve Wordle puzzles of various sizes.",
