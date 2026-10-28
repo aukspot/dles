@@ -710,6 +710,12 @@
     "id": 50
   },
   {
+    "name": "guessNow",
+    "url": "https://guessnow.fun",
+    "description": "Guess the year of real archival photographs, revealed piece by piece.",
+    "category": "History"
+  },
+  {
     "name": "CineLine",
     "url": "https://www.playcineline.com",
     "description": "A daily movie puzzle where you place films in chronological order.",
