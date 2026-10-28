@@ -1,11 +1,5 @@
 [
   {
-    "name": "Auctimate",
-    "url": "https://guessdash.com/auctimate",
-    "id": 836,
-    "date_added": "2026-09-27"
-  },
-  {
     "name": "Chainle",
     "url": "https://chainle.io",
     "id": 843,
@@ -28,12 +22,6 @@
     "url": "https://crowdle.gg",
     "id": 849,
     "date_added": "2026-10-06"
-  },
-  {
-    "name": "Daily Orbs",
-    "url": "https://dailyorbs.com",
-    "id": 837,
-    "date_added": "2026-09-27"
   },
   {
     "name": "Definitions",
@@ -64,12 +52,6 @@
     "url": "https://guessthechain.com",
     "id": 851,
     "date_added": "2026-10-06"
-  },
-  {
-    "name": "Halfsies",
-    "url": "https://halfsies.dev",
-    "id": 838,
-    "date_added": "2026-09-27"
   },
   {
     "name": "Jeopardiem",
@@ -144,28 +126,10 @@
     "date_added": "2026-10-18"
   },
   {
-    "name": "Sporcle - Chess Attack",
-    "url": "https://www.sporcle.com/chess-attack/play",
-    "id": 839,
-    "date_added": "2026-09-27"
-  },
-  {
     "name": "Sporcle - Steps",
     "url": "https://www.sporcle.com/steps/play",
     "id": 860,
     "date_added": "2026-10-11"
-  },
-  {
-    "name": "Sporcle - WorldPlay",
-    "url": "https://www.sporcle.com/worldplay/play",
-    "id": 840,
-    "date_added": "2026-09-27"
-  },
-  {
-    "name": "Stackdle",
-    "url": "https://stackdle.dev",
-    "id": 841,
-    "date_added": "2026-09-27"
   },
   {
     "name": "Summit",
@@ -196,12 +160,6 @@
     "url": "https://throughword.app",
     "id": 855,
     "date_added": "2026-10-06"
-  },
-  {
-    "name": "Tilt",
-    "url": "https://tilt.day",
-    "id": 842,
-    "date_added": "2026-09-27"
   },
   {
     "name": "Tiltanic",
