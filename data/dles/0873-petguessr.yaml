@@ -1,0 +1,9 @@
+id: 873
+name: PetGuessr
+url: https://petguessr.com
+description: Pick the adoptable pet that has the name provided, 10 rounds daily.
+category: Novelty
+status: active
+history:
+- date: '2026-10-27'
+  event: added

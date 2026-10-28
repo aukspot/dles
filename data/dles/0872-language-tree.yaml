@@ -1,0 +1,11 @@
+id: 872
+name: Language Tree
+url: https://languagetree.app
+description: Guess today's language by finding its place in the Language Tree.
+category: Words
+themes:
+- Linguistics
+status: active
+history:
+- date: '2026-10-27'
+  event: added

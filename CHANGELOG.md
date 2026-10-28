@@ -1,5 +1,19 @@
 # Changelog - The Dles
 
+## 2026-10-27
+
+Add 6 dles. 
+
+dles added: 
+|    | name                                                     | url                                                                                            |   id |
+|---:|:---------------------------------------------------------|:-----------------------------------------------------------------------------------------------|-----:|
+|  1 | [Collagedle](https://collagedle.com)                     | [https://collagedle.com](https://collagedle.com)                                               |  870 |
+|  2 | [Energle](https://energle.org)                           | [https://energle.org](https://energle.org)                                                     |  871 |
+|  3 | [Language Tree](https://languagetree.app)                | [https://languagetree.app](https://languagetree.app)                                           |  872 |
+|  4 | [PetGuessr](https://petguessr.com)                       | [https://petguessr.com](https://petguessr.com)                                                 |  873 |
+|  5 | [Summit](https://summitgame.io)                          | [https://summitgame.io](https://summitgame.io)                                                 |  874 |
+|  6 | [Tagline](https://www.merriam-webster.com/games/tagline) | [https://www.merriam-webster.com/games/tagline](https://www.merriam-webster.com/games/tagline) |  875 |
+
 ## 2026-10-18
 
 Add 5 dles. 

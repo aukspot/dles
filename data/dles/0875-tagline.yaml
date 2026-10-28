@@ -1,0 +1,11 @@
+id: 875
+name: Tagline
+url: https://www.merriam-webster.com/games/tagline
+description: Solve each clue by choosing from today's letters, three rounds daily.
+category: Words
+themes:
+- Clues
+status: active
+history:
+- date: '2026-10-27'
+  event: added

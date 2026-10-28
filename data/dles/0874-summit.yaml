@@ -1,0 +1,11 @@
+id: 874
+name: Summit
+url: https://summitgame.io
+description: Get from the starting word to the summit word with as few links as you can, 5 rounds daily.
+category: Words
+themes:
+- Semantics
+status: active
+history:
+- date: '2026-10-27'
+  event: added

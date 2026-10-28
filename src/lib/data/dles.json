@@ -837,6 +837,13 @@
     "id": 524
   },
   {
+    "name": "Collagedle",
+    "url": "https://collagedle.com",
+    "description": "Make a collage with the available supplies, then see what everyone else made.",
+    "category": "Novelty",
+    "id": 870
+  },
+  {
     "name": "Colordle",
     "url": "https://colordle.ryantanen.com",
     "description": "Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.",
@@ -1492,6 +1499,13 @@
     "description": "Enclose the horse in the biggest possible pen.",
     "category": "Miscellaneous",
     "id": 603
+  },
+  {
+    "name": "Energle",
+    "url": "https://energle.org",
+    "description": "Guess the country based on its electricity generation statistics.",
+    "category": "Geography",
+    "id": 871
   },
   {
     "name": "Equations",
@@ -2648,6 +2662,16 @@
     "id": 191
   },
   {
+    "name": "Language Tree",
+    "url": "https://languagetree.app",
+    "description": "Guess today's language by finding its place in the Language Tree.",
+    "category": "Words",
+    "themes": [
+      "Linguistics"
+    ],
+    "id": 872
+  },
+  {
     "name": "Lawndle",
     "url": "https://johalloran.dev/lawndle/",
     "description": "Mow today's lawn as efficiently as possible.",
@@ -3780,6 +3804,13 @@
       "Anagrams"
     ],
     "id": 819
+  },
+  {
+    "name": "PetGuessr",
+    "url": "https://petguessr.com",
+    "description": "Pick the adoptable pet that has the name provided, 10 rounds daily.",
+    "category": "Novelty",
+    "id": 873
   },
   {
     "name": "Phrasicle",
@@ -5141,6 +5172,16 @@
     "id": 657
   },
   {
+    "name": "Summit",
+    "url": "https://summitgame.io",
+    "description": "Get from the starting word to the summit word with as few links as you can, 5 rounds daily.",
+    "category": "Words",
+    "themes": [
+      "Semantics"
+    ],
+    "id": 874
+  },
+  {
     "name": "Summit Game",
     "url": "https://summit-puzzle.me",
     "description": "With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.",
@@ -5205,6 +5246,16 @@
     "description": "Swap tiles in the maze so that the rocket reaches the exit.",
     "category": "Shapes/Patterns",
     "id": 378
+  },
+  {
+    "name": "Tagline",
+    "url": "https://www.merriam-webster.com/games/tagline",
+    "description": "Solve each clue by choosing from today's letters, three rounds daily.",
+    "category": "Words",
+    "themes": [
+      "Clues"
+    ],
+    "id": 875
   },
   {
     "name": "Takes",

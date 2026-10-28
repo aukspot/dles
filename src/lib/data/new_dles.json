@@ -12,6 +12,12 @@
     "date_added": "2026-09-28"
   },
   {
+    "name": "Collagedle",
+    "url": "https://collagedle.com",
+    "id": 870,
+    "date_added": "2026-10-27"
+  },
+  {
     "name": "Cramdle",
     "url": "https://cramdle.com",
     "id": 865,
@@ -36,10 +42,10 @@
     "date_added": "2026-10-06"
   },
   {
-    "name": "FlipList Daily",
-    "url": "https://playfliplist.com/daily/",
-    "id": 831,
-    "date_added": "2026-09-21"
+    "name": "Energle",
+    "url": "https://energle.org",
+    "id": 871,
+    "date_added": "2026-10-27"
   },
   {
     "name": "Flipsies",
@@ -52,12 +58,6 @@
     "url": "https://freehand.fun",
     "id": 857,
     "date_added": "2026-10-11"
-  },
-  {
-    "name": "GeoPaint",
-    "url": "https://georankle.io/geopaint",
-    "id": 832,
-    "date_added": "2026-09-21"
   },
   {
     "name": "Guess the Chain",
@@ -84,6 +84,12 @@
     "date_added": "2026-10-04"
   },
   {
+    "name": "Language Tree",
+    "url": "https://languagetree.app",
+    "id": 872,
+    "date_added": "2026-10-27"
+  },
+  {
     "name": "Mentle",
     "url": "https://mentle.gg",
     "id": 847,
@@ -102,6 +108,12 @@
     "date_added": "2026-10-06"
   },
   {
+    "name": "PetGuessr",
+    "url": "https://petguessr.com",
+    "id": 873,
+    "date_added": "2026-10-27"
+  },
+  {
     "name": "Poemdle",
     "url": "https://poemdle.org",
     "id": 859,
@@ -118,18 +130,6 @@
     "url": "https://realflagfakeflag.com",
     "id": 844,
     "date_added": "2026-09-28"
-  },
-  {
-    "name": "Size It Up",
-    "url": "https://magnitudle.com/size-it-up",
-    "id": 834,
-    "date_added": "2026-09-21"
-  },
-  {
-    "name": "Size It Up - Geography",
-    "url": "https://magnitudle.com/size-it-up/geography",
-    "id": 833,
-    "date_added": "2026-09-21"
   },
   {
     "name": "Sound of Sliver",
@@ -166,6 +166,18 @@
     "url": "https://stackdle.dev",
     "id": 841,
     "date_added": "2026-09-27"
+  },
+  {
+    "name": "Summit",
+    "url": "https://summitgame.io",
+    "id": 874,
+    "date_added": "2026-10-27"
+  },
+  {
+    "name": "Tagline",
+    "url": "https://www.merriam-webster.com/games/tagline",
+    "id": 875,
+    "date_added": "2026-10-27"
   },
   {
     "name": "Terrariadle",
@@ -214,12 +226,6 @@
     "url": "https://wikirng.com",
     "id": 863,
     "date_added": "2026-10-11"
-  },
-  {
-    "name": "Yellow Yellow",
-    "url": "https://yellowyellow.xyz/",
-    "id": 835,
-    "date_added": "2026-09-21"
   },
   {
     "name": "Zanagrams",

@@ -1,0 +1,9 @@
+id: 871
+name: Energle
+url: https://energle.org
+description: Guess the country based on its electricity generation statistics.
+category: Geography
+status: active
+history:
+- date: '2026-10-27'
+  event: added

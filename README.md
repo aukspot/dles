@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-18`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-10-27`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -178,7 +178,7 @@ This will update the `./docs` directory with a new build of the site.
 - [FoodGuessr](https://www.foodguessr.com) - Guess what country each of the food dishes are from.
 - [Scrandle](https://scrandle.com) - Guess which scran (stadium food) is more popular based on their pictures and prices.
 
-### Geography (63)
+### Geography (64)
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
@@ -188,6 +188,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
 - [Countryle](https://www.countryle.com) - Guess the country in as few attempts as possible with the given clues.
 - [Electle](https://electle.fun) - Guess the country and election year of the given parliament seating diagram.
+- [Energle](https://energle.org) - Guess the country based on its electricity generation statistics.
 - [Flag Connections](https://flagdoku.com/connections.html) - Make groups of 4 flags that share something unique with the Flag of the Day.
 - [Flagdle](https://www.flagdle.org) - Guess the country by its flag.
 - [Flagdoku](https://flagdoku.com) - Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.
@@ -433,13 +434,15 @@ This will update the `./docs` directory with a new build of the site.
 - [vocalstim](https://vocalstim.app) - Guess when the singing begins after listening to the song's intro, 3 rounds every day.
 - [Year To Beat](https://yeartobeat.com) - Guess the year each music video came out, 5 rounds daily.
 
-### Novelty (7)
+### Novelty (9)
 
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
+- [Collagedle](https://collagedle.com) - Make a collage with the available supplies, then see what everyone else made.
 - [fridgle](https://fridgle.net) - Create a daily message using magnet-style words you might find on a fridge.
 - [Horsle](https://cabletwo.net/horsle/) - Wordle except the answer is always Horse.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
+- [PetGuessr](https://petguessr.com) - Pick the adoptable pet that has the name provided, 10 rounds daily.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
 - [WikiRNG](https://wikirng.com) - Roll a random Wikipedia article and score points based on its properties.
 
@@ -682,7 +685,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (245)
+### Words (248)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -767,6 +770,7 @@ This will update the `./docs` directory with a new build of the site.
 - [LA Times Word Search](https://www.latimes.com/games/wordsearch) - A daily word search puzzle from the Los Angeles Times.
 - [LA Times Wordflower](https://www.latimes.com/games/wordflower) - Find words using the letters in the flower, always using the center letter.
 - [Langle](https://langle.uk) - Guess the world language from a few example sentences.
+- [Language Tree](https://languagetree.app) - Guess today's language by finding its place in the Language Tree.
 - [Letroso](https://letroso.com/en/daily) - Guess the secret word that can be up to 10 letters long.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lettergrams](https://puzzlist.com/lettergrams) - Build connected words using the letter tiles, scoring as many points as you can.
@@ -861,10 +865,12 @@ This will update the `./docs` directory with a new build of the site.
 - [Stat Mini Crossword](https://www.statnews.com/stat-mini-crossword/) - A weekday mini crossword that's often health and medicine focused.
 - [SteppedUpdle](https://steppedupdle.com) - Solve 4 Wordle puzzles in a row, each word one letter longer than the last. You have 20 total guesses.
 - [Stepwords](https://stepwords.xyz) - A word ladder game where each word is an anagram of the previous word plus an extra letter.
+- [Summit](https://summitgame.io) - Get from the starting word to the summit word with as few links as you can, 5 rounds daily.
 - [Summit Game](https://summit-puzzle.me) - With one clue to get you started, find the 5 interconnected words to complete the summit in the shortest time.
 - [Survivle](https://lazyguyy.github.io/survivle) - Try to lose the Wordle game by guessing 7 or more times, but you must utilize all gained information for each guess.
 - [Swapple](https://nibble.games/swapple/swapple-easy.html) - Swap letters such that every row and column is a word.
 - [Symble](https://www.symble.app) - A Wordle variant in which each game includes 3 randomly generated symbols, each meaning something different.
+- [Tagline](https://www.merriam-webster.com/games/tagline) - Solve each clue by choosing from today's letters, three rounds daily.
 - [TED - Letterbrew](https://www.ted.com/games/letter-brew) - Transform 3 words letter by letter based on the given clues. Then, place the words in the right categories to guess the final word.
 - [TED - Spellcheck](https://www.ted.com/games/spellcheck) - Daily spelling challenges made in collaboration with Spellcheck.xyz
 - [The Atlantic Crossword](https://www.theatlantic.com/games/daily-crossword/) - A daily crossword from The Atlantic.
