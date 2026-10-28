@@ -1940,6 +1940,12 @@
     "id": 649
   },
   {
+    "name": "GeoTap",
+    "url": "https://geotap.io",
+    "description": "Free daily geography games: You get a place on a globe, tap to where you think it is, and get scored based on how close you are. Think you know the world?",
+    "category": "Geography"
+  },
+  {
     "name": "Geozee",
     "url": "https://geozee.earth",
     "description": "Place each country in the category that fits it best. The better the match, the more points you get.",
