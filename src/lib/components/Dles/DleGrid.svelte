@@ -12,7 +12,6 @@
   let numColumns = 2
   let isResizing = false
   let organizeTimeout = null
-  let lastWindowWidth = 0
 
   function getNumColumns() {
     if (!browser) return Math.min(2, maxColumns)
@@ -120,14 +119,8 @@
   }
 
   function handleResize() {
-    if (isResizing) return
+    if (isResizing || getNumColumns() === numColumns) return
 
-    const currentWidth = document.documentElement.clientWidth
-    if (Math.abs(currentWidth - lastWindowWidth) < 20) {
-      return
-    }
-
-    lastWindowWidth = currentWidth
     isResizing = true
     requestAnimationFrame(() => {
       organizeCards()
@@ -137,7 +130,6 @@
 
   onMount(() => {
     if (browser) {
-      lastWindowWidth = document.documentElement.clientWidth
       organizeCards()
       window.addEventListener("resize", handleResize)
       return () => window.removeEventListener("resize", handleResize)
