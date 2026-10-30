@@ -1831,7 +1831,7 @@
   {
     "name": "Futbol 11",
     "url": "https://futbol11.com/",
-    "description": "A collection of daily games related to Soccer (F\u00fatbol).",
+    "description": "A collection of daily games related to Soccer (Fútbol).",
     "category": "Sports",
     "themes": [
       "Soccer"
@@ -2362,7 +2362,7 @@
   {
     "name": "Humppadle",
     "url": "https://www.humppadle.de",
-    "description": "Guess the original song based on a cover by the Finnish Humppa band El\u00e4kel\u00e4iset.",
+    "description": "Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.",
     "category": "Music",
     "id": 641
   },
@@ -3842,7 +3842,7 @@
   {
     "name": "Pikadoku",
     "url": "https://pikadoku.dentotino.com",
-    "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column. More complex than Pokedoku.",
+    "description": "Fill out the grid with Pokémon matching the criteria of each cell's row and column. More complex than Pokedoku.",
     "category": "Video Games",
     "themes": [
       "Pokemon"
@@ -3941,7 +3941,7 @@
   {
     "name": "PokeCryptic",
     "url": "https://www.pokecryptic.com",
-    "description": "A daily cryptic crossword clue, but with Pok\u00e9mon-related answers such as Pok\u00e9mon names, move names, and towns.",
+    "description": "A daily cryptic crossword clue, but with Pokémon-related answers such as Pokémon names, move names, and towns.",
     "category": "Video Games",
     "id": 727
   },
@@ -3968,7 +3968,7 @@
   {
     "name": "Pokedoku",
     "url": "https://pokedoku.com",
-    "description": "Fill out the grid with Pok\u00e9mon matching the criteria of each cell's row and column.",
+    "description": "Fill out the grid with Pokémon matching the criteria of each cell's row and column.",
     "category": "Video Games",
     "themes": [
       "Pokemon"
@@ -4038,6 +4038,15 @@
       "Word Ladders"
     ],
     "id": 520
+  },
+  {
+    "name": "PoopleGame",
+    "url": "https://pooplegame.fun",
+    "description": "Solve a daily four-letter word ladder: change one letter per step to reach the target word.",
+    "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ]
   },
   {
     "name": "PopCultured",
@@ -5900,7 +5909,7 @@
   {
     "name": "Weakdoku",
     "url": "https://weakdoku.dentotino.com",
-    "description": "Fill out the grid with Pok\u00e9mon based on the weaknesses described in each cell's row and column.",
+    "description": "Fill out the grid with Pokémon based on the weaknesses described in each cell's row and column.",
     "category": "Video Games",
     "themes": [
       "Pokemon"
