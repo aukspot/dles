@@ -1,11 +1,5 @@
 [
   {
-    "name": "Chainle",
-    "url": "https://chainle.io",
-    "id": 843,
-    "date_added": "2026-09-28"
-  },
-  {
     "name": "Collagedle",
     "url": "https://collagedle.com",
     "id": 870,
@@ -106,12 +100,6 @@
     "url": "https://www.puttsies.dev",
     "id": 854,
     "date_added": "2026-10-06"
-  },
-  {
-    "name": "Real Flag / Fake Flag",
-    "url": "https://realflagfakeflag.com",
-    "id": 844,
-    "date_added": "2026-09-28"
   },
   {
     "name": "Sound of Sliver",
