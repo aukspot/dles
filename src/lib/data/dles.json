@@ -6108,6 +6108,16 @@
     "id": 636
   },
   {
+    "name": "Word Spies",
+    "url": "https://wordspies.com/daily",
+    "description": "Guess your team's words on a Codenames-style board from an AI spymaster's one-word clues. A miss moves to the next clue.",
+    "category": "Words",
+    "themes": [
+      "Clues",
+      "Semantics"
+    ]
+  },
+  {
     "name": "Word to your Mother",
     "url": "https://w2ym.org",
     "description": "Guess all possible Wordle words based on the two starting words and their results.",
