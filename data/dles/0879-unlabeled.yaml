@@ -1,0 +1,9 @@
+id: 879
+name: Unlabeled
+url: https://unlabeled.dev
+description: Properly label the axes of each chart based on its data.
+category: Miscellaneous
+status: active
+history:
+- date: '2026-11-06'
+  event: added

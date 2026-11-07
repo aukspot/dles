@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-10-27`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-11-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -97,7 +97,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Tiltanic](https://tiltanic.com) - Move the boat through as many obstacles as you can by controlling the waves, similar to Flappy Bird.
 - [Wantedle](https://wantedle.com) - Find the 'WANTED' character among all of the moving characters on the screen.
 
-### Card/Board Games (22)
+### Card/Board Games (23)
 
 - [Chess.com Daily Puzzle](https://www.chess.com/daily-chess-puzzle) - Solve the daily chess puzzle from chess.com.
 - [Chessguessr](https://www.chessguessr.com) - Given a snapshot from a chess game, guess the next 5 moves played.
@@ -108,6 +108,7 @@ This will update the `./docs` directory with a new build of the site.
 - [lichess.org Daily Puzzle](https://lichess.org/training/daily) - Solve the daily chess puzzle from lichess.org.
 - [Mahjong Handle](https://mahjong-handle.update.sh) - Guess the Riichi Mahjong hand in 6 tries.
 - [Matle](https://www.matle.io) - Guess the missing chess pieces on the board to match the checkmate from a real chess match.
+- [picklechess](https://playpicklechess.com) - Choose and place your own pieces, then play mini Chess.
 - [Pokle](https://poklegame.com) - Guess the 5 board cards in this daily Texas Holdem challenge.
 - [Prince Chazz](https://princechazz.com) - Capture as many Chess pieces as you can without getting captured. You're playing as Prince Chazz, a piece that moves like a Queen.
 - [Puzzmo - Pile-Up Poker](https://www.puzzmo.com/play/pile-up-poker) - Make poker hands by placing cards onto the grid.
@@ -645,7 +646,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Zeldle](https://zeldle.xyz) - A collection of daily games related to Zelda.
 - [ZoomOut](https://zoomout.videoludid.com) - Guess the video game from the zoomed-in screenshot.
 
-### Miscellaneous (37)
+### Miscellaneous (39)
 
 - [AITA Guesser](https://muhashi.com/aita-guesser/) - Guess the verdict of Reddit AITA posts.
 - [Archiguessr](https://archiguesser.com) - Guess the name of the architecture, given a series of pictures.
@@ -664,6 +665,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Gauntle](https://gauntle.com) - Complete 11 mini daily games in a row as quickly as you can.
 - [Guess The Book](https://guessthebook.app) - Guess the book based on short snippets and details.
 - [Guess The Logo](https://guessthelogo.wtf) - Guess the logo which becomes less blurry with each guess.
+- [Mirror Mirror](https://mirrormirrorgame.com) - Draw a reflection of today's sketch as accurately as you can.
 - [morsle](https://morsle.fun) - Guess the word played out loud in Morse code. You have 21 guesses, but replaying the audio counts as a guess. Features a very helpful cheatsheet.
 - [Morsle (decipher.wiki)](https://decipher.wiki/morsle) - Same as Wordle but you input your letters using Morse Code, a tool for beginners to learn Morse Code.
 - [Picsey](https://picsey.io) - Identify today's picture by flipping over as few tiles as possible.
@@ -681,11 +683,12 @@ This will update the `./docs` directory with a new build of the site.
 - [Thingdle](https://thingdle.app/en/thingdle) - A daily riddle where you guess an everyday object.
 - [Thinky Dailies](https://thinkygames.com/dailies/today/) - Handcrafted daily puzzles of all different kinds with a fun connected story.
 - [TypeCircuit](https://typecircuit.com) - A daily typing speed challenge featuring quotes from popular video games, movies, and anime.
+- [Unlabeled](https://unlabeled.dev) - Properly label the axes of each chart based on its data.
 - [VTuble](https://www.vtuble.moe) - Guess the daily VTuber.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (248)
+### Words (249)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -793,6 +796,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Lirdle](https://lirdle.com) - Wordle except each line contains a lie. (Like Fibble)
 - [Minute Cryptic](https://www.minutecryptic.com) - Solve today's cryptic clue.
 - [Mislettered](https://tryhardguides.com/mislettered) - Solve the word or phrase by guessing one letter at a time.
+- [Neograms](https://neograms.app) - Decode today's made-up language by finding patterns in the provided translations.
 - [Nerdcube - Dabble](https://www.nerdcube.games/dabble) - Score as many points as you can by building words on a small custom Scrabble board.
 - [Netflix - Bonza](https://www.netflix.com/tudum/puzzled/bonza/daily) - Join fragments of letters together to form words that share a theme. Does not require a Netflix account.
 - [Netflix - Crossover](https://www.netflix.com/tudum/puzzled/crossover/daily) - Swap letters and emojis to form words that match the clues. Does not require a Netflix account.

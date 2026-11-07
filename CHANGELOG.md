@@ -1,5 +1,17 @@
 # Changelog - The Dles
 
+## 2026-11-06
+
+Add 4 dles. 
+
+dles added: 
+|    | name                                          | url                                                          |   id |
+|---:|:----------------------------------------------|:-------------------------------------------------------------|-----:|
+|  1 | [Mirror Mirror](https://mirrormirrorgame.com) | [https://mirrormirrorgame.com](https://mirrormirrorgame.com) |  876 |
+|  2 | [Neograms](https://neograms.app)              | [https://neograms.app](https://neograms.app)                 |  877 |
+|  3 | [picklechess](https://playpicklechess.com)    | [https://playpicklechess.com](https://playpicklechess.com)   |  878 |
+|  4 | [Unlabeled](https://unlabeled.dev)            | [https://unlabeled.dev](https://unlabeled.dev)               |  879 |
+
 ## 2026-10-27
 
 Add 6 dles. 

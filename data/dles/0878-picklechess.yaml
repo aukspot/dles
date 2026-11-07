@@ -1,0 +1,9 @@
+id: 878
+name: picklechess
+url: https://playpicklechess.com
+description: Choose and place your own pieces, then play mini Chess.
+category: Card/Board Games
+status: active
+history:
+- date: '2026-11-06'
+  event: added

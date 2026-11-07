@@ -1,0 +1,12 @@
+id: 877
+name: Neograms
+url: https://neograms.app
+description: Decode today's made-up language by finding patterns in the provided translations.
+category: Words
+themes:
+- Decoding
+- Linguistics
+status: active
+history:
+- date: '2026-11-06'
+  event: added

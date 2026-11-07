@@ -3182,6 +3182,13 @@
     "id": 230
   },
   {
+    "name": "Mirror Mirror",
+    "url": "https://mirrormirrorgame.com",
+    "description": "Draw a reflection of today's sketch as accurately as you can.",
+    "category": "Miscellaneous",
+    "id": 876
+  },
+  {
     "name": "Mislettered",
     "url": "https://tryhardguides.com/mislettered",
     "description": "Solve the word or phrase by guessing one letter at a time.",
@@ -3347,6 +3354,17 @@
     "description": "Guess the countries that border the highlighted country on the map.",
     "category": "Geography",
     "id": 250
+  },
+  {
+    "name": "Neograms",
+    "url": "https://neograms.app",
+    "description": "Decode today's made-up language by finding patterns in the provided translations.",
+    "category": "Words",
+    "themes": [
+      "Decoding",
+      "Linguistics"
+    ],
+    "id": 877
   },
   {
     "name": "Nerdcube - Carom",
@@ -3831,6 +3849,13 @@
       "Letter Reveal"
     ],
     "id": 279
+  },
+  {
+    "name": "picklechess",
+    "url": "https://playpicklechess.com",
+    "description": "Choose and place your own pieces, then play mini Chess.",
+    "category": "Card/Board Games",
+    "id": 878
   },
   {
     "name": "Picsey",
@@ -5752,6 +5777,13 @@
       "Word Chains"
     ],
     "id": 806
+  },
+  {
+    "name": "Unlabeled",
+    "url": "https://unlabeled.dev",
+    "description": "Properly label the axes of each chart based on its data.",
+    "category": "Miscellaneous",
+    "id": 879
   },
   {
     "name": "Unolingo",

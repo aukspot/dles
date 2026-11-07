@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-11-06",
+    "dles added": [
+      {
+        "name": "Mirror Mirror",
+        "url": "https://mirrormirrorgame.com",
+        "id": 876
+      },
+      {
+        "name": "Neograms",
+        "url": "https://neograms.app",
+        "id": 877
+      },
+      {
+        "name": "picklechess",
+        "url": "https://playpicklechess.com",
+        "id": 878
+      },
+      {
+        "name": "Unlabeled",
+        "url": "https://unlabeled.dev",
+        "id": 879
+      }
+    ],
+    "description": "Add 4 dles. "
+  },
+  {
     "date": "2026-10-27",
     "dles added": [
       {
