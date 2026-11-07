@@ -1186,6 +1186,30 @@
     "id": 84
   },
   {
+    "name": "Daily Lowball - Car Scrandle",
+    "url": "https://dailylowball.com/head-2-head",
+    "description": "Ten pairs of real cars. Pick the one you'd rather have in your garage, and see if most players agree.",
+    "category": "Vehicles"
+  },
+  {
+    "name": "Daily Lowball - Guess the Price",
+    "url": "https://dailylowball.com/guess-the-price",
+    "description": "Guess what five real used cars actually sold for.",
+    "category": "Estimation"
+  },
+  {
+    "name": "Daily Lowball - Lucky License Plate",
+    "url": "https://dailylowball.com/lucky-plate",
+    "description": "Roll a random US license plate and see how rare it is.",
+    "category": "Novelty"
+  },
+  {
+    "name": "Daily Lowball - Steal or Bad Deal",
+    "url": "https://dailylowball.com/steal-or-bad-deal",
+    "description": "See what five used cars sold for and call each one a steal or a bad deal.",
+    "category": "Estimation"
+  },
+  {
     "name": "Daily Orbs",
     "url": "https://dailyorbs.com",
     "description": "Try to get 6 orbs across four daily trivia puzzles.",
