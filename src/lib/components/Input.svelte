@@ -79,6 +79,13 @@
     @apply px-3 py-2 text-lg;
   }
 
+  @media (max-width: 767.98px) {
+    .input-size-sm,
+    .input-size-md {
+      font-size: 16px;
+    }
+  }
+
   /* Width */
   .input-full-width {
     @apply w-full;

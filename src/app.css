@@ -265,6 +265,19 @@ textarea {
   @apply min-h-10 m-2 max-h-32 resize-y;
 }
 
+@media (max-width: 767.98px) {
+
+  input[type="number"],
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}
+
 table {
   @apply my-2 w-full border-spacing-4 border-none p-1 shadow;
 }

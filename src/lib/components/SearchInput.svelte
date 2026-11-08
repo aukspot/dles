@@ -55,6 +55,12 @@
     @apply p-2 pr-9;
   }
 
+  @media (max-width: 767.98px) {
+    .search-input {
+      font-size: 16px;
+    }
+  }
+
   .btn-clear {
     @apply absolute right-1 top-1/2 -translate-y-1/2 flex items-center justify-center w-8 h-8 rounded text-colorTextSoft hover:text-colorText hover:bg-colorCardC transition-colors;
   }
