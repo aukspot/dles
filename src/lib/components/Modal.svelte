@@ -11,6 +11,7 @@
   // "top" pins the dialog near the top of the viewport so that content which
   // grows and shrinks (e.g. a filtering result list) only moves its bottom edge.
   export let align = "center"
+  export let fullscreenMobile = false
 
   onMount(() => {
     if (lockScroll) {
@@ -47,9 +48,14 @@
   <div
     class="modal-overlay"
     class:align-top={align === "top"}
+    class:fullscreen-mobile={fullscreenMobile}
     style="z-index: {zIndex}"
   >
-    <div use:clickOutside on:click_outside={handleClickOutside}>
+    <div
+      class="modal-overlay-content"
+      use:clickOutside
+      on:click_outside={handleClickOutside}
+    >
       <slot />
     </div>
   </div>
@@ -67,5 +73,16 @@
   .modal-overlay.align-top {
     @apply items-start;
     padding-top: 8vh;
+  }
+
+  @media (max-width: 767.98px) {
+    .modal-overlay.fullscreen-mobile {
+      padding-top: 0;
+    }
+
+    .modal-overlay.fullscreen-mobile > .modal-overlay-content {
+      width: 100%;
+      height: 100%;
+    }
   }
 </style>

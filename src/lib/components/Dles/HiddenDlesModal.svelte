@@ -5,6 +5,8 @@
   import { useHiddenDles } from "$lib/composables/useHiddenDles.js"
   import Modal from "../Modal.svelte"
   import ModalHeader from "../ModalHeader.svelte"
+  import SearchInput from "../SearchInput.svelte"
+  import Button from "../Button.svelte"
   import IconEye from "../Icons/IconEye.svelte"
   import IconEyeSlash from "../Icons/IconEyeSlash.svelte"
 
@@ -60,7 +62,7 @@
   }
 </script>
 
-<Modal {onClose} overlay={true} zIndex={1000} {lockScroll}>
+<Modal {onClose} overlay={true} zIndex={1000} {lockScroll} fullscreenMobile>
   <div class="modal-container">
     <ModalHeader title="Manage Hidden Dles" {onClose} variant="section" />
 
@@ -93,7 +95,10 @@
           {:else}
             <div class="list-header">
               {#if undoData}
-                <span class="undo-message">Unhid {undoData.count} {undoData.count === 1 ? "dle" : "dles"}</span>
+                <span class="undo-message"
+                  >Unhid {undoData.count}
+                  {undoData.count === 1 ? "dle" : "dles"}</span
+                >
                 <button class="undo-btn" on:click={handleUndo}>Undo</button>
               {:else}
                 <span class="list-count"
@@ -144,19 +149,7 @@
       {:else}
         <!-- All Dles List -->
         <div class="list-section">
-          <div class="search-header">
-            <input
-              type="text"
-              placeholder="Search dles..."
-              bind:value={searchQuery}
-              class="search-input"
-            />
-            {#if searchQuery.trim()}
-              <button class="btn-clear" on:click={() => (searchQuery = "")}>
-                Clear
-              </button>
-            {/if}
-          </div>
+          <SearchInput bind:value={searchQuery} size="sm" />
           <div class="list-count">
             {visibleDles.length}
             {visibleDles.length === 1 ? "dle" : "dles"}
@@ -194,6 +187,17 @@
           </div>
         </div>
       {/if}
+    </div>
+    <div class="mobile-close">
+      <Button
+        variant="secondary"
+        size="md"
+        fullWidth
+        uppercase
+        on:click={onClose}
+      >
+        Close
+      </Button>
     </div>
   </div>
 </Modal>
@@ -252,18 +256,6 @@
     @apply px-2 py-1 text-xs font-medium rounded bg-colorCardB text-colorText border border-colorTextSoftest hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors;
   }
 
-  .search-header {
-    @apply flex items-center gap-2;
-  }
-
-  .search-input {
-    @apply flex-1 p-2 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
-  }
-
-  .btn-clear {
-    @apply px-2 py-1.5 text-xs rounded bg-colorCardB text-colorText border border-colorTextSoftest hover:bg-red-100 dark:hover:bg-red-900 transition-colors;
-  }
-
   .empty-state {
     @apply text-center text-colorTextSoft py-8 text-sm;
   }
@@ -272,6 +264,34 @@
     @apply overflow-y-auto border border-colorTextSoftest flex-1;
     min-height: 200px;
     max-height: 350px;
+  }
+
+  @media (min-width: 768px) {
+    .results-container {
+      max-height: calc(8 * 49.5px + 2px);
+    }
+  }
+
+  .mobile-close {
+    @apply hidden;
+  }
+
+  @media (max-width: 767.98px) {
+    .modal-container {
+      @apply border-0 shadow-none;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+    }
+
+    .results-container {
+      max-height: none;
+    }
+
+    .mobile-close {
+      @apply block px-3 pt-1 flex-shrink-0;
+      padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
+    }
   }
 
   .results {

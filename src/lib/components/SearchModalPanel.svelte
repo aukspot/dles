@@ -4,8 +4,8 @@
   import { categoryColors } from "$lib/stores"
   import { onMount, onDestroy } from "svelte"
   import { browser } from "$app/environment"
-  import { autoFocus } from "$lib/js/autoFocus"
   import ModalPanel from "./ModalPanel.svelte"
+  import SearchInput from "./SearchInput.svelte"
   import DlePopUp from "./Dles/DlePopUp.svelte"
   import IconFavoriteFilled from "./Icons/IconFavoriteFilled.svelte"
 
@@ -101,10 +101,6 @@
     })
   }
 
-  function clearSearch() {
-    searchQuery = ""
-  }
-
   function handleDleClick(dle) {
     const popupKey = `search-${dle.id}`
     if ($poppedUpDle === popupKey) {
@@ -153,26 +149,12 @@
   {onClose}
   maxWidth="24rem"
   align="top"
+  fullscreenMobile
   closeOnClickOutside={!$poppedUpDle}
 >
   <div class="search-content">
     <div class="search-header">
-      <input
-        type="text"
-        placeholder="Search dles..."
-        bind:value={searchQuery}
-        class="search-input"
-        use:autoFocus
-      />
-      {#if searchQuery.trim()}
-        <button
-          class="btn-clear"
-          on:click={clearSearch}
-          aria-label="Clear search"
-        >
-          Clear
-        </button>
-      {/if}
+      <SearchInput bind:value={searchQuery} autoFocus />
     </div>
 
     {#if filteredDles.length > 0}
@@ -254,21 +236,32 @@
   }
 
   .search-header {
-    @apply flex items-center gap-2 mb-3;
-  }
-
-  .search-input {
-    @apply p-3 border border-colorTextSoftest rounded bg-colorCardB text-colorText placeholder-colorTextSofter focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm;
-    width: 220px;
-  }
-
-  .btn-clear {
-    @apply px-3.5 py-2.5 text-xs rounded bg-colorCardB text-colorText border border-colorTextSoftest hover:bg-red-100 dark:hover:bg-red-900 transition-colors;
+    @apply w-full mb-3;
   }
 
   .results-container {
     @apply w-full overflow-y-auto border border-colorTextSoftest;
     max-height: 300px;
+  }
+
+  @media (min-width: 768px) {
+    .results-container {
+      max-height: calc(8 * 49.5px + 2px);
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .search-content {
+      @apply flex-1;
+      max-width: none;
+      min-height: 0;
+    }
+
+    .results-container {
+      @apply flex-1;
+      max-height: none;
+      min-height: 0;
+    }
   }
 
   .results-count {
