@@ -672,7 +672,7 @@
   }
 
   .grid-card {
-    @apply flex items-center justify-between p-2 gap-1.5 rounded-sm border border-colorNeutralSoft bg-colorCardB;
+    @apply flex flex-wrap items-center justify-between p-2 gap-1.5 rounded-sm border border-colorNeutralSoft bg-colorCardB;
     transition: background-color 0.15s ease;
   }
 
@@ -697,7 +697,8 @@
   }
 
   .grid-card-inner {
-    @apply flex items-center gap-2 min-w-0 flex-1;
+    @apply flex items-center gap-2 min-w-0;
+    flex: 999 1 8rem;
   }
 
   .grid-card-details {
@@ -706,13 +707,19 @@
 
   .dle-name-btn.grid-name {
     @apply text-base leading-tight;
+    overflow-wrap: anywhere;
   }
 
   .grid-card .dle-category {
-    @apply text-xs;
+    @apply text-xs truncate;
   }
 
   .grid-card .play-btn {
     @apply text-xs px-1 py-0.5;
+    flex: 1 0 auto;
+  }
+
+  .grid-card .drag-handle {
+    @apply flex-shrink-0;
   }
 </style>
