@@ -4,6 +4,7 @@
   import FavoritesList from "./FavoritesList.svelte"
   import ViewModeToggle from "./ViewModeToggle.svelte"
   import IconClose from "../Icons/IconClose.svelte"
+  import Button from "../Button.svelte"
 
   export let onClose
 
@@ -22,6 +23,7 @@
   overlay={true}
   zIndex={1000}
   closeOnClickOutside={!dragEnabled}
+  fullscreenMobile
 >
   <div class="modal-container" class:wide={$viewMode === "grid"}>
     <div class="modal-header-section">
@@ -41,6 +43,17 @@
       searchModalZIndex={1100}
       viewMode={$viewMode}
     />
+    <div class="mobile-close">
+      <Button
+        variant="secondary"
+        size="md"
+        fullWidth
+        uppercase
+        on:click={handleClose}
+      >
+        Close
+      </Button>
+    </div>
   </div>
 </Modal>
 
@@ -73,5 +86,25 @@
 
   .close-button {
     @apply p-1 hover:bg-colorCardC transition-colors border-none bg-transparent cursor-pointer;
+  }
+
+  .mobile-close {
+    @apply hidden;
+  }
+
+  @media (max-width: 767.98px) {
+    .modal-container,
+    .modal-container.wide {
+      @apply border-0 shadow-none;
+      width: 100%;
+      max-width: none;
+      height: 100%;
+      max-height: none;
+    }
+
+    .mobile-close {
+      @apply block px-2 pt-1 flex-shrink-0;
+      padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
+    }
   }
 </style>

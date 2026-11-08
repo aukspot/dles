@@ -7,16 +7,14 @@
   } from "$lib/stores"
   import IconEye from "./Icons/IconEye.svelte"
   import IconEyeSlash from "./Icons/IconEyeSlash.svelte"
-  import IconFavoriteOutline from "./Icons/IconFavoriteOutline.svelte"
-  import IconCalendarHeart from "./Icons/IconCalendarHeart.svelte"
   import Modal from "./Modal.svelte"
   import ModalHeader from "./ModalHeader.svelte"
+  import Button from "./Button.svelte"
   import { dndzone } from "svelte-dnd-action"
   import { preventDragScroll } from "$lib/js/dndTransform.js"
   import { flip } from "svelte/animate"
   import { onMount } from "svelte"
-  import IconFavoriteFilled from "./Icons/IconFavoriteFilled.svelte"
-  import IconSunrise from "./Icons/IconSunrise.svelte"
+  import IconDragHandle from "./Icons/IconDragHandle.svelte"
 
   export let onClose
 
@@ -120,6 +118,7 @@
   zIndex={1000}
   {lockScroll}
   closeOnClickOutside={false}
+  fullscreenMobile
 >
   <div class="modal-container">
     <ModalHeader title="Manage Categories" {onClose} variant="section" />
@@ -137,9 +136,6 @@
               ? "Show DLES of the Week"
               : "Hide DLES of the Week"}
           >
-            <div class="special-section-icon">
-              <IconCalendarHeart />
-            </div>
             <span class="special-section-name">DLES of the Week</span>
             <div class="special-section-toggle">
               {#if $completelyHiddenSections["dlesOfTheWeek"]}
@@ -158,9 +154,6 @@
               ? "Show Favorites"
               : "Hide Favorites"}
           >
-            <div class="special-section-icon">
-              <IconFavoriteFilled />
-            </div>
             <span class="special-section-name">Favorites</span>
             <div class="special-section-toggle">
               {#if $completelyHiddenSections["favorites"]}
@@ -177,9 +170,6 @@
             on:click={() => toggleCompletelyHidden("new")}
             title={$completelyHiddenSections["new"] ? "Show NEW" : "Hide NEW"}
           >
-            <div class="special-section-icon">
-              <IconSunrise />
-            </div>
             <span class="special-section-name">NEW</span>
             <div class="special-section-toggle">
               {#if $completelyHiddenSections["new"]}
@@ -195,7 +185,16 @@
       <section class="section">
         <h3 class="section-subtitle">Categories</h3>
         <div class="categories-header">
-          <p class="section-hint">Drag to reorder, or press the eye to hide</p>
+          <p class="section-hint">
+            {#if !isTouch}
+              Drag to reorder, or press the eye to hide a category
+            {:else if reorderMode}
+              Drag categories into place, then tap Done
+            {:else}
+              Tap Reorder to enable dragging, or press the eye to hide a
+              category
+            {/if}
+          </p>
           {#if isTouch}
             <button
               class="reorder-toggle-btn"
@@ -227,6 +226,11 @@
               class="category-box"
               class:grayed-out={$completelyHiddenSections[item.category]}
             >
+              {#if !isTouch || reorderMode}
+                <span class="drag-handle" aria-hidden="true">
+                  <IconDragHandle />
+                </span>
+              {/if}
               <span
                 class="category-rank-badge"
                 style="background-color: {$categoryColors[item.category]}"
@@ -259,6 +263,17 @@
           </button>
         </div>
       </section>
+    </div>
+    <div class="mobile-close">
+      <Button
+        variant="secondary"
+        size="md"
+        fullWidth
+        uppercase
+        on:click={onClose}
+      >
+        Close
+      </Button>
     </div>
   </div>
 </Modal>
@@ -303,13 +318,12 @@
   }
 
   .special-sections-grid {
-    @apply flex flex-wrap gap-1 justify-center;
+    @apply grid grid-cols-3 gap-1;
   }
 
   .special-section-card {
-    @apply flex items-center gap-2 px-1.5 py-1 bg-colorCardC border border-colorTextSofter
+    @apply flex items-center justify-center gap-1.5 px-2 py-2 bg-colorCardC border border-colorTextSofter
            hover:bg-gray-100 dark:hover:bg-gray-700 cursor-pointer transition-colors;
-    min-height: 2.5rem;
   }
 
   .special-section-card.section-hidden {
@@ -320,16 +334,8 @@
     @apply bg-gray-800;
   }
 
-  .special-section-icon {
-    @apply flex-shrink-0;
-  }
-
-  .special-section-icon :global(svg) {
-    @apply w-5 h-5;
-  }
-
   .special-section-name {
-    @apply flex-1 text-left text-tiny sm:text-xs font-medium text-colorText uppercase leading-tight;
+    @apply text-center text-tiny sm:text-xs font-medium text-colorText uppercase leading-tight;
   }
 
   .special-section-toggle {
@@ -341,12 +347,12 @@
   }
 
   .category-grid {
-    @apply grid grid-cols-2 gap-1;
+    @apply flex flex-col border border-colorTextSofter;
     outline: none !important;
   }
 
   .category-grid.reorder-mode {
-    @apply bg-blue-50 dark:bg-blue-900/20 p-2 rounded-sm border-2 border-dashed border-blue-300 dark:border-blue-700;
+    @apply bg-blue-50 dark:bg-blue-900/20 p-2 pr-12 rounded-sm border-2 border-dashed border-blue-300 dark:border-blue-700;
   }
 
   .category-grid:focus {
@@ -354,7 +360,6 @@
   }
 
   .category-grid > * {
-    height: 100%;
     outline: none !important;
   }
 
@@ -363,15 +368,9 @@
   }
 
   .category-box {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-      "badge name eye"
-      "badge name eye";
-    @apply gap-2 p-1 bg-colorCardC border border-colorTextSofter relative
+    @apply flex items-center gap-2 px-1.5 py-0.5 bg-colorCardC border-b border-colorTextSoftest relative
            hover:bg-gray-100 dark:hover:bg-gray-700;
-    min-height: 2rem;
+    cursor: grab;
     user-select: none;
     -webkit-user-select: none;
     touch-action: pan-y;
@@ -412,8 +411,20 @@
     box-shadow: none !important;
   }
 
+  .category-box:last-child {
+    @apply border-b-0;
+  }
+
   .category-box.grayed-out {
-    @apply opacity-40 bg-gray-200 border-dashed;
+    @apply opacity-40 bg-gray-200;
+  }
+
+  .drag-handle {
+    @apply flex-shrink-0 flex items-center text-colorTextSofter;
+  }
+
+  .drag-handle :global(svg) {
+    @apply w-3 h-3;
   }
 
   :global(.dark) .category-box.grayed-out {
@@ -421,21 +432,18 @@
   }
 
   .category-rank-badge {
-    grid-area: badge;
-    @apply bg-colorTextSoft text-colorText text-xs font-bold flex items-center justify-center flex-shrink-0 w-6 h-6 rounded-sm border border-colorText;
+    @apply bg-colorTextSoft text-colorText text-tiny font-bold flex items-center justify-center flex-shrink-0 w-5 h-5 rounded-sm border border-colorText;
   }
 
   .category-info {
-    grid-area: name;
-    @apply flex items-center min-w-0;
+    @apply flex-1 flex items-center min-w-0;
   }
 
   .category-name {
-    @apply text-colorText font-medium text-tiny md:text-xs uppercase leading-tight break-all md:break-normal;
+    @apply text-colorText font-medium text-xs uppercase leading-tight truncate;
   }
 
   .eye-toggle-btn {
-    grid-area: eye;
     @apply p-1 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-sm text-colorTextSofter hover:text-colorText border border-transparent hover:border-colorTextSofter flex-shrink-0 flex items-center justify-center self-center;
     cursor: pointer;
     border-style: solid;
@@ -452,5 +460,23 @@
   .reset-btn {
     @apply px-4 py-2 text-sm font-medium text-colorText bg-colorCardC border border-colorTextSofter
            hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors cursor-pointer;
+  }
+
+  .mobile-close {
+    @apply hidden;
+  }
+
+  @media (max-width: 767.98px) {
+    .modal-container {
+      @apply border-0 shadow-none;
+      width: 100%;
+      height: 100%;
+      max-height: none;
+    }
+
+    .mobile-close {
+      @apply block px-3 pt-1 flex-shrink-0;
+      padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
+    }
   }
 </style>

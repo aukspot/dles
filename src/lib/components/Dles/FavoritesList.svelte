@@ -528,8 +528,14 @@
   }
 
   .reorder-wrapper.reorder-mode {
-    @apply bg-blue-100 dark:bg-blue-900/30 border-2 border-blue-400 dark:border-blue-600 rounded-md p-2 pr-12 md:pr-2;
+    @apply bg-blue-100 dark:bg-blue-900/30 border-2 border-blue-400 dark:border-blue-600 rounded-md p-2;
     overflow: visible;
+  }
+
+  @media (pointer: coarse) {
+    .reorder-wrapper.reorder-mode {
+      @apply pr-12;
+    }
   }
 
   .reorder-wrapper.reorder-mode .favorite-item {
@@ -579,7 +585,7 @@
   }
 
   .position-number {
-    @apply rounded flex items-center justify-center flex-shrink-0 w-6 h-6 text-colorText text-xs font-bold border border-colorTextSofter relative overflow-hidden;
+    @apply ml-1.5 rounded flex items-center justify-center flex-shrink-0 w-6 h-6 text-colorText text-xs font-bold border border-colorTextSofter relative overflow-hidden;
     isolation: isolate;
   }
 
@@ -615,7 +621,7 @@
   }
 
   .dle-category {
-    @apply text-xs md:text-sm text-colorTextSoft;
+    @apply text-tiny md:text-xs text-colorTextSoft;
   }
 
   .favorite-actions {
@@ -623,7 +629,7 @@
   }
 
   .play-btn {
-    @apply px-2 py-1 text-xs md:text-sm font-medium uppercase cursor-pointer;
+    @apply mr-1.5 px-2 py-1 text-xs md:text-sm font-medium uppercase cursor-pointer;
     @apply bg-colorCardC text-colorTextSofter border border-colorTextSoftest;
     @apply hover:bg-colorCardA transition-colors;
   }
@@ -668,7 +674,7 @@
 
   /* Grid view styles */
   .favorites-grid {
-    @apply grid grid-cols-2 md:grid-cols-3 gap-1.5;
+    @apply grid grid-cols-2 lg:grid-cols-3 gap-1.5;
   }
 
   .grid-card {
@@ -711,7 +717,7 @@
   }
 
   .grid-card .dle-category {
-    @apply text-xs truncate;
+    @apply text-tiny truncate;
   }
 
   .grid-card .play-btn {
