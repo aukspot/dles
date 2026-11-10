@@ -157,7 +157,7 @@
       </button>
     </li>
 
-    <li class="settings-row">
+    <li class="settings-row font-size-row">
       <span class="row-icon"><span class="font-size-glyph">Aa</span></span>
       <span class="row-label">Font size</span>
       <div class="stepper">
@@ -201,6 +201,16 @@
 
   .settings-row:last-child {
     @apply border-b-0;
+  }
+
+  @media (min-width: 48em) {
+    .font-size-row {
+      display: none;
+    }
+
+    .settings-row:has(+ .font-size-row) {
+      @apply border-b-0;
+    }
   }
 
   .row-icon {
