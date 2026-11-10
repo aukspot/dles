@@ -12,18 +12,19 @@
   let numColumns = 2
   let isResizing = false
   let organizeTimeout = null
-  let lastWindowWidth = 0
+
+  function getContainerWidth() {
+    const el = gridContainer?.closest(".main-content") ?? gridContainer
+    return el ? el.clientWidth : document.documentElement.clientWidth
+  }
 
   function getNumColumns() {
     if (!browser) return Math.min(2, maxColumns)
 
-    // Use document.documentElement.clientWidth instead of window.innerWidth
-    // to account for zoom/scaling
-    const width = document.documentElement.clientWidth
-    // Use minimum of 300px
+    const width = getContainerWidth()
     if (width < 300) return 1
-    if (width >= 1200) return Math.min(Math.floor(width / 220), 5, maxColumns)
-    if (width >= 768) return Math.min(Math.floor(width / 220), 4, maxColumns)
+    if (width >= 1078) return Math.min(5, maxColumns)
+    if (width >= 768) return Math.min(4, maxColumns)
     if (width >= 570) return Math.min(3, maxColumns)
     return Math.min(2, maxColumns)
   }
@@ -120,14 +121,8 @@
   }
 
   function handleResize() {
-    if (isResizing) return
+    if (isResizing || getNumColumns() === numColumns) return
 
-    const currentWidth = document.documentElement.clientWidth
-    if (Math.abs(currentWidth - lastWindowWidth) < 20) {
-      return
-    }
-
-    lastWindowWidth = currentWidth
     isResizing = true
     requestAnimationFrame(() => {
       organizeCards()
@@ -137,10 +132,10 @@
 
   onMount(() => {
     if (browser) {
-      lastWindowWidth = document.documentElement.clientWidth
       organizeCards()
-      window.addEventListener("resize", handleResize)
-      return () => window.removeEventListener("resize", handleResize)
+      const observer = new ResizeObserver(handleResize)
+      observer.observe(gridContainer.closest(".main-content") ?? gridContainer)
+      return () => observer.disconnect()
     }
   })
 
