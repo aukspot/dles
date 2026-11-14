@@ -78,10 +78,10 @@ This will update the `./docs` directory with a new build of the site.
 
 ### Sponsors
 
-- [Buzzled](https://puzzmallow.com/buzzled) - Color each hex cell black or yellow to satisfy the target sums along the edges.
 - [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
+- [Neograms](https://neograms.app) - Decode today's made-up language by finding patterns in the provided translations.
 - [Word Grid](https://wordgrid.clevergoat.com) - Fill the cells in the grid with words matching the criteria of both their row and column
 
 ### Arcade (10)
