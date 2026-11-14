@@ -28,10 +28,10 @@
     "id": 428
   },
   {
-    "name": "Buzzled",
-    "url": "https://puzzmallow.com/buzzled",
-    "description": "Color each hex cell black or yellow to satisfy the target sums along the edges.",
-    "category": "Math/Logic",
-    "id": 32
+    "name": "Neograms",
+    "url": "https://neograms.app",
+    "description": "Decode today's made-up language by finding patterns in the provided translations.",
+    "category": "Words",
+    "id": 877
   }
 ]
