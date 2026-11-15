@@ -1,0 +1,9 @@
+id: 883
+name: Sporcle - Boxed In
+url: https://www.sporcle.com/boxed-in/play
+description: Put today's word search back together.
+category: Words
+status: active
+history:
+- date: '2026-11-15'
+  event: added

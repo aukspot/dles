@@ -1,0 +1,9 @@
+id: 885
+name: Tower of Questions
+url: https://towerofquestions.com
+description: Ascend the tower of questions without getting any answers wrong. Use your relics if you need them!
+category: Trivia
+status: active
+history:
+- date: '2026-11-15'
+  event: added

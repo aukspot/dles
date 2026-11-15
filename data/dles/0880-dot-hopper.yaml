@@ -1,0 +1,9 @@
+id: 880
+name: Dot Hopper
+url: https://dothopper.com
+description: Remove dots by making them hop over each other. Try to end with as few dots as you can.
+category: Math/Logic
+status: active
+history:
+- date: '2026-11-15'
+  event: added

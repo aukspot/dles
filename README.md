@@ -2,7 +2,7 @@
 
 "They call them the dles but they are anything but." - Northernlion
 
-The dles is a curated collection of 700+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
+The dles is a curated collection of 800+ daily web games. A "dle" is generally a game that changes everyday which has the same version for everyone that plays, often taking inspiration from [Wordle](https://en.wikipedia.org/wiki/Wordle). Dles are free and do not require a login or subscription.
 
 View the app [here](https://dles.aukspot.com) or view the list in a markdown table at the [bottom of this README](https://github.com/aukspot/dles/tree/main?tab=readme-ov-file#current-list-of-dles).
 
@@ -74,7 +74,7 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-11-06`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-11-15`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
@@ -135,7 +135,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
 
-### Estimation (33)
+### Estimation (34)
 
 - [Amountle](https://amountle.dev) - Guess how many objects went into the container before time runs out, 5 rounds every day. (Previously called Ballpark)
 - [Angle](https://angle.wtf) - Guess the angle in 4 guesses or less.
@@ -149,6 +149,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Estimania](https://estimania.app) - Guess the numbers behind five daily real-world facts.
 - [Estimate Me](https://estimate-me.aukspot.com) - Handmade and hand-counted estimation puzzles such as "How many jelly beans are in this jar?"
 - [Estimatle](https://estimatle.com) - Five daily estimation-trivia questions with global stats.
+- [Factual](https://playfactual.com) - Guess where the last item goes on each of the 6 charts! Score points based on how close you were.
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Fermi](https://fermi.gg) - Three daily estimation questions from different categories.
 - [Freehand](https://freehand.fun) - Six perception-based estimation challenges, play them all to compete in the daily gauntlet.
@@ -267,7 +268,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Yeardle](https://histordle.com/yeardle) - Guess the year based on the given historical events of that year.
 - [Yearly Daily](https://coffeefirst.games/yearly-daily) - Guess the year of each of these events that all happened today's month and day.
 
-### Math/Logic (69)
+### Math/Logic (70)
 
 - [3Doku](https://www.andrewt.net/puzzles/3doku/) - 3D Sudoku on a cube using the numbers 1 to 16.
 - [Bells & Whistles](https://puzzmallow.com/bells) - Fill the grid with bells and whistles, matching the group numbers on the rows and columns.
@@ -284,6 +285,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Dimension Flux](https://dimensionflux.com) - Solve the interdimensional mystery given the helpful clues.
 - [Dodeku](https://dodeku.com) - Make the sum of each row and column match the numbers on the perimeter.
 - [Domino Fit](https://dominofit.isotropic.us) - Fill the board with dominoes so that the dots add up in each row and column.
+- [Dot Hopper](https://dothopper.com) - Remove dots by making them hop over each other. Try to end with as few dots as you can.
 - [Equations](https://www.equations-game.com) - Find 5 groups of 3 numbers, each of which represents an equation.
 - [Fields](https://inkwellgames.com/games/fields) - Fill the grid with colorful fields that never connect.
 - [Figure](https://figure.game) - Clear all of the tiles before running out of moves.
@@ -390,7 +392,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (42)
+### Music (41)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -412,7 +414,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Heardle Daily](https://www.heardle.info/daily/) - Guess the song by listening to small parts of it.
 - [Heardle K-pop](https://kpop.heardledecades.com) - Guess the K-pop song from listening to small parts of it.
 - [Heardle TV Themes](https://tv.heardledecades.xyz) - Guess the TV theme song from listening to small parts of it.
-- [Humppadle](https://www.humppadle.de) - Guess the original song based on a cover by the Finnish Humppa band Eläkeläiset.
 - [Lyricle](https://www.lyricle.app) - Guess the song from the given lyrics.
 - [MeloGuessr](https://meloguessr.com) - Click the geographic origin of the song that's playing, 5 rounds every day.
 - [Musicle](https://musicle.app) - Match the song audio to the correct album art. Lots of categories.
@@ -435,16 +436,18 @@ This will update the `./docs` directory with a new build of the site.
 - [vocalstim](https://vocalstim.app) - Guess when the singing begins after listening to the song's intro, 3 rounds every day.
 - [Year To Beat](https://yeartobeat.com) - Guess the year each music video came out, 5 rounds daily.
 
-### Novelty (9)
+### Novelty (11)
 
 - [Coindle](https://muhashi.com/coindle/) - Get as many coin flips correct in a row as you can. Only one attempt per day.
 - [Collagedle](https://collagedle.com) - Make a collage with the available supplies, then see what everyone else made.
 - [fridgle](https://fridgle.net) - Create a daily message using magnet-style words you might find on a fridge.
 - [Horsle](https://cabletwo.net/horsle/) - Wordle except the answer is always Horse.
+- [LRNGdle](https://lrngdle.com) - Roll a string of 7 English letters and score points based on its properties.
 - [Luckle](https://luckle.org) - Roll the dice until it lands on the target number. 3 rounds per day.
 - [Odle](https://www.odle.app) - Write an ode to today's subject using only the letters provided.
 - [PetGuessr](https://petguessr.com) - Pick the adoptable pet that has the name provided, 10 rounds daily.
 - [RNGdle](https://www.rngdle.com) - Roll a random number between 0 and 1 million, earning points based on its patterns and properties.
+- [Squigdle](https://squigdle.com) - Arrange the squiggles, then doodle around them to make a piece of art. Then name it and see what others drew!
 - [WikiRNG](https://wikirng.com) - Roll a random Wikipedia article and score points based on its properties.
 
 ### Science/Nature (15)
@@ -528,7 +531,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Worpel](https://playworpel.com) - Guess the player in the Australian Football League (AFL).
 - [WrestlePlay](https://wrestleplay.com) - A collection of daily games related to wrestling.
 
-### Trivia (37)
+### Trivia (38)
 
 - [Brainer](https://gamebunny.app/brainer) - A weekday quiz show with creative questions from several categories.
 - [Catfishing](https://catfishing.net) - Guess the Wikipedia article by its categories. 10 rounds per day.
@@ -567,6 +570,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Thruline](https://cyllibi.com/thruline) - Determine the word that connects the four images.
 - [Tightrope](https://www.britannica.com/quiz/tightrope) - Answer 9 timed trivia questions without running out of lives!
 - [Top 5](https://topfivetrivia.com) - Guess the top 5 items of today's category.
+- [Tower of Questions](https://towerofquestions.com) - Ascend the tower of questions without getting any answers wrong. Use your relics if you need them!
 
 ### Vehicles (4)
 
@@ -856,6 +860,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Spelling Bee](https://spellsbee.com) - Given 7 letters, make as many words as you can that contain the center letter. Same as NYT Spelling Bee, which requires a subscription.
 - [Spelling Bee (Lessgames)](https://lessgames.com/spellingbee) - Spell the words based on their pronunciation. Optionally get a definition or use it in a sentence.
 - [Spindle](https://playspindle.com) - Rearrange the grid of letters so that the target word is spelled out. Rearranging is done by spinning words.
+- [Sporcle - Boxed In](https://www.sporcle.com/boxed-in/play) - Put today's word search back together.
 - [Sporcle - Daily Acrostic](https://www.sporcle.com/acrostic/todays-acrostic) - A daily acrostic puzzle from Sporcle.
 - [Sporcle - Steps](https://www.sporcle.com/steps/play) - A word ladder puzzle where the first and last words together form a phrase.
 - [Squardle](https://fubargames.se/squardle) - A complex Wordle variant where your guesses count in two directions and cycle between three positions.
@@ -918,7 +923,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Word500](https://word500.com/game?mode=daily) - Guess the word in 8 tries, but you're only given how many guessed letters are in the right place or wrong place.
 - [WordAll](https://wordall.xyz) - Guess all of the Wordle words, given the starting clues.
 - [Wordamid](https://www.wordamid.com) - Solve the daily word pyramid by guessing words of increasing length.
-- [Wordcell](https://gamebunny.app/wordcell) - Launch the ball around the board to collect letters and compose the hidden words.
 - [Wordcrux](https://wordcrux.com) - A mini crossword puzzle, but don't make too many wrong guesses.
 - [Wordfall](https://play-wordfall.com) - Clear letters on the board by finding words, ending with as few letters as possible.
 - [Wordga](https://wordga.com/daily) - Find as many 4+ letter words using today's letters.

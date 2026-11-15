@@ -1389,6 +1389,13 @@
     "id": 98
   },
   {
+    "name": "Dot Hopper",
+    "url": "https://dothopper.com",
+    "description": "Remove dots by making them hop over each other. Try to end with as few dots as you can.",
+    "category": "Math/Logic",
+    "id": 880
+  },
+  {
     "name": "Dotadle",
     "url": "https://dotadle.net",
     "description": "Guess the Dota characters in these daily quizzes.",
@@ -1589,6 +1596,13 @@
     "description": "Find and properly rank the top 5 answers for the given sports-related criteria. You have 5 guesses to get it correct.",
     "category": "Sports",
     "id": 117
+  },
+  {
+    "name": "Factual",
+    "url": "https://playfactual.com",
+    "description": "Guess where the last item goes on each of the 6 charts! Score points based on how close you were.",
+    "category": "Estimation",
+    "id": 881
   },
   {
     "name": "Far Out",
@@ -2360,13 +2374,6 @@
     "id": 173
   },
   {
-    "name": "Humppadle",
-    "url": "https://www.humppadle.de",
-    "description": "Guess the original song based on a cover by the Finnish Humppa band El\u00e4kel\u00e4iset.",
-    "category": "Music",
-    "id": 641
-  },
-  {
     "name": "I Called Game",
     "url": "https://icalledgame.hoopgrids.com",
     "description": "Identify key details from an image of a historical NBA game to answer 6 questions.",
@@ -2990,6 +2997,13 @@
     "description": "Draw a single continuous loop that flows through every cell.",
     "category": "Shapes/Patterns",
     "id": 773
+  },
+  {
+    "name": "LRNGdle",
+    "url": "https://lrngdle.com",
+    "description": "Roll a string of 7 English letters and score points based on its properties.",
+    "category": "Novelty",
+    "id": 882
   },
   {
     "name": "Luckle",
@@ -4937,6 +4951,13 @@
     "id": 633
   },
   {
+    "name": "Sporcle - Boxed In",
+    "url": "https://www.sporcle.com/boxed-in/play",
+    "description": "Put today's word search back together.",
+    "category": "Words",
+    "id": 883
+  },
+  {
     "name": "Sporcle - Chess Attack",
     "url": "https://www.sporcle.com/chess-attack/play",
     "description": "Checkmate the opponent in this 6x6 randomized Chess variant.",
@@ -5033,6 +5054,13 @@
       "Rearranging"
     ],
     "id": 361
+  },
+  {
+    "name": "Squigdle",
+    "url": "https://squigdle.com",
+    "description": "Arrange the squiggles, then doodle around them to make a piece of art. Then name it and see what others drew!",
+    "category": "Novelty",
+    "id": 884
   },
   {
     "name": "Squirdle Daily",
@@ -5679,6 +5707,13 @@
     "id": 397
   },
   {
+    "name": "Tower of Questions",
+    "url": "https://towerofquestions.com",
+    "description": "Ascend the tower of questions without getting any answers wrong. Use your relics if you need them!",
+    "category": "Trivia",
+    "id": 885
+  },
+  {
     "name": "Tracell",
     "url": "https://tracellgame.com",
     "description": "Uncover the hidden text by placing the letter tiles in the grid.",
@@ -6209,13 +6244,6 @@
       "Word Ladders"
     ],
     "id": 564
-  },
-  {
-    "name": "Wordcell",
-    "url": "https://gamebunny.app/wordcell",
-    "description": "Launch the ball around the board to collect letters and compose the hidden words.",
-    "category": "Words",
-    "id": 435
   },
   {
     "name": "Wordcrux",

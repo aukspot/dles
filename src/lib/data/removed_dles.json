@@ -519,6 +519,24 @@
     ]
   },
   {
+    "id": 641,
+    "name": "Humppadle",
+    "url": "https://www.humppadle.de",
+    "description": "Guess the original song based on a cover by the Finnish Humppa band El\u00e4kel\u00e4iset.",
+    "category": "Music",
+    "history": [
+      {
+        "date": "2026-01-23",
+        "event": "added"
+      },
+      {
+        "date": "2026-11-15",
+        "event": "removed",
+        "reason": "Songs no longer load."
+      }
+    ]
+  },
+  {
     "id": 183,
     "name": "IYKYK",
     "url": "https://daily.iykyk.com",
@@ -1494,6 +1512,24 @@
         "date": "2026-08-02",
         "event": "removed",
         "reason": "Reports of malware after game completion."
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "name": "Wordcell",
+    "url": "https://gamebunny.app/wordcell",
+    "description": "Launch the ball around the board to collect letters and compose the hidden words.",
+    "category": "Words",
+    "history": [
+      {
+        "date": "2025-05-08",
+        "event": "added"
+      },
+      {
+        "date": "2026-11-15",
+        "event": "removed",
+        "reason": "Game has concluded. Paid archive available."
       }
     ]
   },

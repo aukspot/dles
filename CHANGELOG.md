@@ -1,5 +1,24 @@
 # Changelog - The Dles
 
+## 2026-11-15
+
+Add 6 dles. Remove 2 dles. 
+
+dles added: 
+|    | name                                                        | url                                                                            |   id |
+|---:|:------------------------------------------------------------|:-------------------------------------------------------------------------------|-----:|
+|  1 | [Dot Hopper](https://dothopper.com)                         | [https://dothopper.com](https://dothopper.com)                                 |  880 |
+|  2 | [Factual](https://playfactual.com)                          | [https://playfactual.com](https://playfactual.com)                             |  881 |
+|  3 | [LRNGdle](https://lrngdle.com)                              | [https://lrngdle.com](https://lrngdle.com)                                     |  882 |
+|  4 | [Sporcle - Boxed In](https://www.sporcle.com/boxed-in/play) | [https://www.sporcle.com/boxed-in/play](https://www.sporcle.com/boxed-in/play) |  883 |
+|  5 | [Squigdle](https://squigdle.com)                            | [https://squigdle.com](https://squigdle.com)                                   |  884 |
+|  6 | [Tower of Questions](https://towerofquestions.com)          | [https://towerofquestions.com](https://towerofquestions.com)                   |  885 |
+
+dles removed: 
+|    | name                                       | url                                                              |   id | reason                                      |
+|---:|:-------------------------------------------|:-----------------------------------------------------------------|-----:|:--------------------------------------------|
+|  1 | [Humppadle](https://www.humppadle.de)      | [https://www.humppadle.de](https://www.humppadle.de)             |  641 | Songs no longer load.                       |
+|  2 | [Wordcell](https://gamebunny.app/wordcell) | [https://gamebunny.app/wordcell](https://gamebunny.app/wordcell) |  435 | Game has concluded. Paid archive available. |
 ## 2026-11-06
 
 Add 4 dles. 

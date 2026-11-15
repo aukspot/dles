@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-11-15",
+    "dles added": [
+      {
+        "name": "Dot Hopper",
+        "url": "https://dothopper.com",
+        "id": 880
+      },
+      {
+        "name": "Factual",
+        "url": "https://playfactual.com",
+        "id": 881
+      },
+      {
+        "name": "LRNGdle",
+        "url": "https://lrngdle.com",
+        "id": 882
+      },
+      {
+        "name": "Sporcle - Boxed In",
+        "url": "https://www.sporcle.com/boxed-in/play",
+        "id": 883
+      },
+      {
+        "name": "Squigdle",
+        "url": "https://squigdle.com",
+        "id": 884
+      },
+      {
+        "name": "Tower of Questions",
+        "url": "https://towerofquestions.com",
+        "id": 885
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "Humppadle",
+        "url": "https://www.humppadle.de",
+        "id": 641,
+        "reason": "Songs no longer load."
+      },
+      {
+        "name": "Wordcell",
+        "url": "https://gamebunny.app/wordcell",
+        "id": 435,
+        "reason": "Game has concluded. Paid archive available."
+      }
+    ],
+    "description": "Add 6 dles. Remove 2 dles. "
+  },
+  {
     "date": "2026-11-06",
     "dles added": [
       {
