@@ -6266,6 +6266,15 @@
     "id": 675
   },
   {
+    "name": "Wordflation",
+    "url": "https://wordflation.com",
+    "description": "Name something for each prompt, but every letter costs money and gets pricier each time you use it.",
+    "category": "Words",
+    "themes": [
+      "Semantics"
+    ]
+  },
+  {
     "name": "Wordga",
     "url": "https://wordga.com/daily",
     "description": "Find as many 4+ letter words using today's letters.",
