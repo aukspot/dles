@@ -1,0 +1,9 @@
+id: 845
+name: Numgrove
+url: https://numgrove.com
+description: A daily math puzzle game. Grow a factor tree to reach the target number.
+category: Math/Logic
+status: active
+history:
+- date: '2026-09-29'
+  event: added
