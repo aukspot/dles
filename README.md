@@ -23,7 +23,7 @@ You can suggest a feature by [filling out this form](https://tally.so/r/Gx6kXZ) 
 ### Current
 
 - A list of over 800 curated dles.
-- 17 categories to help with organization.
+- 19 categories to help with organization.
 - Users can select their favorite dles for quick access.
 - Randomly pick a dle to play.
 - Option to hide/show given dles.
