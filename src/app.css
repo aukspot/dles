@@ -91,6 +91,8 @@ a {
     position: sticky;
     align-self: flex-start;
     top: calc(50vh - var(--img-h) / 2);
+    min-width: calc(var(--img-w) + 1rem);
+    min-height: var(--img-h);
   }
 
   .sidebar-slot>* {
