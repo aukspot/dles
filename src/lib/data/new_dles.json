@@ -6,12 +6,6 @@
     "date_added": "2026-10-27"
   },
   {
-    "name": "Cramdle",
-    "url": "https://cramdle.com",
-    "id": 865,
-    "date_added": "2026-10-18"
-  },
-  {
     "name": "Dot Hopper",
     "url": "https://dothopper.com",
     "id": 880,
@@ -66,12 +60,6 @@
     "date_added": "2026-11-06"
   },
   {
-    "name": "Spectrle",
-    "url": "https://spectrle.games",
-    "id": 866,
-    "date_added": "2026-10-18"
-  },
-  {
     "name": "Sporcle - Boxed In",
     "url": "https://www.sporcle.com/boxed-in/play",
     "id": 883,
@@ -96,18 +84,6 @@
     "date_added": "2026-10-27"
   },
   {
-    "name": "Terrariadle",
-    "url": "https://terrariadle.com",
-    "id": 867,
-    "date_added": "2026-10-18"
-  },
-  {
-    "name": "The Daily Headlines",
-    "url": "https://www.daily-headlines.com",
-    "id": 868,
-    "date_added": "2026-10-18"
-  },
-  {
     "name": "Tower of Questions",
     "url": "https://towerofquestions.com",
     "id": 885,
@@ -118,11 +94,5 @@
     "url": "https://unlabeled.dev",
     "id": 879,
     "date_added": "2026-11-06"
-  },
-  {
-    "name": "vocalstim",
-    "url": "https://vocalstim.app",
-    "id": 869,
-    "date_added": "2026-10-18"
   }
 ]
