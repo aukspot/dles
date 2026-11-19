@@ -167,11 +167,14 @@
     loading = false
   })
 
-  onMount(() => {
-    window.fusetag = window.fusetag || { que: [] }
-    window.fusetag.que.push(() => {
-      window.fusetag.registerZone("sidebar-lhs")
-      window.fusetag.registerZone("sidebar-rhs")
+  afterNavigate(({ from }) => {
+    const fusetag = window.fusetag || (window.fusetag = { que: [] })
+    fusetag.que.push(() => {
+      if (!from) {
+        fusetag.registerZone("sidebar-lhs")
+        fusetag.registerZone("sidebar-rhs")
+      }
+      fusetag.pageInit()
     })
   })
 </script>
