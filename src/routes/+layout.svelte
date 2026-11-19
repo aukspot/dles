@@ -166,6 +166,14 @@
   onMount(() => {
     loading = false
   })
+
+  onMount(() => {
+    window.fusetag = window.fusetag || { que: [] }
+    window.fusetag.que.push(() => {
+      window.fusetag.registerZone("sidebar-lhs")
+      window.fusetag.registerZone("sidebar-rhs")
+    })
+  })
 </script>
 
 <svelte:head>
@@ -210,7 +218,9 @@
 
 <div class="w-full text-colorText bg-colorBackground">
   <div class="full-layout">
-    <Sidebar />
+    <Sidebar>
+      <div id="sidebar-lhs" data-fuse="Sidebar_LHS" class="sidebar-slot"></div>
+    </Sidebar>
     <div
       class="main-content flex flex-col flex-[0_1_73.125rem] min-w-0 max-w-screen-xl xl:max-w-[73.125rem] mx-auto"
     >
@@ -350,7 +360,9 @@
       </main>
       <Footer />
     </div>
-    <Sidebar />
+    <Sidebar>
+      <div id="sidebar-rhs" data-fuse="Sidebar_RHS" class="sidebar-slot"></div>
+    </Sidebar>
   </div>
   <StickyFooter />
   <!-- <ExamplePopUp /> -->
