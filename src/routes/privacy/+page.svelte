@@ -114,8 +114,7 @@
     <h2>Contact</h2>
     <p>
       If you have questions or concerns, you can either send an email to <a
-        href="mail@aukspot.com"
-        target="_blank">mail@aukspot.com</a
+        href="mailto:mail@aukspot.com">mail@aukspot.com</a
       > or message @aukspot on Discord.
     </p>
   </section>
