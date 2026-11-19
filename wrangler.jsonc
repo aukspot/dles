@@ -1,5 +1,8 @@
 {
   "name": "dles-staging",
   "compatibility_date": "2026-11-01",
-  "assets": { "directory": "./build" }
+  "assets": {
+    "directory": "./build"
+  },
+  "previews": {}
 }
