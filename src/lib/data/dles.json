@@ -4374,6 +4374,12 @@
     "id": 521
   },
   {
+    "name": "Rarest",
+    "url": "https://rarest.apsquared.co",
+    "description": "Six timed trivia questions with many right answers. The rarer your answer, the more it scores.",
+    "category": "Trivia"
+  },
+  {
     "name": "Real Bird Fake Bird",
     "url": "https://realbirdfakebird.com",
     "description": "Guess if each of the 7 prompts are real or fake (made up or don't belong).",
