@@ -1678,6 +1678,12 @@
     "id": 121
   },
   {
+    "name": "Flagdle (flagdle.com)",
+    "url": "https://flagdle.com",
+    "description": "Guess the flag of the day in 3 tries, plus a daily 9-round challenge on capitals, outlines, coats of arms and more. Available in English, French, Spanish and Portuguese.",
+    "category": "Geography"
+  },
+  {
     "name": "Flagdoku",
     "url": "https://flagdoku.com",
     "description": "Fill in the grid with flags that meet the criteria of both the row and column corresponding to their cell.",
