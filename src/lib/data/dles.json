@@ -171,6 +171,12 @@
     "id": 615
   },
   {
+    "name": "AnyKrillion",
+    "url": "https://anykrillion.com",
+    "description": "Dive deep by guessing rare answers in the 7-question Daily Dive or endless Krillion rounds.",
+    "category": "Trivia"
+  },
+  {
     "name": "Archiguessr",
     "url": "https://archiguesser.com",
     "description": "Guess the name of the architecture, given a series of pictures.",
@@ -4077,6 +4083,15 @@
       "Word Ladders"
     ],
     "id": 520
+  },
+  {
+    "name": "Poople Unlimited",
+    "url": "https://anykrillion.com/poople-unlimited",
+    "description": "Transform words one letter at a time to reach POOP in the minimum possible steps.",
+    "category": "Words",
+    "themes": [
+      "Word Ladders"
+    ]
   },
   {
     "name": "PopCultured",
