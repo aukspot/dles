@@ -549,6 +549,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Google Feud](https://googlefeud.com) - Guess how Google auto-completes the search query, click on "Question of the Day".
 - [Jeopardiem](https://jeopardiem.com) - Answer 10 historical Jeopardy questions, then wager your winnings in Final Jeopardy.
 - [Jeopardy 6](https://www.jeopardy.com/play/j6) - Weekday jeopardy game where you answer 12 multiple choice questions.
+- [Kabloom Daily](https://kabloomdaily.com) - Climb the pixel volcano across 7 progressive trivia categories under 25 seconds with zero duplicate answers.
 - [Krillion](https://krillion.io) - Dive as deep as you can by giving rare answers to each trivia question.
 - [New Yorker - Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) - Arrange the items into the correct order in 5 guesses.
 - [On the Record](https://www.washingtonpost.com/news-quiz) - Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
