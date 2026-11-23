@@ -233,13 +233,6 @@
     "id": 723
   },
   {
-    "name": "BallotGuessr",
-    "url": "https://ballotguessr.com/daily",
-    "description": "Guess how the region voted given a Google Streetview location. 5 rounds every day.",
-    "category": "Geography",
-    "id": 721
-  },
-  {
     "name": "Bandle",
     "url": "https://bandle.app",
     "description": "Guess the song, one instrument at a time (sort of).",
@@ -458,7 +451,7 @@
   {
     "name": "Cadgy",
     "url": "https://cadgy.net",
-    "description": "Make valid 5-letter words by selecting one letter from each column.",
+    "description": "Make words by selecting letters from each of the 5 columns.",
     "category": "Words",
     "themes": [
       "Anagrams"
@@ -1522,16 +1515,6 @@
     "id": 546
   },
   {
-    "name": "Eruptle",
-    "url": "https://eruptle.app",
-    "description": "Guess the 10 items that fit the prompt, kind of like Family Feud.",
-    "category": "Trivia",
-    "themes": [
-      "Guess the List"
-    ],
-    "id": 110
-  },
-  {
     "name": "Estimania",
     "url": "https://estimania.app",
     "description": "Guess the numbers behind five daily real-world facts.",
@@ -1811,7 +1794,7 @@
   {
     "name": "Freehand",
     "url": "https://freehand.fun",
-    "description": "Six perception-based estimation challenges, play them all to compete in the daily gauntlet.",
+    "description": "Five perception-based estimation challenges, play them all to compete in the daily gauntlet.",
     "category": "Estimation",
     "id": 857
   },
@@ -2364,6 +2347,13 @@
     "id": 172
   },
   {
+    "name": "Huedle",
+    "url": "https://www.huedle.uk",
+    "description": "Swap color tiles to rebuild today's gradient.",
+    "category": "Colors",
+    "id": 888
+  },
+  {
     "name": "Huewords",
     "url": "https://huewords.snellman.net",
     "description": "Fill the partitioned grid with letters to form 5-letter words, choosing from the given groups of letters.",
@@ -2465,7 +2455,7 @@
   },
   {
     "name": "Jigsy",
-    "url": "https://jigsy.app",
+    "url": "https://jigsy.app/daily/",
     "description": "Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.",
     "category": "Shapes/Patterns",
     "id": 611
@@ -2528,16 +2518,6 @@
       "Anagrams"
     ],
     "id": 187
-  },
-  {
-    "name": "Keyboard Lines",
-    "url": "https://keyboardlines.com",
-    "description": "Determine the mystery word just by following the swipe line on the keyboard.",
-    "category": "Words",
-    "themes": [
-      "Decoding"
-    ],
-    "id": 476
   },
   {
     "name": "Keyword",
@@ -2751,6 +2731,13 @@
       "Anagrams"
     ],
     "id": 194
+  },
+  {
+    "name": "Letterrankd",
+    "url": "https://www.letterrankd.com",
+    "description": "Guess which movie ranks higher on Letterboxd, 10 rounds daily.",
+    "category": "Movies/TV",
+    "id": 891
   },
   {
     "name": "Lex.Games - By A Vowel",
@@ -2997,6 +2984,13 @@
     "description": "Draw a single continuous loop that flows through every cell.",
     "category": "Shapes/Patterns",
     "id": 773
+  },
+  {
+    "name": "lost in translation",
+    "url": "https://lostintranslationdaily.com",
+    "description": "Guess today's movie based on what it is called in other countries.",
+    "category": "Movies/TV",
+    "id": 886
   },
   {
     "name": "LRNGdle",
@@ -3293,6 +3287,13 @@
     "id": 240
   },
   {
+    "name": "Movie Timeliner",
+    "url": "https://movietimeliner.com",
+    "description": "Place the movies in chronological order, one by one.",
+    "category": "Movies/TV",
+    "id": 892
+  },
+  {
     "name": "Movie to Movie",
     "url": "https://movietomovie.com",
     "description": "Connect two movies by jumping through actors and the movies they've been in.",
@@ -3340,6 +3341,13 @@
     "description": "Solve today's murder-mystery logic puzzle.",
     "category": "Math/Logic",
     "id": 246
+  },
+  {
+    "name": "Music Timeliner",
+    "url": "https://musictimeliner.com",
+    "description": "Place each song on the timeline based on its audio preview.",
+    "category": "Music",
+    "id": 890
   },
   {
     "name": "Musicle",
@@ -3755,6 +3763,13 @@
     "id": 274
   },
   {
+    "name": "Panigma",
+    "url": "https://panigma.fr",
+    "description": "Guess the Wikipedia article based on its key categories, with assistance if you miss it. Like Catfishing, but easier.",
+    "category": "Trivia",
+    "id": 887
+  },
+  {
     "name": "Parlorbox",
     "url": "https://parlorbox.com/",
     "description": "Logic puzzle game based on the Parlor room puzzle from Blue Prince",
@@ -3845,16 +3860,6 @@
     "id": 873
   },
   {
-    "name": "Phrasicle",
-    "url": "https://phrasicle.com",
-    "description": "Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.",
-    "category": "Words",
-    "themes": [
-      "Word Ladders"
-    ],
-    "id": 554
-  },
-  {
     "name": "Phrasle",
     "url": "https://phrasle.com",
     "description": "Reveal the phrase by guessing one letter at a time.",
@@ -3938,6 +3943,13 @@
     "description": "Given an image of an airplane, determine the make, type, and the airline it belongs to.",
     "category": "Vehicles",
     "id": 283
+  },
+  {
+    "name": "Platedle",
+    "url": "https://platedle.day",
+    "description": "Guess the US State based on the cropped license plate.",
+    "category": "Geography",
+    "id": 889
   },
   {
     "name": "Plausible",

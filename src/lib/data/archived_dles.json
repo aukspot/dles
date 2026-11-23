@@ -74,6 +74,27 @@
     ]
   },
   {
+    "id": 110,
+    "name": "Eruptle",
+    "url": "https://eruptle.app",
+    "description": "Guess the 10 items that fit the prompt, kind of like Family Feud.",
+    "category": "Trivia",
+    "themes": [
+      "Guess the List"
+    ],
+    "archive_url": "https://eruptle.app/explore/archive",
+    "history": [
+      {
+        "date": "2024-07-20",
+        "event": "added"
+      },
+      {
+        "date": "2026-11-22",
+        "event": "archived"
+      }
+    ]
+  },
+  {
     "id": 155,
     "name": "GuessTen",
     "url": "https://guessten.com",

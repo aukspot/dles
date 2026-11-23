@@ -1,0 +1,9 @@
+id: 887
+name: Panigma
+url: https://panigma.fr
+description: Guess the Wikipedia article based on its key categories, with assistance if you miss it. Like Catfishing, but easier.
+category: Trivia
+status: active
+history:
+- date: '2026-11-22'
+  event: added

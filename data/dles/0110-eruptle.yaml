@@ -5,7 +5,10 @@ description: Guess the 10 items that fit the prompt, kind of like Family Feud.
 category: Trivia
 themes:
 - Guess the List
-status: active
+status: archived
+archive_url: https://eruptle.app/explore/archive
 history:
 - date: '2024-07-20'
   event: added
+- date: '2026-11-22'
+  event: archived

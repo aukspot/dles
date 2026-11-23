@@ -1,0 +1,9 @@
+id: 889
+name: Platedle
+url: https://platedle.day
+description: Guess the US State based on the cropped license plate.
+category: Geography
+status: active
+history:
+- date: '2026-11-22'
+  event: added

@@ -1,5 +1,30 @@
 # Changelog - The Dles
 
+## 2026-11-22
+
+Add 7 dles. Remove 3 dles. Archive 1 dle. 
+
+dles added: 
+|    | name                                                      | url                                                                      |   id |
+|---:|:----------------------------------------------------------|:-------------------------------------------------------------------------|-----:|
+|  1 | [Huedle](https://www.huedle.uk)                           | [https://www.huedle.uk](https://www.huedle.uk)                           |  888 |
+|  2 | [Letterrankd](https://www.letterrankd.com)                | [https://www.letterrankd.com](https://www.letterrankd.com)               |  891 |
+|  3 | [lost in translation](https://lostintranslationdaily.com) | [https://lostintranslationdaily.com](https://lostintranslationdaily.com) |  886 |
+|  4 | [Movie Timeliner](https://movietimeliner.com)             | [https://movietimeliner.com](https://movietimeliner.com)                 |  892 |
+|  5 | [Music Timeliner](https://musictimeliner.com)             | [https://musictimeliner.com](https://musictimeliner.com)                 |  890 |
+|  6 | [Panigma](https://panigma.fr)                             | [https://panigma.fr](https://panigma.fr)                                 |  887 |
+|  7 | [Platedle](https://platedle.day)                          | [https://platedle.day](https://platedle.day)                             |  889 |
+
+dles removed: 
+|    | name                                           | url                                                              |   id | reason                                                       |
+|---:|:-----------------------------------------------|:-----------------------------------------------------------------|-----:|:-------------------------------------------------------------|
+|  1 | [BallotGuessr](https://ballotguessr.com/daily) | [https://ballotguessr.com/daily](https://ballotguessr.com/daily) |  721 | Site no longer loads.                                        |
+|  2 | [Keyboard Lines](https://keyboardlines.com)    | [https://keyboardlines.com](https://keyboardlines.com)           |  476 | No longer a game, now a site about the history of keyboards. |
+|  3 | [Phrasicle](https://phrasicle.com)             | [https://phrasicle.com](https://phrasicle.com)                   |  554 | No more daily puzzles.                                       |
+dles archived: 
+|    | name                           | url                                        |   id | archive_url                         |
+|---:|:-------------------------------|:-------------------------------------------|-----:|:------------------------------------|
+|  1 | [Eruptle](https://eruptle.app) | [https://eruptle.app](https://eruptle.app) |  110 | https://eruptle.app/explore/archive |
 ## 2026-11-15
 
 Add 6 dles. Remove 2 dles. 

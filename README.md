@@ -74,11 +74,11 @@ This will update the `./docs` directory with a new build of the site.
 
 ## Current list of dles
 
-**Last updated `2026-11-15`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
+**Last updated `2026-11-22`** ([view changelog](https://github.com/aukspot/dles/blob/main/CHANGELOG.md))
 
 ### Sponsors
 
-- [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
+- [Cadgy](https://cadgy.net) - Make words by selecting letters from each of the 5 columns.
 - [Lettered](https://lettered.io) - Move letter tiles on the board to spell out the hidden phrase.
 - [Lexagon](https://lexagon.com) - Find words in the hexagon grid of letters. Use the clue to help you find the 'Lexagon', the longest word on the board.
 - [Neograms](https://neograms.app) - Decode today's made-up language by finding patterns in the provided translations.
@@ -123,7 +123,7 @@ This will update the `./docs` directory with a new build of the site.
 - [YGOdle](https://www.ygodle.net/) - A collection of daily guessing games based on the card game 'Yu-Gi-Oh!'
 - [Zaku Chess](https://zakuchess.com) - A challenging chess game with fantasy pixel-art characters. Note that the chess board is rotated 90 degrees clockwise.
 
-### Colors (9)
+### Colors (10)
 
 - [Chroma](https://robson.plus/chroma) - Match the color name with their color, 5 rounds every day.
 - [Colordle](https://colordle.ryantanen.com) - Guess today's color by its unique name. Very difficult, look at the list of useable colors in the instructions.
@@ -134,6 +134,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Dialed - Color Toon](https://dialed.gg/color2) - Guess the color of the cartoon, character, or logo from memory. Click the calendar for the daily mode.
 - [Hexcodle](https://www.hexcodle.com) - Guess the 6-digit hex code of the shown color in 5 tries or less.
 - [Hexcodle Mini](https://www.hexcodle.com/mini) - Guess the 3-digit hex code of the shown color in 5 tries or less. Easier version of Hexcodle.
+- [Huedle](https://www.huedle.uk) - Swap color tiles to rebuild today's gradient.
 
 ### Estimation (34)
 
@@ -152,7 +153,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Factual](https://playfactual.com) - Guess where the last item goes on each of the 6 charts! Score points based on how close you were.
 - [Far Out](https://www.faroutquiz.com) - Three daily estimation trivia questions. The closer you get, the higher your score.
 - [Fermi](https://fermi.gg) - Three daily estimation questions from different categories.
-- [Freehand](https://freehand.fun) - Six perception-based estimation challenges, play them all to compete in the daily gauntlet.
+- [Freehand](https://freehand.fun) - Five perception-based estimation challenges, play them all to compete in the daily gauntlet.
 - [Guess The Angle](https://guesstheangle.wtf) - Guess today's angle in 4 guesses or less.
 - [Guess The House](https://guessthe.house) - Guess the price of the house by its pictures and information.
 - [haggle](https://haggle.gg) - Guess the price for each of today's five products.
@@ -184,7 +185,6 @@ This will update the `./docs` directory with a new build of the site.
 
 - [Babelle](https://babelle.terrylaire.fr/) - Guess which country the given city is in.
 - [Ballot Blocks](https://ballotblocks.com) - Guess how the neighborhood voted in the U.S. 2024 presidential election based on how it appears on Google Streetview
-- [BallotGuessr](https://ballotguessr.com/daily) - Guess how the region voted given a Google Streetview location. 5 rounds every day.
 - [Border guesser](https://borderguesser.com) - Guess the country by its partially-drawn border, up to 50% drawn.
 - [Capitalibrate](https://guessdash.com/capitalibrate) - Guess the direction and distance from the starting capital to the target capital.
 - [Chartle](https://chartle.cc) - Guess the country based on the chart.
@@ -226,6 +226,7 @@ This will update the `./docs` directory with a new build of the site.
 - [OEC Tradle](https://oec.world/en/games/tradle) - Guess the country by its exports.
 - [Originle](https://originle.io) - Get clues from today's video guest, then guess which country they represent.
 - [Passportle](https://passportle.lordos.tech) - Guess the country based on its passport.
+- [Platedle](https://platedle.day) - Guess the US State based on the cropped license plate.
 - [Real Flag / Fake Flag](https://realflagfakeflag.com) - Guess if each flag is real or fake.
 - [Satle](https://satle.ca) - Guess the city given a satellite image, zooming out after each guess.
 - [SatPin](https://satpixel.com/en/satellite-pin-guess/) - Pin the world locations on the map based on satellite images.
@@ -341,7 +342,7 @@ This will update the `./docs` directory with a new build of the site.
 - [xdle](https://zaratustra.itch.io/xdle) - Guess the number between 1 and 999, receiving math clues related to each guess. You have 6 guesses.
 - [Zebra Puzzles](https://www.zebrapuzzles.com) - A collection of 5 daily logic puzzles of increasing difficulty.
 
-### Movies/TV (48)
+### Movies/TV (51)
 
 - [Actorle](https://actorle.com) - Guess the movie actor based on the given information, with each guess revealing matching information.
 - [Actorle - Fill The Grid](https://actorle.com/fill-the-grid) - Fill the grid with actors that are cast in movies from each cell's corresponding row and column.
@@ -370,11 +371,14 @@ This will update the `./docs` directory with a new build of the site.
 - [Harrypotterdle](https://www.harrypotterdle.com) - A collection of daily games related to Harry Potter.
 - [Jojodle](https://www.jojodle.app) - Guess the secret Stand User of the day from Jojo's Bizarre Adventure.
 - [Letterboxdle](https://letterboxdle.net) - Guess the movie based on the Letterboxd reviews.
+- [Letterrankd](https://www.letterrankd.com) - Guess which movie ranks higher on Letterboxd, 10 rounds daily.
+- [lost in translation](https://lostintranslationdaily.com) - Guess today's movie based on what it is called in other countries.
 - [Marveldle](https://marveldle.com/character/audiovisual/guess) - Guess the daily character from the Marvel Cinematic Universe.
 - [Movie Grid](https://moviegrid.io) - Fill out the grid with movies matching the criteria of each cell's row and column.
 - [Movie Pyramid](https://moviepyramid.io) - Fill in the cells of the pyramid with movies that match the criteria of their given row.
 - [Movie Reveal](https://moviereveal.io) - Guess today's hidden movie by revealing clues that cost you points!
 - [Movie Snake](https://moviesnake.io) - Guess movies that match pairs of criteria until all clues have been used.
+- [Movie Timeliner](https://movietimeliner.com) - Place the movies in chronological order, one by one.
 - [Movie to Movie](https://movietomovie.com) - Connect two movies by jumping through actors and the movies they've been in.
 - [Moviedle](https://moviedle.xyz) - Guess the movie based on the given information, with each guess revealing matching information.
 - [Moviedle (from Histordle)](https://histordle.com/moviedle) - Guess the year that the given movies were released.
@@ -392,7 +396,7 @@ This will update the `./docs` directory with a new build of the site.
 - [TV Circuit](https://www.wfhgames.com/tv-circuit) - Connect the two TV actors in the fewest links possible.
 - [Whodle](https://whodle.dixonary.co.uk) - Guess the Doctor Who episode based on the frames, audio, or transcripts.
 
-### Music (41)
+### Music (42)
 
 - [Bandle](https://bandle.app) - Guess the song, one instrument at a time (sort of).
 - [Beatdle](https://beatdle.fun) - Recreate the drum beat on the sequencer after listening to it.
@@ -416,6 +420,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Heardle TV Themes](https://tv.heardledecades.xyz) - Guess the TV theme song from listening to small parts of it.
 - [Lyricle](https://www.lyricle.app) - Guess the song from the given lyrics.
 - [MeloGuessr](https://meloguessr.com) - Click the geographic origin of the song that's playing, 5 rounds every day.
+- [Music Timeliner](https://musictimeliner.com) - Place each song on the timeline based on its audio preview.
 - [Musicle](https://musicle.app) - Match the song audio to the correct album art. Lots of categories.
 - [MusicVidle](https://www.musicvidle.com) - Guess the song based on selected frames from its music video.
 - [Perfect Pitch Puzzle](https://www.perfectpitchpuzzle.com) - After listening to a short tune, identify the first 6 notes that were played.
@@ -479,7 +484,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Gerrymandle](https://gerrymandle.com) - Win the election for the given color by properly gerrymandering the grid into districts.
 - [Hidden Mirrors](https://www.hidden-mirrors.com) - A unique daily symmetry game where you try to match the given pattern.
 - [Jigsaw Explorer](https://www.jigsawexplorer.com) - Solve the jigsaw puzzles, two new puzzles everyday.
-- [Jigsy](https://jigsy.app) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
+- [Jigsy](https://jigsy.app/daily/) - Perfectly fill in the grid with shapes that you can scale and rotate. 3 difficult levels.
 - [LA Times Jigsaw](https://www.latimes.com/games/jigsaw-puzzle) - A daily jigsaw puzzle from the Los Angeles Times.
 - [Lawndle](https://johalloran.dev/lawndle/) - Mow today's lawn as efficiently as possible.
 - [LinkedIn - Patches](https://www.linkedin.com/games/patches/) - Partition the grid so that each number lies within a rectangle of that area. Does not require a LinkedIn account.
@@ -543,7 +548,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Daily Orbs](https://dailyorbs.com) - Try to get 6 orbs across four daily trivia puzzles.
 - [Daily Tens](https://dailytens.com) - Guess the top 10 items of today's category.
 - [Disorderly](https://playdisorderly.com) - Order the items correctly based on the given criteria.
-- [Eruptle](https://eruptle.app) - Guess the 10 items that fit the prompt, kind of like Family Feud.
 - [Factle](https://frontofficesports.com/trivia/factle) - Find and properly rank the top 5 answers for the given criteria. You have 5 guesses to get it correct.
 - [GnarlyQ](https://gnarlyq.com) - For each category, choose the five correct answers and dodge the traps.
 - [Google Feud](https://googlefeud.com) - Guess how Google auto-completes the search query, click on "Question of the Day".
@@ -552,6 +556,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Krillion](https://krillion.io) - Dive as deep as you can by giving rare answers to each trivia question.
 - [New Yorker - Catalogues](https://www.newyorker.com/puzzles-and-games-dept/catalogues) - Arrange the items into the correct order in 5 guesses.
 - [On the Record](https://www.washingtonpost.com/news-quiz) - Answer the question based on the given quote, Monday through Thursday. Every Friday, you get 10 questions that will last through the weekend.
+- [Panigma](https://panigma.fr) - Guess the Wikipedia article based on its key categories, with assistance if you miss it. Like Catfishing, but easier.
 - [pedantle](https://pedantle.certitudes.org) - Find the secret Wikipedia page by revealing the words in its introduction.
 - [PopCultured](https://histordle.com/popcultured) - Guess the year given three pop culture items released that year.
 - [Quintalist](https://www.quintalist.com) - Correctly choose the top 5 entries in 5 tries or fewer.
@@ -692,7 +697,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Wallstreetle](https://wallstreetle.com) - Guess the company based on information about its stock.
 - [Weather Darts](http://www.weatherdarts.com) - Guess cities whose current temperatures  add up to the daily target. If you go over, you bust!
 
-### Words (249)
+### Words (247)
 
 - [23 Words](https://wordnerd.co/23words) - Unscramble 23 words, one by one, without running out of time.
 - [4 x 3](https://www.hankgreen.com/fourbythree/) - Group the words into 4 categories of 3 words apiece. One word is shared by each group.
@@ -709,7 +714,7 @@ This will update the `./docs` directory with a new build of the site.
 - [Boggdle](https://simenmh.com/boggdle) - Search for the best 3 words you can find in the Boggle grid.
 - [Boston Globe - Align](https://www.bostonglobe.com/games/align/) - Swap tiles in the grid so that each row and column forms a word.
 - [Bracket City](https://www.theatlantic.com/games/bracket-city/) - Solve the clues within brackets, eventually completing the puzzle. (From The Atlantic)
-- [Cadgy](https://cadgy.net) - Make valid 5-letter words by selecting one letter from each column.
+- [Cadgy](https://cadgy.net) - Make words by selecting letters from each of the 5 columns.
 - [Cascadle](https://cascadle.xyz) - Solve 5 linked Wordle puzzles, growing from 3 letters to 7 letters long.
 - [Categories](https://categories.clevergoat.com) - Group the words in the grid into the 4 secret categories, like Connections or Conexo.
 - [Cell Tower](https://www.andrewt.net/puzzles/cell-tower) - Divide the grid into regions such that each region represents a word.
@@ -770,7 +775,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Jumble Daily](https://fun.chicagotribune.com/game/tca-jumble-daily/) - Unscramble each word to reveal letters to be used in the punchline of a punny cartoon.
 - [Jumblie](https://jumblie.com) - Find the 4 themed words hidden amongst the letters such that all letters are used exactly once.
 - [Karat](https://karat.auronymous.com) - Turn the rings of the ingot until each side forms a word - in 24 turns or less.
-- [Keyboard Lines](https://keyboardlines.com) - Determine the mystery word just by following the swipe line on the keyboard.
 - [Keyword](https://www.washingtonpost.com/games/keyword) - Find the target word by guessing the final letter of the vertical words.
 - [LA Times Crossword](https://www.latimes.com/games/daily-crossword) - Solve today's crossword from the Los Angeles Times.
 - [LA Times Mini](https://www.latimes.com/games/mini-crossword) - A daily mini crossword from the Los Angeles Times.
@@ -817,7 +821,6 @@ This will update the `./docs` directory with a new build of the site.
 - [Pair Down](https://pairdown.com) - Choose one letter to remove from each word to make new words. The chosen letters should form word(s) as well.
 - [Parseword](https://www.parseword.com) - Solve today's cryptic clue through careful deduction. Great for those new to cryptics.
 - [Petalgrams](https://petalgrams.com) - Make words using the letters on the flower, aiming for a pangram. More letters are added as you go.
-- [Phrasicle](https://phrasicle.com) - Fill in the rows with chains of two-word phrases, then solve the mystery phrase using what you've learned.
 - [Phrasle](https://phrasle.com) - Reveal the phrase by guessing one letter at a time.
 - [Pimantle](https://semantle.pimanrul.es) - Guess words to see how close they are to the secret word on a graph, and see where others are guessing as well!
 - [PIVOT](https://pivotthegame.com) - Create today's word by rotating its letters into the gold row.

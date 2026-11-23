@@ -1,0 +1,9 @@
+id: 891
+name: Letterrankd
+url: https://www.letterrankd.com
+description: Guess which movie ranks higher on Letterboxd, 10 rounds daily.
+category: Movies/TV
+status: active
+history:
+- date: '2026-11-22'
+  event: added

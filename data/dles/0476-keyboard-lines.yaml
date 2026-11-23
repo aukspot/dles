@@ -5,7 +5,10 @@ description: Determine the mystery word just by following the swipe line on the 
 category: Words
 themes:
 - Decoding
-status: active
+status: removed
 history:
 - date: '2025-08-30'
   event: added
+- date: '2026-11-22'
+  event: removed
+  reason: "No longer a game, now a site about the history of keyboards."

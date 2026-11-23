@@ -1,0 +1,9 @@
+id: 886
+name: lost in translation
+url: https://lostintranslationdaily.com
+description: Guess today's movie based on what it is called in other countries.
+category: Movies/TV
+status: active
+history:
+- date: '2026-11-22'
+  event: added

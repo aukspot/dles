@@ -1,7 +1,7 @@
 id: 680
 name: Cadgy
 url: https://cadgy.net
-description: Make valid 5-letter words by selecting one letter from each column.
+description: Make words by selecting letters from each of the 5 columns.
 category: Words
 themes:
 - Anagrams

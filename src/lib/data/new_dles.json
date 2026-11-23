@@ -24,10 +24,28 @@
     "date_added": "2026-11-15"
   },
   {
+    "name": "Huedle",
+    "url": "https://www.huedle.uk",
+    "id": 888,
+    "date_added": "2026-11-22"
+  },
+  {
     "name": "Language Tree",
     "url": "https://languagetree.app",
     "id": 872,
     "date_added": "2026-10-27"
+  },
+  {
+    "name": "Letterrankd",
+    "url": "https://www.letterrankd.com",
+    "id": 891,
+    "date_added": "2026-11-22"
+  },
+  {
+    "name": "lost in translation",
+    "url": "https://lostintranslationdaily.com",
+    "id": 886,
+    "date_added": "2026-11-22"
   },
   {
     "name": "LRNGdle",
@@ -42,10 +60,28 @@
     "date_added": "2026-11-06"
   },
   {
+    "name": "Movie Timeliner",
+    "url": "https://movietimeliner.com",
+    "id": 892,
+    "date_added": "2026-11-22"
+  },
+  {
+    "name": "Music Timeliner",
+    "url": "https://musictimeliner.com",
+    "id": 890,
+    "date_added": "2026-11-22"
+  },
+  {
     "name": "Neograms",
     "url": "https://neograms.app",
     "id": 877,
     "date_added": "2026-11-06"
+  },
+  {
+    "name": "Panigma",
+    "url": "https://panigma.fr",
+    "id": 887,
+    "date_added": "2026-11-22"
   },
   {
     "name": "PetGuessr",
@@ -58,6 +94,12 @@
     "url": "https://playpicklechess.com",
     "id": 878,
     "date_added": "2026-11-06"
+  },
+  {
+    "name": "Platedle",
+    "url": "https://platedle.day",
+    "id": 889,
+    "date_added": "2026-11-22"
   },
   {
     "name": "Sporcle - Boxed In",

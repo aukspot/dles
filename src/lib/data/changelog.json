@@ -1,5 +1,74 @@
 [
   {
+    "date": "2026-11-22",
+    "dles added": [
+      {
+        "name": "Huedle",
+        "url": "https://www.huedle.uk",
+        "id": 888
+      },
+      {
+        "name": "Letterrankd",
+        "url": "https://www.letterrankd.com",
+        "id": 891
+      },
+      {
+        "name": "lost in translation",
+        "url": "https://lostintranslationdaily.com",
+        "id": 886
+      },
+      {
+        "name": "Movie Timeliner",
+        "url": "https://movietimeliner.com",
+        "id": 892
+      },
+      {
+        "name": "Music Timeliner",
+        "url": "https://musictimeliner.com",
+        "id": 890
+      },
+      {
+        "name": "Panigma",
+        "url": "https://panigma.fr",
+        "id": 887
+      },
+      {
+        "name": "Platedle",
+        "url": "https://platedle.day",
+        "id": 889
+      }
+    ],
+    "dles removed": [
+      {
+        "name": "BallotGuessr",
+        "url": "https://ballotguessr.com/daily",
+        "id": 721,
+        "reason": "Site no longer loads."
+      },
+      {
+        "name": "Keyboard Lines",
+        "url": "https://keyboardlines.com",
+        "id": 476,
+        "reason": "No longer a game, now a site about the history of keyboards."
+      },
+      {
+        "name": "Phrasicle",
+        "url": "https://phrasicle.com",
+        "id": 554,
+        "reason": "No more daily puzzles."
+      }
+    ],
+    "dles archived": [
+      {
+        "name": "Eruptle",
+        "url": "https://eruptle.app",
+        "id": 110,
+        "archive_url": "https://eruptle.app/explore/archive"
+      }
+    ],
+    "description": "Add 7 dles. Remove 3 dles. Archive 1 dle. "
+  },
+  {
     "date": "2026-11-15",
     "dles added": [
       {

@@ -1,0 +1,9 @@
+id: 888
+name: Huedle
+url: https://www.huedle.uk
+description: Swap color tiles to rebuild today's gradient.
+category: Colors
+status: active
+history:
+- date: '2026-11-22'
+  event: added
