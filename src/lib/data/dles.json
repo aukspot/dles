@@ -4831,6 +4831,12 @@
     "id": 578
   },
   {
+    "name": "Sonik",
+    "url": "https://sonik.club",
+    "description": "Name a song that sounds like the one playing, scored 1 to 100 on how alike they sound. There are 5 songs each day.",
+    "category": "Music"
+  },
+  {
     "name": "Sortdle",
     "url": "https://sortdle.com",
     "description": "Sort letters into tubes to form the hidden words without running out of moves.",
