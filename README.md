@@ -8,17 +8,13 @@ View the app [here](https://dles.aukspot.com) or view the list in a markdown tab
 
 ## Contributing
 
-The easiest way to help the project is to suggest new dles by either filling out [this form](https://tally.so/r/mOKOea) or [opening a "dle suggestion" issue](https://github.com/aukspot/dles/issues/new?assignees=&labels=dles+suggestion&projects=&template=suggest-a-dle-.md&title=Dle+suggestion).
+The easiest way to help the project is to suggest new dles by filling out [this form](https://tally.so/r/mOKOea). This is better than filing a GitHub issue.
 
-If you'd like to make changes directly, you can edit [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) and do one of three things:
-
-1. **Add a new dle**: copy and paste an existing dle in [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) and then change the information to that of the new dle and remove the id field. The id will be automatically assigned.
-2. **Remove a dle** (if there's a broken link): delete the dle from [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json).
-3. **Fix a dle** (if there's a typo, broken link): Open [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json), find the dle you'd like to fix, and make the changes you'd like to make.
+Changing [dles.json](https://github.com/aukspot/dles/blob/main/src/lib/data/dles.json) directly is no longer encouraged.
 
 ## Features
 
-You can suggest a feature by [filling out this form](https://tally.so/r/Gx6kXZ) or [submitting a feature request](https://github.com/aukspot/dles/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=).
+You can suggest a feature by [filling out this form](https://tally.so/r/Gx6kXZ).
 
 ### Current
 
