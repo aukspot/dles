@@ -6377,8 +6377,8 @@
   },
   {
     "name": "Wordzilla",
-    "url": "https://wordzilla.xyz",
-    "description": "Daily Wordle-style word puzzle you can also play against a friend in a 1v1 race or together in co-op.",
+    "url": "https://www.wordzilla.xyz",
+    "description": "Daily Wordle plus Quordle, Scrabble, Connections and Strands-style word games, playable solo, in a 1v1 race or in co-op with a friend.",
     "category": "Words",
     "themes": [
       "Wordle-likes"
