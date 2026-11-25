@@ -87,16 +87,39 @@ a {
     justify-content: center;
   }
 
-  .sidebar>.sidebar-slot {
+  .sidebar-sticky {
     position: sticky;
+    top: 0;
     align-self: flex-start;
-    top: calc(50vh - var(--img-h) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: safe center;
+    height: calc(100vh - var(--bottom-ad-offset, 0px));
+    height: calc(100dvh - var(--bottom-ad-offset, 0px));
+  }
+
+  .sidebar-slot {
     min-width: calc(var(--img-w) + 1rem);
     min-height: var(--img-h);
+    max-height: 600px;
+  }
+
+  .sidebar-slot>.fuse-slot:not(:last-child) {
+    display: none;
   }
 
   .sidebar-slot>* {
     margin-inline: 0.5rem;
+  }
+
+  body {
+    padding-bottom: var(--bottom-ad-offset, 0px);
+  }
+
+  html.reserve-sticky-ad body {
+    padding-bottom: max(var(--bottom-ad-offset, 0px), 8rem);
   }
 
   .sticky-footer {
