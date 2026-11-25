@@ -6,7 +6,7 @@
 <div>
   <h1>Privacy Policy</h1>
   <p class="updated">
-    Last updated: <time datetime="2026-11-19">November 19, 2026</time>
+    Last updated: <time datetime="2026-11-25">November 25, 2026</time>
   </p>
 
   <section>
@@ -79,10 +79,10 @@
 
     <p>
       We use Tally for our forms, for things such as suggesting dles or
-      reporting bugs. You can read their <a
+      reporting bugs. You can read <a
         href="https://tally.so/help/privacy-policy"
         target="_blank"
-        rel="noopener noreferrer">privacy policy</a
+        rel="noopener noreferrer">their privacy policy</a
       >.
     </p>
 
