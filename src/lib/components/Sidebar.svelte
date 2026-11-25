@@ -1,3 +1,5 @@
 <aside class="sidebar">
-  <slot />
+  <div class="sidebar-sticky">
+    <slot />
+  </div>
 </aside>

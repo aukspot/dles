@@ -57,7 +57,7 @@
   .modal-panel {
     @apply bg-colorCardC border border-colorTextSofter shadow-lg flex flex-col;
     width: min(var(--modal-panel-width), 92vw);
-    max-height: 85vh;
+    max-height: calc(85vh - var(--bottom-ad-offset, 0px));
   }
 
   .modal-panel-body {

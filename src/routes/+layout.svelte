@@ -32,9 +32,11 @@
   import Header from "$lib/components/Header.svelte"
   import { onMount } from "svelte"
   import { afterNavigate } from "$app/navigation"
+  import { page } from "$app/stores"
   import Footer from "$lib/components/Footer.svelte"
   import Sidebar from "$lib/components/Sidebar.svelte"
   import StickyFooter from "$lib/components/StickyFooter.svelte"
+  import { trackBottomAdOffset } from "$lib/js/bottomAdOffset"
   import Info from "$lib/components/Info.svelte"
   import RandomPanel from "$lib/components/RandomPanel.svelte"
   import SettingsModal from "$lib/components/SettingsModal.svelte"
@@ -165,14 +167,51 @@
 
   onMount(() => {
     loading = false
+    return trackBottomAdOffset()
   })
 
-  afterNavigate(({ from }) => {
-    const fusetag = window.fusetag || (window.fusetag = { que: [] })
+  const AD_FREE_ROUTES = new Set(["/privacy"])
+  let sidebarZonesRegistered = false
+  $: adFree = AD_FREE_ROUTES.has($page.route.id ?? "")
+
+  function getFusetag() {
+    return window.fusetag || (window.fusetag = { que: [] })
+  }
+
+  function destroySidebarZones(fusetag) {
+    fusetag.destroyZone("sidebar-lhs")
+    fusetag.destroyZone("sidebar-rhs")
+    sidebarZonesRegistered = false
+  }
+
+  onMount(() => {
+    function removeSticky() {
+      const fusetag = window.fusetag
+      if (!adFree || typeof fusetag?.getSlots !== "function") return
+      const slots = Object.values(fusetag.getSlots() ?? {})
+      if (slots.some((slot) => slot?.attributes?.sticky)) {
+        fusetag.destroySticky()
+      }
+    }
+
+    removeSticky()
+    const interval = setInterval(removeSticky, 500)
+    return () => clearInterval(interval)
+  })
+
+  $: if (typeof document !== "undefined") {
+    document.documentElement.classList.toggle("reserve-sticky-ad", adFree)
+  }
+
+  afterNavigate(() => {
+    const fusetag = getFusetag()
     fusetag.que.push(() => {
-      if (!from) {
+      if (adFree) {
+        if (sidebarZonesRegistered) destroySidebarZones(fusetag)
+      } else if (!sidebarZonesRegistered) {
         fusetag.registerZone("sidebar-lhs")
         fusetag.registerZone("sidebar-rhs")
+        sidebarZonesRegistered = true
       }
       fusetag.pageInit()
     })
@@ -222,7 +261,11 @@
 <div class="w-full text-colorText bg-colorBackground">
   <div class="full-layout">
     <Sidebar>
-      <div id="sidebar-lhs" data-fuse="Sidebar_LHS" class="sidebar-slot"></div>
+      <div
+        id="sidebar-lhs"
+        data-fuse={adFree ? undefined : "Sidebar_LHS"}
+        class="sidebar-slot"
+      ></div>
     </Sidebar>
     <div
       class="main-content flex flex-col flex-[0_1_73.125rem] min-w-0 max-w-screen-xl xl:max-w-[73.125rem] mx-auto"
@@ -364,7 +407,11 @@
       <Footer />
     </div>
     <Sidebar>
-      <div id="sidebar-rhs" data-fuse="Sidebar_RHS" class="sidebar-slot"></div>
+      <div
+        id="sidebar-rhs"
+        data-fuse={adFree ? undefined : "Sidebar_RHS"}
+        class="sidebar-slot"
+      ></div>
     </Sidebar>
   </div>
   <StickyFooter />

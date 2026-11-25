@@ -68,6 +68,7 @@
 <style lang="postcss">
   .modal-overlay {
     @apply fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center;
+    padding-bottom: var(--bottom-ad-offset, 0px);
   }
 
   .modal-overlay.align-top {

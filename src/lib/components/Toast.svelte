@@ -52,7 +52,8 @@
 
 <style lang="postcss">
   .toast-container {
-    @apply fixed bottom-4 inset-x-0 px-4 z-[9999] flex flex-col gap-2 items-center;
+    @apply fixed inset-x-0 px-4 z-[9999] flex flex-col gap-2 items-center;
+    bottom: calc(1rem + var(--bottom-ad-offset, 0px));
     pointer-events: none;
   }
 

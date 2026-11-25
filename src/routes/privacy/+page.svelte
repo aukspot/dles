@@ -19,9 +19,9 @@
   <section>
     <h2>Data Stored on Your Device</h2>
     <p>
-      Your favorites, played dles, hidden dles, and settings are saved in your
-      browser's local storage. This data never leaves your device and is deleted
-      when you clear your browser data.
+      Your favorites and settings are saved in your browser's local storage.
+      This data never leaves your device and is deleted when you clear your
+      browser data.
     </p>
   </section>
 
@@ -50,7 +50,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="privacy-choices">
     <h2>California Consumer Privacy Act (“CCPA”)</h2>
     <p>
       Under CCPA, Californian residents have the right to declare their
