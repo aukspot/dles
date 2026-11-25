@@ -6376,6 +6376,15 @@
     "id": 707
   },
   {
+    "name": "Wordzilla",
+    "url": "https://www.wordzilla.xyz",
+    "description": "Daily Wordle plus Quordle, Scrabble, Connections and Strands-style word games, playable solo, in a 1v1 race or in co-op with a friend.",
+    "category": "Words",
+    "themes": [
+      "Wordle-likes"
+    ]
+  },
+  {
     "name": "Worldle",
     "url": "https://worldle.teuteuf.fr",
     "description": "Guess the country by its shape on the world map.",
