@@ -4,5 +4,8 @@
   "assets": {
     "directory": "./docs"
   },
-  "previews": {}
+  "previews": {},
+  "routes": [
+    { "pattern": "staging-dles.aukspot.com", "custom_domain": true }
+  ]
 }
