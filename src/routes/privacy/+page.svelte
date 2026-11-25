@@ -21,7 +21,9 @@
     <p>
       Your favorites and settings are saved in your browser's local storage.
       This data never leaves your device and is deleted when you clear your
-      browser data.
+      browser data. You can optionally export your favorites to transfer them
+      between devices, this is done via copy/paste or download/upload of a
+      simple text file.
     </p>
   </section>
 
